@@ -152,6 +152,18 @@ const MonsterModal = ({ monster, onClose }) => {
 
           {/* Content */}
           <div className="p-6">
+            {/* Monster Description */}
+            {monster.desc && (
+              <div className="bg-dnd-gray/20 rounded-lg p-6 mb-6">
+                <h3 className="text-lg font-fantasy text-dnd-gold mb-4">Description</h3>
+                <div className="prose prose-invert max-w-none">
+                  <p className="text-sm text-dnd-light/90 leading-relaxed whitespace-pre-line">
+                    {monster.desc}
+                  </p>
+                </div>
+              </div>
+            )}
+            
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
               {/* Left Column - Basic Stats */}
               <div className="lg:col-span-1">
