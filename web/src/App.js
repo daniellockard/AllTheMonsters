@@ -1,10 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search } from 'lucide-react';
 import MonsterCard from './components/MonsterCard';
 import MonsterModal from './components/MonsterModal';
 import MonsterComparison from './components/MonsterComparison';
 import StatsPanel from './components/StatsPanel';
+
+// Debounce hook for search input
+function useDebounce(value, delay) {
+  const [debouncedValue, setDebouncedValue] = useState(value);
+
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedValue(value);
+    }, delay);
+
+    return () => {
+      clearTimeout(handler);
+    };
+  }, [value, delay]);
+
+  return debouncedValue;
+}
 
 function App() {
   const [monsters, setMonsters] = useState([]);
@@ -20,6 +37,9 @@ function App() {
   const [showComparison, setShowComparison] = useState(false);
   const [comparisonMonsters, setComparisonMonsters] = useState([]);
   const [sortBy, setSortBy] = useState('name');
+
+  // Debounce search term to avoid excessive filtering
+  const debouncedSearchTerm = useDebounce(searchTerm, 300);
 
   // Load monster data
   useEffect(() => {
@@ -40,11 +60,32 @@ function App() {
     loadMonsters();
   }, []);
 
-  // Filter and sort monsters
-  useEffect(() => {
+  // Memoize filter options to avoid recalculating on every render
+  const filterOptions = useMemo(() => {
+    const canonicalSizes = [
+      'Tiny', 'Small', 'Medium', 'Large', 'Huge', 'Gargantuan', 'Titanic'
+    ];
+    
+    const types = [...new Set(monsters.map(m => m.type))].sort();
+    const challengeRatings = [...new Set(monsters.map(m => m.challenge_rating))].sort((a, b) => {
+      const aNum = parseFloat(a) || 0;
+      const bNum = parseFloat(b) || 0;
+      return aNum - bNum;
+    });
+    const sizesSet = new Set(monsters.map(m => m.size?.trim()).filter(Boolean));
+    const sizes = canonicalSizes.filter(size => sizesSet.has(size));
+    const sources = [...new Set(monsters.map(m => m.document__title).filter(Boolean))].sort();
+
+    return { types, challengeRatings, sizes, sources };
+  }, [monsters]);
+
+  // Memoize filtered and sorted monsters
+  const processedMonsters = useMemo(() => {
+    if (monsters.length === 0) return [];
+
     let filtered = monsters.filter(monster => {
-      const matchesSearch = monster.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                          monster.type.toLowerCase().includes(searchTerm.toLowerCase());
+      const matchesSearch = monster.name.toLowerCase().includes(debouncedSearchTerm.toLowerCase()) ||
+                          monster.type.toLowerCase().includes(debouncedSearchTerm.toLowerCase());
       const matchesType = selectedType === 'all' || monster.type === selectedType;
       const matchesCR = selectedCR === 'all' || monster.challenge_rating === selectedCR;
       const matchesSize = selectedSize === 'all' || monster.size?.trim() === selectedSize;
@@ -69,43 +110,32 @@ function App() {
       }
     });
 
-    setFilteredMonsters(filtered);
-  }, [monsters, searchTerm, selectedType, selectedCR, selectedSize, selectedSource, sortBy]);
+    return filtered;
+  }, [monsters, debouncedSearchTerm, selectedType, selectedCR, selectedSize, selectedSource, sortBy]);
+
+  // Update filtered monsters when processed monsters change
+  useEffect(() => {
+    setFilteredMonsters(processedMonsters);
+  }, [processedMonsters]);
 
   // Scroll to top when filtered results change
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [filteredMonsters]);
 
-  // Get unique values for filters
-  const canonicalSizes = [
-    'Tiny', 'Small', 'Medium', 'Large', 'Huge', 'Gargantuan', 'Titanic'
-  ];
-  const types = [...new Set(monsters.map(m => m.type))].sort();
-  const challengeRatings = [...new Set(monsters.map(m => m.challenge_rating))].sort((a, b) => {
-    const aNum = parseFloat(a) || 0;
-    const bNum = parseFloat(b) || 0;
-    return aNum - bNum;
-  });
-  const sizesSet = new Set(monsters.map(m => m.size?.trim()).filter(Boolean));
-  const sizes = canonicalSizes.filter(size => sizesSet.has(size));
-  
-  // Get unique document sources
-  const sources = [...new Set(monsters.map(m => m.document__title).filter(Boolean))].sort();
-
-  const handleMonsterClick = (monster) => {
+  const handleMonsterClick = useCallback((monster) => {
     setSelectedMonster(monster);
     setShowModal(true);
-  };
+  }, []);
 
-  const handleComparisonClick = (monster) => {
+  const handleComparisonClick = useCallback((monster) => {
     // Find all monsters with the same name
     const duplicates = monsters.filter(m => m.name === monster.name);
     if (duplicates.length > 1) {
       setComparisonMonsters(duplicates);
       setShowComparison(true);
     }
-  };
+  }, [monsters]);
 
   if (loading) {
     return (
@@ -173,7 +203,7 @@ function App() {
                 className="search-input w-full"
               >
                 <option value="all">All Types</option>
-                {types.map(type => (
+                {filterOptions.types.map(type => (
                   <option key={type} value={type}>{type}</option>
                 ))}
               </select>
@@ -188,7 +218,7 @@ function App() {
                 className="search-input w-full"
               >
                 <option value="all">All CRs</option>
-                {challengeRatings.map(cr => (
+                {filterOptions.challengeRatings.map(cr => (
                   <option key={cr} value={cr}>CR {cr}</option>
                 ))}
               </select>
@@ -203,7 +233,7 @@ function App() {
                 className="search-input w-full"
               >
                 <option value="all">All Sizes</option>
-                {sizes.map(size => (
+                {filterOptions.sizes.map(size => (
                   <option key={size} value={size}>{size}</option>
                 ))}
               </select>
@@ -218,7 +248,7 @@ function App() {
                 className="search-input w-full"
               >
                 <option value="all">All Sources</option>
-                {sources.map(source => (
+                {filterOptions.sources.map(source => (
                   <option key={source} value={source}>{source}</option>
                 ))}
               </select>
