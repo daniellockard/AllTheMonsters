@@ -3,45 +3,6 @@ import { motion } from 'framer-motion';
 import { X } from 'lucide-react';
 
 const MonsterComparison = ({ monsters, onClose }) => {
-  const getCRClass = (cr) => {
-    if (!cr) return 'cr-0';
-    const crNum = parseFloat(cr);
-    if (crNum === 0) return 'cr-0';
-    if (crNum <= 0.125) return 'cr-1-8';
-    if (crNum <= 0.25) return 'cr-1-4';
-    if (crNum <= 0.5) return 'cr-1-2';
-    if (crNum <= 1) return 'cr-1';
-    if (crNum <= 2) return 'cr-2';
-    if (crNum <= 3) return 'cr-3';
-    if (crNum <= 4) return 'cr-4';
-    if (crNum <= 5) return 'cr-5';
-    if (crNum <= 6) return 'cr-6';
-    if (crNum <= 7) return 'cr-7';
-    if (crNum <= 8) return 'cr-8';
-    if (crNum <= 9) return 'cr-9';
-    if (crNum <= 10) return 'cr-10';
-    if (crNum <= 11) return 'cr-11';
-    if (crNum <= 12) return 'cr-12';
-    if (crNum <= 13) return 'cr-13';
-    if (crNum <= 14) return 'cr-14';
-    if (crNum <= 15) return 'cr-15';
-    if (crNum <= 16) return 'cr-16';
-    if (crNum <= 17) return 'cr-17';
-    if (crNum <= 18) return 'cr-18';
-    if (crNum <= 19) return 'cr-19';
-    if (crNum <= 20) return 'cr-20';
-    if (crNum <= 21) return 'cr-21';
-    if (crNum <= 22) return 'cr-22';
-    if (crNum <= 23) return 'cr-23';
-    if (crNum <= 24) return 'cr-24';
-    if (crNum <= 25) return 'cr-25';
-    if (crNum <= 26) return 'cr-26';
-    if (crNum <= 27) return 'cr-27';
-    if (crNum <= 28) return 'cr-28';
-    if (crNum <= 29) return 'cr-29';
-    return 'cr-30';
-  };
-
   const getAC = (ac) => {
     if (Array.isArray(ac)) {
       return ac[0]?.value || ac[0] || 'Unknown';
