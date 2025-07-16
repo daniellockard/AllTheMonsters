@@ -26,7 +26,7 @@ function App() {
     const loadMonsters = async () => {
       try {
         // Add cache-busting parameter to force fresh data
-        const response = await fetch(`/data/monsters/all-monsters.json?t=${Date.now()}`);
+        const response = await fetch(`data/monsters/all-monsters.json?t=${Date.now()}`);
         const data = await response.json();
         setMonsters(data);
         setFilteredMonsters(data);
