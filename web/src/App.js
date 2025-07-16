@@ -72,6 +72,11 @@ function App() {
     setFilteredMonsters(filtered);
   }, [monsters, searchTerm, selectedType, selectedCR, selectedSize, selectedSource, sortBy]);
 
+  // Scroll to top when filtered results change
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [filteredMonsters]);
+
   // Get unique values for filters
   const canonicalSizes = [
     'Tiny', 'Small', 'Medium', 'Large', 'Huge', 'Gargantuan', 'Titanic'
