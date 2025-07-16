@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-dnd-dark text-dnd-light;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .monster-card {
+    @apply bg-gradient-to-br from-dnd-gray to-dnd-dark border border-dnd-purple/20 rounded-lg p-4 hover:border-dnd-purple/40 transition-all duration-300 hover:shadow-lg hover:shadow-dnd-purple/20 h-[32rem] flex flex-col;
+  }
+  
+  .monster-card:hover {
+    @apply transform -translate-y-1;
+  }
+  
+  .search-input {
+    @apply bg-dnd-gray border border-dnd-purple/30 rounded-lg px-4 py-2 text-dnd-light placeholder-dnd-light/50 focus:outline-none focus:border-dnd-purple focus:ring-2 focus:ring-dnd-purple/20 transition-all duration-200;
+  }
+  
+  .filter-button {
+    @apply px-4 py-2 rounded-lg border border-dnd-purple/30 text-dnd-light hover:bg-dnd-purple/20 hover:border-dnd-purple transition-all duration-200;
+  }
+  
+  .filter-button.active {
+    @apply bg-dnd-purple border-dnd-purple text-white;
+  }
+  
+  .stat-bar {
+    @apply bg-dnd-gray rounded-full h-2 overflow-hidden;
+  }
+  
+  .stat-fill {
+    @apply h-full bg-gradient-to-r from-dnd-red to-dnd-orange transition-all duration-500;
+  }
+  
+  .challenge-rating {
+    @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-semibold;
+  }
+  
+  .cr-0 { @apply bg-gray-600 text-white; }
+  .cr-1-8 { @apply bg-green-600 text-white; }
+  .cr-1-4 { @apply bg-green-500 text-white; }
+  .cr-1-2 { @apply bg-yellow-600 text-white; }
+  .cr-1 { @apply bg-yellow-500 text-white; }
+  .cr-2 { @apply bg-orange-500 text-white; }
+  .cr-3 { @apply bg-orange-600 text-white; }
+  .cr-4 { @apply bg-red-500 text-white; }
+  .cr-5 { @apply bg-red-600 text-white; }
+  .cr-6 { @apply bg-purple-500 text-white; }
+  .cr-7 { @apply bg-purple-600 text-white; }
+  .cr-8 { @apply bg-purple-700 text-white; }
+  .cr-9 { @apply bg-purple-800 text-white; }
+  .cr-10 { @apply bg-indigo-600 text-white; }
+  .cr-11 { @apply bg-indigo-700 text-white; }
+  .cr-12 { @apply bg-indigo-800 text-white; }
+  .cr-13 { @apply bg-indigo-900 text-white; }
+  .cr-14 { @apply bg-blue-800 text-white; }
+  .cr-15 { @apply bg-blue-900 text-white; }
+  .cr-16 { @apply bg-blue-950 text-white; }
+  .cr-17 { @apply bg-slate-800 text-white; }
+  .cr-18 { @apply bg-slate-900 text-white; }
+  .cr-19 { @apply bg-slate-950 text-white; }
+  .cr-20 { @apply bg-black text-dnd-gold; }
+  .cr-21 { @apply bg-black text-dnd-gold border border-dnd-gold; }
+  .cr-22 { @apply bg-black text-dnd-gold border-2 border-dnd-gold; }
+  .cr-23 { @apply bg-black text-dnd-gold border-2 border-dnd-gold shadow-lg shadow-dnd-gold/50; }
+  .cr-24 { @apply bg-black text-dnd-gold border-2 border-dnd-gold shadow-lg shadow-dnd-gold/50 animate-pulse-slow; }
+  .cr-25 { @apply bg-black text-dnd-gold border-2 border-dnd-gold shadow-lg shadow-dnd-gold/50 animate-bounce-slow; }
+  .cr-26 { @apply bg-black text-dnd-gold border-2 border-dnd-gold shadow-lg shadow-dnd-gold/50 animate-pulse-slow; }
+  .cr-27 { @apply bg-black text-dnd-gold border-2 border-dnd-gold shadow-lg shadow-dnd-gold/50 animate-bounce-slow; }
+  .cr-28 { @apply bg-black text-dnd-gold border-2 border-dnd-gold shadow-lg shadow-dnd-gold/50 animate-pulse-slow; }
+  .cr-29 { @apply bg-black text-dnd-gold border-2 border-dnd-gold shadow-lg shadow-dnd-gold/50 animate-bounce-slow; }
+  .cr-30 { @apply bg-black text-dnd-gold border-2 border-dnd-gold shadow-lg shadow-dnd-gold/50 animate-pulse-slow; }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+} 
