@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/AllTheMonsters/static/css/main.847d904c.css",
-    "main.js": "/AllTheMonsters/static/js/main.15216fdf.js",
+    "main.css": "/AllTheMonsters/static/css/main.ece3ea85.css",
+    "main.js": "/AllTheMonsters/static/js/main.9b426c53.js",
     "index.html": "/AllTheMonsters/index.html",
-    "main.847d904c.css.map": "/AllTheMonsters/static/css/main.847d904c.css.map",
-    "main.15216fdf.js.map": "/AllTheMonsters/static/js/main.15216fdf.js.map"
+    "main.ece3ea85.css.map": "/AllTheMonsters/static/css/main.ece3ea85.css.map",
+    "main.9b426c53.js.map": "/AllTheMonsters/static/js/main.9b426c53.js.map"
   },
   "entrypoints": [
-    "static/css/main.847d904c.css",
-    "static/js/main.15216fdf.js"
+    "static/css/main.ece3ea85.css",
+    "static/js/main.9b426c53.js"
   ]
 }

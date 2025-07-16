@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Sword, Shield, Heart, Zap, Crown } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
 
 const MonsterModal = ({ monster, onClose }) => {
   const getCRClass = (cr) => {
@@ -157,9 +158,25 @@ const MonsterModal = ({ monster, onClose }) => {
               <div className="bg-dnd-gray/20 rounded-lg p-6 mb-6">
                 <h3 className="text-lg font-fantasy text-dnd-gold mb-4">Description</h3>
                 <div className="prose prose-invert max-w-none">
-                  <p className="text-sm text-dnd-light/90 leading-relaxed whitespace-pre-line">
+                  <ReactMarkdown 
+                    className="text-sm text-dnd-light/90 leading-relaxed"
+                    components={{
+                      p: ({ children }) => <p className="mb-4 last:mb-0">{children}</p>,
+                      h1: ({ children }) => <h1 className="text-xl font-fantasy text-dnd-gold mb-3">{children}</h1>,
+                      h2: ({ children }) => <h2 className="text-lg font-fantasy text-dnd-gold mb-2">{children}</h2>,
+                      h3: ({ children }) => <h3 className="text-base font-fantasy text-dnd-gold mb-2">{children}</h3>,
+                      strong: ({ children }) => <strong className="font-semibold text-dnd-light">{children}</strong>,
+                      em: ({ children }) => <em className="italic text-dnd-light/90">{children}</em>,
+                      ul: ({ children }) => <ul className="list-disc list-inside mb-4 space-y-1">{children}</ul>,
+                      ol: ({ children }) => <ol className="list-decimal list-inside mb-4 space-y-1">{children}</ol>,
+                      li: ({ children }) => <li className="text-dnd-light/90">{children}</li>,
+                      blockquote: ({ children }) => <blockquote className="border-l-4 border-dnd-gold/50 pl-4 italic text-dnd-light/80 mb-4">{children}</blockquote>,
+                      code: ({ children }) => <code className="bg-dnd-gray/40 px-1 py-0.5 rounded text-dnd-gold font-mono text-xs">{children}</code>,
+                      pre: ({ children }) => <pre className="bg-dnd-gray/40 p-3 rounded mb-4 overflow-x-auto">{children}</pre>,
+                    }}
+                  >
                     {monster.desc}
-                  </p>
+                  </ReactMarkdown>
                 </div>
               </div>
             )}
@@ -260,7 +277,20 @@ const MonsterModal = ({ monster, onClose }) => {
                       {monster.special_abilities.map((ability, index) => (
                         <div key={index} className="border-l-2 border-dnd-gold/30 pl-4">
                           <h4 className="font-semibold text-dnd-gold mb-1">{ability.name}</h4>
-                          <p className="text-sm text-dnd-light/80 leading-relaxed">{ability.desc}</p>
+                          <ReactMarkdown 
+                            className="text-sm text-dnd-light/80 leading-relaxed"
+                            components={{
+                              p: ({ children }) => <p className="mb-2 last:mb-0">{children}</p>,
+                              strong: ({ children }) => <strong className="font-semibold text-dnd-light">{children}</strong>,
+                              em: ({ children }) => <em className="italic text-dnd-light/70">{children}</em>,
+                              ul: ({ children }) => <ul className="list-disc list-inside mb-2 space-y-1">{children}</ul>,
+                              ol: ({ children }) => <ol className="list-decimal list-inside mb-2 space-y-1">{children}</ol>,
+                              li: ({ children }) => <li className="text-dnd-light/80">{children}</li>,
+                              code: ({ children }) => <code className="bg-dnd-gray/40 px-1 py-0.5 rounded text-dnd-gold font-mono text-xs">{children}</code>,
+                            }}
+                          >
+                            {ability.desc}
+                          </ReactMarkdown>
                         </div>
                       ))}
                     </div>
@@ -278,7 +308,20 @@ const MonsterModal = ({ monster, onClose }) => {
                       {monster.actions.map((action, index) => (
                         <div key={index} className="border-l-2 border-dnd-red/30 pl-4">
                           <h4 className="font-semibold text-dnd-red mb-1">{action.name}</h4>
-                          <p className="text-sm text-dnd-light/80 leading-relaxed">{action.desc}</p>
+                          <ReactMarkdown 
+                            className="text-sm text-dnd-light/80 leading-relaxed"
+                            components={{
+                              p: ({ children }) => <p className="mb-2 last:mb-0">{children}</p>,
+                              strong: ({ children }) => <strong className="font-semibold text-dnd-light">{children}</strong>,
+                              em: ({ children }) => <em className="italic text-dnd-light/70">{children}</em>,
+                              ul: ({ children }) => <ul className="list-disc list-inside mb-2 space-y-1">{children}</ul>,
+                              ol: ({ children }) => <ol className="list-decimal list-inside mb-2 space-y-1">{children}</ol>,
+                              li: ({ children }) => <li className="text-dnd-light/80">{children}</li>,
+                              code: ({ children }) => <code className="bg-dnd-gray/40 px-1 py-0.5 rounded text-dnd-gold font-mono text-xs">{children}</code>,
+                            }}
+                          >
+                            {action.desc}
+                          </ReactMarkdown>
                           {action.attack_bonus && (
                             <div className="mt-2 text-xs text-dnd-light/60">
                               Attack Bonus: +{action.attack_bonus}
@@ -298,13 +341,35 @@ const MonsterModal = ({ monster, onClose }) => {
                       Legendary Actions
                     </h3>
                     {monster.legendary_desc && (
-                      <p className="text-sm text-dnd-light/80 mb-4 italic">{monster.legendary_desc}</p>
+                      <ReactMarkdown 
+                        className="text-sm text-dnd-light/80 mb-4 italic"
+                        components={{
+                          p: ({ children }) => <p className="mb-2 last:mb-0 italic">{children}</p>,
+                          strong: ({ children }) => <strong className="font-semibold text-dnd-light">{children}</strong>,
+                          em: ({ children }) => <em className="italic text-dnd-light/70">{children}</em>,
+                        }}
+                      >
+                        {monster.legendary_desc}
+                      </ReactMarkdown>
                     )}
                     <div className="space-y-4">
                       {monster.legendary_actions.map((action, index) => (
                         <div key={index} className="border-l-2 border-dnd-gold/50 pl-4">
                           <h4 className="font-semibold text-dnd-gold mb-1">{action.name}</h4>
-                          <p className="text-sm text-dnd-light/80 leading-relaxed">{action.desc}</p>
+                          <ReactMarkdown 
+                            className="text-sm text-dnd-light/80 leading-relaxed"
+                            components={{
+                              p: ({ children }) => <p className="mb-2 last:mb-0">{children}</p>,
+                              strong: ({ children }) => <strong className="font-semibold text-dnd-light">{children}</strong>,
+                              em: ({ children }) => <em className="italic text-dnd-light/70">{children}</em>,
+                              ul: ({ children }) => <ul className="list-disc list-inside mb-2 space-y-1">{children}</ul>,
+                              ol: ({ children }) => <ol className="list-decimal list-inside mb-2 space-y-1">{children}</ol>,
+                              li: ({ children }) => <li className="text-dnd-light/80">{children}</li>,
+                              code: ({ children }) => <code className="bg-dnd-gray/40 px-1 py-0.5 rounded text-dnd-gold font-mono text-xs">{children}</code>,
+                            }}
+                          >
+                            {action.desc}
+                          </ReactMarkdown>
                         </div>
                       ))}
                     </div>
