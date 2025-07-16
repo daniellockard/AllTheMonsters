@@ -14,7 +14,7 @@
     "tailwind-merge": "^1.14.0"
   },
   "scripts": {
-    "dev": "react-scripts start",
+    "prebuild": "mkdir -p public/data/monsters && cp ../data/monsters/all-monsters.json public/data/monsters/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
