@@ -1,0 +1,87 @@
+{
+  "slug": "animated-instrument",
+  "desc": "",
+  "name": "Animated Instrument",
+  "size": "Tiny",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "armor_desc": "natural armor",
+  "hit_points": 17,
+  "hit_dice": "7d4",
+  "speed": {
+    "walk": 0,
+    "fly": 30
+  },
+  "strength": 1,
+  "dexterity": 12,
+  "constitution": 11,
+  "intelligence": 1,
+  "wisdom": 5,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -3,
+  "skills": {
+    "perception": -3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "blindsight 60' (blind beyond), passive Perception 7",
+  "languages": "—",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Trouble Clef",
+      "desc": "Melee Weapon Attack: +3 to hit, 5 ft., one target, 4 (1d4+1) bludgeoning damage."
+    },
+    {
+      "name": "Orchestra Hit",
+      "desc": "Ranged Spell Attack: +4 to hit, 60 ft., one target, 5 (1d6+2) thunder."
+    },
+    {
+      "name": "Spirited Solo (Recharge 5-6)",
+      "desc": "Improvises a tune to draw listeners into entrancing thought. Each creature within 30' of it that can hear the song: creature is incapacitated until end of its next turn (DC 12 Wis creature has an epiphany and gains advantage on Cha (Performance) checks for 1 day)."
+    },
+    {
+      "name": "Courageous Anthem (1/Day)",
+      "desc": "Plays a song that bolsters its allies. Each friendly creature within 30' of the instrument that can hear song has a +1 bonus to attack rolls ability checks and saves until song ends. Instrument must take a bonus action on subsequent turns to continue playing the song. Can stop playing at any time. Song ends if animated instrument is incapacitated. A creature can benefit from only one Courageous Anthem at a time."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Antimagic Susceptibility",
+      "desc": "Incapacitated while in the area of an antimagic field. If targeted by dispel magic instrument must succeed on a Con save vs. caster's spell save DC or fall unconscious for 1 min."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "False",
+      "desc": "[+]Appearance[/+] While motionless and isn't flying indistinguishable from normal musical instrument."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 34,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_animated-instrument/"
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "owlharpy-tob1-2023",
+  "desc": "False",
+  "name": "Owl Harpy",
+  "size": "Medium",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 112,
+  "hit_dice": "15d8 + 45",
+  "speed": {
+    "walk": 80,
+    "fly": 20
+  },
+  "strength": 12,
+  "dexterity": 17,
+  "constitution": 16,
+  "intelligence": 11,
+  "wisdom": 14,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 12,
+  "skills": {
+    "Performance": 7,
+    "Stealth": 9
+  },
+  "damage_vulnerabilities": "thunder",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 12",
+  "languages": "Common, Abyssal, Giant",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The owl harpy makes two Claw attacks and two Talon attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage."
+    },
+    {
+      "name": "Talon",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
+    },
+    {
+      "name": "Sleeping Song",
+      "desc": "The owl harpy sings a magical melody. Every Humanoid and Giant within 300 feet of the harpy that can hear the song must succeed on a DC 15 Wisdom saving throw or fall unconscious until the song ends. The harpy must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy is incapacitated. An unconscious target wakes if it takes damage or if another creature uses an action to wake it. A target that successfully saves is immune to this harpy's song for the next 24 hours."
+    },
+    {
+      "name": "Hovering Darkness (3/Day)",
+      "desc": "While flying, the owl harpy shakes a fine, magical dander from her wings, and a 15-foot radius of magical darkness extends out from her, moves with her, and spreads around corners. The darkness lasts as long as the owl harpy flies and maintains concentration, up to 10 minutes (as if concentrating on a spell). Darkvision can't penetrate this darkness, and no natural light can illuminate it. If any of the darkness overlaps with an area of light created by a spell of 2nd level or lower, the spell creating the light is dispelled."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Hypersensitive Hearing",
+      "desc": "The owl harpy has advantage on Wisdom (Perception) checks that rely on hearing, and it can't use its blindsight while deafened."
+    },
+    {
+      "name": "Quiet Wings",
+      "desc": "The owl harpy has advantage on Dexterity (Stealth) checks made to hide while flying."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 230,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_owl-harpy/"
+}

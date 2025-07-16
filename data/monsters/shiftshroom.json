@@ -1,0 +1,66 @@
+{
+  "slug": "shiftshroom",
+  "desc": "The plain, white mushroom suddenly shifts and twists into a poisonous deathcap._  \nIn their natural form, shiftshrooms are white mushrooms with bifurcated stalks. Their natural ability to disguise themselves as other mushrooms evolved as a defense against creatures harvesting them for food.  \n_**Sought for Food.**_ Roasted shiftshroom has a nutty flavor and aroma and is considered a delicacy by many of the Underworld’s denizens. Discerning surface world gourmands pay respectable sums for shiftshroom caps due to the difficulty in harvesting them from the Underworld and the difficulty in growing them above ground.  \n_**Hidden in View.**_ Shiftshrooms can often be found interspersed with deadlier fungi. The Underworld hides colonies of the fungus wherein only a few of the mushrooms toward the outer edges of the group are dangerous varieties of fungus, and the remainder are disguised shiftshrooms.",
+  "name": "Shiftshroom",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "shapechanger",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 5,
+  "armor_desc": null,
+  "hit_points": 18,
+  "hit_dice": "4d8",
+  "speed": {
+    "walk": 10
+  },
+  "strength": 12,
+  "dexterity": 1,
+  "constitution": 10,
+  "intelligence": 1,
+  "wisdom": 5,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "blinded, deafened, frightened",
+  "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 7",
+  "languages": "—",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.",
+      "attack_bonus": 3,
+      "damage_dice": "1d6+1"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Shapechanger",
+      "desc": "The shiftshroom can use its action to alter its appearance into a more frightening fungus, such as a poisonous deathcap mushroom, or back into its true form. Alternatively, it can change back into its true form as a reaction when it takes damage. Its statistics are the same in each form, and it reverts to its true form if it dies. While in its frightening form, the shiftshroom can take only the Dodge, Disengage, and Hide actions. Any creature that starts its turn within 10 feet of a shiftshroom in its frightening form must succeed on a DC 10 Wisdom saving throw or be frightened of the shiftshroom until the start of its next turn. On a successful saving throw, the creature is immune to this feature for 24 hours."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 159,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_shiftshroom/"
+}

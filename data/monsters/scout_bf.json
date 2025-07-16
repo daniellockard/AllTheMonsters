@@ -1,0 +1,77 @@
+{
+  "slug": "scout_bf",
+  "desc": "",
+  "name": "Scout",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Any Lineage",
+  "group": "NPCs",
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "leather armor",
+  "hit_points": 25,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 14,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 16,
+  "charisma": 10,
+  "strength_save": 0,
+  "dexterity_save": 2,
+  "constitution_save": 1,
+  "intelligence_save": 0,
+  "wisdom_save": 3,
+  "charisma_save": 0,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "any one language (usually Common)",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The scout makes two Shortsword or Shortbow attacks."
+    },
+    {
+      "name": "Shortsword",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6+2) piercing damage."
+    },
+    {
+      "name": "Shortbow",
+      "desc": "_Ranged Weapon Attack:_ +4 to hit, ranged 80/320 ft., one target. _Hit:_ 5 (1d6+2) piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Escape to Report",
+      "desc": "The scout takes the Dash or Disengage action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Heightened Hearing and Sight",
+      "desc": "The scout's Perception is 18 when perceiving by hearing or sight."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_scout/"
+}

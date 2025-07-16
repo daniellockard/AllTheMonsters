@@ -1,0 +1,83 @@
+{
+  "slug": "stone-eater-slime",
+  "desc": "",
+  "name": "Stone-Eater Slime",
+  "size": "Small",
+  "type": "Ooze",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "armor_desc": "natural armor",
+  "hit_points": 90,
+  "hit_dice": "12d6+48",
+  "speed": {
+    "walk": 20,
+    "climb": 10
+  },
+  "strength": 16,
+  "dexterity": 11,
+  "constitution": 19,
+  "intelligence": 1,
+  "wisdom": 6,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -2,
+  "skills": {
+    "perception": -2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "acid",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, petrified, prone",
+  "senses": "blindsight 60' (blind beyond), passive Perception 8",
+  "languages": "—",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 10 (2d6+3) bludgeoning damage + 3 (1d6) acid. Target petrified 1 min (DC 14 Con). Petrified creature can re-save at end of each of its turns success ends effect on itself."
+    },
+    {
+      "name": "Dissolve Stone",
+      "desc": "Touches petrified creature or nonmagical object or structure made of crystal or stone within 5 ft. of it ingesting some. If object isn't being worn or carried touch destroys a 6-inch cube of it and slime regains 10 (3d6) hp. If object is being worn or carried by a creature creature can make DC 14 Dex save to avoid slime's touch. If target is a petrified creature: 21 (6d6) acid (DC 14 Con half). Being petrified doesn't give creature resistance to this damage. Slime regains hp equal to half the damage taken. If object touched is stone armor or stone shield worn or carried it takes a permanent and cumulative -1 penalty to AC it offers. Armor reduced to AC 10 or shield that drops to +0 bonus is destroyed. If object touched is a held stone weapon it takes a permanent and cumulative -1 penalty to damage rolls. If penalty drops to -5 it is destroyed"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amorphous",
+      "desc": "Move through space 1ft.+ wide with o squeezing."
+    },
+    {
+      "name": "Ooze Nature",
+      "desc": "Doesn't require sleep."
+    },
+    {
+      "name": "Spider Climb",
+      "desc": "Difficult surfaces even ceilings no ability check."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 357,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_stone-eater-slime/"
+}

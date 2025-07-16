@@ -1,0 +1,95 @@
+{
+  "slug": "faux-garou",
+  "desc": "",
+  "name": "Faux-Garou",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "armor_desc": "natural armor",
+  "hit_points": 93,
+  "hit_dice": "11d8+44",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 17,
+  "dexterity": 11,
+  "constitution": 18,
+  "intelligence": 4,
+  "wisdom": 12,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60', passive Perception 14",
+  "languages": "understands creator's languages but can't speak",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Uses Frightening Gaze then two Claws."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 7 (1d8+3) slashing damage + 10 (3d6) necrotic."
+    },
+    {
+      "name": "Frightening Gaze",
+      "desc": "Fixes its gaze on one creature it can see within 60' of it. Target frightened 1 min (DC 15 Wis negates). Creature can re-save at end of each of its turns success ends effect on itself. If save succeeds or effect ends for it creature immune to faux-garou's Frightening Gaze for the next 24 hrs."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "Transforms into Large or smaller Beast matching type of lycanthrope it resembles (wolf if it resembles a werewolf etc.) or back into its true form. Its stats other than size and speed are same in each form. While transformed retains constructed appearance and claws at end of its forelimbs. Items worn or carried not transformed. Reverts to true form if it dies."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Construct Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Druidic Vengeance",
+      "desc": "Knows scent and appearance of each creature it was created to kill. Advantage on attacks vs. such creatures and on Wis (Perception) and Wis (Survival) checks to find and track them."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "Immune: form-altering spells/effects."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Necrotic Weapons",
+      "desc": "Weapon attacks are magical. When it hits with any weapon deals extra 3d6 necrotic (included below)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 174,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_faux-garou/"
+}

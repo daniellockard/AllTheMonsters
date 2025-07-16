@@ -1,0 +1,84 @@
+{
+  "slug": "dust-mephit-a5e",
+  "desc": "",
+  "name": "Dust Mephit",
+  "size": "Small",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 17,
+  "hit_dice": "5d6",
+  "speed": {
+    "walk": 30,
+    "fly": 30
+  },
+  "strength": 6,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 8,
+  "wisdom": 10,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "perception": 2,
+    "stealth": 4
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "Auran, Terran",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage."
+    },
+    {
+      "name": "Blinding Breath (1/Day)",
+      "desc": "The mephit exhales a 15-foot cone of dust. Each creature in the area makes a DC 10 Constitution saving throw. On a failure  the creature is blinded for 1 minute. It repeats the saving throw at the end of each of its turns  ending the effect on itself on a success."
+    },
+    {
+      "name": "Sleep Sand (1/Day)",
+      "desc": "The closest creature within 60 feet with 20 hit points or fewer falls asleep for 1 minute. It awakens early if it takes damage or a creature uses an action to shake it awake. Constructs and undead are immune to this effect."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Death Burst",
+      "desc": "When the mephit dies, it explodes into dust. Each creature within 5 feet makes a DC 10 Constitution saving throw. On a failure, the creature is blinded until the end of its next turn."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While motionless, the mephit is indistinguishable from a pile of dirt."
+    },
+    {
+      "name": "Elemental Nature",
+      "desc": "A mephit doesnt require air, sustenance, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 325,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_dust-mephit/"
+}

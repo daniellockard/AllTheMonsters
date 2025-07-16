@@ -1,0 +1,64 @@
+{
+  "slug": "ophio-fungus",
+  "desc": "Row after row of bruise-purple fungus grows from the rocks like living shelves. The air becomes hazy as the fungus lets out a sudden puff of spores._  \n**Ambitious Parasite.** The ophio fungus is native to the subterranean caverns that wind through Leng, but it has no intention of remaining solely in its native world. The fungus seeks to infect as many carriers as possible to distribute itself across many planes and worlds.  \n**Mind Control.** The fungus attempts to infect carriers by issuing clouds of microscopic spores. Once inhaled, these spores attack the victim’s brain, sapping their willpower and eventually leaving the victim under the control of the fungus.  \n**Master Plan.** Once a victim is infected with ophio spores, it is entirely under the control of the fungus, connected to the parent fungus by a psychic link that even reaches across planes. The fungus uses these victims to carry pieces of itself to other places or to lure more victims into its caverns.",
+  "name": "Ophio Fungus",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 119,
+  "hit_dice": "14d12+28",
+  "speed": {
+    "walk": 10
+  },
+  "strength": 10,
+  "dexterity": 6,
+  "constitution": 14,
+  "intelligence": 20,
+  "wisdom": 17,
+  "charisma": 17,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "bludgeoning, piercing",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "blinded, charmed, deafened, frightened, poisoned, prone",
+  "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 13",
+  "languages": "Void Speech, telepathy 120 ft.",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Release Spores",
+      "desc": "The ophio fungus focuses its spores on up to three creatures it can see within 30 feet of it. Each creature must make a DC 15 Constitution saving throw. On a failure, a creature takes 14 (4d6) poison damage and, if it is a humanoid, it becomes infected with ophio spores. On a success, a creature takes half the damage and isn't infected with spores. A creature that doesn't need to breathe automatically succeeds on this saving throw. A creature that does need to breathe can still be affected, even if it holds its breath."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Hypnotic Secretion",
+      "desc": "When a creature starts its turn within 30 feet of the fungus, it must make a DC 15 Charisma saving throw. On a failure, the creature is charmed for 1 hour and regards the fungus as a friendly acquaintance. If the fungus or one of its allies harms the charmed creature, this effect ends. If a creature stays charmed for the full hour, it becomes infected with ophio spores. If the creature's saving throw is successful or the effect ends for it, the creature is immune to the ophio fungus' Hypnotic Secretion for the next 24 hours. A creature that doesn't need to breathe is immune to the fungus' Hypnotic Secretion. A creature that does need to breathe can still be affected, even if it holds its breath."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 283,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_ophio-fungus/"
+}

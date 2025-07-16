@@ -1,0 +1,102 @@
+{
+  "slug": "ooze-sinkhole",
+  "desc": "",
+  "name": "Ooze, Sinkhole",
+  "size": "Gargantuan",
+  "type": "Ooze",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 7,
+  "armor_desc": "",
+  "hit_points": 108,
+  "hit_dice": "8d20+24",
+  "speed": {
+    "walk": 20,
+    "burrow": 40,
+    "climb": 20
+  },
+  "strength": 18,
+  "dexterity": 5,
+  "constitution": 16,
+  "intelligence": 3,
+  "wisdom": 6,
+  "charisma": 1,
+  "strength_save": 6,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -2,
+  "skills": {
+    "perception": -2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "acid ",
+  "condition_immunities": "blinded, charmed, deafened, exhausted, frightened, prone",
+  "senses": "blindsight 120' (blind beyond), passive Perception 8",
+  "languages": "—",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Pseudopod attacks."
+    },
+    {
+      "name": "Pseudopod",
+      "desc": "Melee Weapon Attack: +6 to hit, 15 ft., one creature,. 9 (1d10+4) bludgeoning damage + 3 (1d6) acid and target is grappled (escape DC 14). Until this grapple ends target is restrained and takes 3 (1d6) acid at start of each of its turns and ooze can't use same Pseudopod on another target."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Stretch Body",
+      "desc": "Stretches body around inner walls of a pit sinkhole or other circular opening in the ground. Stretched this way it forms a hollow cylinder up to 25 ft. tall up to 25 ft. radius. Ooze can end stretch as a bonus action occupying nearest unoccupied space to the hole."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Pluck (Stretched Body Only)",
+      "desc": "When 1+ creature falls down center of its cylinder can try to grab up to 2 of them. Each must make DC 14 Dex save or grappled (escape DC 14) in Pseudopod."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amorphous",
+      "desc": "Move through space 1ft.+ wide with o squeezing."
+    },
+    {
+      "name": "Hollow Cylindrical Form (Stretched Body Only)",
+      "desc": "Creatures can occupy space in center of cylinder formed by the ooze and each such space is always within ooze's reach regardless of cylinder's size."
+    },
+    {
+      "name": "Ooze Nature",
+      "desc": "The sinkhole ooze doesn't require sleep."
+    },
+    {
+      "name": "Seizing Pseudopods",
+      "desc": "Can have up to 6 tendril-like Pseudopods at a time. Each can be attacked (AC 10; 10 hp; immunity to acid poison and psychic). Destroying Pseudopod deals no damage to ooze which can extrude a replacement on its next turn. Pseudopod can also be broken if creature takes an action and makes DC 14 Str check."
+    },
+    {
+      "name": "Slimy Appearance (Stretched Body Only)",
+      "desc": "While it remains motionless is indistinguishable from interior of the pit or hole in the ground it is stretched across though interior walls appear wet."
+    },
+    {
+      "name": "Spider Climb",
+      "desc": "Difficult surfaces even ceilings no ability check."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 309,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_ooze-sinkhole/"
+}

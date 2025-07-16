@@ -1,0 +1,92 @@
+{
+  "slug": "vaporlynx-tob1-2023",
+  "desc": "False",
+  "name": "Vapor Lynx",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 14,
+  "armor_desc": "",
+  "hit_points": 127,
+  "hit_dice": "15d10 + 45",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 15,
+  "dexterity": 18,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 13,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 14,
+  "skills": {
+    "Perception": 4,
+    "Stealth": 7
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "Common, Sylvan",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The vapor lynx makes one Bite attack and two Claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
+    },
+    {
+      "name": "Poison Breath (Recharge 5-6)",
+      "desc": "The vapor lynx exhales poisonous fog in a 20-foot radius centered on itself. The fog spreads around corners, and its area is heavily obscured. Each creature in the area must make a DC 14 Constitution saving throw. On a failure, a creature takes 28 (8d6) poison damage and is poisoned until the end of its next turn. On a success, a creature takes half the damage and isn't poisoned. The fog lasts for 1 minute. A creature that starts its turn in the fog or enters the fog for the first time on a turn must succeed on a DC 14 Constitution saving throw or be poisoned until the end of its next turn."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Fog Step",
+      "desc": "The vapor lynx teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. The origin and destination spaces must contain fog."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Fog Flow",
+      "desc": "While in fog or mist, the vapor lynx can move through a space as narrow at 1 inch wide without squeezing, provided the fog or mist is flowing through the space."
+    },
+    {
+      "name": "Hazesight",
+      "desc": "The vapor lynx can see through areas obscured by fog, mist, and steam without penalty."
+    },
+    {
+      "name": "Swamp Walk",
+      "desc": "Difficult terrain composed of mud, shallow water, and water plants doesn't cost the vapor lynx extra movement."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 383,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_vapor-lynx/"
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "scribe-devil",
+  "desc": "A fiend with yellow skin covered in Infernal script examines a scroll as its pointed, ink-drenched tail twitches, eager to make corrections._  \nScribe devils are the ill-tempered authors of infernal contracts, which outline deals between mortals and devils.  \n**Masters of Legal Logic.** No fiends better understand the power of bureaucracy and a written contract than scribe devils. Able to draw up a contract for a deal at a moment’s notice, these devils carefully select every letter of a written deal. Typically, their ink-soaked tails craft documents that confuse and misdirect mortals into raw deals. If a fellow fiend gets on a scribe devil’s bad side or in the way, the scribe devil has no qualms about writing a bad contract for the fiend.  \n**Contract Makers.** Scribe devils make their documents from the skins of damned mortals acquired with the fiend’s knife-like claws. Their ink is the blood of Open Game License",
+  "name": "Scribe Devil",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "devil",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 82,
+  "hit_dice": "11d8+33",
+  "speed": {
+    "walk": 30,
+    "fly": 30
+  },
+  "strength": 14,
+  "dexterity": 16,
+  "constitution": 16,
+  "intelligence": 18,
+  "wisdom": 14,
+  "charisma": 17,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 6,
+  "intelligence_save": 7,
+  "wisdom_save": 5,
+  "charisma_save": 6,
+  "perception": 4,
+  "skills": {
+    "deception": 6,
+    "insight": 5,
+    "perception": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold; bludgeoning, piercing, and slashing damage from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 14",
+  "languages": "Common, Infernal, telepathy 120 ft.",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The scribe devil makes two attacks: one with its claws and one with its tail."
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d6+3"
+    },
+    {
+      "name": "Tail",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) piercing damage, and if the target is a creature, it must succeed on a DC 14 Constitution saving throw or become blinded as its eyes turn black and fill with infernal ink. The condition can be removed with a greater restoration spell or similar magic. Alternatively, a creature with a healer's kit can drain the ink from a blinded creature's eyes with a successful DC 14 Wisdom (Medicine) check. If this check fails by 5 or more, the attempt to drain the ink instead removes the blinded creature's eyes and the creature takes 21 (6d6) piercing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d4+3"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the scribe's darkvision."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The scribe has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The scribe devil's spellcasting ability is Intelligence (spell save DC 15). The devil can innately cast the following spells, requiring no material components:\nAt will: detect magic, illusory script\n3/day each: dispel magic, zone of truth\n1/day each: glyph of warding, modify memory"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 318,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_scribe-devil/"
+}

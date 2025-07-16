@@ -1,0 +1,89 @@
+{
+  "slug": "gullkin-hunter",
+  "desc": "",
+  "name": "Gullkin Hunter",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Any Alignment",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 45,
+  "hit_dice": "7d8+14",
+  "speed": {
+    "walk": 20,
+    "fly": 30,
+    "swim": 30
+  },
+  "strength": 12,
+  "dexterity": 17,
+  "constitution": 15,
+  "intelligence": 10,
+  "wisdom": 14,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 14",
+  "languages": "Aquan, Common",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Beak and one Shortsword or two Shortbows."
+    },
+    {
+      "name": "Beak",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 5 (1d4+3) piercing damage."
+    },
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 6 (1d6+3) piercing damage."
+    },
+    {
+      "name": "Shortbow",
+      "desc": "Ranged Weapon Attack: +5 to hit 80/320' one target 6 (1d6+3) piercing damage."
+    },
+    {
+      "name": "Tempest Breath (Recharges: Short/Long Rest)",
+      "desc": "Exhales lungful of air in 15 ft. cone. Each creature in that area pushed up to 15 ft. away from gullkin (DC 12 Str negates)."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Mark Quarry (Recharges: Short/Long Rest)",
+      "desc": "Marks a creature as its quarry. Whenever hunter hits marked creature with weapon attack deals extra 1d6 damage to target."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Hold Breath",
+      "desc": "The gullkin can hold its breath for 5 min."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 223,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_gullkin-hunter/"
+}

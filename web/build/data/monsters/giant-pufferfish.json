@@ -1,0 +1,84 @@
+{
+  "slug": "giant-pufferfish",
+  "desc": "",
+  "name": "Giant Pufferfish",
+  "size": "Small",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 52,
+  "hit_dice": "8d8+16",
+  "speed": {
+    "walk": 0,
+    "swim": 40
+  },
+  "strength": 16,
+  "dexterity": 12,
+  "constitution": 15,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60', passive Perception 12",
+  "languages": "—",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 7 (2d8+3) piercing damage or 12 (2d8+3) piercing damage while puffed up."
+    },
+    {
+      "name": "Spine",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 5 (1d4+3) piercing damage or 8 (2d4+3) piercing damage while puffed up. Also 5 (2d4) poison (DC 13 Con half). If target fails the save by 5+ it takes 2 (1d4) poison at the end of its next turn."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Burst of Speed (Recharges 5-6)",
+      "desc": "Takes the Dash action."
+    },
+    {
+      "name": "Puff Up (Recharge: Short/Long Rest)",
+      "desc": "For 1 min it increases in size by filling its stomach with air or water. While puffed up it is Medium doubles its damage dice on Bite and Spine attacks (included above) and makes Str checks and Str saves with advantage. If pufferfish lacks the room to become Medium it attains the max size possible in space available."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Spiny Body",
+      "desc": "A creature that touches pufferfish or hits it with melee attack while within 5 ft. of it takes 2 (1d4) piercing damage. While it is puffed up this damage increases to 5 (2d4)."
+    },
+    {
+      "name": "Water Breathing",
+      "desc": "Can breathe only underwater."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 200,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_giant-pufferfish/"
+}

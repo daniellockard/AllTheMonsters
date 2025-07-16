@@ -1,0 +1,86 @@
+{
+  "slug": "couatl-a5e",
+  "desc": "",
+  "name": "Couatl",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 16,
+  "armor_desc": "",
+  "hit_points": 85,
+  "hit_dice": "10d8+40",
+  "speed": {
+    "walk": 30,
+    "fly": 90
+  },
+  "strength": 18,
+  "dexterity": 18,
+  "constitution": 18,
+  "intelligence": 18,
+  "wisdom": 20,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 6,
+  "intelligence_save": null,
+  "wisdom_save": 7,
+  "charisma_save": 6,
+  "perception": null,
+  "skills": {
+    "perception": 7,
+    "persuasion": 6,
+    "religion": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "psychic, radiant; damage from nonmagical weapons",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "truesight 120 ft., passive Perception 17",
+  "languages": "all, telepathy 120 ft.",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Constrict",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one Medium or smaller creature. Hit: 14 (3d6 + 4) bludgeoning damage  and the target is grappled (escape DC 14). Until this grapple ends  the target is restrained  the couatl can't constrict other targets  and the couatl has advantage on attacks against the target."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage  and the target makes a DC 14 Constitution saving throw. On a failure  it is poisoned for 24 hours. The target is unconscious until the poisoned condition ends or a creature uses an action to shake the target awake."
+    },
+    {
+      "name": "Heal (1/Day)",
+      "desc": "The couatl touches a creature  magically healing 20 hit points of damage and ending the poisoned condition on that creature."
+    },
+    {
+      "name": "Shapeshift",
+      "desc": "The couatl magically changes its form to resemble that of a humanoid or beast  or back into its true form. It reverts to its true form if it dies. If its form is humanoid  it is equipped with clothing and a weapon. While shapeshifted  its statistics are the same except that it can't use Constrict and Shielding Wing and it may gain a swim speed of 60 or lose its fly speed if appropriate to its new form. If its a beast  it can use its bite attack. If its a humanoid  it may make a weapon attack  which functions identically to its bite attack."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Shielding Wing",
+      "desc": "When the couatl or a creature within 5 feet is attacked, the couatl can interpose a wing and impose disadvantage on the attack."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The couatls spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components: At will: detect evil and good, detect magic, 3/day each: create food and water, detect thoughts, lesser restoration, 1/day each: dream, greater restoration, scrying"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 56,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_couatl/"
+}

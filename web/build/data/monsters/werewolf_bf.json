@@ -1,0 +1,89 @@
+{
+  "slug": "werewolf_bf",
+  "desc": "",
+  "name": "Werewolf",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Lycanthrope",
+  "group": "Lycanthropes",
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": "n humanoid form, 12 (natural armor) in wolf or hybrid for",
+  "hit_points": 76,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 10,
+  "strength_save": 4,
+  "dexterity_save": 1,
+  "constitution_save": 3,
+  "intelligence_save": 0,
+  "wisdom_save": 0,
+  "charisma_save": 0,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning,piercing,and slashing damage from nonmagical attacks",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "Common (can't speak in wolf form)",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack (Humanoid or Hybrid Form Only)",
+      "desc": "The werewolf makes three Claws or Spear attacks. It can replace one attack with a Bite attack, provided it is in the appropriate form."
+    },
+    {
+      "name": "Bite (Wolf or Hybrid Form Only)",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 11 (2d8+2) piercing damage. If the target is a Humanoid, it must succeed on a DC 13 CON save or be cursed with the werewolf lycanthropy curse (see Curse of Lycanthropy sidebar)."
+    },
+    {
+      "name": "Claws (Hybrid Form Only)",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 9 (2d6+2) slashing damage."
+    },
+    {
+      "name": "Spear (Humanoid Form Only)",
+      "desc": "_Melee or Ranged Weapon Attack:_ +4 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 5 (1d6+2) piercing damage, or 6 (1d8+2) piercing damage if used with two hands to make a melee attack."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "The werewolf transforms into a Medum or Large wolf, a Medium wolf-humanoid hybrid, or back into its true form, which is Humanoid. Its statistics, other than its size, speed, and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+    },
+    {
+      "name": "Hungry Growl (Wolf and Hybrid Form Only)",
+      "desc": "The werewolf stares down and growls at one creature it can see within 30 feet of it. The target must succeed on a DC 13 WIS save or be frightened until the end of its next turn. The werewolf has advantage on the next attack roll it makes against the frightened creature."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Heightened Hearing and Smell",
+      "desc": "The werewolf's Perception is 17 while perceiving by hearing or smell."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The werewolf has advantage on attack rolls against a creature if at least one of the werewolf's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_werewolf/"
+}

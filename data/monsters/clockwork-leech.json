@@ -1,0 +1,84 @@
+{
+  "slug": "clockwork-leech",
+  "desc": "From a distance this creature appears to be an enormous leech. Closer observation reveals it to be a clockwork device. Blood stains its maw, which leaks a green fluid with a vaguely astringent odor._  \n**Collectors of Blood.** Hags and other magic practitioners who require blood for their rituals and sacrifices create clockwork leeches to scout marshlands and neighboring settlements for large groups of living creatures. The leeches are designed to extract their fill and return to their controllers, who access and drain their reservoirs. Autonomous clockwork leeches continue to collect blood, but, without masters to whom they deliver it, they go through cycles of draining blood then violently disgorging it. Regardless of their purpose (or lack thereof) for obtaining blood, most clockwork leeches retreat after getting their fill.  \n**Waterproof Swimmer.** A clockwork leech has layered copper plating that keeps water away from its inner mechanisms. These mechanisms allow the leech to propel itself through water. They can use this propelling undulation on land to make attacks with their “tails.” Leeches that don’t receive regular cleanings eventually turn green as the copper corrodes.  \n**Unseen, Unheard, and Unfelt.** The same plating that protects the clockwork leech’s inner mechanisms also buffers noise from the gears. Its coloration allows it to blend in with marshland foliage and silty water. Finally, when it punctures a creature’s skin, it releases a sedative to numb the wound, leaving the victim unaware of the injury and subsequent blood drain. The leech doesn’t have an unlimited supply of the sedative, and a leech that hasn’t undergone maintenance for a few weeks loses its Anesthetizing Bite trait. Because the leech must remain attached to its victim to drain its blood, it prefers to attack lone or sleeping targets.  \n**Construct Nature.** A clockwork leech doesn’t require air, food, drink, or sleep.",
+  "name": "Clockwork Leech",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 45,
+  "hit_dice": "6d8+18",
+  "speed": {
+    "walk": 30,
+    "swim": 60
+  },
+  "strength": 14,
+  "dexterity": 12,
+  "constitution": 17,
+  "intelligence": 3,
+  "wisdom": 10,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2,
+    "stealth": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "—",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the clockwork leech attaches to the target. While attached, the leech doesn't attack. Instead, at the start of each of the clockwork leech's turns, the target loses 5 (1d6 + 2) hp due to blood loss, and the target must succeed on a DC 13 Constitution saving throw or be poisoned until the start of the leech's next turn. The clockwork leech can detach itself by spending 5 feet of its movement. It does so after it drains 10 hp of blood from its target or the target dies. A creature, including the target, can use its action to detach the leech by succeeding on a DC 10 Strength check.",
+      "attack_bonus": 4,
+      "damage_dice": "1d6+2"
+    },
+    {
+      "name": "Tail",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one target. Hit: 7 (1d10 + 2) bludgeoning damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d10+2"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Anesthetizing Bite",
+      "desc": "When the clockwork leech successfully bites a creature, the creature must succeed on a DC 13 Wisdom (Perception) check to notice the bite. If the leech remains attached to the target, the target can repeat this check at the start of each of its turns."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "The clockwork leech is immune to any spell or effect that would alter its form."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The clockwork leech has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 66,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_clockwork-leech/"
+}

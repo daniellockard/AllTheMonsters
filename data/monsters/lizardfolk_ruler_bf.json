@@ -1,0 +1,100 @@
+{
+  "slug": "lizardfolk_ruler_bf",
+  "desc": "",
+  "name": "Lizardfolk Ruler",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": "Lizardfolk",
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": "scale mail",
+  "hit_points": 100,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "climb": 15,
+    "swim": 30
+  },
+  "strength": 16,
+  "dexterity": 12,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 14,
+  "charisma": 14,
+  "strength_save": 3,
+  "dexterity_save": 1,
+  "constitution_save": 2,
+  "intelligence_save": 0,
+  "wisdom_save": 2,
+  "charisma_save": 2,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "charmed,frightened",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "Common,Draconic",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The lizardfolk ruler makes two Bite attacks and one Greataxe attack, or it makes three Javelin attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 10 (2d6+3) piercing damage."
+    },
+    {
+      "name": "Greataxe",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 16 (2d12+3) slashing damage."
+    },
+    {
+      "name": "Javelin",
+      "desc": "_Melee or Ranged Weapon Attack:_ +5 to hit, reach 5 ft. or range 30/120 ft., one target. _Hit:_ 10 (2d6+3) piercing damage in melee or 6 (1d6+3) piercing damage at range."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Leader's Challenge",
+      "desc": "The ruler hisses out a challenge or a threat (the ruler's choice) toward one creature it can see within 30 feet of it. The target must make a DC 13 CHA save. If the target fails the save against a challenge, the target has disadvantage on attack rolls against any creature other than the ruler until the start of the ruler's next turn. If the target fails the save against a threat, the ruler has advantage on the next attack roll it makes against the target before the start of its next turn."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Inspiring Hiss",
+      "desc": "When a friendly lizardfolk the ruler can see within 30 feet of it is hit by an attack, the ruler can hiss out inspiring words to encourage the lizardfolk to keep going. The target gains 5 (2d4) temporary HP for 1 minute."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Brutal",
+      "desc": "A melee weapon deals one extra die of its damage when the lizardfolk ruler hits with it (included in the attack)."
+    },
+    {
+      "name": "Heightened Smell and Taste",
+      "desc": "The lizardfolk's Perception is 17 when perceiving by smell or taste."
+    },
+    {
+      "name": "Hold Breath",
+      "desc": "The lizardfolk ruler can hold its breath for 15 minutes."
+    },
+    {
+      "name": "Unshakable Command",
+      "desc": "Each friendly creature within 30 feet of the lizardfolk ruler can't be charmed or frightened while the ruler isn't incapacitated."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_lizardfolk-ruler/"
+}

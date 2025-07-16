@@ -1,0 +1,80 @@
+{
+  "slug": "lanterndragonette-tob1-2023",
+  "desc": "False",
+  "name": "Lantern Dragonette",
+  "size": "Tiny",
+  "type": "Dragon",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Lawful Neutral",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 28,
+  "hit_dice": "8d4 + 8",
+  "speed": {
+    "walk": 40,
+    "fly": 15
+  },
+  "strength": 7,
+  "dexterity": 15,
+  "constitution": 13,
+  "intelligence": 16,
+  "wisdom": 13,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 3,
+  "charisma_save": 3,
+  "perception": 13,
+  "skills": {
+    "Arcana": 5,
+    "History": 5,
+    "Nature": 5,
+    "Perception": 3,
+    "Religion": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "Common, Draconic, Primordial, telepathy 60 ft.",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    {
+      "name": "Fire Breath",
+      "desc": "The lantern dragonette breathes fire in a 15-foot cone. Each creature in the area must make a DC 11 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half the damage on a successful one."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Lantern Belly",
+      "desc": "The dragonette sheds bright light in a 20-foot radius and dim light for an additional 20 feet or stops shedding light. To shed light, it must have eaten at least 4 ounces of candle wax in the past 24 hours. It can shed light for up to 1 hour for every 4 ounces of candle wax it has eaten in the past 24 hours, to a maximum of 4 hours every 24 hours."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Magical Darkness Hypersensitivity",
+      "desc": "While in an area of magical darkness, the lantern dragonette can't fly or use Lantern Belly, and it takes 3 (1d6) necrotic damage each minute."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 136,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_lantern-dragonette/"
+}

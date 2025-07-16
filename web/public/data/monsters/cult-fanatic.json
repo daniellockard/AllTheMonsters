@@ -1,0 +1,98 @@
+{
+  "slug": "cult-fanatic",
+  "desc": "**Fanatics** are often part of a cult's leadership, using their charisma and dogma to influence and prey on those of weak will. Most are interested in personal power above all else.",
+  "name": "Cult Fanatic",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "any race",
+  "group": "NPCs",
+  "alignment": "Any Non-Good Alignment",
+  "armor_class": 13,
+  "armor_desc": "leather armor",
+  "hit_points": 22,
+  "hit_dice": "6d8+6",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 11,
+  "dexterity": 14,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 13,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "deception": 4,
+    "persuasion": 4,
+    "religion": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 11",
+  "languages": "any one language (usually Common)",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The fanatic makes two melee attacks."
+    },
+    {
+      "name": "Dagger",
+      "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4",
+      "damage_bonus": 2
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Dark Devotion",
+      "desc": "The fanatic has advantage on saving throws against being charmed or frightened."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The fanatic is a 4th-level spellcaster. Its spell casting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:\n\nCantrips (at will): light, sacred flame, thaumaturgy\n* 1st level (4 slots): command, inflict wounds, shield of faith\n* 2nd level (3 slots): hold person, spiritual weapon"
+    }
+  ],
+  "spell_list": [
+    "https://api.open5e.com/v2/spells/light/",
+    "https://api.open5e.com/v2/spells/sacred-flame/",
+    "https://api.open5e.com/v2/spells/thaumaturgy/",
+    "https://api.open5e.com/v2/spells/command/",
+    "https://api.open5e.com/v2/spells/inflict-wounds/",
+    "https://api.open5e.com/v2/spells/shield-of-faith/",
+    "https://api.open5e.com/v2/spells/hold-person/",
+    "https://api.open5e.com/v2/spells/spiritual-weapon/"
+  ],
+  "page_no": 398,
+  "environments": [
+    "Temple",
+    "Desert",
+    "Urban",
+    "Sewer",
+    "Forest",
+    "Ruin",
+    "Jungle",
+    "Hills",
+    "Settlement"
+  ],
+  "img_main": null,
+  "document__slug": "wotc-srd",
+  "document__title": "5e Core Rules",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "v2_converted_path": "/v2/creatures/srd_cult-fanatic/"
+}

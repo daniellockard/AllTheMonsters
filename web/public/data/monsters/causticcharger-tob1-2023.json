@@ -1,0 +1,82 @@
+{
+  "slug": "causticcharger-tob1-2023",
+  "desc": "False",
+  "name": "Caustic Charger",
+  "size": "Huge",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 133,
+  "hit_dice": "14d12 + 42",
+  "speed": {
+    "walk": 10,
+    "burrow": 30
+  },
+  "strength": 19,
+  "dexterity": 11,
+  "constitution": 16,
+  "intelligence": 4,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "acid",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The caustic charger makes two Ram attacks. It can replace one Ram attack with a Tentacles attack."
+    },
+    {
+      "name": "Ram",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) bludgeoning damage, and if the target is a Large or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone. If the charger moved at least 10 feet straight toward the target immediately before the hit, the target has disadvantage on the saving throw."
+    },
+    {
+      "name": "Tentacles",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 14 (4d6) acid damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be paralyzed for 1 minute. The paralyzed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the caustic charger attacks a target that is not in the charger's space, the target takes half the acid damage and has advantage on the saving throw."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Slurp",
+      "desc": "The caustic charger feeds on a creature paralyzed by its Tentacles attack. The target must succeed on a DC 15 Constitution saving throw or its hp maximum is reduced by half the amount of acid damage dealt by the Tentacles attack that caused the paralysis, and the charger regains hp equal to that amount. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hp maximum to 0."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Straddler",
+      "desc": "The caustic charger can end its move in the space of a prone Large or smaller creature. A creature standing up from prone in the same space as the charger can move to a space within 5 feet of the charger as part of standing up."
+    },
+    {
+      "name": "Wastes Walk",
+      "desc": "Difficult terrain composed of rocks or sand doesn't cost the caustic charger extra movement."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 51,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_caustic-charger/"
+}

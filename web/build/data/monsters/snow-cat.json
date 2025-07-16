@@ -1,0 +1,84 @@
+{
+  "slug": "snow-cat",
+  "desc": "",
+  "name": "Snow Cat",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 13,
+  "hit_dice": "3d8",
+  "speed": {
+    "climb": 40,
+    "walk": 50
+  },
+  "strength": 14,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 3,
+  "wisdom": 14,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 4,
+  "skills": {
+    "perception": 4,
+    "stealth": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 14",
+  "languages": "-",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "attack_bonus": 4,
+      "damage_dice": "1d6+2",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.",
+      "name": "Bite"
+    },
+    {
+      "attack_bonus": 4,
+      "damage_dice": "1d4+2",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) slashing damage.",
+      "name": "Claw"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "desc": "The snow cat has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell.",
+      "name": "Keen Senses"
+    },
+    {
+      "desc": "If the snow cat surprises a creature and hits it with a bite attack, the target is grappled (escape DC 12) if it is a Medium or smaller creature.",
+      "name": "Stalker"
+    },
+    {
+      "desc": "The snow cat has advantage on Dexterity (Stealth) checks made to hide in snowy terrain.",
+      "name": "Snow Camouflage"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 346,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "cc",
+  "document__title": "Creature Codex",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/",
+  "v2_converted_path": "/v2/creatures/ccdx_snow-cat/"
+}

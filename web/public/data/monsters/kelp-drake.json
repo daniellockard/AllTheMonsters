@@ -1,0 +1,93 @@
+{
+  "slug": "kelp-drake",
+  "desc": "The dragon surges through the water in a rippling mass of seaweed, flotsam, and hungry jaws._  \n**Avarice and Opportunity.** Scavengers driven by draconic instinct, kelp drakes have an eye for sunken treasure and easy food. They favor giant oysters, shipwrecked sailors, and unperceptive castaways. Never in one place for long, kelp drakes keep their hoards with them, bundled up in seaweed and scum. Tragically, they lack the intelligence to tell the difference between genuine treasure and pretty but worthless objects.  \n**Drawn to Disaster.** Kelp drakes instinctively trail along the wakes of larger oceanic creatures. After powerful monsters like Open Game License",
+  "name": "Kelp Drake",
+  "size": "Medium",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 60,
+  "hit_dice": "8d8+24",
+  "speed": {
+    "swim": 50,
+    "walk": 20
+  },
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 16,
+  "intelligence": 7,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "athletics": 6,
+    "perception": 3,
+    "stealth": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "Draconic",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The drake makes one bite attack and one claw attack. If both attacks hit the same target, the drake can use its Deathroll on the target."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d8+4"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d6+4"
+    },
+    {
+      "name": "Deathroll",
+      "desc": "The kelp drake latches onto a Medium or smaller creature it can see within 5 feet of it and rolls itself and the target. The target must make a DC 13 Constitution saving throw. On a failure, the creature takes 7 (2d6) slashing damage and is stunned until the end of its next turn. On a success, the creature takes half the damage and isn't stunned. The kelp drake can use this action only if both itself and the target are immersed in water."
+    },
+    {
+      "name": "Binding Bile (Recharge 6)",
+      "desc": "The drake forcibly vomits a long line of bile-coated kelp that unravels in a 30-foot-long, 5-foot-wide line. Each target in the area must make a DC 13 Dexterity saving throw. On a failure, a creature takes 14 (4d6) acid damage and is restrained by kelp for 1 minute. On a success, a creature takes half the damage and isn't restrained. A creature, including the target, can take its action to remove the kelp by succeeding on a DC 13 Strength check. Alternatively, the kelp can be attacked and destroyed (AC 10; hp 3; immunity to bludgeoning, poison, and psychic damage)."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Aggressive",
+      "desc": "As a bonus action, the drake can move up to its speed toward a hostile creature that it can see."
+    },
+    {
+      "name": "Limited Amphibiousness",
+      "desc": "The drake can breathe air and water, but it needs to be submerged at least once every 6 hours to avoid suffocation."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 227,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_kelp-drake/"
+}

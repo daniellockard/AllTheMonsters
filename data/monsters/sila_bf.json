@@ -1,0 +1,99 @@
+{
+  "slug": "sila_bf",
+  "desc": "",
+  "name": "Sila",
+  "size": "Large",
+  "type": "Elemental",
+  "subtype": "Outsider",
+  "group": "Genies",
+  "alignment": "",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 216,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "fly": 60,
+    "swim": 90
+  },
+  "strength": 20,
+  "dexterity": 22,
+  "constitution": 22,
+  "intelligence": 24,
+  "wisdom": 14,
+  "charisma": 28,
+  "strength_save": 5,
+  "dexterity_save": 6,
+  "constitution_save": 6,
+  "intelligence_save": 7,
+  "wisdom_save": 2,
+  "charisma_save": 9,
+  "perception": 16,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "acid,cold",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft.",
+  "languages": "Aquan,Common",
+  "challenge_rating": "11",
+  "cr": 11,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The sila makes four Cold-Infused Jambiya or Water Burst attacks. If two Water Burst attacks hit one creature, the target must succeed on a DC 17 STR save or be pushed up to 15 feet away from the sila."
+    },
+    {
+      "name": "Cold-Infused Jambiya",
+      "desc": "_Melee Weapon Attack:_ +9 to hit, reach 5 ft., one target. _Hit:_ 14 (2d8+5) slashing damage plus 5 (2d4) cold damage."
+    },
+    {
+      "name": "Water Burst",
+      "desc": "_Ranged Spell Attack:_ +9 to hit, range 60 ft., one target. _Hit:_ 19 (4d6+5) bludgeoning damage."
+    },
+    {
+      "name": "Create Water Elemental (1/Day)",
+      "desc": "The sila magically creates one water-based Elemental of CR 5 or lower in an unoccupied space the sila can see within 30 feet of it. The elemental acts as an ally of the sila, obeying its spoken commands. The elemental remains for 1 hour, until the sila dies, or until the sila dismisses it as a bonus action."
+    },
+    {
+      "name": "Travel the Planes (1/Day)",
+      "desc": "The sila transports itself to a different plane of existence. This works like the plane shift spell, except it can affect only itself and can't use this action to banish an unwilling creature."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Clouded Eyes",
+      "desc": "The sila condenses the air or water around the head or eyes of up to two creatures it can see within 30 feet of it. Each target must succeed on a DC 17 DEX save or be blinded until the end of its next turn."
+    },
+    {
+      "name": "Genie Shape",
+      "desc": "The sila magically transforms into a Medium cloud of thick mist that leaves droplets of water on everything it touches or back into its bipedal form. Its statistics are the same in each form. Any equipment it is wearing or carrying transforms with it. It reverts to its bipedal form if it dies. The sila can't use this bonus action to transform into its bipedal form while inside a Medium or smaller container."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The sila can breathe air and water."
+    },
+    {
+      "name": "Fluid Body (Bipedal Form Only)",
+      "desc": "The sila can move through the space of any creature, regardless of size, and a creature of any size can move through a sila's space. In addition, the sila can move through a space as narrow as 1 inch wide without squeezing."
+    },
+    {
+      "name": "Nebulous (Cloud Form Only)",
+      "desc": "The sila's Stealth is 21, it can hover while flying, can't manipulate objects or attack, and it can pass through any space air or water can pass through without squeezing. In addition, it can enter and hide in any Tiny or larger container, such as a pouch, lamp, backpack, or barrel."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_sila/"
+}

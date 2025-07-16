@@ -1,0 +1,85 @@
+{
+  "slug": "khodumodumo",
+  "desc": "The hillock suddenly sprouts to life, rising up from its surroundings to reveal a sightless, toad-like monster with a cavernous maw. Six long red tongues emerge from this orifice, each as thick as a man’s torso and ending in a razor-sharp point._  \n**The Hills Have Tongues.** The khodumodumo is one of the apex predators of the hills and badlands in which it lives, disguising itself as a moderately-sized hillock to lure creatures closer before animating and impaling them on one of its many tongues. While not evil, the khodumodumo is a voracious predator that constantly needs to eat, and it attempts to devour just about anything that comes within reach.  \n**Rite of Passage.** Slaying a khodumodumo in single combat is often considered a rite of passage for a fire giant seeking to contest the leadership of a clan, especially because the creature is naturally resistant to fire. Powerful red dragons have also been known to hunt khodumodumos for sport.",
+  "name": "Khodumodumo",
+  "size": "Gargantuan",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 186,
+  "hit_dice": "12d20+60",
+  "speed": {
+    "walk": 25
+  },
+  "strength": 23,
+  "dexterity": 20,
+  "constitution": 21,
+  "intelligence": 4,
+  "wisdom": 15,
+  "charisma": 7,
+  "strength_save": 11,
+  "dexterity_save": null,
+  "constitution_save": 10,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 7,
+  "skills": {
+    "perception": 7,
+    "stealth": 10
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "fire, poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 17",
+  "languages": "—",
+  "challenge_rating": "14",
+  "cr": 14,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The khodumodumo makes three attacks with its tongues, uses Reel, and makes one attack with its bite."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one creature. Hit: 33 (6d8 + 6) piercing damage. If the target is a Large or smaller creature grappled by the khodumodumo, that creature is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the khodumodumo, and it takes 21 (6d6) acid damage at the start of each of the khodumodumo's turns.\n\nIf the khodumodumo takes 30 damage or more on a single turn from a creature inside it, the khodumodumo must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the khodumodumo. If the khodumodumo dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone.",
+      "attack_bonus": 11,
+      "damage_dice": "6d8+6"
+    },
+    {
+      "name": "Tongue",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 50 ft., one creature. Hit: The target is grappled (escape DC 18). Until this grapple ends, the target is restrained, and the khodumodumo can't use the same tongue on another target. In addition, at the start of each of the target's turns, the target takes 8 (1d4 + 6) piercing damage."
+    },
+    {
+      "name": "Reel",
+      "desc": "The khodumodumo pulls each creature grappled by it up to 25 feet straight toward it."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While the khodumodumo remains motionless, it is indistinguishable from an ordinary earthen hill."
+    },
+    {
+      "name": "Impaling Tongues",
+      "desc": "The khodumodumo can have up to six impaling tongues at a time. Each tongue can be attacked (AC 20; 15 hp; immunity to poison and psychic damage). Destroying a tongue deals no damage to the khodumodumo. A tongue can also be broken if a creature takes an action and succeeds on a DC 18 Strength check against it. Destroyed tongues regrow by the time the khodumodumo finishes a long rest."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 229,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_khodumodumo/"
+}

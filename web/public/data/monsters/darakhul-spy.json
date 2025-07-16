@@ -1,0 +1,113 @@
+{
+  "slug": "darakhul-spy",
+  "desc": "The eyes and ears of undead armies, darakhul spies originate from all nations and backgrounds.  \n**Masters of Disguise.** Darakhul spies are rarely without a slew of disguises, including wigs, colored pastes, cosmetics, and clothing appropriate for various nationalities and economic levels. Some of the best spies have spent decades hiding in plain sight in courts, taverns, and slums across the world.  \n**Complex Network.** Each spy has one superior to whom it reports, and each superior spy has a separate superior spy to whom it reports. Only the highest leaders have knowledge of the intricacies of the spy network, and even they aren’t fully aware of the true identities of their furthest-reaching agents.  \n_**Hungry Dead Nature.**_ The darakhul doesn’t require air or sleep.",
+  "name": "Darakhul Spy",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "armor_desc": "studded leather",
+  "hit_points": 91,
+  "hit_dice": "14d8+28",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 18,
+  "constitution": 14,
+  "intelligence": 14,
+  "wisdom": 12,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 4,
+  "skills": {
+    "deception": 5,
+    "perception": 4,
+    "stealth": 7,
+    "survival": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "necrotic",
+  "damage_immunities": "poison",
+  "condition_immunities": "charmed, exhaustion, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "Common, Darakhul",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The darakhul makes three attacks: one with its bite, one with its claw, and one with its shortsword."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage, and, if the target creature is humanoid, it must succeed on a DC 13 Constitution saving throw or contract darakhul fever.",
+      "attack_bonus": 7,
+      "damage_dice": "2d8+4"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. If the target is a creature other than an undead, it must make a successful DC 13 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a humanoid creature is paralyzed for more than 2 rounds, it contracts darakhul fever.",
+      "attack_bonus": 7,
+      "damage_dice": "2d6+4"
+    },
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "1d6+4"
+    },
+    {
+      "name": "Light Crossbow",
+      "desc": "Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "1d8+4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Evasion",
+      "desc": "If the darakhul spy is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+    },
+    {
+      "name": "Master of Disguise",
+      "desc": "A darakhul in a prepared disguise has advantage on Charisma (Deception) checks made to pass as a living creature. While using this ability, it loses its Stench."
+    },
+    {
+      "name": "Sneak Attack (1/Turn)",
+      "desc": "The darakhul spy deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the darakhul spy that isn't incapacitated and the darakhul doesn't have disadvantage on the attack roll."
+    },
+    {
+      "name": "Stench",
+      "desc": "Any creature that starts its turn within 5 feet of the darakhul must make a successful DC 13 Constitution saving throw or be poisoned until the start of its next turn. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the darakhul's Stench for the next 24 hours. A darakhul using this ability can't also benefit from Master of Disguise."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the darakhul has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "name": "Turning Defiance",
+      "desc": "The darakhul and any ghouls within 30 feet of it have advantage on saving throws against effects that turn undead."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 168,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_darakhul-spy/"
+}

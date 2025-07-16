@@ -1,0 +1,84 @@
+{
+  "slug": "malphas-tob1-2023",
+  "desc": "False",
+  "name": "Malphas",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "armor_desc": "studded leather",
+  "hit_points": 135,
+  "hit_dice": "18d8 + 54",
+  "speed": {
+    "walk": 30,
+    "fly": 40
+  },
+  "strength": 19,
+  "dexterity": 19,
+  "constitution": 16,
+  "intelligence": 14,
+  "wisdom": 13,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": 6,
+  "intelligence_save": null,
+  "wisdom_save": 4,
+  "charisma_save": null,
+  "perception": 14,
+  "skills": {
+    "Perception": 4
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "Common, Ravenfolk, Sylvan",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The malphas makes two Longsword attacks or three Shadow Bolt attacks. If both Longsword attacks hit one creature, the target must succeed on a DC 15 Constitution saving throw or be blinded until the end of its next turn, as shadows fill its eyes. A creature that can see through magical darkness has advantage on this saving throw."
+    },
+    {
+      "name": "Longsword",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 10 (3d6) necrotic damage."
+    },
+    {
+      "name": "Shadow Bolt",
+      "desc": "Ranged Spell Attack: +7 to hit, range 60 ft., one target. Hit: 14 (3d6 + 4) necrotic damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Shadow Call",
+      "desc": "When the malphas is hit by a ranged attack, it can make one Shadow Bolt attack against the attacker. The malphas doesn't have disadvantage on this attack from being within 5 feet of a hostile creature, though it may still have disadvantage from other sources."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Shadow-Infused Weapons",
+      "desc": "The malphas's weapon attacks are magical. When it hits with any weapon, the weapon deals an extra 3d6 necrotic damage (included in the attack)."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the malphas has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 262,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_malphas/"
+}

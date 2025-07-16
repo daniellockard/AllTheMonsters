@@ -1,0 +1,68 @@
+{
+  "slug": "gnarljak",
+  "desc": "_A gnarljak looks like a bear trap springs sprung to clacking life and ready to tear flesh apart._  \n**Hopping Motion.** All steel and springs, a gnarljak is easily mistaken for a simple bear trap when lying dormant. But once it starts hopping in pursuit of a target, it reveals its animated nature and its only motivation: destruction of living things.  \n**Endless Snapping.** Gnarljaks are mindless. They do not grow tired. They exist only to pull creatures to the ground and chew through them, then turn around and chew through them again.  \n**Defensive Traps.** Some try to use gnarljaks to guard treasures or booby-trap approaches to important locations, but their indiscriminate biting makes quite dangerous to their owners as well. Certain monsters such as redcaps and shadow fey use gnarljak’s with some regularity, and gnomes are very fond of making them part of a standard tunnel defense.",
+  "name": "Gnarljak",
+  "size": "Small",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 16,
+  "armor_desc": "",
+  "hit_points": 63,
+  "hit_dice": "14d6+14",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 13,
+  "dexterity": 22,
+  "constitution": 11,
+  "intelligence": 2,
+  "wisdom": 14,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": 9,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 5,
+  "skills": {
+    "perception": 5,
+    "stealth": 9
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, acid, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "necrotic, poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "blindsight 30 ft., passive Perception 15",
+  "languages": "-",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage, and the target must succeed on a DC 16 Dexterity saving throw or fall prone.",
+      "attack_bonus": 9,
+      "damage_dice": "2d8"
+    },
+    {
+      "name": "Gnaw",
+      "desc": "When a gnarljak knocks a Medium or smaller target prone, it immediately makes three additional bite attacks against the same target and can move 5 feet, all as a bonus action."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 229,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_gnarljak/"
+}

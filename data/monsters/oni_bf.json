@@ -1,0 +1,99 @@
+{
+  "slug": "oni_bf",
+  "desc": "",
+  "name": "Oni",
+  "size": "Large",
+  "type": "Giant",
+  "subtype": "Outsider",
+  "group": null,
+  "alignment": "",
+  "armor_class": 16,
+  "armor_desc": "chain mail",
+  "hit_points": 134,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "fly": 30,
+    "hover": true
+  },
+  "strength": 18,
+  "dexterity": 16,
+  "constitution": 22,
+  "intelligence": 14,
+  "wisdom": 18,
+  "charisma": 22,
+  "strength_save": 4,
+  "dexterity_save": 3,
+  "constitution_save": 6,
+  "intelligence_save": 2,
+  "wisdom_save": 4,
+  "charisma_save": 6,
+  "perception": 14,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Giant Attributes",
+  "damage_immunities": "prone",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Giant",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The oni makes two Claw or Glaive attacks, or it makes three Arcane Bolt attacks. It can replace one attack with a use of Spellcasting."
+    },
+    {
+      "name": "Claw (True Form Only)",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 13 (2d8+4) slashing damage plus 10 (3d6) force damage."
+    },
+    {
+      "name": "Glaive",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 10 ft., one target. _Hit:_ 15 (2d10+4) slashing damage, or 9 (1d10+4) slashing damage in a Medium or smaller form, plus 10 (3d6) force damage."
+    },
+    {
+      "name": "Arcane Bolt",
+      "desc": "_Ranged Spell Attack:_ +6 to hit, range 60 ft., one target. _Hit:_ 17 (4d6+3) force damage."
+    },
+    {
+      "name": "Whirling Glaive (Recharge 5-6)",
+      "desc": "The oni channels its magic into its twirling glaive, creating magical wind in a 30-foot cone. Each creature in the area must make a DC 14 STR save. On a failure, a creature takes 31 (9d6) cold damage and is pushed up to 15 feet away from the oni. On a success, a creature takes half the damage and isn't pushed."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The oni casts one of the following spells, requiring no material components and using CHA as the spellcasting ability (spell save DC 14).<br>At will: _darkness_, _invisibility_ (self only)<br>1/day each: _charm_, _gaseous form_, _sleep_"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "The oni magically transforms into a Small or Medium Humanoid, a Large ogre, or back into its true form, which is Giant. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying transforms with it, except for its glaive, which adjusts to fit its new form. If the oni dies, it reverts to its true form, and the glaive reverts to its normal size."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Empowered Weapons",
+      "desc": "The oni's weapon attacks are magical. When the oni hits with any weapon, the weapon deals an extra 3d6 force damage (included in the attack)."
+    },
+    {
+      "name": "Giant Attributes",
+      "desc": "The oni is resistant to the stunned condition."
+    },
+    {
+      "name": "Regeneration",
+      "desc": "The oni regains 10 HP at the start of its turn if it has at least 1 HP."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_oni/"
+}

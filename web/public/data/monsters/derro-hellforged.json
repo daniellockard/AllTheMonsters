@@ -1,0 +1,87 @@
+{
+  "slug": "derro-hellforged",
+  "desc": "",
+  "name": "Derro, Hellforged",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 16,
+  "armor_desc": "breastplate",
+  "hit_points": 112,
+  "hit_dice": "15d6+60",
+  "speed": {
+    "walk": 25
+  },
+  "strength": 16,
+  "dexterity": 14,
+  "constitution": 18,
+  "intelligence": 11,
+  "wisdom": 7,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": 7,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 5,
+  "perception": -2,
+  "skills": {
+    "perception": -2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold; nonmagic B/P/S attacks not made w/silvered weapons",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120', passive Perception 11",
+  "languages": "Common, Dwarvish, Infernal, Undercommon",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Battleaxe or Hurl Hellfire attacks."
+    },
+    {
+      "name": "Battleaxe",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 7 (1d8+3) slashing damage or 8 (1d10+3) slashing damage if used with two hands + 7 (2d6) fire."
+    },
+    {
+      "name": "Hurl Hellfire",
+      "desc": "Ranged Spell Attack: +5 to hit, 120 ft., one target, 12 (3d6+2) fire. If target is a creature or flammable object it ignites. Until a creature takes an action to douse the fire target takes 5 (1d10) fire at start of each of its turns."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Voice of Authority (Recharge 5-6)",
+      "desc": "When a creature hits hellforged with an attack hellforged shrieks a one-word command. Attacker must make DC 15 Wis save or carry out this command on its next turn. This reaction works like the command spell except the attacker doesn't have to understand the hellforged's language. Hellforged must see the attacker and be able to speak to use this reaction."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Insanity",
+      "desc": "Advantage on saves vs. being charmed or frightened."
+    },
+    {
+      "name": "Hellfire Weapons",
+      "desc": "Its weapon attacks are magical. When it hits with any weapon deals extra 2d6 fire (included below)."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "In sunlight disadvantage on attacks and Wis (Perception) checks that use sight."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 113,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_derro-hellforged/"
+}

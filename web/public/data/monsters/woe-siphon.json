@@ -1,0 +1,74 @@
+{
+  "slug": "woe-siphon",
+  "desc": "This flabby creature squints with beady eyes, licks its lips, and places a bone-white hand to the gaping hole punched through its chest._  \n**Miserable Visage.** Woe siphons are a sad sight when compared to their beautiful and terrible fey brethren. They appear as misshapen humanoids with translucent, glossy skin. All woe siphons possess a through-and-through hole in the chest where their heart should be. When underfed, this hole appears ragged and torn, like a fresh wound. When well-fed, a fragile layer of skin forms over the gap.  \n**Pain Gorger.** Woe siphons feed on negative emotions. To sustain themselves, many migrate to places where sentient creatures suffer in vast numbers or where historical suffering took place, such as mass graves or ancient battlefields. Particularly deadly or dangerous underground locales are common hunting grounds of the hungry woe siphon. Once inside such a place, a woe siphon inflicts suffering on any who cross its path. A favorite tactic involves invisibly stalking adventuring parties to torment their victims for as long as possible before attacking outright.",
+  "name": "Woe Siphon",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 45,
+  "hit_dice": "6d8+18",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 17,
+  "constitution": 16,
+  "intelligence": 5,
+  "wisdom": 12,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened, exhaustion",
+  "senses": "darkvision 120 ft., passive Perception 11",
+  "languages": "Common, Sylvan",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Siphoning Fist",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 5 (2d4) psychic damage. The target must succeed on a DC 13 Charisma saving throw or its hp maximum is reduced by an amount equal to the psychic damage taken. The woe siphon regains hp equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hp maximum to 0.",
+      "attack_bonus": 6,
+      "damage_dice": "1d6+4"
+    },
+    {
+      "name": "Cause Despair",
+      "desc": "The woe siphon can overwhelm a creature with intense feelings of inadequacy. One creature the woe siphon can see within 60 feet of it must succeed on a DC 13 Charisma saving throw or become overwhelmed with despair for 1 minute. A creature overwhelmed with despair has disadvantage on ability checks and attack rolls. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this woe siphon's Cause Despair for the next 24 hours."
+    },
+    {
+      "name": "Invisibility",
+      "desc": "The woe siphon magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the woe siphon wears or carries is invisible with it."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Detect Sentience",
+      "desc": "The woe siphon can magically sense the presence of creatures with an Intelligence of 5 or higher up to 1 mile away. It knows the general direction to the creatures but not their exact locations."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 373,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_woe-siphon/"
+}

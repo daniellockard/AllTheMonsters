@@ -1,0 +1,74 @@
+{
+  "slug": "avestruzii",
+  "desc": "",
+  "name": "Avestruzii",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Any Alignment",
+  "armor_class": 14,
+  "armor_desc": "scale mail",
+  "hit_points": 22,
+  "hit_dice": "3d8+9",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 14,
+  "dexterity": 10,
+  "constitution": 16,
+  "intelligence": 8,
+  "wisdom": 10,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 12",
+  "languages": "Common, Terran",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Battleaxe",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 6 (1d8+2) slashing damage or 7 (1d10+2) slashing damage if used with two hands."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 4 (1d4+2) slashing damage."
+    },
+    {
+      "name": "Shortbow",
+      "desc": "Ranged Weapon Attack: +2 to hit 80/320' one target 3 (1d6) piercing damage."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Dig In",
+      "desc": "Has resistance to one melee weapon attack that would hit it. To do so the avestruzii must see the attacker and must not have moved during its previous turn."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 48,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_avestruzii/"
+}

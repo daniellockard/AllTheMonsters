@@ -1,0 +1,75 @@
+{
+  "slug": "drudge-pitcher",
+  "desc": "",
+  "name": "Drudge Pitcher",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 168,
+  "hit_dice": "16d12+64",
+  "speed": {
+    "walk": 20,
+    "climb": 20
+  },
+  "strength": 20,
+  "dexterity": 8,
+  "constitution": 18,
+  "intelligence": 5,
+  "wisdom": 10,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "bludgeoning, piercing",
+  "damage_immunities": "necrotic",
+  "condition_immunities": "blinded, deafened, exhaustion",
+  "senses": "blindsight 60' (blind beyond), passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "10",
+  "cr": 10,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Five Vine Slams. It can make one Pitcher Swallow in place of two Vine Slams."
+    },
+    {
+      "name": "Vine Slam",
+      "desc": "Melee Weapon Attack: +9 to hit, 15 ft., one target, 12 (2d6+5) bludgeoning damage."
+    },
+    {
+      "name": "Pitcher Swallow",
+      "desc": "Melee Weapon Attack: +9 to hit, 15 ft., one target, 12 (2d6+5) bludgeoning damage + 7 (2d6) necrotic. If target is a Large or smaller creature scooped up into the pitcher (DC 16 Dex negates). A creature scooped up into a pitcher is blinded and restrained has total cover vs. attacks and other effects outside pitcher and takes 10 (3d6) necrotic at start of each of pitcher's turns. Pitcher has 4 pitchers each of which can have only one creature at a time. If pitcher takes 30+ damage on a single turn from a creature inside one of its pitchers pitcher must make DC 14 Con save at end of that turn or spill that creature out of the pitcher. Creature falls prone in a space within 5 ft. of pitcher. If pitcher dies a creature in a pitcher is no longer restrained by it and can escape using 15 ft. of movement."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Undead Creator",
+      "desc": "When a creature dies while trapped inside it's pitcher pitcher regains 11 (2d10) hp and corpse of creature rises as a zombie. This works like the animate dead spell except zombie stays under pitcher's control for 1d4 days. At end of this duration or when pitcher is destroyed corpse melts into a puddle of necrotic slime."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 161,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_drudge-pitcher/"
+}

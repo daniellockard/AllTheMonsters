@@ -1,0 +1,82 @@
+{
+  "slug": "husk_demon_bf",
+  "desc": "",
+  "name": "Husk Demon",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "group": "Demons",
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": null,
+  "hit_points": 82,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40,
+    "fly": 25
+  },
+  "strength": 12,
+  "dexterity": 20,
+  "constitution": 16,
+  "intelligence": 6,
+  "wisdom": 8,
+  "charisma": 4,
+  "strength_save": 1,
+  "dexterity_save": 5,
+  "constitution_save": 3,
+  "intelligence_save": -2,
+  "wisdom_save": -1,
+  "charisma_save": -3,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Demonic Resilience",
+  "damage_immunities": "necrotic,exhaustion,prone,Demonic Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Abyssal,Void Speech,telepathy 60 ft.",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The husk demon makes two Life Drain attacks."
+    },
+    {
+      "name": "Life Drain",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one creature. _Hit:_ 7 (1d8+3) slashing damage plus 9 (2d8) necrotic damage, and the husk demon regains HP equal to half the necrotic damage dealt. The target must succeed on a DC 15 CON save or its HP maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creatures finishes a long rest. The target dies if this effect reduces its HP maximum to 0."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Soul Feed",
+      "desc": "The husk demon feasts on the light in the soul of up to two creatures it can see within 20 feet of it, causing one of the following effects. Each target must succeed on a DC 15 CHA save or suffer the chosen effect. A creature that fails the save against Soul Feed two rounds in a row suffers one level of exhaustion.\n- **Happiness Feast.** The husk demon feasts on the target's happiness, causing the target to become crestfallen. The target has disadvantage on attack rolls until the end of its next turn.\n- **Hope Feast.** The husk demon feasts on the target's hope, causing the target to become despondent. The target has disadvantage on saves until the end of its next turn.\n- **Motivation Feast.** The husk demon feasts on the target's motivation, causing the target to lose its ambitions and become apathetic. The target's speed is halved until the end of its next turn."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Amorphous",
+      "desc": "The husk demon can move through a space as narrow as 1 inch wide without squeezing."
+    },
+    {
+      "name": "Demonic Resilience",
+      "desc": "The husk demon is resistant to cold, fire, and lightning damage. In addition, it is immune to poison damage and to the poisoned condition."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The husk demon has advantage on saves against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_husk-demon/"
+}

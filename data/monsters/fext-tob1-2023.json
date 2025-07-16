@@ -1,0 +1,90 @@
+{
+  "slug": "fext-tob1-2023",
+  "desc": "False",
+  "name": "Fext",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Any Alignment",
+  "armor_class": 17,
+  "armor_desc": "Patron’s Blessing",
+  "hit_points": 77,
+  "hit_dice": "14d8 + 14",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 14,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 14,
+  "wisdom": 12,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 4,
+  "charisma_save": null,
+  "perception": 14,
+  "skills": {
+    "Perception": 4
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "poison",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 60 ft., truesight 20 ft., passive Perception 14",
+  "languages": "the languages it knew in life",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The fext makes two Eldritch Blade or Eldritch Fury attacks."
+    },
+    {
+      "name": "Eldritch Blade",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage plus 9 (2d8) force damage."
+    },
+    {
+      "name": "Eldritch Fury",
+      "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 17 (3d8 + 4) force damage."
+    },
+    {
+      "name": "Patron's Might (Recharge 5-6)",
+      "desc": "The fext channels its patron's awe-inspiring presence, terrifying those nearby. Each creature within 10 feet of the fext must make a DC 15 Wisdom saving throw. On a failure, a creature takes 35 (10d6) psychic damage and is frightened for 1 minute. On a success, a creature takes half the damage and isn't frightened. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Eldritch Weapons",
+      "desc": "The fext's weapon attacks are magical. When the fext hits with any weapon, the weapon deals an extra 2d8 force damage (included in the attack)."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The fext has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Patron's Blessing",
+      "desc": "While the fext is conscious and wearing no armor and wielding no shield, it adds its Charisma modifier to its AC (included above)."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The fext doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 171,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_fext/"
+}

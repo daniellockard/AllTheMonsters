@@ -1,0 +1,64 @@
+{
+  "slug": "weasel_bf",
+  "desc": "",
+  "name": "Weasel",
+  "size": "Tiny",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": null,
+  "hit_points": 8,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 2,
+  "dexterity": 12,
+  "constitution": 8,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 2,
+  "strength_save": -4,
+  "dexterity_save": 1,
+  "constitution_save": -1,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -4,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one creature. _Hit:_ 3 (1d4+1) piercing damage. Instead of dealing damage, the weasel can steal one item the target is wearing or carrying, provided the item weighs no more than 5 pounds, can fit in one hand, isn't a weapon, and isn't wrapped around or firmly attached to the target. For example, a weasel could steal a hat or belt pouch but not a creature's shirt or armor."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Heightened Hearing and Smell",
+      "desc": "The weasel's Perception is 18 when perceiving by hearing or smell."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_weasel/"
+}

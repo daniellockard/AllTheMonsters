@@ -1,0 +1,85 @@
+{
+  "slug": "spawn-of-hriggala",
+  "desc": "The enormous worm bursts from the floor, its maw surrounded by writhing tentacles that grab everything edible nearby. An echo of chanting issues from its mouth, as if a hundred evil priests were trapped within its gullet, calling out maledictions._  \nThe spawn of Hriggala resembles a juvenile purple worm with a mouth surrounded by wriggling tendrils and full of razor-sharp teeth. It serves the demon lord on the Material Plane, powered by a steady diet of flesh and stone.  \n**Called by Ritual.** Servants of the undead god of hunger can call up a spawn of Hriggala through ritual and sacrifices. Controlling the hungering spawn once it arrives is another matter.  \n**Underworld Tunnelers.** The spawn of Hriggala are used to create new tunnels for fiends, darakhul, and other monsters of the underworld.  \n**Hungry Demon Nature.** The spawn of Hriggala requires no air or sleep.",
+  "name": "Spawn of Hriggala",
+  "size": "Huge",
+  "type": "Fiend",
+  "subtype": "demon",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 138,
+  "hit_dice": "12d12+60",
+  "speed": {
+    "burrow": 30,
+    "walk": 40
+  },
+  "strength": 25,
+  "dexterity": 7,
+  "constitution": 21,
+  "intelligence": 6,
+  "wisdom": 8,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 9,
+  "intelligence_save": null,
+  "wisdom_save": 3,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "poisoned",
+  "senses": "blindsight 30 ft., tremorsense 60 ft., passive Perception 9",
+  "languages": "Common, Darakhul, Void Speech",
+  "challenge_rating": "10",
+  "cr": 10,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The spawn of Hriggala makes two attacks: one with its bite and one with its tendrils."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 20 (3d8 + 7) piercing damage. If the target is a Large or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the spawn can't bite another target.",
+      "attack_bonus": 11,
+      "damage_dice": "3d8+7"
+    },
+    {
+      "name": "Tendrils",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (3d6 + 7) bludgeoning damage plus 14 (4d6) necrotic damage. If the target is a creature, it must succeed on a DC 17 Constitution saving throw or its hp maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the creature finishes a short or long rest. The creature dies if this effect reduces its hp maximum to 0. No physical trace of the creature remains when killed in this way.",
+      "attack_bonus": 11,
+      "damage_dice": "3d6+7"
+    },
+    {
+      "name": "Escape the Material",
+      "desc": "The spawn burrows at least 20 feet through natural rock and opens a portal to the plane of the undead at the end of this movement. The portal remains for 2d4 rounds. The spawn can't have more than one portal open at a time."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The spawn has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Tunneler",
+      "desc": "The spawn can move through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 89,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_spawn-of-hriggala/"
+}

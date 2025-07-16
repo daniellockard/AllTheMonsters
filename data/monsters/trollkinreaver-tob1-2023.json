@@ -1,0 +1,91 @@
+{
+  "slug": "trollkinreaver-tob1-2023",
+  "desc": "False",
+  "name": "Trollkin Reaver",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "armor_desc": "hide armor",
+  "hit_points": 82,
+  "hit_dice": "11d8 + 33",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 19,
+  "dexterity": 13,
+  "constitution": 16,
+  "intelligence": 11,
+  "wisdom": 12,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 5,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 11,
+  "skills": {
+    "Intimidation": 5,
+    "Survival": 3
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Common, Trollkin",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The trollkin raider makes one Bite attack and two Claw attacks, or it makes three Handaxe attacks. It can replace one Claw attack with a Battleaxe attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) piercing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) slashing damage."
+    },
+    {
+      "name": "Battleaxe",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
+    },
+    {
+      "name": "Handaxe",
+      "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) slashing damage."
+    },
+    {
+      "name": "Howl of Battle (Recharge 6)",
+      "desc": "The trollkin reaver howls a battle cry at up to three friendly creatures it can see within 30 feet of it. Each target can make one weapon attack as a reaction and has advantage on the attack roll."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Regeneration",
+      "desc": "The trollkin reaver regains 5 hp at the start of its turn. If the trollkin takes acid or fire damage, this trait doesn't function at the start of the trollkin's next turn. The trollkin dies if it starts its turn with 0 hp and doesn't regenerate."
+    },
+    {
+      "name": "Thick Hide",
+      "desc": "The trollkin reaver's skin is thick and tough, granting it a +1 bonus to Armor Class. This bonus is already factored into the trollkin's AC."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 371,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_trollkin-reaver/"
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "clockwork-archon",
+  "desc": "The air around this massive construct is filled with the sound of spinning gears and mechanisms. It spreads its metal wings and takes to the air in a roar of wind._  \n**Servants of the Righteous.** Clockwork archons are built to fight in the names of deities devoted to justice, battle, and glory. They stand as bulwarks upon the battlefields of the holy, offering a rallying point for paladins and crusaders. Churches that have the ability to manufacture clockwork archons guard the knowledge jealously, lest it fall into the hands of the unworthy.  \n**Engines of War.** Clockwork archons are deployed as support vehicles and weapons. A single archon can quickly reduce a small settlement’s defenses to ruin, while groups of them can swiftly render fortified structures to rubble. Armies with clockwork archons at their disposal sometimes use them to move sensitive material and personnel into position.  \n**Corruptible Constructs.** On occasion, a clockwork archon is captured by the enemy. The followers of some evil gods, archdevils, and demon lords have determined methods of overwriting the construct’s animating magic, turning the creature to their fell purposes. More than one community has had its cheer turn to dismay as the clockwork archon they freely allowed inside the walls disgorged enemy agents while attacking the structures and residents. More insidious cults use their clockwork archons to mask their true natures. They allow the common folk to believe they represent good faiths while they rot the community’s moral fabric from the inside.  \n**Construct Nature.** A clockwork archon doesn’t require air, food, drink, or sleep.",
+  "name": "Clockwork Archon",
+  "size": "Gargantuan",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 201,
+  "hit_dice": "13d20+65",
+  "speed": {
+    "walk": 30,
+    "hover": true,
+    "fly": 60
+  },
+  "strength": 24,
+  "dexterity": 9,
+  "constitution": 20,
+  "intelligence": 7,
+  "wisdom": 10,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 9,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Common",
+  "challenge_rating": "13",
+  "cr": 13,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The clockwork archon makes two attacks with its transforming weapon."
+    },
+    {
+      "name": "Transforming Weapon",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 29 (4d10 + 7) bludgeoning or slashing damage. As a bonus action, the archon can change its weapon from a sword to a hammer or vice versa, allowing it to change its damage between bludgeoning and slashing.",
+      "attack_bonus": 11,
+      "damage_dice": "4d10+7"
+    },
+    {
+      "name": "Fire from Heaven (Recharge 5-6)",
+      "desc": "The clockwork archon unleashes a brilliant beam in a 90-foot line that is 10-feet wide. Each creature in that line must make a DC 17 Dexterity saving throw, taking 58 (13d8) radiant damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Armored Transport",
+      "desc": "The clockwork archon can carry up to six Medium or eight Small creatures inside its torso. Creatures inside the archon have total cover against attacks and other effects outside the archon. The two escape hatches sit in the torso and can each be opened as a bonus action, allowing creatures in or out of the archon."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "The clockwork archon is immune to any spell or effect that would alter its form."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The clockwork archon has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "The clockwork archon deals double damage to objects and structures."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 65,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_clockwork-archon/"
+}

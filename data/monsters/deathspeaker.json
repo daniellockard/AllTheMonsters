@@ -1,0 +1,83 @@
+{
+  "slug": "deathspeaker",
+  "desc": "An ancient man in a tattered cloak with matted hair, cloudy eyes, and a deathly pallor says in a raspy voice, “Come, sit, and listen.”_  \n**Doomsayer.** The deathspeaker appears to be alive, if only barely, but it is an undead menace that attempts to engage people in conversation, eventually cursing the one who listens to it by predicting the listener’s death. The deathspeaker claims to be a seer who is granted glimpses into the future, saying it is there to advise people of the perils they face. Deathspeakers know their appearance can often be unsettling to humanoids, and many use disguises or heavy clothing to obscure their features.  \n**Evil Origins.** Deathspeakers are imparted unlife from gods of trickery and deception. Chosen from people who were charlatans in life, deathspeakers rely on their former tricks to curse the living in the names of their gods.  \n**Cadaver Sprites.** For reasons that aren’t understood, Open Game License",
+  "name": "Deathspeaker",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 97,
+  "hit_dice": "13d8+39",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 12,
+  "dexterity": 16,
+  "constitution": 17,
+  "intelligence": 18,
+  "wisdom": 12,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "deception": 8,
+    "persuasion": 8
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "any languages it knew in life",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The deathspeaker makes two rake attacks. Alternatively, it can use Necrotic Ray twice."
+    },
+    {
+      "name": "Rake",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 12 (2d8 + 3) slashing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d8+3"
+    },
+    {
+      "name": "Necrotic Ray",
+      "desc": "Ranged Spell Attack: +7 to hit, range 60 ft., one target. Hit: 10 (3d6) necrotic damage.",
+      "attack_bonus": 7,
+      "damage_dice": "3d6"
+    },
+    {
+      "name": "Pronounce Death",
+      "desc": "The deathspeaker chooses a creature it can see within 30 feet of it that has been reduced to 0 hp. The target must succeed on a DC 13 Constitution saving throw or immediately die. Creatures cursed by the Deathspeak trait have disadvantage on this saving throw."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Deathspeak",
+      "desc": "If the deathspeaker engages at least one creature in conversation for at least 1 minute, it can perform a prophetic display, reading cards, throwing bones, speaking to a crystal ball, or similar. Each creature that can see or hear the prophetic display must succeed on a DC 15 Intelligence saving throw or be cursed with the belief it will soon die. While cursed, the creature has disadvantage on attack rolls and ability checks. The curse lasts until it is lifted by a remove curse spell or similar magic, or until the deathspeaker dies. The deathspeaker can use this trait only on creatures that share at least one language with it."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 82,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_deathspeaker/"
+}

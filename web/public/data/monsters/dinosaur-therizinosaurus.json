@@ -1,0 +1,70 @@
+{
+  "slug": "dinosaur-therizinosaurus",
+  "desc": "",
+  "name": "Dinosaur, Therizinosaurus",
+  "size": "Huge",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 95,
+  "hit_dice": "10d12+30",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 21,
+  "dexterity": 9,
+  "constitution": 17,
+  "intelligence": 3,
+  "wisdom": 14,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 12",
+  "languages": "—",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two claw attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +8 to hit, 15 ft., one target, 18 (3d8+5) slashing damage and the target must make DC 16 Str save or be knocked prone."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Relentless (Recharge: Short/Long Rest)",
+      "desc": "If therizinosaurus would take 20 or less damage that would reduce it to less than 1 hp it is reduced to 1 hp instead."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 126,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_dinosaur-therizinosaurus/"
+}

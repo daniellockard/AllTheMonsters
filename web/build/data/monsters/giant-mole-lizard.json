@@ -1,0 +1,84 @@
+{
+  "slug": "giant-mole-lizard",
+  "desc": "",
+  "name": "Giant Mole Lizard",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 75,
+  "hit_dice": "10d10+20",
+  "speed": {
+    "walk": 15,
+    "burrow": 20
+  },
+  "strength": 19,
+  "dexterity": 5,
+  "constitution": 14,
+  "intelligence": 1,
+  "wisdom": 8,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -1,
+  "skills": {
+    "perception": -1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid",
+  "damage_immunities": "",
+  "condition_immunities": "prone",
+  "senses": "blindsight 10', tremorsense 60', passive Perception 9",
+  "languages": "—",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Claw attacks. It can replace one attack with use of Constricting Tail."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 11 (2d6+4) slashing damage."
+    },
+    {
+      "name": "Constricting Tail",
+      "desc": "A Large or smaller creature within 5 ft. of the lizard must make DC 12 Dex save or be grappled (escape DC 14). Until this grapple ends the target is restrained can't breathe and begins to suffocate and the giant mole lizard can't use Constricting Tail on another target."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Mass Shove",
+      "desc": "Each Large or smaller creature within 10 ft. of the giant mole lizard and that isn't grappled by it must make DC 14 Str save or be pushed up to 15 ft. away from the lizard and knocked prone."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Beast of Burden",
+      "desc": "Is considered to be a Huge Beast for the purpose of determining its carrying capacity."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "In sunlight disadvantage on attacks and Wis (Perception) checks that use sight."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 199,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_giant-mole-lizard/"
+}

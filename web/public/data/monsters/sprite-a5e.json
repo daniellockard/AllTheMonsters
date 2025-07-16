@@ -1,0 +1,85 @@
+{
+  "slug": "sprite-a5e",
+  "desc": "",
+  "name": "Sprite",
+  "size": "Tiny",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 14,
+  "armor_desc": "",
+  "hit_points": 2,
+  "hit_dice": "1d4",
+  "speed": {
+    "walk": 10,
+    "fly": 40
+  },
+  "strength": 2,
+  "dexterity": 18,
+  "constitution": 10,
+  "intelligence": 14,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "perception": 3,
+    "stealth": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 13",
+  "languages": "Common, Elvish, Sylvan",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Rapier",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 3 (1d6) poison damage. If the poison damage reduces the target to 0 hit points  the target is stable but poisoned for 1 hour  even if it regains hit points  and it is asleep while poisoned in this way."
+    },
+    {
+      "name": "Shortbow",
+      "desc": "Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 1 piercing damage plus 3 (1d6) poison damage. If the poison damage reduces the target to 0 hit points  the target is stable but poisoned for 1 hour  even if it regains hit points  and it is asleep while poisoned in this way."
+    },
+    {
+      "name": "Gust",
+      "desc": "A 30-foot cone of strong wind issues from the sprite. Creatures in the area that fail a DC 10 Strength saving throw  and unsecured objects weighing 300 pounds or less  are pushed 10 feet away from the sprite. Unprotected flames in the area are extinguished and gas or vapor is dispersed. Using Gust does not cause the sprite to become visible."
+    },
+    {
+      "name": "Heart Sight",
+      "desc": "The sprite touches a creature. The creature makes a DC 10 Charisma saving throw. On a failure  the sprite magically reads its mental state and surface thoughts and learns its alignment (if any). Celestials  fiends  and undead automatically fail the saving throw."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Invisibility",
+      "desc": "The sprite and any equipment it wears or carries magically turns invisible until the sprite attacks, becomes incapacitated, or uses a bonus action to become visible."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Faerie Light",
+      "desc": "As a bonus action, the sprite can cast dim light for 30 feet, or extinguish its glow."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 203,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_sprite/"
+}

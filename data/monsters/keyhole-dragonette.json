@@ -1,0 +1,92 @@
+{
+  "slug": "keyhole-dragonette",
+  "desc": "A wingless reptile with a long, lithe body and short, powerful legs scurries down an alley after a rat. Its pointed snout darts into the hole where its prey disappeared._  \nThe keyhole dragonette is a small, wingless dragon with flexible bands of large, overlapping scales, a pointed snout, and a wide, flat tail.  \n**Urban Exterminators.** Keyhole dragonettes were magically bred to be adept at entering closed-off or hard-to-reach places. Their original purpose was to seek out and destroy nests of rats and other city-dwelling vermin, but they regularly find themselves employed as living lockpicks. Their sensitivity to vibrations helps them find prey no matter where it is hidden, and their long, deft tongues enable them to pick even the most complex of locks. Dragonettes have difficulty delineating between pests and pets, and they sometimes consume the furry companions of the people whose homes they are ridding of vermin.  \n**Big Eaters.** Belying their small frames, keyhole dragonettes have voracious appetites and can consume a variety of foods. Aside from meat, they enjoy fruits, nuts, and vegetables. Keyhole dragonettes with easy access to sugary foods often develop a sweet tooth.  \n**Loyal Companions.** Guards, wilderness scouts, and rogues of all types often see the value in taking a keyhole dragonette as a companion. Young dragonettes are easy to train and eagerly bond with people, quickly becoming steadfast friends with their caretakers. If the person a dragonette has bonded to dies or leaves, the dragonette becomes despondent. The depression can last for years if something doesn’t occur to lift the creature’s spirits.",
+  "name": "Keyhole Dragonette",
+  "size": "Tiny",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 27,
+  "hit_dice": "6d4+12",
+  "speed": {
+    "climb": 20,
+    "walk": 30
+  },
+  "strength": 12,
+  "dexterity": 15,
+  "constitution": 14,
+  "intelligence": 7,
+  "wisdom": 10,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2,
+    "stealth": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., tremorsense 30 ft., passive Perception 12",
+  "languages": "Common, Draconic",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d6+2"
+    },
+    {
+      "name": "Scale Slash",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4+2"
+    },
+    {
+      "name": "Soporific Breath (Recharge 5-6)",
+      "desc": "The dragonette exhales a cloud of sleep gas in a 15-foot cone. Each creature in the area must succeed on a DC 12 Constitution saving throw or fall unconscious for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Compress",
+      "desc": "The dragonette can squeeze through a space as narrow as 1 inch wide."
+    },
+    {
+      "name": "Leaping Withdraw",
+      "desc": "The dragonette's long jump is up to 20 feet, and its high jump is up to 10 feet, with or without a running start. If the dragonette leaps out of a creature's reach, it doesn't provoke opportunity attacks."
+    },
+    {
+      "name": "Tongue Pick",
+      "desc": "The dragonette can use its tongue to pick locks and disarm traps, as if its tongue was a set of thieves' tools. It is proficient in using its tongue in this way."
+    },
+    {
+      "name": "Vermin Hunter",
+      "desc": "Swarms of beasts don't have resistance to piercing and slashing damage from the dragonette. In addition, as a bonus action, the dragonette can use Scale Slash against a swarm of beasts occupying its space."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 180,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_keyhole-dragonette/"
+}

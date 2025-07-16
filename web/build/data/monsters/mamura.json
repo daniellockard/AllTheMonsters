@@ -1,0 +1,97 @@
+{
+  "slug": "mamura",
+  "desc": "_This tiny monstrosity combines the worst elements of a dead frog and a rotting fish. Its slimy, scaly, vaguely humanoid form has three clawed arms arranged radially about its body. Its slimy green bat‑like wings seem too small to work, yet it flies very well._  \n**Twisted Field Sprites.** Mamuras are the twisted faeries of magical wastelands and barren plains. They were once goodaligned, pixie-like fey called “polevoi,” or “field sprites,” but at some point they swore their souls to a dark goddess and were corrupted by her foul magic. Now they are twisted, alien things.  \n**Cross-Dimensional.** The mamura is one degree out of phase with the usual five dimensions. As a result, it always appears blurry and indistinct even in bright light, and it seems translucent in dim light.  \nMamuras babble constantly, but their talk is mostly nonsense. Their minds operate in multiple dimensions in time as well as space, and this allows them to talk to creatures of the Realms Beyond. Because of this, their babble may be prophetic, but only few can decipher it.  \n**Prophetic Followers.** They occasionally align themselves with powerful goblin tribes or evil wasteland sorcerers for their own unknowable purposes.",
+  "name": "Mamura",
+  "size": "Small",
+  "type": "Aberration",
+  "subtype": "fey",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 97,
+  "hit_dice": "13d6+52",
+  "speed": {
+    "walk": 20,
+    "fly": 30
+  },
+  "strength": 8,
+  "dexterity": 18,
+  "constitution": 19,
+  "intelligence": 17,
+  "wisdom": 11,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": 7,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 6,
+  "perception": 6,
+  "skills": {
+    "acrobatics": 7,
+    "perception": 6,
+    "stealth": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 16",
+  "languages": "Common, Elvish, Goblin, Sylvan, Void Speech",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The mamura makes three claw attacks and one whiptail sting attack."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, range 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, and the target must succeed on a DC 15 Constitution saving throw or be poisoned for 1 round. The poison duration is cumulative with multiple failed saving throws.",
+      "attack_bonus": 7,
+      "damage_dice": "1d8"
+    },
+    {
+      "name": "Whiptail Stinger",
+      "desc": "Melee Weapon Attack: +7 to hit, range 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage, and the target must succeed on a DC 15 Constitution saving throw or take 1d6 poison damage. If the target is also poisoned by the mamura's claws, it takes another 1d6 poison damage at the start of each of its turns while the poisoning remains in effect.",
+      "attack_bonus": 7,
+      "damage_dice": "1d8"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "All-Around Vision",
+      "desc": "Attackers never gain advantage on attacks or bonus damage against a mamura from the presence of nearby allies."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The mamura has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Friend to Darkness",
+      "desc": "In darkness or dim light, the mamura has advantage on Stealth checks. It can attempt to hide as a bonus action at the end of its turn if it's in dim light or darkness."
+    },
+    {
+      "name": "Distraction",
+      "desc": "Because of the mamura's alien and forbidding aura, any spellcaster within 20 feet of the mamura must make a successful DC 14 spellcasting check before casting a spell; if the check fails, they lose their action but not the spell slot. They must also make a successful DC 14 spellcasting check to maintain concentration if they spend any part of their turn inside the aura."
+    },
+    {
+      "name": "Flyby",
+      "desc": "The mamura doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 284,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_mamura/"
+}

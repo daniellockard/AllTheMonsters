@@ -1,0 +1,82 @@
+{
+  "slug": "ngobou",
+  "desc": "_This ill-tempered, six-horned creature resembles a triceratops the size of an ox, with pairs of horns atop its nose and brows, as well as great tusks jutting from each side of its mouth._  \n_**Hatred of Elephants.**_ Ngobous are ox-sized dinosaurs often at war with elephants over territory. Ngobous are irascible and suspicious by nature, prone to chasing after any creature that stays too long inside its territory. They also become aggressive when they can see or smell elephants. Even old traces of elephants’ scent are sufficient to trigger an ngobou’s rage.  \n_**Poor Beasts of War.**_ Grasslands tribes sometimes try to train ngobous as beasts of burden or war, but most have given up on the ill-tempered animals; their behavior is too erratic, especially if elephants are nearby or have been in the area recently.  \n_**Trample Crops.**_ Ngobou herds can smash entire crops flat in minutes—and their horns can tear through a herd of goats or cattle in little time as well.",
+  "name": "Ngobou",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 85,
+  "hit_dice": "10d10+30",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 20,
+  "dexterity": 9,
+  "constitution": 16,
+  "intelligence": 2,
+  "wisdom": 9,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 5,
+  "skills": {
+    "perception": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 15",
+  "languages": "-",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Gore",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 38 (6d10 + 5) piercing damage.",
+      "attack_bonus": 8,
+      "damage_dice": "6d10"
+    },
+    {
+      "name": "Stomp",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one prone creature. Hit: 18 (3d8 + 5) bludgeoning damage.",
+      "attack_bonus": 8,
+      "damage_dice": "3d8"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Trampling Charge",
+      "desc": "If the ngobou moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the ngobou can make one stomp attack against it as a bonus action."
+    },
+    {
+      "name": "Elephants' Bane",
+      "desc": "The ngobou has advantage on attacks against elephants. It can detect by scent whether an elephant has been within 180 feet of its location anytime in the last 48 hours."
+    },
+    {
+      "name": "Spikes",
+      "desc": "A creature that grapples an ngobou takes 9 (2d8) piercing damage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 115,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_ngobou/"
+}

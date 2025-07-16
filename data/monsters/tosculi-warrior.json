@@ -1,0 +1,89 @@
+{
+  "slug": "tosculi-warrior",
+  "desc": "The tosculi are a race of wasp-folk that share the Golden Song of the hive, which unites them under the command and iron rule of their queen. Each hive has its own song, and most tosculi hives are predatory, dangerous places—quick to turn to banditry, cattle theft, and raiding against small villages.  \nThose few tosculi who do not hear their queen’s Golden Song are the Hiveless, driven out of the embrace of the hive to attempt survive on their own.  \nTosculi warriors are overseers of work crews and battle groups of drones, directing activities and relaying commands from higher up in the hive mind. They are entirely subservient to the hivequeen’s orders, but if ordered to act independently or to follow their own best judgment, they’re capable of doing so. Warriors are almost never encountered without drones, and tower over them. They stand 4 to 5 feet tall and weigh up to 70 pounds.  \n**Host Finders.** The warriors’ most important role in the hive, however, is procuring live hosts for tosculi eggs to hatch in. Creatures paralyzed by warriors are brought to the queen’s chamber to have eggs implanted in them. An egg hatches in 1d6 weeks, and the ravenous larva devours its still-living (but mercifully unconscious) host.",
+  "name": "Tosculi Warrior",
+  "size": "Small",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 58,
+  "hit_dice": "9d6+27",
+  "speed": {
+    "walk": 20,
+    "fly": 60
+  },
+  "strength": 12,
+  "dexterity": 20,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 12,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Tosculi",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The tosculi warrior makes one bite attack, one claws attack, and one stinger attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 7 (1d4 + 5) piercing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "1d4"
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d4 + 5) slashing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d4"
+    },
+    {
+      "name": "Stinger",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 7 (1d4 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw against poison or be paralyzed for 1 minute. A paralyzed target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+      "attack_bonus": 7,
+      "damage_dice": "1d4"
+    },
+    {
+      "name": "Prepare Host",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one paralyzed creature. Hit: 10 (2d4 + 5) piercing damage, and the target is paralyzed for 8 hours. The paralysis can be ended with a successful DC 20 Wisdom (Medicine) check or by a spell or magical effect that cures disease. (Because only paralyzed creatures can be targeted, a hit by this attack is automatically a critical hit; bonus damage is included in the damage listing.)",
+      "attack_bonus": 7,
+      "damage_dice": "2d4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Skittering",
+      "desc": "Up to two tosculi can share the same space at one time. The tosculi has advantage on attack rolls while sharing its space with another tosculi that isn't incapacitated."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 386,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_tosculi-warrior/"
+}

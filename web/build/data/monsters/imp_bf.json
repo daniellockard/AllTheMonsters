@@ -1,0 +1,86 @@
+{
+  "slug": "imp_bf",
+  "desc": "",
+  "name": "Imp",
+  "size": "Tiny",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "group": "Devils",
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 31,
+  "hit_dice": "",
+  "speed": {
+    "walk": 20,
+    "fly": 40
+  },
+  "strength": 6,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 12,
+  "charisma": 18,
+  "strength_save": -2,
+  "dexterity_save": 3,
+  "constitution_save": 1,
+  "intelligence_save": 0,
+  "wisdom_save": 1,
+  "charisma_save": 4,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Devilish Resilience",
+  "damage_immunities": "Devilish Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft.",
+  "languages": "Infernal,Common",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Slam (Beast Form Only)",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 10 (2d6+3) bludgeoning, piercing, or slashing damage (based on the type of damage dealt by the Beast form's primary attack, such as Bite)."
+    },
+    {
+      "name": "Sting (True Form Only)",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 5 (1d4+3) piercing damage, and the target must make a DC 12 CON save, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "name": "Invisibility (True Form Only)",
+      "desc": "The imp magically turns invisible until it attacks or uses Change Shape, or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "The imp magically transforms into a Medium or smaller Beast that has a CR no higher than its own or back into its true form, which is a Fiend. Without wings, it loses its flying speed. Its statistics, other than its size and speed, are the same in each form. Any equipment it is wearing or carrying transforms with it. It reverts to its true form if it dies."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the imp's darkvision."
+    },
+    {
+      "name": "Devilish Resilience",
+      "desc": "The devil is resistant to cold damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks. In addition, it is immune to fire damage and poison damage and to the poisoned condition."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The imp has advantage on saves against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_imp/"
+}

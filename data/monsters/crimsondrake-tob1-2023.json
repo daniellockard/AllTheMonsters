@@ -1,0 +1,84 @@
+{
+  "slug": "crimsondrake-tob1-2023",
+  "desc": "False",
+  "name": "Crimson Drake",
+  "size": "Tiny",
+  "type": "Dragon",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 45,
+  "hit_dice": "10d4 + 20",
+  "speed": {
+    "walk": 80,
+    "fly": 15
+  },
+  "strength": 10,
+  "dexterity": 14,
+  "constitution": 14,
+  "intelligence": 8,
+  "wisdom": 9,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": 4,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 11,
+  "skills": {
+    "Acrobatics": 4,
+    "Perception": 1
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "fire",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Common, Draconic",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The crimson drake makes one Bite attack and one Stinger attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 3 (1d6) fire damage."
+    },
+    {
+      "name": "Stinger",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. If the saving throw fails by 5 or more, the target takes 2 (1d4) poison damage at the start of each of its turns while poisoned. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Fire Breath (Recharge 6)",
+      "desc": "The drake exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "name": "Familiar",
+      "desc": "The drake can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the drake senses as long as they are within 1 mile of each other. While the drake is within 10 feet of its companion, the companion shares the drake's Magic Resistance trait. At any time and for any reason, the drake can end its service as a familiar, ending the telepathic bond."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The drake has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 141,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_crimson-drake/"
+}

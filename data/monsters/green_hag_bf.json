@@ -1,0 +1,97 @@
+{
+  "slug": "green_hag_bf",
+  "desc": "",
+  "name": "Green Hag",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": "Hags",
+  "alignment": "",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 76,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 12,
+  "wisdom": 14,
+  "charisma": 22,
+  "strength_save": 4,
+  "dexterity_save": 1,
+  "constitution_save": 3,
+  "intelligence_save": 1,
+  "wisdom_save": 2,
+  "charisma_save": 6,
+  "perception": 14,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Fey Resilience",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Sylvan",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The hag makes two Claw or Torment attacks. If two attacks hit one creature, the target must succeed on a DC 14 WIS save or be overwhelmed with pain and have disadvantage on attack rolls until the end of its next turn."
+    },
+    {
+      "name": "Claw",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 13 (2d8+4) slashing damage."
+    },
+    {
+      "name": "Torment",
+      "desc": "_Ranged Spell Attack:_ +6 to hit, range 60 ft., one target. _Hit:_ 14 (3d6+4) psychic damage."
+    },
+    {
+      "name": "Poisonous Allies (1/Day)",
+      "desc": "The hag magically calls 1 **giant spider**, 2 **giant poisonous snakes**, or 2d4 **poisonous snakes**. They arrive in 1d4 rounds, acting as allies of the hag and obeying its spoken commands. The creatures remain for 1 hour, until the hag dies, or until the hag dismisses them as a bonus action."
+    },
+    {
+      "name": "Invisible Passage",
+      "desc": "The hag magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). While invisible, it leaves no physical evidence of its passage and can be tracked only by magic. Any equipment it wears or carries is invisible with it."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The hag casts one of the following spells, requiring no material components and using CHA as the spellcasting ability (spell save DC 14).<br>At will: _dancing lights_, _minor illusion_<br>1/day: _bestow curse_"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Illusory Appearance",
+      "desc": "The hag covers itself and anything it is wearing or carrying with a magical illusion that makes it look like another creature of its general size and Humanoid shape. The illusion ends if the hag takes a bonus action to end it or if the hag dies.<br>The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching it would feel its rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 INT (Investigation) check to discern that the hag is disguised."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The hag can breathe air and water."
+    },
+    {
+      "name": "Fey Resilience",
+      "desc": "The hag is resistant to the charmed and unconscious conditions."
+    },
+    {
+      "name": "Mimicry",
+      "desc": "The hag can mimic Animal sounds and Humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 WIS (Insight) check. Speak with Beasts. The hag can communicate with Beasts as if they shared a language."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_green-hag/"
+}

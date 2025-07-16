@@ -1,0 +1,84 @@
+{
+  "slug": "demon-inciter",
+  "desc": "",
+  "name": "Demon, Inciter",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 27,
+  "hit_dice": "5d8+5",
+  "speed": {
+    "walk": 30,
+    "fly": 30
+  },
+  "strength": 10,
+  "dexterity": 15,
+  "constitution": 12,
+  "intelligence": 11,
+  "wisdom": 12,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, fire, lightning",
+  "damage_immunities": "poisoned",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 11",
+  "languages": "Abyssal, Common",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Claw attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 5 (1d6+2) piercing damage."
+    },
+    {
+      "name": "Inspire Violence (Recharge 5-6)",
+      "desc": "Wispers to a creature within 5 ft. of it that can hear it stoking paranoia and hatred. The creature must make DC 13 Cha save or it uses its next action to make one attack vs. a creature that both target and inciter demon can see. A creature immune to being charmed isn't affected by inciter demon's Inspire Violence."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Invisibility",
+      "desc": "Magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment it wears or carries is invisible with it."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amorphous",
+      "desc": "Move through space 1ft.+ wide with o squeezing."
+    },
+    {
+      "name": "Aura of Distrust",
+      "desc": "Radiates a psychic aura that causes creatures to doubt intentions of their friends. Each creature within 30' of inciter that isn't a Fiend has disadvantage on Wis (Insight) checks. When a creature enters aura's area for the first time on a turn or starts its turn there that creature: DC 13 Cha save. Fail: any spell cast by creature can't affect allies or friendly creatures including spells already in effect such as bless while it remains in the aura. In addition creature can't use Help action or accept assistance from a friendly creature including assistance from spells such as bless or cure wounds while it remains in aura."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 108,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_demon-inciter/"
+}

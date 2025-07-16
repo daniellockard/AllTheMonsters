@@ -1,0 +1,72 @@
+{
+  "slug": "cave-ogre-a5e",
+  "desc": "",
+  "name": "Cave Ogre",
+  "size": "Large",
+  "type": "Giant",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 119,
+  "hit_dice": "14d10+42",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 19,
+  "dexterity": 8,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Common, Giant",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Greatclub",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage  and if the target is a Medium or smaller creature  it makes a DC 14 Strength saving throw  falling prone on a failure."
+    },
+    {
+      "name": "Sweeping Strike",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft.  all creatures within 5 feet. Hit: 8 (1d8 + 4) bludgeoning damage  and if the target is a Medium or smaller creature  it makes a DC 14 Strength saving throw. On a failure  it is pushed 10 feet away from the ogre."
+    },
+    {
+      "name": "Javelin",
+      "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Elite Recovery",
+      "desc": "At the end of each of its turns while bloodied, the ogre can end one condition or effect on itself. It can do this even when unconscious or incapacitated."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 347,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_cave-ogre/"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "juniper-sheriff",
+  "desc": "",
+  "name": "Juniper Sheriff",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Neutral",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 31,
+  "hit_dice": "7d6+7",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 7,
+  "dexterity": 16,
+  "constitution": 13,
+  "intelligence": 12,
+  "wisdom": 17,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "perception": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 15",
+  "languages": "Common, Sylvan",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Saber",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 7 (1d8+3) slashing damage."
+    },
+    {
+      "name": "Bitter Truth",
+      "desc": "Ranged Spell Attack: +5 to hit, 60 ft., one target, 8 (2d4+3) psychic and target: disad- vantage on next save vs. sheriff's Aura of Honesty for next 1 min."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Hop Away",
+      "desc": "Takes the Dash or Disengage action."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Aura of Honesty",
+      "desc": "Creature that enters space within 10 ft. of sheriff for 1st time on a turn or starts turn there: DC 13 Cha save or be unable to speak deliberate lie until it starts its turn more than 10 ft. away from sheriff. Creatures affected by this are aware of it and sheriff knows whether creature in area succeeded/failed save."
+    },
+    {
+      "name": "Sheriff's Duty",
+      "desc": "Knows if it hears a lie and can't speak deliberate lie."
+    },
+    {
+      "name": "Unfailing Memory",
+      "desc": "Remembers every creature that has ever spoken to it. If creature has spoken to sheriff and speaks to sheriff again while polymorphed or disguised sheriff has advantage on Int (Investigation) Wis (Insight) and Wis (Perception) checks to identify or recognize that creature."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 248,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_juniper-sheriff/"
+}

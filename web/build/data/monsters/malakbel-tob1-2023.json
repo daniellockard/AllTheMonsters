@@ -1,0 +1,86 @@
+{
+  "slug": "malakbel-tob1-2023",
+  "desc": "False",
+  "name": "Malakbel",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 102,
+  "hit_dice": "12d8 + 48",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 14,
+  "dexterity": 17,
+  "constitution": 19,
+  "intelligence": 13,
+  "wisdom": 16,
+  "charisma": 20,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 7,
+  "charisma_save": null,
+  "perception": 17,
+  "skills": {
+    "Perception": 7
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "fire, radiant, poison",
+  "condition_immunities": "blinded, poisoned",
+  "senses": "truesight 30 ft., passive Perception 17",
+  "languages": "Abyssal, telepathy 120 ft.",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The malakbel makes two Scorching Blast attacks."
+    },
+    {
+      "name": "Scorching Blast",
+      "desc": "Melee or Ranged Spell Attack: +9 to hit, reach 5 ft. or range 120 ft., one target. Hit: 18 (3d8 + 5) fire damage."
+    },
+    {
+      "name": "Searing Flare (Recharge 5-6)",
+      "desc": "The malakbel intensifies the heat and light it sheds to withering levels. Each creature in the bright light shed by the malakbel's Blistering Radiance trait must make a DC 16 Constitution saving throw. On a failure, a creature takes 13 (3d8) fire damage and 22 (4d10) radiant damage and suffers one level of exhaustion. On a success, a creature takes half the damage and doesn't suffer exhaustion."
+    },
+    {
+      "name": "Teleport",
+      "desc": "The malakbel magically teleports, along with any equipment it is wearing or carrying, up to 100 feet to an unoccupied space it can see."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Blistering Radiance",
+      "desc": "The malakbel sheds searing, bright light in a 30-foot radius and dim light for an additional 30 feet. At the start of each of the malakbel's turns, each creature in the bright light shed by the malakbel takes 11 (2d10) radiant damage. If any of the bright light overlaps with an area of darkness created by a spell of 3rd level or lower, the spell creating the darkness is dispelled."
+    },
+    {
+      "name": "Distortion",
+      "desc": "Ranged attacks against the malakbel are made with disadvantage."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The malakbel has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 13,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_malakbel/"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "mbielu-tob1-2023",
+  "desc": "False",
+  "name": "Mbielu",
+  "size": "Huge",
+  "type": "Beast",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 76,
+  "hit_dice": "8d12 + 24",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 19,
+  "dexterity": 14,
+  "constitution": 16,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 13,
+  "skills": {
+    "Perception": 3
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "passive Perception 13",
+  "languages": "—",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Tail",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 20 (3d10 + 4) bludgeoning damage plus 2 (1d4) poison damage. If the target is a Large or smaller creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+    },
+    {
+      "name": "Rumbling Bellow (Recharge 5-6)",
+      "desc": "The mbielu releases a deep bellow that vibrates within the bodies of those nearby. Each creature within 15 feet of the mbielu must make a DC 13 Constitution saving throw, taking 18 (4d8) thunder damage on a failed save, or half as much damage on a successful one. If a creature poisoned by the mbielu's Toxic Skin fails this saving throw, it is also incapacitated until the end of its next turn as the combined vibrations and hallucinations disorient it."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Hold Breath",
+      "desc": "The mbielu can hold its breath for 30 minutes."
+    },
+    {
+      "name": "Toxic Skin",
+      "desc": "A creature that touches the mbielu or hits it with a melee attack while within 5 feet of it takes 2 (1d4) poison damage and must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, a creature has disadvantage on Intelligence, Wisdom, and Charisma saving throws as it experiences mild hallucinations. The poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 101,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_mbielu/"
+}

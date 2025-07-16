@@ -1,0 +1,84 @@
+{
+  "slug": "primal-oozer",
+  "desc": "This nightmarish quadruped has many wolf-like features—including its physique, its powerful claws, and its lupine countenance—but its hairless skin is a thick layer of bluish-white slime. Four tentacles ending in barbed tips protrude from its jawline, and its eyes glow red. It makes a sickening gurgling sound when it growls._  \n**Natives of the Swamp.** Primal oozers are amphibious natives to swamps and wetlands. They often make their lairs in the root systems of massive trees where the soil beneath has been washed away. They can also be found in flooded ruins, wet riversides, or in the water itself. They are savage, deadly, and delight in killing.  \n**Kinship with Mydnari.** Primal oozers have a natural kinship with Open Game License",
+  "name": "Primal Oozer",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 112,
+  "hit_dice": "15d8+45",
+  "speed": {
+    "walk": 30,
+    "climb": 10,
+    "swim": 20
+  },
+  "strength": 18,
+  "dexterity": 13,
+  "constitution": 16,
+  "intelligence": 6,
+  "wisdom": 15,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": 4,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "piercing",
+  "damage_immunities": "acid",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "understands Common but can’t speak",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The primal oozer makes two bite attacks. If both attacks hit the same target, the target must make a DC 15 Constitution saving throw. On a failure, the target takes 7 (2d6) acid damage and contracts a disease (see the Ooze Plague trait). On a success, the target takes half the damage and doesn't contract a disease."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.",
+      "attack_bonus": 7,
+      "damage_dice": "2d6+4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Acidic Slime",
+      "desc": "A creature that touches the primal oozer or hits it with a melee attack while within 5 feet of it takes 3 (1d6) acid damage."
+    },
+    {
+      "name": "Ooze Plague",
+      "desc": "The primal oozer's barbed tentacles inject the ooze plague disease into a creature if the creature fails its saving throw after being bitten twice in a row by the oozer. Until the disease is cured, the infected creature's skin slowly becomes more ooze-like, and its hp maximum decreases by 5 (2d4) for every 24 hours that elapse. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hp maximum to 0. A humanoid slain by this disease rises 24 hours later as an ochre jelly. The jelly isn't under the primal oozer's control, but it views the primal oozer as an ally."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The primal oozer has advantage on attack rolls against a creature if at least one of the primal oozer's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    },
+    {
+      "name": "Slimy Body",
+      "desc": "The primal oozer has advantage on ability checks and saving throws made to escape a grapple."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 297,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_primal-oozer/"
+}

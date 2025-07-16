@@ -1,0 +1,87 @@
+{
+  "slug": "shadow-fey",
+  "desc": "_“Kind words open even iron doors.”_ \n _—Twilight, a courtier to the shadow fey_  \nTo most, the shadow fey are little more than a dancing shadow among the leaves. To savants, they are the creatures that taught the shadowdancers all they know, and kept many secrets to themselves. They were once elves like all others, dwelling in mortal lands beneath the sun. An ancient catastrophe drove them to darkness, and now they are creatures of the shadow. Though they can be found on the Material Plane, they are inextricably tied to the plane of Shadows, and that is the seat of their power and culture.  \nShadow fey superficially resemble other elves, but they’re rarely mistaken for their lighted cousins. Skin tones among the shadow fey range from alabaster white to ebony black, with varying shades of gray in between, but they are otherwise lacking in color. A few have a scintillating shimmer to their skin. Many shadow fey grow horns that sweep out from their hair, varying in size from subtle nubs to obvious spikes. Others have shocking sets of teeth.  \n**Dual Natured.** The shadow fey are contradictory beings. They boast some of the best features of elves, tempered by aspects of a fouler nature. They can be deliberate and purposeful, but they’re also given to perplexing whimsy. Mortal creatures trying to fathom shadow fey motivations are in for a maddening experience; they are often illogical, capricious, and seemingly thrive on annoying others.  \n**Split Rulership.** The Summer Court and Winter Court each rule the shadow fey in the appropriate season. The turning of these seasons follows no clear calendar or schedule, though it is skewed toward summer.  \nOther fey call them the Scáthsidhe (pronounced scAH-shee), or shadow faeries, and they are usually counted among the unseelie, though they would dispute that characterization. They simply call themselves part of the sidhe, and consider themselves an extension of the Seelie Court.  \n**The Reach of Darkness.** Their bond with darkness allows the shadow fey to slip through distant spaces, traversing darkness itself from one place to another. Not only can every shadow fey slip from a shadow or patch of darkness to instantly appear elsewhere, they also control the mysterious and powerful shadow roads. Shadow roads are magical pathways that connect points on the Material Plane by dipping through the plane of shadow, allowing rapid and completely secret travel for the fey—and more importantly, for their weapons of war, their trade goods, and their allies.  \nThe shadow fey all have an instinctive understanding of how a shadow road functions, and they are adept at both operating the entrance portals and navigating any hazards on the road. This bond with darkness has a price, of course, and the shadow fey shun the sun’s light.",
+  "name": "Shadow Fey",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "elf",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 15,
+  "armor_desc": "chain shirt",
+  "hit_points": 31,
+  "hit_dice": "7d8",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 11,
+  "wisdom": 11,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "arcana": 2,
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "Common, Elvish, Umbral",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d6"
+    },
+    {
+      "name": "Shortbow",
+      "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Fey Ancestry",
+      "desc": "The shadow fey has advantage on saving throws against being charmed, and magic can't put it to sleep."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "the shadow fey's innate spellcasting ability is Charisma. It can cast the following spells innately, requiring no material components.\n\n1/day: misty step (when in shadows, dim light, or darkness only)"
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the shadow fey has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "name": "Traveler in Darkness",
+      "desc": "The shadow fey has advantage on Intelligence (Arcana) checks made to know about shadow roads and shadow magic spells or items."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 171,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_shadow-fey/"
+}

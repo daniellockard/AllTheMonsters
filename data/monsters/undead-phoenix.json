@@ -1,0 +1,83 @@
+{
+  "slug": "undead-phoenix",
+  "desc": "",
+  "name": "Undead Phoenix",
+  "size": "Huge",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 142,
+  "hit_dice": "15d12+45",
+  "speed": {
+    "fly": 90,
+    "walk": 30
+  },
+  "strength": 23,
+  "dexterity": 14,
+  "constitution": 17,
+  "intelligence": 8,
+  "wisdom": 17,
+  "charisma": 9,
+  "strength_save": 10,
+  "dexterity_save": null,
+  "constitution_save": 7,
+  "intelligence_save": null,
+  "wisdom_save": 7,
+  "charisma_save": null,
+  "perception": 7,
+  "skills": {
+    "perception": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "necrotic, fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 17",
+  "languages": "-",
+  "challenge_rating": "12",
+  "cr": 12,
+  "actions": [
+    {
+      "desc": "The undead phoenix makes three attacks: two with its claws and one with its decaying bite.",
+      "name": "Multiattack"
+    },
+    {
+      "attack_bonus": 10,
+      "damage_dice": "4d6+6",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 20 (4d6 + 6) slashing damage.",
+      "name": "Claws"
+    },
+    {
+      "attack_bonus": 10,
+      "damage_dice": "2d8+6",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage plus 14 (4d6) necrotic damage. The target must succeed on a DC 15 Constitution saving throw or be cursed with perpetual decay. The cursed target can't regain hp until the curse is lifted by the remove curse spell or similar magic.",
+      "name": "Decaying Bite"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "desc": "A living creature that starts its turn within 10 feet of the undead phoenix can't regain hp and has disadvantage on Constitution saving throws until the start of its next turn.",
+      "name": "Bilious Aura"
+    },
+    {
+      "desc": "If it dies, the undead phoenix reverts into a pile of necrotic-tainted ooze and is reborn in 24 hours with all of its hp. Only killing it with radiant damage prevents this trait from functioning.",
+      "name": "Eternal Unlife"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 361,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "cc",
+  "document__title": "Creature Codex",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/",
+  "v2_converted_path": "/v2/creatures/ccdx_undead-phoenix/"
+}

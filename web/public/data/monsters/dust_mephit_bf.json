@@ -1,0 +1,83 @@
+{
+  "slug": "dust_mephit_bf",
+  "desc": "",
+  "name": "Dust Mephit",
+  "size": "Small",
+  "type": "Elemental",
+  "subtype": "",
+  "group": "Mephits",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 27,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "fly": 30,
+    "hover": true
+  },
+  "strength": 4,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 6,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": -3,
+  "dexterity_save": 2,
+  "constitution_save": 0,
+  "intelligence_save": -2,
+  "wisdom_save": 1,
+  "charisma_save": 0,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "fire,thunder",
+  "damage_resistances": "",
+  "damage_immunities": "lightning,poison,poisoned,prone",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Auran,Terran",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Claws",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 4 (1d4+2) slashing damage, and the target loses 2 (1d4) HP at the start of its next turn, as sand and grit irritate the wound."
+    },
+    {
+      "name": "Dust Blast",
+      "desc": "_Ranged Weapon Attack:_ +4 to hit, range 20/60 ft., one target. _Hit:_ 4 (1d4+2) bludgeoning damage, and the target loses 2 (1d4) HP at the start of its next turn, as sand and grit irritate the wound."
+    },
+    {
+      "name": "Blinding Breath (Recharge 6)",
+      "desc": "The mephit exhales blinding dust in a 15-foot cone. Each creature in that area must make a DC 11 DEX save. On a failure, a creature takes 5 (2d4) bludgeoning damage and is blinded for 1 minute. On a success, a creature takes half the damage and isn't blinded. A blinded creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Sandman's Call (1/Day)",
+      "desc": "The mephit casts the sleep spell (spell save DC 11), requiring no material components and using WIS as the spellcasting ability."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Death Burst",
+      "desc": "When the mephit dies, it explodes in a burst of dust. Each creature within 5 feet of it must succeed on a DC 11 DEX save or be blinded for 1 minute. A blinded creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While the mephit remains motionless and hovering, it is indistinguishable from an ordinary cloud of dust."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_dust-mephit/"
+}

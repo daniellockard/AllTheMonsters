@@ -1,0 +1,69 @@
+{
+  "slug": "pixies-umbrella",
+  "desc": "A Dozens of flat, purple-capped mushrooms float and spin through the air._  \nHuge colonies of pixie’s umbrellas inhabit the Underworld. When they sense danger, they fill their caps to gain height then release the air, using the flattened caps to slow their descent.  \n**Migrating Fungus.** Their ability to float allows pixie’s umbrellas to make homes on hard-to-reach surfaces, frustrating those who enjoy the mushrooms’ bitter flesh. The ground beneath wall- and cliff-dwelling pixie’s umbrellas is sometimes littered with the skeletal remains of starving travelers who fell in their desperate attempts to gather food.  \n**Dizzying Drifters.** Witnessing the migration of a colony of pixie’s umbrellas can be fascinating to those who enjoy watching large numbers of the mushrooms float from cavern to cavern. Intelligent Underworld hunters sometimes use the migration of pixie’s umbrellas to mask their approach, counting on the display to distract their prey.",
+  "name": "Pixie’s Umbrella",
+  "size": "Small",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 7,
+  "armor_desc": null,
+  "hit_points": 10,
+  "hit_dice": "4d4",
+  "speed": {
+    "walk": 5
+  },
+  "strength": 1,
+  "dexterity": 5,
+  "constitution": 10,
+  "intelligence": 1,
+  "wisdom": 5,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "blinded, deafened, frightened",
+  "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 7",
+  "languages": "—",
+  "challenge_rating": "1/8",
+  "cr": 0.125,
+  "actions": [
+    {
+      "name": "Twirl",
+      "desc": "The pixie's umbrella twirls, spinning its spores at nearby creatures. Each creature within 5 feet of the pixie's umbrella must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one. If the saving throw fails by 5 or more, the target is also poisoned until the end of its next turn."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Float",
+      "desc": "When a pixie's umbrella senses motion within 30 feet of it, it fills its cap with air and flies 20 feet away from the motion without provoking opportunity attacks."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While the pixie's umbrella remains motionless, it is indistinguishable from an ordinary fungus."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 158,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_pixies-umbrella/"
+}

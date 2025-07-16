@@ -1,0 +1,91 @@
+{
+  "slug": "nkosipridelord-tob1-2023",
+  "desc": "False",
+  "name": "Nkosi Pridelord",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Shapechanger)",
+  "armor_class": 16,
+  "armor_desc": "studded leather in Humanoid form",
+  "hit_points": 82,
+  "hit_dice": "15d8 + 15",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 18,
+  "dexterity": 18,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 10,
+  "skills": {
+    "Survival": 2
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Common (can’t speak in lion form)",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The pridelord makes three Bite or Mambele attacks. It can replace one attack with a use of Pridelord's Roar, if available."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+    },
+    {
+      "name": "Mambele (Humanoid Form Only)",
+      "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d6 + 4) piercing damage or 11 (2d6 + 4) piercing damage if used to make a melee attack."
+    },
+    {
+      "name": "Pridelord's Roar (Recharge 4-6)",
+      "desc": "Each nkosi of the pridelord's choice within 30 feet of it that can hear it has advantage on the next attack roll it makes before the start of the pridelord's next turn."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "The pridelord transforms into a Large lion or back into its true form, which is Humanoid. Its statistics, other than its size, speed, and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Brute",
+      "desc": "A melee weapon deals one extra die of its damage when the pridelord hits with it (included in the attack)."
+    },
+    {
+      "name": "Keen Smell",
+      "desc": "The nkosi has advantage on Wisdom (Perception) checks that rely on smell."
+    },
+    {
+      "name": "Pounce",
+      "desc": "If the nkosi moves at least 20 feet straight toward a creature and then hits it with a Mambele attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the nkosi can make one Bite attack against it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 286,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_nkosi-pridelord/"
+}

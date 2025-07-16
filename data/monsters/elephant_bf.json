@@ -1,0 +1,77 @@
+{
+  "slug": "elephant_bf",
+  "desc": "",
+  "name": "Elephant",
+  "size": "Huge",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "natural armor",
+  "hit_points": 105,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 20,
+  "dexterity": 8,
+  "constitution": 16,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": 5,
+  "dexterity_save": -1,
+  "constitution_save": 3,
+  "intelligence_save": -4,
+  "wisdom_save": 0,
+  "charisma_save": -2,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "prone",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The elephant makes two Gore attacks."
+    },
+    {
+      "name": "Gore",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 16 (2d10+5) piercing damage."
+    },
+    {
+      "name": "Stomp",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one prone creature. _Hit:_ 14 (2d8+5) bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Trunk Grab",
+      "desc": "The elephant grabs one Large or smaller creature within 10 feet of it. The target must succeed on a DC 15 STR save or be grappled (escape DC 15). The elephant can grapple only one creature at a time."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Trampling Charge",
+      "desc": "If the elephant moves at least 20 feet straight toward a creature and then hits it with a Gore attack on the same turn, that target must succeed on a DC 15 STR save or be knocked prone. If the target is prone, the elephant can make one Stomp attack against it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_elephant/"
+}

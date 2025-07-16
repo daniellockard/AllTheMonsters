@@ -1,0 +1,70 @@
+{
+  "slug": "dragon-prismatic-wyrmling",
+  "desc": "",
+  "name": "Dragon, Prismatic Wyrmling",
+  "size": "Medium",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 39,
+  "hit_dice": "6d8+12",
+  "speed": {
+    "walk": 30,
+    "climb": 15
+  },
+  "strength": 15,
+  "dexterity": 10,
+  "constitution": 15,
+  "intelligence": 14,
+  "wisdom": 12,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": 2,
+  "constitution_save": 4,
+  "intelligence_save": null,
+  "wisdom_save": 3,
+  "charisma_save": 3,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "radiant",
+  "condition_immunities": "blinded",
+  "senses": "blindsight 10', darkvision 60', passive Perception 15",
+  "languages": "Draconic",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 7 (1d10+2) piercing damage."
+    },
+    {
+      "name": "Light Beam (Recharge 5-6)",
+      "desc": "The prismatic dragon emits a beam of white light in a 30' line that is 5 ft. wide. All in line make a DC 12 Dex save taking 18 (4d8) radiant on a failed save or half damage if made."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "Int (DC 12) no material components: At will: dancing lights1/day ea: charm person color spray"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 140,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_dragon-prismatic-wyrmling/"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "ravenfolk-doom-croaker",
+  "desc": "_While a huginn’s face resembles that of a great raven or crow, it lacks wings and has a much more solid frame. Most are pitch black, although a smattering have white feathers and red flecks._  \nThe ravenfolk are an avian race of scoundrels, schemers, and sneaks—and they are much more than that. Long ago when Odin brokered the truce that brought peace among the gods, the wily deity magically created the ravenfolk from feathers plucked from his ravens Huginn (Thought) and Muninn (Memory.) He placed this new race into the world alongside elves, dwarves, humans, and others to be his spies.  \n**Odin’s Children.** To this day, the ravenfolk are Odin’s agents and embody his thought and memory. They are thieves of objects, yes, but primarily, they are thieves of secrets. Their black feathers and long beaks are spotted on the road from place to place, trading information or helping to hatch plots. They are widely viewed as spies, informers, thieves, and troublemakers, but when the ravenfolk swear an oath, they abide by it.  \nOdin grants the best of his ravenfolk magical runespears and runestaves, two-handed heavy weapons enchanted to serve his messengers. These function as long spears or quarterstaves in the hands of other races. The ravenfolk consider them special tokens meant for their use, and no one else’s.  \n_**Flightless but Bold.**_ Though they have no wings and normally cannot fly, the physiology of ravenfolk is strikingly similar to that of true avians. They stand roughly 5 ft. tall and, because of their hollow bones, weigh just 95-105 lb. Albino ravenfolk are found in southern climates.  \nRavenfolk eat almost anything, but they prefer raw meat and field grains, such as corn, soy, and alfalfa. They even scavenge days-old carrion, a practice that repulses most other humanoids.  \n_**Feather Speech.**_ The huginn have their own language, and they have another language which they may use as well: the language of feathers, also known as Feather Speech or Pinion. Ravenfolk can communicate volumes without speaking a word through the dyeing, arrangement, preening, and rustling of their plumage. This language is inherent to ravenfolk and not teachable to unfeathered races.",
+  "name": "Ravenfolk Doom Croaker",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "kenku",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "armor_desc": "studded leather armor",
+  "hit_points": 88,
+  "hit_dice": "16d8+16",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 14,
+  "constitution": 12,
+  "intelligence": 12,
+  "wisdom": 18,
+  "charisma": 14,
+  "strength_save": 3,
+  "dexterity_save": 5,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 7,
+  "charisma_save": null,
+  "perception": 10,
+  "skills": {
+    "perception": 10
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft., passive Perception 20",
+  "languages": "Common, Feather Speech, Huginn",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Ghost Wings",
+      "desc": "The ravenfolk doom croaker furiously \"beats\"a set of phantasmal wings. Every creature within 5 feet of the ravenfolk must make a successful DC 13 Dexterity saving throw or be blinded until the start of the ravenfolk's next turn."
+    },
+    {
+      "name": "Radiant Runestaff",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d8) bludgeoning damage plus 4 (1d8) radiant damage.",
+      "attack_bonus": 3,
+      "damage_dice": "1d8"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Mimicry",
+      "desc": "Ravenfolk doom croakers can mimic the voices of others with uncanny accuracy. They have advantage on Charisma (Deception) checks involving audible mimicry."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The doom croaker has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "the doom croaker's innate spellcasting ability is Wisdom (spell save DC 15). It can innately cast the following spells, requiring no material components:\n\nat will: comprehend languages\n\n3/day each: counterspell, fear, phantom steed\n\n1/day each: blight, call lightning, clairvoyance, insect plague\n\n1/week: legend lore"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 324,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_ravenfolk-doom-croaker/"
+}

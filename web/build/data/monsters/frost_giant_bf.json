@@ -1,0 +1,89 @@
+{
+  "slug": "frost_giant_bf",
+  "desc": "",
+  "name": "Frost Giant",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "group": "Giants",
+  "alignment": "",
+  "armor_class": 14,
+  "armor_desc": "hide armor",
+  "hit_points": 166,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 22,
+  "dexterity": 14,
+  "constitution": 26,
+  "intelligence": 8,
+  "wisdom": 16,
+  "charisma": 18,
+  "strength_save": 6,
+  "dexterity_save": 2,
+  "constitution_save": 8,
+  "intelligence_save": -1,
+  "wisdom_save": 3,
+  "charisma_save": 4,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "Giant Attributes",
+  "damage_resistances": "blinded,Giant Attributes",
+  "damage_immunities": "cold",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "Common,Giant",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The giant makes two Icy Greataxe or Ice Boulder attacks."
+    },
+    {
+      "name": "Icy Greataxe",
+      "desc": "_Melee Weapon Attack:_ +9 to hit, reach 10 ft., one target. _Hit:_ 25 (3d12+6) slashing damage plus 4 (1d8) cold damage."
+    },
+    {
+      "name": "Ice Boulder",
+      "desc": "_Ranged Weapon Attack:_ +6 to hit, range 60/240 ft., one target. _Hit:_ 18 (3d10+2) bludgeoning damage plus 9 (2d8) cold damage."
+    },
+    {
+      "name": "Avalanche (Recharge 5-6)",
+      "desc": "The frost giant sends out a wave of snow in a 30-foot cone. Each creature in that area must make a DC 16 DEX save. On a failure, a creature takes 14 (4d6) bludgeoning damage and 18 (4d8) cold damage and is buried. On a success, a creature takes half the damage and isn't buried. A buried creature is restrained and unable to breathe or stand up. A creature, including the buried creature, can take its action to free the buried creature by succeeding on a DC 16 STR check."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Wintry Blast",
+      "desc": "A blast of wintry air extends in a 30-foot line that is 5 feet wide from the frost giant's outstretched hand. Each creature in the line must succeed on a DC 16 CON save or its speed is halved until the end of its next turn. A creature that fails the save by 5 or more is petrified in ice for 1 hour or until a creature spends 1 minute warming the petrified creature."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Giant Attributes",
+      "desc": "The frost giant is resistant to the stunned condition, and it is vulnerable to the prone condition."
+    },
+    {
+      "name": "Ice Walk",
+      "desc": "The frost giant can move across icy surfaces without needing to make an ability check. In addition, difficult terrain composed of ice or snow doesn't cost it extra movement."
+    },
+    {
+      "name": "Snowsight",
+      "desc": "The frost giant can see through areas obscured by snowfall, sleet, and other wintry precipitation without penalty."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_frost-giant/"
+}

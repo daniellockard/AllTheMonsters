@@ -1,0 +1,101 @@
+{
+  "slug": "murgrik",
+  "desc": "This reptilian creature is built like an alligator with two extra mouths: one affixed to a stalk between its eyes and one toothy maw stretched over its belly. A batlike membrane connects its forelimbs to its body, and a tail made up of a dozen spinning tentacles propels the abomination in flight._  \n**Marshy Nightmares.** Murgriks are consummate hunters and prefer to prey on intelligent creatures. They relish the fear their appearance provokes, and they augment this fear by generating terrifying wails from the stalks on their heads. Once they smell blood, they relentlessly attack and pursue prey until they or their prey die.  \n**Corrupted Alligators.** Occasionally, deep parts of swamps cross planar boundaries into the Abyss. Those who study murgriks believe the creatures are ordinary alligators warped by their proximity to that plane. Their cruelty and preference for intelligent prey both lend credence to the notion that the Abyssa has influenced their mutations.  \n**Afraid of Herons.** The only known way to deter a murgrik from attacking is to introduce a heron, real or illusory. The reason a murgrik retreats from herons is a mystery, but it may point to the existence of a demonic bird that preys on murgriks.",
+  "name": "Murgrik",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 152,
+  "hit_dice": "16d10+64",
+  "speed": {
+    "swim": 40,
+    "fly": 20,
+    "walk": 40
+  },
+  "strength": 23,
+  "dexterity": 10,
+  "constitution": 18,
+  "intelligence": 6,
+  "wisdom": 14,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "athletics": 10,
+    "perception": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 16",
+  "languages": "understands Deep Speech but can’t speak",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The murgrik makes three attacks: one with its bite and two with its tentacles."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage.",
+      "attack_bonus": 10,
+      "damage_dice": "2d8+6"
+    },
+    {
+      "name": "Tentacles",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 9 (1d6 + 6) bludgeoning damage. The target is grappled (escape DC 18) if it is a Medium or smaller creature and the murgrik doesn't have two other creatures grappled. Until this grapple ends, the target is restrained.",
+      "attack_bonus": 10,
+      "damage_dice": "1d6+6"
+    },
+    {
+      "name": "Stomach Maw",
+      "desc": "The murgrik makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outside the murgrik, and it takes 14 (4d6) acid damage at the start of each of the murgrik's turns. The murgrik can only have one creature swallowed at a time.\n\nIf the murgrik takes 20 damage or more on a single turn from the swallowed creature, the murgrik must succeed on a DC 14 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 5 feet of the murgrik. If the murgrik dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone."
+    },
+    {
+      "name": "Unsettling Ululations (Recharge 6)",
+      "desc": "The stalk on the murgrik's head unleashes a dispiriting wail. Each creature within 30 feet of the murgrik that can hear it must make a DC 14 Wisdom saving throw. On a failure, a creature takes 21 (6d6) psychic damage and is frightened for 1 minute. On a success, a creature takes half the damage and isn't frightened. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Blood Frenzy",
+      "desc": "The murgrik has advantage on melee attack rolls against any creature that doesn't have all its hp."
+    },
+    {
+      "name": "Hold Breath",
+      "desc": "The murgrik can hold its breath for 30 minutes."
+    },
+    {
+      "name": "Keen Scent",
+      "desc": "The murgrik has advantage on Wisdom (Perception) checks that rely on smell."
+    },
+    {
+      "name": "Tentacle Flight",
+      "desc": "The murgrik flies by spinning its tentacles. If it is grappling a creature with its tentacles, its flying speed is halved."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 263,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_murgrik/"
+}

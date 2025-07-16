@@ -1,0 +1,83 @@
+{
+  "slug": "akaasit",
+  "desc": "A cloud of unconnected, flat gray triangles in the vague shape of a mantis flickers unpredictably from one position to another, clicking softly as its arm blades swing outward. Akaasits are constructed beings from a plane destroyed by a catastrophic misuse of time magic. They were altered by this catastrophe and now exist in the present and in fractions of a second in the past and future._  \n**Mindless.** The akaasit has no mind, at least as understood by denizens of the Material Plane, and its motives are inscrutable. Each akaasit is always found moving toward some unknown destination. It may attack other creatures, or it may ignore them. It protects itself if attacked, but rarely does an akaasit pursue a retreating foe.  \n**Unknown Origin.** The home of the akaasit is unknown, but they are often encountered in areas touched or altered by time magic. Although a few wizards have discovered magical methods of summoning them, none have found a way to control or communicate with them. Akaasits seem to be drawn to spellcasters with some mastery of time magic, though it is always a gamble if an individual akaasit will protect or ruthlessly attack such a spellcaster. An akaasit’s demeanor can change each day, and many time magic spellcasters have been found slain by the same akaasit that faithfully protected them the day prior.  \n**Dispersed Destruction.** If an akaasit is destroyed, it falls apart into a pile of gray triangles. These triangles fade out of existence over the next ten minutes, leaving only the akaasit’s two armblades.  \n**Construct Nature.** The akaasit doesn’t require air, food, drink, or sleep.",
+  "name": "Akaasit",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 91,
+  "hit_dice": "14d8+28",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 13,
+  "dexterity": 18,
+  "constitution": 14,
+  "intelligence": 3,
+  "wisdom": 10,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "piercing",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "blinded, charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "truesight 60 ft., passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The akaasit makes two arm blade attacks."
+    },
+    {
+      "name": "Arm Blade",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage plus 3 (1d6) force damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d8+4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Time-Assisted Counterattack",
+      "desc": "The akaasit's awareness of the near future allows it to see attacks before they happen. When a creature the akaasit can see attacks it while within 5 feet of it, the akaasit can attack the creature before the creature's attack hits. The akaasit makes a single arm blade attack against the creature. If the creature is reduced to 0 hp as a result of the akaasit's attack, the creature's attack doesn't hit the akaasit."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Immutable Form",
+      "desc": "The akaasit is immune to any spell or effect that would alter its form."
+    },
+    {
+      "name": "Unfixed in Time",
+      "desc": "To those properly fixed in time, the akaasit flickers in and out of time, its position never fully clear. Attack rolls against the akaasit have disadvantage. If it is hit by an attack, this trait ceases to function until the start of its next turn."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The akaasit has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 11,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_akaasit/"
+}

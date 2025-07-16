@@ -1,0 +1,87 @@
+{
+  "slug": "desert-slime",
+  "desc": "",
+  "name": "Desert Slime",
+  "size": "Large",
+  "type": "Ooze",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 8,
+  "armor_desc": "",
+  "hit_points": 75,
+  "hit_dice": "10d10+20",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 17,
+  "dexterity": 6,
+  "constitution": 14,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "acid, fire",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+  "senses": "blindsight 60' (blind beyond), passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Pseudopod",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 7 (1d8+3) bludgeoning damage + 10 (3d6) acid."
+    },
+    {
+      "name": "Mire",
+      "desc": "One creature in slime's space must make a DC 13 Dex save. If a creature fails the save by 5+ it is restrained and knocked prone. Otherwise creature that fails the save is restrained and slime steadily creeps up the creature dissolving and consuming its flesh. The restrained creature must re-save at end of each of turns being pulled prone on a failure. A restrained creature takes 10 (3d6) acid at start of each of slime's turns. If restrained creature is also prone it is unable to breathe or cast spells with verbal components. Slime can have only one creature mired at a time and a mired creature moves with the slime when it moves. A creature including a restrained target can take its action to pull the restrained creature out of the slime by succeeding on a DC 13 Str check. The creature making the attempt takes 10 (3d6) acid."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Surging Sands (Recharge 4-6)",
+      "desc": "Takes the Dash action."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amorphous",
+      "desc": "Move through space 1ft.+ wide with o squeezing."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from ordinary sand."
+    },
+    {
+      "name": "Ooze Nature",
+      "desc": "Doesn't require sleep."
+    },
+    {
+      "name": "Sandy Ooze",
+      "desc": "Can occupy another creature's space and vice versa. Its space is difficult terrain for creatures traveling through it."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 115,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_desert-slime/"
+}

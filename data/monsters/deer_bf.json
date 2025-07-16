@@ -1,0 +1,64 @@
+{
+  "slug": "deer_bf",
+  "desc": "",
+  "name": "Deer",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 8,
+  "hit_dice": "",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 10,
+  "intelligence": 2,
+  "wisdom": 14,
+  "charisma": 4,
+  "strength_save": 0,
+  "dexterity_save": 3,
+  "constitution_save": 0,
+  "intelligence_save": -4,
+  "wisdom_save": 2,
+  "charisma_save": -3,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "frightened",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Kick",
+      "desc": "_Melee Weapon Attack:_ +2 to hit, reach 5 ft., one creature. _Hit:_ 2 (1d4) bludgeoning damage, and if the target is a Large or smaller creature, it must succeed on a DC 10 STR save or be knocked prone."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Skittish",
+      "desc": "The deer takes the Dash or Disengage action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_deer/"
+}

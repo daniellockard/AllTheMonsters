@@ -1,0 +1,102 @@
+{
+  "slug": "sasquatch",
+  "desc": "A tall, ape-like creature walks upright, its arms ending in heavy fists. The creature’s lips curl back, revealing long, pointed teeth set in a powerful jaw._  \nSasquatches are large beasts that stalk deep forests and other densely wooded areas. They are bipedal primates that stand about nine feet tall and are covered in black, brown, or red fur.  \n**Famously Elusive.** Many people claim to have seen a sasquatch, but almost none have proof of their interaction with the beast, creating questions about the creature’s existence. Skeptics claim sasquatch sightings are simply misidentified bears, apes, or similar creatures. Many sages and hunters journey deep into forests, hoping to find proof sasquatches exist and returning only with a handful of fur that could belong to almost any animal. In truth sasquatches are solitary nocturnal creatures that generally avoid confrontation. They prefer to stay in the shadows of the forest, dining on vegetation and insects while staying clear of other creatures.  \n**Hidden Lairs.** Sasquatches are smart enough to hide the entrances to their lairs with heavy boulders, underbrush, fallen trees, a waterfall, or some other obstruction that appears to be a natural part of the terrain. They hide gathered food and shiny trinkets they find in the forest in these cozy homes, where they rest during daylight hours.  \n**Aggressive When Provoked.** Though sasquatches prefer to avoid confrontation, they fight savagely when cornered or if another creature threatens their home or food source. Their powerful fists and teeth make formidable weapons. Sasquatches do not hesitate to initiate a conflict when threatened.  \n**Attracted and Soothed by Music.** There are some who claim sasquatches are drawn and calmed by music, particularly songs with a lullaby-like quality. These tales come with a warning: stopping the song before the sasquatch is lulled to sleep by its melody causes the beast to go into a violent rage.",
+  "name": "Sasquatch",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 119,
+  "hit_dice": "14d10+42",
+  "speed": {
+    "climb": 40,
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 16,
+  "intelligence": 4,
+  "wisdom": 12,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 4,
+  "skills": {
+    "perception": 4,
+    "stealth": 8
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "—",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The sasquatch makes three attacks: one with its bite and two with its fists."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "1d6+4"
+    },
+    {
+      "name": "Fist",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d6+4"
+    },
+    {
+      "name": "Rock",
+      "desc": "Melee Weapon Attack: +7 to hit, range 20/60 ft., one target. Hit: 15 (2d10 + 4) bludgeoning damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d10+4"
+    },
+    {
+      "name": "Vanishing Tantrum (Recharge 5-6)",
+      "desc": "The sasquatch roars and stomps, kicking up debris and leaving deep footprints in the ground. Each creature within 20 feet of it must make a DC 14 Dexterity saving throw, taking 14 (4d6) thunder damage on a failed save, or half as much damage on a successful one. The sasquatch can then move up to half its speed without provoking opportunity attacks and take the Hide action as a bonus action."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Hearing and Smell",
+      "desc": "The sasquatch has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "name": "Plant Camouflage",
+      "desc": "The sasquatch has advantage on Dexterity (Stealth) checks it makes in any terrain with ample obscuring plant life."
+    },
+    {
+      "name": "Relentless (Recharges after a Short or Long Rest)",
+      "desc": "If the sasquatch takes 25 damage or less that would reduce it to 0 hp, it is reduced to 1 hp instead."
+    },
+    {
+      "name": "Reckless",
+      "desc": "At the start of its turn, the sasquatch can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 58,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_sasquatch/"
+}

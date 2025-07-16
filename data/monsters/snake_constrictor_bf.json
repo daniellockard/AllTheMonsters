@@ -1,0 +1,69 @@
+{
+  "slug": "snake_constrictor_bf",
+  "desc": "",
+  "name": "Snake, Constrictor",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 15,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 14,
+  "dexterity": 14,
+  "constitution": 12,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 2,
+  "strength_save": 2,
+  "dexterity_save": 2,
+  "constitution_save": 1,
+  "intelligence_save": -5,
+  "wisdom_save": 0,
+  "charisma_save": -4,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "keensense 10 ft.",
+  "languages": "-",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one creature. _Hit:_ 5 (1d6+2) piercing damage."
+    },
+    {
+      "name": "Constrict",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one creature. _Hit:_ 6 (1d8+2) bludgeoning damage, and the target is grappled (escape DC 12), if it is a Large or smaller creature. Until this grapple ends, the creature is restrained, and the snake can't Constrict another target."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Crush",
+      "desc": "One creature grappled by the snake must succeed on a DC 12 STR or take 4 (1d8) bludgeoning damage and begin suffocating. The creature continues suffocating until the grapple ends."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_snake-constrictor/"
+}

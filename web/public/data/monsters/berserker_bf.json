@@ -1,0 +1,72 @@
+{
+  "slug": "berserker_bf",
+  "desc": "",
+  "name": "Berserker",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Any Lineage",
+  "group": "NPCs",
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "hide armor",
+  "hit_points": 60,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 8,
+  "wisdom": 10,
+  "charisma": 8,
+  "strength_save": 4,
+  "dexterity_save": 1,
+  "constitution_save": 3,
+  "intelligence_save": -1,
+  "wisdom_save": 0,
+  "charisma_save": -1,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "any one language (usually Common)",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The berserker makes two Greataxe attacks."
+    },
+    {
+      "name": "Greataxe",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 10 (1d12+4) slashing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Reckless",
+      "desc": "At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls it makes during that turn, but attack rolls against it have advantage until the start of its next turn."
+    },
+    {
+      "name": "Stalwart",
+      "desc": "If the berserker starts its turn afflicted by an ongoing effect that allows for a repeated save to end the effect, such as the hold spell or the poison from an ettercap's Bite, the gladiator can make the save at the start of the turn instead of the end and has advantage on the save."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_berserker/"
+}

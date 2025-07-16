@@ -1,0 +1,86 @@
+{
+  "slug": "stormboar",
+  "desc": "A massive, green-scaled boar snorts angrily as tiny bolts of blue lightning ripple over its body._  \n**Accidental Arcane Creations.** An evoker who raised hogs to fund their wild experiments, accidentally blew up their tower years ago. The explosion created a horrific storm that raged for days in the region, causing the locals to take shelter. When the storm dissipated, the wizard and their tower were gone, but the hogs had been transformed into scaled beasts that harnessed the power of lightning and thunder.  \n**Storm’s Fury.** Stormboars embody the fury of the storm. Just as stubborn and ferocious as their more mundane cousins, stormboars let no obstacle get in their way while they look for food or protect their offspring. Seasoned hunters know to drop an offering of metal behind as they leave the area to ensure the boar is too distracted to follow them.  \n**Metal Devourers.** Stormboars crave metal. Prospectors track the boars to find areas rich with precious minerals and ore, and treasure hunters use the creatures to sniff out hidden vaults of wealth. Anyone relying on a stormboar must be careful, however. The boars see any creature wearing or carrying metal as the deliverer of an easy meal. The aggressive creatures won’t stop attacking until they’ve consumed every bit of metal an unfortunate traveler is carrying. Starving stormboars have been known to venture into civilized areas for a meal.",
+  "name": "Stormboar",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 95,
+  "hit_dice": "10d10+40",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 19,
+  "dexterity": 12,
+  "constitution": 18,
+  "intelligence": 3,
+  "wisdom": 10,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "lightning, thunder",
+  "condition_immunities": "",
+  "senses": "passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Tusk",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage and 11 (2d10) lightning damage. In addition, nonmagical metal armor worn by the target is partly devoured by the boar and takes a permanent and cumulative -2 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.",
+      "attack_bonus": 7,
+      "damage_dice": "2d6+4"
+    },
+    {
+      "name": "Lightning Run (Recharge 6)",
+      "desc": "The boar becomes a bolt of living lightning and moves up to its speed without provoking opportunity attacks. It can move through creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage and is pushed to the closest unoccupied space if it ends its turn inside an object. Each creature in the boar's path must make a DC 15 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "name": "Thunder Leap (Recharge 6)",
+      "desc": "The boar moves up to 20 feet, jumping over obstacles in its way. Difficult terrain doesn't cost it extra movement when it leaps. Each creature within 10 feet of the boar when it leaps and each creature within 10 feet of where it lands must make a DC 15 Constitution saving throw. On a failure, a creature takes 16 (3d10) thunder damage and is pushed up to 10 feet away from the boar. On a success, a creature takes half the damage and isn't pushed."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Iron Scent",
+      "desc": "The boar can pinpoint, by scent, the location of ferrous metal within 60 feet of it."
+    },
+    {
+      "name": "Lightning Hide",
+      "desc": "A creature that touches the boar or hits it with a melee attack while within 5 feet of it takes 5 (2d4) lightning damage."
+    },
+    {
+      "name": "Relentless (Recharges after a Short or Long Rest)",
+      "desc": "If the boar takes 15 damage or less that would reduce it to 0 hp, it is reduced to 1 hp instead."
+    },
+    {
+      "name": "Thunder Charge",
+      "desc": "If the boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 11 (2d10) thunder damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 341,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_stormboar/"
+}

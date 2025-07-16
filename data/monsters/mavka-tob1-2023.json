@@ -1,0 +1,96 @@
+{
+  "slug": "mavka-tob1-2023",
+  "desc": "False",
+  "name": "Mavka",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 170,
+  "hit_dice": "20d8 + 80",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 20,
+  "dexterity": 15,
+  "constitution": 18,
+  "intelligence": 13,
+  "wisdom": 13,
+  "charisma": 18,
+  "strength_save": 9,
+  "dexterity_save": 6,
+  "constitution_save": 8,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 8,
+  "perception": 15,
+  "skills": {
+    "Athletics": 9,
+    "Nature": 5,
+    "Perception": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 90 ft., passive Perception 15",
+  "languages": "Abyssal, Common, Infernal, Sylvan",
+  "challenge_rating": "12",
+  "cr": 12,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The mavka makes two Enervating Slam attacks or three Necrotic Bolt attacks. If she is riding a nightmare, the nightmare can then make one Hooves attack. If both Enervating Slam attacks hit one creature, the mavka regains hp equal to the total necrotic damage dealt by both attacks."
+    },
+    {
+      "name": "Enervating Slam",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 23 (4d8 + 5) bludgeoning damage plus 16 (3d10) necrotic damage."
+    },
+    {
+      "name": "Necrotic Bolt",
+      "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit: 26 (4d10 + 4) necrotic damage."
+    },
+    {
+      "name": "Flame Burst (Recharge 5-6)",
+      "desc": "While riding a nightmare, the mavka channels her power into her mount, causing its fiery light to burn those nearby. Each creature within 20 feet of the mavka must make a DC 16 Dexterity saving throw, taking 54 (12d8) fire damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The mavka casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 16):\nAt will: create or destroy water, dancing lights\n3/day each: darkness, hold person, silence\n1/day each: bestow curse, dispel magic"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Mounted Warrior",
+      "desc": "While the mavka is mounted, her mount can't be charmed or frightened."
+    },
+    {
+      "name": "Nightmare Mount",
+      "desc": "The mavka has formed a bond with a nightmare. The nightmare acts as a controlled mount while carrying the mavka, obeying the mavka's spoken commands. Mounting and dismounting the nightmare costs the mavka only 5 feet of movement."
+    },
+    {
+      "name": "Sunlight Hypersensitivity",
+      "desc": "The mavka takes 20 radiant damage when she starts her turn in sunlight. While in sunlight, she has disadvantage on attack rolls and ability checks."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The mavka doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 265,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_mavka/"
+}

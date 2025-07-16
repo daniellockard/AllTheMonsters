@@ -1,0 +1,88 @@
+{
+  "slug": "wind-witch",
+  "desc": "",
+  "name": "Wind Witch",
+  "size": "Large",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 66,
+  "hit_dice": "12d8+12",
+  "speed": {
+    "walk": 30,
+    "fly": 60
+  },
+  "strength": 6,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 6,
+  "wisdom": 11,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": 5,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing",
+  "damage_immunities": "",
+  "condition_immunities": "exhaustion, poisoned, prone",
+  "senses": "blindsight 60' (blind beyond), passive Perception 12",
+  "languages": "understands Common but can't speak",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Slam attacks or one Slam attack and uses Capture."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 7 (1d8+ 3) bludgeoning damage and 4 (1d8) piercing damage."
+    },
+    {
+      "name": "Capture",
+      "desc": "Envelopes one up to Med creature in its space. Target: DC 13 Dex save or restrained inside wind witch. Restrained target can't be hit by wind witch's Slam but takes 5 (2d4) piercing damage if it takes action that requires movement (ex: attack or cast somatic spell). When it moves captured creature moves with it. Can have only one creature captured at a time. Creature within 5 ft. of wind witch can use action to pull restrained creature out via DC 13 Str check; creature trying: 5 (2d4) piercing damage."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Bouncy Escape",
+      "desc": "When it takes damage from a melee attack can move up to half its fly speed. This move doesn't provoke opportunity attacks. It releases a captured creature when it uses this."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Cursed Plant",
+      "desc": "If damage reduces it to 0 hp becomes inanimate tumbleweed and travels via wind. Regains 5 hp every hr regaining consciousness after the first. This doesn't function if it took fire on same round it was reduced to 0 hp or if its body was destroyed."
+    },
+    {
+      "name": "Flammable",
+      "desc": "When it takes fire damage catches fire taking 3 (1d6) fire at start of each of its turns. Burns until it takes cold or is immersed in water. Creature that touches wind witch or hits it with melee attack while within 5 ft. of it while it is burning takes 3 (1d6) fire. While burning deals extra 3 (1d6) fire on each melee attack and deals 7 (2d6) fire to a captured creature at start of its turn."
+    },
+    {
+      "name": "Tumbleweed Form",
+      "desc": "Can enter hostile creature's space and stop there."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 393,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_wind-witch/"
+}

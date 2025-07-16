@@ -1,0 +1,94 @@
+{
+  "slug": "ratatosk-tob1-2023",
+  "desc": "False",
+  "name": "Ratatosk",
+  "size": "Tiny",
+  "type": "Celestial",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 14,
+  "armor_desc": "",
+  "hit_points": 42,
+  "hit_dice": "12d4 + 12",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 4,
+  "dexterity": 18,
+  "constitution": 12,
+  "intelligence": 17,
+  "wisdom": 10,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 2,
+  "charisma_save": 6,
+  "perception": 10,
+  "skills": {
+    "Deception": 6,
+    "Persuasion": 6,
+    "Stealth": 6
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Celestial, Common, telepathy 100 ft.",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The ratatosk makes two Gore or Annoying Chitter attacks. It can replace one attack with a use of Divisive Chatter, if available."
+    },
+    {
+      "name": "Gore",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 7 (2d6) psychic damage."
+    },
+    {
+      "name": "Annoying Chitter",
+      "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit: 14 (3d6 + 4) psychic damage."
+    },
+    {
+      "name": "Divisive Chatter (Recharge 5-6)",
+      "desc": "The ratatosk causes division and strife in up to four creatures it can see within 30 feet of it. Each target must succeed on a DC 14 Charisma saving throw or be irritated for 1 minute. While irritated, a creature must spend its action on each of its turns arguing with, complaining about, or otherwise expressing unhappiness toward one of its allies over a trivial matter. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The ratatosk casts one of the following spells, requiring no material or somatic components and using Charisma as the spellcasting ability (save DC 14):\nAt will: animal messenger, message\n3/day each: sending, suggestion\n1/day: commune (as an action)"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Skitter",
+      "desc": "The ratatosk takes the Dash, Disengage, or Hide action."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Desperate Lies",
+      "desc": "When a creature the ratatosk can see targets it with an attack, the ratatosk tells a lie while pointing to another creature within 5 feet of it. The attacker must succeed on a DC 14 Wisdom saving throw or believe the lie and attack the other creature instead."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The ratatosk has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 301,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_ratatosk/"
+}

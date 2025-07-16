@@ -1,0 +1,79 @@
+{
+  "slug": "dubius",
+  "desc": "",
+  "name": "Dubius",
+  "size": "Small",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 36,
+  "hit_dice": "8d6+8",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 9,
+  "dexterity": 15,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 9,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -1,
+  "skills": {
+    "perception": -1
+  },
+  "damage_vulnerabilities": "radiant",
+  "damage_resistances": "cold, fire, lightning",
+  "damage_immunities": "poison, psychic ",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 9",
+  "languages": "Abyssal, Common, Infernal, telepathy 120'",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Doubt",
+      "desc": "Forces a creature it can see within 30' of it to recall all its doubts and fears. Target: 14 (4d6) psychic (DC 13 Wis half). A creature frightened by dubius has disadvantage on the save."
+    },
+    {
+      "name": "Loathing",
+      "desc": "Sows distrust and loathing in 1 creature it can see within 30' of it. Target loathes another creature dubius chooses within 30' of it and must make one attack vs. that creature on its next turn moving to creature if necessary (DC 13 Wis target distrusts allies and can't give/ receive aid from them on next turn including spells and Help action)."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Hesitation",
+      "desc": "When a creature the dubius can see attacks it dubius can force creature to roll d6 subtracting result from attack. If this causes attack to miss attacker is stunned until start of dubius's next turn."
+    },
+    {
+      "name": "Self-Pity",
+      "desc": "If a creature dubius can see within 30' of it regains hp dubius regains hp equal to half that amount."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Memory of Shame",
+      "desc": "When Humanoid that can see dubius starts its turn within 30' of it dubius can force it to make DC 13 Wis save if dubius isn't incapacitated and can see Humanoid. Fail: Humanoid frightened 1 min. Humanoid can re-save at end of each of its turns with disadvantage if dubius is within line of sight success ends effect on itself. Once saved/effect ends for it immune to dubius's Memory of Shame next 24 hrs. Unless surprised Humanoid can avert its eyes to avoid save at start of its turn. If it does so it can't see dubius until start of its next turn when it can avert again. If it looks at dubius in meantime must immediately save. If dubius sees itself reflected on a polished surface within 30' of it and in bright light dubius due to its unique creation is affected by its own Memory of Shame."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 162,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_dubius/"
+}

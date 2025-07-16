@@ -1,0 +1,100 @@
+{
+  "slug": "cambium-tob1-2023",
+  "desc": "False",
+  "name": "Cambium",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 19,
+  "armor_desc": "natural armor",
+  "hit_points": 264,
+  "hit_dice": "23d10 + 138",
+  "speed": {
+    "walk": 30,
+    "fly": 40
+  },
+  "strength": 21,
+  "dexterity": 16,
+  "constitution": 23,
+  "intelligence": 17,
+  "wisdom": 16,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": 8,
+  "constitution_save": 11,
+  "intelligence_save": 8,
+  "wisdom_save": 8,
+  "charisma_save": 9,
+  "perception": 18,
+  "skills": {
+    "Arcana": 8,
+    "Deception": 9,
+    "Insight": 8,
+    "Medicine": 8,
+    "Perception": 8,
+    "Stealth": 8
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, poisoned, prone",
+  "senses": "darkvision 60 ft., passive Perception 18",
+  "languages": "Common, Draconic, Infernal",
+  "challenge_rating": "14",
+  "cr": 14,
+  "actions": [
+    {
+      "name": "Needle Fingers",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 5) piercing damage."
+    },
+    {
+      "name": "Poison Ray",
+      "desc": "Ranged Spell Attack: +9 to hit, range 60 ft., one target. Hit: 22 (4d8 + 4) poison damage, and the target must succeed on a DC 17 Constitution saving throw or become poisoned until the end of its next turn."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The cambium casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 17):\nAt will: alter self, detect thoughts, spare the dying\n3/day each: hold person, protection from poison, heal\n1/day: plane shift (self only)"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Damage Ability",
+      "desc": "The cambium twists the bodily humors of a creature within 30 feet of it that isn't a Construct or Undead and that it hit with Needle Fingers in the past minute. The target must succeed on a DC 17 Constitution saving throw or its Strength, Dexterity, or Constitution score (the cambium's choice) is reduced by 1d4. The target falls unconscious if this reduces an ability score to 0. This reduction lasts until the target finishes a long rest."
+    },
+    {
+      "name": "Imbalance Humors",
+      "desc": "If the cambium has hit a creature that isn't a Construct or Undead with Needle Fingers in the past minute, it can cause a surge in one of the target's bodily humors, causing an imbalance. The target must succeed on a DC 17 Constitution saving throw or suffer one of the following effects of the cambium's choice. Unless noted otherwise, the target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Sanguine Flux",
+      "desc": "The target can't regain hp—naturally or magically—until after it finishes a long rest."
+    },
+    {
+      "name": "Choleric Flux",
+      "desc": "The target becomes confused for 1 minute. This effect works as if the target failed a saving throw against the confusion spell, except the cambium doesn't have to maintain concentration."
+    },
+    {
+      "name": "Melancholic Flux",
+      "desc": "The target is incapacitated and its speed is halved for 1 minute."
+    },
+    {
+      "name": "Phlegmatic Flux",
+      "desc": "The target is poisoned for 1 minute.\n\n\nCarrion Beetle\n\nThe beetles wore golden bridles and carried huge leather sacks of stone and guano. They marched without stopping; dozens, even hundreds, bringing fresh earth to the white-fungus trees of the great forests. Their claws skittered with a sound like horseshoes slipping on stone, but their multiple legs ensured they never fell. The air around them singed the nostrils with the taint of acid."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
+  "spell_list": [],
+  "page_no": 49,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_cambium/"
+}

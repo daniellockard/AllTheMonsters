@@ -1,0 +1,81 @@
+{
+  "slug": "bat_swarm_of_bats_bf",
+  "desc": "",
+  "name": "Bat, Swarm of Bats",
+  "size": "Medium",
+  "type": "Swarm",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 14,
+  "hit_dice": "",
+  "speed": {
+    "walk": 0,
+    "fly": 30
+  },
+  "strength": 4,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 4,
+  "strength_save": -3,
+  "dexterity_save": 2,
+  "constitution_save": 0,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -3,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "deafened",
+  "damage_resistances": "blinded,Swarm Resilience",
+  "damage_immunities": "Swarm Resilience",
+  "condition_immunities": "",
+  "senses": "keensense 60 ft.",
+  "languages": "-",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Bites",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 0 ft., one creature in the swarm's space. _Hit:_ 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its HP or fewer."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Cacophonous Swarm",
+      "desc": "A creature in the swarm's space that casts a spell with a verbal component must succeed on a DC 12 CON save or the spell fails to cast, expending the action required to cast it but not the spell slot or daily use."
+    },
+    {
+      "name": "Echolocation",
+      "desc": "The swarm can't use its keensense while deafened."
+    },
+    {
+      "name": "Heightened Hearing",
+      "desc": "The swarm's Perception is 16 when perceiving by hearing."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bat. The swarm can't regain HP or gain temporary HP."
+    },
+    {
+      "name": "Swarm Resilience",
+      "desc": "The swarm is resistant to bludgeoning, piercing, and slashing damage, and it is immune to the charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned conditions."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_bat-swarm-of-bats/"
+}

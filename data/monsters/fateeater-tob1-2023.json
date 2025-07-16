@@ -1,0 +1,77 @@
+{
+  "slug": "fateeater-tob1-2023",
+  "desc": "False",
+  "name": "Fate Eater",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 130,
+  "hit_dice": "20d8 + 40",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 12,
+  "constitution": 14,
+  "intelligence": 18,
+  "wisdom": 16,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 5,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 13,
+  "skills": {
+    "Arcana": 7,
+    "History": 7,
+    "Insight": 6,
+    "Religion": 7
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "charmed, frightened",
+  "senses": "truesight 60 ft., passive Perception 13",
+  "languages": "understands all but can’t speak, telepathy 100 ft.",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The fate eater makes two Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage plus 7 (2d6) necrotic damage."
+    },
+    {
+      "name": "Alter Fate (Recharge 5-6)",
+      "desc": "The fate eater alters the fate of one creature it can see within 30 feet of it. The creature must make a DC 15 Charisma saving throw. On a failure, the creature takes 36 (8d8) psychic damage, and its fate is altered. Roll a d6 to determine which of the following alterations affects the creature. On a success, the creature takes half the damage, and its fate isn't altered. A creature with an altered fate for 1 minute or less can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Otherwise, a creature with an altered fate can repeat the saving throw at the end of each long rest, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Visionary Flesh",
+      "desc": "A creature that eats the flesh of a fate eater must make a DC 15 Constitution saving throw. On a failure, the creature is poisoned for 1 hour. On a success, the creature gains the benefits of the divination spell."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 168,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_fate-eater/"
+}

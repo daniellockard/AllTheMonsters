@@ -1,0 +1,82 @@
+{
+  "slug": "qiqirn",
+  "desc": "This strange dog is hairless except for the thick, dark fur that runs along its bony, ridged back._  \n**Arctic Legends.** Oral histories of the north are rich with tales of the qiqirn. The tales say they are drawn to mankind’s warm hearths and homes and that the sounds of music and mirth enrage them. The stories note that qiqirn are jealous of dogs and that jealousy leads them to kill canines whenever they can. More than a few tales are told of qiqirn that have foolishly become trapped while trying to get at a settlement’s sled dogs. Most importantly, northern children are told that a qiqirn can be driven off by shouting its name at it.  \n**Afraid of Civilization.** Feared as they are by northern communities, qiqirn fear those people in turn. When threatened by civilized folk, qiqirn are quick to flee. When this occurs, a qiqirn often returns by night to steal the food or livestock it was previously denied. When qiqirn attacks have driven an entire community to hunt it, the monster leaves the region for easier hunting grounds.  \n**Spirit Dog.** A qiqirn’s fear of civilization is built on the basis of self-preservation. The Open Game License",
+  "name": "Qiqirn",
+  "size": "Small",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "armor_desc": null,
+  "hit_points": 38,
+  "hit_dice": "7d6+14",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 15,
+  "dexterity": 18,
+  "constitution": 14,
+  "intelligence": 5,
+  "wisdom": 12,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 4,
+  "intelligence_save": null,
+  "wisdom_save": 3,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "perception": 3,
+    "stealth": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "necrotic",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "understands Common but can’t speak",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage plus 4 (1d8) necrotic damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.",
+      "attack_bonus": 6,
+      "damage_dice": "1d6+4"
+    },
+    {
+      "name": "Spirit-infused Yip",
+      "desc": "The qiqirn releases a spirt-infused yip at one creature it can see within 30 feet of it. If the target can hear the qiqirn, it must make a DC 12 Wisdom saving throw, taking 9 (2d8) necrotic damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Horrifying Wail",
+      "desc": "When the qiqirn takes damage, the spirits infusing it cry out, afraid of losing their host. If the creature that dealt the damage can hear the qiqirn, it must succeed on a DC 12 Wisdom saving throw or be frightened until the end of its next turn."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Smell",
+      "desc": "The qiqirn has advantage on Wisdom (Perception) checks that rely on smell."
+    },
+    {
+      "name": "Self-loathing",
+      "desc": "A creature the qiqirn can hear can use its action to say “qiqirn” and make a Charisma (Intimidation) check. If it does so, the qiqirn must succeed on a Wisdom saving throw with a DC equal to the creature's Charisma (Intimidation) check or be frightened of that creature until the end of its next turn. If the qiqirn succeeds on the saving throw, it can't be frightened by that creature for the next 24 hours."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 301,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_qiqirn/"
+}

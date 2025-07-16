@@ -1,0 +1,86 @@
+{
+  "slug": "ssadar",
+  "desc": "This bipedal reptilian creature has scales of gold that turn to red in the shadow. It has clawed hands but wields a sword. Its breath smells of brimstone, and a hint of smoke can be seen escaping through its nostrils._  \n**Jungle Dwellers.** The ssadar dwell in the jungle and rarely travel to other climates. They prefer the heat, the moisture, and the cover provided by the jungle foliage, though they are capable of surviving in the desert. They live in small cities, usually at the base of mountains near abundant water sources, and they closely monitor the surrounding regions to make sure that non-ssadar are not attempting to approach. Those who make their way toward—or, more rarely, into—their cities are attacked. If captured, intruders are usually sacrificed to their evil lizard gods.  \n**Pyramid Builders.** The ssadar are builders of terraced pyramids with engravings of dragons and their lizard gods. These are temples where they congregate, worship, and perform ritual sacrifices. Most of their cities are built around these magnificent structures, though abandoned pyramids can also be found in the trackless depths of the jungle. The entrance to these structures is at the top, and each of them contains a multi-level labyrinth of chambers inside.",
+  "name": "Ssadar",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 71,
+  "hit_dice": "11d8+22",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 14,
+  "constitution": 15,
+  "intelligence": 9,
+  "wisdom": 14,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "cold",
+  "damage_resistances": "",
+  "damage_immunities": "fire",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "Common, Ignan",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The ssadar makes two attacks: one with its bite and one with its longsword. Alternatively, it can use Spit Fire twice."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) fire damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d4+3"
+    },
+    {
+      "name": "Longsword",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
+      "attack_bonus": 5,
+      "damage_dice": "1d8+3"
+    },
+    {
+      "name": "Spit Fire",
+      "desc": "Ranged Weapon Attack: +4 to hit, range 60 ft., one target. Hit: 7 (2d6) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 2 (1d4) fire damage at the start of each of its turns.",
+      "attack_bonus": 4,
+      "damage_dice": "2d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "One with Fire",
+      "desc": "Ssadars have an affinity for fire and hold beings of fire in high esteem. Ssadar priests bless ssadar warriors by imbuing them with fire before sending them into battle. A non-ssadar fire-wielder who enters a ssadar city might earn enough respect from the ssadar to be sacrificed last or in a grander ritual to the greatest of their gods."
+    },
+    {
+      "name": "Kinship with Fire",
+      "desc": "When the ssadar is subjected to fire damage, it takes no damage and instead has advantage on melee attack rolls until the end of its next turn."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 337,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_ssadar/"
+}

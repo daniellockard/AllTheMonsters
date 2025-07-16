@@ -1,0 +1,94 @@
+{
+  "slug": "golem-barnyard",
+  "desc": "",
+  "name": "Golem, Barnyard",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 9,
+  "armor_desc": "",
+  "hit_points": 75,
+  "hit_dice": "10d8+30",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 19,
+  "dexterity": 8,
+  "constitution": 16,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "nonmagic B/P/S attacks not made w/adamantine weapons",
+  "damage_immunities": "lightning, poison",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60', passive Perception 10",
+  "languages": "understands creator's languages but can't speak",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Bite attack and one Wing Slap attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 7 (1d6+4) piercing damage + 7 (2d6) poison."
+    },
+    {
+      "name": "Wing Slap",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 6 (1d4+4) bludgeoning damage and the target must make DC 13 Str save or be knocked prone."
+    },
+    {
+      "name": "Chymus Expulsion (Recharge 5-6)",
+      "desc": "Exhales semi-digested decayed meat and vegetation in a 15 ft. cone. Each creature in that area: 14 (4d6) poison (DC 13 Con half)."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Construct Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Easily Distracted",
+      "desc": "Disadvantage on Wis (Perception) checks. In addition a creature that the golem can see or hear and that is within 30' of it can attempt to distract golem as a bonus action. Golem must make DC 10 Wis save or spend its next turn moving up to its speed toward the creature using its available actions on that creature."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "Immune: form-altering spells/effects."
+    },
+    {
+      "name": "Lightning Absorption",
+      "desc": "Whenever it is subjected to lightning it takes no damage and instead regains a number of hp equal to the lightning dealt."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 214,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_golem-barnyard/"
+}

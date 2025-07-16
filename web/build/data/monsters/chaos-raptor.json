@@ -1,0 +1,88 @@
+{
+  "slug": "chaos-raptor",
+  "desc": "",
+  "name": "Chaos Raptor",
+  "size": "Gargantuan",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 248,
+  "hit_dice": "16d20+80",
+  "speed": {
+    "walk": 20,
+    "burrow": 80,
+    "fly": 120
+  },
+  "strength": 28,
+  "dexterity": 10,
+  "constitution": 20,
+  "intelligence": 5,
+  "wisdom": 10,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": 1,
+  "intelligence_save": null,
+  "wisdom_save": 5,
+  "charisma_save": 5,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "tremorsense 60', passive Perception 15",
+  "languages": "understands Common and Terran, but can't speak",
+  "challenge_rating": "13",
+  "cr": 13,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Beak attack and one Talons attack."
+    },
+    {
+      "name": "Beak",
+      "desc": "Melee Weapon Attack: +14 to hit, 10 ft., one target, 27 (4d8+9) piercing damage."
+    },
+    {
+      "name": "Talons",
+      "desc": "Melee Weapon Attack: +14 to hit, 5 ft., one target, 23 (4d6+9) slashing damage and target is grappled (escape DC 18). Until this grapple ends target is restrained and raptor can't use its talons on another target."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Aura of Chaos",
+      "desc": "When a creature with Int of 4 or higher starts its turn within 30' of raptor creature must make a DC 18 Cha save. Fail: creature can't take reactions until start of its next turn and must roll a d8 to determine what it does during that turn. On 1-4 creature does nothing. On 5-6 creature takes no action but uses all its movement to move in a random direction. On 7-8 creature makes one melee attack vs. randomly determined creature within its reach or it does nothing if no creature is within its reach. At start of raptor's turn it chooses whether this aura is active."
+    },
+    {
+      "name": "Earth Glide",
+      "desc": "Can burrow through nonmagical unworked earth/stone with o disturbing material it moves through."
+    },
+    {
+      "name": "Keen Sight",
+      "desc": "Advantage: sight Wis (Percept) checks."
+    },
+    {
+      "name": "Regeneration",
+      "desc": "Raptor regains 20 hp at start of its turn if at least half of its body is submerged in earth or stone. If raptor takes thunder this trait doesn't function at start of raptor's next turn. Raptor dies only if it starts its turn with 0 hp and doesn't regenerate."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 81,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_chaos-raptor/"
+}

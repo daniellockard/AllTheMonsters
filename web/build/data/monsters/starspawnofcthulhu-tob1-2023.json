@@ -1,0 +1,93 @@
+{
+  "slug": "starspawnofcthulhu-tob1-2023",
+  "desc": "False",
+  "name": "Star Spawn of Cthulhu",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 212,
+  "hit_dice": "17d10 + 119",
+  "speed": {
+    "walk": 50,
+    "fly": 30
+  },
+  "strength": 25,
+  "dexterity": 15,
+  "constitution": 24,
+  "intelligence": 30,
+  "wisdom": 18,
+  "charisma": 23,
+  "strength_save": 12,
+  "dexterity_save": null,
+  "constitution_save": 12,
+  "intelligence_save": null,
+  "wisdom_save": 9,
+  "charisma_save": null,
+  "perception": 24,
+  "skills": {
+    "Arcana": 15,
+    "Perception": 14
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, slashing",
+  "damage_immunities": "cold, fire, lightning, poison, psychic",
+  "condition_immunities": "exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 300 ft., passive Perception 24",
+  "languages": "Abyssal, Common, Void Speech",
+  "challenge_rating": "15",
+  "cr": 15,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The star spawn of Cthulhu makes two Crushing Claws attacks and one Dimensional Stomp attack, or it makes three Void Bolt attacks. It can replace one attack with a use of Disintegrating Gaze, if available."
+    },
+    {
+      "name": "Crushing Claws",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 20 (2d12 + 7) bludgeoning damage plus 13 (3d8) necrotic damage."
+    },
+    {
+      "name": "Dimensional Stomp",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 18 (2d20 + 7) bludgeoning damage plus 13 (3d8) necrotic damage, and the target must succeed on a DC 19 Charisma saving throw or be teleported to an unoccupied space the star spawn can see within 30 feet of it."
+    },
+    {
+      "name": "Void Bolt",
+      "desc": "Ranged Spell Attack: +15 to hit, range 120 ft., one target. Hit: 32 (5d8 + 10) necrotic damage."
+    },
+    {
+      "name": "Disintegrating Gaze (Recharge 5-6)",
+      "desc": "One creature the star spawn can see within 60 feet of it must succeed on a DC 19 Constitution saving throw or take 27 (6d8) necrotic damage and be transformed into a misty cloud for 1 minute. The transformed creature's only method of movement is a flying speed of 10 feet, and it can enter and occupy the space of another creature. In addition, the transformed target can't talk, attack, cast spells, or manipulate objects, and any objects it was carrying or holding can't be dropped, used, or otherwise interacted with. The transformed target can repeat the saving throw at the end of each of its turns, taking 13 (3d8) necrotic damage on a failed save, or ending the effect on itself on a successful one. A creature killed by this effect can be restored to life only by means of a true resurrection or a wish spell."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Interdimensional Step",
+      "desc": "The star spawn of Cthulhu teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. Small tears in reality appear at the origin and destination when it uses this bonus action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Psychic Absorption",
+      "desc": "Whenever the star spawn is subjected to psychic damage, it takes no damage and instead regains a number of hp equal to the psychic damage dealt."
+    },
+    {
+      "name": "Void Traveler",
+      "desc": "The star spawn of Cthulhu doesn't require air, food, drink, sleep, or ambient pressure."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 348,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_star-spawn-of-cthulhu/"
+}

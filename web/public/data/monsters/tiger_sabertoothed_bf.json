@@ -1,0 +1,76 @@
+{
+  "slug": "tiger_sabertoothed_bf",
+  "desc": "",
+  "name": "Tiger, Saber-Toothed",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 63,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 14,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 8,
+  "strength_save": 4,
+  "dexterity_save": 2,
+  "constitution_save": 2,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -1,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The tiger makes one Bite attack and one Claws attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one creature. _Hit:_ 9 (1d10+4) piercing damage, and the target must succeed on a DC 14 DEX save or suffer a puncture wound. A creature suffering a puncture wound loses 5 (1d10) HP at the start of each of its turns as the wound bleeds excessively. Any creature can take an action to stanch the wound with a successful DC 12 WIS (Medicine) check. The wound also closes if the target receives magical healing."
+    },
+    {
+      "name": "Claws",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 9 (2d4+4) slashing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Heightened Smell",
+      "desc": "The tiger's Perception is 18 when perceiving by smell."
+    },
+    {
+      "name": "Pounce",
+      "desc": "If the tiger moves at least 20 feet straight toward a creature and then hits it with a Claws attack on the same turn, that target must succeed on a DC 14 STR save or be knocked prone. If the target is prone, the tiger can make one Claws attack against it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_tiger-saber-toothed/"
+}

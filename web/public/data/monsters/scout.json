@@ -1,0 +1,99 @@
+{
+  "slug": "scout",
+  "desc": "**Scouts** are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance.",
+  "name": "Scout",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "any race",
+  "group": "NPCs",
+  "alignment": "Any Alignment",
+  "armor_class": 13,
+  "armor_desc": "leather armor",
+  "hit_points": 16,
+  "hit_dice": "3d8+3",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 11,
+  "dexterity": 14,
+  "constitution": 12,
+  "intelligence": 11,
+  "wisdom": 13,
+  "charisma": 11,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 5,
+  "skills": {
+    "nature": 4,
+    "perception": 5,
+    "stealth": 6,
+    "survival": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 15",
+  "languages": "any one language (usually Common)",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The scout makes two melee attacks or two ranged attacks."
+    },
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d6",
+      "damage_bonus": 2
+    },
+    {
+      "name": "Longbow",
+      "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d8",
+      "damage_bonus": 2
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Hearing and Sight",
+      "desc": "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 401,
+  "environments": [
+    "Hill",
+    "Desert",
+    "Underdark",
+    "Grassland",
+    "Mountains",
+    "Coastal",
+    "Tundra",
+    "Swamp",
+    "Feywild",
+    "Mountain",
+    "Forest",
+    "Arctic",
+    "Jungle",
+    "Hills",
+    "Caverns"
+  ],
+  "img_main": null,
+  "document__slug": "wotc-srd",
+  "document__title": "5e Core Rules",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "v2_converted_path": "/v2/creatures/srd_scout/"
+}

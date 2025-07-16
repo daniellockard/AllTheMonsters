@@ -4,9 +4,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Data files (can be large)
-data/
-
 # Environment variables
 .env
 .env.local

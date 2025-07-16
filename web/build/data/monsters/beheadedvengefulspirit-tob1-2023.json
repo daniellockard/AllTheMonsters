@@ -1,0 +1,76 @@
+{
+  "slug": "beheadedvengefulspirit-tob1-2023",
+  "desc": "False",
+  "name": "Beheaded Vengeful Spirit",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Any Alignment",
+  "armor_class": 15,
+  "armor_desc": "Angry Defiance",
+  "hit_points": 54,
+  "hit_dice": "12d8",
+  "speed": {
+    "walk": 60
+  },
+  "strength": 7,
+  "dexterity": 13,
+  "constitution": 11,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 19,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 2,
+  "charisma_save": 6,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "cold, necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "the languages it knew in life",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Essence of Rage",
+      "desc": "Melee or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 30 ft., one creature. Hit: 22 (4d8 + 4) psychic damage, and the target must succeed on a DC 14 Charisma saving throw or be enraged until the end of its next turn. While enraged, the target has advantage on melee attack rolls and must move to and attack the nearest creature other than the spirit. In addition, attack rolls against the enraged target have advantage."
+    },
+    {
+      "name": "Decapitation (1/Day)",
+      "desc": "The vengeful spirit makes a quick, cutting gesture at one creature it can see within 30 feet of it that has a head and that is below half its hp maximum. The target must make a DC 14 Constitution saving throw, taking 28 (8d6) slashing damage on a failed save, or half as much damage on a successful one. A target that fails the saving throw also has one of its heads cut off. The creature dies if it can't survive without the lost head."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Angry Defiance",
+      "desc": "The vengeful spirit adds its Charisma modifier to its AC (included above)."
+    },
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The vengeful spirit can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The vengeful spirit doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 384,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_beheaded-vengeful-spirit/"
+}

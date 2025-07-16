@@ -1,0 +1,79 @@
+{
+  "slug": "fane-spirit",
+  "desc": "As the sun gently dips below the horizon, the priest undergoes a startling transformation, his benevolent form replaced by the ghastly countenance of death._  \n**Temple Ghosts.** When a lawful individual dies defending a place of worship such as a temple, shrine, or other holy site, it sometimes rises as a fane spirit bound to the site, protecting it even in death. Most fane spirits were formerly clerics, though druids, paladins, and even lay worshippers can become fane spirits under the right circumstances. Fane spirits are lawful and typically only attack those who discover their undead nature or who try to harm their place of worship.  \n**Welcoming Priests.** During daylight hours, fane spirits appear to be living creatures, carrying on the same tasks they did when they were alive. Normal methods for detecting undead creatures do not work on them, and, unless attacked or injured, they show no outward signs of their true nature. This deception extends to the fane spirit itself, as it does not have any recollection of dying or of its time in its undead form. When this deception is revealed, the fane spirit becomes enraged with suffering and lashes out at those who made it remember.  \n**Undead Nature.** The fane spirit doesn’t require air, food, drink, or sleep.",
+  "name": "Fane Spirit",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Any Lawful Alignment",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 52,
+  "hit_dice": "7d8+21",
+  "speed": {
+    "walk": 20,
+    "hover": true,
+    "fly": 40
+  },
+  "strength": 7,
+  "dexterity": 16,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 18,
+  "charisma": 17,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "deception": 5,
+    "religion": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold, fire, lightning, necrotic, thunder; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "any languages it knew in life",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Touch of Forgetfulness",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) psychic damage. A target hit by this attack must succeed on a DC 13 Wisdom saving throw or forget any or all events that happened up to 5 minutes prior to this attack, as if affected by the modify memory spell. The GM decides how this affects the target.",
+      "attack_bonus": 5,
+      "damage_dice": "2d8+3"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The fane spirit can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Veil of the Living",
+      "desc": "During the day a fane spirit appears much as it did in life and loses its Incorporeal Movement trait, its Touch of Forgetfulness action, and its immunity to being grappled and restrained. It retains all other statistics. While in this form, it has a Strength score of 10. If attacked in this form, it relies on its spells to defend itself, but it reverts to its undead form as soon as it takes any damage.\n\nWhen the sun sets or when it takes any damage, the fane spirit assumes its undead form, and it has all of its listed statistics. Any creature witnessing this transformation must succeed on a DC 13 Wisdom saving throw or become frightened until the end of its next turn. A fane spirit reverts to its living form in the morning, though creatures witnessing this don't need to make saving throws."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The fane spirit's innate spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\nAt will: chill touch, spare the dying\n3/day each: cure wounds, inflict wounds, shield of faith\n1/day each: augury, hold person, lesser restoration"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 141,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_fane-spirit/"
+}

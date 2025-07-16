@@ -1,0 +1,91 @@
+{
+  "slug": "kobold-drake-rider",
+  "desc": "",
+  "name": "Kobold, Drake Rider",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Neutral",
+  "armor_class": 15,
+  "armor_desc": "studded leather",
+  "hit_points": 71,
+  "hit_dice": "13d6+26",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 17,
+  "dexterity": 16,
+  "constitution": 15,
+  "intelligence": 12,
+  "wisdom": 10,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 12",
+  "languages": "Common, Draconic",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Spear attacks. If the rider is mounted its mount can then make one Bite Claw Slam or Tail attack."
+    },
+    {
+      "name": "Spear",
+      "desc": "Melee or Ranged Weapon Attack: +5 to hit 5 ft. or range 20/60' one target 6 (1d6+3) piercing damage or 7 (1d8+3) piercing damage if used with two hands to make a melee attack."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Failsafe Equipment",
+      "desc": "The drake rider wears wing-like arm and feet flaps folded on its back. If its mount dies or it is dismounted the rider descends 60' per round and takes no damage from falling if its mount was flying or it gains a swimming speed of 30' for 1 min if its mount was swimming."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Drake Mount",
+      "desc": "Has formed a bond with Med or larger drake mount (found in this or other books or use the statistics of a giant lizard). Regardless of the drake's intelligence it acts as a controlled mount while carrying a drake rider obeying the rider's spoken commands. Mounting and dismounting the drake costs the drake rider only 5 ft. of movement."
+    },
+    {
+      "name": "Mounted Warrior",
+      "desc": "While the drake rider is mounted its mount can't be charmed or frightened."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "In sunlight disadvantage on attacks and Wis (Perception) checks that use sight."
+    },
+    {
+      "name": "Sure Seat",
+      "desc": "While mounted and not incapacitated the drake rider can't be knocked prone dismounted or moved vs. its will."
+    },
+    {
+      "name": "Trained Tactics (Recharge 4-6)",
+      "desc": "The drake rider commands its mount to move up to 30' in a straight line moving through the space of any Large or smaller creature and performing one of the following tactical maneuvers. This movement doesn't provoke opportunity attacks.Barrel Roll: The mount flies up and over one creature in the line ending its movement at least 10 ft. past the target. As the drake rider hangs upside down at the top of the loop it makes one Spear attack vs. the target with advantage. On a hit the rider rolls damage dice three times. The mount must have a flying speed to use this maneuver.Corkscrew Roll: The mount swims in a corkscrew around the creatures in the line. Each creature in the line must make DC 13 Dex save or be incapacitated with dizziness until the end of its next turn. The mount must have a swimming speed to use this maneuver.Weaving Rush The mount weaves back and forth along the line. Each creature in the line must make DC 13 Str save or take 10 (3d6) bludgeoning damage and be knocked prone."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 252,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_kobold-drake-rider/"
+}

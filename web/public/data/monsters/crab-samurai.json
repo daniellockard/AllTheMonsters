@@ -1,0 +1,80 @@
+{
+  "slug": "crab-samurai",
+  "desc": "",
+  "name": "Crab, Samurai",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 105,
+  "hit_dice": "14d8+42",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 18,
+  "dexterity": 10,
+  "constitution": 16,
+  "intelligence": 6,
+  "wisdom": 14,
+  "charisma": 10,
+  "strength_save": 7,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "nonmagic B/P/S attacks",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened",
+  "senses": "blindsight 30', passive Perception 15",
+  "languages": "understands Common but can't speak",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three melee attacks. If grappling two creatures it can't make Crustaceous Sword attacks."
+    },
+    {
+      "name": "Crustaceous Sword",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 13 (2d8+4) slashing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 11 (2d6+4) bludgeoning damage. If the target is Med or smaller it is grappled (escape DC 15) and the crab can't use this claw to attack another target. The crab has two claws each of which can grapple only one target."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Fighting Stance",
+      "desc": "Adopts a fighting stance choosing from the options below. The stance lasts until the crab ends it (no action required) or uses this bonus action again.Banded Claw. Adopts a wide grappler's stance. While the samurai crab is in this stance each creature that starts its turn grappled by the crab takes 3 (1d6) bludgeoning damage.Hard Shell. Defensive stance increasing its AC by 2.Soft Shell. Adopts an offensive stance gaining advantage on the first Crustaceous Sword attack it makes each turn."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "Can breathe air and water."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 99,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_crab-samurai/"
+}

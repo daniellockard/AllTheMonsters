@@ -1,0 +1,79 @@
+{
+  "slug": "caretaker-weevil",
+  "desc": "",
+  "name": "Caretaker Weevil",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 51,
+  "hit_dice": "6d8+24",
+  "speed": {
+    "walk": 30,
+    "climb": 15
+  },
+  "strength": 10,
+  "dexterity": 12,
+  "constitution": 18,
+  "intelligence": 3,
+  "wisdom": 14,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "tremorsense 30', passive Perception 14",
+  "languages": "—",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Mandibles",
+      "desc": "Melee Weapon Attack: +3 to hit, 5 ft., one target, 10 (2d8+1) slashing damage."
+    },
+    {
+      "name": "Glue Glob",
+      "desc": "Ranged Weapon Attack: +3 to hit 30/60' one target 7 (2d6) acid. Target restrained for 1 min (DC 13 Dex its speed is halved for 1 min instead). Target can re-save at end of each of its turns success ends effect on itself."
+    },
+    {
+      "name": "Regenerative Spittle (3/Day)",
+      "desc": "Launches spittle at one creature it can see within 10 ft. of it. Target regains 2 (1d4) hp. For 1 min target regains 1 hp at the start of each of its turns."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Calming Presence",
+      "desc": "A creature that enters a space within 5 ft. of weevil or that starts its turn there: DC 13 Cha save or be indifferent to all creatures that it is hostile toward while it remains within 60' of weevil. This indifference ends if the creature is attacked or harmed by a spell or if it witnesses any of its allies being harmed."
+    },
+    {
+      "name": "Diligent Preservation",
+      "desc": "A creature that isn't a Construct or Undead and that starts its turn with 0 hp within 60' of weevil becomes stable. In addition any corpse within 60' of weevil is protected from decay and can't become Undead while it remains within 60' of weevil and for 24 hrs after it leaves the area."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 73,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_caretaker-weevil/"
+}

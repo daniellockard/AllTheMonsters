@@ -1,0 +1,76 @@
+{
+  "slug": "vine-troll-skeleton",
+  "desc": "_These troll skeletons are completely covered in mold and wrapped in flowering vines, and lurk in the shadows of dead tree and profaned groves._  \n**Black Earth Magic.** Vine troll skeletons guard duskthorn dryad glades and the sacred circles of druids; others serve the vila or even moss lurker colonies as guardians. In each case, they were created by dark earth magic for a purpose, and that energy empowers great strength and endurance—but little in the way of wits.  \n**Constant Regrowth.** Their vines regenerate quickly, even after they die. Their powerful regeneration allows vine troll skeletons to reattach severed limbs. Only fire or acid can destroy them and render the living vines harmless.  \n**Bound to a Tree’s Heart.** Vine troll skeletons are direct offshoots of the main vine wrapped around a duskthorn dryad’s tree, a treant, or a weeping treant. Vine troll skeletons are mindless aside from a desire to defend their parent tree, and enchanted troll hearts inside the tree provide their power. Destroying the heart at the center of the tree kills the skeleton bound to that heart instantly.",
+  "name": "Vine Troll Skeleton",
+  "size": "Large",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 119,
+  "hit_dice": "14d10+42",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 20,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 6,
+  "wisdom": 8,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 12,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning,",
+  "damage_immunities": "poison",
+  "condition_immunities": "deafened, exhaustion, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "-",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The skeleton makes one bite attack and two claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage.",
+      "attack_bonus": 8,
+      "damage_dice": "3d10"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) slashing damage.",
+      "attack_bonus": 8,
+      "damage_dice": "3d8"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Regeneration",
+      "desc": "The vine troll skeleton regains 5 hit points at the start of its turn if it is within 10 feet of the duskthorn dryad's vines and it hasn't taken acid or fire damage since its previous turn. The skeleton dies only if it starts its turn with 0 hit points and doesn't regenerate, or if the duskthorn dryad who created it dies, or if the troll's heart inside the dryad's or treant's tree is destroyed."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 351,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_vine-troll-skeleton/"
+}

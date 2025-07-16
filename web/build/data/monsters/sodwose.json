@@ -1,0 +1,88 @@
+{
+  "slug": "sodwose",
+  "desc": "",
+  "name": "Sodwose",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 127,
+  "hit_dice": "15d8+60",
+  "speed": {
+    "walk": 40,
+    "climb": 30
+  },
+  "strength": 10,
+  "dexterity": 21,
+  "constitution": 18,
+  "intelligence": 15,
+  "wisdom": 14,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "bludgeoning, piercing",
+  "damage_immunities": "poison",
+  "condition_immunities": "blinded, charmed, exhaustion, frightened, poisoned, restrained, unconscious",
+  "senses": "blindsight 120' (blind beyond), passive Perception 15",
+  "languages": "Common, Sylvan",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Grass Whip attacks."
+    },
+    {
+      "name": "Grass Whip",
+      "desc": "Melee Weapon Attack: +8 to hit, 15 ft., one creature,. 12 (2d6+5) slashing damage and target must make DC 15 Str save or be pulled up to 10 ft. to sodwose."
+    },
+    {
+      "name": "Entangle (1/Day)",
+      "desc": "Compels all plants and roots within 20' of a point on the ground it can see within 60' of it to grasp and pull at nearby creatures for 1 min. When a creature enters the area for the first time on a turn or starts its turn there creature is restrained by grasses and roots (DC 15 Str negates). A creature including the restrained creature can take an action to free it by making a DC 15 Str check."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Grass Step",
+      "desc": "Teleports along with any equipment it is wearing or carrying up to 30' to an unoccupied spot it sees. The origin and destination spaces must contain grass."
+    },
+    {
+      "name": "Set Snare",
+      "desc": "Creates a snare in a square area it can see within 30' of it that is 5 ft. on a side and 50%+ grass. 1st creature to moves into that space within next min: DC 15 Str save or be restrained by grasses. A creature including restrained creature can use action to free restrained creature via DC 15 Str check. It can have at most 3 snares set at a time. If it sets a 4th oldest ceases to function."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Grassland Camouflage",
+      "desc": "Advantage: Dex (Stealth) to hide in grassland."
+    },
+    {
+      "name": "Scarecrow",
+      "desc": "Any creature that starts its turn within 10 ft. of sodwose: frightened until the end of its next turn (DC 15 Wis negates and is immune to sodwose's Scarecrow for the next 24 hrs)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 350,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_sodwose/"
+}

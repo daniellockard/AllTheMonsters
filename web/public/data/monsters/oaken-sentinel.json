@@ -1,0 +1,82 @@
+{
+  "slug": "oaken-sentinel",
+  "desc": "",
+  "name": "Oaken Sentinel",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 189,
+  "hit_dice": "18d12+72",
+  "speed": {
+    "walk": 10
+  },
+  "strength": 22,
+  "dexterity": 6,
+  "constitution": 19,
+  "intelligence": 5,
+  "wisdom": 8,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -1,
+  "skills": {
+    "perception": -1
+  },
+  "damage_vulnerabilities": "lightning",
+  "damage_resistances": "bludgeoning, piercing",
+  "damage_immunities": "",
+  "condition_immunities": "blinded, deafened, frightened, prone",
+  "senses": "blindsight 120' (blind beyond), passive Perception 9",
+  "languages": "Sylvan",
+  "challenge_rating": "10",
+  "cr": 10,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Grasping Branch or Rock attacks. It can replace one attack with use of Fling."
+    },
+    {
+      "name": "Grasping Branch",
+      "desc": "Melee Weapon Attack: +10 to hit, 50 ft., one target, 19 (3d8+6) bludgeoning damage and the target is grappled (escape DC 16). Until the grapple ends the target is restrained and takes 4 (1d8) bludgeoning damage at start of each of its turns and sentinel can't use same Grasping Branch on another target."
+    },
+    {
+      "name": "Rock",
+      "desc": "Ranged Weapon Attack: +10 to hit 60/240' one target 22 (3d10+6) bludgeoning damage."
+    },
+    {
+      "name": "Fling",
+      "desc": "One Med or smaller creature grappled by the oaken sentinel is thrown up to 60' in a random direction and knocked prone. If a thrown target strikes a solid surface the target takes 3 (1d6) bludgeoning damage for every 10 ft. it was thrown. If the target is thrown at another creature that creature must make DC 16 Dex save or take the same damage and be knocked prone."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from ordinary oak tree."
+    },
+    {
+      "name": "Grasping Branches",
+      "desc": "Can have up to six Grasping Branches at a time. Each Grasping Branch can be attacked (AC 16; 25 hp; vulnerability to lightning; immunity to poison and psychic). Destroying a Grasping Branch deals no damage to the oaken sentinel which can extend a replacement branch on its next turn. A Grasping Branch can also be broken if a creature takes an action and succeeds on a DC 16 Str check vs. it."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 293,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_oaken-sentinel/"
+}

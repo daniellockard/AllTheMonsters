@@ -1,0 +1,81 @@
+{
+  "slug": "ogre_bf",
+  "desc": "",
+  "name": "Ogre",
+  "size": "Large",
+  "type": "Giant",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": "hide armor",
+  "hit_points": 66,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 8,
+  "constitution": 16,
+  "intelligence": 4,
+  "wisdom": 6,
+  "charisma": 6,
+  "strength_save": 4,
+  "dexterity_save": -1,
+  "constitution_save": 3,
+  "intelligence_save": -3,
+  "wisdom_save": -2,
+  "charisma_save": -2,
+  "perception": 8,
+  "skills": {},
+  "damage_vulnerabilities": "Giant Attributes",
+  "damage_resistances": "Giant Attributes",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Giant",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The ogre makes two Greatclub or Javelin attacks."
+    },
+    {
+      "name": "Greatclub",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 13 (2d8+4) bludgeoning damage."
+    },
+    {
+      "name": "Javelin",
+      "desc": "_Melee or Ranged Weapon Attack:_ +6 to hit, reach 5 ft. or range 30/120 ft., one target. _Hit:_ 11 (2d6+4) piercing damage."
+    },
+    {
+      "name": "Bowling Sweep (Recharge 5-6)",
+      "desc": "The ogre sweeps its weapon in a wide arc around it. Each creature within 10 feet of the ogre must make a DC 14 STR save. Small and smaller creatures have disadvantage on the save. On a failure, a creature takes 14 (4d6) bludgeoning damage, is pushed up to 10 feet away from the ogre, and is knocked prone. On a success, a creature takes half the damage and isn't pushed or knocked prone."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shoving Rush",
+      "desc": "The ogre takes the Dash action. If it moves, it can propel itself into one creature it can see along its path. The target must succeed on a DC 14 STR save or be knocked prone. This movement doesn't provoke opportunity attacks from a target that fails this save."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Giant Attributes",
+      "desc": "The ogre is resistant to the stunned condition, and it is vulnerable to the prone condition."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_ogre/"
+}

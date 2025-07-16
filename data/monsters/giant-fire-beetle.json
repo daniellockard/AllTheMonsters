@@ -1,0 +1,70 @@
+{
+  "slug": "giant-fire-beetle",
+  "desc": "A **giant fire beetle** is a nocturnal creature that takes its name from a pair of glowing glands that give off light. Miners and adventurers prize these creatures, for a giant fire beetle's glands continue to shed light for 1d6 days after the beetle dies. Giant fire beetles are most commonly found underground and in dark forests.",
+  "name": "Giant Fire Beetle",
+  "size": "Small",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Miscellaneous Creatures",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 4,
+  "hit_dice": "1d6+1",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 8,
+  "dexterity": 10,
+  "constitution": 12,
+  "intelligence": 1,
+  "wisdom": 7,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 30 ft., passive Perception 8",
+  "languages": "",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) slashing damage.",
+      "attack_bonus": 1,
+      "damage_dice": "1d6",
+      "damage_bonus": -1
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Illumination",
+      "desc": "The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 ft.."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 375,
+  "environments": [
+    "Underdark",
+    "Caverns"
+  ],
+  "img_main": null,
+  "document__slug": "wotc-srd",
+  "document__title": "5e Core Rules",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "v2_converted_path": "/v2/creatures/srd_giant-fire-beetle/"
+}

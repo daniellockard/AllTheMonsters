@@ -1,0 +1,96 @@
+{
+  "slug": "skydancer",
+  "desc": "Air elemental warden children learn to fly before they learn to walk, accompanying their parents through the snow-fattened clouds on _skysails_ (see pg. 45). While all air wardens love the sensation of flight, few hone their skills as rigorously as the skydancers. These graceful masters of the wind are at once artists, performers, and warriors; they are beloved heroes of their people, both defending them in times of danger and bringing them happiness in times of peace.",
+  "name": "Skydancer",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "any race",
+  "group": "Elemental Wardens",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 14,
+  "armor_desc": null,
+  "hit_points": 63,
+  "hit_dice": "14d8",
+  "speed": {
+    "walk": 30,
+    "fly": 60
+  },
+  "strength": 10,
+  "dexterity": 18,
+  "constitution": 10,
+  "intelligence": 12,
+  "wisdom": 16,
+  "charisma": 11,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 16",
+  "languages": "Common, Druidic, Primordial (Auran)",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The skydancer makes two skysail staff attacks."
+    },
+    {
+      "name": "Skysail Staff",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage. If the skydancer makes this attack while flying, the target must make a DC 14 Dexterity saving throw, taking 21 (6d6) lightning damage on a failure or half as much damage on a success.",
+      "attack_bonus": 7,
+      "damage_dice": "1d6",
+      "damage_bonus": 4
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Slow Fall",
+      "desc": "When the skydancer takes falling damage, it may reduce the damage by half."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Evasion",
+      "desc": "If the skydancer is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the skydancer instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+    },
+    {
+      "name": "Flyby",
+      "desc": "The skydancer doesn’t provoke opportunity attacks when it flies out of an enemy’s reach."
+    },
+    {
+      "name": "Skysail",
+      "desc": "The skydancer flies with a special weapon called a _skysail_ (see pg. 45). While the _skysail’s_ wings are extended, the skydancer can cast _levitate_ at will, and can spend an action to cast _fly_ on itself (no concentration required) for up to 1 minute once per day. This use of _fly_ instantly replenishes when in an area of powerful air elemental magic."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The skydancer is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following druid spells prepared:\n\n* Cantrips (at will): guidance, shillelagh\n* 1st level (4 slots): fog cloud, entangle, jump\n* 2nd level (2 slots): gust of wind, skywrite"
+    }
+  ],
+  "spell_list": [
+    "https://api.open5e.com/v2/spells/guidance/",
+    "https://api.open5e.com/v2/spells/shillelagh/",
+    "https://api.open5e.com/v2/spells/fog-cloud/",
+    "https://api.open5e.com/v2/spells/entangle/",
+    "https://api.open5e.com/v2/spells/jump/",
+    "https://api.open5e.com/v2/spells/gust-of-wind/"
+  ],
+  "page_no": 129,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "taldorei",
+  "document__title": "Critical Role: Tal’Dorei Campaign Setting",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://https://greenronin.com/blog/2017/09/25/ronin-round-table-integrating-wizards-5e-adventures-with-the-taldorei-campaign-setting/",
+  "v2_converted_path": "/v2/creatures/tdcs_skydancer/"
+}

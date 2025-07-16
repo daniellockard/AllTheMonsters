@@ -1,0 +1,74 @@
+{
+  "slug": "cadaver-sprite",
+  "desc": "The ground seems to crawl with tiny skeletal humanoids. Red pinpricks of baleful light emanate from empty eye sockets. The creatures have bony wings and tiny, vicious-looking teeth._  \n**Punished Fey.** Cadaver sprites are the skeletal remains of sprites that have failed the fey courts. Some of them befriended non-fey and left the forest, others were simply too lazy to complete their duties, and many more were punished for dozens of other reasons. Whatever the case, the fey lords and ladies corrupt the bodies of the sprites so they can accomplish in death what they failed to do in life. As part of this corruption, the sprites’ wings are reduced to bones, which removes their freedom to fly and forces them to stick to bushes and foliage. They typically band together and assault their opponents in large groups.  \n**Retain Elements of Individuality.** Unlike many forms of simple undead, cadaver sprites retain memories of their lives. These memories serve as a constant reminder of their failures. Those who associated with them in life consider them cursed or no longer recognize them. This inability to connect with those they once knew, combined with the compulsion to protect the forest and continue their previous duties, drives many cadaver sprites to madness.  \n**Deathspeakers.** For reasons known only to the sprites and the fey lords and ladies that created them, cadaver sprites are often found in areas occupied by Open Game License",
+  "name": "Cadaver Sprite",
+  "size": "Tiny",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": null,
+  "hit_points": 20,
+  "hit_dice": "8d4",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 5,
+  "dexterity": 18,
+  "constitution": 10,
+  "intelligence": 14,
+  "wisdom": 13,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "perception": 3,
+    "stealth": 8
+  },
+  "damage_vulnerabilities": "bludgeoning",
+  "damage_resistances": "",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "—",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Shortbow",
+      "desc": "Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 7 (1d6 + 4) piercing damage. The target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake.",
+      "attack_bonus": 6,
+      "damage_dice": "1d6+4"
+    },
+    {
+      "name": "Corrupting Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 2 (1d4) necrotic damage, and the target must make a DC 12 Constitution saving throw or take 2 (1d4) necrotic damage at the start of its next turn.",
+      "attack_bonus": 6,
+      "damage_dice": "1d4+4"
+    },
+    {
+      "name": "Invisibility",
+      "desc": "The cadaver sprite magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 55,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_cadaver-sprite/"
+}

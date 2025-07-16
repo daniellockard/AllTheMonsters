@@ -1,0 +1,70 @@
+{
+  "slug": "monkey's-bane-vine",
+  "desc": "",
+  "name": "Monkey'S Bane Vine",
+  "size": "Large",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 119,
+  "hit_dice": "14d10+42",
+  "speed": {
+    "walk": 10
+  },
+  "strength": 18,
+  "dexterity": 10,
+  "constitution": 16,
+  "intelligence": 1,
+  "wisdom": 13,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, fire",
+  "damage_immunities": "",
+  "condition_immunities": "blinded, deafened, exhaustion, prone",
+  "senses": "blindsight 30', passive Perception 13",
+  "languages": "—",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Tendril attacks."
+    },
+    {
+      "name": "Tendril",
+      "desc": "Melee Weapon Attack: +6 to hit, 20 ft., one target, 11 (2d6+4) bludgeoning damage. If the target is a Large or smaller creature it is grappled (escape DC 14). Until this grapple ends the creature is restrained and takes 7 (2d6) bludgeoning damage at the start of each of its turns. The monkey's bane vine has two tendrils each of which can grapple only one target."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from normal vine."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 273,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_monkeys-bane-vine/"
+}

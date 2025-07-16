@@ -1,0 +1,81 @@
+{
+  "slug": "willowhaunt",
+  "desc": "The ghostly image of a healthy willow overlays a smaller tree composed of bones. Piles of bones litter the ground at its base._  \n**Death Tree.** When victims of murder or other violent deaths die in view of an otherwise healthy willow tree, their spirits flock to the tree. This destroys the willow and causes it to return as a mockery of a living tree. The willowhaunt projects an image of its former appearance to put creatures at ease, at least long enough to convince them to approach.  \n**Thirst for Blood.** Willowhaunts thrive best in blood-soaked soil. They incite murderousness in those who come near by telepathically whispering conspiracies about a creature’s allies. The willowhaunts encourage their victims to make small sacrifices to the willows, ensuring the willowhaunt’s soil remains bloody.  \n**Attractive to Death Cults.** Swamp-based death cults cherish the discovery of a willowhaunt and sacrifice victims to create a grove of willowhaunts. Perversely, a willowhaunt prefers blood shed by unwilling creatures, and it demands the cultists bring victims it can force into a fight.  \n**Undead Nature.** The willowhaunt doesn’t require air, food, drink, or sleep.",
+  "name": "Willowhaunt",
+  "size": "Huge",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 90,
+  "hit_dice": "12d12+12",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 17,
+  "dexterity": 10,
+  "constitution": 12,
+  "intelligence": 9,
+  "wisdom": 14,
+  "charisma": 19,
+  "strength_save": 6,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 7,
+  "perception": null,
+  "skills": {
+    "insight": 5,
+    "intimidation": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "understands Common but can’t speak, telepathy 60 ft.",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The willowhaunt makes two slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 9 (1d12 + 3) bludgeoning damage plus 7 (2d6) necrotic damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d12+3"
+    },
+    {
+      "name": "Provoke Murder",
+      "desc": "The willowhaunt chooses up to two creatures it can see within 30 feet of it. Each target must succeed on a DC 15 Wisdom saving throw or be overcome with murderous intent for 1 minute. While overcome with murderous intent, a creature has advantage on melee attack rolls and is compelled to kill creatures within 30 feet of the willowhaunt. The creature is unable to distinguish friend from foe and must attack the nearest creature other than the willowhaunt each turn. If no other creature is near enough to move to and attack, it stalks off in a random direction, seeking a new target to drag within 30 feet of the willowhaunt. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Whispers of Madness (Recharge 5-6)",
+      "desc": "The willowhaunt whispers in the minds of nearby creatures. Each creature of the willowhaunt's choice within 30 feet of it must make a DC 15 Wisdom saving throw. On a failure, a creature takes 18 (4d8) psychic damage and is afflicted with short term madness. On a success, a creature takes half the damage and isn't afflicted with madness. If a saving throw fails by 5 or more, the creature is afflicted with long term madness instead. A creature afflicted with madness caused by the willowhaunt's whispers has disadvantage on its saving throw against the Willowhaunt's Provoke Murder."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Living Projection",
+      "desc": "The willowhaunt's skeletal form is covered with a magical illusion that makes it look like a living willow tree. The willowhaunt can use a bonus action to dismiss this illusion until the end of its next turn.\n\nThe changes wrought by this illusion fail to hold up to physical inspection. For example, the willowhaunt's trunk appears to be made of bark, but someone touching it would feel the tree's polished bones. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern the willowhaunt's true appearance."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 369,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_willowhaunt/"
+}

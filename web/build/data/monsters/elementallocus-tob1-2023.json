@@ -1,0 +1,95 @@
+{
+  "slug": "elementallocus-tob1-2023",
+  "desc": "False",
+  "name": "Elemental Locus",
+  "size": "Gargantuan",
+  "type": "Elemental",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 290,
+  "hit_dice": "20d20 + 80",
+  "speed": {
+    "walk": 25
+  },
+  "strength": 28,
+  "dexterity": 1,
+  "constitution": 18,
+  "intelligence": 10,
+  "wisdom": 11,
+  "charisma": 11,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": 6,
+  "wisdom_save": 6,
+  "charisma_save": 6,
+  "perception": 16,
+  "skills": {
+    "Nature": 6,
+    "Perception": 6
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, slashing",
+  "damage_immunities": "acid, cold, fire, lightning, poison, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, unconscious",
+  "senses": "darkvision 120 ft., tremorsense 120 ft., passive Perception 16",
+  "languages": "Primordial",
+  "challenge_rating": "17",
+  "cr": 17,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The elemental locus makes three Slam attacks. It can replace one attack with a use of Spawn Elemental."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 31 (5d8 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone."
+    },
+    {
+      "name": "Spawn Elemental",
+      "desc": "The elemental locus magically creates up to 2d6 mephits or 1 Elemental with a challenge rating of 5 or lower. The Elementals arrive at the start of the locus's next turn, acting as allies of the locus and obeying its spoken commands. The locus can create only Elementals that share an element with a terrain feature comprising at least 100,000 square feet of the locus's bound land. For example, a desert-bound locus can't create a water-based Elemental, unless its bound desert contains an oasis or other source of water around the size of a small pond."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Elemental Nature",
+      "desc": "The elemental locus doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Immortal",
+      "desc": "If the elemental locus dies, it returns to life in 1d12 months, regaining all its hp and becoming active again. The new body appears in a space of the locus's choice within its bound land. Only a wish spell can prevent this trait from functioning."
+    },
+    {
+      "name": "Land Bound",
+      "desc": "The elemental locus is bound to an area of land or ocean no larger than 100 square miles. If it leaves this region, it loses its Spawn Elemental action. If it remains outside the region, it automatically teleports back to the center of this area after 24 hours, regardless of distance."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The elemental locus has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "The elemental locus deals double damage to objects and structures."
+    },
+    {
+      "name": "Unstoppable",
+      "desc": "Moving through difficult terrain doesn't cost the elemental locus extra movement, and its speed can't be reduced."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 157,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_elemental-locus/"
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "erinyes-a5e",
+  "desc": "",
+  "name": "Erinyes",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 18,
+  "armor_desc": "",
+  "hit_points": 161,
+  "hit_dice": "19d8+76",
+  "speed": {
+    "walk": 30,
+    "fly": 60
+  },
+  "strength": 18,
+  "dexterity": 18,
+  "constitution": 18,
+  "intelligence": 14,
+  "wisdom": 16,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": 8,
+  "constitution_save": 8,
+  "intelligence_save": null,
+  "wisdom_save": 7,
+  "charisma_save": 8,
+  "perception": null,
+  "skills": {
+    "athletics": 8,
+    "insight": 7,
+    "perception": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold; damage from nonmagical, non-silvered weapons",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "truesight 120 ft., passive Perception 17",
+  "languages": "Infernal, telepathy 120 ft.",
+  "challenge_rating": "12",
+  "cr": 12,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The erinyes makes three attacks."
+    },
+    {
+      "name": "Longsword",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage plus 14 (4d6) poison damage."
+    },
+    {
+      "name": "Longbow",
+      "desc": "Ranged Weapon Attack: +8 to hit, range 150/600 ft., one target. Hit: 8 (1d8 + 4) piercing damage plus 14 (4d6) poison damage  and the target makes a DC 14 Constitution saving throw. On a failure  it is poisoned for 24 hours or until the poison is removed by lesser restoration or similar magic."
+    },
+    {
+      "name": "Lasso",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: The target is entangled by the lasso. While entangled  it can't move more than 15 feet away from the erinyes. The entanglement ends if the erinyes releases the lasso or becomes incapacitated  or if the lasso is destroyed. The lasso is an object with AC 12 and 20 HP and is immune to piercing  poison  psychic  and thunder damage. The entanglement also ends if the target or a creature within 5 feet of it uses an action to succeed on a DC 16 Athletics or Acrobatics check to remove the lasso. The erinyes can't make a lasso attack while a creature is entangled."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Parry",
+      "desc": "If the erinyes is wielding a longsword and can see its attacker, it adds 4 to its AC against one melee attack that would hit it."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Lawful Evil",
+      "desc": "The erinyes radiates a Lawful and Evil aura."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The erinyes has advantage on saving throws against spells and magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 82,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_erinyes/"
+}

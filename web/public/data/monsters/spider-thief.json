@@ -1,0 +1,87 @@
+{
+  "slug": "spider-thief",
+  "desc": "_This clockwork spider creature is the size of a dog. Each of its eight sharp, sickle-like feet stabs or sinks slightly into the ground. Razor wire enwraps its body, while gyros whirl visibly in its faceless, clockwork head._  \n**Wire Fighters.** A spider thief never initiates combat unless ordered to, but it always defends itself against attack. Its initial attack is whirling its razor line to entangle a target. Once it snares a foe, the spider thief keeps attacking that target until it stops resisting or it escapes from the spider’s wire. By then, it should be ready to ensnare a new victim.  \n**Completely Loyal.** This clockwork machine follows orders from its master even if they lead to its destruction, and it ﬁghts until destroyed or told to stand down. The machine recognizes only its creator as its master.  \n**Guild Tools.** The spider thief got its name because its ability to climb walls and to effortlessly cross gaps between buildings up to 20 feet wide makes it an excellent accomplice for enterprising thieves. Some thieves guilds make extensive use of them, and many freelance rogues use them as partners.  \n**Constructed Nature.** A spider thief doesn’t require air, food, drink, or sleep.",
+  "name": "Spider Thief",
+  "size": "Small",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 54,
+  "hit_dice": "12d6+12",
+  "speed": {
+    "walk": 30,
+    "climb": 20
+  },
+  "strength": 10,
+  "dexterity": 12,
+  "constitution": 12,
+  "intelligence": 3,
+  "wisdom": 10,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "stealth": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "fire",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "understands Common but can't speak",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The spider thief makes two sickle claw attacks."
+    },
+    {
+      "name": "Sickle Claw",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 10 (2d8 + 1) slashing damage.",
+      "attack_bonus": 3,
+      "damage_dice": "2d8"
+    },
+    {
+      "name": "Razor Line (Recharge 5-6)",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 15 ft., one target. Hit: 3 (1d4 + 1) slashing damage, and the target is grappled (escape DC 10). Instead of moving, the spider thief can retract the razor line and pull itself onto the grappled creature (the spider thief enters and remains in the target's space). The spider thief's sickle claw attacks have advantage against a grappled creature in the same space. If the grappled creature escapes, the spider thief immediately displaces into an unoccupied space within 5 feet.",
+      "attack_bonus": 3,
+      "damage_dice": "1d4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Immutable Form",
+      "desc": "The spider thief is immune to any spell or effect that would alter its form."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The spider thief has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Wire-Assisted Jump",
+      "desc": "If its razor line attack is available, a spider thief can use its movement to leap 20 feet in any direction by launching the wire like a spider's web so that it spears or snags an object, then immediately reeling it back in. It can carry up to 25 lb. of additional weight while moving this way. Moving this way doesn't expend its razor line attack."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 366,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_spider-thief/"
+}

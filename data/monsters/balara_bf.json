@@ -1,0 +1,89 @@
+{
+  "slug": "balara_bf",
+  "desc": "",
+  "name": "Balara",
+  "size": "Large",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 114,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 14,
+  "constitution": 14,
+  "intelligence": 6,
+  "wisdom": 14,
+  "charisma": 8,
+  "strength_save": 3,
+  "dexterity_save": 2,
+  "constitution_save": 2,
+  "intelligence_save": -2,
+  "wisdom_save": 2,
+  "charisma_save": -1,
+  "perception": 14,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "necrotic",
+  "damage_immunities": "charmed,frightened,Undead Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "understands the languages of its creator but can't speak",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The balara makes one Bite attack and two Claw attacks, or it makes three Necrotic Bolt attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 16 (3d8+3) piercing damage plus 4 (1d8) necrotic damage, and the target can't regain HP until the start of the balara's next turn."
+    },
+    {
+      "name": "Claw",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 13 (3d6+3) slashing damage."
+    },
+    {
+      "name": "Necrotic Bolt",
+      "desc": "_Ranged Spell Attack:_ +5 to hit, range 60 ft., one target. _Hit:_ 15 (3d8+2) necrotic damage, and the target can't regain HP until the start of the balara's next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Relentless Pursuit",
+      "desc": "When a creature the balara can see moves away from it, the balara can move up to half its speed toward that creature. This movement doesn't provoke opportunity attacks."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Terrifying Luminance",
+      "desc": "When a creature that can see the balara's glowing ribcage starts its turn within 30 feet of the balara, the balara can force it to make a DC 14 WIS save if the balara isn't incapacitated and can see the creature. On a failure, the creature is frightened until the start of its next turn, as the visions, fear, and pain of the last moments of several animals flash through its mind. While frightened, the creature's speed is reduced to 0, and it can't use reactions. Unless surprised, a creature can avert its eyes to avoid the save at the start of its turn. If the creature does so, it can't see the balara until the start of its next turn, when it can avert its eyes again. If the creature looks at the balara in the meantime, it must immediately make the save."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The balara doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Undead Resilience",
+      "desc": "The balara is immune to poison damage, to exhaustion, and to the poisoned condition."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_balara/"
+}

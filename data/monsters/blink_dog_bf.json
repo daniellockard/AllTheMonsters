@@ -1,0 +1,76 @@
+{
+  "slug": "blink_dog_bf",
+  "desc": "",
+  "name": "Blink Dog",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 14,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 12,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": 1,
+  "dexterity_save": 3,
+  "constitution_save": 1,
+  "intelligence_save": 0,
+  "wisdom_save": 1,
+  "charisma_save": 0,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Fey Resilience",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "Blink Dog,understands Sylvan but can't speak it",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 6 (1d6+3) piercing damage."
+    },
+    {
+      "name": "Teleport (Recharge 4-6)",
+      "desc": "The blink dog teleports, along with any equipment it is wearing or carrying, up to 40 feet to an unoccupied space it can see. Before or after teleporting, the dog can make one Bite attack."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Fey Resilience",
+      "desc": "The blink dog is resistant to the charmed and unconscious conditions."
+    },
+    {
+      "name": "Heightened Hearing and Smell",
+      "desc": "The blink dog's Perception is 18 while perceiving by hearing or smell."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The blink dog has advantage on attack rolls against a creature if at least one of the dog's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_blink-dog/"
+}

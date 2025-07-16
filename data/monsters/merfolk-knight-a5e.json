@@ -1,0 +1,89 @@
+{
+  "slug": "merfolk-knight-a5e",
+  "desc": "",
+  "name": "Merfolk Knight",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 52,
+  "hit_dice": "8d8+16",
+  "speed": {
+    "walk": 10,
+    "swim": 40
+  },
+  "strength": 16,
+  "dexterity": 12,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 14,
+  "strength_save": 5,
+  "dexterity_save": null,
+  "constitution_save": 4,
+  "intelligence_save": null,
+  "wisdom_save": 2,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "athletics": 5,
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 30 ft., passive Perception 12",
+  "languages": "Aquan, Common",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The knight makes two trident attacks."
+    },
+    {
+      "name": "Trident",
+      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack  or 6 (1d6 + 3) piercing damage if thrown."
+    },
+    {
+      "name": "Lance (Mounted Only)",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage. If the knight moves at least 20 feet straight towards the target before the attack  it deals an extra 6 (1d12) piercing damage  and the target makes a DC 13 Strength saving throw  falling prone on a failure. This attack is made at disadvantage against targets within 5 feet of the knight."
+    },
+    {
+      "name": "Knightly Inspiration (1/Day)",
+      "desc": "The knight inspires creatures of its choice within 30 feet that can hear and understand it. For the next minute  inspired creatures gain an expertise die on attack rolls and saving throws. A creature can benefit from only one Knightly Inspiration at a time  and the knight cannot target itself."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Trident",
+      "desc": "The knight makes a trident attack."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The knight can breathe air and water."
+    },
+    {
+      "name": "Brave",
+      "desc": "The knight has advantage on saving throws against being frightened."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 329,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_merfolk-knight/"
+}

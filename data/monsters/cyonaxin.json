@@ -1,0 +1,116 @@
+{
+  "slug": "cyonaxin",
+  "desc": "",
+  "name": "Cyonaxin",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Good",
+  "armor_class": 16,
+  "armor_desc": "",
+  "hit_points": 117,
+  "hit_dice": "18d8+36",
+  "speed": {
+    "walk": 50,
+    "swim": 20
+  },
+  "strength": 15,
+  "dexterity": 22,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 15,
+  "charisma": 19,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 5,
+  "charisma_save": 7,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "poison, radiant",
+  "damage_immunities": "",
+  "condition_immunities": "paralyzed, poisoned, stunned",
+  "senses": "darkvision 60', passive Perception 12",
+  "languages": "Celestial, Common",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Bite attack and two Claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +9 to hit, 5 ft., one target, 16 (3d6+6) piercing damage + 10 (3d6) radiant."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +9 to hit, 5 ft., one target, 13 (3d4+6) slashing damage."
+    },
+    {
+      "name": "Frightful Yowl (Recharge 6)",
+      "desc": "Each hostile creature within 60' of it and can hear it: DC 15 Wis save or frightened 1 min. Creature grappling or restraining another has disadvantage. Creature can re-save at end of each of its turns success ends effect on itself."
+    },
+    {
+      "name": "Liberating Churr (Recharge 5-6)",
+      "desc": "Each friendly creature within 90' and can hear it gains benefits of its Freedom of Movement. All affected grow claws for unarmed strikes. If affected creature hits with claw deals 1d6+its Str modifier slashing instead of bludgeoning normal for unarmed strike. Lasts until start of cyonaxin's next turn."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Free Runner",
+      "desc": "Can take the Dash action."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Blur of Motion",
+      "desc": "When it moves at least 30' on its turn ranged attack rolls vs. it have disadvantage until the start of its next turn."
+    },
+    {
+      "name": "Chain Breaker",
+      "desc": "Deals 2× damage to objects that restrain creatures."
+    },
+    {
+      "name": "Evasion",
+      "desc": "If subject to effect that allows Dex save for half damage takes no damage on success and only half if it fails."
+    },
+    {
+      "name": "Freedom of Movement",
+      "desc": "Ignores difficult terrain and magical effects can't reduce its speed or cause it to be restrained. It can spend 5 ft. of movement to escape from nonmagical restraints or being grappled."
+    },
+    {
+      "name": "Keen Smell",
+      "desc": "Advantage: smell Wis (Percept) checks."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Magic Weapons",
+      "desc": "Weapon attacks are magical."
+    },
+    {
+      "name": "Pounce",
+      "desc": "If it moves 20'+ straight toward creature and hits it with Claw on same turn target knocked prone (DC 15 Str negates). If target prone cyonaxin can make one Bite attack vs. it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 102,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_cyonaxin/"
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "inkdevil-tob1-2023",
+  "desc": "False",
+  "name": "Ink Devil",
+  "size": "Small",
+  "type": "Fiend",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Lawful Evil",
+  "armor_class": 14,
+  "armor_desc": "",
+  "hit_points": 54,
+  "hit_dice": "12d6 + 12",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 12,
+  "dexterity": 18,
+  "constitution": 12,
+  "intelligence": 20,
+  "wisdom": 8,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 9,
+  "skills": {
+    "Arcana": 9,
+    "Deception": 6,
+    "History": 9,
+    "Stealth": 6
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 9",
+  "languages": "Celestial, Common, Draconic, Infernal, telepathy 120 ft.",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage."
+    },
+    {
+      "name": "Devil's Ink",
+      "desc": "Melee or Ranged Spell Attack: +6 to hit, reach 5 ft. or range 60 ft., one target. Hit: 13 (2d8 + 4) poison damage, and the target must succeed on a DC 13 Dexterity saving throw or be marked with a small, fiendish tattoo for 24 hours. Devils have advantage on attack rolls against the marked target, and the target has disadvantage on saving throws against the spells and abilities of devils."
+    },
+    {
+      "name": "Corrupt Scroll",
+      "desc": "The ink devil touches a scroll, corrupting it. A creature using the scroll must succeed a DC 13 Intelligence saving throw or the spell harms the caster (if an offensive spell), helps the nearest devil (if beneficial), or fails, consuming the scroll (if not offensive or if no devils are in range to benefit from the magic)."
+    },
+    {
+      "name": "Invisibility",
+      "desc": "The ink devil magically turns invisible until it attacks or uses Disrupt Concentration, or until its concentration ends (as if concentrating on a spell). Any equipment the ink devil wears or carries is invisible with it."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The ink devil casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 14):\nAt will: detect magic, illusory script (as an action)\n1/day: glyph of warding"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Disrupt Concentration",
+      "desc": "One spellcaster concentrating on a spell within 30 feet of the ink devil that the devil can see must succeed on a DC 13 Wisdom saving throw or lose concentration on the spell."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the ink devil's darkvision."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The ink devil has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 96,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_ink-devil/"
+}

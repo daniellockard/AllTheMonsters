@@ -1,0 +1,68 @@
+{
+  "slug": "insect_giant_fire_beetle_bf",
+  "desc": "",
+  "name": "Insect, Giant Fire Beetle",
+  "size": "Small",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 7,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 8,
+  "dexterity": 10,
+  "constitution": 12,
+  "intelligence": 1,
+  "wisdom": 6,
+  "charisma": 2,
+  "strength_save": -1,
+  "dexterity_save": 0,
+  "constitution_save": 1,
+  "intelligence_save": -5,
+  "wisdom_save": -2,
+  "charisma_save": -4,
+  "perception": 8,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "keensense 30 ft.",
+  "languages": "-",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +2 to hit, reach 5 ft., one target. _Hit:_ 2 (1d4) slashing damage."
+    },
+    {
+      "name": "Igniting Mucus",
+      "desc": "_Ranged Weapon Attack:_ +2 to hit, range 15/30 ft., one target. _Hit:_ 2 (1d4) poison damage, and the target is covered in mucus that ignites after 1d4 rounds or if the target takes fire damage. An ignited creature takes 2 (1d4) fire damage at the start of each of its turns until a creature takes an action to douse the fire. A creature can remove the mucus before it ignites by taking an action."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Illumination",
+      "desc": "The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_insect-giant-fire-beetle/"
+}

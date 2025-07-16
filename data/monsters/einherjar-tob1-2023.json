@@ -1,0 +1,88 @@
+{
+  "slug": "einherjar-tob1-2023",
+  "desc": "False",
+  "name": "Einherjar",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 18,
+  "armor_desc": "chain mail, shield",
+  "hit_points": 119,
+  "hit_dice": "14d8 + 56",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 19,
+  "dexterity": 16,
+  "constitution": 19,
+  "intelligence": 10,
+  "wisdom": 14,
+  "charisma": 11,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 15,
+  "skills": {
+    "Animal Handling": 5,
+    "Intimidation": 6,
+    "Perception": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "piercing from nonmagical attacks",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "truesight 60 ft., passive Perception 15",
+  "languages": "Celestial, Common",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The einherjar makes two Battleaxe attacks, or it makes three Celestial Bolt attacks. It can replace one attack with Celestial Blessing, if available."
+    },
+    {
+      "name": "Battleaxe",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 13 (3d8) radiant damage."
+    },
+    {
+      "name": "Celestial Bolt",
+      "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 15 (3d8 + 2) radiant damage."
+    },
+    {
+      "name": "Celestial Blessing (Recharge 5-6)",
+      "desc": "The einherjar calls on its celestial patrons for one of the following blessings:"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Battle Frenzy",
+      "desc": "The einherjar has advantage on all attack rolls it makes while it is below 30 hp."
+    },
+    {
+      "name": "Fearsome Gaze",
+      "desc": "The stare of an einherjar is especially piercing to Humanoids. It has advantage on any Charisma (Intimidation) check it makes against a Humanoid."
+    },
+    {
+      "name": "Runic Weapons",
+      "desc": "The einherjar's weapon attacks are magical. When the einherjar hits with any weapon, the weapon deals an extra 3d8 radiant damage (included in the attack)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 156,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_einherjar/"
+}

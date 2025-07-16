@@ -1,0 +1,121 @@
+{
+  "slug": "akyishigal-tob1-2023",
+  "desc": "False",
+  "name": "Akyishigal",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 138,
+  "hit_dice": "12d10 + 72",
+  "speed": {
+    "walk": 40,
+    "fly": 40,
+    "burrow": 40
+  },
+  "strength": 21,
+  "dexterity": 17,
+  "constitution": 22,
+  "intelligence": 19,
+  "wisdom": 14,
+  "charisma": 20,
+  "strength_save": 9,
+  "dexterity_save": 7,
+  "constitution_save": 10,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": 9,
+  "perception": 16,
+  "skills": {
+    "Acrobatics": 11,
+    "Athletics": 9,
+    "Perception": 6,
+    "Stealth": 7
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "acid, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "cold, lightning, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., truesight 60 ft., passive Perception 16",
+  "languages": "Abyssal, Common, Draconic, Elvish, Infernal, telepathy 60 ft.",
+  "challenge_rating": "12",
+  "cr": 12,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Akyishigal makes four Claw attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) slashing damage plus 3 (1d6) poison damage."
+    },
+    {
+      "name": "Call Spawn (1/Day)",
+      "desc": "Akyishigal magically calls one spawn of Akyishigal. The spawn arrives in 1d4 rounds, acting as an ally of Akyishigal and obeying its telepathic commands. The spawn remains for 1 hour, until Akyishigal dies, or until Akyishigal dismisses it as a bonus action."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "Akyishigal casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 17):\nAt will: detect evil and good, pass without trace\n3/day: dispel magic, giant insect, insect plague\n1/day: contagion (filth fever only)"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "Akyishigal magically transforms into a Large or smaller insectoid Beast or back into his true form, which is a Fiend. His statistics, other than his size, are the same in each form. Any equipment he is wearing or carrying transforms with him. He reverts to his true form if he dies."
+    },
+    {
+      "name": "Teleport",
+      "desc": "Akyishigal magically teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see."
+    },
+    {
+      "name": "Skitter (Costs 2 Actions)",
+      "desc": "Akyishigal moves up to half his speed and makes one Claw attack. This movement doesn't provoke opportunity attacks."
+    },
+    {
+      "name": "Cast a Spell (Costs 2 Actions)",
+      "desc": "Akyishigal uses Spellcasting."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": "Akyishigal can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. Akyishigal regains spent legendary actions at the start of his turn.",
+  "legendary_actions": [
+    {
+      "name": "Teleport",
+      "desc": "Akyishigal magically teleports, along with any equipment he is wearing or carrying, up to 120 feet to an unoccupied space he can see."
+    },
+    {
+      "name": "Skitter (Costs 2 Actions)",
+      "desc": "Akyishigal moves up to half his speed and makes one Claw attack. This movement doesn't provoke opportunity attacks."
+    },
+    {
+      "name": "Cast a Spell (Costs 2 Actions)",
+      "desc": "Akyishigal uses Spellcasting."
+    }
+  ],
+  "special_abilities": [
+    {
+      "name": "Cloak of Swarms",
+      "desc": "Akyishigal emits a cloud of flying, stinging insects from his mouth, eyes, and tears in his skin that spreads out in a 5-foot radius from him. At the start of each of his turns, Akyishigal chooses whether this cloak is active."
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "desc": "If Akyishigal fails a saving throw, he can choose to succeed instead."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Akyishigal has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 75,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_akyishigal/"
+}

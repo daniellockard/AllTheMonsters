@@ -1,0 +1,85 @@
+{
+  "slug": "doppelganger_bf",
+  "desc": "",
+  "name": "Doppelganger",
+  "size": "Medium",
+  "type": "Monstrosity",
+  "subtype": "Shapechanger",
+  "group": null,
+  "alignment": "",
+  "armor_class": 14,
+  "armor_desc": null,
+  "hit_points": 80,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 18,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 16,
+  "charisma": 18,
+  "strength_save": 0,
+  "dexterity_save": 4,
+  "constitution_save": 2,
+  "intelligence_save": 0,
+  "wisdom_save": 3,
+  "charisma_save": 4,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "charmed",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,telepathy 60 ft.",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The doppelganger makes two Slam or Psychic Bolt attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 13 (2d8+4) bludgeoning damage."
+    },
+    {
+      "name": "Psychic Bolt",
+      "desc": "_Ranged Spell Attack:_ +4 to hit, range 60 ft., one target. _Hit:_ 13 (2d10+2) psychic damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "The doppelganger transforms into a Small or Medium Humanoid it has seen or back into its true form, which is Monstrosity. Its statistics, other than its size and speed, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+    },
+    {
+      "name": "Read Thoughts",
+      "desc": "The doppelganger magically reads the surface thoughts - what is foremost in the mind at the moment - of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading the target's thoughts until its concentration is broken (as if concentrating on a spell) or it uses Read Thoughts on a different target."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Convincing Mimicry (Humanoid Form Only)",
+      "desc": "The doppelganger can mimic any Humanoid's body and voice it has seen and heard nearly perfectly. A creature very familiar with the individual Humanoid the doppelganger is pretending to be can tell the doppelganger is an imitation with a successful DC 20 WIS (Insight) check."
+    },
+    {
+      "name": "Revealed Intentions",
+      "desc": "While reading a creature's mind, the doppelganger has advantage on CHA checks against the creature, knows the creature's current mood, and knows if the creature speaks a lie. In addition, the doppelganger has advantage on attack rolls against the creature."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_doppelganger/"
+}

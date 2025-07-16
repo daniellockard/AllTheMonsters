@@ -1,0 +1,74 @@
+{
+  "slug": "bloodstone-sentinel",
+  "desc": "A humanoid statue made of green stone streaked with red steps forward, its long, curved claws reaching out. Its face is blank of features except two deep eye sockets that drip fresh blood like tears._  \nEvil cults exsanguinate sacrifices over specially prepared bloodstone statues, infusing the life force of the victims into the rock and granting it life. These sentinels are driven to see more blood spilled, whether by their own hands, those of their masters, or even those of their enemies.  \n**Blood Calls Blood.** The blood infused into the sentinel perpetually leaks out, a representation of the agony that created the construct. This agony pulls on nearby creatures, drawing out vital fluids and ripping minor wounds into great injuries. The sentinel stores this blood inside itself, and the red veins in its stone become more prevalent the more blood it stores.  \n**Mindless Fury.** Those who create bloodstone sentinels invariably see power through the spilling of blood and utilize the construct to spread their faith. Some blood cults use the sentinels as mobile containers for the primary component of their profane rituals.  \n**Construct Nature.** A bloodstone sentinel doesn’t require air, food, drink, or sleep.",
+  "name": "Bloodstone Sentinel",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 114,
+  "hit_dice": "11d10+48",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 7,
+  "constitution": 18,
+  "intelligence": 8,
+  "wisdom": 10,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison; bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "understands the languages of its creators but can’t speak",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The bloodstone sentinel makes two claw attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d8+4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Blood Lure",
+      "desc": "When a creature within 10 feet of the sentinel that isn't an undead or a construct takes piercing or slashing damage, it must succeed on a DC 15 Constitution saving throw or take an extra 7 (2d6) damage of that type. The sentinel's Blood Reservoir increases by an amount equal to the extra damage dealt."
+    },
+    {
+      "name": "Blood Reservoir",
+      "desc": "The bloodstone sentinel absorbs blood that is spilled nearby into itself. This reservoir of blood grows when a creature takes extra damage from the sentinel's Blood Lure trait. The Blood Reservoir can't exceed the sentinel's hp maximum. As a bonus action, the sentinel can reduce the Blood Reservoir by 10 to cause one of the following effects: \n* Empower Blood. A friendly creature within 30 feet of the sentinel that isn't an undead or a construct has advantage on its next weapon attack roll. \n* Inspire Fury. A creature of the sentinel's choice within 30 feet of the sentinel must succeed on a DC 15 Charisma saving throw or immediately use its reaction to move up to its speed and make one melee weapon attack against its nearest ally. If no ally is near enough to move to and attack, the target attacks the nearest creature that isn't the bloodstone sentinel. If no creature other than the sentinel is near enough to move to and attack, the target stalks off in a random direction, seeking a target for its fury. \n* Sustain. A nonhostile undead creature within 30 feet of the sentinel that must eat or drink, such as a ghoul or vampire, regains 10 hit points."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 45,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_bloodstone-sentinel/"
+}

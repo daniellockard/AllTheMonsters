@@ -1,0 +1,102 @@
+{
+  "slug": "mire_fiend_bf",
+  "desc": "",
+  "name": "Mire Fiend",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "group": "Demons",
+  "alignment": "",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 94,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40,
+    "swim": 40
+  },
+  "strength": 14,
+  "dexterity": 22,
+  "constitution": 18,
+  "intelligence": 4,
+  "wisdom": 14,
+  "charisma": 6,
+  "strength_save": 2,
+  "dexterity_save": 6,
+  "constitution_save": 4,
+  "intelligence_save": -3,
+  "wisdom_save": 2,
+  "charisma_save": -2,
+  "perception": 15,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Demonic Resilience",
+  "damage_immunities": "acid,Demonic Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., keensense 10 ft.",
+  "languages": "Abyssal",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The mire fiend makes one Mandibles attack, one Spear attack, and one Stinger attack."
+    },
+    {
+      "name": "Mandibles",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one creature. _Hit:_ 12 (2d8+3) slashing damage."
+    },
+    {
+      "name": "Spear",
+      "desc": "Melee Weapon or Ranged Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 5 (1d6+2) piercing damage, or 6 (1d8+2) piercing damage if used with two hands to make a melee attack."
+    },
+    {
+      "name": "Stinger",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 10 ft., one creature. _Hit:_ 5 (1d4+3) piercing damage plus 10 (3d6) poison damage, and the target must succeed on a DC 14 CON save or be poisoned."
+    },
+    {
+      "name": "Stunning Snap (Recharge 5-6)",
+      "desc": "If the mire fiend has no creature grappled, it snaps its mandibles together with great force, creating a miniature sonic boom in a 30-foot cone.<br>Each creature in that area must make a DC 14 CON save. On a failure, a creature takes 21 (6d6) thunder damage and is stunned until the end of its next turn. On a success, a creature takes half the damage and isn't stunned."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Acidic Retribution",
+      "desc": "When the mire fiend takes damage, including any damage that reduces it to 0 HP, it can expel acid from its stinger in a 15-foot line that is 5 feet wide. Each creature in that line must make a DC 14 DEX save, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The mire fiend can breathe air and water."
+    },
+    {
+      "name": "Demonic Resilience",
+      "desc": "The mire fiend is resistant to cold, fire, and lightning damage. In addition, it is immune to poison damage and to the poisoned condition."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The mire fiend has advantage on saves against spells and other magical effects."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The mire fiend has advantage on attack rolls against a creature if at least one of the mire fiend's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    },
+    {
+      "name": "Swamp Camouflage",
+      "desc": "The mire fiend's Stealth is 21 while in swampy terrain."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_mire-fiend/"
+}

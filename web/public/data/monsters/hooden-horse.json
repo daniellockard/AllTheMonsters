@@ -1,0 +1,80 @@
+{
+  "slug": "hooden-horse",
+  "desc": "The creature stands amid a baying crowd, swathed in rags topped by a horse’s skull. It brandishes a halberd made of shadow and hisses, “Come forth and be judged!”_  \n**Strange Great Sins.** In small villages on a festival eve, one villager plays the village’s “sin eater.” Bearing a horse’s skull on a pole and covered by a draping of tattered skins, the sin eater goes door to door with its crew, seeking payment for the householders’ wrongs. The payment usually takes the form of alcohol. As the evening wanes, a drunken procession staggers toward the tavern behind the sin eater. Dark tales relate how, where a terrible wrong has gone unpunished and unpaid, such folk rituals can go awry. The unfortunate sin eater, overwhelmed by a spirit of vengeance, melds with the skull to become a ghastly undead being bent on retribution, a hooden horse.  \n**The Madness of The Crowd.** If the sin eater has drunken hangers-on when it is transformed, the mob also becomes filled with vengeful spite and swarms around the hooden horse, assaulting any who interfere. When this occurs, use the statistics of a Open Game License",
+  "name": "Hooden Horse",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 117,
+  "hit_dice": "18d8+36",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 14,
+  "intelligence": 12,
+  "wisdom": 15,
+  "charisma": 19,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 5,
+  "skills": {
+    "perception": 5
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "psychic",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 15",
+  "languages": "the languages spoken in the village where it was created",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The hooden horse makes two blade of retribution attacks."
+    },
+    {
+      "name": "Blade of Retribution",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) necrotic damage. The target must make a DC 13 Wisdom saving throw, taking 14 (4d6) psychic damage on a failed save, or half as much damage on a successful one. If the target is a perpetrator of the crime that provoked the hooden horse's creation, it has disadvantage on this saving throw.",
+      "attack_bonus": 7,
+      "damage_dice": "1d10+4"
+    },
+    {
+      "name": "Call to Judgment",
+      "desc": "The hooden horse points at a being it can see and demands that the creature submit to justice. The target must succeed on a DC 15 Charisma saving throw or be charmed for 1 minute. If the charmed target is more than 5 feet away from the hooden horse, the target must take the Dash action on its turn to move toward the hooden horse by the most direct route. It doesn't avoid opportunity attacks, but, before moving into damaging terrain, such as lava or a pit, the target can repeat the saving throw. The creature can also repeat the saving throw at the end of each of its turns or whenever it takes damage from the hooden horse. If a creature's saving throw is successful, the effect ends on it.\n\nThe hooden horse can have only one target charmed at a time. If it charms another, the effect on the previous target ends."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Harvest Life",
+      "desc": "When the hooden horse reduces a creature to 0 hp, the hooden horse regains 10 (3d6) hp."
+    },
+    {
+      "name": "Seek Wrongdoer",
+      "desc": "The hooden horse automatically knows the general direction to the nearest surviving perpetrator of the crime that provoked its creation."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 202,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_hooden-horse/"
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "ulnorya",
+  "desc": "Eight long, writhing tentacles support and propel this snarling horror’s oblong body while its jagged maw reveals rows of razor teeth._  \n**Invisible Hunter.** The ulnorya lives to hunt, using its natural invisibility to surprise prey or swiftly chase down its next meal. Replicating itself allows the ulnorya to be its own hunting partner, and it uses this to stage ambushes or surround its victims.  \n**Magical Oddity.** Whether it was created by a mad druid or some arcane guild’s ill-advised experimentation, the ulnorya combines elements of spiders, scorpions, and octopuses. Asexual as a species, ulnorya create new offspring by implanting an egg within corpses slain by the ulnorya’s poison. Within five days, the egg hatches into a new ulnorya.",
+  "name": "Ulnorya",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": null,
+  "hit_points": 119,
+  "hit_dice": "14d10+42",
+  "speed": {
+    "walk": 50,
+    "climb": 30
+  },
+  "strength": 14,
+  "dexterity": 18,
+  "constitution": 17,
+  "intelligence": 12,
+  "wisdom": 10,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": 6,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "acrobatics": 7,
+    "athletics": 5,
+    "perception": 6,
+    "stealth": 10
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60 ft., passive Perception 16",
+  "languages": "—",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The ulnorya makes four attacks: one with its bite, one with its claw, and two with its tentacles."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage and the target must succeed on a DC 15 Constitution saving throw or take 7 (2d6) poison damage. If the poison damage reduces the target to 0 hp, the target is stable but poisoned for 1 hour, even after regaining hp, and is paralyzed while poisoned in this way.",
+      "attack_bonus": 7,
+      "damage_dice": "2d8+4"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d6+4"
+    },
+    {
+      "name": "Tentacle",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.",
+      "attack_bonus": 7,
+      "damage_dice": "1d4+3"
+    },
+    {
+      "name": "Replicate (1/Day)",
+      "desc": "The ulnorya separates itself into two identical copies for up to 1 hour. The new ulnoryas' hp totals are equal to the original ulnorya's hp total divided by 2 (rounded down), and each is affected by any conditions, spells, and other magical effects that affected the original ulnorya. The new ulnoryas otherwise retain the same statistics as the original, except neither has this action. The new ulnoryas act on the same initiative count as the original ulnorya and occupy any unoccupied spaces within 5 feet of the original ulnorya's space.\n\nIf one ulnorya starts its turn within 5 feet of its other half, they can each use their reactions to recombine. The recombined ulnorya's hp total is equal to the combined hp total of the two ulnoryas, and it is affected by any conditions, spells, and other magical effects currently affecting either of the combining ulnoryas. The ulnorya automatically recombines if both of its halves are still alive at the end of the hour. If only one ulnorya remains alive at the end of the hour, it gains this action after it finishes a long rest."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Immutable Form",
+      "desc": "The ulnorya is immune to any spell or effect that would alter its form."
+    },
+    {
+      "name": "Photoadaptive Hide",
+      "desc": "If the ulnorya didn't move on its previous turn, it is invisible."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 354,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_ulnorya/"
+}

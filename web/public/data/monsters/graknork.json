@@ -1,0 +1,89 @@
+{
+  "slug": "graknork",
+  "desc": "Towering over the frozen landscape, this immense saurian monstrosity possesses a terrifying shark-like head with a multitude of serrated teeth. The monster has three eyes: two soulless black pits and a third larger eye that glows with a freezing blue light._  \n**Terror of the North.** The legendary graknork is one of the most powerful monsters to roam the endless tundra and taiga of the north and is feared by all who live in the rugged and frozen expanses of the world. Only the largest white dragons surpass the graknork in size and strength, and lesser creatures give the monster a wide berth. Graknorks are mostly found on land but are reasonable swimmers. They have no problem taking to the water to pursue escaping prey or to hunt fishermen and even whales. Graknorks are solitary creatures and cannot stand the presence of their own kind, attacking and eating juvenile graknorks that cross their path. When they do mate, it is a destructive affair with the female uprooting dozens of trees to build her nest. A typical graknork is more than forty feet long, though even larger specimens have been sighted in the coldest regions of the world.  \n**Great Blue Eye.** While the graknork’s raw physical prowess is justifiably feared, the aspect of its appearance that causes the greatest consternation is its great, freezing blue eye. Its eye is said to possess terrible and wondrous powers, including seeing through illusions, freezing souls outright, and causing everlasting blizzards. Most of these tales are mere fancy and hearsay spun by northern tribesmen, yet there is no denying that the graknork’s central eye is a fearsome weapon.",
+  "name": "Graknork",
+  "size": "Gargantuan",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 20,
+  "armor_desc": "natural armor",
+  "hit_points": 201,
+  "hit_dice": "13d20+65",
+  "speed": {
+    "swim": 30,
+    "walk": 50
+  },
+  "strength": 25,
+  "dexterity": 18,
+  "constitution": 21,
+  "intelligence": 5,
+  "wisdom": 13,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "perception": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "cold",
+  "condition_immunities": "",
+  "senses": "darkvision 90 ft., passive Perception 16",
+  "languages": "—",
+  "challenge_rating": "14",
+  "cr": 14,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The graknork makes three attacks: one with its bite and two with its claws. Alternatively, it can use its Eye Ray twice. If both claw attacks hit a Large or smaller creature, the creature must succeed on a DC 18 Strength saving throw or take an additional 9 (2d8) slashing damage and be knocked prone."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 23 (3d10 + 7) piercing damage.",
+      "attack_bonus": 12,
+      "damage_dice": "3d10+7"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 20 (3d8 + 7) slashing damage.",
+      "attack_bonus": 12,
+      "damage_dice": "3d8+7"
+    },
+    {
+      "name": "Eye Ray",
+      "desc": "Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit: 17 (5d6) cold damage.",
+      "attack_bonus": 9,
+      "damage_dice": "5d6"
+    },
+    {
+      "name": "Freezing Eye (Recharge 5-6)",
+      "desc": "The graknork's blue eye flares open and releases a beam of icy energy in a line that is 120-feet long and 10 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw. On a failure, a creature takes 35 (10d6) cold damage and is restrained for 1 minute as its limbs freeze. On a success, a creature takes half the damage and isn't restrained. A restrained creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Alternatively, the restrained creature can be freed if it takes at least 10 fire damage."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Sight",
+      "desc": "The graknork has advantage on Wisdom (Perception) checks that rely on sight."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 182,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_graknork/"
+}

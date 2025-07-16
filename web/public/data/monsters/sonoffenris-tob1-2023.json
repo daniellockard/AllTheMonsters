@@ -1,0 +1,89 @@
+{
+  "slug": "sonoffenris-tob1-2023",
+  "desc": "False",
+  "name": "Son of Fenris",
+  "size": "Huge",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 175,
+  "hit_dice": "14d12 + 84",
+  "speed": {
+    "walk": 30,
+    "burrow": 60
+  },
+  "strength": 26,
+  "dexterity": 16,
+  "constitution": 23,
+  "intelligence": 16,
+  "wisdom": 18,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": 10,
+  "intelligence_save": null,
+  "wisdom_save": 8,
+  "charisma_save": null,
+  "perception": 14,
+  "skills": {
+    "Arcana": 7,
+    "Intimidation": 6,
+    "Religion": 11
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "necrotic, radiant; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "cold, poison",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "truesight 60 ft., tremorsense 120 ft., passive Perception 14",
+  "languages": "Common, Celestial, Giant, telepathy 60 ft.",
+  "challenge_rating": "12",
+  "cr": 12,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The son of Fenris makes one Bite attack and two Slam attacks, or it makes four Divine Bolt attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 19 (2d10 + 8) piercing damage plus 10 (3d6) necrotic damage or radiant damage (the son's choice). If the target is a Large or smaller creature, it must succeed on a DC 18 Dexterity saving throw or be swallowed by the son of Fenris. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the son, and it takes 21 (6d6) acid damage at the start of each of the son's turns. The son can have only one creature swallowed at a time."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 13 (1d10 + 8) bludgeoning damage plus 10 (3d6) necrotic damage or radiant damage (the son's choice)."
+    },
+    {
+      "name": "Divine Bolt",
+      "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit: 18 (4d6 + 4) necrotic damage or radiant damage (the son's choice)."
+    },
+    {
+      "name": "Snake Breath (Recharge 5-6)",
+      "desc": "The two snake tongues of the son of Fenris each exhale poison in a 30-foot line that is 5 feet wide, resulting in two lines. Each creature in a line must make a DC 18 Dexterity saving throw, taking 45 (10d8) poison damage on a failed save, or half as much damage on a successful one. If the lines overlap, each creature in the overlapping lines must make one saving throw with disadvantage against only one of the lines rather than one saving throw for each line."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Keen Hearing and Smell",
+      "desc": "The son of Fenris has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "name": "Divine Weapons",
+      "desc": "The son of Fenris's weapon attacks are magical. When the son hits with any weapon, the weapon deals an extra 3d6 necrotic damage or radiant damage (included in the attack), the son's choice."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 335,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_son-of-fenris/"
+}

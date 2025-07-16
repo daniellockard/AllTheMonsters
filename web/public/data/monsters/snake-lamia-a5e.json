@@ -1,0 +1,89 @@
+{
+  "slug": "snake-lamia-a5e",
+  "desc": "",
+  "name": "Snake Lamia",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 85,
+  "hit_dice": "10d10+30",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 16,
+  "constitution": 16,
+  "intelligence": 14,
+  "wisdom": 16,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "deception": 6,
+    "perception": 5,
+    "stealth": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 15",
+  "languages": "Abyssal, Common",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Dizzying Touch",
+      "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one creature. Hit: The target is magically charmed for 1 hour or until it takes damage. While charmed in this way  it has disadvantage on Wisdom saving throws and ability checks."
+    },
+    {
+      "name": "Constrict",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage  and the target is grappled (escape DC 13). Until this grapple ends  the lamia can't constrict a different target."
+    },
+    {
+      "name": "Dagger",
+      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage  and the target makes a DC 13 Constitution saving throw. On a failure  the target takes 10 (3d6) poison damage and is poisoned for 1 hour."
+    },
+    {
+      "name": "Hypnotic Pattern (3rd-Level; S, Concentration)",
+      "desc": "A swirling pattern of light appears at a point within 120 feet. Each creature within 10 feet of the pattern that can see it makes a DC 14 Wisdom saving throw. On a failure  the creature is charmed for 1 minute. While charmed  the creature is incapacitated and its Speed is 0. The effect ends on a creature if it takes damage or if another creature uses an action to shake it out of its daze."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Misty Step (2nd-Level; V)",
+      "desc": "The lamia teleports to an unoccupied space it can see within 30 feet. The lamia can't cast this spell and a 1st-level or higher spell on the same turn."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Chaotic Evil",
+      "desc": "The lamia radiates a Chaotic and Evil aura."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The lamias innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no material components. At will: charm person, disguise self (humanoid form), major image, misty step, 1/day each: geas, hallucinatory terrain, hypnotic pattern, scrying"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 303,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_snake-lamia/"
+}

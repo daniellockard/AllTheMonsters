@@ -1,0 +1,87 @@
+{
+  "slug": "qumdaq",
+  "desc": "",
+  "name": "Qumdaq",
+  "size": "Small",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 18,
+  "hit_dice": "4d6+4",
+  "speed": {
+    "walk": 30,
+    "burrow": 30
+  },
+  "strength": 8,
+  "dexterity": 14,
+  "constitution": 13,
+  "intelligence": 6,
+  "wisdom": 11,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 2,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+  "senses": "darkvision 30', tremorsense 30', passive Perception 12",
+  "languages": "Terran",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 4 (1d4+2) bludgeoning damage."
+    },
+    {
+      "name": "Desiccation Field (1/Day)",
+      "desc": "Extends its arms sending sand and grit swirling around itself. Each non-qumdaq creature within 10 ft. of it: 5 (2d4) bludgeoning damage and suffers one level of exhaustion for 1 hr or until it drinks 1+ pint of water (DC 10 Con half damage and isn't exhausted). A creature can suffer no more than 3 total levels of exhaustion from Desiccation Field regardless of how many qumdaqs use the action."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Earth Glide",
+      "desc": "Can burrow through nonmagical unworked earth/stone with o disturbing material it moves through."
+    },
+    {
+      "name": "Elemental Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Final Gift",
+      "desc": "When it dies it bursts in a shower of sand. A qumdaq of dying qumdaq's choice within 10 ft. of it regains 5 (2d4) hp or target gains 5 (2d4) temp hp if at its max."
+    },
+    {
+      "name": "Horde Tactics",
+      "desc": "Has advantage on attack rolls vs. a creature if 1+ qumdaq's ally is within 5 ft. of creature and ally isn't incapacitated. Also qumdaq's weapon attacks deal extra 2 (1d4) bludgeoning damage on a hit if 3+ qumdaq's allies are within 5 ft. of target and allies aren't incapacitated."
+    },
+    {
+      "name": "Sense Magic",
+      "desc": "Senses magic within 60' of it at will. This otherwise works like detect magic but isn't itself magical."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 326,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_qumdaq/"
+}

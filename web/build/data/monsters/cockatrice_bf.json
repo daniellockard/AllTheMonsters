@@ -1,0 +1,70 @@
+{
+  "slug": "cockatrice_bf",
+  "desc": "",
+  "name": "Cockatrice",
+  "size": "Small",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": null,
+  "hit_points": 25,
+  "hit_dice": "",
+  "speed": {
+    "walk": 20,
+    "fly": 40
+  },
+  "strength": 6,
+  "dexterity": 12,
+  "constitution": 12,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 4,
+  "strength_save": -2,
+  "dexterity_save": 1,
+  "constitution_save": 1,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -3,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "petrified,Monstrosity Resilience",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "-",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Serrated Beak",
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one creature. _Hit:_ 6 (2d4+1) slashing damage, and the target must succeed on a DC 11 CON save or be restrained as it begins to turn to stone. The creature must repeat the save at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Shrieking Crow",
+      "desc": "When a creature the cockatrice can see within 30 feet of it attacks it, the cockatrice can let out a startling crow. The attacker must succeed on a DC 11 WIS save or have disadvantage on the attack roll."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Monstrosity Resilience",
+      "desc": "The cockatrice is resistant to exhaustion and to the frightened condition."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_cockatrice/"
+}

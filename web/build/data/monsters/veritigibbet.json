@@ -1,0 +1,88 @@
+{
+  "slug": "veritigibbet",
+  "desc": "",
+  "name": "Veritigibbet",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 14,
+  "armor_desc": "",
+  "hit_points": 63,
+  "hit_dice": "14d6+14",
+  "speed": {
+    "walk": 30,
+    "fly": 60
+  },
+  "strength": 9,
+  "dexterity": 19,
+  "constitution": 12,
+  "intelligence": 14,
+  "wisdom": 11,
+  "charisma": 19,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "nonmagic B/P/S attacks not made w/cold iron weapons",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened",
+  "senses": "passive Perception 10",
+  "languages": "Common, Elvish, Sylvan",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Repartee attacks."
+    },
+    {
+      "name": "Repartee",
+      "desc": "Melee or Ranged Spell Attack: +6 to hit 5 ft. or range 60' one target 14 (3d6+4) psychic."
+    },
+    {
+      "name": "Blather",
+      "desc": "Asks a question of a creature it can see within 30' of it. Target must make a DC 14 Wis save. Fail: target must either answer the question truthfully and completely or have disadvantage on all attack rolls saves and ability checks for the next 1 hr cumulatively increasing in duration each time the target fails the save and chooses to take disadvantage. If the target chooses to answer the question it can't dissemble or omit information relevant to the question being answered. Success: veritigibbet takes 3 (1d6) psychic. Creatures that are immune to being charmed aren't affected by this."
+    },
+    {
+      "name": "Veiled Escape (1/Day)",
+      "desc": "Teleports along with any equipment worn or carried up to 120' to an unoccupied spot it sees. becoming invisible when it arrives at the destination."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Liar Liar",
+      "desc": "When a creature lies while within 30' of the veritigibbet that creature: 3 (1d6) fire and it ignites (DC 14 Dex negates). Until creature uses action to douse the fire target takes 3 (1d6) fire at start of each of its turns."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Fortissimo Fibber",
+      "desc": "Can't be magically silenced or forced to tell the truth by any means and it knows if it hears a lie."
+    },
+    {
+      "name": "Ventriloquist",
+      "desc": "Can make its voice sound as though it originates from any point it can see within 60' of it."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 384,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_veritigibbet/"
+}

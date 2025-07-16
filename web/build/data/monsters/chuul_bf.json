@@ -1,0 +1,86 @@
+{
+  "slug": "chuul_bf",
+  "desc": "",
+  "name": "Chuul",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 80,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 18,
+  "dexterity": 10,
+  "constitution": 16,
+  "intelligence": 4,
+  "wisdom": 14,
+  "charisma": 4,
+  "strength_save": 4,
+  "dexterity_save": 0,
+  "constitution_save": 3,
+  "intelligence_save": -3,
+  "wisdom_save": 2,
+  "charisma_save": -3,
+  "perception": 14,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Aberrant Resilience",
+  "damage_immunities": "poison,poisoned",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "understands Deep Speech but can't speak",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The chuul makes two Pincer attacks."
+    },
+    {
+      "name": "Pincer",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 10 ft., one target. _Hit:_ 17 (3d8+4) bludgeoning damage. If the target is Large or smaller, it is grappled (escape DC 14). The chuul has two pincers, each of which can grapple only one target."
+    },
+    {
+      "name": "Wild Reach (Recharge 5-6)",
+      "desc": "The chuul taps into ancient memories of magic and reaches toward nearby magic with an unpracticed grasp, releasing a burst of energy. Each creature within 15 feet of the chuul must make a DC 14 DEX save, taking 21 (6d6) damage on a failed save, or half as much damage on a successful one. If a magic item, spell effect, or spellcaster is within 30 feet of the chuul, the burst is pure arcane energy, dealing force damage. If no magic is within 30 feet of the chuul, the burst pulls from the chuul's own life force, dealing necrotic damage. If the damage is necrotic, the chuul takes necrotic damage as if it succeeded on the save."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Paralyzing Tentacles",
+      "desc": "One creature grappled by the chuul must succeed on a DC 14 CON save or be poisoned for 1 minute. Until this poison ends, the creature is paralyzed. A poisoned creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Aberrant Resilience",
+      "desc": "The chuul is resistant to the charmed, frightened, paralyzed, and stunned conditions, and it has advantage on saves against spells or effects that would alter its form."
+    },
+    {
+      "name": "Amphibious",
+      "desc": "The chuul can breathe air and water."
+    },
+    {
+      "name": "Sense Magic",
+      "desc": "The chuul senses and can pinpoint the location of magic within 120 feet of it. If it senses magic and can see the creature or object bearing the magic it senses, it sees a faint aura around that creature or object."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_chuul/"
+}

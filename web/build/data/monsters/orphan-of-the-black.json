@@ -1,0 +1,82 @@
+{
+  "slug": "orphan-of-the-black",
+  "desc": "Appearing to be an unkempt human child between the ages of six and ten, this creature has bare feet and long, ragged, dirty nails. The matted mop of hair upon the creature’s head has the odd blade of grass stuck in it. Its face is gaunt, with black, expressionless eyes, and its mouth is twisted into a sneer._  \n**Neglectful Beginnings.** Once children of the Material Plane, these poor souls were mistreated by their guardians or people in positions of authority. Through their sadness and neglect, they inadvertently opened doorways to the Shadow Realm, and, eager for an escape from their lives, they stepped through the doorways. Over time, the atmosphere of the Shadow Realm corrupted and twisted these children into feral creatures. Orphans of the black carry no weapons or belongings, except for a single tattered blanket or broken toy.  \n**Problem with Authority.** Orphans of the black hate those who hold command over others. Whenever possible, creatures prominently displaying rank or other titles, along with those who issue orders. An orphan of the black may sympathize with a creature that feels belittled or neglected, and it might forgo attacking the creature to attempt to coerce the creature into becoming an orphan of the black as well.",
+  "name": "Orphan of the Black",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 49,
+  "hit_dice": "9d6+18",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 14,
+  "intelligence": 8,
+  "wisdom": 10,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Common",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The orphan of the black makes two melee attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d6+3"
+    },
+    {
+      "name": "Incite Violence (Recharge 5-6)",
+      "desc": "The orphan of the black forces a creature it can see within 15 feet of it to commit an outburst of violence. The target must make a DC 12 Wisdom saving throw. On a failed save, the creature must use its action on its next turn to attack the nearest creature other than the orphan of the black. On a success, the creature takes 7 (2d6) psychic damage from the violence boiling at the edge of its consciousness. A creature immune to being charmed isn't affected by the orphan's Incite Violence."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Forbiddance",
+      "desc": "An orphan of the black can't enter a residence without an invitation from one of the occupants."
+    },
+    {
+      "name": "Sense Law",
+      "desc": "An orphan of the black can pinpoint the location of a lawful creature within 30 feet of it."
+    },
+    {
+      "name": "Transmit Pain",
+      "desc": "A creature that hits the orphan of the black with an attack must succeed on a DC 12 Wisdom saving throw or take 7 (2d6) psychic damage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 286,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_orphan-of-the-black/"
+}

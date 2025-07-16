@@ -1,0 +1,89 @@
+{
+  "slug": "hoard-drake",
+  "desc": "A plump, wingless drake with golden scales and glowing amber eyes lounges on a pile of treasure. When it opens its crooked mouth, molten gold drips from its jaws._  \n**Avarice Personified.** Hoard drakes are perhaps the most avaricious and lazy of all dragonkind, spending their days lying on huge mounds of copper, silver, and gold pieces, rarely—if ever—venturing out of their lairs. Hoard drakes feed irregularly, gorging themselves on metals, minerals, and the occasional dwarf or goat when hunger finally gets the better of them. Hoard drakes are almost as vain as they are greedy and meticulously clean their scales to a polished gleam that matches their golden treasure. Hoard drakes lust after the hoards of true dragons and sometimes attack small dragons to steal their treasure or take over their lairs.  \n**Robbers Beware.** Strangely, hoard drakes are docile creatures that are open to conversation with visitors. However, hoard drakes are roused to terrible anger when even the smallest portion of their treasure is taken. At such times, a hoard drake leaves its lair to relentlessly pursue the thief, not resting until its treasure is reclaimed and the offending party is slain and eaten. A hoard drake never gives up any part of its hoard unless threatened with certain death. Even then, it doesn’t rest until the indignity it has suffered has been repaid in full.",
+  "name": "Hoard Drake",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 147,
+  "hit_dice": "14d10+70",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 7,
+  "constitution": 20,
+  "intelligence": 16,
+  "wisdom": 10,
+  "charisma": 12,
+  "strength_save": 7,
+  "dexterity_save": null,
+  "constitution_save": 8,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "arcana": 6,
+    "history": 6,
+    "nature": 6,
+    "perception": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "fire",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft., passive Perception 13",
+  "languages": "Common, Draconic",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The hoard drake makes three attacks: one with its bite and two with its claws."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) piercing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "3d8+4"
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) slashing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "3d6+4"
+    },
+    {
+      "name": "Midas Breath (Recharge 6)",
+      "desc": "The hoard drake spits molten gold in a 30-foot cone. Each creature in the area must make a DC 16 Dexterity saving throw. On a failure, a creature takes 36 (8d8) fire damage and the gold clings to it. On a success, a creature takes half the damage and the gold doesn't cling to it. A creature with gold clinging to it has its speed halved until it takes an action to scrape off the gold.\n\nThe gold produced by Midas Breath can be collected once it has cooled, providing roughly 50 gp worth of gold dust and scraps each time it spits molten gold."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Miser's Fury",
+      "desc": "The hoard drake knows the scent of every coin, gem and item of value in its hoard. The drake has advantage on Wisdom (Perception and Survival) checks to find and track its hoard. In addition, it has advantage on attack rolls against a creature if the creature is in possession of any portion of its hoard."
+    },
+    {
+      "name": "Treasure Sense",
+      "desc": "A hoard drake can pinpoint, by scent, the location of precious metals and minerals, such as coins and gems, within 60 feet of it. In addition, it can differentiate between various types of metals and minerals and can determine if the metal or mineral is magical."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 258,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_hoard-drake/"
+}

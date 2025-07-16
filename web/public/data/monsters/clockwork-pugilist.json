@@ -1,0 +1,91 @@
+{
+  "slug": "clockwork-pugilist",
+  "desc": "",
+  "name": "Clockwork Pugilist",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 32,
+  "hit_dice": "5d8+10",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 12,
+  "constitution": 14,
+  "intelligence": 6,
+  "wisdom": 13,
+  "charisma": 10,
+  "strength_save": 5,
+  "dexterity_save": null,
+  "constitution_save": 4,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60', passive Perception 13",
+  "languages": "Common",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Fist attacks."
+    },
+    {
+      "name": "Fist",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 6 (1d6+3) bludgeoning damage."
+    },
+    {
+      "name": "Brass Onslaught (Recharge 6)",
+      "desc": "The pugilist moves up to 10 ft. and makes one fist attack. If it hits the target takes an extra 10 (3d6) bludgeoning damage. This movement doesn't provoke opportunity attacks."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Get Down Sir!",
+      "desc": "When a creature within 5 ft. of the pugilist is targeted by a ranged attack or spell the pugilist steps in the way and the ranged attack or spell targets the pugilist instead."
+    },
+    {
+      "name": "Parry",
+      "desc": "+2 to its AC vs. one melee attack that would hit it. Must see attacker and have at least one hand empty."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Construct Nature",
+      "desc": "A clockwork pugilist doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "Immune: form-altering spells/effects."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 88,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_clockwork-pugilist/"
+}

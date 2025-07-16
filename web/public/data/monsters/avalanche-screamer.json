@@ -1,0 +1,85 @@
+{
+  "slug": "avalanche-screamer",
+  "desc": "Ice shards scrape together as this creature moves on its many icicle-like legs. The ice making up much of its body parts to reveal several toothy maws, and a scream erupts from deep within the creature._  \n**Primordial Beings.** Avalanche screamers were apex predators when the world was younger and covered in ice. As the world thawed, avalanche screamers fled to mountain peaks and polar regions to hunt smaller prey. Avalanche screamer lairs contain a jumble of bones from their victims but have no other commonalities.  \n**Devious Hunter.** A versatile predator, the avalanche screamer can attack its prey from the ground beneath or from cliffs and trees above. It prefers to pick off its victims one at a time, grabbing stragglers at the back of a group and killing them before returning to the group. When it must face multiple foes simultaneously, it uses its scream to inflict harm on as many targets as possible. In unstable areas, the sound can cause avalanches, which the avalanche screamer rides out unscathed. It then uses its ability to detect vibrations to locate survivors, tunnel its way toward them, and devour them.  \n**Summer Hibernation.** Because avalanche screamers become lethargic and vulnerable in warmer temperatures, they hide themselves during the brief summers in their mountaintop and polar habitats. In preparation for their summer slumbers, they aggressively hunt prey, fattening themselves or stockpiling in their lairs. As a precaution against hunters that might follow them to their lairs, avalanche screamers often collect their food from miles away and tunnel through the ground to leave no tracks. Those who manage to track the creatures and hope to easily dispatch them while they are sluggish find avalanche screamers quickly shake their torpor to defend themselves.",
+  "name": "Avalanche Screamer",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 133,
+  "hit_dice": "14d10+56",
+  "speed": {
+    "burrow": 20,
+    "walk": 40,
+    "climb": 30
+  },
+  "strength": 18,
+  "dexterity": 9,
+  "constitution": 19,
+  "intelligence": 5,
+  "wisdom": 12,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 4,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "athletics": 7,
+    "stealth": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold",
+  "damage_immunities": "bludgeoning, thunder",
+  "condition_immunities": "frightened, prone",
+  "senses": "tremorsense 60 ft., passive Perception 11",
+  "languages": "—",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The avalanche screamer makes three attacks: one with its bite and two with its legs."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 13 (2d8 + 4) piercing damage plus 7 (2d6) thunder damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d8+4"
+    },
+    {
+      "name": "Leg",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) piercing damage. If the avalanche screamer scores a critical hit against a creature that is Medium or smaller, the creature is impaled on the screamer's leg and grappled (escape DC 15). Until this grapple ends, the target is restrained and takes 3 (1d6) piercing damage at the start of each of its turns. The avalanche screamer can impale up to four creatures. If it has at least one creature impaled, it can't move. If it has four creatures impaled, it can't make leg attacks. It can release all impaled creatures as a bonus action.",
+      "attack_bonus": 7,
+      "damage_dice": "2d6+4"
+    },
+    {
+      "name": "Scream (Recharge 5-6)",
+      "desc": "The avalanche screamer shrieks thunderously in a 30-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw. On a failure, a creature takes 27 (6d8) thunder damage and is deafened for 1 hour. On a success, a creature takes half as much damage and isn't deafened."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Snow Camouflage",
+      "desc": "The avalanche screamer has advantage on Dexterity (Stealth) checks made to hide in snowy terrain."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 35,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_avalanche-screamer/"
+}

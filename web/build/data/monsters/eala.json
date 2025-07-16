@@ -1,0 +1,75 @@
+{
+  "slug": "eala",
+  "desc": "_This swanlike creature’s feathers are made of shining metal. When it inhales, the feathers on its chest glow red hot._  \nEala are beautiful but deadly creatures native to the plane of Shadow. They grow feathers like their Material Plane counterparts, but their feathers are made of gleaming, razor‑sharp metal.  \n**Metallic Diet.** Eala plumage displays a stunning mixture of metallic colors, which vary depending on their diet. An eala uses its fire breath to melt metals with low melting points such as gold, silver, lead, copper, and bronze. The eala consumes the molten metal, some of which migrates into the creature’s deadly feathers. Eala that display primarily or entirely a single color are highly prized.",
+  "name": "Eala",
+  "size": "Small",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural",
+  "hit_points": 40,
+  "hit_dice": "9d6+9",
+  "speed": {
+    "walk": 10,
+    "fly": 60
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "fire",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "-",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The eala makes two attacks with its wing blades."
+    },
+    {
+      "name": "Wing Blades",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d8"
+    },
+    {
+      "name": "Fire Breath (recharge 5-6)",
+      "desc": "The eala breathes fire in a 20-foot cone. Every creature in the area must make a DC 11 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save or half as much on a successful one. The eala's fire breath ignites flammable objects and melts soft metals in the area that aren't being worn or carried."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Swan Song",
+      "desc": "When the eala is reduced to 0 hit points, it can use its last breath sing a plaintive and beautiful melody. Creatures within 20 feet that can hear the eala must succeed on a DC 13 Charisma saving throw or be incapacitated for 1 round. A creature incapacitated in this way has its speed reduced to 0."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 163,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_eala/"
+}

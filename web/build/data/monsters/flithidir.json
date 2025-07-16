@@ -1,0 +1,94 @@
+{
+  "slug": "flithidir",
+  "desc": "The gnome-like creature flutters from tree to tree, sporting colorful, avian features._  \n**Avian Fey.** Flithidirs are small fey that embody the bright, chaotic nature of birds. They are slender and keen-eyed with feathery crests and feathered wings. Flithidirs are creatures of contrasts—loud and lively, yet prone to moments of calm wonder; bold and cocky, yet easily startled; able to sing with breathtaking beauty or confuse their foes with earsplitting noise.  \n**Shapeshifters.** Flithidirs are shapeshifters, able to change into birds or smaller humanoids, and they favor colorful clothes and adornments, even while shapeshifted. Relentlessly curious, flithidirs often take the form of a bird when they encounter strangers, quietly following and studying the creatures. If the strangers are deemed safe and intriguing, the flithidir approaches in a humanoid form to get better acquainted.  \n**Easily Bored.** Flithidirs tirelessly seek out new things. Some desire new experiences—songs and stories, unusual foods, and sudden discoveries—while others are more covetous, ceaselessly collecting objects they find interesting. Sometimes this greed manifests as a magpie-like desire for shiny things, but a flithidir is also just as likely to be fascinated by items of a certain shape, texture, or color. When a flithidir encounters someone who possesses a thing it wants, it may offer something in exchange— usually a splendid song or acrobatic display—or it may simply request the item with great charm, reacting with frustration or rage if the object is denied to it.",
+  "name": "Flithidir",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "shapechanger",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 27,
+  "hit_dice": "6d6+6",
+  "speed": {
+    "walk": 30,
+    "fly": 60
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 12,
+  "wisdom": 13,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "acrobatics": 5,
+    "perception": 3,
+    "performance": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "Auran, Common, Sylvan",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The flithidir makes two melee attacks."
+    },
+    {
+      "name": "Dagger (Humanoid or Fey Form Only)",
+      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d4+3"
+    },
+    {
+      "name": "Beak (Bird Form Only)",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d4+3"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Mocking Retort",
+      "desc": "When a creature the flithidir can see misses it with an attack, the flithidir can cast vicious mockery at the attacker."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Cacophony",
+      "desc": "If three or more flithidirs are within 15 feet of each other, they can use their reactions to start a cacophony. Each creature that starts its turn within 30 feet of one of the flithidirs and that can hear the cacophony must succeed on a DC 10 Constitution saving throw or have disadvantage on its next attack roll or ability check. The DC increases by 1 for each flithidir participating in the cacophony to a maximum of DC 16. To join or maintain an existing cacophony, a flithidir must use its bonus action on its turn and end its turn within 15 feet of another flithidir participating in the cacophony. The cacophony ends when less than three flithidir maintain it. A flithidir can still speak and cast spells with verbal components while participating in a cacophony."
+    },
+    {
+      "name": "Shapechanger",
+      "desc": "The flithidir can use its action to polymorph into a Small humanoid, into a Small or smaller bird, or back into its true fey form. Its statistics, other than its size and speed, are the same in each form. Any equipment it is wearing or carrying isn't transformed. No matter the form, it always has bright or multicolored hair, fur, scales, or feathers. It reverts to its true form if it dies."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The flithidir's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components.\nAt will: minor illusion (auditory only), vicious mockery\n1/day each: charm person, enthrall"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 154,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_flithidir/"
+}

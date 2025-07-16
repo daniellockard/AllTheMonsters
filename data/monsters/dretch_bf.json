@@ -1,0 +1,73 @@
+{
+  "slug": "dretch_bf",
+  "desc": "",
+  "name": "Dretch",
+  "size": "Small",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "group": "Demons",
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": "natural armor",
+  "hit_points": 13,
+  "hit_dice": "",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 14,
+  "dexterity": 10,
+  "constitution": 12,
+  "intelligence": 4,
+  "wisdom": 8,
+  "charisma": 2,
+  "strength_save": 2,
+  "dexterity_save": 0,
+  "constitution_save": 1,
+  "intelligence_save": -3,
+  "wisdom_save": -1,
+  "charisma_save": -4,
+  "perception": 9,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Demonic Resilience",
+  "damage_immunities": "Demonic Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Abyssal",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Claws",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6+2) slashing damage plus 2 (1d4) poison damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Fetid Cloud (1/Day)",
+      "desc": "A 10-foot radius cloud of disgusting green gas extends out from the dretch, moves with it, and spreads around corners. The cloud's area is lightly obscured and lasts 1 minute or until a strong wind disperses it. A creature that starts its turn in the cloud must succeed on a DC 11 CON save or be poisoned until the start of its next turn. While poisoned in this way, a creature can take either an action or a bonus action on its turn, not both, and can't take reactions."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Abyssal Rejuvenation",
+      "desc": "Unlike other outsiders, a dretch that dies in its home plane of the Abyss is restored in a new body in 1d10 days, regaining all its HP and becoming active again. The new body appears in a random location in the Abyss. Only sprinkling holy water on the dretch's remains can prevent this trait from functioning."
+    },
+    {
+      "name": "Demonic Resilience",
+      "desc": "The dretch is resistant to cold, fire, and lightning damage. In addition, it is immune to poison damage and to the poisoned condition."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_dretch/"
+}

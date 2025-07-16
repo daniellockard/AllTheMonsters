@@ -1,0 +1,88 @@
+{
+  "slug": "buraq-tob1-2023",
+  "desc": "False",
+  "name": "Buraq",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Lawful Good",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 152,
+  "hit_dice": "16d8 + 80",
+  "speed": {
+    "walk": 90,
+    "fly": 60
+  },
+  "strength": 15,
+  "dexterity": 18,
+  "constitution": 20,
+  "intelligence": 18,
+  "wisdom": 18,
+  "charisma": 20,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 9,
+  "intelligence_save": null,
+  "wisdom_save": 8,
+  "charisma_save": 9,
+  "perception": 14,
+  "skills": {
+    "History": 8,
+    "Religion": 8
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "radiant; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "False",
+  "condition_immunities": "charmed, exhaustion, frightened",
+  "senses": "truesight 120 ft., passive Perception 14",
+  "languages": "Celestial, Common, Primordial, telepathy 120 ft.",
+  "challenge_rating": "11",
+  "cr": 11,
+  "actions": [
+    {
+      "name": "Hooves",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 18 (4d8) radiant damage."
+    },
+    {
+      "name": "Teleport (1/Day)",
+      "desc": "The buraq magically teleports itself and its rider, along with any equipment it is wearing or carrying, to a location the buraq is familiar with, up to 1 mile away."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The buraq casts one of the following spells, requiring no components and using Charisma as the spellcasting ability (spell save DC 17):\nAt will: comprehend languages, detect evil and good, holy aura, pass without trace\n3/day each: haste, longstrider\n1/day each: plane shift, wind walk\nTeleport (1/Day)The buraq magically teleports itself and its rider, along with any equipment it is wearing or carrying, to a location the buraq is familiar with, up to 1 mile away."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Angelic Weapons",
+      "desc": "The buraq's attacks are magical. When the buraq hits with any weapon, the weapon deals an extra 4d8 radiant damage (included in the attack)."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The buraq has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Night Journey",
+      "desc": "When outdoors at night, the distance of the buraq's vision is not limited by nonmagical darkness. Once per month, the buraq can declare it is on a night journey, and for the next 24 hours, it can Teleport as a bonus action. When on a night journey, the buraq can teleport as often as it wants, and its destination must always be in an area of nonmagical darkness within its line of sight. At any point during the night journey, the buraq can use a bonus action to return itself and its rider to the location where it began the night journey."
+    },
+    {
+      "name": "Powerful Steed",
+      "desc": "The buraq is considered to be a Large animal for the purpose of determining its carrying capacity and its ability to carry a rider."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 46,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_buraq/"
+}

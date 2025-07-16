@@ -1,0 +1,91 @@
+{
+  "slug": "life-broker",
+  "desc": "",
+  "name": "Life Broker",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Neutral",
+  "armor_class": 16,
+  "armor_desc": "breastplate",
+  "hit_points": 190,
+  "hit_dice": "20d8+100",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 15,
+  "dexterity": 19,
+  "constitution": 20,
+  "intelligence": 19,
+  "wisdom": 14,
+  "charisma": 20,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 1,
+  "intelligence_save": null,
+  "wisdom_save": 7,
+  "charisma_save": 1,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "nonmagic B/P/S attacks not made w/cold iron weapons",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened",
+  "senses": "darkvision 60', passive Perception 17",
+  "languages": "Common, Sylvan",
+  "challenge_rating": "13",
+  "cr": 13,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Rapier attacks."
+    },
+    {
+      "name": "Rapier",
+      "desc": "Melee Weapon Attack: +9 to hit, 5 ft., one target, 8 (1d8+4) piercing damage + 18 (4d8) necrotic."
+    },
+    {
+      "name": "Life Feast (Recharge 5-6)",
+      "desc": "Pulls life from hostile creatures within 30' of it that aren't Constructs or Undead. Each such creature in the area: 36 (8d8) necrotic (DC 18 Con half). Broker gains temp hp equal to the single highest amount of necrotic dealt and has advantage on attack rolls until the end of its next turn."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Quick-Footed",
+      "desc": "Takes Dash Disengage or Dodge."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Draw Life Essence",
+      "desc": "Can spend 10 min coaxing life essence out of willing creature taking only agreed amount of time from creature's max lifetime. Essence appears as rosy mist that rises from mouth nose or skin of creature and snakes into carved crystal vial in broker's cloak where it takes the form of a crimson liquid. Creature that drinks such a vial gains life stored within it provided broker gave vial willingly. If broker draws all remaining life from creature creature dies and can be returned to life only via wish spell."
+    },
+    {
+      "name": "Life Reading",
+      "desc": "If it spends 1 min studying a mortal creature it can see within 30' of it broker can determine the remainder of that creature's natural life to the second."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Necrotic Weapons",
+      "desc": "Its weapon attacks are magical. When it hits with any weapon weapon deals + 4d8 necrotic (included below)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 261,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_life-broker/"
+}

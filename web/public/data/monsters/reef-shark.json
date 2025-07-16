@@ -1,0 +1,76 @@
+{
+  "slug": "reef-shark",
+  "desc": "Smaller than giant sharks and hunter sharks, **reef sharks** inhabit shallow waters and coral reefs, gathering in small packs to hunt. A full-grown specimen measures 6 to 10 feet long.",
+  "name": "Reef Shark",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Miscellaneous Creatures",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "armor_desc": "natural armor",
+  "hit_points": 22,
+  "hit_dice": "4d8+1",
+  "speed": {
+    "swim": 40
+  },
+  "strength": 14,
+  "dexterity": 13,
+  "constitution": 13,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 30 ft., passive Perception 12",
+  "languages": "",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d8",
+      "damage_bonus": 2
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Pack Tactics",
+      "desc": "The shark has advantage on an attack roll against a creature if at least one of the shark's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+    },
+    {
+      "name": "Water Breathing",
+      "desc": "The shark can breathe only underwater."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 387,
+  "environments": [
+    "Underwater",
+    "Water"
+  ],
+  "img_main": null,
+  "document__slug": "wotc-srd",
+  "document__title": "5e Core Rules",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "v2_converted_path": "/v2/creatures/srd_reef-shark/"
+}

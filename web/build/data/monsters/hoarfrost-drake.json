@@ -1,0 +1,93 @@
+{
+  "slug": "hoarfrost-drake",
+  "desc": "This small, blue-tinged dragon has frozen spikes covering its body and wings that look like cracked sheaves of ice. When the dragon exhales, its breath covers everything in a patina of frost._  \n**White Dragon Servants.** Hoarfrost drakes share territory with Open Game License",
+  "name": "Hoarfrost Drake",
+  "size": "Medium",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 52,
+  "hit_dice": "8d8+16",
+  "speed": {
+    "fly": 30,
+    "walk": 20
+  },
+  "strength": 9,
+  "dexterity": 15,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 13,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 4,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "perception": 3,
+    "stealth": 4
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "",
+  "damage_immunities": "cold",
+  "condition_immunities": "",
+  "senses": "darkvision 90 ft., passive Perception 13",
+  "languages": "Common, Draconic",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The hoarfrost drake makes three attacks: one with its bite and two with its claws."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 2 (1d4) cold damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d6+2"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4+2"
+    },
+    {
+      "name": "Cloud of Riming Ice (Recharge 5-6)",
+      "desc": "The hoarfrost drake creates a cloud of freezing fog that rimes everything in frost. Each creature within 20 feet of it must make a DC 14 Constitution saving throw. On a failure, the target takes 14 (4d6) cold damage and must succeed on a DC 12 Dexterity saving throw or drop whatever it's holding. On a success, the target takes half the damage and doesn't drop what it's holding.\n\nThe area becomes difficult terrain until the end of the hoarfrost drake's next turn. A creature that enters the area or ends its turn there must succeed on a DC 14 Dexterity saving throw or fall prone."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Retaliatory Slip",
+      "desc": "When a creature grapples the drake, the drake can immediately attempt to escape. If it succeeds, it can make a bite attack against the creature that grappled it."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Ice Walk",
+      "desc": "The hoarfrost drake can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+    },
+    {
+      "name": "Icy Scales",
+      "desc": "The hoarfrost drake has advantage on ability checks and saving throws made to escape a grapple."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 123,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_hoarfrost-drake/"
+}

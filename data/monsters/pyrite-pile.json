@@ -1,0 +1,86 @@
+{
+  "slug": "pyrite-pile",
+  "desc": "",
+  "name": "Pyrite Pile",
+  "size": "Large",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 136,
+  "hit_dice": "13d10+65",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 20,
+  "dexterity": 10,
+  "constitution": 20,
+  "intelligence": 5,
+  "wisdom": 8,
+  "charisma": 19,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -1,
+  "skills": {
+    "perception": -1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "nonmagic B/P/S attacks",
+  "damage_immunities": "",
+  "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+  "senses": "darkvision 60', tremorsense 60', passive Perception 9",
+  "languages": "understands Dwarvish and Terran but can't speak",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Slam attacks. If the pyrite pile hits one Med or smaller creature with both attacks the target is grappled (escape DC 16). Until this grapple ends the target takes 7 (2d6) bludgeoning damage at the start of each of its turns. The pyrite pile can have only one creature grappled at a time."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +8 to hit, 5 ft., one target, 15 (3d6+5) bludgeoning damage."
+    },
+    {
+      "name": "Hurl Nugget",
+      "desc": "Ranged Weapon Attack: +8 to hit 20/60' one target 14 (2d8+5) bludgeoning damage."
+    },
+    {
+      "name": "Eat Gold",
+      "desc": "Absorbs 52 (8d12) gp worth of nonmagical items and coins made of precious metals ignoring copper worn or carried by one creature grappled by it and the pile regains hp equal to half that. Absorbed metal is destroyed."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from normal pile of gold nuggets."
+    },
+    {
+      "name": "Gold Fever",
+      "desc": "When a Humanoid or xorn that can see the pile starts its turn within 60' of pile creature must make DC 15 Wis save or be charmed until end of its next turn. Charmed creature must take Dash action and move toward pile by safest available route on its next turn trying to get within 5 ft. of pile."
+    },
+    {
+      "name": "Metal Sense",
+      "desc": "Can pinpoint by scent the location of precious metals within 60' of it and can sense the general direction of Small or larger deposits of such metals within 1 mile."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 323,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_pyrite-pile/"
+}

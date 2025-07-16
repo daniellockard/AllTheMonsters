@@ -1,0 +1,80 @@
+{
+  "slug": "priest_bf",
+  "desc": "",
+  "name": "Priest",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Any Lineage",
+  "group": "NPCs",
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "chain shirt",
+  "hit_points": 57,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 12,
+  "dexterity": 10,
+  "constitution": 12,
+  "intelligence": 12,
+  "wisdom": 20,
+  "charisma": 12,
+  "strength_save": 1,
+  "dexterity_save": 0,
+  "constitution_save": 1,
+  "intelligence_save": 1,
+  "wisdom_save": 5,
+  "charisma_save": 1,
+  "perception": 15,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Divine Blessing",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "any two languages",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The priest makes two Mace or Divine Bolt attacks."
+    },
+    {
+      "name": "Mace",
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one target. _Hit:_ 4 (1d6+1) bludgeoning damage plus 7 (2d6) necrotic damage or radiant damage (the priest's choice)."
+    },
+    {
+      "name": "Divine Bolt",
+      "desc": "_Ranged Spell Attack:_ +5 to hit, range 60 ft., one target. _Hit:_ 10 (2d6+3) necrotic damage or radiant damage (the priest's choice)."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The priest casts one of the following spells, using WIS as the spellcasting ability (spell save DC 13).<br>At will: _guidance_, _light_, _thaumaturgy_<br>2/day each: _bane_, _bless_, _cure wounds_<br>1/day each: _dispel magic_, _restoration_"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Divine Blessing",
+      "desc": "The priest is resistant to necrotic damage or radiant damage, as appropriate for the priest's deity."
+    },
+    {
+      "name": "Divine Weapons",
+      "desc": "The priest's weapons are shrouded in dark or golden flames, as appropriate for the priest's deity. When the priest hits with any weapon, the weapon deals an extra 2d6 necrotic damage or radiant damage (included in the attack), the priest's choice."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_priest/"
+}

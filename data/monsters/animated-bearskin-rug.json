@@ -1,0 +1,92 @@
+{
+  "slug": "animated-bearskin-rug",
+  "desc": "A shaggy rug made from the skin of a bear suddenly rises up like a billowing sheet. The head snaps its jaws and the whole thing lunges forward, flat and threatening._  \nAnimated bearskin rugs are exactly what their name suggests: bearskin rugs given life by magic.  \n**Inn Protection.** Inns and hunting lodges in remote locations often hire mages to make animated bearskin rugs. The rugs serve as seemingly harmless decorations that can instantly turn into guardians to drive away burglars, or into bouncers to break up bar fights.  \n**Bearserk.** There are rare cases of animated bearskin rugs suddenly going berserk and refusing to follow the commands of their masters. It is unknown what triggers such violence in the constructs. Berserk rugs need to be put down swiftly, as they attack any creature they notice.  \n**Construct Nature.** An animated bearskin rug doesn’t require air, food, drink, or sleep.",
+  "name": "Animated Bearskin Rug",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 65,
+  "hit_dice": "10d10+10",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 18,
+  "dexterity": 13,
+  "constitution": 12,
+  "intelligence": 1,
+  "wisdom": 3,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned",
+  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6",
+  "languages": "—",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The animated bearskin rug makes two attacks: one with its bite and one with its claws. It can use its Envelop in place of its claw attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d10+4"
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target not grappled by the bearskin rug. Hit: 11 (2d6 + 4) slashing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d6+4"
+    },
+    {
+      "name": "Envelop",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one Medium or smaller creature. Hit: The creature is grappled (escaped DC 14). Until this grapple ends, the target is restrained, and the rug can't envelop another target."
+    },
+    {
+      "name": "Menacing Roar (Recharge 6)",
+      "desc": "The bearskin rug lets out a hideous, supernatural howl. Each creature within 20 feet of the rug that can hear the roar must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. A creature frightened this way must spend its turns trying to move as far away from the rug as it can. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action. At the end of each of its turns and when it takes damage, the creature can repeat the saving throw, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Antimagic Susceptibility",
+      "desc": "The bearskin rug is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the rug must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+    },
+    {
+      "name": "Damage Transfer",
+      "desc": "While it is grappling a creature, the bearskin rug takes only half the damage dealt to it, and the creature grappled by the rug takes the other half."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While the bearskin rug remains motionless, it is indistinguishable from a normal bearskin rug."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 24,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_animated-bearskin-rug/"
+}

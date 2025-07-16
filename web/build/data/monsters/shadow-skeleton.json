@@ -1,0 +1,72 @@
+{
+  "slug": "shadow-skeleton",
+  "desc": "",
+  "name": "Shadow Skeleton",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 52,
+  "hit_dice": "8d8+16",
+  "speed": {
+    "swim": 40,
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 15,
+  "intelligence": 9,
+  "wisdom": 11,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "fire, piercing, slashing",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "understands all languages it knew in life but can't speak",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "desc": "The shadow skeleton makes two scimitar attacks.",
+      "name": "Multiattack"
+    },
+    {
+      "attack_bonus": 5,
+      "damage_dice": "1d8+3",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) slashing damage.",
+      "name": "Scimitar"
+    },
+    {
+      "attack_bonus": 5,
+      "damage_dice": "1d4+3",
+      "desc": "Ranged Weapon Attack: +5 to hit, range 30 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 3 (1d6) necrotic damage. If the target is a creature other than an undead or a construct, it must make a DC 12 Constitution saving throw. On a failure, the target is surrounded by a shadowy aura for 1 minute. While surrounded by the aura, the target takes an extra 7 (2d6) necrotic damage when hit by the scimitar attack of a shadow skeleton. Any creature can take an action to extinguish the shadow with a successful DC 12 Intelligence (Arcana) check. The shadow also extinguishes if the target receives magical healing.",
+      "name": "Finger Darts"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 326,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "cc",
+  "document__title": "Creature Codex",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/",
+  "v2_converted_path": "/v2/creatures/ccdx_shadow-skeleton/"
+}

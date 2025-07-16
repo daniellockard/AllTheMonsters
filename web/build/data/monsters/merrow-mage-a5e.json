@@ -1,0 +1,98 @@
+{
+  "slug": "merrow-mage-a5e",
+  "desc": "",
+  "name": "Merrow Mage",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 45,
+  "hit_dice": "6d10+12",
+  "speed": {
+    "walk": 10,
+    "swim": 40
+  },
+  "strength": 18,
+  "dexterity": 10,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 12,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Abyssal, Aquan, Giant, Primordial",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage  and the target is grappled (escape DC 14). Until this grapple ends  the merrow can't attack a different creature with its claws."
+    },
+    {
+      "name": "Harpoon",
+      "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 10 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage. The target makes a DC 14 Strength saving throw. On a failure  the merrow pulls the target up to 20 feet toward the merrow."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage, or 9 (2d4 + 4) piercing damage if the target is grappled."
+    },
+    {
+      "name": "Mage Bolt (3/Day)",
+      "desc": "The mage targets a creature within 30 feet. The target makes a DC 12 Dexterity saving throw, taking 21 (6d6) lightning damage on a failed save or half damage on a success."
+    },
+    {
+      "name": "Shapeshift",
+      "desc": "The mage changes its form to that of a Medium merfolk or back into its true form. While shapeshifted, it can't use its Bite attack but its statistics are otherwise unchanged except for its size. It reverts to its true form if it dies."
+    },
+    {
+      "name": "Darkness (2nd-Level; V",
+      "desc": "Magical darkness spreads from a point within 60 feet of the mage, filling a 15-foot-radius sphere and spreading around corners. It remains for 1 minute. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it."
+    },
+    {
+      "name": "Invisibility (2nd-Level; V",
+      "desc": "The mage is invisible for 1 hour or until it attacks, uses Mage Bolt, or casts a spell."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The merrow can breathe air and water."
+    },
+    {
+      "name": "Regeneration",
+      "desc": "The merrow regains 10 hit points at the beginning of each of its turns as long as it has at least 1 hit point."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The mages innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components: At will: darkness, invisibility, 1/day: charm person"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 331,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_merrow-mage/"
+}

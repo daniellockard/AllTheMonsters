@@ -1,0 +1,69 @@
+{
+  "slug": "seahorse_bf",
+  "desc": "",
+  "name": "Seahorse",
+  "size": "Tiny",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": "natural armor",
+  "hit_points": 9,
+  "hit_dice": "",
+  "speed": {
+    "walk": 0,
+    "swim": 20
+  },
+  "strength": 1,
+  "dexterity": 10,
+  "constitution": 8,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 2,
+  "strength_save": -5,
+  "dexterity_save": 0,
+  "constitution_save": -1,
+  "intelligence_save": -5,
+  "wisdom_save": 0,
+  "charisma_save": -4,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Ram",
+      "desc": "_Melee Weapon Attack:_ +2 to hit, reach 5 ft., one target. _Hit:_ 2 (1d4) bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Underwater Camouflage",
+      "desc": "The seahorse's Stealth is 17 while underwater."
+    },
+    {
+      "name": "Water Breathing",
+      "desc": "The seahorse can breathe only underwater."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_seahorse/"
+}

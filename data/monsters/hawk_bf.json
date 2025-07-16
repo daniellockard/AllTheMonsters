@@ -1,0 +1,70 @@
+{
+  "slug": "hawk_bf",
+  "desc": "",
+  "name": "Hawk",
+  "size": "Tiny",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": null,
+  "hit_points": 7,
+  "hit_dice": "",
+  "speed": {
+    "walk": 10,
+    "fly": 60
+  },
+  "strength": 4,
+  "dexterity": 12,
+  "constitution": 8,
+  "intelligence": 2,
+  "wisdom": 14,
+  "charisma": 6,
+  "strength_save": -3,
+  "dexterity_save": 1,
+  "constitution_save": -1,
+  "intelligence_save": -4,
+  "wisdom_save": 2,
+  "charisma_save": -2,
+  "perception": 14,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Talons",
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one target. _Hit:_ 3 (1d4+1) slashing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Evasive Flight",
+      "desc": "The hawk takes the Disengage or Dodge action. It can use this bonus action only while flying."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Heightened Sight",
+      "desc": "The hawk's Perception is 19 when perceiving by sight."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_hawk/"
+}

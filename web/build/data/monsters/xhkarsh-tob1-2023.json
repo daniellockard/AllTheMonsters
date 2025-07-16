@@ -1,0 +1,88 @@
+{
+  "slug": "xhkarsh-tob1-2023",
+  "desc": "False",
+  "name": "Xhkarsh",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 171,
+  "hit_dice": "18d10 + 72",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 17,
+  "dexterity": 19,
+  "constitution": 18,
+  "intelligence": 15,
+  "wisdom": 16,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 6,
+  "perception": 17,
+  "skills": {
+    "Insight": 7,
+    "Perception": 7,
+    "Stealth": 8
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., tremorsense 120 ft., passive Perception 17",
+  "languages": "Common, Deep Speech, Undercommon, telepathy 60 ft.",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The xhkarsh makes two Claw attacks and one Fate-Altering Stinger attack."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage plus 9 (2d8) poison damage."
+    },
+    {
+      "name": "Fate-Altering Stinger",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) piercing damage, and the target must succeed on a DC 16 Charisma saving throw or have its fate corrupted. A creature with corrupted fate has disadvantage on Charisma checks and Charisma saving throws, can't be targeted by any divination magic, can't be perceived through magical scrying sensors, and is immune to any effect that would sense its emotions or read its thoughts. The target's fate can be restored, ending the corruption and breaking the xhkarsh's magical tie to the target, by a dispel evil and good spell or similar magic."
+    },
+    {
+      "name": "Invisibility",
+      "desc": "The xhkarsh magically turns invisible until it attacks or uses Seize Strand, or until its concentration ends (as if concentrating on a spell). Any equipment the xhkarsh wears or carries is invisible with it."
+    },
+    {
+      "name": "Seize Strand",
+      "desc": "One creature whose fate is corrupted by this xhkarsh must succeed on a DC 16 Charisma saving throw or be affected by the geas spell for 8 hours. While under the geas, the affected creature must perform a specific, seemingly minor task that furthers the decades-long goals of the xhkarsh. Such a task could be writing a letter to a specific person, damaging a seemingly random piece of equipment, or speaking a specific sentence to a particular person. The xhkarsh can use Seize Strand on a particular creature no more than once every 24 hours, regardless of success or failure on the saving throw."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Corruption's Bond",
+      "desc": "The xhkarsh ignores the range restriction on its telepathy when communicating with a creature whose fate it has corrupted. In addition, it can pinpoint the location of any such creature, as well as sense the creature's general state of health. These effects function even if the xhkarsh and the creature are on different planes of existence."
+    },
+    {
+      "name": "Interdimensional Nature",
+      "desc": "The xhkarsh doesn't require air, food, drink, sleep, or ambient pressure."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 400,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_xhkarsh/"
+}

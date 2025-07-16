@@ -1,0 +1,64 @@
+{
+  "slug": "axe_beak_bf",
+  "desc": "",
+  "name": "Axe Beak",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": null,
+  "hit_points": 13,
+  "hit_dice": "",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 14,
+  "dexterity": 12,
+  "constitution": 12,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 4,
+  "strength_save": 2,
+  "dexterity_save": 1,
+  "constitution_save": 1,
+  "intelligence_save": -4,
+  "wisdom_save": 0,
+  "charisma_save": -3,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Beak",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one creature. _Hit:_ 6 (1d8+2) slashing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Evasive",
+      "desc": "The axe beak takes the Disengage or Dodge action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_axe-beak/"
+}

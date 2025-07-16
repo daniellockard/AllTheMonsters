@@ -1,0 +1,87 @@
+{
+  "slug": "lakescourge-lotus",
+  "desc": "",
+  "name": "Lakescourge Lotus",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 90,
+  "hit_dice": "12d8+36",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 16,
+  "dexterity": 17,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 14,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 5,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "necrotic",
+  "damage_immunities": "cold, poison",
+  "condition_immunities": "charmed, exhaustion, poisoned",
+  "senses": "darkvision 60', passive Perception 15",
+  "languages": "—",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Tainted Claw or Poisonous Water Jet attacks."
+    },
+    {
+      "name": "Tainted Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 6 (1d6+3) slashing damage + 9 (2d8) poison and target poisoned 1 min (DC 15 Con negates poison). A poisoned creature can re-save at end of each of its turns success ends effect on itself."
+    },
+    {
+      "name": "Poisonous Water Jet",
+      "desc": "Ranged Spell Attack: +5 to hit, 60 ft., one target, 15 (3d8+2) poison."
+    },
+    {
+      "name": "Enter Reflection",
+      "desc": "Touches a body of water large enough to hold it and becomes a reflection on water's surface. While in this form has immunity to B/P/S damage from nonmagical attacks and resistance to B/P/S from magical attacks. While a reflection speed is 5 ft. can't use Tainted Claw and can revert to its true form as a bonus action. If it takes damage that isn't bludgeoning piercing or slashing while a reflection forced back into its true form."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Toxic Ichor",
+      "desc": "While submerged in water it's ichor taints water within 10 ft. of it. When a creature enters area for the 1st time on a turn or starts its turn there that creature must make DC 15 Con save or be poisoned while it remains in area and for 1 min after it leaves. A poisoned creature that is no longer in the water can re-save at end of each of its turns ending effect on itself on a success. If purify food and drink spell is cast on a space within 5 ft. of lotus or on space it occupies trait ceases to function for 1 min."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Waterwalker",
+      "desc": "Can walk across surface of water as if it were solid ground. Otherwise works like water walk but isn't itself magical."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 258,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_lakescourge-lotus/"
+}

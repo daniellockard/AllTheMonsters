@@ -1,0 +1,76 @@
+{
+  "slug": "gaunt-one",
+  "desc": "This corpse-like creature’s flesh is gray, its body is emaciated, and its skin is pulled tight across its skeleton. A strange, writhing tentacle protrudes slightly from its gaping mouth._  \n**Unnatural Origin.** Centuries ago, an order of wizards, known as the Covenant of Infinum, found itself in need of slaves and descended upon a nearby human settlement. The order enslaved every villager and conducted magical experiments upon them in the wizards’ remote mountain tower. The wizards were trying to create the perfect servitor race, using the villagers as a baser life form. The experiment failed spectacularly, unleashing a magical transformative wave upon the tower. Many of the wizards managed to escape, but all of the human slaves were caught in the magical chaos and were forever changed into gaunt ones.  \n**Undead Appearance.** At first glance, gaunt ones appear to be some form of undead creature, leading many to underestimate them. Their skin is pale, shrunken, and withered, and their teeth are yellow and jagged with receded gums.  \n**Hunger for Hearts.** Gaunt ones have an inherent hunger for hearts and often sit quietly for hours, listening for the heartbeats of nearby creatures. A gaunt one grabs hold of its prey and worms its tentaclelike tongue into the creature’s mouth to extract the creature’s heart. Insatiable, a gaunt one continues to eat the hearts of creatures it finds until there is nothing left to harvest. Lacking readily available food, it moves on.",
+  "name": "Gaunt One",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 75,
+  "hit_dice": "10d8+30",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 15,
+  "constitution": 16,
+  "intelligence": 15,
+  "wisdom": 12,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "stealth": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "understands Undercommon but can’t speak",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The gaunt one makes two claw attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 14)."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) slashing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d6+4"
+    },
+    {
+      "name": "Extract Heart",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one humanoid grappled by the gaunt one. Hit: The target must make a DC 13 Constitution saving throw, taking 22 (5d8) piercing damage on a failed save, or half as much damage on a successful one. If this damage reduces the target to 0 hp, the gaunt one kills the target by extracting and devouring its heart."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Hearing",
+      "desc": "The gaunt one has advantage on Wisdom (Perception) checks that rely on hearing."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 163,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_gaunt-one/"
+}

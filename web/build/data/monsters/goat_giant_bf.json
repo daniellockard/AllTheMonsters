@@ -1,0 +1,69 @@
+{
+  "slug": "goat_giant_bf",
+  "desc": "",
+  "name": "Goat, Giant",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": "natural armor",
+  "hit_points": 25,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 16,
+  "dexterity": 10,
+  "constitution": 12,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 6,
+  "strength_save": 3,
+  "dexterity_save": 0,
+  "constitution_save": 1,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -2,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "prone",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Ram",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 8 (2d4+3) bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Terrifying Scream",
+      "desc": "When the goat takes damage, it can release a high-pitched scream, frightening creatures within 10 feet of it. Each creature in that area that can hear the scream must succeed on a DC 13 WIS save or be frightened until the end of its next turn. A creature frightened in this way can't be frightened by this goat's Terrifying Scream again for the next 24 hours."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Charge",
+      "desc": "If the goat moves at least 20 feet straight toward a target and then hits it with a Ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 STR save or be knocked prone."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_goat-giant/"
+}

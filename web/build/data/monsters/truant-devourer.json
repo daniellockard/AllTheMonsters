@@ -1,0 +1,103 @@
+{
+  "slug": "truant-devourer",
+  "desc": "",
+  "name": "Truant Devourer",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Any Alignment (as its creator deity)",
+  "armor_class": 16,
+  "armor_desc": "",
+  "hit_points": 156,
+  "hit_dice": "24d8+48",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 12,
+  "dexterity": 17,
+  "constitution": 14,
+  "intelligence": 16,
+  "wisdom": 18,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 4,
+  "skills": {
+    "perception": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "nonmagic B/P/S attacks",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 90', passive Perception 18",
+  "languages": "Common + up to three other languages",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Devourer's Cleaver or Necrotic Bolt attacks. It can replace one attack with Life Drain attack."
+    },
+    {
+      "name": "Devourer's Cleaver",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 10 (2d6+3) slashing damage + 9 (2d8) necrotic."
+    },
+    {
+      "name": "Life Drain",
+      "desc": "Melee Spell Attack: +8 to hit, 5 ft., one creature,. 17 (3d8+4) necrotic. Target's hp max is reduced by amount equal to damage taken (DC 16 Con negates hp max). Reduction lasts until target finishes a long rest. Target dies if this reduces its hp max to 0."
+    },
+    {
+      "name": "Necrotic Bolt",
+      "desc": "Ranged Spell Attack: +8 to hit, 120 ft., one target, 17 (3d8+4) necrotic."
+    },
+    {
+      "name": "Invisibility",
+      "desc": "Magically turns invisible (with items worn/carried) until it attacks uses Grasping Claws or concentration ends (as a spell)."
+    },
+    {
+      "name": "Grasping Claws (Recharge 5-6)",
+      "desc": "Calls dozens of ghostly skeletal claws to erupt from a point on the ground it can see within 60' of it. All within 15 ft. of that point: 31 (7d8) necrotic and restrained 1 min (DC 16 Dex half damage not restrained). Restrained creature can re-save at end of each of its turns success ends effect on itself."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Dusty Step",
+      "desc": "Teleports  with items worn/carried up to 60' to unoccupied space it can see. Dust cloud appears at origin and destination."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Heretic Sense",
+      "desc": "Can pinpoint location of heretics of its faith within 60' of it and can sense their general direction within 1 mile of it."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Turn Resistance",
+      "desc": "Advantage: saves vs. turn undead effects."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 378,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_truant-devourer/"
+}

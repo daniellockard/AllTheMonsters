@@ -1,0 +1,78 @@
+{
+  "slug": "lambent-witchfyre",
+  "desc": "A creature of pure blue fire trickles across the cavern floor, burning and devouring all except the stone._  \nThough its behavior is similar to oozes that infest subterranean areas, the lambent witchfyre is composed of living blue flame, not protoplasm. Like liquid fire, it flows along the ground, searching for food, which, in the case of the lambent witchfyre, is any organic matter that can burn.  \n**Arcane or Alien Origins.** The lambent witchfyre’s exact origins are unknown. Some sages speculate that it was an early attempt by a wizard to infuse life on the Material Plane with elemental essence. Others theorize it is the disastrous byproduct of spell experimentation on an extra-planar creature. Whatever the truth, these strange beings have multiplied and spread, posing a deadly hazard to those who explore the deep caves of the world.  \n**Reproduction.** When a lambent witchfyre has consumed enough organic material, it will seek an isolated place in which to reproduce. It then divides itself into two new lambent witchfyres, each starting with half the parent’s hit points. The offspring then go their separate ways, seeking more life to devour",
+  "name": "Lambent Witchfyre",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 110,
+  "hit_dice": "13d10+39",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 17,
+  "intelligence": 2,
+  "wisdom": 11,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, poisoned, prone",
+  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The lambent witchfyre makes three blazing touch attacks."
+    },
+    {
+      "name": "Blazing Touch",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns. If a creature is slain by this attack, the lambent witchfyre regains hp equal to the damage dealt. The body of a creature slain by this attack turns to ash, along with any nonmagical items it was wearing or carrying. The creature can be restored to life only by means of a resurrection or wish spell.",
+      "attack_bonus": 6,
+      "damage_dice": "3d6+3"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Fire Absorption",
+      "desc": "Whenever the lambent witchfyre is subjected to fire damage, it takes no damage and instead regains a number of hp equal to the fire damage dealt."
+    },
+    {
+      "name": "Fire Form",
+      "desc": "The lambent witchfyre can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the lambent witchfyre or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage. In addition, the lambent witchfyre can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (1d10) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns."
+    },
+    {
+      "name": "Illumination",
+      "desc": "The lambent witchfyre sheds bright light in a 30-foot radius and dim light for an additional 30 feet."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 234,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_lambent-witchfyre/"
+}

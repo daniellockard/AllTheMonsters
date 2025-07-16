@@ -1,0 +1,98 @@
+{
+  "slug": "death_knight_bf",
+  "desc": "",
+  "name": "Death Knight",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 18,
+  "armor_desc": "plate",
+  "hit_points": 140,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 10,
+  "constitution": 16,
+  "intelligence": 12,
+  "wisdom": 20,
+  "charisma": 18,
+  "strength_save": 4,
+  "dexterity_save": 0,
+  "constitution_save": 3,
+  "intelligence_save": 1,
+  "wisdom_save": 5,
+  "charisma_save": 4,
+  "perception": 15,
+  "skills": {},
+  "damage_vulnerabilities": "radiant",
+  "damage_resistances": "",
+  "damage_immunities": "necrotic,frightened,Undead Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 90 ft.",
+  "languages": "Common",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The death knight makes three Greatsword or Necrotic Bolt attacks."
+    },
+    {
+      "name": "Greatsword",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 11 (2d6+4) slashing damage and 7 (2d6) necrotic damage."
+    },
+    {
+      "name": "Necrotic Bolt",
+      "desc": "_Ranged Spell Attack:_ +7 to hit, range 60 ft., one target. _Hit:_ 18 (4d6+4) necrotic damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Champion's Challenge",
+      "desc": "The death knight challenges one creature it can see within 30 feet of it. The target must succeed on a DC 15 CHA save or have disadvantage on attack rolls against creatures that aren't the knight until the end of its next turn."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Parry",
+      "desc": "The death knight adds 3 to its AC against one melee attack that would hit it. To do so, the death knight must see the attacker and be wielding a melee weapon."
+    },
+    {
+      "name": "Soul Drain",
+      "desc": "When the death knight reduces a Humanoid to 0 HP, it can absorb the creature's soul. The target must succeed on a DC 15 WIS save or immediately die, its soul becoming trapped in the death knight's sword. The death knight has advantage on attack rolls for 1 minute after absorbing a soul.<br>The creature can't be restored to life until the death knight is permanently destroyed."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Disgraced Rejuvenation",
+      "desc": "Unless redeemed, a destroyed death knight returns in 1d4 days, regaining all its HP and becoming active again within 10 feet of where it died."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The death knight has advantage on saves against spells and other magical effects."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The death knight doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Undead Resilience",
+      "desc": "The death knight is immune to poison damage, to exhaustion, and to the poisoned condition."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_death-knight/"
+}

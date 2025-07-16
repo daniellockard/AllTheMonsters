@@ -1,0 +1,81 @@
+{
+  "slug": "nharyth",
+  "desc": "A hideous mass of coiling intestines undulates, ejecting thin, transparent spears of some resinous material from its many orifices. The creature makes a wet slithering sound as it moves unsettlingly through the air._  \n**Foulness in Motion.** The nharyth defies gravity with its every movement, as it pulls itself through the air with its mass of intestine-like appendages. The creature does not seem to possess any natural means of propulsion and can even fly through areas where there is no magic.  \n**Creations of Madness.** Most scholars believe nharyth were created in some insane magical experiment. Others believe they are the spawn of some yet-unknown horror between the stars. Whatever the case, they are clearly not part of the natural ecosystem.",
+  "name": "Nharyth",
+  "size": "Huge",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 168,
+  "hit_dice": "16d12+64",
+  "speed": {
+    "hover": true,
+    "walk": 0,
+    "fly": 40
+  },
+  "strength": 20,
+  "dexterity": 15,
+  "constitution": 18,
+  "intelligence": 5,
+  "wisdom": 14,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "perception": 6,
+    "stealth": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, psychic",
+  "damage_immunities": "",
+  "condition_immunities": "blinded, deafened, paralyzed",
+  "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 16",
+  "languages": "understands Deep Speech but can’t speak",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The nharyth makes two spined slap attacks. Alternatively, it can use Spine Shot twice."
+    },
+    {
+      "name": "Spined Slap",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage plus 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 16 Constitution saving throw or be paralyzed until the end of its next turn.",
+      "attack_bonus": 9,
+      "damage_dice": "1d8+5"
+    },
+    {
+      "name": "Spine Shot",
+      "desc": "Ranged Weapon Attack: +6 to hit, range 30/120 ft., one target. Hit: 12 (3d6 + 2) piercing damage, and the target must succeed on a DC 16 Constitution saving throw or its speed is halved until the end of its next turn. If the nharyth scores a critical hit, the target doesn't make a saving throw and is paralyzed until the end of its next turn instead.",
+      "attack_bonus": 6,
+      "damage_dice": "3d6+2"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Spine Trap",
+      "desc": "With 10 minutes of work, the nharyth can create a web of nearly transparent spines in a 20-foot cube. The web must be anchored between two solid masses or layered across a floor, wall, or ceiling. A web of spines layered over a flat surface has a depth of 5 feet. The web is difficult terrain, and the spines forming it are nearly transparent, requiring a successful DC 20 Wisdom (Perception) check to notice them.\n\nA creature that starts its turn in the web of spines or that enters the web during its turn must succeed on a DC 16 Dexterity saving throw or 1d4 spines stick to it. At the start of each of its turns, the creature takes 1d4 piercing damage for each spine stuck to it. A creature, including the target, can take its action to remove 1d4 spines. If a creature starts its turn with more than 4 spines stuck to it, the creature must succeed on a DC 16 Constitution saving throw or be paralyzed for 1 minute. The paralyzed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nThe nharyth can plant up to 24 spines in a web when creating it. Once it has used 24 spines in webs, it must finish a long rest before it can use this trait again."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 269,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_nharyth/"
+}

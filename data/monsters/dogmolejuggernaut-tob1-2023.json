@@ -1,0 +1,86 @@
+{
+  "slug": "dogmolejuggernaut-tob1-2023",
+  "desc": "False",
+  "name": "Dogmole Juggernaut",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 126,
+  "hit_dice": "12d10 + 60",
+  "speed": {
+    "walk": 10,
+    "burrow": 30
+  },
+  "strength": 21,
+  "dexterity": 14,
+  "constitution": 20,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 2,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 8,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "blindsight 30 ft., passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The dogmole juggernaut makes one Bite attack and two Claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) piercing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. it: 12 (3d4 + 5) slashing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Wormkiller Rage",
+      "desc": "When the juggernaut takes damage from a Small or larger insectoid Beast, such as a giant centipede, or when it deals damage to such a creature, it enters a special rage for 3 rounds. While in this rage, it has advantage on attack rolls and Strength checks and deals an extra 5 (2d4) piercing damage with its Bite attack, but its Armor Class is reduced by 2. The juggernaut can't end this rage willingly."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Burrowed Tunnels",
+      "desc": "If the juggernaut burrows at half its burrowing speed, it can leave a 10-foot diameter tunnel in its wake."
+    },
+    {
+      "name": "Stout",
+      "desc": "The juggernaut has advantage on Strength and Dexterity checks and saving throws made against effects that would push it or knock it prone."
+    },
+    {
+      "name": "Relentless (Recharges after a Short or Long Rest)",
+      "desc": "If the juggernaut takes 15 damage or less that would reduce it to 0 hp, it is reduced to 1 hp instead."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 107,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_dogmole-juggernaut/"
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "ice-willow",
+  "desc": "",
+  "name": "Ice Willow",
+  "size": "Large",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 142,
+  "hit_dice": "15d10+60",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 19,
+  "dexterity": 9,
+  "constitution": 18,
+  "intelligence": 7,
+  "wisdom": 14,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "lightning, slashing",
+  "damage_immunities": "cold",
+  "condition_immunities": "blinded, deafened, frightened",
+  "senses": "darkvision 60', passive Perception 12",
+  "languages": "Sylvan",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +7 to hit, 10 ft., one target, 13 (2d8+4) bludgeoning damage + 7 (2d6) cold."
+    },
+    {
+      "name": "Icicle Drop (Recharge 4-6)",
+      "desc": "Shakes several spear-like icicles loose. Each creature within 10 ft. of the willow must make a DC 15 Dex save taking 9 (2d8) piercing damage and 7 (2d6) cold on a failed save or half damage if made."
+    },
+    {
+      "name": "Icicle Spray (Recharge 6)",
+      "desc": "Flings icicles in a 30' cone. All in area make a DC 15 Dex save taking 18 (4d8) piercing damage and 14 (4d6) cold on a failed save or half damage if made."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Melting Icicles",
+      "desc": "When the ice willow takes fire it can immediately use Icicle Drop if available."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from ice-covered willow tree."
+    },
+    {
+      "name": "Ice Melt",
+      "desc": "If it takes fire damage its icicles partially melt. Until the end of the ice willow's next turn creatures have advantage on saves vs. the willow's Icicle Drop and Icicle Spray."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 240,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_ice-willow/"
+}

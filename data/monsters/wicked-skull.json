@@ -1,0 +1,83 @@
+{
+  "slug": "wicked-skull",
+  "desc": "This skull chatters eerily, gently rocking as it comes to life. It calls out a warning in a hauntingly musical voice._  \n**Origins Unknown.** The origin of these shape-changing monstrosities is unknown, but they have come to be named “wicked skulls” after the form they favor most. Some scholars suggest that they took inspiration from the undead horrors known as Open Game License",
+  "name": "Wicked Skull",
+  "size": "Tiny",
+  "type": "Monstrosity",
+  "subtype": "shapechanger",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 7,
+  "hit_dice": "2d4+2",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 6,
+  "dexterity": 16,
+  "constitution": 13,
+  "intelligence": 11,
+  "wisdom": 12,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "deception": 4,
+    "insight": 3,
+    "persuasion": 4,
+    "stealth": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft., passive Perception 11",
+  "languages": "Common",
+  "challenge_rating": "1/8",
+  "cr": 0.125,
+  "actions": [
+    {
+      "name": "Pseudopod",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d4+3"
+    },
+    {
+      "name": "Petty Mockery",
+      "desc": "The wicked skull unleashes a string of insults laced with subtle enchantments at a creature it can see within 60 feet. If the target can hear the wicked skull (though it does not have to understand it), the target must succeed on a DC 11 Wisdom saving throw or have disadvantage on the next attack roll it makes before the end of its next turn."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance (Object Form Only)",
+      "desc": "While the wicked skull remains motionless, it is indistinguishable from an ordinary object."
+    },
+    {
+      "name": "Jokester",
+      "desc": "The wicked skull has advantage on a Charisma (Deception) or Charisma (Persuasion) check if it includes mockery or a joke or riddle as part of the check."
+    },
+    {
+      "name": "Shapechanger",
+      "desc": "The wicked skull can use its action to polymorph into a Tiny object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 368,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_wicked-skull/"
+}

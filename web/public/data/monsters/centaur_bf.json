@@ -1,0 +1,85 @@
+{
+  "slug": "centaur_bf",
+  "desc": "",
+  "name": "Centaur",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 63,
+  "hit_dice": "",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 14,
+  "intelligence": 8,
+  "wisdom": 16,
+  "charisma": 10,
+  "strength_save": 4,
+  "dexterity_save": 2,
+  "constitution_save": 2,
+  "intelligence_save": -1,
+  "wisdom_save": 3,
+  "charisma_save": 0,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Monstrosity Resilience",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "Elvish,Sylvan",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The centaur makes one Hooves attack and one Pike attack, or it makes three Longbow attacks."
+    },
+    {
+      "name": "Hooves",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 11 (2d6+4) bludgeoning damage."
+    },
+    {
+      "name": "Pike",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 10 ft., one target. _Hit:_ 9 (1d10+4) piercing damage."
+    },
+    {
+      "name": "Longbow",
+      "desc": "_Ranged Weapon Attack:_ +4 to hit, range 150/600 ft., one target. _Hit:_ 6 (1d8+2) piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Defensive Kick",
+      "desc": "When a creature the centaur can see within 5 feet of it hits it with an attack, the centaur can kick the attacker. The attacker must succeed on a DC 14 STR save or be knocked prone or pushed up to 5 feet away from the centaur (the centaur's choice)."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Monstrosity Resilience",
+      "desc": "The centaur is resistant to exhaustion and to the frightened condition."
+    },
+    {
+      "name": "Trampling Charge",
+      "desc": "If the centaur moves at least 30 feet straight toward a creature and then hits it with a Pike attack on the same turn, that target must succeed on a DC 14 STR save or be knocked prone. If the target is prone, the centaur can make one Hooves attack against it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_centaur/"
+}

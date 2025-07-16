@@ -1,0 +1,81 @@
+{
+  "slug": "bucca-tob1-2023",
+  "desc": "False",
+  "name": "Bucca",
+  "size": "Tiny",
+  "type": "Fey",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 27,
+  "hit_dice": "5d4 + 15",
+  "speed": {
+    "walk": 30,
+    "fly": 20
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 17,
+  "intelligence": 13,
+  "wisdom": 9,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 11,
+  "skills": {
+    "Perception": 1,
+    "Sleight of Hand": 7,
+    "Stealth": 7
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Darakhul, Dwarvish",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Dagger",
+      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or become poisoned for 1 minute. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Invisibility",
+      "desc": "The bucca magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the bucca wears or carries is invisible with it."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Flyby",
+      "desc": "The bucca doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+    },
+    {
+      "name": "Sunlight Hypersensitivity",
+      "desc": "The bucca takes 1 radiant damage each minute it is exposed to sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+    },
+    {
+      "name": "Treasure Sense",
+      "desc": "The bucca can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 feet of it."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 44,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_bucca/"
+}

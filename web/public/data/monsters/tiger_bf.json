@@ -1,0 +1,76 @@
+{
+  "slug": "tiger_bf",
+  "desc": "",
+  "name": "Tiger",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 38,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 16,
+  "dexterity": 14,
+  "constitution": 14,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 8,
+  "strength_save": 3,
+  "dexterity_save": 2,
+  "constitution_save": 2,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -1,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "-",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The tiger makes one Bite attack and one Claws attack. If both attacks hit one creature, the target must succeed on a DC 13 CON save at the start of its next turn or lose 5 (2d4) HP, as the wound continues bleeding."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one creature. _Hit:_ 6 (1d6+3) piercing damage."
+    },
+    {
+      "name": "Claws",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 5 (1d4+3) slashing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Heightened Smell",
+      "desc": "The tiger's Perception is 18 when perceiving by smell."
+    },
+    {
+      "name": "Pounce",
+      "desc": "If the tiger moves at least 20 feet straight toward a creature and then hits it with a Claws attack on the same turn, that target must succeed on a DC 13 STR save or be knocked prone. If the target is prone, the tiger can make one Bite attack against it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_tiger/"
+}

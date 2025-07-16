@@ -1,0 +1,87 @@
+{
+  "slug": "shadhavar-tob1-2023",
+  "desc": "False",
+  "name": "Shadhavar",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "armor_desc": "natural",
+  "hit_points": 82,
+  "hit_dice": "11d10 + 22",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 14,
+  "dexterity": 15,
+  "constitution": 14,
+  "intelligence": 8,
+  "wisdom": 10,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 10,
+  "skills": {
+    "Stealth": 4
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "understands Elvish and Umbral but can’t speak",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The shadhavar makes one Gore attack and one Hooves attack."
+    },
+    {
+      "name": "Gore",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage."
+    },
+    {
+      "name": "Hooves",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) bludgeoning damage."
+    },
+    {
+      "name": "Darkness Aura (1/Day)",
+      "desc": "A 15-foot radius of magical darkness extends out from the shadhavar, moves with it, and spreads around corners. The darkness lasts as long as the shadhavar maintains concentration, up to 10 minutes (as if concentrating on a spell). Darkvision can't penetrate this darkness, and no natural light can illuminate it. If any of the darkness overlaps with an area of light created by a spell of 2nd level or lower, the spell creating the light is dispelled."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Plaintive Melody (3/Day)",
+      "desc": "The shadhavar plays a captivating melody through its hollow horn. Each creature within 60 feet of the shadhavar that can hear it must succeed on a DC 13 Wisdom saving throw or be charmed until the start of the shadhavar's next turn. While charmed, a creature is incapacitated, its speed is reduced to 0, and the shadhavar has advantage on attack rolls against it."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Magic Horn",
+      "desc": "The shadhavar's Gore attacks are magical."
+    },
+    {
+      "name": "Shadesight",
+      "desc": "Magical darkness doesn't impede the shadhavar's darkvision."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 323,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_shadhavar/"
+}

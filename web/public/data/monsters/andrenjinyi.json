@@ -1,0 +1,107 @@
+{
+  "slug": "andrenjinyi",
+  "desc": "_A gigantic, black-headed snake is over 60 feet long and sheathed in brilliant scales, each andrenjinyi is splashed with vibrant patterns of every imaginable color. The air around these serpents is heavy, redolent of the quenched red desert after a torrential thunderstorm._  \nAndrenjinyi are the descendants of the Rainbow Serpent, the first and greatest spirit of the world’s beginning.The Rainbow Serpent’s children are dichotomous nature spirits of land and sky, sun and rain, male and female, and birth and destruction.  \n**Last of their Kind.** The Rainbow Serpent shed andrenjinyi like cast-off scales during her primordial wanderings, but she has created no more since she ascended to the stars. While andrenjinyi are ageless fertility spirits, they cannot themselves reproduce; each one is an irreplaceable link to primeval creation.  \n**Hunt and Transform.** Andrenjinyi are naturally aquatic, preferring to live in deep, fresh, life- giving rivers and lakes.The serpents usually attack intruders unless they approach with the correct rites or offerings, which require a successful DC 20 Intelligence (Religion) check.  \nAndrenjinyi hunt as other animals do, but they transform devoured prey into unique species with their Transmuting Gullet ability, creating mixed gender pairs. An andrenjinyi’s sacred pool and surroundings often shelters a menagerie of strange and beautiful animals.  \n**Demand Obedience and Ritual.** When offered rituals and obedience, andrenjinyi sometimes protect nearby communities with drought-breaking rains, cures for afflictions, or the destruction of rivals. Revered andrenjinyi take offense when their petitioners break fertility and familial edicts, such as prohibitions on incest, rape, and matricide, but also obscure obligations including soothing crying infants and the ritual sacrifice of menstrual blood. Punishments are malevolently disproportionate, often inflicted on the whole community and including baking drought, flooding rains, petrification, pestilence, and animalistic violence.Thus, tying a community’s well-being to an andrenjinyi is a double-edged sword.",
+  "name": "Andrenjinyi",
+  "size": "Gargantuan",
+  "type": "Celestial",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 228,
+  "hit_dice": "13d20+91",
+  "speed": {
+    "walk": 60,
+    "burrow": 20,
+    "climb": 20,
+    "swim": 60
+  },
+  "strength": 30,
+  "dexterity": 17,
+  "constitution": 25,
+  "intelligence": 10,
+  "wisdom": 18,
+  "charisma": 23,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 12,
+  "intelligence_save": null,
+  "wisdom_save": 9,
+  "charisma_save": 11,
+  "perception": 9,
+  "skills": {
+    "arcana": 5,
+    "perception": 9,
+    "religion": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold, fire, lightning",
+  "damage_immunities": "psychic",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., tremorsense 120 ft., passive Perception 19",
+  "languages": "Common, Celestial, Giant, Sylvan",
+  "challenge_rating": "15",
+  "cr": 15,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The andrenjinyi makes two attacks, one with its bite and one with its constriction. If both attacks hit the same target, then the target is Swallowed Whole."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 36 (4d12 + 10) piercing damage.",
+      "attack_bonus": 15,
+      "damage_dice": "4d12"
+    },
+    {
+      "name": "Constrict",
+      "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit: 36 (4d12 + 10) bludgeoning damage, and the target is grappled (escape DC 20). Until this grapple ends the target is restrained, and the andrenjinyi can't constrict another target.",
+      "attack_bonus": 15,
+      "damage_dice": "4d12"
+    },
+    {
+      "name": "Rainbow Arch",
+      "desc": "The andrenjinyi can instantaneously teleport between sources of fresh water within 1 mile as an action. It can't move normally or take any other action on the turn when it uses this power. When this power is activated, a rainbow manifests between the origin and destination, lasting for 1 minute."
+    },
+    {
+      "name": "Swallow Whole",
+      "desc": "If the bite and constrict attacks hit the same target in one turn, the creature is swallowed whole. The target is blinded and restrained, and has total cover against attacks and other effects outside the andrenjinyi. The target takes no damage inside the andrenjinyi. The andrenjinyi can have three Medium-sized creatures or four Small-sized creatures swallowed at a time. If the andrenjinyi takes 20 damage or more in a single turn from a swallowed creature, the andrenjinyi must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 5 feet of the andrenjinyi. If the andrenjinyi is slain, a swallowed creature is no longer restrained by it and can escape from the andrenjinyi by using 15 feet of movement, exiting prone. The andrenjinyi can regurgitate swallowed creatures as a free action."
+    },
+    {
+      "name": "Transmuting Gullet",
+      "desc": "When a creature is swallowed by an andrenjinyi, it must make a successful DC 19 Wisdom saving throw each round at the end of its turn or be affected by true polymorph into a new form chosen by the andrenjinyi. The effect is permanent until dispelled or ended with a wish or comparable magic."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The andrenjinyi can breathe air and water."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "the andrenjinyi's spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). It can innately cast the following spells, requiring only verbal components:\n\nat will: create water, speak with animals, stoneshape\n\n3/day each: control weather, dispel magic, reincarnate\n\n1/day each: blight, commune with nature, contagion, flesh to stone, plant growth"
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The andrenjinyi has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Magic Weapons",
+      "desc": "The andrenjinyi's weapon attacks are magical."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 18,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_andrenjinyi/"
+}

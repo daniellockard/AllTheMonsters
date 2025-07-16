@@ -1,0 +1,92 @@
+{
+  "slug": "blackknightcommander-tob1-2023",
+  "desc": "False",
+  "name": "Black Knight Commander",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Lawful Evil",
+  "armor_class": 18,
+  "armor_desc": "plate",
+  "hit_points": 91,
+  "hit_dice": "14d8 + 28",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 10,
+  "constitution": 14,
+  "intelligence": 12,
+  "wisdom": 13,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": 3,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 4,
+  "charisma_save": 5,
+  "perception": 11,
+  "skills": {
+    "Animal Handling": 7,
+    "Athletics": 7,
+    "Intimidation": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "passive Perception 11",
+  "languages": "any two languages",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The black knight commander makes one Lance attack and two Mace attacks. If the commander is mounted, its mount can then make one Hooves attack. If both Mace attacks hit one creature, the target takes an extra 7 (2d6) bludgeoning damage."
+    },
+    {
+      "name": "Lance",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 10 (1d12 + 4) piercing damage."
+    },
+    {
+      "name": "Mace",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage."
+    },
+    {
+      "name": "Frightful Charge (Recharges after a Short or Long Rest)",
+      "desc": "While mounted, the black knight commander lets loose a terrifying cry. It then moves up to 30 feet in a straight line and can move through the space of any Large or smaller creature. This movement doesn't provoke opportunity attacks. The first time it enters a creature's space during this move, that creature must make a DC 15 Dexterity saving throw. On a failure, a creature takes 28 (8d6) bludgeoning damage and is frightened for 1 minute. On a success, a creature takes half the damage and isn't frightened. A frightened creature can make a DC 15 Wisdom saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Hateful Presence",
+      "desc": "Each friendly creature within 10 feet of the black knight commander gains a +2 bonus on weapon damage rolls but can't use the Help action."
+    },
+    {
+      "name": "Locked Saddle",
+      "desc": "The black knight commander can't be knocked prone, dismounted, or moved against its will while mounted."
+    },
+    {
+      "name": "Mounted Charge",
+      "desc": "If the black knight commander moves at least 20 feet straight toward a creature while mounted and then hits it with a Lance attack on the same turn, the commander can use a bonus action to command its mount to make one melee weapon attack against that creature as a reaction."
+    },
+    {
+      "name": "Mounted Warrior",
+      "desc": "The black knight commander is rarely seen without its warhorse mount. The warhorse wears custom barding that raises is Armor Class to 15, and mounting and dismounting the warhorse costs the commander only 5 feet of movement. While the commander is mounted, its mount can't be charmed or frightened."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 406,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_black-knight-commander/"
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "dread-walker-excavator",
+  "desc": "These glyph-covered metal spiders slowly crawl over the cracked temples of beings beyond the minds of mortals._  \nDread walker excavators are spider-shaped constructs developed to protect and excavate ancient, magical ruins. Excavators are found deep underwater or in wastelands, crawling over monuments built hundreds of years ago.  \n**Alien Minds.** The minds of the excavators are completely mysterious, their instructions indecipherable. Excavators are able to communicate with one another, and supposedly with their masters, but the transmission path of this communication is unknown.  \n**Dread Eye.** The excavator’s central eye shines complicated diagrams atop the stonework of ancient ruins, imprinting alien glyphs atop those carved hundreds of years previously. Some believe the excavators contain vast knowledge of ancient magic and lost civilizations, and sages greatly desire destroyed excavators, hoping to extract this knowledge from their remains. None have yet been successful, and many have been driven mad by the attempt.  \n**Construct Nature.** A dread walker excavator doesn’t require air, food, drink, or sleep.",
+  "name": "Dread Walker Excavator",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 75,
+  "hit_dice": "10d10+20",
+  "speed": {
+    "climb": 30,
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 18,
+  "dexterity": 19,
+  "constitution": 14,
+  "intelligence": 14,
+  "wisdom": 16,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "perception": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16",
+  "languages": "—",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The excavator makes two foreleg attacks."
+    },
+    {
+      "name": "Foreleg",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d8+4"
+    },
+    {
+      "name": "Excavation Beam",
+      "desc": "Ranged Weapon Attack: +7 to hit, range 30/60 ft., one target. Hit: 17 (5d6) force damage.",
+      "attack_bonus": 7,
+      "damage_dice": "5d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Arcane Instability",
+      "desc": "When the excavator is reduced to half its maximum hp or fewer, unstable arcane energy begins to pour from its metal body. A creature that touches the unstable excavator or hits it with a melee attack while within 5 feet of it takes 3 (1d6) force damage."
+    },
+    {
+      "name": "Spider Climb",
+      "desc": "The excavator can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 129,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_dread-walker-excavator/"
+}

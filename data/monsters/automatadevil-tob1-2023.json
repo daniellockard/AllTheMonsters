@@ -1,0 +1,95 @@
+{
+  "slug": "automatadevil-tob1-2023",
+  "desc": "False",
+  "name": "Automata Devil",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Lawful Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 168,
+  "hit_dice": "16d10 + 80",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 24,
+  "dexterity": 17,
+  "constitution": 20,
+  "intelligence": 11,
+  "wisdom": 14,
+  "charisma": 19,
+  "strength_save": 11,
+  "dexterity_save": 7,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": 8,
+  "perception": 12,
+  "skills": {
+    "Athletics": 11,
+    "Intimidation": 8
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 12",
+  "languages": "Common, Infernal, telepathy 120 ft.",
+  "challenge_rating": "10",
+  "cr": 10,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The automata devil makes one Bite attack, one Whip attack, and two Claw attacks. It can replace two Claw attacks with a use of Shredding Maw."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 18 (2d10 + 7) slashing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 16 (2d8 + 7) slashing damage."
+    },
+    {
+      "name": "Whip",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 12 (2d4 + 7) slashing damage, and the target is grappled (escape DC 17). The automata devil has two whips, each of which can grapple only one target."
+    },
+    {
+      "name": "Shredding Maw",
+      "desc": "One creature grappled by the automata devil is pulled up to 10 feet toward the devil's central maw, which shreds the creature with churning gears, razor teeth, and whirling blades. The target must make a DC 17 Strength saving throw, taking 36 (8d8) slashing damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "name": "Teleport",
+      "desc": "The automata devil magically teleports, along with any equipment it is wearing or carrying up to 120 feet to an unoccupied space it can see."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the devil's darkvision."
+    },
+    {
+      "name": "Fear Aura",
+      "desc": "A creature that starts its turn within 10 feet of the automata devil must succeed on a DC 17 Wisdom saving throw or become frightened until the start of its next turn. On a successful saving throw, the creature is immune to the automata devil's Fear Aura for 24 hours."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The automata devil has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 92,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_automata-devil/"
+}

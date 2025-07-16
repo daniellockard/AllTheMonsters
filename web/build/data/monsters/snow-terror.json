@@ -1,0 +1,77 @@
+{
+  "slug": "snow-terror",
+  "desc": "A sizeable snowperson with sticks for arms, a carrot nose, and a smile etched across its face slowly turns its head. Closer inspection reveals the smile is disturbingly jagged._  \n**Demonic Snow People.** Snow terrors hail from an icy layer of the Abyss. There, they torment lesser fiends or watch as wind-whipped snow destroys visitors wholly unprepared for it. Such visitors are few and far between, leading snow terrors to travel to the Material Plane for greater chances at entertainment.  \n**Innocuous Disguise.** Snow terrors temper their desire for bloodshed and mayhem with patience. They find heavily trafficked areas and lurk nearby, observing potential prey. When choosing victims, they remain motionless in their guise as ordinary snowpersons, even allowing children to pluck the accoutrements off them.  \n**Sadistic Hunter.** A snow terror picks off lone people first, reveling in communities consequently thrown into chaos. Just before it attacks, it reveals its true form: a leering, shark-toothed snowperson with unholy light glowing in its eye sockets. It chases, catches, and devours its victims, relishing the screams as the acid churning in its guts slowly dissolves its prey. It can take on the appearance of its victims, drawing in concerned family members and neighbors before dissolving the facade to attack.",
+  "name": "Snow Terror",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "shapechanger",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 16,
+  "armor_desc": null,
+  "hit_points": 127,
+  "hit_dice": "15d10+45",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 19,
+  "dexterity": 22,
+  "constitution": 17,
+  "intelligence": 12,
+  "wisdom": 9,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 6,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "deception": 6,
+    "stealth": 9
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "acid, cold, poison",
+  "condition_immunities": "frightened, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 9",
+  "languages": "Abyssal, Common",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 14 (3d6 + 4) piercing damage plus 14 (4d6) acid damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Dexterity saving throw or be swallowed by the snow terror. A swallowed creature is blinded and restrained, it has total cover against attacks and other effects outside the snow terror, and it takes 14 (4d6) acid damage at the start of each of the snow terror's turns. The snow terror can have only one creature swallowed at a time.\n\nIf the snow terror takes 15 or more damage on a single turn from the swallowed creature, it must succeed on a DC 16 Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls prone in a space within 10 feet of the snow terror. If the snow terror dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone.",
+      "attack_bonus": 7,
+      "damage_dice": "3d6+4"
+    },
+    {
+      "name": "Horrifying Visage",
+      "desc": "Each non-undead creature within 60 feet of the snow terror that can see it must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to this snow terror's Horrifying Visage for the next 24 hours."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance (Snow Person Form Only)",
+      "desc": "While the snow terror remains motionless, it is indistinguishable from an ordinary snow person."
+    },
+    {
+      "name": "Shapechanger",
+      "desc": "The snow terror can use its action to polymorph into a Large snow person, a snowy likeness of the creature it most recently killed, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.\n\nWhile in the form of the creature it most recently killed, creatures that knew the mimicked creature have disadvantage on their Wisdom saving throws against its Horrifying Visage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 334,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_snow-terror/"
+}

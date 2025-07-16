@@ -1,0 +1,112 @@
+{
+  "slug": "forgotten-regent",
+  "desc": "",
+  "name": "Forgotten Regent",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Neutral",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 187,
+  "hit_dice": "22d8+88",
+  "speed": {
+    "walk": 30,
+    "fly": 50
+  },
+  "strength": 21,
+  "dexterity": 10,
+  "constitution": 18,
+  "intelligence": 13,
+  "wisdom": 14,
+  "charisma": 21,
+  "strength_save": null,
+  "dexterity_save": 4,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold, fire, lighting, thunder; nonmagic B/P/S attacks not made w/silvered weapons",
+  "damage_immunities": "cold, necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60', passive Perception 16",
+  "languages": "any languages it knew in life",
+  "challenge_rating": "10",
+  "cr": 10,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Frozen Rune Maul or Frost Blast attacks."
+    },
+    {
+      "name": "Frozen Rune Maul",
+      "desc": "Melee Weapon Attack: +9 to hit, 5 ft., one target, 14 (2d8+5) bludgeoning damage + 7 (2d6) cold."
+    },
+    {
+      "name": "Frost Blast",
+      "desc": "Ranged Spell Attack: +9 to hit, 120 ft., one target, 19 (4d6+5) cold."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": [
+    {
+      "name": "Army of the Damned",
+      "desc": "Raises an arm into the air sending out a chill wind that empowers Undead allies. Each friendly Undead within 30' of it gains 10 temp hp."
+    },
+    {
+      "name": "Teleport (2)",
+      "desc": "Magically teleports along with any items worn or carried up to 120' to an unoccupied spot it sees."
+    },
+    {
+      "name": "Frozen Rune Maul (2)",
+      "desc": "Makes one Frozen Rune Maul attack."
+    }
+  ],
+  "special_abilities": [
+    {
+      "name": "Frozen Reign",
+      "desc": "When a friendly Undead within 30' of regent hits with any weapon weapon deals an extra 4 (1d8) cold."
+    },
+    {
+      "name": "Incorporeal Movement",
+      "desc": "Move through others/objects as difficult terrain. Takes 5 (1d10) force if it ends turn in object."
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "desc": "Choose to succeed failed save."
+    },
+    {
+      "name": "Turning",
+      "desc": "[+]Defiance[/+] It and any Undead within 30' of it: advantage on saves vs. turn undead."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Glacier Imprisonment (Recharge 6)",
+      "desc": "One creature regent can see within 60' of it: DC 16 Con save. If save fails by 5+ creature is instantly petrified in magical ice block. Otherwise creature that fails save begins to freeze and is restrained. Restrained creature must re-save at end of its next turn becoming petrified in magical ice block on a failure or ending effect on a success. Petrification lasts until creature is freed by greater restoration spell or other magic. Or the ice block can be attacked and destroyed (AC 15; hp 30; vulnerability to fire; immunity to poison and psychic) freeing the creature. When ice block takes damage that isn't fire petrified creature takes half the damage dealt to the ice block."
+    },
+    {
+      "name": "Frozen Citizenry (1/Day)",
+      "desc": "Magically calls 2d4 skeletons or zombies (regent's choice) or two glacial corruptors (see Tome of Beasts 2). Called creatures arrive in 1d4 rounds acting as allies of the regent and obeying its spoken commands. The Undead remain for 1 hr until regent dies or until regent dismisses them as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 187,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_forgotten-regent/"
+}

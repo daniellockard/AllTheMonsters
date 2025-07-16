@@ -1,0 +1,72 @@
+{
+  "slug": "raven",
+  "desc": "",
+  "name": "Raven",
+  "size": "Tiny",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Miscellaneous Creatures",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 1,
+  "hit_dice": "1d4-1",
+  "speed": {
+    "walk": 10,
+    "fly": 50
+  },
+  "strength": 2,
+  "dexterity": 14,
+  "constitution": 8,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "perception": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 13",
+  "languages": "",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Beak",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Mimicry",
+      "desc": "The raven can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. A creature that hears the sounds can tell they are imitations with a successful DC 10 Wisdom (Insight) check."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 387,
+  "environments": [
+    "Hill",
+    "Urban",
+    "Swamp",
+    "Forest"
+  ],
+  "img_main": null,
+  "document__slug": "wotc-srd",
+  "document__title": "5e Core Rules",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "v2_converted_path": "/v2/creatures/srd_raven/"
+}

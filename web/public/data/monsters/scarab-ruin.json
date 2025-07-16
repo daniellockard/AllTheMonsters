@@ -1,0 +1,94 @@
+{
+  "slug": "scarab-ruin",
+  "desc": "",
+  "name": "Scarab, Ruin",
+  "size": "Large",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 136,
+  "hit_dice": "16d10+48",
+  "speed": {
+    "walk": 30,
+    "bur.": 15,
+    "climb": 15,
+    "fly": 15
+  },
+  "strength": 17,
+  "dexterity": 14,
+  "constitution": 16,
+  "intelligence": 3,
+  "wisdom": 14,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened, poisoned, restrained",
+  "senses": "blindsight 90' (blind beyond), passive Perception 12",
+  "languages": "—",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Bites. Can replace one attack with Gut Rip."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one creature,. 14 (2d10+3) slashing damage + 5 (2d4) necrotic and knocked prone or pushed 5 ft. away the scarab's choice (DC 14 Str negates prone/push)."
+    },
+    {
+      "name": "Gut Rip",
+      "desc": "The ruin scarab tears into one prone creature within 5 ft. of it. The target takes 11 (2d10) slashing damage and 5 (2d4) necrotic and is incapacitated for 1 min (DC 15 Con half damage and isn't incapacitated). An incapacitated creature can re-save at end of each of its turns success ends effect on itself."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Relentless Pursuit",
+      "desc": "When a creature within 10 ft. of the scarab moves away from it scarab can move up to half its speed toward that creature."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Flesh-Eating Aura",
+      "desc": "When creature that doesn't have all of its hp starts its turn within 10 ft. of scarab creature takes 2 (1d4) necrotic. Also magical healing within 10 ft. of it is halved."
+    },
+    {
+      "name": "Silent Steps",
+      "desc": "No sound emanates from it whether moving attacking or ripping into a corpse. Has advantage on Dex (Stealth) checks and each creature within 5 ft. of it is deafened."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Unstoppable",
+      "desc": "Moving through difficult terrain doesn't cost it extra movement and its speed can't be reduced."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 337,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_scarab-ruin/"
+}

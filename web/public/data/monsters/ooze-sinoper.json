@@ -1,0 +1,87 @@
+{
+  "slug": "ooze-sinoper",
+  "desc": "",
+  "name": "Ooze, Sinoper",
+  "size": "Medium",
+  "type": "Ooze",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 7,
+  "armor_desc": "",
+  "hit_points": 170,
+  "hit_dice": "20d8+80",
+  "speed": {
+    "walk": 20,
+    "climb": 20
+  },
+  "strength": 21,
+  "dexterity": 5,
+  "constitution": 19,
+  "intelligence": 3,
+  "wisdom": 14,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "nonmagic B/P/S weapons",
+  "damage_immunities": "acid, cold, fire, poison",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, poisoned, prone",
+  "senses": "blindsight 60' (blind beyond), passive Perception 12",
+  "languages": "—",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Paint Splash attacks."
+    },
+    {
+      "name": "Paint Splash",
+      "desc": "Melee or Ranged Weapon Attack: +9 to hit 5 ft. or range 20/60' one creature. 18 (3d8+5) acid and target is coated in paint. Roll a die. Even result: target is coated in a warm color paint such as red orange or yellow. Odd result: target is coated in a cool color paint such as blue green or purple. A creature including target can use its action to remove the paint."
+    },
+    {
+      "name": "Foment Pigment (Recharge 4-6)",
+      "desc": "Activates latent magic in its paint burning/freezing paint off creatures affected by Paint Splash. Each creature coated in paint within 60' of it: 35 (10d6) cold (if coated in cool color) or fire (warm color) and poisoned 1 min (DC 16 Con half damage and isn't poisoned). Each affected creature no longer coated in paint."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amorphous",
+      "desc": "Move through space 1ft.+ wide with o squeezing."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from that work of art."
+    },
+    {
+      "name": "Ooze Nature",
+      "desc": "The sinoper ooze doesn't require sleep."
+    },
+    {
+      "name": "Spider Climb",
+      "desc": "Difficult surfaces even ceilings no ability check."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 310,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_ooze-sinoper/"
+}

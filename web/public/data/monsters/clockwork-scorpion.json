@@ -1,0 +1,91 @@
+{
+  "slug": "clockwork-scorpion",
+  "desc": "",
+  "name": "Clockwork Scorpion",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 95,
+  "hit_dice": "10d10+40",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 19,
+  "dexterity": 13,
+  "constitution": 19,
+  "intelligence": 3,
+  "wisdom": 12,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "fire; nonmagic B/P/S attacks not made w/adamantine weapons",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60', tremorsense 60', passive Perception 15",
+  "languages": "understands creator's languages but can't speak",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Sting attack and two Claw attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +8 to hit, 5 ft., one target, 10 (1d12+4) bludgeoning damage and target grappled (escape DC 16). Has two claws each of which can grapple only one target."
+    },
+    {
+      "name": "Sting",
+      "desc": "Melee Weapon Attack: +8 to hit, 5 ft., one creature,. 9 (1d10+4) piercing damage + 22 (4d10) poison. Scorpion then chooses one of the following target: DC 16 Con save.Hallucinatory Elixir Failed save: sees enemies everywhere 1 min. On its turn target uses its action for melee attack vs. nearest creature (not scorpion) moving up to its speed to creature if necessary. Can re-save at end of each of its turns success ends effect on itself. If it makes initial save is charmed until end of its next turn.Sleep Solution Failed save: falls unconscious 1 min. Effect ends for target if it takes damage or if another creature uses action to wake it. Successful save: target incapacitated until end of its next turn.Vocal Paralytic Failed save: target is poisoned for 1 min. While poisoned in this way target is unable to speak or cast spells that require verbal components. Target can re-save at end of each of its turns success ends effect on itself. If target succeeds on initial save it is poisoned in this way until end of its next turn."
+    },
+    {
+      "name": "Acid Spray (Recharge 5-6)",
+      "desc": "Spews acid in a 15 ft. cone. Each creature in that area: 42 (12d6) acid (DC 16 Dex half)."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Gas Nozzles",
+      "desc": "When it takes damage all within 5 feet: 5 (1d10) poison. If damage taken was fire gas ignites deals + 5 (1d10) fire."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Construct Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "Immune: form-altering spells/effects."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 89,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_clockwork-scorpion/"
+}

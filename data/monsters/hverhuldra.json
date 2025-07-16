@@ -1,0 +1,101 @@
+{
+  "slug": "hverhuldra",
+  "desc": "Steam rises from the top of this bald, green-skinned humanoid with a snake-like torso. The creature sweats profusely, but it doesn’t seem uncomfortable._  \n**Protector of Hot Springs.** Geothermal springs are the only reliable source of warmth in the arctic region, and they often coincide with ley lines. A hverhuldra, an aquatic fey, enjoys the constant heat provided by such springs and is sensitive to the magic power flowing through them. It serves as guardian of these coveted locations, ensuring no particular creature or group takes control of them.  \n**Luxuriating Fey.** Hverhuldras are not stodgy protectors of their homes. They enjoy the feeling of warmth they experience and believe others should be able to revel in it as well. Provided no violence occurs, hverhuldras are gracious hosts to their hot springs. Some may even encourage visitors to engage in dalliances underwater, using their magic to accommodate those unable to breathe underwater.  \n**Inured to Cold.** Despite their preference for warm or hot water, hverhuldras are hardened against cold weather. Their bodies generate incredible heat, and they produce copious amounts of steam when they stand in the cold.",
+  "name": "Hverhuldra",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Good",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 120,
+  "hit_dice": "16d6+64",
+  "speed": {
+    "swim": 30,
+    "walk": 30
+  },
+  "strength": 13,
+  "dexterity": 16,
+  "constitution": 18,
+  "intelligence": 11,
+  "wisdom": 15,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 7,
+  "perception": null,
+  "skills": {
+    "athletics": 4,
+    "intimidation": 7,
+    "nature": 3,
+    "survival": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "Aquan, Common, Sylvan",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The hverhuldra makes two steaming fist attacks."
+    },
+    {
+      "name": "Steaming Fist",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage plus 7 (2d6) fire damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d8+3"
+    },
+    {
+      "name": "Scalding Stream (Recharge 5-6)",
+      "desc": "The hverhuldra spits scalding water in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw. On a failed save, the target takes 21 (6d6) fire damage and is blinded for 1 minute. On a successful save, the target takes half the damage and isn't blinded. A blinded creature can make a DC 15 Constitution saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Steam Cloud",
+      "desc": "When the hverhuldra takes cold damage, it uses the steam from the impact of the cold on its body to magically create a cloud of steam centered on a point it can see within 60 feet of it. This cloud works like the fog cloud spell, except the hverhuldra can dismiss it as a bonus action."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The hverhuldra can breathe air and water."
+    },
+    {
+      "name": "Purify Water",
+      "desc": "If the hverhuldra sits in a body of slow-flowing or standing water, such as a hot spring or a small creek, for at least 1 hour, the water becomes purified and rendered free of poison and disease. In slow-flowing water, this purification fades 1 hour after the hverhuldra leaves the water. In standing water, this purification lasts until a contaminant enters the water while the hverhuldra isn't in it."
+    },
+    {
+      "name": "Quick Rescue",
+      "desc": "As a bonus action, the hverhuldra gives one willing creature within 60 feet of it the ability to breathe water for 1 minute."
+    },
+    {
+      "name": "Water Protection",
+      "desc": "While the hverhuldra submerged in water, it has advantage on Dexterity (Stealth) checks, and it has resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks. If it takes cold damage, this trait doesn't function until the end of its next turn."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The hverhuldra's innate spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring no components:\nAt will: create or destroy water, detect poison and disease, purify food and drink\n1/day each: blindness/deafness, protection from poison"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 206,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_hverhuldra/"
+}

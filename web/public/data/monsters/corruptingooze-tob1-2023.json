@@ -1,0 +1,79 @@
+{
+  "slug": "corruptingooze-tob1-2023",
+  "desc": "False",
+  "name": "Corrupting Ooze",
+  "size": "Large",
+  "type": "Ooze",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 12,
+  "armor_desc": "natural armor",
+  "hit_points": 115,
+  "hit_dice": "10d10 + 60",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 10,
+  "constitution": 22,
+  "intelligence": 4,
+  "wisdom": 2,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "Stealth": 3
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, slashing",
+  "damage_immunities": "poison",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone poisoned",
+  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6",
+  "languages": "—",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The corrupting ooze makes two Slam attacks. If both attacks hit one creature, the target must succeed on a DC 14 Dexterity saving throw or one nonmagical leather, metal, or wooden item the creature is wearing or carrying is destroyed. This effect can't destroy armor or weapons."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) bludgeoning damage plus 7 (2d6) poison damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Reshape Body",
+      "desc": "The corrupting ooze can reshape its mass into a vaguely Humanoid shape or back into its amorphous shape. It reverts to its amorphous shape if it dies. While in a Humanoid shape, it can take any action that requires hands, except it can't wield weapons or a shield or don armor."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Ooze Nature",
+      "desc": "The ooze doesn't require sleep."
+    },
+    {
+      "name": "Putrid Stench",
+      "desc": "A creature that starts its turn within 5 feet of the corrupting ooze must succeed on a DC 14 Constitution saving throw or take 3 (1d6) poison damage and be poisoned until the start of its next turn."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 291,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_corrupting-ooze/"
+}

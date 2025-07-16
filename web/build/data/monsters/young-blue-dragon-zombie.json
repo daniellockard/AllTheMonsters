@@ -1,0 +1,82 @@
+{
+  "slug": "young-blue-dragon-zombie",
+  "desc": "",
+  "name": "Young Blue Dragon Zombie",
+  "size": "Large",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 152,
+  "hit_dice": "16d10+64",
+  "speed": {
+    "walk": 30,
+    "fly": 70,
+    "burrow": 10
+  },
+  "strength": 21,
+  "dexterity": 6,
+  "constitution": 19,
+  "intelligence": 3,
+  "wisdom": 8,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": 2,
+  "constitution_save": 8,
+  "intelligence_save": null,
+  "wisdom_save": 3,
+  "charisma_save": 1,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "lightning, poison",
+  "condition_immunities": "poisoned",
+  "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 9",
+  "languages": "understands the languages it knew in life but can’t speak",
+  "challenge_rating": "10",
+  "cr": 10,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The dragon zombie makes three attacks: one with its bite and two with its claws."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 5 (1d10) necrotic damage.",
+      "attack_bonus": 9,
+      "damage_dice": "2d10+5"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+      "attack_bonus": 9,
+      "damage_dice": "2d6+5"
+    },
+    {
+      "name": "Rotting Breath (Recharge 5-6)",
+      "desc": "The dragon zombie exhales rotting breath in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 55 (10d10) necrotic damage on a failed save, or half as much damage on a successful one. A humanoid reduced to 0 hp by this damage dies, and it rises as a zombie and acts immediately after the dragon zombie in the initiative count. The new zombie is under the control of the creature controlling the dragon zombie."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Undead Fortitude",
+      "desc": "If damage reduces the zombie to 0 hp, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hp instead."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 180,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_young-blue-dragon-zombie/"
+}

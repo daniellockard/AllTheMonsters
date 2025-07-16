@@ -1,0 +1,94 @@
+{
+  "slug": "liminal-drake",
+  "desc": "A shadow drifts gently over the castle walls, quietly sliding over its faded banners as though cast by an unseen cloud in the midday sun. A faint shimmer traces through the shade, probing its corners before settling beneath the skull of a great beast. The shadows draw inward, learning from the old bone to forge a body of glimmering void._  \n**Void Dragon Offspring.** When an Open Game License",
+  "name": "Liminal Drake",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 17,
+  "armor_desc": null,
+  "hit_points": 204,
+  "hit_dice": "24d10+72",
+  "speed": {
+    "fly": 80,
+    "walk": 0,
+    "hover": true
+  },
+  "strength": 7,
+  "dexterity": 24,
+  "constitution": 16,
+  "intelligence": 15,
+  "wisdom": 18,
+  "charisma": 17,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 8,
+  "intelligence_save": null,
+  "wisdom_save": 9,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, fire, lightning, radiant, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "cold",
+  "condition_immunities": "exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 120 ft., passive Perception 14",
+  "languages": "Draconic",
+  "challenge_rating": "14",
+  "cr": 14,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The liminal drake makes three attacks: one with its bite and two with its claws."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one creature. Hit: 14 (2d10 + 3) piercing damage plus 18 (4d8) cold damage.",
+      "attack_bonus": 12,
+      "damage_dice": "2d10+3"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (2d6 + 3) slashing damage plus 9 (2d8) cold damage.",
+      "attack_bonus": 12,
+      "damage_dice": "2d6+3"
+    },
+    {
+      "name": "Stellar Breath (Recharge 5-6)",
+      "desc": "The drake exhales star fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 18 (4d8) fire damage and 18 (4d8) radiant damage on a failed save, and half as much damage on a successful one."
+    },
+    {
+      "name": "Warp Space",
+      "desc": "The liminal drake can fold in on itself to travel to a different plane. This works like the plane shift spell, except the drake can only affect itself, not other creatures, and it can't use the effect to banish an unwilling creature to another plane."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The drake can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Nauseating Luminance",
+      "desc": "When a creature that can see the drake starts its turn within 60 feet of the drake, the drake can force it to make a DC 16 Constitution saving throw if the drake isn't incapacitated and can see the creature. On a failed save, the creature is incapacitated until the start of its next turn.\n\nUnless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the drake until the start of its next turn, when it can avert its eyes again. If the creature looks at the drake in the meantime, it must immediately make the save."
+    },
+    {
+      "name": "Void Dweller",
+      "desc": "When traveling through the void between stars, the liminal drake magically glides on solar winds, making the immense journey in an impossibly short time."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 107,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_liminal-drake/"
+}

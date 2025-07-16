@@ -1,0 +1,97 @@
+{
+  "slug": "owl-harpy",
+  "desc": "_This winged woman’s face is wreathed in a headdress of feathers; her luminous eyes and aquiline nose lend beauty to her feral demeanor. Her sharp, taloned feet seem even more inhuman by comparison._  \n**Harpy Queens.** An owl harpy is a queen among her kind, possessing superior grace and intelligence and an owl's predatory instinct and savage appetite. Owl harpies never grow hair, only feathers, which often wreathe their faces and crown their heads like a headdress. Their taloned feet are strong and razor sharp. They are much stronger fliers than lesser harpies; they swoop and hover in mid-air with ease to tear their prey apart. They are found in temperate climates as well as in deserts and jungles.  \n**Noctural Magic.** Owl harpies practice a rare, potent magic associated with darkness and the night. They can counter most light sources easily. So refined is their hearing that neither darkness nor invisibility detracts from their ability to hunt their quarry. Their acute hearing also means that thunder attacks distress them.  \nOwl harpies are natural (if irredeemably evil) bards thanks to their sharp wits. Less common but not unheard of are owl harpy oracles, scholars, and collectors. These savants are known to exchange their knowledge and insights for companionship or for unusual gifts and treasures.",
+  "name": "Owl Harpy",
+  "size": "Medium",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": "",
+  "hit_points": 112,
+  "hit_dice": "15d8+45",
+  "speed": {
+    "walk": 20,
+    "fly": 80,
+    "hover": true
+  },
+  "strength": 12,
+  "dexterity": 17,
+  "constitution": 16,
+  "intelligence": 11,
+  "wisdom": 14,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "performance": 7,
+    "stealth": 6
+  },
+  "damage_vulnerabilities": "thunder",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 60 ft., passive Perception 12",
+  "languages": "Common, Abyssal, Giant",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The owl harpy makes two claw attacks and two talon attacks."
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d4"
+    },
+    {
+      "name": "Talons",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d6"
+    },
+    {
+      "name": "Hovering Darkness",
+      "desc": "An owl harpy that hovers in flight can shake a fine, magical dander from her wings over a creature within 20 feet and directly below her. The creature must succeed on a DC 15 Constitution saving throw or fall unconscious and be poisoned for 10 minutes. It wakes up if it takes damage or if a creature uses an action to shake it awake, but waking up doesn't end the poisoning."
+    },
+    {
+      "name": "Luring Song",
+      "desc": "The owl harpy sings a magical melody. Every humanoid and giant within 300 feet of the harpy that can hear the song must succeed on a DC 15 Wisdom saving throw or be charmed until the song ends. The harpy must use a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy becomes incapacitated. While charmed by the harpy, a target is incapacitated and ignores the songs of other harpies. A charmed target that is more than 5 feet away from the harpy must move at its highest rate (including dashing, if necessary) along the most direct route to get within 5 feet of the harpy. The charmed creature doesn't maneuver to avoid opportunity attacks, but it can repeat the saving throw every time it takes damage from anything other than the harpy. It also repeats the saving throw before entering damaging terrain (lava or a pit, for example), if the most direct route includes a dangerous space. A creature also repeats the saving throw at the end of each of its turns. A successful saving throw ends the effect on that creature and makes the creature immune to this harpy's song for 24 hours."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Quiet Flight",
+      "desc": "The owl harpy gains an additional +3 to Stealth (+9 in total) while flying."
+    },
+    {
+      "name": "Dissonance",
+      "desc": "The owl harpy can't use its blindsight while deafened."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "the owl harpy's innate spellcasting ability is Charisma. The owl harpy can innately cast the following spells, requiring no material components:\n\n3/day: darkness"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 246,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_owl-harpy/"
+}

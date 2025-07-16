@@ -1,0 +1,87 @@
+{
+  "slug": "gnoll-havoc-runner",
+  "desc": "_The runner is a mottled blur, a sprinting gnoll laughing as it runs, ax held high. It sprints past, its weapon flashing in the sun._  \nWith the bristly mane and spotted fur characteristic of all gnolls, havoc runners blend into their tribe. Only the canny glint in the eyes hints at the deadly difference before the havoc runner explodes into violence.  \n_**Blinding Raids.**_ Havoc runners are scouring storms across the trade routes that crisscross the tribe’s territory. Like all gnolls, they are deadly in battle. Havoc runners incorporate another quality that makes them the envy of many raiders: they can tell at a glance which pieces of loot from a laden camel or wagon are the most valuable, without spending time rummaging, weighing, or evaluating. Their ability to strike into a caravan, seize the best items, and withdraw quickly is unparalleled.",
+  "name": "Gnoll Havoc Runner",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "gnoll",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "chain shirt",
+  "hit_points": 58,
+  "hit_dice": "9d8+18",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 14,
+  "constitution": 14,
+  "intelligence": 8,
+  "wisdom": 12,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 5,
+  "skills": {
+    "athletics": 5,
+    "perception": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 15",
+  "languages": "Gnoll",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The gnoll makes one bite attack and two battleaxe attacks."
+    },
+    {
+      "name": "Battleaxe",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage or 8 (1d10 + 3) slashing damage if used in two hands.",
+      "attack_bonus": 5,
+      "damage_dice": "1d8"
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Harrying Attacks",
+      "desc": "If the gnoll attacks two creatures in the same turn, the first target has disadvantage on attack rolls until the end of its next turn."
+    },
+    {
+      "name": "Lightning Lope",
+      "desc": "The gnoll can Dash or Disengage as a bonus action."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The gnoll has advantage on its attack rolls against a target if at least one of the gnoll's allies is within 5 feet of the target and the ally isn't incapacitated."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 230,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_gnoll-havoc-runner/"
+}

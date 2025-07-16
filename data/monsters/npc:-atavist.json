@@ -1,0 +1,74 @@
+{
+  "slug": "npc:-atavist",
+  "desc": "",
+  "name": "Npc: Atavist",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 75,
+  "hit_dice": "10d8+30",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 17,
+  "intelligence": 13,
+  "wisdom": 7,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 0,
+  "charisma_save": null,
+  "perception": -2,
+  "skills": {
+    "perception": -2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "necrotic, poison",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 8",
+  "languages": "any two languages",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Keratin Blade or Bone Shard attacks. If both attacks hit one target the target takes an extra 7 (2d6) piercing damage as bits of bone dig deeper into the target."
+    },
+    {
+      "name": "Keratin Blade",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 11 (2d6+4) slashing damage."
+    },
+    {
+      "name": "Bone Shard",
+      "desc": "Ranged Weapon Attack: +4 to hit 30/120' one target 7 (2d4+2) piercing damage."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Malleable Physiology",
+      "desc": "At the start of its turn the atavist gains one of the following benefits until it ends the effect (no action required) or the start of its next turn:Darkvision out to a range of 30 feet.A climbing flying or swimming speed of 30 feet.Advantage on Wis (Perception) checks that rely on hearing or smell.Bony spikes sprout along its skin and a creature that touches the atavist or hits it with melee attack while within 5 ft. of it takes 4 (1d8) piercing damage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 404,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_npc-atavist/"
+}

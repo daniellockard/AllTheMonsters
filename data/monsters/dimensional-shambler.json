@@ -1,0 +1,87 @@
+{
+  "slug": "dimensional-shambler",
+  "desc": "The large creature lumbers forward, its ape-like and insectoid features blending incomprehensibly. It blinks in and out of existence, closing in on prey in a manner that betrays both the eye and time itself._  \nSolitary and efficient hunters, dimensional shamblers often materialize in closed structures to surprise prey that believes it is safely hidden. Capable of seeing into and entering the Lower Planes, they regularly stalk targets in the Material Plane by hopping in and out of other planes to remain undetectable.  \n**Disturbing Form.** The dimensional shambler has a rudimentary face with dead eyes, thick hide, and symetrical hands. Its claw-tipped fingers bend in either direction. Moving through many dimensions, the creature’s disturbing gait suggests a lack of any conventional skeletal structure.  \n**Unknown Origins.** The number and lifecycle of these creatures is unknown. No records of more than one shambler appearing in the Material Plane at one time exist, and it is not clear whether they were created by some dark or inscrutable power or evolved naturally.",
+  "name": "Dimensional Shambler",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 102,
+  "hit_dice": "12d10+36",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 22,
+  "dexterity": 21,
+  "constitution": 17,
+  "intelligence": 21,
+  "wisdom": 16,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": 9,
+  "constitution_save": 7,
+  "intelligence_save": 9,
+  "wisdom_save": 7,
+  "charisma_save": null,
+  "perception": 7,
+  "skills": {
+    "arcana": 9,
+    "athletics": 10,
+    "perception": 7,
+    "stealth": 9
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, frightened, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 17",
+  "languages": "Abyssal, Infernal, Void Speech",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "A dimensional shambler makes two claw attacks. If both attacks hit the same target, the target is grappled (escape DC 16)."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage.",
+      "attack_bonus": 10,
+      "damage_dice": "2d10+6"
+    },
+    {
+      "name": "Drag Through",
+      "desc": "The dimensional shambler shifts through multiple dimensions with a target it is grappling, ending in the same dimension it began. The creature must make a DC 16 Wisdom saving throw, taking 21 (6d6) psychic damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Look Between",
+      "desc": "As a bonus action, the dimensional shambler can see 60 feet into any of the Lower Planes when it is on the Material Plane, and vice versa. This sight lasts until the beginning of its next turn. During this time, the dimensional shambler is deaf and blind with regard to its own senses in its current plane."
+    },
+    {
+      "name": "Maddening Form",
+      "desc": "When a creature that can see the dimensional shambler starts its turn within 30 feet of the dimensional shambler, the dimensional shambler can force it to make a DC 16 Constitution saving throw if the dimensional shambler is not incapacitated. On a failed save, the creature is frightened until the start of its next turn. If the creature is concentrating on a spell, that creature must succeed on a DC 16 Constitution saving throw or lose concentration on the spell.\n\nUnless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the dimensional shambler until the start of its next turn, when it can avert its eyes again. If the creature looks at the dimensional shambler in the meantime, it must immediately make the saving throw."
+    },
+    {
+      "name": "Step Between",
+      "desc": "As a bonus action, the dimensional shambler can magically shift from the Material Plane to any Lower Plane, or vice versa. It can't bring other creatures with it when it shifts in this way."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 107,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_dimensional-shambler/"
+}

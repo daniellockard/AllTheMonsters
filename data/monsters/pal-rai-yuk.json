@@ -1,0 +1,91 @@
+{
+  "slug": "pal-rai-yuk",
+  "desc": "This lengthy, two-headed, serpentine creature has three dorsal fins and six legs._  \n**Degenerate Dragons.** Pal-rai-yuks were once a species of underwater dragons. In their arrogance, they angered a sea deity who cursed them. To escape the deity’s wrath, they adapted to tunnel through the earth, though they occasionally still seek prey in the water.  \n**Forgotten Meals.** By some quirk of the pal-rai-yuk’s divine transformation, creatures it swallows can see outside of its stomachs, but the creatures aren’t visible to those outside the pal-rai-yuk. Additionally, this quirk allows the serpents to erase their victims from others’ memories, leaving victims with a deep sense of isolation as they are slowly digested.  \n**Endlessly Hungry.** The sea god segmented their stomachs in an attempt to curb their voraciousness. Unfortunately, it made them more gluttonous. This gluttony occasionally draws the attention of powerful humanoids or large armies. When this happens, the pal-rai-yuk quickly consumes anything it can catch, then digs deep into the earth where it hibernates for years, avoiding retaliation.",
+  "name": "Pal-Rai-Yuk",
+  "size": "Huge",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 133,
+  "hit_dice": "14d12+42",
+  "speed": {
+    "burrow": 40,
+    "swim": 60,
+    "walk": 40
+  },
+  "strength": 21,
+  "dexterity": 11,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 13,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 6,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "athletics": 8,
+    "stealth": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold",
+  "damage_immunities": "",
+  "condition_immunities": "frightened",
+  "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11",
+  "languages": "Aquan, Common, Draconic",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The pal-rai-yuk makes two bite attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 27 (4d10 + 5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained. The pal-rai-yuk has two heads, each of which can grapple only one target.",
+      "attack_bonus": 8,
+      "damage_dice": "4d10+5"
+    },
+    {
+      "name": "Swallow",
+      "desc": "The pal-rai-yuk makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the creature is restrained, it has total cover against attacks and other effects outside the pal-rai-yuk, and it takes 18 (4d8) acid damage at the start of each of the pal-rai-yuk's turns. The pal-rai-yuk can have up to three Medium or smaller creatures swallowed at a time.\n\nThe swallowed creature can see outside of the pal-rai-yuk, but it can't target those outside the pal-rai-yuk with spells or cast spells or use features that allow it to leave the pal-rai-yuk's stomach. In addition, nothing can physically pass through the pal-rai-yuk's stomach, preventing creatures inside the stomach from making attack rolls against creatures outside the stomach.\n\nIf the pal-rai-yuk takes 20 damage or more on a single turn from a creature inside it, the pal-rai-yuk must succeed on a DC 16 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the pal-rai-yuk. If the pal-rai-yuk dies, a swallowed creature is no longer restrained by it and can escape the corpse by using 15 feet of movement, exiting prone."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Forgotten Prey",
+      "desc": "A creature that starts its turn grappled by the pal-rai-yuk must succeed on a DC 16 Charisma saving throw or be invisible and inaudible to all creatures other than the pal-rai-yuk. In addition, when the pal-rai-yuk swallows a creature, each of that creature's allies within 1 mile of the pal-rai-yuk must succeed on a DC 16 Wisdom saving throw or forget the swallowed creature's existence. At the end of each of the creature's turns, it can repeat the saving throw, remembering the swallowed creature on a success."
+    },
+    {
+      "name": "Hold Breath",
+      "desc": "The pal-rai-yuk can hold its breath for 1 hour."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The pal-rai-yuk has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Two Heads",
+      "desc": "The pal-rai-yuk has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 291,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_pal-rai-yuk/"
+}

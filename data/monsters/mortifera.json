@@ -1,0 +1,95 @@
+{
+  "slug": "mortifera",
+  "desc": "",
+  "name": "Mortifera",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 135,
+  "hit_dice": "18d10+36",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 18,
+  "dexterity": 16,
+  "constitution": 15,
+  "intelligence": 8,
+  "wisdom": 10,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "blinded, deafened, exhaustion, poisoned",
+  "senses": "blindsight 60' (blind beyond), passive Perception 13",
+  "languages": "—",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Fanged Tentacles and two Slams or it makes three Slams. It can replace two Slams with Chomp."
+    },
+    {
+      "name": "Fanged Tentacles",
+      "desc": "Melee Weapon Attack: +7 to hit, 10 ft., one target, 9 (2d4+4) piercing damage + 9 (2d8) poison and target is grappled (escape DC 15). Until the grapple ends the target is restrained and mortifera can't use its Fanged Tentacles on another."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 10 (1d12+4) bludgeoning damage."
+    },
+    {
+      "name": "Chomp",
+      "desc": "One creature grappled by mortifera is pulled up to 5 ft. to mortifera's central maw which chomps on creature. Target: 10 (3d6) piercing damage and 13 (3d8) poison (DC 15 Str half)."
+    },
+    {
+      "name": "Poison Spray (Recharge 5-6)",
+      "desc": "Sprays poison from its central maw in a 30' cone. Each creature in that area: 27 (6d8) poison (DC 15 Dex half)."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "Can breathe air and water."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from bed of lotus flowers."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Poisonous Tendrils",
+      "desc": "A creature that starts its turn grappled by the mortifera must make DC 15 Con save or be poisoned for 1 min. A poisoned creature can re-save at end of each of its turns success ends effect on itself."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 278,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_mortifera/"
+}

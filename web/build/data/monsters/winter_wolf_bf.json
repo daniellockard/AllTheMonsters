@@ -1,0 +1,89 @@
+{
+  "slug": "winter_wolf_bf",
+  "desc": "",
+  "name": "Winter Wolf",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 76,
+  "hit_dice": "",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 16,
+  "dexterity": 12,
+  "constitution": 14,
+  "intelligence": 6,
+  "wisdom": 12,
+  "charisma": 8,
+  "strength_save": 3,
+  "dexterity_save": 1,
+  "constitution_save": 2,
+  "intelligence_save": -2,
+  "wisdom_save": 1,
+  "charisma_save": -1,
+  "perception": 15,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Monstrosity Resilience",
+  "damage_immunities": "cold",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "Common,Giant,Winter Wolf",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The winter wolf makes two Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 10 (2d6+3) piercing damage plus 4 (1d8) cold damage. If the target is a creature, it must succeed on a DC 13 STR save or be knocked prone."
+    },
+    {
+      "name": "Cold Breath (Recharge 5-6)",
+      "desc": "The winter wolf exhales a blast of freezing wind in a 15-foot cone. Each creature in that area must make a DC 13 DEX save, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Freezing Nose",
+      "desc": "The winter wolf touches its nose to a creature it can see within 5 feet of it. The target must succeed on a DC 13 CON save or one of the following parts of its body (the winter wolf's choice) is encased in ice for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success. If the target takes fire damage, it has advantage on the next save it makes to end the effect.\n- **Body.** The target has disadvantage on CON saves and is vulnerable to the first instance of cold damage it takes each turn.\n- **Head.** The target can't breathe or speak.\n- **Lower Limb.** The target's speed is reduced to 0, and it has disadvantage on DEX checks and DEX saves.\n- **Upper Limb.** The target has disadvantage on weapon attack rolls made with that limb."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Heightened Hearing and Smell",
+      "desc": "The winter wolf's Perception is 20 when perceiving by hearing or smell."
+    },
+    {
+      "name": "Monstrosity Resilience",
+      "desc": "The winter wolf is resistant to exhaustion and to the frightened condition."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The winter wolf has advantage on attack rolls against a creature if at least one of the winter wolf's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    },
+    {
+      "name": "Snow Camouflage",
+      "desc": "The winter wolf's Stealth is 18 while in snowy terrain."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_winter-wolf/"
+}

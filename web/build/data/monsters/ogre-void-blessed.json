@@ -1,0 +1,87 @@
+{
+  "slug": "ogre-void-blessed",
+  "desc": "",
+  "name": "Ogre, Void Blessed",
+  "size": "Large",
+  "type": "Giant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 133,
+  "hit_dice": "14d10+56",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 20,
+  "dexterity": 8,
+  "constitution": 19,
+  "intelligence": 5,
+  "wisdom": 16,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 7,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "perception": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "necrotic, poison",
+  "damage_immunities": "psychic",
+  "condition_immunities": "blinded, poisoned",
+  "senses": "blindsight 30' (blind beyond), tremorsense 120', passive Perception 16",
+  "languages": "Giant, Void Speech",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Tentacle Lash attack and one Void Bite attack or it makes three Void Spit attacks."
+    },
+    {
+      "name": "Tentacle Lash",
+      "desc": "Melee Weapon Attack: +8 to hit, 15 ft., one target, 12 (2d6+5) bludgeoning damage + 7 (2d6) psychic and target blinded until end of its next turn as jumbled visions and voices of the Void fill its mind (DC 15 Int not blind)."
+    },
+    {
+      "name": "Void Bite",
+      "desc": "Melee Weapon Attack: +8 to hit, 5 ft., one target, 10 (1d10+5) piercing damage + 9 (2d8) necrotic."
+    },
+    {
+      "name": "Void Spit",
+      "desc": "Ranged Spell Attack: +6 to hit, 60 ft., one target, 12 (2d8+3) necrotic."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Volatile Stomach",
+      "desc": "When it takes bludgeoning piercing or slashing can regurgitate some of its stomach contents. Each creature within 5 ft. of it: 4 (1d8) necrotic and be poisoned until end of its next turn (DC 15 Con negates). A pool of Void infused stomach contents forms in a space ogre can see within 5 ft. of it and lasts until start of ogre's next turn. A creature that enters pool for first time on a turn or starts its turn there: 4 (1d8) necrotic."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Hearing and Smell",
+      "desc": "Advantage on Wis (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "name": "Tentacle Senses",
+      "desc": "Can't use its tremorsense while grappled or restrained."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 303,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_ogre-void-blessed/"
+}

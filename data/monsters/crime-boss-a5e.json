@@ -1,0 +1,87 @@
+{
+  "slug": "crime-boss-a5e",
+  "desc": "",
+  "name": "Crime Boss",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 127,
+  "hit_dice": "15d8+60",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 18,
+  "intelligence": 16,
+  "wisdom": 16,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "deception": 6,
+    "insight": 6,
+    "intimidation": 6,
+    "perception": 6,
+    "persuasion": 6,
+    "stealth": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 16",
+  "languages": "any two",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The boss attacks three times with their shortsword."
+    },
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage."
+    },
+    {
+      "name": "Dagger",
+      "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4 + 4) piercing damage."
+    },
+    {
+      "name": "Mark for Death",
+      "desc": "The boss targets a creature within 30 feet that can see or hear them. For 1 minute or until the boss threatens a different target  the target takes an extra 7 (2d6) damage whenever the boss hits it with a weapon attack."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Command Bodyguard",
+      "desc": "When the boss would be hit by an attack, they command an ally within 5 feet to use its reaction to switch places with the boss. The ally is hit by the attack instead of the boss."
+    },
+    {
+      "name": "Offhand Dagger",
+      "desc": "When missed by an attack, the boss makes a dagger attack."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 496,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_crime-boss/"
+}

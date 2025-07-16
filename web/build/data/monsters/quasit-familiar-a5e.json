@@ -1,0 +1,87 @@
+{
+  "slug": "quasit-familiar-a5e",
+  "desc": "",
+  "name": "Quasit Familiar",
+  "size": "Tiny",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 14,
+  "hit_dice": "4d4+4",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 5,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 12,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "stealth": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, fire, lightning; damage from nonmagical weapons",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 11",
+  "languages": "Abyssal, Common",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Claws (Bite While Shapeshifted)",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage  and the target makes a DC 11 Constitution saving throw  becoming poisoned for 1 minute on a failure. The creature can repeat the saving throw at the end of each of its turns  ending the effect on a success."
+    },
+    {
+      "name": "Scare (Quasit Form Only)",
+      "desc": "A creature within 20 feet that can see the quasit makes a DC 11 Wisdom saving throw. On a failure  it is frightened for 1 minute. The creature can repeat the saving throw at the end of each of its turns  ending the effect on a success. If a creature makes its saving throw or the condition ends for it  it is immune to any quasits Scare for the next 24 hours."
+    },
+    {
+      "name": "Shapeshift",
+      "desc": "The quasit magically changes its form into a bat (speed 10 ft.  fly 40 ft.)  centipede (40 ft.  climb 40 ft.)  or toad (40 ft.  swim 40 ft.)  or back into its true form. Its statistics are the same in each form except for its movement speeds. Equipment it is carrying is not transformed. It reverts to its true form if it dies."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Invisibility",
+      "desc": "The quasit magically turns invisible, along with any equipment it carries. This invisibility ends if the quasit makes an attack, falls unconscious, or dismisses the effect."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Chaotic Evil",
+      "desc": "The quasit radiates a Chaotic and Evil aura."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The quasit has advantage on saving throws against spells and magical effects."
+    },
+    {
+      "name": "Familiar",
+      "desc": "The quasit can communicate telepathically with its master while they are within 1 mile of each other. When the quasit is within 10 feet of its master, its master shares its Magic Resistance trait."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 74,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_quasit-familiar/"
+}

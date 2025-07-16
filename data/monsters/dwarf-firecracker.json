@@ -1,0 +1,82 @@
+{
+  "slug": "dwarf-firecracker",
+  "desc": "",
+  "name": "Dwarf, Firecracker",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Any Alignment",
+  "armor_class": 14,
+  "armor_desc": "scale mail",
+  "hit_points": 68,
+  "hit_dice": "8d8 +32",
+  "speed": {
+    "walk": 25
+  },
+  "strength": 17,
+  "dexterity": 10,
+  "constitution": 18,
+  "intelligence": 15,
+  "wisdom": 9,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": 2,
+  "constitution_save": 6,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -1,
+  "skills": {
+    "perception": -1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "fire, poison",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 9",
+  "languages": "Common, Dwarvish",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Wrecking Maul or Fire Blast attacks."
+    },
+    {
+      "name": "Wrecking Maul",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 10 (2d6+3) bludgeoning damage + 3 (1d6) fire. The target must make DC 13 Str save or be pushed up to 15 ft. away from the firecracker and knocked prone."
+    },
+    {
+      "name": "Fire Blast",
+      "desc": "Ranged Spell Attack: +4 to hit, 60 ft., one target, 12 (3d6+2) fire."
+    },
+    {
+      "name": "Combustion Wave (Recharge 5-6)",
+      "desc": "The firecracker slams its massive hammer into the ground battering itself and its foes with fiery shockwave. Each creature within 20' of the firecracker including itself must make a DC 13 Con save taking 10 (3d6) fire and 10 (3d6) thunder on a failed save or half damage if made. Creatures behind cover have advantage on the save."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Dwarven Fleet Foot",
+      "desc": "When the firecracker takes fire its speed increases by 10 ft. until the end of its next turn. In addition it can immediately reroll its initiative and choose to change its place in the initiative order in subsequent rounds to the result."
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "Double damage to objects/structures."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 165,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_dwarf-firecracker/"
+}

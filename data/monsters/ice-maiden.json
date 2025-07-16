@@ -1,0 +1,110 @@
+{
+  "slug": "ice-maiden",
+  "desc": "_This alluring beauty has flesh and hair as white as snow and eyes blue as glacial ice._  \n**Born of the Ice.** Ice maidens are the daughters of powerful creatures of the cold. Some are descendants of Boreas or the Snow Queen (a few having both parents), but they are also born to frost giants and thursir. A few result from tearful pleas by pregnant women lost in the snows, desperate to keep their newborn child from freezing to death—the fraughashar carry these infants away and raise them as ice maidens.  \n**Solitary Lives.** Most ice maidens live solitary existences save for a servant or two under their thrall. They’re lonely creatures, desperate for love but condemned to know companionship only through their magical kiss. If genuine love ever fills an ice maiden’s heart, she’ll melt into nothingness.  \n**Killing Dilemma.** An ice maiden’s hunger for affection and human contact leads them to harm those they approach, which only drives them harder to seek for warmth, love, and approval. Some claim an ice maiden can become a swan maiden or a dryad if she keeps a lover’s heart warm for a full year.",
+  "name": "Ice Maiden",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 84,
+  "hit_dice": "13d8+26",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 12,
+  "dexterity": 17,
+  "constitution": 15,
+  "intelligence": 19,
+  "wisdom": 13,
+  "charisma": 23,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 5,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 9,
+  "perception": null,
+  "skills": {
+    "deception": 9,
+    "persuasion": 9,
+    "stealth": 6
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "cold",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Common, Giant, Sylvan",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The frost maiden makes two ice dagger attacks."
+    },
+    {
+      "name": "Ice Dagger",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 3) piercing damage plus 3 (1d6) cold damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d4"
+    },
+    {
+      "name": "Flurry-Form",
+      "desc": "The ice maiden adopts the form of a swirling snow cloud. Her stats are identical to an air elemental that deals cold damage instead of bludgeoning."
+    },
+    {
+      "name": "Icy Entangle",
+      "desc": "Ice and snow hinder her opponent's movement, as the entangle spell (DC 17)."
+    },
+    {
+      "name": "Kiss of the Frozen Heart",
+      "desc": "An ice maiden may kiss a willing individual, freezing the target's heart. The target falls under the sway of a dominate spell, his or her alignment shifts to LE, and he or she gains immunity to cold. The ice maiden can have up to three such servants at once. The effect can be broken by dispel magic (DC 17), greater restoration, or the kiss of someone who loves the target."
+    },
+    {
+      "name": "Snowblind Burst",
+      "desc": "In a snowy environment, the ice maiden attempts to blind all creatures within 30 feet of herself. Those who fail a DC 17 Charisma saving throw are blinded for 1 hour. Targets that are immune to cold damage are also immune to this effect."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Chilling Presence",
+      "desc": "Cold air surrounds the ice maiden. Small non-magical flames are extinguished in her presence and water begins to freeze. Unprotected characters spending more than 10 minutes within 15 feet of her must succeed on a DC 15 Constitution saving throw or suffer as if exposed to severe cold. Spells that grant protection from cold damage are targeted by an automatic dispel magic effect."
+    },
+    {
+      "name": "Cold Eyes",
+      "desc": "Ice maidens see perfectly in snowy conditions, including driving blizzards, and are immune to snow blindness."
+    },
+    {
+      "name": "Ice Walk",
+      "desc": "Ice maidens move across icy and snowy surfaces without penalty."
+    },
+    {
+      "name": "Snow Invisibility",
+      "desc": "In snowy environments, the ice maiden can turn invisible as a bonus action."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The ice maiden has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "the ice maiden's innate spellcasting ability is Charisma (spell save DC 17). She can innately cast the following spells:\n\nat will: chill touch, detect magic, light, mage hand, prestidigitation, resistance\n\n5/day each: endure elements (cold only), fear, fog cloud, misty step\n\n3/day each: alter self, protection from energy, sleet storm\n\n1/day: ice storm"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 254,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_ice-maiden/"
+}

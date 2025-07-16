@@ -1,0 +1,106 @@
+{
+  "slug": "aridni-tob1-2023",
+  "desc": "False",
+  "name": "Aridni",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 82,
+  "hit_dice": "15d6 + 30",
+  "speed": {
+    "walk": 60,
+    "fly": 20
+  },
+  "strength": 9,
+  "dexterity": 21,
+  "constitution": 14,
+  "intelligence": 12,
+  "wisdom": 11,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": 8,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 13,
+  "skills": {
+    "Acrobatics": 11,
+    "Perception": 3,
+    "Stealth": 11
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "Common, Gnoll, Sylvan, Void Speech",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The aridni makes three Shortsword or Pixie Bow attacks."
+    },
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) piercing damage."
+    },
+    {
+      "name": "Pixie Bow",
+      "desc": "Ranged Weapon Attack: +8 to hit, range 40/160 ft., one target. Hit: 10 (2d4 + 5) piercing damage."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The aridni casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 14):\nAt will: dancing lights, detect magic, invisibility\n3/day each: charm person, faerie fire\n1/day: spike growth"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Enchanted Arrows",
+      "desc": "The aridni enchants one arrow with minor magic. The next time it hits a creature with a Pixie Bow attack before the start of its next turn, the target must succeed on a DC 14 Wisdom saving throw or suffer one of the following effects:"
+    },
+    {
+      "name": "Confusion",
+      "desc": "The target can't take reactions and acts randomly until the end of its next turn, as if it had failed the saving throw against the confusion spell."
+    },
+    {
+      "name": "Fear",
+      "desc": "The target is frightened until the end of its next turn and must spend its next turn moving away from the aridni by the safest available route."
+    },
+    {
+      "name": "Laughter",
+      "desc": "The target falls prone and is incapacitated with laughter until the end of its next turn."
+    },
+    {
+      "name": "Sleep",
+      "desc": "The target falls unconscious for 1 minute. It wakes up if it takes damage or if another creature takes an action to shake it awake.\n\n\n\n\nAridni in Midgard"
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Flyby",
+      "desc": "The aridni doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The aridni has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 25,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_aridni/"
+}

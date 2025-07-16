@@ -1,0 +1,72 @@
+{
+  "slug": "carrionbeetle-tob1-2023",
+  "desc": "False",
+  "name": "Carrion Beetle",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 127,
+  "hit_dice": "15d10 + 45",
+  "speed": {
+    "walk": 10,
+    "burrow": 30
+  },
+  "strength": 19,
+  "dexterity": 12,
+  "constitution": 17,
+  "intelligence": 1,
+  "wisdom": 13,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "paralyzed",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "—",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The beetle makes one Bite attack and two Claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft, one target. Hit: 10 (1d12 + 4) piercing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 7 (1d6 + 4) slashing damage."
+    },
+    {
+      "name": "Acid Spit (Recharge 5-6)",
+      "desc": "The carrion beetle spits acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 26 (4d12) acid damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
+  "spell_list": [],
+  "page_no": 50,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_carrion-beetle/"
+}

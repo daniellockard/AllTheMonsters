@@ -1,0 +1,64 @@
+{
+  "slug": "piercer-a5e",
+  "desc": "",
+  "name": "Piercer",
+  "size": "Small",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 17,
+  "armor_desc": "",
+  "hit_points": 9,
+  "hit_dice": "2d6+2",
+  "speed": {
+    "walk": 0
+  },
+  "strength": 10,
+  "dexterity": 10,
+  "constitution": 12,
+  "intelligence": 1,
+  "wisdom": 6,
+  "charisma": 2,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 30 ft. (blind beyond that radius), passive Perception 8",
+  "languages": "",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Pierce",
+      "desc": "Melee Weapon Attack: +2 to hit  one target directly underneath the piercer. Hit: 10 (3d6) piercing damage. This attack has disadvantage against a creature that is protecting its head with a shield or similar object. If the attack misses  the piercer dies."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While motionless, the piercer is indistinguishable from a normal stalactite."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 373,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_piercer/"
+}

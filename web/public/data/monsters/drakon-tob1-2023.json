@@ -1,0 +1,84 @@
+{
+  "slug": "drakon-tob1-2023",
+  "desc": "False",
+  "name": "Drakon",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 105,
+  "hit_dice": "14d10 + 28",
+  "speed": {
+    "walk": 40,
+    "fly": 30
+  },
+  "strength": 14,
+  "dexterity": 19,
+  "constitution": 15,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 14,
+  "skills": {
+    "Perception": 4,
+    "Stealth": 7
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "acid",
+  "damage_immunities": "False",
+  "condition_immunities": "paralyzed",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "—",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The drakon makes one Bite attack and one Tail attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 10 (4d4) acid damage."
+    },
+    {
+      "name": "Tail",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage."
+    },
+    {
+      "name": "Acid Breath (Recharge 5-6)",
+      "desc": "The drakon exhales acidic vapors in a 15-foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 28 (8d6) acid damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The drakon can breathe air and water."
+    },
+    {
+      "name": "Dissolving Gaze",
+      "desc": "When a creature that can see the drakon's eyes starts its turn within 30 feet of the drakon, the drakon can force it to make a DC 13 Constitution saving throw if the drakon isn't incapacitated and can see the creature. On a failed save, the creature takes 3 (1d6) acid damage, its hp maximum is reduced by an amount equal to the acid damage it takes, and it is paralyzed until the start of its next turn. This reduction lasts until the creature finishes a long rest. The creature dies if this effect reduces its hp maximum to 0."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 147,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_drakon/"
+}

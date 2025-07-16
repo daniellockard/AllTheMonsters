@@ -1,0 +1,84 @@
+{
+  "slug": "lycanthrope-werecrocodile",
+  "desc": "",
+  "name": "Lycanthrope, Werecrocodile",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 58,
+  "hit_dice": "9d8+18",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 15,
+  "dexterity": 13,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 11,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "nonmagic bludgeoning, piercing, and slashing attacks not made with silvered weapons",
+  "condition_immunities": "",
+  "senses": "passive Perception 12",
+  "languages": "Common (can't speak in crocodile form)",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack (Humanoid or Hybrid Form Only)",
+      "desc": "Two Tail Swipe or Khopesh attacks or it makes one Bite and one Tail Swipe."
+    },
+    {
+      "name": "Bite (Crocodile or Hybrid Form Only)",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 7 (1d10+2) piercing damage and target is grappled (escape DC 12). Until the grapple ends the target is restrained and werecrocodile can't bite another. If target is a Humanoid it must make DC 12 Con save or be cursed with werecrocodile lycanthropy."
+    },
+    {
+      "name": "Tail Swipe (Crocodile or Hybrid Form Only)",
+      "desc": "Melee Weapon Attack: +4 to hit 5 ft. 1 tgt not grappled by werecrocodile. 7 (2d4+2) bludgeoning damage and target knocked prone (DC 12 Str negates prone)."
+    },
+    {
+      "name": "Khopesh (Humanoid Form Only)",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 6 (1d8+2) slashing damage or 7 (1d10+2) slashing damage if used with two hands."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "Transforms into a Large crocodile or into a crocodile-humanoid hybrid or back into its true form which is Humanoid. Its stats other than size are the same in each form. Any equipment worn/carried isn't transformed. Reverts to its true form if it dies."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Hold Breath (Crocodile or Hybrid Form Only)",
+      "desc": "Can hold its breath for 15 min."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 265,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_lycanthrope-werecrocodile/"
+}

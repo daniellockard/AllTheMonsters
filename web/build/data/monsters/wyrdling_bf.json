@@ -1,0 +1,78 @@
+{
+  "slug": "wyrdling_bf",
+  "desc": "",
+  "name": "Wyrdling",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 40,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 14,
+  "constitution": 12,
+  "intelligence": 12,
+  "wisdom": 20,
+  "charisma": 14,
+  "strength_save": 0,
+  "dexterity_save": 2,
+  "constitution_save": 1,
+  "intelligence_save": 1,
+  "wisdom_save": 5,
+  "charisma_save": 2,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "psychic,charmed,frightened",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "Common",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Psychic Burst",
+      "desc": "_Melee or Ranged Spell Attack:_ +5 to hit, reach 5 ft. or range 60 ft., one target. _Hit:_ 13 (3d6+3) psychic damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Pronounce Fate",
+      "desc": "The wyrdling pronounces the fate, either fortune or doom (the wyrdling's choice), of one creature it can see within 30 feet of it. The target rolls a d4 and adds (fortune) or subtracts (doom) the number rolled to the next attack roll or save it makes before the start of the wyrdling's next turn."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Call on Fate",
+      "desc": "When the wyrdling is attacked by a creature it can see, it can pluck the strands of fate around the creature, imposing disadvantage on that attack roll. If the attack misses, the wyrdling or one friendly creature it can see within 30 feet of it has advantage on the next attack roll it makes against the attacker before the end of the wyrdling's next turn."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Intuition",
+      "desc": "The wyrdling rolls two dice for initiative, taking the higher number. In addition, the wyrdling has advantage on WIS (Insight) checks."
+    },
+    {
+      "name": "Read Fate",
+      "desc": "The wyrdling can spend 1 minute communing with fate on behalf of one creature that remains within 10 feet of it for the duration. The creature must ask a single question concerning a specific goal, event, or activity to occur within 7 days. At the end of the minute, the wyrdling pronounces the result of the target's inquiry. This trait works like the divination spell, except it can't be used to answer a specific creature's question more than once every 3 days, regardless if the creature asks a different question."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_wyrdling/"
+}

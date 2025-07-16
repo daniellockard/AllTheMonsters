@@ -1,0 +1,86 @@
+{
+  "slug": "quoreq",
+  "desc": "Vaguely humanoid in appearance, this creature has long, raking claws, a jerking gait, and no facial features. Its mushroom-gray skin is covered in strange bumps and eddies as if something were seething just below the surface._  \n**Faceless Nightmares.** Dwelling on the fringes of human society in abandoned buildings, polluted thickets, and grimy backstreets, the quoreq is an aberration born from human misery and squalor, an agglomeration of negative and vile thoughts given form and motion. Though not especially picky in their choice of victims, they are empathetically drawn to creatures experiencing some form of despair or pain.  \n**Emotionless Killers.** Quoreqs do not experience emotions the same way most humanoids do and have no concept of fear or love. They do not inflict pain for simple enjoyment, instead inflicting it to share in the experience such intense emotions can produce. As they inflict pain, they often telepathically ask their victims how it feels.  \n**Horrible Feeding.** Quoreqs eat and sleep like any normal creature, but, since their mouths are concealed beneath their rigid flesh, they must use their claws to rip open their own bodies to quickly gulp down food before they can regenerate. This unusual and horrific practice lends some support to the theory that quoreqs are wholly unnatural creatures born directly from human nightmares.",
+  "name": "Quoreq",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 93,
+  "hit_dice": "11d8+44",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 17,
+  "dexterity": 13,
+  "constitution": 18,
+  "intelligence": 11,
+  "wisdom": 14,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 7,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 5,
+  "skills": {
+    "perception": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison",
+  "condition_immunities": "blinded, charmed, frightened, poisoned, stunned",
+  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 15",
+  "languages": "understands Common but can’t speak, telepathy 60 ft.",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The quoreq makes three claw attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d6+3"
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage. If the quoreq scores a critical hit, it rolls damage dice three times, instead of twice.",
+      "attack_bonus": 6,
+      "damage_dice": "2d8+3"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Regeneration",
+      "desc": "The quoreq regains 10 hp at the start of its turn. If the quoreq takes acid or fire damage, this trait doesn't function at the start of the quoreq's next turn. The quoreq dies only if it starts its turn with 0 hp and doesn't regenerate."
+    },
+    {
+      "name": "Unsettling Appearance",
+      "desc": "A creature that starts its turn within 30 feet of the quoreq and can see it must succeed on a DC 14 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the quoreq's Unsettling Appearance for the next 24 hours."
+    },
+    {
+      "name": "Whorling Jaws",
+      "desc": "Whenever the quoreq suffers 10 or more piercing or slashing damage in a single round, its flesh opens up to reveal a set of gnashing teeth. For 1 minute, the quoreq can make a bite attack as a bonus action on each of its turns. Alternatively, the quoreq can use a bonus action to lose 5 hp and activate this trait."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 304,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_quoreq/"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "wood-ward",
+  "desc": "This human-shaped amalgam of wood, leather, and forest debris lumbers forward on uneven legs._  \nIn remote villages plagued by evil spirits, locals erect wood and straw people to ward against the spirits in much the same way farmers use similar figures to ward against crows.  \n**Animated Protectors.** When great danger threatens the village, ancient rituals that are passed from generation to generation can be invoked to awaken the wards to defend the village. Wood wards aren’t awakened lightly, however, as the villagers rarely possess the rituals to return the wards to their slumber.  \n**Implements of Terror.** Unknown to most villages that possess them, wood wards were originally created by evil druids to sow terror in logging villages that were encroaching on the forest. The druids circulated wards around these villages, spreading rumors of their protective capabilities. Most of the druids succumbed to age, heroes, or other forces before getting the chance to enact their schemes, and the villages continued on with wards that did exactly as rumored. Some druid circles still possess the knowledge for awakening the true nature of the wood wards, and stories have surfaced of villages in the darkest depths of the forest going silent, possessing nothing but empty houses and a wall of silent wood wards.  \n**Construct Nature.** A wood ward doesn’t require air, food, drink, or sleep.",
+  "name": "Wood Ward",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 19,
+  "hit_dice": "2d10+8",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 11,
+  "dexterity": 12,
+  "constitution": 18,
+  "intelligence": 3,
+  "wisdom": 12,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "",
+  "damage_immunities": "poison, psychic, bludgeoning, piercing and slashing from nonmagical attacks not made with adamantine weapons",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "understands the languages of its creator but can’t speak",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The wood ward makes two slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft. one target. Hit: 3 (1d4 + 1) bludgeoning damage.",
+      "attack_bonus": 3,
+      "damage_dice": "1d4+1"
+    },
+    {
+      "name": "Horror Gaze (1/Day)",
+      "desc": "The wood ward's eye sockets release an eerie glow in a 30-foot cone. Each creature in the area must succeed on a DC 10 Charisma saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the wood ward's Horror Gaze for the next 24 hours."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Immutable Form",
+      "desc": "The wood ward is immune to any spell or effect that would alter its form."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The wood ward has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 374,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_wood-ward/"
+}

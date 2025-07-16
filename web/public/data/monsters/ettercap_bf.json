@@ -1,0 +1,94 @@
+{
+  "slug": "ettercap_bf",
+  "desc": "",
+  "name": "Ettercap",
+  "size": "Medium",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 54,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "climb": 30
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 4,
+  "wisdom": 16,
+  "charisma": 8,
+  "strength_save": 0,
+  "dexterity_save": 3,
+  "constitution_save": 1,
+  "intelligence_save": -3,
+  "wisdom_save": 3,
+  "charisma_save": -1,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Monstrosity Resilience",
+  "damage_immunities": "poison,poisoned",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "-",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The ettercap makes one Bite attack and one Claws attack, or it makes two Spit Poison attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one creature. _Hit:_ 7 (1d8+3) piercing damage plus 4 (1d8) poison damage. The target must succeed on a DC 13 CON save or be poisoned for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Claws",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 10 (2d6+3) slashing damage."
+    },
+    {
+      "name": "Spit Poison",
+      "desc": "_Ranged Weapon Attack:_ +5 to hit, range 20/60 ft., one target. _Hit:_ 11 (2d8+3) poison damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Web (Recharge 4-6)",
+      "desc": "The ettercap launches a gob of webbing at one creature it can see within 30 feet of it. The target must succeed on a DC 13 DEX save or be restrained. A creature, including the restrained target, can take its action to free the target from the webbing by succeeding on a DC 13 STR check. The webbing can also be attacked and destroyed (AC 10; HP 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Monstrosity Resilience",
+      "desc": "The ettercap is resistant to exhaustion and to the frightened condition."
+    },
+    {
+      "name": "Spider Climb",
+      "desc": "The ettercap can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Web Sense",
+      "desc": "While in contact with a web, the ettercap knows the exact location of any other creature in contact with the same web."
+    },
+    {
+      "name": "Web Walker",
+      "desc": "The ettercap ignores movement restrictions caused by webbing."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_ettercap/"
+}

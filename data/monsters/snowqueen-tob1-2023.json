@@ -1,0 +1,112 @@
+{
+  "slug": "snowqueen-tob1-2023",
+  "desc": "False",
+  "name": "Snow Queen",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 182,
+  "hit_dice": "28d8 + 56",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 16,
+  "dexterity": 18,
+  "constitution": 14,
+  "intelligence": 18,
+  "wisdom": 20,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": 9,
+  "constitution_save": 7,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 9,
+  "perception": 20,
+  "skills": {
+    "Perception": 10,
+    "Stealth": 9
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with cold iron weapons",
+  "damage_immunities": "cold",
+  "condition_immunities": "charmed, exhaustion, frightened",
+  "senses": "blindsight 10 ft., darkvision 120 ft., passive Perception 20",
+  "languages": "Common, Elvish, Giant, Sylvan",
+  "challenge_rating": "16",
+  "cr": 16,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The Snow Queen makes two Claw or Ice Bolt attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage plus 7 (2d6) cold damage."
+    },
+    {
+      "name": "Ice Bolt",
+      "desc": "Ranged Spell Attack: +10 to hit, range 120 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 7 (2d6) cold damage. The target's speed is reduced by 10 feet until the end of its next turn."
+    },
+    {
+      "name": "Cold Snap (Recharge 5-6)",
+      "desc": "The Snow Queen causes the temperature around her to drop dramatically. Each creature without 30 feet of the Snow Queen must make a DC 18 Constitution saving throw. On a failure, a creature takes 42 (12d6) cold damage and suffers one level of exhaustion. On a success, a creature takes half the damage and doesn't suffer exhaustion. A creature that is immune to cold damage doesn't suffer exhaustion, even if it fails the saving throw. A creature that fails the saving throw by 5 or more is petrified in ice for 1 minute. A petrified creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A petrified creature that takes fire damage has advantage on the saving throw to end the effect."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": "The Snow Queen can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The Snow Queen regains spent legendary actions at the start of her turn.",
+  "legendary_actions": [
+    {
+      "name": "Attack",
+      "desc": "The Snow Queen makes a Claw or Ice Bolt attack."
+    },
+    {
+      "name": "Move",
+      "desc": "The Snow Queen moves up to her speed without provoking opportunity attacks."
+    },
+    {
+      "name": "Snowblind",
+      "desc": "One creature the Snow Queen can see within 120 feet of her must succeed on a DC 18 Dexterity saving throw or be blinded by swirling snow until the end of its next turn."
+    },
+    {
+      "name": "Wintry Swirl (Costs 2 Actions)",
+      "desc": "Each creature within 15 feet of the Snow Queen must succeed on a DC 18 Constitution saving throw or have vulnerability to cold damage until the end of its next turn. A creature with immunity to cold damage that fails this saving throw instead loses its immunity to cold damage but isn't vulnerable to it."
+    }
+  ],
+  "special_abilities": [
+    {
+      "name": "Ice Climb",
+      "desc": "When climbing on ice, the Snow Queen has a climbing speed of 20 feet, and she can climb difficult surfaces made of ice and snow, including upside down on ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Icy Weapons",
+      "desc": "The Snow Queen's weapon attacks are magical. When she hits with any weapon, the weapon deals an extra 2d6 cold damage (included in the attack)."
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "desc": "If the Snow Queen fails a saving throw, she can choose to succeed instead."
+    },
+    {
+      "name": "Snowsight",
+      "desc": "The Snow Queen can see through areas obscured by snowfall, sleet, rain, and other wintry precipitation without penalty."
+    },
+    {
+      "name": "Snow Walk",
+      "desc": "The Snow Queen can move across icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost her extra movement."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 184,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_snow-queen/"
+}

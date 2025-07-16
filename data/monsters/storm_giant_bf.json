@@ -1,0 +1,98 @@
+{
+  "slug": "storm_giant_bf",
+  "desc": "",
+  "name": "Storm Giant",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "group": "Giants",
+  "alignment": "",
+  "armor_class": 16,
+  "armor_desc": "scale mail",
+  "hit_points": 243,
+  "hit_dice": "",
+  "speed": {
+    "walk": 50,
+    "swim": 50
+  },
+  "strength": 38,
+  "dexterity": 14,
+  "constitution": 30,
+  "intelligence": 16,
+  "wisdom": 28,
+  "charisma": 28,
+  "strength_save": 14,
+  "dexterity_save": 2,
+  "constitution_save": 10,
+  "intelligence_save": 3,
+  "wisdom_save": 9,
+  "charisma_save": 9,
+  "perception": 19,
+  "skills": {},
+  "damage_vulnerabilities": "Giant Attributes",
+  "damage_resistances": "cold,Giant Attributes",
+  "damage_immunities": "lightning,thunder",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "Common,Giant",
+  "challenge_rating": "13",
+  "cr": 13,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The giant makes three Greatsword attacks, or it makes four Lightning Bolt attacks."
+    },
+    {
+      "name": "Greatsword",
+      "desc": "_Melee Weapon Attack:_ +14 to hit, reach 10 ft., one target. _Hit:_ 30 (6d6+9) slashing damage."
+    },
+    {
+      "name": "Lightning Bolt",
+      "desc": "_Ranged Spell Attack:_ +9 to hit, range 150 ft., one target. _Hit:_ 22 (4d8+4) lightning damage. If the giant scores a critical hit, the target must succeed on a DC 17 CON save or be paralyzed until the end of its next turn."
+    },
+    {
+      "name": "Thunderous Strike (Recharge 5-6)",
+      "desc": "The giant hurls a magical lightning bolt at a point it can see within 500 feet of it. Each creature within 10 feet of that point must make a DC 17 DEX save. On a failure, a creature takes 36 (8d8) lightning damage and 21 (6d6) thunder damage and is stunned until the end of its next turn. On a success, a creature takes half the damage and isn't stunned."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Stormy Rebuke",
+      "desc": "When a creature the storm giant can see hits it with a melee attack while within 5 feet of the giant, the giant can send a stormy blast at the creature. The attacker must succeed on a DC 17 STR save or be pushed up to 15 feet away from the giant and knocked prone."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The giant can breathe air and water."
+    },
+    {
+      "name": "Giant Attributes",
+      "desc": "The giant is resistant to the stunned condition, and it is vulnerable to the prone condition."
+    },
+    {
+      "name": "Influence Weather",
+      "desc": "Nearby weather responds to the storm giant's desires. At the start of each minute, the storm giant can choose to change the precipitation, temperature, and wind within 3 miles of it by one stage, up or down (no action required). This effect works like the changing weather conditions aspect of the control weather spell, except the conditions change immediately and the storm giant can't change the temperature by more than one stage up or down from the area's standard temperature."
+    },
+    {
+      "name": "Stormsight",
+      "desc": "The storm giant can see through areas obscured by clouds, fog, rain, snow, and storms without penalty."
+    },
+    {
+      "name": "Updraft",
+      "desc": "While in an area open to the sky, the storm giant has a flying speed of 30 feet."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_storm-giant/"
+}

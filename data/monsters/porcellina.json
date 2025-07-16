@@ -1,0 +1,79 @@
+{
+  "slug": "porcellina",
+  "desc": "",
+  "name": "Porcellina",
+  "size": "Tiny",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 28,
+  "hit_dice": "8d4+8",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 8,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 3,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 11",
+  "languages": "—",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 8 (2d4+3) piercing damage and the target must make DC 11 Dex save or be knocked prone. The DC increases by 1 for each other porcellina that hit the target since the end of this porcellina's previous turn to a max of DC 15."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Squeal",
+      "desc": "When a porcellina is hit with an attack it can let out a blood-curdling scream. Each creature within 10 ft. of the porcellina must make DC 11 Wis save or become frightened until the end of its next turn."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Hearing and Smell",
+      "desc": "The porcillina has advantage on Wis (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "Advantage on attacks vs. creature if 1+ unincapacitated attacker ally is within 5 ft. of target."
+    },
+    {
+      "name": "Poisonous Flesh",
+      "desc": "A creature that touches the porcellina or consumes the meat of the porcellina must make DC 11 Con save or become poisoned for 1 hr."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 317,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_porcellina/"
+}

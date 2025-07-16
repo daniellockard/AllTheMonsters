@@ -1,0 +1,80 @@
+{
+  "slug": "radiant-spark-swarm",
+  "desc": "A large cloud composed of tiny glowing sparks of fire floats silently through the air._  \n**Origin of Planar Instability.** Radiant spark swarms form when the border lands between the Plane of Fire and the Upper Planes experience some sort of instability. This instability might be caused by a regional anomaly, war between the gods themselves, magical upheaval, or some other calamity. Thousands of radiant sparks are created at once in massive conflagrations of radiant energy. They are then left to wander the planes alone. These creatures are most often found in the border lands between planes, but they have been known to appear in the Material Plane after accessing it through magical portals. They seldom wander back to their planes of origin and are almost always destroyed at some point during their eternal wanderings.  \n**Hunger for Magic.** Radiant spark swarms are drawn to magic for reasons that aren’t fully understood, for they can neither use it, nor do they truly devour it. Instead, when they sense powerful magic nearby, they instinctually move toward it, as though its very presence is comforting to them. As creatures that are neither particularly intelligent nor evil, their interest in the living usually has to do with the magic spellcasters carry, which draws the sparks close. Unfortunately, the owner of the magic that drew them is often caught in the midst of the swarm, which is inherently harmful.  \n**Elemental Nature.** A radiant spark swarm doesn’t require air, food, drink, or sleep.",
+  "name": "Radiant Spark Swarm",
+  "size": "Medium",
+  "type": "Elemental",
+  "subtype": "Swarm",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 38,
+  "hit_dice": "7d8+7",
+  "speed": {
+    "hover": true,
+    "walk": 0,
+    "fly": 60
+  },
+  "strength": 8,
+  "dexterity": 17,
+  "constitution": 12,
+  "intelligence": 2,
+  "wisdom": 13,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, slashing",
+  "damage_immunities": "fire, poison, radiant",
+  "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "—",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Radiant Sparks",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one target in the swarm's space. Hit: 9 (2d8) radiant damage plus 9 (2d8) fire damage, or 4 (1d8) radiant damage plus 4 (1d8) fire damage if the swarm has half of its hp or fewer.",
+      "attack_bonus": 5,
+      "damage_dice": "2d8"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Drawn to Magic",
+      "desc": "The radiant spark swarm can pinpoint the location of magical items within 60 feet of it. If the swarm starts its turn within 60 feet of a magic item, it moves to that magic item and hovers around it. If the item is being worn or carried by a creature, the swarm attacks that creature. If multiple magic items are within 60 feet of the swarm, it moves to the item that is most rare. If more than one item is most rare, choose randomly among them."
+    },
+    {
+      "name": "Burning Radiance",
+      "desc": "A creature that touches the radiant spark swarm, starts its turn in the swarm's space, or hits the swarm with a melee attack while within 5 feet of it takes 2 (1d4) radiant damage and 2 (1d4) fire damage."
+    },
+    {
+      "name": "Illumination",
+      "desc": "The radiant spark swarm sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny elemental. The swarm can't regain hp or gain temporary hp."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 305,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_radiant-spark-swarm/"
+}

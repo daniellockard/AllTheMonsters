@@ -1,0 +1,86 @@
+{
+  "slug": "gibbering_mouther_bf",
+  "desc": "",
+  "name": "Gibbering Mouther",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 9,
+  "armor_desc": null,
+  "hit_points": 72,
+  "hit_dice": "",
+  "speed": {
+    "walk": 10,
+    "swim": 10
+  },
+  "strength": 14,
+  "dexterity": 8,
+  "constitution": 16,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": 2,
+  "dexterity_save": -1,
+  "constitution_save": 3,
+  "intelligence_save": -4,
+  "wisdom_save": 0,
+  "charisma_save": -2,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Aberrant Resilience",
+  "damage_immunities": "prone",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "-",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The gibbering mouther makes two Bite attacks. If both attacks hit one Medium or smaller creature, the target must succeed on a DC 13 STR save or be knocked prone."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one creature. _Hit:_ 11 (2d8+2) piercing damage."
+    },
+    {
+      "name": "Rend Mind",
+      "desc": "One creature the mouther can see within 30 feet of it must succeed on a DC 13 WIS save or take 18 (4d8) psychic damage and suffer a random, short-term dread effect for 1 minute"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Blinding Spittle",
+      "desc": "The mouther spits an otherworldly goo at up to two creatures it can see within 30 feet of it. Each target must succeed on a DC 13 DEX save or be blinded until the end of its next turn."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Aberrant Ground",
+      "desc": "The ground within 10 feet of the mouther is dough-like difficult terrain. A creature that starts its turn in the area must succeed on a DC 13 STR save or its speed is halved until the start of its next turn."
+    },
+    {
+      "name": "Aberrant Resilience",
+      "desc": "The mouther is resistant to the charmed, frightened, paralyzed, and stunned conditions, and it has advantage on saves against spells or effects that would alter its form."
+    },
+    {
+      "name": "Gibbering",
+      "desc": "The mouther babbles incoherently while it can see any creature and isn't incapacitated. A creature that starts its turn within 20 feet of the mouther and that can hear the gibbering must succeed on a DC 13 WIS save or it can't take reactions until the start of its next turn and must roll a d8 to determine what it does during its turn. On a 1 to 4, the creature does nothing. On a 5 or 6, the creature takes no action or bonus action and moves its full speed in a randomly determined direction. On a 7 or 8, the creature makes a melee attack against a randomly determined creature within its reach or does nothing if it can't make such an attack."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_gibbering-mouther/"
+}

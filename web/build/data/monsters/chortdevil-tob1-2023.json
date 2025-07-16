@@ -1,0 +1,97 @@
+{
+  "slug": "chortdevil-tob1-2023",
+  "desc": "False",
+  "name": "Chort Devil",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Lawful Evil",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 187,
+  "hit_dice": "15d8 + 120",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 24,
+  "dexterity": 20,
+  "constitution": 26,
+  "intelligence": 18,
+  "wisdom": 20,
+  "charisma": 20,
+  "strength_save": 11,
+  "dexterity_save": 9,
+  "constitution_save": 12,
+  "intelligence_save": 8,
+  "wisdom_save": null,
+  "charisma_save": 9,
+  "perception": 19,
+  "skills": {
+    "Athletics": 11,
+    "Deception": 9,
+    "Insight": 9,
+    "Perception": 9
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "cold, fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 19",
+  "languages": "Celestial, Common, Infernal, telepathy 120 ft.",
+  "challenge_rating": "12",
+  "cr": 12,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The chort devil makes one Claw attack and two Ranseur attacks, or it makes four Hurl Flame attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 12 (2d4 + 7) slashing damage plus 14 (4d6) fire damage, and the target must succeed on a DC 17 Constitution saving throw or have disadvantage on ability checks and saving throws that use Charisma for 1 hour or until cured by a lesser restoration spell or similar magic."
+    },
+    {
+      "name": "Ranseur",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 12 (1d10 + 7) piercing damage plus 14 (4d6) fire damage."
+    },
+    {
+      "name": "Hurl Flame",
+      "desc": "Ranged Spell Attack: +9 to hit, range 120 ft., one target. Hit: 19 (4d6 + 5) fire damage."
+    },
+    {
+      "name": "Teleport",
+      "desc": "The chort devil magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The chort devil casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 17):\nAt will: charm person, illusory script (as an action)\n3/day each: dispel magic, modify memory\n1/day: haste"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the chort devil's darkvision."
+    },
+    {
+      "name": "Hellish Weapons",
+      "desc": "The chort devil's weapon attacks are magical. When the devil hits with any weapon, the weapon deals an extra 4d6 fire damage (included in the attack)."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The chort devil has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 93,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_chort-devil/"
+}

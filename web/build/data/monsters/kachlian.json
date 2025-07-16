@@ -1,0 +1,76 @@
+{
+  "slug": "kachlian",
+  "desc": "This floating creature has numerous writhing tentacles protruding from a body that is hidden inside an enormous shell. The colors of its body shift slowly between grays, greens, and even deep purples._  \n**Otherborn.** Kachlians form in the space between spaces, birthed where madness prevails. They find their way to the darkened caverns beneath the ground through portals of chaos and darkness—breaches in the fabric of reality caused by concentrations of turmoil, despair, and insanity. They are no strangers to the plateaus of Leng, and its denizens give wandering kachlians a wide berth.  \n**Eater of Souls.** The kachlian consumes the souls of creatures, preferring intelligent and enlightened prey. When it consumes a creature, the creature’s soul is torn to pieces. The kachlian absorbs the parts it considers valuable into its own being and discards the rest. These partial souls often combine into a twisted amalgam of spirits called a Open Game License",
+  "name": "Kachlian",
+  "size": "Huge",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 157,
+  "hit_dice": "15d12+60",
+  "speed": {
+    "fly": 40,
+    "walk": 0,
+    "hover": true
+  },
+  "strength": 18,
+  "dexterity": 10,
+  "constitution": 19,
+  "intelligence": 16,
+  "wisdom": 15,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning",
+  "damage_immunities": "",
+  "condition_immunities": "stunned, paralyzed, prone",
+  "senses": "darkvision 120 ft., passive Perception 12",
+  "languages": "Deep Speech, Undercommon",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The kachlian makes three attacks with its tentacles."
+    },
+    {
+      "name": "Tentacle",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 17 (3d8 + 4) bludgeoning damage. If the target is a Large or smaller creature, it is grappled (escape DC 16). The kachlian has three tentacles, each of which can grapple only one target.",
+      "attack_bonus": 7,
+      "damage_dice": "3d8+4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Consume Soul",
+      "desc": "A creature slain by the kachlian can't be restored to life unless the kachlian is killed within 24 hours of slaying the creature. After 24 hours, the soul becomes part of the kachlian, and the creature can be restored only with a wish spell."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The kachlian is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The kachlian has the following wizard spells prepared:\nCantrips (at will): chill touch, minor illusion, ray of frost, shocking grasp\n1st level (4 slots): detect magic, hideous laughter, identify, magic missile\n2nd level (3 slots): blindness/deafness, darkness, see invisibility\n3rd level (3 slots): counterspell, slow\n4th level (1 slots): confusion"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 219,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_kachlian/"
+}

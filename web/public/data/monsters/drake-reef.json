@@ -1,0 +1,93 @@
+{
+  "slug": "drake-reef",
+  "desc": "",
+  "name": "Drake, Reef",
+  "size": "Huge",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 18,
+  "armor_desc": "natural",
+  "hit_points": 152,
+  "hit_dice": "16d12+48",
+  "speed": {
+    "walk": 30,
+    "burrow": 30,
+    "swim": 60
+  },
+  "strength": 25,
+  "dexterity": 14,
+  "constitution": 17,
+  "intelligence": 7,
+  "wisdom": 15,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": 5,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "thunder",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 10', darkvision 60', passive Perception 12",
+  "languages": "Draconic",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Bite attack and two Slam attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +11 to hit, 15 ft., one target, 26 (3d12+7) slashing damage."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +11 to hit, 5 ft., one target, 17 (3d6+7) bludgeoning damage."
+    },
+    {
+      "name": "Concussive Snap (Recharge 5-6)",
+      "desc": "Snaps its jaws emitting concussive force in a 90' cone. Each creature in that area: 35 (10d6) thunder is pushed up to 15 ft. away from the drake and stops holding its breath if it was doing so. (DC 15 Con half damage isn't pushed and doesn't lose its held breath). Constructs and objects and structures have disadvantage on the save."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Reef Stealth",
+      "desc": "If it is within 10 ft. of a coral reef it can take the Hide action."
+    },
+    {
+      "name": "Siege Follow-Through",
+      "desc": "If it destroys an object or structure it can make a bite attack vs. a creature it can see within 5 ft. of that object or structure."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Siege Monster",
+      "desc": "Double damage to objects/structures."
+    },
+    {
+      "name": "Tunneler",
+      "desc": "Can burrow through coral and solid rock at half its burrow speed and leaves a 10 ft. diameter tunnel in its wake."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 154,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_drake-reef/"
+}

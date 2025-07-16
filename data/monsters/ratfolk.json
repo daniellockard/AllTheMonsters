@@ -1,0 +1,79 @@
+{
+  "slug": "ratfolk",
+  "desc": "_Ratfolk are the size of halflings, though smaller in girth and quicker in their movements. At a glance they might even be mistaken for halflings if not for their twitching snouts, bony feet, and long, pink tails._  \nThe ratfolk are canny survivors, rogues and tricksters all. Their strong family ties make it easy for them to found or join criminal societies--though others serve as expert scouts and saboteurs, able to infiltrate army camps, city sewers, and even castle dungeons with equal ease. Ratfolk leaders are often spellcasters and rogues.  \n**Adaptable.** Ratfolk swim well and can survive on little. Some groups are endemic to tropical and subtropical islands. Others inhabit forests, sewers, labyrinths, and ancient, ruined cities.  \n**Fast Fighters.** Ratfolk prefer light weapons and armor, fighting with speed and using numbers to bring a foe down. They have been known to ally themselves with goblins, darakhul, and kobolds on occasion, but more often prefer to serve a “Rat King” who may or may not be a rat of any kind. Such rat rulers might include a wererat, a rat king, an ogre, a minor demon or intelligent undead.",
+  "name": "Ratfolk",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "ratfolk",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "armor_desc": "studded leather armor",
+  "hit_points": 7,
+  "hit_dice": "2d6",
+  "speed": {
+    "walk": 25,
+    "swim": 10
+  },
+  "strength": 7,
+  "dexterity": 15,
+  "constitution": 11,
+  "intelligence": 14,
+  "wisdom": 10,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "Common",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Dagger",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4"
+    },
+    {
+      "name": "Light crossbow",
+      "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d8"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Nimbleness",
+      "desc": "The ratfolk can move through the space of any creature size Medium or larger."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The ratfolk has advantage on its attack roll against a creature if at least one of the ratfolk's allies is within 5 feet of the creature and the ally is capable of attacking."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 320,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_ratfolk/"
+}

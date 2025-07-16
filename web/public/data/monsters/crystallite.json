@@ -1,0 +1,83 @@
+{
+  "slug": "crystallite",
+  "desc": "",
+  "name": "Crystallite",
+  "size": "Large",
+  "type": "Giant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Neutral",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 90,
+  "hit_dice": "12d10+24",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 8,
+  "constitution": 14,
+  "intelligence": 17,
+  "wisdom": 11,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, fire",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60', tremorsense 60', passive Perception 12",
+  "languages": "Giant",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Crystal Limb attacks. It can replace one attack with use of Biomineralize."
+    },
+    {
+      "name": "Crystal Limb",
+      "desc": "Melee Weapon Attack: +6 to hit, 10 ft., one target, 13 (2d8+4) piercing damage and it impales target on its limb grappling target (escape DC 14) if it is a Med or smaller creature. When this grapple ends target takes 9 (2d8) slashing damage. Crystallite has two Crystal Limbs each of which can grapple one target."
+    },
+    {
+      "name": "Biomineralize",
+      "desc": "Absorbs lifeforce from one creature grappled by it. Target 14 (4d6) necrotic (DC 14 Con half). Target's hp max is reduced by amount equal to necrotic taken and crystallite regains hp equal to that amount. Reduction lasts until target finishes a long rest. Target dies if this reduces its hp max to 0."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Calcify",
+      "desc": "When it takes 5+ damage on a single turn it can reduce its hp max by an amount equal to damage taken and gains a +1 bonus to AC. Reduction and bonus last until it finishes a long rest. Can't increase its AC above 20 using this."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from large geode."
+    },
+    {
+      "name": "Final Form",
+      "desc": "When it dies its corpse transforms into crystal and becomes a Large object that can be attacked and destroyed (AC 17; hp 45; immunity to poison and psychic). It can no longer be affected by spells and effects that target creatures."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 100,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_crystallite/"
+}

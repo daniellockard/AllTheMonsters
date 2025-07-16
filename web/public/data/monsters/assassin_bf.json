@@ -1,0 +1,81 @@
+{
+  "slug": "assassin_bf",
+  "desc": "",
+  "name": "Assassin",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Any Lineage",
+  "group": "NPCs",
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": "studded leather",
+  "hit_points": 157,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 22,
+  "constitution": 14,
+  "intelligence": 18,
+  "wisdom": 10,
+  "charisma": 10,
+  "strength_save": 0,
+  "dexterity_save": 6,
+  "constitution_save": 2,
+  "intelligence_save": 4,
+  "wisdom_save": 0,
+  "charisma_save": 0,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "poison,poisoned",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "Thieves' Cant plus any two languages",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The assassin makes three Shortsword or Hand Crossbow attacks."
+    },
+    {
+      "name": "Shortsword",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 6 (1d6+3) piercing damage plus 13 (3d8) poison damage, and the target must succeed on a DC 14 CON save or be poisoned for 1 minute. A poisoned creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Hand Crossbow",
+      "desc": "_Ranged Weapon Attack:_ +6 to hit, range 30/120 ft., one target. _Hit:_ 6 (1d6+3) piercing damage plus 13 (3d8) poison damage, and the target must succeed on a DC 14 CON save or be poisoned for 1 minute. A poisoned creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Hidden Step",
+      "desc": "The assassin magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see and takes the Hide action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Evasion",
+      "desc": "If the assassin is subjected to an effect that allows it to make a DEX save to take only half damage, the assassin instead takes no damage if it succeeds on the save, and only half damage if it fails."
+    },
+    {
+      "name": "Poisoned Weapons",
+      "desc": "The assassin's weapons are coated in poison. When it hits with any weapon, the weapon deals an extra 3d8 poison damage (included in the attack). In addition, at the start of each of its turns, the assassin can choose which of the following poisons is active on its weapons. The poison remains on the weapons until the start of the assassin's next turn.\n- **Assassin's Friend.** A creature poisoned by a weapon coated with this poison takes an extra 4 (1d8) poison damage each time it takes damage while poisoned.\n- **Buyer's Mercy.** A creature poisoned by a weapon coated with this poison falls unconscious while poisoned or until it takes damage or another creature uses an action to wake it.\n- **Meddler's Fate.** A creature poisoned by a weapon coated with this poison has its speed halved while poisoned."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_assassin/"
+}

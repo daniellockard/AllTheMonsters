@@ -1,0 +1,73 @@
+{
+  "slug": "snake_swarm_of_poisonous_snakes_bf",
+  "desc": "",
+  "name": "Snake, Swarm of Poisonous Snakes",
+  "size": "Medium",
+  "type": "Swarm",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 14,
+  "armor_desc": null,
+  "hit_points": 48,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 8,
+  "dexterity": 18,
+  "constitution": 10,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 2,
+  "strength_save": -1,
+  "dexterity_save": 4,
+  "constitution_save": 0,
+  "intelligence_save": -5,
+  "wisdom_save": 0,
+  "charisma_save": -4,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "poison,poisoned,Swarm Resilience",
+  "damage_immunities": "Swarm Resilience",
+  "condition_immunities": "",
+  "senses": "keensense 10 ft.",
+  "languages": "-",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Bites",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 0 ft., one creature in the swarm's space. _Hit:_ 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its HP or fewer. The target must make a DC 14 CON save, taking 18 (4d8) poison damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Poisonous Swarm",
+      "desc": "The hissing, spitting, and constant nipping of snakes in the swarm leaves the swarm's space dripping with poison. A creature that starts its turn in the swarm's space must succeed on a DC 14 CON save or be poisoned until the start of its next turn."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny snake. The swarm can't regain HP or gain temporary HP."
+    },
+    {
+      "name": "Swarm Resilience",
+      "desc": "The swarm is resistant to bludgeoning, piercing, and slashing damage, and it is immune to the charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned conditions."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_snake-swarm-of-poisonous-snakes/"
+}

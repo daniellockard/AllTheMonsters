@@ -1,0 +1,70 @@
+{
+  "slug": "cikavak",
+  "desc": "_The cikavak is a remarkably ugly magical bird—a supernatural creature conjured through a lengthy ritual. A dark gray comb flops atop their heads and shapeless wattles dangle from their throats. They seem unimposing._  \n**Dagger Beaks.** Cikavaks use their elongated, dull-gray beaks to draw up nectar and other fluids—or to stab with the force of a dagger. Although it requires great effort to call up these homely birds, the magic is surprisingly common, known among peasants and townsfolk as well as mages. Once summoned, they remain faithful to their masters until death. While cikavaks don’t speak, they comprehend the Common tongue and can speak with animals to help their master. They often magically silence the cries of more melodious birds.  \n**Potion Pouches.** Cikavaks possess another odd ability: when fully distended, their ventral pouches hold up to half a gallon of almost any liquid. These resilient pouches take little or no damage from their contents, holding potions without ingesting them or even carrying acid without injury.  \nThieves make use of this ability, directing the birds to siphon up liquids and thus steal honey from neighbors’ beehives, as well as milk, beer, and wine. The most audacious thieves send their birds into magicians’ towers, alchemists’ shops, or the local apothecary to seize mercury, phlogiston, and more exotic substances. They carry these stolen fluids back to their owner in their pouches. While normally strong flyers, when laden with liquids, their flight is clumsy at best.  \n**Folk Conjuration.** To call a cikavak with folk magic rituals, a character must gather an egg from a black hen as well as 30 gp worth of herbs and colored chalks. Cast at sunset, the folk ritual requires half an hour and requires a successful DC 15 Intelligence (Arcana) check to succeed. (The material components can be used multiple times, until the ritual succeeds). The hen’s egg must then be carried and kept warm for 40 days. During this time, the ritual caster must not bathe or be subject to any spell effects. Usable only by non-casters, the ritual’s feeble magic is immediately dispelled if the cikavak’s master uses any other sort of spell or spell-like ability.",
+  "name": "Cikavak",
+  "size": "Tiny",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 17,
+  "hit_dice": "7d4",
+  "speed": {
+    "walk": 10,
+    "fly": 40
+  },
+  "strength": 4,
+  "dexterity": 15,
+  "constitution": 10,
+  "intelligence": 12,
+  "wisdom": 12,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 5,
+  "skills": {
+    "perception": 5,
+    "stealth": 9
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, fire, poison",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 15",
+  "languages": "understands Common; telepathy (touch)",
+  "challenge_rating": "1/8",
+  "cr": 0.125,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, range 5 ft., one target. Hit: 7 (1d4 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Innate Spellcasting",
+      "desc": "the cikavak's innate spellcasting ability is Wisdom (spell save DC 11). It can innately cast the following spells, requiring no material components:\n\nat will: speak with animals\n\n1/day: silence"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 58,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_cikavak/"
+}

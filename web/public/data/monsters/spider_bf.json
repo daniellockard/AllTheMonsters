@@ -1,0 +1,78 @@
+{
+  "slug": "spider_bf",
+  "desc": "",
+  "name": "Spider",
+  "size": "Tiny",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "natural armor",
+  "hit_points": 8,
+  "hit_dice": "",
+  "speed": {
+    "walk": 20,
+    "climb": 20
+  },
+  "strength": 2,
+  "dexterity": 10,
+  "constitution": 8,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 2,
+  "strength_save": -4,
+  "dexterity_save": 0,
+  "constitution_save": -1,
+  "intelligence_save": -5,
+  "wisdom_save": 0,
+  "charisma_save": -4,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 30 ft.",
+  "languages": "-",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +2 to hit, reach 5 ft., one creature. _Hit:_ 2 (1d4) piercing damage, and the target must succeed on a DC 9 CON save or take 2 (1d4) poison damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Web Shot (Recharge 4-6)",
+      "desc": "The spider launches a gob of webbing at one creature it can see within 15 feet of it. The target must succeed on a DC 9 DEX save or have its speed reduced by 10 feet. A creature can take an action to remove the webbing, ending the effect."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Spider Climb",
+      "desc": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Web Sense",
+      "desc": "While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+    },
+    {
+      "name": "Web Walker",
+      "desc": "The spider ignores movement restrictions caused by webbing."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_spider/"
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "giant-constrictor-snake",
+  "desc": "",
+  "name": "Giant Constrictor Snake",
+  "size": "Huge",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Miscellaneous Creatures",
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 60,
+  "hit_dice": "8d12+8",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 19,
+  "dexterity": 14,
+  "constitution": 12,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 10 ft., passive Perception 12",
+  "languages": "",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one creature. Hit: 11 (2d6 + 4) piercing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d6",
+      "damage_bonus": 4
+    },
+    {
+      "name": "Constrict",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the snake can't constrict another target.",
+      "attack_bonus": 6,
+      "damage_dice": "2d8",
+      "damage_bonus": 4
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 374,
+  "environments": [
+    "Underdark",
+    "Underwater",
+    "Swamp",
+    "Jungle",
+    "Forest"
+  ],
+  "img_main": null,
+  "document__slug": "wotc-srd",
+  "document__title": "5e Core Rules",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "v2_converted_path": "/v2/creatures/srd_giant-constrictor-snake/"
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "childofthebriar-tob1-2023",
+  "desc": "False",
+  "name": "Child of the Briar",
+  "size": "Tiny",
+  "type": "Plant",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 50,
+  "hit_dice": "20d4",
+  "speed": {
+    "walk": 10
+  },
+  "strength": 6,
+  "dexterity": 17,
+  "constitution": 11,
+  "intelligence": 13,
+  "wisdom": 10,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 14,
+  "skills": {
+    "Perception": 4,
+    "Stealth": 7
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "Briarclick, Common, Sylvan",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The child of the briar makes two Claw attacks. If both attacks hit a Medium or smaller creature, the target is grappled (escape DC 13). At the start of each of the grappled creature's turns, it takes 2 (1d4) piercing damage. The child of the briar can have only one target grappled at a time."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    {
+      "name": "Spitdart Tongue (Recharge 4-6)",
+      "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    {
+      "name": "Entangle",
+      "desc": "While within 10 feet of at least one other child of the briar, this child can cast the entangle spell (spell save DC 13). Each friendly child of the briar within 30 feet of this child can use its reaction to join the casting. For each child beyond the first participating in the casting, the save DC increases by 1, to a maximum of DC 17, and the size increases by 5 feet, to a maximum of a 40-foot square. The entangled area must include at least one of the children involved in the casting. All participating children of the briar are immune to the spell's effects."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
+  "spell_list": [],
+  "page_no": 55,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_child-of-the-briar/"
+}

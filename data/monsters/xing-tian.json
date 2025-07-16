@@ -1,0 +1,87 @@
+{
+  "slug": "xing-tian",
+  "desc": "This headless brute has two eyes in its chest and a mouth in its belly._  \n**Descendants of a Fallen God.** All xing tian descend from a god of the same name who challenged the eldest deities and lost. As punishment, his head was removed, but he simply grew eyes and a mouth on his chest and continued to fight.  \n**Fearless Warriors.** The xing tian, known by locals as “headless giants,” live on the fringes of civilization, occasionally raiding settlements for plunder and loot. They dwell in small, isolated villages where leadership roles go to the individuals who can withstand the most pain. The most powerful xing tian wear their hideous scars with pride.  \n**Symbol of Perseverance.** The xing tian’s fortitude and regenerative properties lead many to consider them a symbol of an indomitable will and the drive to continue no matter the hardships.",
+  "name": "Xing Tian",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor, shield",
+  "hit_points": 168,
+  "hit_dice": "16d12+64",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 23,
+  "dexterity": 12,
+  "constitution": 18,
+  "intelligence": 10,
+  "wisdom": 15,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 8,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "intimidation": 6,
+    "perception": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "frightened",
+  "senses": "darkvision 60 ft., passive Perception 16",
+  "languages": "Common, Giant",
+  "challenge_rating": "11",
+  "cr": 11,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The xing tian makes three attacks: one with its shield slam and two with its battleaxe. If both battleaxe attacks hit the same target, the target must succeed on a DC 16 Dexterity saving throw or take an extra 11 (2d10) piercing damage as the xing tian bites the target."
+    },
+    {
+      "name": "Battleaxe",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) slashing damage, or 22 (3d10 + 6) slashing damage if used with two hands.",
+      "attack_bonus": 10,
+      "damage_dice": "3d8+6"
+    },
+    {
+      "name": "Shield Slam",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) bludgeoning damage, and the target must succeed on a DC 16 Strength saving throw or be knocked prone.",
+      "attack_bonus": 10,
+      "damage_dice": "3d6+6"
+    },
+    {
+      "name": "Dance of the Unyielding",
+      "desc": "The xing tian stomps and waves its arms in a martial dance, and it regains 10 hp. Until the dance ends, the xing tian regains 10 hp at the start of each of its turns and melee attack rolls against the xing tian have disadvantage. It must take a bonus action on its subsequent turns to continue dancing. It can stop dancing at any time. The dance ends if the xing tian is incapacitated."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Indomitable",
+      "desc": "Any spell or effect that would make the xing tian paralyzed, restrained, or stunned ends at the end of the xing tian's next turn, regardless of the spell or effect's normal duration."
+    },
+    {
+      "name": "Sure-Footed",
+      "desc": "The xing tian has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 376,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_xing-tian/"
+}

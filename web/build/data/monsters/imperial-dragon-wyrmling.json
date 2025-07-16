@@ -1,0 +1,80 @@
+{
+  "slug": "imperial-dragon-wyrmling",
+  "desc": "The long, serpentine dragon is wingless and possesses shimmering, opalescent scales. Its appearance is at once both serene and majestic._  \n**Dragons of the Spirit World.** Imperial dragons are tied to the world of celestials, fiends, and spirits. They freely parley with such creatures for knowledge about the outer planes or the fundamental mysteries of the universe. Some of the most powerful imperial dragons even become the servants of the gods in exchange for wisdom, acting as intermediaries between the divine and mortal realms.  \n**Colorful and Magical.** Imperial dragons are capable of changing their colors and forms. They are typically a rich, golden-yellow, but azure-, jade-, and vermillion-colored dragons are not unheard of, and even white and black imperial dragons have been reported. A magical organ in their skulls gives them the ability to fly without the aid of wings, and they are often hunted for this organ, which is rumored to grant eternal life if consumed.  \n**Masters of Wind and Rain.** Imperial dragons are creatures of wind and water, and the eldest of their kind exhibit mastery of these elements. They love the seas where they make their homes and sometimes act as guardians for sacred sites or temples near or beneath the waves. This often puts them in conflict with militant aquatic races like the Open Game License",
+  "name": "Imperial Dragon Wyrmling",
+  "size": "Medium",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 60,
+  "hit_dice": "8d8+24",
+  "speed": {
+    "walk": 30,
+    "fly": 60,
+    "swim": 30
+  },
+  "strength": 19,
+  "dexterity": 12,
+  "constitution": 17,
+  "intelligence": 14,
+  "wisdom": 12,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": 3,
+  "constitution_save": 5,
+  "intelligence_save": null,
+  "wisdom_save": 3,
+  "charisma_save": 4,
+  "perception": 5,
+  "skills": {
+    "insight": 3,
+    "perception": 5,
+    "stealth": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "lightning, thunder",
+  "condition_immunities": "",
+  "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 15",
+  "languages": "Draconic",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d10+4"
+    },
+    {
+      "name": "Lightning Breath (Recharge 5-6)",
+      "desc": "The dragon exhales lightning in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 13 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The dragon can breathe air and water."
+    },
+    {
+      "name": "Innate Spellcasting (1/Day)",
+      "desc": "The dragon can innately cast fog cloud, requiring no material components. Its innate spellcasting ability is Charisma."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 117,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_imperial-dragon-wyrmling/"
+}

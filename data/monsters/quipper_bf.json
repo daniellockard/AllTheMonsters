@@ -1,0 +1,73 @@
+{
+  "slug": "quipper_bf",
+  "desc": "",
+  "name": "Quipper",
+  "size": "Tiny",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 10,
+  "armor_desc": null,
+  "hit_points": 8,
+  "hit_dice": "",
+  "speed": {
+    "walk": 0,
+    "swim": 40
+  },
+  "strength": 2,
+  "dexterity": 10,
+  "constitution": 10,
+  "intelligence": 1,
+  "wisdom": 6,
+  "charisma": 2,
+  "strength_save": -4,
+  "dexterity_save": 0,
+  "constitution_save": 0,
+  "intelligence_save": -5,
+  "wisdom_save": -2,
+  "charisma_save": -4,
+  "perception": 8,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "-",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +2 to hit, reach 5 ft., one creature. _Hit:_ 2 (1d4) piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Blood Frenzy",
+      "desc": "The quipper has advantage on melee attack rolls against any creature that doesn't have all its HP."
+    },
+    {
+      "name": "Heightened Smell",
+      "desc": "The quipper's Perception is 13 when perceiving by smell."
+    },
+    {
+      "name": "Water Breathing",
+      "desc": "The quipper can breathe only underwater."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_quipper/"
+}

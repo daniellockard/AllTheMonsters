@@ -1,0 +1,77 @@
+{
+  "slug": "giant-shire",
+  "desc": "",
+  "name": "Giant, Shire",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 138,
+  "hit_dice": "12d12+60",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 19,
+  "dexterity": 8,
+  "constitution": 20,
+  "intelligence": 9,
+  "wisdom": 10,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 10",
+  "languages": "Common, Giant",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Pitchfork attacks or it makes one Pitchfork attack then uses Grab and Throw. Alternatively it can make one pitchfork attack then use Grab and Throw."
+    },
+    {
+      "name": "Pitchfork",
+      "desc": "Melee Weapon Attack: +7 to hit, 10 ft., one target, 20 (3d10+4) piercing damage."
+    },
+    {
+      "name": "Rock",
+      "desc": "Ranged Weapon Attack: +7 to hit 60/240' 20 (3d10+4) bludgeoning damage."
+    },
+    {
+      "name": "Grab",
+      "desc": "Reaches out and grabs a Med or smaller creature it can see within 10 ft. of it. The target must make DC 15 Dex save or be grappled (escape DC 15) by the giant. Until this grapple ends the target is restrained."
+    },
+    {
+      "name": "Throw",
+      "desc": "Throws a creature it is grappling at a space it can see within 30' of it. The thrown creature takes 14 (4d6) bludgeoning damage and must make DC 15 Dex save or land prone. If the target space is occupied by another creature that creature must make DC 15 Dex save or take 14 (4d6) bludgeoning damage and be knocked prone."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 205,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_giant-shire/"
+}

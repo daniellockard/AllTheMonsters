@@ -1,0 +1,105 @@
+{
+  "slug": "rum-lord",
+  "desc": "A large gremlin rises from a hollowed-out barrel throne and belches loudly, wielding a wood spigot tap as a scepter in one hand and a broken bottle in the other._  \n**Drunken Kings.** Rum lords attract other Open Game License",
+  "name": "Rum Lord",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": null,
+  "hit_points": 78,
+  "hit_dice": "12d6+36",
+  "speed": {
+    "climb": 10,
+    "walk": 20,
+    "swim": 10
+  },
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 17,
+  "intelligence": 12,
+  "wisdom": 9,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "athletics": 6,
+    "intimidation": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 9",
+  "languages": "Common",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The rum lord makes two attacks: one with its ale tap scepter and one with its broken bottle shiv."
+    },
+    {
+      "name": "Ale Tap Scepter",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d8+4"
+    },
+    {
+      "name": "Broken Bottle Shiv",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) piercing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d4+4"
+    },
+    {
+      "name": "Rotgut Belch (Recharge 6)",
+      "desc": "The rum lord vomits green bile in a 15-foot cone. Each creature in that area must make a DC 14 Dexterity saving throw. On a failure, a target takes 18 (4d8) poison damage and is covered in green bile for 1 minute. On a success, a target takes half the damage and isn't covered in bile. A creature, including the target, can take an action to wipe off the bile. Rum gremlins have advantage on attack rolls against creatures covered in a rum lord's green bile."
+    },
+    {
+      "name": "Bring Me Another Round! (1/Day)",
+      "desc": "The rum lord lets out a thunderous belch, calling 1d4 rum gremlins. The called rum gremlins arrive in 1d4 rounds, acting as allies of the lord and obeying its spoken commands. The rum gremlins remain for 1 hour, until the lord dies, or until the lord dismisses them as a bonus action."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Aura of Drunkenness",
+      "desc": "The rum lord radiates an aura of drunkenness to a radius of 20 feet. Each creature that starts its turn in the aura must succeed on a DC 12 Constitution saving throw or be poisoned for 1 hour. A creature that has consumed alcohol within the past hour has disadvantage on the saving throw. While poisoned, a creature falls prone if it tries to move more than half its speed during a turn. A creature that succeeds on the saving throw is immune to the rum gremlin lord's Aura of Drunkenness for 24 hours."
+    },
+    {
+      "name": "Hearty",
+      "desc": "The rum lord adds its Constitution modifier to its AC (included in the Armor Class)."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The rum lord has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "One for the Road",
+      "desc": "When the rum lord hits a poisoned enemy with any weapon, the target takes an extra 1d6 poison damage."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The rum lord's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:\nAt will: prestidigitation\n3/day: command"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 185,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_rum-lord/"
+}

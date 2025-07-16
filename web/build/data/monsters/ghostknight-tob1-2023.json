@@ -1,0 +1,97 @@
+{
+  "slug": "ghostknight-tob1-2023",
+  "desc": "False",
+  "name": "Ghost Knight",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Lawful Evil",
+  "armor_class": 17,
+  "armor_desc": "half plate",
+  "hit_points": 130,
+  "hit_dice": "20d8 + 40",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 17,
+  "dexterity": 15,
+  "constitution": 14,
+  "intelligence": 8,
+  "wisdom": 10,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 13,
+  "skills": {
+    "Athletics": 6,
+    "Animal Handling": 3,
+    "Perception": 3,
+    "Stealth": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "necrotic",
+  "damage_immunities": "poison",
+  "condition_immunities": "charmed, exhaustion, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "Common",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The ghost knight makes three Battleaxe or Lance attacks. If the ghost knight is mounted, it can make two Battleaxe or Lance attacks, and its mount can make one melee weapon attack."
+    },
+    {
+      "name": "Battleaxe",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands, plus 7 (2d6) necrotic damage."
+    },
+    {
+      "name": "Lance",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 9 (1d12 + 3) piercing damage plus 7 (2d6) necrotic damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Locked Saddle",
+      "desc": "The ghost knight can't be knocked prone, dismounted, or moved against its will while mounted."
+    },
+    {
+      "name": "Mounted Warrior",
+      "desc": "The ghost knight is rarely seen without its warhorse skeleton mount. The warhorse skeleton wears custom barding that raises its Armor Class to 15, and it has immunity to necrotic damage. While the ghost knight is mounted, its mount can't be charmed or frightened."
+    },
+    {
+      "name": "Necrotic Weapons",
+      "desc": "The ghost knight's weapon attacks are magical. When the knight hits with any weapon, the weapon deals an extra 2d6 necrotic damage (included in the attack)."
+    },
+    {
+      "name": "Spirited Charge",
+      "desc": "If the ghost knight moves at least 20 feet straight toward a creature while mounted and then hits with a Lance attack on the same turn, the ghost knight can use a bonus action to command its mount to make one melee weapon attack against that creature as a reaction."
+    },
+    {
+      "name": "Turning Defiance",
+      "desc": "The ghost knight and any undead within 30 feet of it have advantage on saving throws against effects that turn undead."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The ghost knight doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 199,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_ghost-knight/"
+}

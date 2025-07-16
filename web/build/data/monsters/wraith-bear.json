@@ -1,0 +1,83 @@
+{
+  "slug": "wraith-bear",
+  "desc": "The black, spectral form of an enormous bear with burning red eyes lets loose a bone-chilling roar._  \n**Corrupted Spirits.** Bear spirits are believed to be the spirits of ancestral warriors and guardians that take on the form of a bear to aid their descendants. Necromancers and dark shamans know magic that twists the mind of these spirits, causing them to feel anger and malice toward the family they once protected. These wraith bears hunt and murder their descendants, listening to no other commands until they have murdered what remains of their family. When this mission is complete, the wraith bear returns to its corruptor, following orders loyally.  \n**Forest Haunters.** If a wraith bear’s corruptor dies and the creature has no family left to hunt, it retreats to the forest. There the bear wanders, its hatred for all life a festering madness that drives it to violence. The wraith bear’s mere presence begins to kill nearby plant life, and it attacks any living creature it finds.  \n**Restored by Archfey.** A wraith bear can be reinstated as a bear spirit by the touch of a fey lord or lady. Finding a fey lord or lady is difficult enough, but convincing it to take on such a task usually involves paying a heavy price.  \n**Undead Nature.** A wraith bear doesn’t require air, food, drink, or sleep.",
+  "name": "Wraith Bear",
+  "size": "Large",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 133,
+  "hit_dice": "14d10+56",
+  "speed": {
+    "walk": 0,
+    "hover": true,
+    "fly": 60
+  },
+  "strength": 18,
+  "dexterity": 16,
+  "constitution": 18,
+  "intelligence": 10,
+  "wisdom": 16,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 7,
+  "skills": {
+    "perception": 7,
+    "survival": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft., passive Perception 17",
+  "languages": "the languages it knew in life",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Life Drain",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 31 (6d8 + 4) necrotic damage. The target must succeed on a DC 16 Constitution saving throw or its hp maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hp maximum to 0.",
+      "attack_bonus": 8,
+      "damage_dice": "6d8+4"
+    },
+    {
+      "name": "Baleful Roar (Recharge 6)",
+      "desc": "The bear lets out a supernatural roar in a 30-foot cone. Each creature in that area that can hear the bear must make a DC 15 Wisdom saving throw. On a failure, a creature is incapacitated for 1 minute. On a success, a creature is frightened until the end of its next turn. An incapacitated creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Detect Relatives",
+      "desc": "The wraith bear knows the direction to its nearest living relative on the same plane, but not the relative's exact location."
+    },
+    {
+      "name": "Draining Regeneration",
+      "desc": "The wraith bear regains 10 hp at the start of its turn if it has at least 1 hp and there are living plants within 5 feet of it. When the wraith bear regains hp, all plant life within 5 feet of it dies, and it can't regain hp from those same plants again."
+    },
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The wraith bear can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 375,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_wraith-bear/"
+}

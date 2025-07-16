@@ -1,0 +1,110 @@
+{
+  "slug": "herald-of-the-void",
+  "desc": "The herald of the void portends the world’s ruination by means of cold, fire, plague, war, or a magical apocalypse of another kind. It speaks only in the voice of disasters, and it empowers, goads, and encourages the followers of every unspeakable god and the leaders of every profane death cult._  \n**Empty Whispers.** In the days before a herald of the Void visits a territory, ghostly occurrences become more common, especially at night. Strange, luminous forms are seen under rafts, among the trees, and in any dark and empty place.  \n**Creature of Motion.** The herald of the Void always seems stirred by a breeze, even in an airless space. Nothing short of stopping time itself can change this.  \n**Folding Infinite Space.** While the herald of the Void seems corporeal, its body displays a strange ability to fold itself in impossible ways, and sometimes it seems to teleport great distances or to summon objects from afar without effort.",
+  "name": "Herald of the Void",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 123,
+  "hit_dice": "13d8+65",
+  "speed": {
+    "hover": true,
+    "walk": 30,
+    "fly": 50
+  },
+  "strength": 12,
+  "dexterity": 20,
+  "constitution": 20,
+  "intelligence": 19,
+  "wisdom": 15,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": 9,
+  "constitution_save": 9,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 10,
+  "skills": {
+    "perception": 10,
+    "stealth": 9
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "fire, lightning, poison",
+  "damage_immunities": "cold, necrotic, radiant",
+  "condition_immunities": "blinded, charmed, deafened, frightened, prone, stunned, unconscious",
+  "senses": "truesight 60 ft., passive Perception 20",
+  "languages": "Abyssal, Common, Void Speech",
+  "challenge_rating": "11",
+  "cr": 11,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The herald makes two void claw attacks. Alternatively, it can use its Void Ray twice."
+    },
+    {
+      "name": "Void Claw",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) cold damage plus 4 (1d8) force damage.",
+      "attack_bonus": 9,
+      "damage_dice": "3d8+5"
+    },
+    {
+      "name": "Void Ray",
+      "desc": "Ranged Spell Attack: +8 to hit, range 120 ft., one target. Hit: 9 (2d8) cold damage and 9 (2d8) force damage.",
+      "attack_bonus": 8,
+      "damage_dice": "2d8"
+    },
+    {
+      "name": "The Final Song (Recharge 5-6)",
+      "desc": "The herald utters a melody of cosmic doom in a 30-foot cone. Each creature in that area must make a DC 17 Wisdom saving throw, taking 27 (6d8) psychic damage on a failed save, or half as much damage on a successful one. This melody doesn't affect creatures that understand Void Speech."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "The herald of the void can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The herald regains spent legendary actions at the start of its turn.",
+  "legendary_actions": [
+    {
+      "name": "Move",
+      "desc": "The herald flies up to half its flying speed without provoking opportunity attacks."
+    },
+    {
+      "name": "Void Claw (Costs 2 Actions)",
+      "desc": "The herald makes one void claw attack."
+    },
+    {
+      "name": "Discorporate (Costs 2 Actions)",
+      "desc": "The herald chooses up to two creatures it can see within 30 feet of it. Each target must succeed on a DC 17 Constitution saving throw or become intangible until the end of its next turn. While intangible, the creature is incapacitated, drops whatever it's holding, and is unable to interact with physical objects. The creature is still visible and able to speak."
+    },
+    {
+      "name": "Song of Mighty Doom (Costs 3 Actions)",
+      "desc": "The herald emits a cacophonous dirge praising the Void. Each creature other than the herald within 30 feet of the herald and that understands Void Speech gains 10 temporary hp."
+    }
+  ],
+  "special_abilities": [
+    {
+      "name": "Annihilating Form",
+      "desc": "Any object that touches or hits the herald of the Void vaporizes. If the object is being worn or carried by a creature, the creature can make a DC 15 Dexterity saving throw to prevent the object from being vaporized. If the object is magical, the creature has advantage on the saving throw. The herald can choose to not vaporize an object."
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "desc": "If the herald fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Zero-Dimensional",
+      "desc": "The herald can move through any space without squeezing."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 199,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_herald-of-the-void/"
+}

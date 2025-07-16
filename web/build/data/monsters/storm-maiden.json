@@ -1,0 +1,78 @@
+{
+  "slug": "storm-maiden",
+  "desc": "At the heart of a violent storm, a young woman lies huddled in despair. Her skin is translucent as if made of water, and her tears float up from her face to join the storm above her._  \nA storm maiden is a spiteful elemental that pulls powerful storms into the world through a portal connected to her shrine. Blinded by anguish, she seeks to erase any trace of those who betrayed her.  \n**Primordial Sacrifice.** Long ago, this woman was offered up to powerful spirits to ward off drought and famine. She served her role faithfully. Her shrine was maintained by a ritual of devotion performed by the descendants of those she loved, but it was eventually abandoned. Now, some transgression against her abandoned shrine has drawn the maiden back to the world.  \n**Abating the Storm.** A region plagued by a storm maiden experiences regular flooding and random tornadoes and lightning strikes. A community may yet atone for their ancestral betrayal by performing a long-forgotten ritual at the maiden’s shrine. If appeased, the storms end, and the maiden’s alignment changes from evil to good. An appeased maiden may go on to protect the region for generations, as long as her shrine is maintained, or she might wander to other regions, seeking communities in need who understand the importance of maintaining her shrine.  \n**Elemental Nature.** A storm maiden doesn’t require air, food, drink, or sleep.",
+  "name": "Storm Maiden",
+  "size": "Medium",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 78,
+  "hit_dice": "12d8+24",
+  "speed": {
+    "swim": 30,
+    "fly": 30,
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 16,
+  "constitution": 15,
+  "intelligence": 10,
+  "wisdom": 11,
+  "charisma": 17,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Common, Primordial",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The storm maiden makes two thunderous slam attacks."
+    },
+    {
+      "name": "Thunderous Slam",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage plus 7 (2d6) thunder damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d6+3"
+    },
+    {
+      "name": "Throw Lightning",
+      "desc": "Ranged Spell Attack: +5 to hit, range 120 ft., one target. Hit: 14 (4d6) lightning damage, and the target must succeed on a DC 13 Constitution saving throw or be incapacitated until the end of its next turn.",
+      "attack_bonus": 5,
+      "damage_dice": "4d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The storm maiden's innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). She can innately cast the following spells, requiring no material components:\nAt will: create or destroy water, ray of frost, misty step, thunderwave\n1/day each: sleet storm, wind wall"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 340,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_storm-maiden/"
+}

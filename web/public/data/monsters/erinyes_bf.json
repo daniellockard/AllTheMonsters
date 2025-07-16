@@ -1,0 +1,90 @@
+{
+  "slug": "erinyes_bf",
+  "desc": "",
+  "name": "Erinyes",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "group": "Devils",
+  "alignment": "",
+  "armor_class": 18,
+  "armor_desc": "plate",
+  "hit_points": 147,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "fly": 60
+  },
+  "strength": 18,
+  "dexterity": 24,
+  "constitution": 26,
+  "intelligence": 14,
+  "wisdom": 22,
+  "charisma": 26,
+  "strength_save": 4,
+  "dexterity_save": 7,
+  "constitution_save": 8,
+  "intelligence_save": 2,
+  "wisdom_save": 6,
+  "charisma_save": 8,
+  "perception": 16,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "charmed,frightened,Devilish Resilience",
+  "damage_immunities": "Devilish Resilience",
+  "condition_immunities": "",
+  "senses": "truesight 120 ft.",
+  "languages": "Infernal,telepathy 120 ft.",
+  "challenge_rating": "12",
+  "cr": 12,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The erinyes makes three Longsword or Longbow attacks."
+    },
+    {
+      "name": "Longsword",
+      "desc": "_Melee Weapon Attack:_ +8 to hit, reach 5 ft., one target. _Hit:_ 8 (1d8+4) slashing damage, or 9 (1d10+4) slashing damage if used with two hands, plus 18 (4d8) poison damage."
+    },
+    {
+      "name": "Longbow",
+      "desc": "_Ranged Weapon Attack:_ +7 to hit, range 150/600 ft., one target. _Hit:_ 7 (1d8+3) piercing damage plus 18 (4d8) poison damage, and the target must succeed on a DC 16 CON save or be poisoned for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Parry",
+      "desc": "The erinyes adds 4 to its AC against one melee attack that would hit it. To do so, the erinyes must see the attacker and be wielding a melee weapon."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Devilish Resilience",
+      "desc": "The devil is resistant to cold damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks. In addition, it is immune to fire damage and poison damage and to the poisoned condition."
+    },
+    {
+      "name": "Disciplined Fighter",
+      "desc": "At the start of each of its turns, the erinyes chooses one of the following fighting styles to adopt, which lasts until the start of the erinyes's next turn.\n- **Aggressive.** The erinyes has advantage on the first attack it makes on its turn, but the next attack roll against the erinyes has advantage.\n- **Retributive.** The next time the erinyes is hit by a melee weapon attack from a creature within 5 feet of it, the erinyes can make one Longsword attack against the attacker (no action required).\n- **Defensive.** The next time erinyes uses the Parry reaction, it takes only half the damage if the attack hits and regains 18 (4d8) HP if the attack doesn't hit."
+    },
+    {
+      "name": "Poisonous Weapons",
+      "desc": "The erinyes's weapon attacks are magical. When the erinyes hits with any weapon, the weapon deals an extra 4d8 poison damage (included in the attack)."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The erinyes has advantage on saves against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_erinyes/"
+}

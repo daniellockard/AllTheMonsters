@@ -1,0 +1,92 @@
+{
+  "slug": "barbed_devil_bf",
+  "desc": "",
+  "name": "Barbed Devil",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "group": "Devils",
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 94,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 22,
+  "dexterity": 16,
+  "constitution": 24,
+  "intelligence": 12,
+  "wisdom": 20,
+  "charisma": 20,
+  "strength_save": 6,
+  "dexterity_save": 3,
+  "constitution_save": 7,
+  "intelligence_save": 1,
+  "wisdom_save": 5,
+  "charisma_save": 5,
+  "perception": 18,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Devilish Resilience",
+  "damage_immunities": "Devilish Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft.",
+  "languages": "Infernal,telepathy 120 ft.",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The devil makes two Claw attacks and one Tail attack, or it makes three Hurl Flame attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 10 (2d6+3) piercing damage."
+    },
+    {
+      "name": "Tail",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 12 (2d8+3) piercing damage."
+    },
+    {
+      "name": "Hurl Flame",
+      "desc": "_Ranged Spell Attack:_ +5 to hit, range 150 ft., one target. _Hit:_ 12 (3d6+2) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Barbed Death",
+      "desc": "When the barbed devil dies, its body withers, leaving behind a mass of spikes on the ground in a 10-foot radius centered on the devil's body. The area becomes difficult terrain for 1 minute, and when a creature moves into or within the area, it takes 2d6 piercing damage for every 5 feet it travels."
+    },
+    {
+      "name": "Barbed Hide",
+      "desc": "A creature that hits the barbed devil with a melee attack while within 5 feet of it takes 3 (1d6) piercing damage. A creature that starts its turn grappling or grappled by the barbed devil takes 3 (1d6) piercing damage."
+    },
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the devil's darkvision."
+    },
+    {
+      "name": "Devilish Resilience",
+      "desc": "The devil is resistant to cold damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks. In addition, it is immune to fire damage and poison damage and to the poisoned condition."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The devil has advantage on saves against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_barbed-devil/"
+}

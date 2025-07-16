@@ -1,0 +1,93 @@
+{
+  "slug": "clockwork-tiger",
+  "desc": "The ticking of metal gears is all that hints at the presence of a pair of feline-shaped metal creatures. They are bronze and steel, with sharp metal teeth and razor claws._  \n**Magical Origin.** Clockwork tigers were invented as guardians in times now long forgotten. In spite of their age, they continue to serve their original purpose as guardians, protecting ancient ruins and new masters alike. The number of clockwork tigers in existence is slowly rising, leading many scholars to speculate on the reason. Some suspect the instructions for creating them were finally found, while others surmise a natural phenomenon unearthed a lost vault of clockwork tigers.  \n**Found in Pairs.** Clockwork tigers are almost always found in pairs and almost always guarding a spellcaster or magical object, which they consider their “ward.” The tigers work in tandem to defeat threats and protect their wards, leaping in and out of combat. Their clockwork brains are capable of thought, but they are less interested in communication and wholly devoted to protecting their wards.  \n**Construct Nature.** A clockwork tiger doesn’t require air, food, drink, or sleep.",
+  "name": "Clockwork Tiger",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 112,
+  "hit_dice": "15d10+30",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 16,
+  "constitution": 15,
+  "intelligence": 7,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "understands Common but can’t speak",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The clockwork tiger makes one bite and two claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 13 (2d8 + 4) piercing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d8+4"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) piercing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d6+4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Deflecting Leap",
+      "desc": "When the clockwork tiger's ward is the target of an attack the tiger can see, the tiger can move up to 10 feet toward its ward without provoking opportunity attacks. If it ends this movement within 5 feet of its ward, the tiger becomes the target of the attack instead."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Immutable Form",
+      "desc": "The tiger is immune to any spell or effect that would alter its form."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The tiger has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Pounce",
+      "desc": "If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 15 Strength saving throw or be knocked prone. If the target is prone, the tiger can make one bite attack against it as a bonus action."
+    },
+    {
+      "name": "Reactive Guardian",
+      "desc": "The clockwork tiger has two reactions that can be used only for Deflecting Leap."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 68,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_clockwork-tiger/"
+}

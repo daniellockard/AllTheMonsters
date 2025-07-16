@@ -1,0 +1,87 @@
+{
+  "slug": "soil-snake",
+  "desc": "",
+  "name": "Soil Snake",
+  "size": "Huge",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 115,
+  "hit_dice": "11d12+44",
+  "speed": {
+    "walk": 40,
+    "burrow": 40
+  },
+  "strength": 21,
+  "dexterity": 10,
+  "constitution": 18,
+  "intelligence": 6,
+  "wisdom": 12,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "fire",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone",
+  "senses": "darkvision 60', tremorsense 60', passive Perception 12",
+  "languages": "understands creator's languages but can't speak",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Bite attack and one Tail Whip attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, 10 ft., one target, 14 (2d8+5) piercing damage."
+    },
+    {
+      "name": "Tail Whip",
+      "desc": "Melee Weapon Attack: +7 to hit, 10 ft., one target, 16 (2d10+5) bludgeoning damage."
+    },
+    {
+      "name": "Charging Swallow",
+      "desc": "Partially submerges in the ground and slithers forward scooping up soil and creatures as it goes. The soil snake moves up to 30' in a straight line and can move through the space of any Med or smaller creature. The first time it enters a creature's space during this move that creature: 14 (4d6) bludgeoning damage and is buried as it is swallowed bounced through the hollow inside of the soil snake and deposited back in its space under a pile of soil (DC 14 Dex half damage and isn't buried). A buried creature is restrained and unable to breathe or stand up. A creature including the buried creature can take its action to free the buried creature by succeeding on a DC 14 Str check."
+    },
+    {
+      "name": "Soil Blast (Recharge 5-6)",
+      "desc": "Expels soil in a 30' cone. Each creature in that area: 18 (4d8) bludgeoning damage and is knocked prone (DC 14 Dex half damage not prone)."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Construct Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Grassland Camouflage",
+      "desc": "Has advantage on Dex (Stealth) checks made to hide in grassland terrain."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 351,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_soil-snake/"
+}

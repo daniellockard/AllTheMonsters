@@ -1,0 +1,84 @@
+{
+  "slug": "bard_bf",
+  "desc": "",
+  "name": "Bard",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Any Lineage",
+  "group": "NPCs",
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": "studded leather",
+  "hit_points": 114,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 22,
+  "constitution": 12,
+  "intelligence": 14,
+  "wisdom": 12,
+  "charisma": 24,
+  "strength_save": 0,
+  "dexterity_save": 6,
+  "constitution_save": 1,
+  "intelligence_save": 2,
+  "wisdom_save": 1,
+  "charisma_save": 7,
+  "perception": 14,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Artistic Expression",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "Common plus any two languages",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The bard makes two Rapier or Hand Crossbow attacks. It can replace one attack with a use of Spellcasting."
+    },
+    {
+      "name": "Rapier",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5. ft., one target. _Hit:_ 7 (1d8+3) piercing damage plus 13 (3d8) damage of the type determined by Artistic Expression."
+    },
+    {
+      "name": "Hand Crossbow",
+      "desc": "_Ranged Weapon Attack:_+6 to hit, range 30/120 ft., one target. _Hit:_ 6 (1d6+3) piercing damage plus 13 (3d8) damage of the type determined by Artistic Expression."
+    },
+    {
+      "name": "Dissonant Outburst (Recharge 4-6)",
+      "desc": "Each creature within 30 feet of the bard and that can see or hear it must make a DC 15 WIS save. On a failure, a creature takes 14 (4d6) thunder damage and 7 (2d6) psychic damage and has disadvantage on attack rolls and ability checks until the end of its next turn. On a success, a creature takes half the damage and doesn't have disadvantage on attack rolls and ability checks."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The bard casts one of the following spells, using CHA as the spellcasting ability (spell save DC 15).<br>At will: dancing lights, mage hand, message<br>3/day each: _faerie fire_, _hold_, _suggestion_<br>1/day each: _confusion_, _greater invisibility_"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Artistic Expression",
+      "desc": "The bard has one primary form of artistic expression, such as song, poetry, dance, fashion, paint, or similar. It is resistant to one type of damage associated with that artistic expression. For example, a bard expressing art through song or oration is resistant to thunder damage, a bard expressing art through paint is resistant to acid or poison damage (the bard's choice), and a bard expressing art through witty discourse or clever quips is resistant to psychic damage. This trait can't make the bard resistant to force, necrotic, or radiant damage."
+    },
+    {
+      "name": "Expressive Weapons",
+      "desc": "When the bard hits with any weapon, the weapon deals an extra 3d8 damage of the type determined by Artistic Expression."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_bard/"
+}

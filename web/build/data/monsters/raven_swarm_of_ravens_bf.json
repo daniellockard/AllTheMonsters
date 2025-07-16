@@ -1,0 +1,77 @@
+{
+  "slug": "raven_swarm_of_ravens_bf",
+  "desc": "",
+  "name": "Raven, Swarm of Ravens",
+  "size": "Medium",
+  "type": "Swarm",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 13,
+  "hit_dice": "",
+  "speed": {
+    "walk": 10,
+    "fly": 50
+  },
+  "strength": 6,
+  "dexterity": 14,
+  "constitution": 8,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 8,
+  "strength_save": -2,
+  "dexterity_save": 2,
+  "constitution_save": -1,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -1,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Swarm Resilience",
+  "damage_immunities": "Swarm Resilience",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Beaks",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target in the swarm's space. _Hit:_ 9 (2d8) piercing damage, or 4 (1d8) piercing damage if the swarm has half of its HP or fewer."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Carrion Sense",
+      "desc": "The swarm can pinpoint, by scent, the location of carrion, dead creatures, and Undead without the Incorporeal Movement trait within 60 feet of it."
+    },
+    {
+      "name": "Pilfering Swarm",
+      "desc": "A creature in the swarm's space is surrounded by ravens pecking and pulling at its clothing, hair, fur, and belongings. If a creature in the swarm's space casts a spell with a material component, it must succeed on a DC 12 DEX save or the spell fails to cast, expending the action required to cast it but not the spell slot or daily use, as the ravens steal the component."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny raven. The swarm can't regain HP or gain temporary HP."
+    },
+    {
+      "name": "Swarm Resilience",
+      "desc": "The swarm is resistant to bludgeoning, piercing, and slashing damage, and it is immune to the charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned conditions."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_raven-swarm-of-ravens/"
+}

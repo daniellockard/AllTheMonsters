@@ -1,0 +1,83 @@
+{
+  "slug": "brain-coral",
+  "desc": "",
+  "name": "Brain Coral",
+  "size": "Huge",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 119,
+  "hit_dice": "14d12+28",
+  "speed": {
+    "walk": 0,
+    "swim": 120
+  },
+  "strength": 16,
+  "dexterity": 6,
+  "constitution": 14,
+  "intelligence": 18,
+  "wisdom": 14,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": 5,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "psychic",
+  "condition_immunities": "blinded, charmed, deafened, frightened, poisoned, prone",
+  "senses": "blindsight 120' (blind beyond), passive Perception 15 ",
+  "languages": "Common, Deep Speech, telepathy 120'",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Pseudopod from spire and one additional Pseudopod per cluster it has. Additional Pseudopods can originate from central spire or any cluster provided target is within reach of attack's origin."
+    },
+    {
+      "name": "Pseudopod",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 7 (1d8+3) bludgeoning damage."
+    },
+    {
+      "name": "Reef Poison Spray (Recharge 5-6)",
+      "desc": "Expels poison cloud. Each creature within 15 ft. of central spire: 21 (6d6) poison and is incapacitated until end of its next turn (DC 15 Int half damage not incapacitated)."
+    },
+    {
+      "name": "Beasts of the Sea (1/Day)",
+      "desc": "Magically calls 2d4 giant crabs 2 giant sea horses or reef sharks or 1 swarm of quippers provided coral is underwater. The called creatures arrive in 1d4 rounds acting as allies of coral and obeying its telepathic commands. Beasts remain 1 hr until coral dies or until coral dismisses them as a bonus action."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Colony Cluster",
+      "desc": "Consists of Huge central spire and 3 Small clusters. Each cluster acts on coral's turn and shares its move allowing spire and clusters to swim total of 120' on coral's turn. Cluster can't move more than 120' from spire. Cluster over 120' away from spire for over 24 hrs enters dormant state becoming new brain coral after 30 days. Brain coral and its clusters share hp and damage dealt to cluster or spire reduces shared total. If more than one section of coral is included in damaging spell or effect (ex: Dragon's breath weapon or lightning bolt spell) coral makes one save and takes damage as if only one section was affected. When coral takes 15+ damage in one turn cluster is destroyed. At end of its turn if coral took damage on previous turn it can expel one new cluster from spire per 15 damage it took. Can't have more than 5 clusters active at a time."
+    },
+    {
+      "name": "Water Breathing",
+      "desc": "Can breathe only underwater."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 67,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_brain-coral/"
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "lemurfolk",
+  "desc": "_This furred humanoid glides silently through the canopy of trees, gripping a blowgun. It observes visitors cautiously with two intelligent, bulbous eyes._  \n**Jungle Rulers.** These small, intelligent, squirrel-like humanoids live in reclusive, primitive societies deep in the jungle. They are omnivorous, subsisting on fruits and roots, insects and larvae, bird and snake eggs, and birds and small mammals. They sometimes barter with more advanced creatures for metal and crafted items.  \n**Nocturnal Gliders.** Lemurfolk are nocturnal, though they can adopt daytime hours when they must. They prefer to hunt and move by gliding between trees, catching prey off guard.  \n**Greyfur Elders.** Greyfurs are the eldest and most revered kaguani, as much as 80 years old; their age can be estimated by the graying of their fur, but they don’t track the years. Greyfurs are cunning individuals and command the arcane arts, though they rarely pursue the art of necromancy—a strong taboo prohibits them from interacting with the dead.  \nA typical lemurfolk stands 2 feet tall and weighs 30 lb.",
+  "name": "Lemurfolk",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "lemurfolk",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 14,
+  "hit_dice": "4d6",
+  "speed": {
+    "walk": 20,
+    "climb": 10,
+    "fly": 40
+  },
+  "strength": 10,
+  "dexterity": 15,
+  "constitution": 11,
+  "intelligence": 12,
+  "wisdom": 10,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "acrobatics": 4,
+    "stealth": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Common, Lemurfolk",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Kukri Dagger",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., 20/60 range, one target. Hit: 4 (1d4 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4"
+    },
+    {
+      "name": "Blowgun",
+      "desc": "Ranged Weapon Attack: +4 to hit, range 25/100 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned and unconscious for 1d4 hours. Another creature can use an action to shake the target awake and end its unconsciousness but not the poisoning.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Silent Glide",
+      "desc": "The lemurfolk can glide for 1 minute, making almost no sound. It gains a fly speed of 40 feet, and it must move at least 20 feet on its turn to keep flying. A gliding lemurfolk has advantage on Dexterity (Stealth) checks."
+    },
+    {
+      "name": "Sneak Attack (1/Turn)",
+      "desc": "The lemurfolk deals an extra 3 (1d6) damage when it hits with a weapon attack and it has advantage, or when the target is within 5 feet of an ally of the lemurfolk that isn't incapacitated and the lemurfolk doesn't have disadvantage on the attack roll."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 271,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_lemurfolk/"
+}

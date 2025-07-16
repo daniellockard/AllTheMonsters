@@ -1,0 +1,84 @@
+{
+  "slug": "swarmofwolfspirits-tob1-2023",
+  "desc": "False",
+  "name": "Swarm of Wolf Spirits",
+  "size": "Large",
+  "type": "Swarm",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 104,
+  "hit_dice": "16d10 + 16",
+  "speed": {
+    "walk": 50,
+    "fly": 50
+  },
+  "strength": 14,
+  "dexterity": 18,
+  "constitution": 12,
+  "intelligence": 4,
+  "wisdom": 10,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 3,
+  "charisma_save": null,
+  "perception": 13,
+  "skills": {
+    "Perception": 3,
+    "Stealth": 7
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "acid, fire, lightning, thunder; bludgeoning, necrotic, piercing, slashing",
+  "damage_immunities": "cold, poison",
+  "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
+  "senses": "darkvision 120 ft., passive Perception 13",
+  "languages": "understands Common but can’t speak",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The swarm of wolf spirits makes two Spectral Bites attacks."
+    },
+    {
+      "name": "Spectral Bites",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) cold damage plus 9 (2d8) necrotic damage, or 7 (2d6) cold damage plus 4 (1d8) necrotic damage if the swarm has half of its hp or fewer."
+    },
+    {
+      "name": "Chilling Howl (Recharge 5-6)",
+      "desc": "The swarm of wolf spirits howls, causing cold fear to course through those that hear it. Each creature within 15 feet that can hear the howl must make a DC 15 Constitution saving throw. On a failure, a creature takes 35 (10d6) cold damage and is frightened for 1 minute. On a success, a creature takes half the damage and isn't frightened. A creature that fails the saving throw by 5 or more also suffers one level of exhaustion. A frightened creature can make a DC 15 Wisdom saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The swarm of wolf spirits can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa. The swarm can't regain hp or gain temporary hp."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The swarm of wolf spirits doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 358,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_swarm-of-wolf-spirits/"
+}

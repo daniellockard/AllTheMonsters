@@ -1,0 +1,87 @@
+{
+  "slug": "aural-hunter",
+  "desc": "",
+  "name": "Aural Hunter",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 127,
+  "hit_dice": "15d10+45",
+  "speed": {
+    "walk": 40,
+    "climb": 30
+  },
+  "strength": 16,
+  "dexterity": 14,
+  "constitution": 16,
+  "intelligence": 7,
+  "wisdom": 19,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 4,
+  "skills": {
+    "perception": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "blinded",
+  "senses": "blindsight 60' or 20' while deafened (blind beyond), passive Perception 17",
+  "languages": "—",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Claws attacks and one Rib Hooks attack. It can use Consume Sound in place of one attack."
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 12 (2d8+3) slashing damage."
+    },
+    {
+      "name": "Rib Hooks",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 10 (2d6+3) piercing damage and the target is grappled (escape DC 15) if it is a Large or smaller creature and it doesn't have another creature grappled."
+    },
+    {
+      "name": "Consume Sound",
+      "desc": "Siphons energy from audible vibrations surrounding a creature grappled by it. Target: 14 (4d6) necrotic and becomes deafened and unable to speak until end of its next turn (DC 13 Con half damage and is able to hear and speak). Aural hunter regains hp equal to damage dealt. Consume Sound has no effect on creatures that are already deafened and unable to speak. It can't use this action if it is deafened."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Blind Senses",
+      "desc": "Can't use its blindsight while deafened and unable to smell."
+    },
+    {
+      "name": "Keen Hearing",
+      "desc": "Has advantage on Wis (Perception) checks that rely on hearing."
+    },
+    {
+      "name": "Sonic Sensitivity",
+      "desc": "When it takes thunder damage it becomes deafened until the end of its next turn."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 47,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_aural-hunter/"
+}

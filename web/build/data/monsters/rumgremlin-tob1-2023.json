@@ -1,0 +1,78 @@
+{
+  "slug": "rumgremlin-tob1-2023",
+  "desc": "False",
+  "name": "Rum Gremlin",
+  "size": "Tiny",
+  "type": "Fey",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 27,
+  "hit_dice": "6d4 + 12",
+  "speed": {
+    "walk": 10
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 14,
+  "intelligence": 12,
+  "wisdom": 9,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 9,
+  "skills": {
+    "Stealth": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 10",
+  "languages": "Common, Sylvan",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, range 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage."
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +5 to hit, range 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The gremlin casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 11):\nAt will: prestidigitation\n3/day: command"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Aura of Drunkenness",
+      "desc": "The rum gremlin radiates an aura of drunkenness to a radius of 20 feet. Each creature that starts its turn in the aura must succeed on a DC 12 Constitution saving throw or be poisoned for 1 hour. A creature that has consumed alcohol within the past hour has disadvantage on the saving throw. While poisoned, a creature falls prone if it tries to move more than half its speed during a turn. A creature that succeeds on the saving throw is immune to the rum gremlin's Aura of Drunkenness for 24 hours."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The rum gremlin has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 223,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_rum-gremlin/"
+}

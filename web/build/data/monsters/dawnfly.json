@@ -1,0 +1,106 @@
+{
+  "slug": "dawnfly",
+  "desc": "",
+  "name": "Dawnfly",
+  "size": "Gargantuan",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 21,
+  "armor_desc": "natural armor",
+  "hit_points": 261,
+  "hit_dice": "18d20+72",
+  "speed": {
+    "walk": 20,
+    "climb": 20,
+    "fly": 90
+  },
+  "strength": 23,
+  "dexterity": 20,
+  "constitution": 19,
+  "intelligence": 1,
+  "wisdom": 14,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "cold, fire; nonmagic bludgeoning, piercing, and slashing attacks",
+  "condition_immunities": "charmed, frightened, paralyzed, poisoned",
+  "senses": "blindsight 90', passive Perception 12",
+  "languages": "—",
+  "challenge_rating": "19",
+  "cr": 19,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Bite attack and three Tail attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +12 to hit, 5 ft., one target, 19 (3d8+6) piercing damage + 7 (2d6) poison."
+    },
+    {
+      "name": "Tail",
+      "desc": "Melee Weapon Attack: +12 to hit, 15 ft., one target, 22 (3d10+6) bludgeoning damage."
+    },
+    {
+      "name": "Wing Slice (Recharge 4-6)",
+      "desc": "Flies up to 40' in straight line and can move through space of any Huge or smaller creature. First time it enters creature's space during this move creature: 54 (12d8) slashing damage and stunned until end of its next turn and if dawnfly's wings are ignited from Winged Inferno extra 14 (4d6) fire (DC 19 Dex half isn't stunned)."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Winged Inferno",
+      "desc": "Rapidly beats wings igniting them until start of next turn. Shed bright light in 20' radius dim light extra 20'. Creature that touches dawnfly or hits it with melee attack while within 5 ft. of it: 7 (2d6) fire. Also when creature starts turn within 5 ft. of dawnfly creature: DC 19 Dex save or 7 (2d6) fire. Effect ends early if dawnfly stops flying."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": [
+    {
+      "name": "Dust Burst",
+      "desc": "Its wings shed blinding dust within 10 ft. of it. Each creature in the area: DC 19 Con save or be blinded until end of its next turn."
+    },
+    {
+      "name": "Fiery Downburst (2)",
+      "desc": "15 ft. cone hot air downdraft. All in area: 9 (2d8) bludgeoning damage and 7 (2d6) fire pushed up to 15 ft. from dawnfly in direction following cone and knocked prone (DC 19 Str half damage not pushed/prone). "
+    },
+    {
+      "name": "Snatch and Drop (3)",
+      "desc": "Flies up to half its fly speed making one Tail attack at creature within reach on the way. Hits: creature grappled carried and dropped at end of move; normal fall damage."
+    }
+  ],
+  "special_abilities": [
+    {
+      "name": "Flyby",
+      "desc": "Doesn't provoke opportunity attacks when it flies out of reach."
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "Double damage to objects/structures."
+    },
+    {
+      "name": "Unsettling Drone",
+      "desc": "Creature that starts turn within 10 ft. of dawnfly: DC 19 Con save or incapacitated until start of its next turn. Deafened creatures have advantage. Success: immune to this 24 hrs."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 104,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_dawnfly/"
+}

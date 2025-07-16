@@ -1,0 +1,81 @@
+{
+  "slug": "mycolid_commoner_bf",
+  "desc": "",
+  "name": "Mycolid Commoner",
+  "size": "Small",
+  "type": "Plant",
+  "subtype": "",
+  "group": "Mycolids",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 21,
+  "hit_dice": "",
+  "speed": {
+    "walk": 15
+  },
+  "strength": 10,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 6,
+  "wisdom": 16,
+  "charisma": 4,
+  "strength_save": 0,
+  "dexterity_save": 2,
+  "constitution_save": 0,
+  "intelligence_save": -2,
+  "wisdom_save": 3,
+  "charisma_save": -3,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "poison,Plant Resilience",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "keensense 120 ft. (can't sense beyond this radius)",
+  "languages": "understands Sylvan but can't speak,telepathy 30 ft.",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Gardening Pick",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 4 (1d4+2) piercing damage plus 5 (2d4) poison damage."
+    },
+    {
+      "name": "Slowing Spores (Recharge 5-6)",
+      "desc": "The mycolid ejects slowing spores from its body. Each creature that isn't a mycolid within 5 feet of the mycolid must make a DC 13 WIS save. On a failure, a creature takes 5 (2d4) poison damage and is slowed until the end of its next turn. On a success, a creature takes half the damage and isn't slowed. A slowed creature's speed is halved, and it can't take reactions."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Fetid Feast",
+      "desc": "The mycolid draws sustenance from a Medium or larger pile of carrion or rotting vegetation within 5 feet of it. It regains 5 (2d4) HP. The mycolid can't use Fetid Feast on a pile of carrion or vegetation if it or another mycolid has already used Fetid Feast on that pile."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Fungal Toxicity",
+      "desc": "A creature that hits the mycolid with a melee attack while within 5 feet of it must succeed on a DC 13 CON save or be poisoned for 1 hour. If the poison isn't neutralized before 1 hour has passed, the creature must succeed on a DC 13 CON save, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "name": "Mycolid Connection",
+      "desc": "The mycolid can pinpoint the location of each friendly mycolid within 120 feet of it. In addition, its telepathy range increases to 120 feet when communicating with other mycolids."
+    },
+    {
+      "name": "Plant Resilience",
+      "desc": "The mycolid is resistant to exhaustion and to the paralyzed, petrified, and unconscious conditions."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_mycolid-commoner/"
+}

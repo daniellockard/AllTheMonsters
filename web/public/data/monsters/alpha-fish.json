@@ -1,0 +1,90 @@
+{
+  "slug": "alpha-fish",
+  "desc": "A fish as large as a rowboat serenely floats beneath the surface of the water, its flowing fins and iridescent scales shimmering in the waves. When disturbed, it attacks with a ferocity unexpected of such a delicate-looking creature._  \nAlpha fish are solitary and extremely territorial creatures. They are always found alone, except during the few short weeks of mating season each year when schools of the fish gather.  \n**Dazzling Dominance.** Before attacking, alpha fish often attempt to intimidate potential rivals or predators away by flaring their colorful fins to make themselves appear much larger. If successful, they usually refrain from attacking.  \n**Aggressive.** If intimidation doesn’t work, alpha fish defend their chosen homes by viciously attacking. They have been known to attack creatures much larger than themselves and, occasionally, objects they don’t recognize.  \n**Valuable.** Many aristocrats seek the beautiful, shimmering fish as pets in massive, personal aquariums, and the alpha fish’s scales are valuable spell components.",
+  "name": "Alpha Fish",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 59,
+  "hit_dice": "7d10+21",
+  "speed": {
+    "walk": 0,
+    "swim": 50
+  },
+  "strength": 16,
+  "dexterity": 13,
+  "constitution": 16,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "intimidation": 5,
+    "perception": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 13",
+  "languages": "—",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The alpha fish uses its Fin Flare. It then makes two headbutt attacks."
+    },
+    {
+      "name": "Headbutt",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.",
+      "attack_bonus": 5,
+      "damage_dice": "2d6+3"
+    },
+    {
+      "name": "Fin Flare",
+      "desc": "The alpha fish flares its fins in an attempt to frighten its opponents. Each creature within 30 feet that can see the fish must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the alpha fish's Fin Flare for the next 24 hours."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Defensive Frenzy",
+      "desc": "When it has half its hit points or fewer, the alpha fish can make one headbutt attack as a bonus action."
+    },
+    {
+      "name": "Frightening Display",
+      "desc": "When the alpha fish uses its Fin Flare, it looks one size category larger than it actually is to any creature that can see it until the start of its next turn."
+    },
+    {
+      "name": "Too Aggressive",
+      "desc": "The alpha fish attacks anything it thinks is threatening, even inanimate objects or illusions. It automatically fails ability checks and saving throws to detect or see through illusions."
+    },
+    {
+      "name": "Water Breathing",
+      "desc": "The fish can breathe only under water."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 14,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_alpha-fish/"
+}

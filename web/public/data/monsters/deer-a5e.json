@@ -1,0 +1,68 @@
+{
+  "slug": "deer-a5e",
+  "desc": "",
+  "name": "Deer",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 4,
+  "hit_dice": "1d8",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 10,
+  "intelligence": 2,
+  "wisdom": 14,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 12",
+  "languages": "",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage."
+    },
+    {
+      "name": "Headbutt",
+      "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) piercing damage."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Smell",
+      "desc": "The deer has advantage on Perception checks that rely on smell."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 442,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_deer/"
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "avulzor",
+  "desc": "A horrid-looking bipedal creature with cracked, leathery skin and long arms and legs—ending in wicked, flensing talons—rears up. A trio of unblinking purple eyes is situated in the monster’s chest, and its neck ends in a nest of lamprey-like heads. It wears a kilt of humanoid bones that rattles unnervingly as it moves._  \n**Horrors from Beyond Reality.** Avulzors are hideous aberrations native to a dimension inundated with necrotic energy. There they weave plans for dominating the other planes of existence, launching expeditionary forces into other worlds to kidnap humanoids for experimentation, steal useful magical devices, or destroy perceived threats. Their reasons for doing so are largely unknown, yet they despise all other living creatures.  \n**Masters of Bone.** While avulzors hate all life, they have a disturbingly accurate understanding of humanoid anatomy and use this knowledge to grant their undead constructs extra power. They can also shape bone as if it were putty, transforming an ogre’s pelvis into a usable chair or a dwarf ’s teeth and ribs into a complex musical instrument. While they find undead creatures like Open Game License",
+  "name": "Avulzor",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 17,
+  "armor_desc": "bone kilt",
+  "hit_points": 135,
+  "hit_dice": "18d10+36",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 19,
+  "dexterity": 17,
+  "constitution": 14,
+  "intelligence": 18,
+  "wisdom": 16,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 5,
+  "perception": 6,
+  "skills": {
+    "arcana": 7,
+    "insight": 6,
+    "intimidation": 8,
+    "medicine": 6,
+    "perception": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "necrotic",
+  "condition_immunities": "paralyzed, stunned",
+  "senses": "darkvision 90 ft., passive Perception 16",
+  "languages": "Common, Deep Speech, Void Speech",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The avulzor makes two claw attacks and two synchronized bite attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "1d8+4"
+    },
+    {
+      "name": "Synchronized Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 14 (4d4 + 4) piercing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "4d4+4"
+    },
+    {
+      "name": "Animate Bones (Recharge 5-6)",
+      "desc": "The avulzor creates a skeleton out of a pile of bones or a the corpse of a Large or smaller creature within 10 feet of it. The skeleton is under the control of the avulzor, obeying the avulzor's mental commands, and uses the statistics of a CR 1 or lower skeleton of your choice. The avulzor can control up to three skeletons at one time. If the avulzor creates a skeleton while it already has three under its control, the oldest skeleton crumbles to dust."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Bone Shaping",
+      "desc": "The avulzor can shape bones with its touch, altering the appearance, function, size, and density of bone to match its needs. It can't use this trait to alter the bones of a living creature, but it can otherwise alter any bone it touches that isn't being worn or carried. In addition, as a bonus action, the avulzor can touch any skeleton it created with its Animate Bones action and grant the target one of the following benefits until the end of the target's next turn: \n* Armor Class increases by 2 \n* Reach increases by 5 feet \n* Melee weapon attacks deal an extra 1d4 damage of the weapon's type. \n* Speed increases by 10 feet."
+    },
+    {
+      "name": "Bone Kilt",
+      "desc": "The avulzor wears a kilt made out of the bones of the many humanoids it has slain. The kilt increases the avulzor's Armor Class by 3. If lost, the avulzor can create a new bone kilt with ample bones and 1 hour of work. The avulzor can use its Animate Bones as a bonus action if it targets the bone kilt. Doing so creates 1 skeleton of CR 2 or lower, but the avulzor subsequently reduces its Armor Class by 3."
+    },
+    {
+      "name": "Turning Defiance",
+      "desc": "Friendly undead within 30 feet of the avulzor have advantage on saving throws against effects that turn undead."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 37,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_avulzor/"
+}

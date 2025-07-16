@@ -1,0 +1,80 @@
+{
+  "slug": "velociraptor_bf",
+  "desc": "",
+  "name": "Velociraptor",
+  "size": "Small",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Dinosaurs",
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 25,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 6,
+  "dexterity": 18,
+  "constitution": 12,
+  "intelligence": 4,
+  "wisdom": 12,
+  "charisma": 6,
+  "strength_save": -2,
+  "dexterity_save": 4,
+  "constitution_save": 1,
+  "intelligence_save": -3,
+  "wisdom_save": 1,
+  "charisma_save": -2,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The velociraptor makes one Bite attack and one Claws attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6+2) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the velociraptor can't Bite another target."
+    },
+    {
+      "name": "Claws",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 4 (1d4+2) slashing damage."
+    },
+    {
+      "name": "Maul",
+      "desc": "The velociraptor uses its claws to rip into one creature it is grappling. The target must make a DC 12 STR save, taking 10 (4d4) slashing damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Hardy",
+      "desc": "Any critical hit against the dinosaur becomes a normal hit."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The velociraptor has advantage on attack rolls against a creature if at least one of its allies is within 5 feet of the target and the ally isn't incapacitated."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_velociraptor/"
+}

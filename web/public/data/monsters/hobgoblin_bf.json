@@ -1,0 +1,72 @@
+{
+  "slug": "hobgoblin_bf",
+  "desc": "",
+  "name": "Hobgoblin",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 18,
+  "armor_desc": "chain mail, shield",
+  "hit_points": 18,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 12,
+  "dexterity": 12,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 8,
+  "strength_save": 1,
+  "dexterity_save": 1,
+  "constitution_save": 1,
+  "intelligence_save": 0,
+  "wisdom_save": 0,
+  "charisma_save": -1,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Goblin",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The hobgoblin makes two Longsword or Longbow attacks."
+    },
+    {
+      "name": "Longsword",
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one target. _Hit:_ 5 (1d8+1) slashing damage, or 6 (1d10+1) slashing damage if used with two hands."
+    },
+    {
+      "name": "Longbow",
+      "desc": "_Ranged Weapon Attack:_ +3 to hit, range 150/600 ft., one target. _Hit:_ 5 (1d8+1) piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Tactical Analysis",
+      "desc": "The hobgoblin briefly studies one creature it can see within 30 feet of it. It has advantage on the next attack roll it makes against that creature before the start of the hobgoblin's next turn."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_hobgoblin/"
+}

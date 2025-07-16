@@ -1,0 +1,103 @@
+{
+  "slug": "archon-siege",
+  "desc": "",
+  "name": "Archon, Siege",
+  "size": "Huge",
+  "type": "Celestial",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Good",
+  "armor_class": 18,
+  "armor_desc": "plate",
+  "hit_points": 187,
+  "hit_dice": "15d12+90",
+  "speed": {
+    "walk": 40,
+    "fly": 60
+  },
+  "strength": 22,
+  "dexterity": 14,
+  "constitution": 22,
+  "intelligence": 10,
+  "wisdom": 20,
+  "charisma": 17,
+  "strength_save": 1,
+  "dexterity_save": null,
+  "constitution_save": 1,
+  "intelligence_save": null,
+  "wisdom_save": 1,
+  "charisma_save": 8,
+  "perception": 5,
+  "skills": {
+    "perception": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "radiant; nonmagic B/P/S attacks",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, exhaustion, frightened",
+  "senses": "truesight 120', passive Perception 20",
+  "languages": "all, telepathy 120'",
+  "challenge_rating": "13",
+  "cr": 13,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Trunk Maul attacks or four Trumpeting Blasts."
+    },
+    {
+      "name": "Trunk Maul",
+      "desc": "Melee Weapon Attack: +11 to hit, 10 ft., one target, 20 (4d6+6) bludgeoning damage + 22 (5d8) force."
+    },
+    {
+      "name": "Stomp",
+      "desc": "Melee Weapon Attack: +11 to hit 10 ft. one prone creature. 22 (3d10+6) bludgeoning damage."
+    },
+    {
+      "name": "Trumpeting Blast",
+      "desc": "Ranged Spell Attack: +10 to hit, 120 ft., one target, 19 (4d6+5) thunder."
+    },
+    {
+      "name": "Sundering Quake (Recharge 5-6)",
+      "desc": "Slams its forelegs into the ground. Each creature in contact with the ground within 20' of it: 49 (14d6) force (DC 19 Dex half). Each structure in contact with the ground within 20' of archon also takes the damage and collapses if the damage reduces it to 0 hp."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Celestial Weapons",
+      "desc": "Its weapon attacks are magical. When archon hits with its Trunk Maul weapon deals extra 5d8 force (included below)."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from inanimate statue."
+    },
+    {
+      "name": "Immortal Nature",
+      "desc": "Doesn't require food drink or sleep"
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "Double damage to objects/structures."
+    },
+    {
+      "name": "Trampling Charge",
+      "desc": "If it moves 20'+ straight toward a creature and then hits it with trunk maul on same turn target: DC 19 Str save or be pushed up to 10 ft. and knocked prone. If target is prone archon can make one Stomp attack vs. it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 42,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_archon-siege/"
+}

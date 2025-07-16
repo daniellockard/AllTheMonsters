@@ -1,0 +1,83 @@
+{
+  "slug": "roachling-lord",
+  "desc": "_The creature is humanoid but disturbingly roachlike. Its legs are too short, its arms too long, its skin is oily, and its back is covered by a carapace. Atop those features sits an incongruously humanlike face._  \nCombining the worst of human and cockroach qualities, these nimble creatures have a talent for stealth and for fighting dirty. Also known as scuttlers, roachlings are an unpleasant humanoid race—inquisitive and covetous, unclean and ill-mannered—and most other races shun them.  \n_**Devious Combatants.**_ Roachlings are skittish and easily frightened, but they aren’t cowards. Rather, they are practical about their weaknesses. They understand survival often depends on remaining unseen and out of reach. Most roachlings prefer to fight only when the chance for victory sits squarely on their side.  \nThey also have a well-deserved reputation for deviousness. Roachlings are adept at skulking, underhanded tactics, and hit‑and-run fighting. Filth and trickery are their most useful tools.  \n_**Deeply Paranoid.**_ Because they have long been hunted and persecuted, roachlings are naturally suspicious, and they extend their trust slowly. A deep-rooted paranoia infects the race, and unsurprisingly their paranoia often turns out to be justified.  \n_**Fused Carapace.**_ Roachlings have prominent, whip-like antennae, a carapace covering much of their backs, and small spines on their legs and arms. They have short, noticeably bowed legs. Hair is unusual among roachlings, but when present, it’s always oily and dark, pressed flat against the skull.  \nRoachling coloration varies across tan, yellow, dark brown, and black. Regardless of color, their thick, hardened skin appears shiny and slightly oily although it is dry. Roachlings have an internal skeleton, however, not the exoskeleton of a true insect.",
+  "name": "Roachling Lord",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "roachling",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 63,
+  "hit_dice": "14d6+14",
+  "speed": {
+    "walk": 25
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": 3,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "acrobatics": 5,
+    "stealth": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., tremorsense 10 ft., passive Perception 9",
+  "languages": "Common",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The roachling lord makes two melee attacks or throws two darts."
+    },
+    {
+      "name": "Begrimed Shortsword",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage plus 7 (2d6) poison damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d6"
+    },
+    {
+      "name": "Begrimed Dart",
+      "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage plus 7 (2d6) poison damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Resistant",
+      "desc": "The roachling skirmisher has advantage on Constitution saving throws."
+    },
+    {
+      "name": "Unlovely",
+      "desc": "The skirmisher has disadvantage on Performance and Persuasion checks in interactions with nonroachlings."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 329,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_roachling-lord/"
+}

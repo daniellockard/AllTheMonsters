@@ -1,0 +1,88 @@
+{
+  "slug": "kryt",
+  "desc": "",
+  "name": "Kryt",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "kryt",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 120,
+  "hit_dice": "16d8+48",
+  "speed": {
+    "walk": 25
+  },
+  "strength": 20,
+  "dexterity": 10,
+  "constitution": 16,
+  "intelligence": 6,
+  "wisdom": 18,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 7,
+  "skills": {
+    "insight": 7,
+    "perception": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "exhaustion",
+  "senses": "darkvision 60 ft., passive Perception 17",
+  "languages": "Common",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "desc": "The kryt makes three attacks: one with its bite and two with its quarterstaff.",
+      "name": "Multiattack"
+    },
+    {
+      "attack_bonus": 8,
+      "damage_dice": "2d8+5",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage",
+      "name": "Bite"
+    },
+    {
+      "attack_bonus": 8,
+      "damage_dice": "1d6+5",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) bludgeoning damage, or 9 (1d8 + 5) bludgeoning damage if used with two hands.",
+      "name": "Quarterstaff"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "desc": "When a kryt is attacked by a creature it can see within 30 feet of it, the kryt can haunt the creature with a vision of the creature's death. The haunted creature has disadvantage on its next attack roll. Undead creatures and creatures that are unable to be killed are immune to this reaction.",
+      "name": "Haunting Vision"
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "desc": "The kryt can hold its breath for 15 minutes.",
+      "name": "Hold Breath"
+    },
+    {
+      "desc": "The kryt catches a glimpse of the immediate future and gains advantage on one attack roll or one saving throw.",
+      "name": "Prophetic Vision (1/Turn)"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 243,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "cc",
+  "document__title": "Creature Codex",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/",
+  "v2_converted_path": "/v2/creatures/ccdx_kryt/"
+}

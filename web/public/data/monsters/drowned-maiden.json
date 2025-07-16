@@ -1,0 +1,89 @@
+{
+  "slug": "drowned-maiden",
+  "desc": "_The drowned maiden is usually found as the corpse of a women floating in the water, her long hair drifting with the current. Occasionally, these are drowned lads rather than maidens, though this is rare._  \n**Raging Romantics.** Drowned maidens are piteous but terrifying undead, created when a woman dies in water due to a doomed romance, whether from unrequited love or whether drowned by a philandering partner. Either way, the drowned maiden awakens from death seeking vengeance. Even as she dishes out retribution, a drowned maiden often anguishes over her doomed existence and tragic fate.  \n**Beckoning for Help.** The maiden lurks in the silent depths where she died—usually deserted docks, bridges, or coastal cliffs. She waits to pull the living to the same watery grave in which she is now condemned. A drowned maiden uses her disguise self ability to appear as in life. She silently beckons victims from afar, as if in danger of drowning. When within range, the maiden uses her hair to pull her victim close enough to kiss it. Victims soon weaken and drown. The victim’s final vision is the drowned maiden’s tearful lament over the loss of life.  \n**Death to Betrayers.** Desperate individuals may bargain with drowned maidens, and they will release pleading victims who promise to return to their lair with the person who caused the maiden’s death. Embracing and drowning her betrayer releases the maiden from undeath.",
+  "name": "Drowned Maiden",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 90,
+  "hit_dice": "20d8",
+  "speed": {
+    "walk": 30,
+    "swim": 40
+  },
+  "strength": 15,
+  "dexterity": 16,
+  "constitution": 10,
+  "intelligence": 10,
+  "wisdom": 12,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 6,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 7,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Common",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The drowned maiden makes two claw attacks and one hair attack, each of which it can replace with one kiss attack."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 3) slashing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d8"
+    },
+    {
+      "name": "Hair",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 20 ft., one target. Hit: 14 (2d10 + 3) slashing damage, and the target is grappled (escape DC 16). Three creatures can be grappled at a time.",
+      "attack_bonus": 6,
+      "damage_dice": "2d10"
+    },
+    {
+      "name": "Kiss",
+      "desc": "The drowned maiden can kiss one target that is grappled and adjacent to her. The target must succeed on a DC 15 Charisma saving throw or take 1d6 Strength damage."
+    },
+    {
+      "name": "Reel",
+      "desc": "The drowned maiden pulls a grappled creature of Large size or smaller up to 15 feet straight toward herself."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Grasping Hair",
+      "desc": "The drowned maiden's hair attacks as though it were three separate limbs, each of which can be attacked (AC 19; 15 hit points; immunity to necrotic, poison, and psychic damage; resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks not made with silvered weapons). A lock of hair can be broken if a creature takes an action and succeeds on a DC 15 Strength check against it."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "the drowned maiden's innate spellcasting ability is Charisma (spell save DC 15). She can innately cast the following spells, requiring no material components:\n\nat will: disguise self, silence"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 159,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_drowned-maiden/"
+}

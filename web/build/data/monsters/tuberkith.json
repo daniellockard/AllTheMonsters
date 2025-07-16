@@ -1,0 +1,75 @@
+{
+  "slug": "tuberkith",
+  "desc": "",
+  "name": "Tuberkith",
+  "size": "Small",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Any Alignment",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 22,
+  "hit_dice": "4d6+8",
+  "speed": {
+    "walk": 30,
+    "burrow": 20
+  },
+  "strength": 8,
+  "dexterity": 14,
+  "constitution": 15,
+  "intelligence": 10,
+  "wisdom": 12,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 13",
+  "languages": "Common, Sylvan",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Peeler",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 5 (1d6+2) slashing damage."
+    },
+    {
+      "name": "Masher",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 6 (1d8+2) bludgeoning damage. If the target is a creature it must make DC 12 Str save or be knocked prone."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Deep Roots",
+      "desc": "Has advantage on Str and Dex saves made vs. effects that would move it vs. its will along the ground."
+    },
+    {
+      "name": "Dozens of Eyes",
+      "desc": "Has advantage on Wis (Perception) checks that rely on sight and on saves vs. being blinded. In addition if the tuberkith isn't blinded creatures attacking it can't benefit from traits and features that rely on a creature's allies distracting or surrounding the tuberkith such as the Pack Tactics trait or Sneak Attack feature."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 379,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_tuberkith/"
+}

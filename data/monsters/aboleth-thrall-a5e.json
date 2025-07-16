@@ -1,0 +1,72 @@
+{
+  "slug": "aboleth-thrall-a5e",
+  "desc": "",
+  "name": "Aboleth Thrall",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 45,
+  "hit_dice": "7d8+14",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 14,
+  "dexterity": 14,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "any": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 10",
+  "languages": "Common, unlimited-range telepathy with aboleth",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Poison Ink Knife",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage plus 10 (3d6) poison damage."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Self-Sacrifice",
+      "desc": "When a creature within 5 feet of the thrall that the thrall can see hits an aboleth with an attack, the thrall can make itself the target of the attack instead."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Sea Changed",
+      "desc": "The aboleth thrall can breathe water and air, but must bathe in water for 1 hour for every 12 hours it spends dry or it begins to suffocate. It is magically charmed by the aboleth."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 17,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_aboleth-thrall/"
+}

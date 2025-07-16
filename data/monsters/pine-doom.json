@@ -1,0 +1,91 @@
+{
+  "slug": "pine-doom",
+  "desc": "A living pine tree festooned with pinecones featuring razor-sharp edges looks balefully at the intrusion upon its solitude._  \n**Gruff Forest Protector.** Pine dooms are typically the largest plants in their groves, towering over ordinary pine trees. They see themselves as responsible for the wellbeing of their forests. They manage the growth of trees under their protection, clear out underbrush, and kill destructive vermin, allowing their groves to prosper. They have an inborn distrust of humanoids, but if a creature entering their forests seems genuinely in trouble, pine dooms allow them to seek shelter. They retaliate strongly, however, if someone takes advantage of their charity.  \n**Mobile Groves.** Similar to Open Game License",
+  "name": "Pine Doom",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 172,
+  "hit_dice": "15d12+75",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 20,
+  "dexterity": 7,
+  "constitution": 21,
+  "intelligence": 11,
+  "wisdom": 16,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 7,
+  "skills": {
+    "nature": 8,
+    "perception": 7
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "bludgeoning, piercing",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 17",
+  "languages": "Druidic, Sylvan",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The pine doom makes three slam attacks. Alternatively, it can use Sap-filled Pinecone twice."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage.",
+      "attack_bonus": 9,
+      "damage_dice": "3d6+5"
+    },
+    {
+      "name": "Sap-filled Pinecone",
+      "desc": "Ranged Weapon Attack: +9 to hit, range 30/120 ft., one target. Hit: 10 (2d4 + 5) slashing damage. The target and each creature within 5 feet of it must succeed on a DC 16 Dexterity saving throw or be restrained by sap. A creature can be free if it or another creature takes an action to make a DC 16 Strength check and succeeds.",
+      "attack_bonus": 9,
+      "damage_dice": "2d4+5"
+    },
+    {
+      "name": "Flurry of Pinecones (Recharge 6)",
+      "desc": "Each creature within 30 feet of the pine doom must make a DC 16 Dexterity saving throw, taking 15 (6d4) slashing damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While the pine doom remains motionless, it is indistinguishable from an ordinary pine tree."
+    },
+    {
+      "name": "Sticky Pine Tar",
+      "desc": "A creature that touches the pine doom is grappled (escape DC 16). Until this grapple ends, the creature is restrained. In addition, when a creature hits the pine doom with a bludgeoning or piercing weapon while within 5 feet of it, the creature must succeed on a DC 16 Strength saving throw or the weapon becomes stuck to the tree. A stuck weapon can't be used. A creature can take its action to remove one stuck weapon from the pine doom by succeeding on a DC 16 Strength check. Splashing the pine doom with a gallon of alcohol frees all creatures and objects stuck to it and suppresses this trait for 1 minute."
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "The pine doom deals double damage to objects and structures."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 295,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_pine-doom/"
+}

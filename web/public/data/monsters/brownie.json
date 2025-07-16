@@ -1,0 +1,78 @@
+{
+  "slug": "brownie",
+  "desc": "",
+  "name": "Brownie",
+  "size": "Tiny",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Good",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 28,
+  "hit_dice": "8d4+8",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 4,
+  "dexterity": 20,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 14,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 3,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 14",
+  "languages": "Common, Sylvan",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Branch Spear",
+      "desc": "Melee or Ranged Weapon Attack: +7 to hit 5 ft. or range 20/60' one target 10 (2d4+5) piercing damage."
+    },
+    {
+      "name": "Domestic Magic",
+      "desc": "Wis no material components: At will: mending and prestidigitation"
+    },
+    {
+      "name": "Invisibility",
+      "desc": "Magically turns invisible until it attacks or uses Domestic Magic or until its concentration ends (as if concentrating on a spell). Any equipment the brownie wears or carries is invisible with it."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Speak with Beasts",
+      "desc": "Can communicate with Beasts as if they shared a language."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 68,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_brownie/"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "animated-offal",
+  "desc": "",
+  "name": "Animated Offal",
+  "size": "Huge",
+  "type": "Ooze",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 8,
+  "armor_desc": "",
+  "hit_points": 207,
+  "hit_dice": "18d12+90",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 6,
+  "constitution": 20,
+  "intelligence": 1,
+  "wisdom": 7,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -2,
+  "skills": {
+    "perception": -2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "necrotic",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+  "senses": "blindsight 120' (blind beyond), passive Perception 8",
+  "languages": "—",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Pseudopod attacks."
+    },
+    {
+      "name": "Pseudopod",
+      "desc": "Melee Weapon Attack: +8 to hit, 10 ft., one target, 11 (2d6+4) bludgeoning damage + 18 (4d8) necrotic and target is grappled (escape DC 16) if it is a Large or smaller creature and offal doesn't have two other creatures grappled. If target is holding or carrying one or more healing potions there is a 25 percent chance one potion shatters during the attack allowing animated offal to absorb the healing energy and gain the benefits of its Healing Sense."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Subsume",
+      "desc": "Begins absorbing one creature it is grappling. Creature takes 18 (4d8) necrotic (DC 17 Con half). Offal regains hp equal to half the damage dealt. If offal is at its hp max it gains temp hp for 1 hr instead. Offal can add temp hp gained from this trait to temp hp gained earlier from this trait. Temporary hp can't exceed 48. If its temp hp would exceed 48 a new animated offal appears in an unoccupied space within 5 ft. of offal. The new Ooze is Small doesn't have this bonus action and has 10 hp. Creature killed by this bonus action is fully subsumed into offal and can be restored to life only by means of a resurrection spell or similar magic."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Flowing Flesh",
+      "desc": "Can move through spaces as narrow as 6 inches wide with o squeezing."
+    },
+    {
+      "name": "Healing Sense",
+      "desc": "Can sense healing spells effects and potions within 120' of it. If the ooze is the target of a healing spell if it consumes a healing potion or if it is affected by a similar magical effect it gains a +2 bonus to its AC has advantage on Dex saves and can use its Pseudopod attack as a bonus action for 1 min."
+    },
+    {
+      "name": "Ooze Nature",
+      "desc": "Doesn't require sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 38,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_animated-offal/"
+}

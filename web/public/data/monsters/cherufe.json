@@ -1,0 +1,91 @@
+{
+  "slug": "cherufe",
+  "desc": "A humanoid torso rises from a long, arthropod body made from overlapping plates of obsidian. The creature’s face is twisted into a grimace of rage. Four arms ending in oversized fists jut from the torso. The creature’s form radiates a red glow and a palpable heat as a fire rages within it._  \n**Corrupted Keepers.** The elemental anomaly that brings a Open Game License",
+  "name": "Cherufe",
+  "size": "Huge",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 19,
+  "armor_desc": "natural armor",
+  "hit_points": 161,
+  "hit_dice": "14d12+70",
+  "speed": {
+    "walk": 40,
+    "burrow": 40
+  },
+  "strength": 22,
+  "dexterity": 10,
+  "constitution": 21,
+  "intelligence": 8,
+  "wisdom": 14,
+  "charisma": 6,
+  "strength_save": 11,
+  "dexterity_save": null,
+  "constitution_save": 10,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 7,
+  "skills": {
+    "perception": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, prone",
+  "senses": "darkvision 60 ft., tremorsense 120 ft., passive Perception 17",
+  "languages": "Ignan, Terran",
+  "challenge_rating": "14",
+  "cr": 14,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The cherufe makes four slam attacks. Alternatively, it can throw two magma balls."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 20 (4d6 + 6) bludgeoning damage.",
+      "attack_bonus": 11,
+      "damage_dice": "4d6+6"
+    },
+    {
+      "name": "Magma Ball",
+      "desc": "Ranged Weapon Attack: +11 to hit, range 60/240 ft., one target. Hit: 22 (3d10 + 6) bludgeoning damage plus 11 (2d10) fire damage. Each creature within 5 feet of the target must succeed on a DC 18 Dexterity saving throw or take 7 (2d6) fire damage.",
+      "attack_bonus": 11,
+      "damage_dice": "3d10+6"
+    },
+    {
+      "name": "Fissure",
+      "desc": "The cherufe opens a fissure in the ground within 120 feet of it that is 60 feet long, 10 feet wide, and 2d4 x 10 feet deep. Each creature standing on a spot where a fissure opens must succeed on a DC 18 Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens. A fissure that opens beneath a structure causes it to automatically collapse as if the structure was in the area of an earthquake spell. The cherufe can have only one fissure open at a time. If it opens another, the previous fissure closes, shunting all creatures inside it to the surface."
+    },
+    {
+      "name": "Quake (Recharge 6)",
+      "desc": "The cherufe slams its fists into the ground, shaking the terrain within 60 feet of it. Each creature standing on the ground in that area must make a DC 18 Dexterity saving throw. On a failure, the creature takes 45 (10d8) bludgeoning damage and is knocked prone. On a success, the creature takes half the damage and isn't knocked prone."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Firewalker",
+      "desc": "When the cherufe is subjected to fire damage, its speed doubles until the end of its next turn, and it can Dash or Disengage as a bonus action on its next turn."
+    },
+    {
+      "name": "Internal Flame",
+      "desc": "A creature that touches the cherufe or hits it with a melee attack while within 5 feet of it takes 7 (2d6) fire damage. In addition, the cherufe sheds dim light in a 30-foot radius."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 61,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_cherufe/"
+}

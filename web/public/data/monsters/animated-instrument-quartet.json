@@ -1,0 +1,91 @@
+{
+  "slug": "animated-instrument-quartet",
+  "desc": "",
+  "name": "Animated Instrument, Quartet",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 102,
+  "hit_dice": "12d10+36",
+  "speed": {
+    "walk": 30,
+    "fly": 50
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 17,
+  "intelligence": 4,
+  "wisdom": 5,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -3,
+  "skills": {
+    "perception": -3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "blindsight 60' (blind beyond), passive Perception 7",
+  "languages": "—",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Trouble Clef or Orchestra Hit attacks."
+    },
+    {
+      "name": "Trouble Clef",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 13 (4d4+3) bludgeoning damage."
+    },
+    {
+      "name": "Orchestra Hit",
+      "desc": "Ranged Spell Attack: +6 to hit, 60 ft., one target, 18 (4d6+4) thunder."
+    },
+    {
+      "name": "Musical Arrangement",
+      "desc": "The quartet plays one of the following songs:Dreadful Dirge. The quartet plays a hair-raising tune that evokes terror. Each hostile creature within 30' of the quartet must make DC 14 Wis save or be frightened until the end of its next turn.Oppressive Overture. The quartet plays a heavy melody that reverberates through nearby creatures. Each hostile creature within 30' of the quartet must make DC 14 Str save or be knocked prone.Seditious Sonata. The quartet plays a song that incites disobedience and rebellion. Each hostile creature within 30' of the quartet must make DC 14 Cha save"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Antimagic Susceptibility",
+      "desc": "The quartet is incapacitated while in the area of an antimagic field. If targeted by dispel magic the quartet must succeed on a Con save vs. the caster's spell save DC or fall unconscious for 1 min."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "The quartet doesn't require air food drink or sleep."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from group of musical instruments."
+    },
+    {
+      "name": "Four-Part Harmony",
+      "desc": "An animated quartet is always composed of four instruments that sit or hover close together acting with singular intent. If an attack deals at least 25 damage to the quartet then one of the instruments falls unconscious causing the quartet to deal one die less of damage with its Trouble Clef and Orchestra Hit actions."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 34,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_animated-instrument-quartet/"
+}

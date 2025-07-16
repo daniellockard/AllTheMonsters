@@ -1,0 +1,101 @@
+{
+  "slug": "clay_golem_bf",
+  "desc": "",
+  "name": "Clay Golem",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": "Golems",
+  "alignment": "",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 163,
+  "hit_dice": "",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 20,
+  "dexterity": 8,
+  "constitution": 18,
+  "intelligence": 2,
+  "wisdom": 8,
+  "charisma": 1,
+  "strength_save": 5,
+  "dexterity_save": -1,
+  "constitution_save": 4,
+  "intelligence_save": -4,
+  "wisdom_save": -1,
+  "charisma_save": -5,
+  "perception": 9,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "acid,Golem Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "understands the languages of its creator but can't speak",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The golem makes three Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "_Melee Weapon Attack:_ +9 to hit, reach 5 ft., one target. _Hit:_ 21 (3d10+5) bludgeoning, piercing, or slashing damage, as determined by Mold Hand. The target must succeed on a DC 16 STR save or suffer an effect based on the type of damage: knocked prone (bludgeoning), pushed up to 10 feet away from the golem (piercing), or its speed is reduced by 10 feet until the end of its next turn (slashing)."
+    },
+    {
+      "name": "Haste (Recharge 5-6)",
+      "desc": "Until the end of its next turn, the golem magically gains a +2 bonus to its AC, has advantage on DEX saves, and can make a Slam attack as a bonus action."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Mold Hand",
+      "desc": "The clay golem molds its hand into the shape of a weapon or back into a hand. The golem's Slam attack deals bludgeoning, piercing, or slashing damage, depending on the type of weapon chosen, until the golem uses this bonus action again. For example, a hand shaped like an axe deals slashing damage."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Acid Absorption",
+      "desc": "Whenever the golem is subjected to acid damage, it takes no damage and instead regains HP equal to the acid damage dealt."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "The golem doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Fire Weakness",
+      "desc": "When the clay golem takes fire damage, its body temporarily hardens like baked clay. Until the end of its next turn, the golem's speed is reduced by 10 feet, it can't use Mold Hand, and its AC becomes 18."
+    },
+    {
+      "name": "Golem Resilience",
+      "desc": "The golem is immune to poison and psychic damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks. In addition, it is immune to exhaustion and to the charmed, frightened, paralyzed, petrified, and poisoned conditions."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "The golem is immune to any spell or effect that would alter its form."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The golem has advantage on saves against spells and other magical effects."
+    },
+    {
+      "name": "Magic Weapons",
+      "desc": "The golem's weapon attacks are magical."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_clay-golem/"
+}

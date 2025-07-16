@@ -1,0 +1,78 @@
+{
+  "slug": "púca",
+  "desc": "",
+  "name": "Púca",
+  "size": "Large",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 142,
+  "hit_dice": "19d10+38",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 19,
+  "dexterity": 14,
+  "constitution": 15,
+  "intelligence": 12,
+  "wisdom": 10,
+  "charisma": 18,
+  "strength_save": 7,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 7,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "nonmagic B/P/S attacks not made w/cold iron weapons",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 30', passive Perception 13",
+  "languages": "Sylvan, Umbral",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Chain Whip attacks and one Hooves attack."
+    },
+    {
+      "name": "Chain Whip",
+      "desc": "Melee Weapon Attack: +7 to hit, 15 ft., one target, 15 (2d10+4) bludgeoning damage and target grappled (escape DC 15) if it is a Med or smaller creature and púca doesn't have 2 others grappled. Until grapple ends target restrained."
+    },
+    {
+      "name": "Hooves",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 13 (2d8+4) bludgeoning damage and target must make DC 15 Str save or be knocked prone."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Beguiling Aura",
+      "desc": "The mere sight of the púca is a temptation for road-weary travelers. Whenever a creature that can see it starts its turn within 30' of it creature is charmed 1 min (DC 15 Wis negates). A charmed creature must take Dash action and move toward púca by safest available route on each of its turns trying to get within 5 ft. of the horse to mount it. Each time creature takes damage and at end of each of its turns it can re-save ending effect on itself on success. If creature's save succeeds or effect ends creature immune to púca's Beguiling Aura next 24 hrs."
+    },
+    {
+      "name": "Nightmarish Ride",
+      "desc": "If a creature mounts the púca creature paralyzed and restrained by chains on púca's back until the next dawn (DC 15 Cha negates paralysis and restrained). While it has a rider captured this way púca takes Dash or Disengage actions on each of its turns to flee with rider. After it moves 100' it disappears with captured rider magically racing along a nightmarish landscape. At the next dawn it returns to the space where it disappeared or the nearest unoccupied space the rider lands in an unoccupied space within 5 ft. of púca and púca flees. At the end of the ride rider suffers one level of exhaustion."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 321,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_puca/"
+}

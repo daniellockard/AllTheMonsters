@@ -1,0 +1,87 @@
+{
+  "slug": "caldera-kite",
+  "desc": "",
+  "name": "Caldera Kite",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 119,
+  "hit_dice": "14d10+42",
+  "speed": {
+    "walk": 0,
+    "fly": 60
+  },
+  "strength": 18,
+  "dexterity": 19,
+  "constitution": 16,
+  "intelligence": 3,
+  "wisdom": 12,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "acid, fire, poison",
+  "condition_immunities": "exhaustion, poisoned",
+  "senses": "passive Perception 14",
+  "languages": "—",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Wings or one Wings and one Proboscis."
+    },
+    {
+      "name": "Proboscis",
+      "desc": "Melee Weapon Attack: +7 to hit, 10 ft., one target, 11 (2d6+4) piercing damage. Target is grappled (escape DC 17) if it is a Med or smaller creature and kite doesn't have another creature grappled. Until grapple ends creature is restrained caldera kite can automatically hit target with its Proboscis and kite can't make Proboscis attacks vs. other targets."
+    },
+    {
+      "name": "Wings",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 11 (2d6+4) slashing damage and 7 (2d6) poison."
+    },
+    {
+      "name": "Dust Cloud (Recharge 4-6)",
+      "desc": "Kite thrashes its body and releases stored toxic gases. Each creature within 20' of kite: 28 (8d6) poison (DC 14 Con half). Creature that fails save can't speak and is suffocating until it is no longer within 20' of caldera kite."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Firesight",
+      "desc": "Can see through areas obscured by fire smoke and fog with o penalty."
+    },
+    {
+      "name": "Flyby",
+      "desc": "Doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+    },
+    {
+      "name": "Sulfuric Haze",
+      "desc": "A glittering haze emanates from it within 10 ft. of it. Haze moves with kite lightly obscuring area. If dispersed by a wind of moderate or greater speed (10+ miles per hr) haze reappears at start of kite's next turn. When a creature enters haze's area for first time on a turn or starts its turn there that creature: 7 (2d6) poison and is poisoned until end of its next turn (DC 14 Con half damage and isn't poisoned). If a creature's save is successful it is immune to Sulphuric Haze of all caldera kites for 1 min."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 71,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_caldera-kite/"
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "imperator",
+  "desc": "",
+  "name": "Imperator",
+  "size": "Huge",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 216,
+  "hit_dice": "16d12+112",
+  "speed": {
+    "walk": 30,
+    "swim": 90
+  },
+  "strength": 20,
+  "dexterity": 10,
+  "constitution": 24,
+  "intelligence": 7,
+  "wisdom": 12,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": 4,
+  "constitution_save": null,
+  "intelligence_save": 2,
+  "wisdom_save": null,
+  "charisma_save": 6,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "cold",
+  "condition_immunities": "",
+  "senses": "passive Perception 15",
+  "languages": "understands Common but can't speak",
+  "challenge_rating": "11",
+  "cr": 11,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Beak attack and two Wing Slap attacks."
+    },
+    {
+      "name": "Beak",
+      "desc": "Melee Weapon Attack: +9 to hit, 10 ft., one target, 24 (3d12+5) piercing damage. If target is a Large or smaller creature it must make DC 17 Dex save or be swallowed by the imperator. A swallowed creature is blinded and restrained it has total cover vs. attacks and other effects outside the imperator and it takes 21 (6d6) acid at the start of each of the imperator's turns. If the imperator takes 30 damage or more on a single turn from a creature inside it the imperator must make DC 17 Con save at the end of that turn or regurgitate all swallowed creatures which fall prone in a space within 10 ft. of the imperator. If the imperator dies a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 ft. of movement exiting prone."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Muster the Legions (1/Day)",
+      "desc": "When the imperator is reduced to half its hp or lower it magically calls 1d4 swarms of penguins. The penguins arrive on initiative count 20 of the next round acting as allies of the imperator and obeying its telepathic commands. The penguins remain for 1 hr until the imperator dies or until the imperator dismisses them as a bonus action."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Essential Oiliness",
+      "desc": "Has advantage on saves and ability checks made to escape a grapple or end restrained condition."
+    },
+    {
+      "name": "Hold Breath",
+      "desc": "Can hold its breath for 1 hr."
+    },
+    {
+      "name": "Penguin Telepathy",
+      "desc": "Can magically command any penguin within 120' of it using a limited telepathy."
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "Double damage to objects/structures."
+    },
+    {
+      "name": "Wing Slap",
+      "desc": "Melee Weapon Attack: +9 to hit, 10 ft., one target, 16 (2d10+5) bludgeoning damage."
+    },
+    {
+      "name": "Pelagic Bile (Recharge 6)",
+      "desc": "The imperator regurgitates its stomach contents in a 60' cone. All in area make a DC 17 Dex save. On a failure a creature takes 17 (5d6) acid and 17 (5d6) poison and is poisoned for 1 min. On a success a creature takes half the damage and isn't poisoned. A poisoned creature can re-save at end of each of its turns success ends effect on itself. Swallowed creatures are then regurgitated falling prone in a space within 10 ft. of the imperator."
+    },
+    {
+      "name": "Toboggan Charge (Recharge 5-6)",
+      "desc": "The imperator moves up to 30' in a straight line over ice or snow and can move through the space of any Large or smaller creature. The first time it enters a creature's space during this move that creature must make a DC 17 Str save. On a failure a creature takes 36 (8d8) bludgeoning damage and is knocked prone. On a success a creature takes half the damage and isn't knocked prone."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 242,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_imperator/"
+}

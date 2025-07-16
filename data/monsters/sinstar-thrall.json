@@ -1,0 +1,74 @@
+{
+  "slug": "sinstar-thrall",
+  "desc": "",
+  "name": "Sinstar Thrall",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 58,
+  "hit_dice": "9d8+18",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 17,
+  "dexterity": 10,
+  "constitution": 15,
+  "intelligence": 3,
+  "wisdom": 10,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, fire",
+  "damage_immunities": "poison",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, poisoned",
+  "senses": "blindsight 60' (blind beyond), passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one creature,. 7 (1d8+3) bludgeoning damage + 3 (1d6) piercing damage."
+    },
+    {
+      "name": "Shoot Spines (Recharge 5-6)",
+      "desc": "Sprays spines in a burst around itself. Each creature within 15 ft. of it must make a DC 13 Dex save. On a failure a creature takes 10 (3d6) piercing damage and is paralyzed until the end of its next turn. On a success a creature takes half the damage and isn't paralyzed."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Spiny Defense",
+      "desc": "A creature that touches the star thrall or hits it with melee attack while within 5 ft. of it takes 3 (1d6) piercing damage and must make DC 13 Con save or be paralyzed until the end of its next turn."
+    },
+    {
+      "name": "Telepathic Bond",
+      "desc": "While the star thrall is on the same plane of existence as the sinstar that created it the star thrall can magically convey what it senses to the sinstar and the two can communicate telepathically."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 345,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_sinstar-thrall/"
+}

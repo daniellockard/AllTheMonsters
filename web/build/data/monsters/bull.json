@@ -1,0 +1,72 @@
+{
+  "slug": "bull",
+  "desc": "Bulky quadrupeds with vicious horns, bulls are territorial beasts known to charge creatures that they perceive as challenges.",
+  "name": "Bull",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "armor_desc": null,
+  "hit_points": 25,
+  "hit_dice": "3d10+9",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 2,
+  "wisdom": 9,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 9",
+  "languages": "—",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Hooves",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage.",
+      "attack_bonus": 4,
+      "damage_dice": "2d4+4"
+    },
+    {
+      "name": "Gore",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "2d6+4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Charge",
+      "desc": "If the bull moves at least 30 feet in a straight line toward a target and then hits it with a gore attack on the same turn, the target takes an extra 3 (1d6) piercing damage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 169,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_bull/"
+}

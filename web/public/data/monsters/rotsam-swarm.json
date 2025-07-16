@@ -1,0 +1,75 @@
+{
+  "slug": "rotsam-swarm",
+  "desc": "A quivering glob wraps around a corpse’s arm. Though the corpse is already decaying, the glob seems to accelerate the rot._  \n**Expediter of Decay.** The rotsam feeds on rotting flesh, encouraging decay in already rotten corpses and initiating decay in previously preserved corpses. Unfortunately, the rotsam can affect living tissue just as well and makes no distinction between the two.  \n**Leechlike Underwater Dwellers.** Rotsams attach to their prey like leeches, but they are considerably more difficult to remove than ordinary leeches.  \n**Favored of Rot Cults.** Cultists devoted to deities of disease, death, and decay “raise” rotsams for use in their sacrificial rituals.  \n**Ooze Nature.** A rotsam doesn’t require sleep.",
+  "name": "Rotsam Swarm",
+  "size": "Large",
+  "type": "Ooze",
+  "subtype": "Swarm",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 9,
+  "armor_desc": null,
+  "hit_points": 142,
+  "hit_dice": "15d10+60",
+  "speed": {
+    "walk": 10,
+    "swim": 30
+  },
+  "strength": 19,
+  "dexterity": 8,
+  "constitution": 18,
+  "intelligence": 1,
+  "wisdom": 9,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, slashing",
+  "damage_immunities": "necrotic",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 9",
+  "languages": "—",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Diseased Bites",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 0 ft., one creature in the swarm's space. Hit: 10 (4d4) piercing damage plus 21 (6d6) necrotic damage, or 5 (2d4) piercing damage and 10 (3d6) necrotic damage if the swarm has half of its hp or fewer. The target must make a DC 15 Constitution saving throw or contract a disease (see the Bog Rot trait).",
+      "attack_bonus": 7,
+      "damage_dice": "4d4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Bog Rot",
+      "desc": "A creature that fails its saving throw against the rotsam's diseased bite attack becomes infected with the bog rot disease. Until the disease is cured, the infected creature's skin breaks out in a rot-like rash that slowly spreads across its body, and its hp maximum decreases by 7 (2d6) for every 24 hours that elapse. After the first 24 hours, the creature's skin starts to smell like rot, and creatures have advantage on Wisdom (Perception) and Wisdom (Survival) checks to find the infected creature. The reduction and rot smell last until the disease is cured. The creature dies if the disease reduces its hp maximum to 0."
+    },
+    {
+      "name": "Spider Climb",
+      "desc": "The rotsam can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rotsam. The swarm can't regain hp or gain temporary hp."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 309,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_rotsam-swarm/"
+}

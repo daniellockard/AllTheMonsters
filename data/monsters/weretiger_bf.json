@@ -1,0 +1,93 @@
+{
+  "slug": "weretiger_bf",
+  "desc": "",
+  "name": "Weretiger",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Lycanthrope",
+  "group": "Lycanthropes",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 95,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 18,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": 3,
+  "dexterity_save": 4,
+  "constitution_save": 3,
+  "intelligence_save": 0,
+  "wisdom_save": 1,
+  "charisma_save": 0,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning,piercing,and slashing damage from nonmagical attacks",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common (can't speak in tiger form)",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack (Humanoid or Hybrid Form Only)",
+      "desc": "The weretiger makes four Claw or Scimitar attacks, or it makes four Longbow attacks. It can replace one attack with a Bite attack, provided it is in the appropriate form."
+    },
+    {
+      "name": "Bite (Tiger or Hybrid Form Only)",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 8 (1d10+3) piercing damage. If the target is a Humanoid, it must succeed on a DC 13 CON save or be cursed with the weretiger lycanthropy curse (see Curse of Lycanthropy sidebar)."
+    },
+    {
+      "name": "Claw (Tiger or Hybrid Form Only)",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8+3) slashing damage."
+    },
+    {
+      "name": "Scimitar (Humanoid or Hybrid Form Only)",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. _Hit:_ 6 (1d6+3) slashing damage."
+    },
+    {
+      "name": "Longbow (Humanoid or Hybrid Form Only)",
+      "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. _Hit:_ 6 (1d8+2) piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Bleed Prey",
+      "desc": "The weretiger chooses a creature it can see within 30 feet of it to be its prey until the prey dies, until the weretiger dies, or until the weretiger uses this bonus action on another creature. While within 60 feet of its prey, the weretiger can pinpoint its prey's location. In addition, if the weretiger hits the prey with at least two melee weapon attacks, the weretiger rends the prey's flesh, and the prey must succeed on a DC 13 CON save or lose 7 (2d6) HP at the start of its next turn, as the wound bleeds excessively."
+    },
+    {
+      "name": "Change Shape",
+      "desc": "The weretiger transforms into a Large tiger, a Medium tiger-humanoid hybrid, or back into its true form, which is Humanoid. Its statistics, other than its size and speed, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Heightened Hearing and Smell",
+      "desc": "The weretiger's Perception is 18 when perceiving by hearing or smell."
+    },
+    {
+      "name": "Pounce (Tiger or Hybrid Form Only)",
+      "desc": "If the weretiger moves at least 15 feet straight toward a creature and then hits it with a Claw attack on the same turn, that target must succeed on a DC 14 STR save or be knocked prone. If the target is prone, the weretiger can make one Bite or Claw attack against it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_weretiger/"
+}

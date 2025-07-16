@@ -1,0 +1,82 @@
+{
+  "slug": "veteran-swordbreaker-skeleton",
+  "desc": "Tougher than a typical animated skeleton, these undead are raised from skeletal remains that have fossilized._  \n**Bones of Stone.** The swordbreaker skeleton’s bones have fossilized and become stony. Most weapons shatter against these bones, but the fossilization makes the skeletons more susceptible to magic that harms stone or that causes concussive bursts of sound.  \n**Undead Nature.** A swordbreaker skeleton doesn’t require air, food, drink, or sleep.",
+  "name": "Veteran Swordbreaker Skeleton",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 78,
+  "hit_dice": "12d8+24",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 13,
+  "constitution": 14,
+  "intelligence": 6,
+  "wisdom": 8,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "thunder",
+  "damage_resistances": "piercing, slashing",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 9",
+  "languages": "understands all languages it knew in life but can’t speak",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The veteran swordbreaker skeleton makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+    },
+    {
+      "name": "Longsword",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
+      "attack_bonus": 5,
+      "damage_dice": "1d8+3"
+    },
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d6+3"
+    },
+    {
+      "name": "Heavy Crossbow",
+      "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.",
+      "attack_bonus": 3,
+      "damage_dice": "1d10+1"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Fossilized Bones",
+      "desc": "Any nonmagical slashing or piercing weapon made of metal or wood that hits the swordbreaker skeleton cracks. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits the swordbreaker skeleton is destroyed after dealing damage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 332,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_veteran-swordbreaker-skeleton/"
+}

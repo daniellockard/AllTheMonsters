@@ -1,0 +1,97 @@
+{
+  "slug": "crystallinedevil-tob1-2023",
+  "desc": "False",
+  "name": "Crystalline Devil",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Lawful Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 102,
+  "hit_dice": "12d8 + 48",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 12,
+  "constitution": 18,
+  "intelligence": 14,
+  "wisdom": 13,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 4,
+  "charisma_save": 5,
+  "perception": 11,
+  "skills": {
+    "Deception": 8,
+    "Insight": 4,
+    "Stealth": 7
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 11",
+  "languages": "Celestial, Common, Infernal, telepathy 120 ft.",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The devil makes three Claw attacks."
+    },
+    {
+      "name": "Shard Claw (Fiend Form Only)",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage."
+    },
+    {
+      "name": "Crystalline Spray (Recharge 5-6)",
+      "desc": "The crystalline devil sprays a burst of crystal shards. Each creature within 15 feet of the devil must make a DC 15 Dexterity saving throw, taking 27 (6d8) piercing damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Betraying Carbuncle",
+      "desc": "The crystalline devil magically transforms into a Small or smaller gemstone or back into its true form, which is a Fiend. Its statistics, other than its size, are the same in each form, except it can't move or speak when in its gemstone form. Any equipment it is wearing or carrying transforms with it. It reverts to its true from if it dies."
+    },
+    {
+      "name": "Summon Devil (1/Day)",
+      "desc": "The crystalline devil magically calls one jewel-encrusted, fiendish animated armor that has the crystalline devil's damage resistances and immunities. The crystalline devil has a 25 percent chance of calling one crystalline devil instead. The called creature arrives in 1d4 rounds, acting as an ally of the devil and obeying its telepathic commands. The creature remains for 1 hour, until the devil dies, or until the devil dismisses it as a bonus action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the crystalline devil's darkvision."
+    },
+    {
+      "name": "False Appearance (Gemstone Form Only)",
+      "desc": "While the devil remains motionless, it is indistinguishable from an ordinary gemstone."
+    },
+    {
+      "name": "Glittering Temptation (Gemstone Form Only)",
+      "desc": "The devil sheds dim light in a 5-foot radius. Each creature that starts its turn within 30 feet of the devil and that can see it must succeed on a DC 15 Wisdom saving throw or be charmed for 1 minute. While charmed, a creature is incapacitated and must move on its turn toward the devil by the safest route, trying to get within 5 feet of the devil to hold it. The charmed creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a success, a creature is also immune to this devil's Glittering Temptation for the next 24 hours. A creature charmed by the devil has disadvantage on the saving throw against Crystalline Spray."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The crystalline devil has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 94,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_crystalline-devil/"
+}

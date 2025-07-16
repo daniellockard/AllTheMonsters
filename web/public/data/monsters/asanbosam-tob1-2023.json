@@ -1,0 +1,81 @@
+{
+  "slug": "asanbosam-tob1-2023",
+  "desc": "False",
+  "name": "Asanbosam",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 102,
+  "hit_dice": "12d10 + 36",
+  "speed": {
+    "walk": 15
+  },
+  "strength": 18,
+  "dexterity": 13,
+  "constitution": 17,
+  "intelligence": 11,
+  "wisdom": 10,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 13,
+  "skills": {
+    "Acrobatics": 4,
+    "Perception": 3,
+    "Stealth": 4
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "Giant",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The asanbosam makes one Bite attack and one Claws attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or take 11 (2d10) poison damage and contract a disease. Until the disease ends, the creature is poisoned. Every 24 hours that elapse, the infected creature must repeat the saving throw. On a success, the disease ends. On a failure, the creature's hp maximum is reduced by 5 (1d10). This reduction lasts until the disease ends. The target dies if its hp maximum is reduced to 0."
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 20 (3d10 + 4) piercing damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the asanbosam can't use its Claws on another target. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or contract the disease described in the Bite attack."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Arboreal Escape",
+      "desc": "While in a tree, the asanbosam takes the Disengage or Hide action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Spider Climb",
+      "desc": "The asanbosam can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 27,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_asanbosam/"
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "aphasian-abomination",
+  "desc": "",
+  "name": "Aphasian Abomination",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 170,
+  "hit_dice": "20d10+60",
+  "speed": {
+    "walk": 0,
+    "fly": 60
+  },
+  "strength": 1,
+  "dexterity": 20,
+  "constitution": 16,
+  "intelligence": 17,
+  "wisdom": 20,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": 9,
+  "constitution_save": null,
+  "intelligence_save": 7,
+  "wisdom_save": 9,
+  "charisma_save": null,
+  "perception": 5,
+  "skills": {
+    "perception": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison, psychic; nonmagic bludgeoning, piercing, and slashing attacks",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone",
+  "senses": "darkvision 120', passive Perception 19",
+  "languages": "Common, telepathy 120'",
+  "challenge_rating": "10",
+  "cr": 10,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Force Blast attacks."
+    },
+    {
+      "name": "Force Blast",
+      "desc": "Melee or Ranged Spell Attack: +9 to hit 5 ft. or range 120' one target 23 (4d8+5) force."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amorphous",
+      "desc": "Move through space 1ft.+ wide with o squeezing."
+    },
+    {
+      "name": "Aphasic Field",
+      "desc": "Generates a field of psychic distortion around itself. Each creature that starts its turn within 60' of abomination: DC 17 Int save or lose ability to speak coherently saying coherent words that make no sense in context instead of what it intends to say. If creature attempts to cast a spell with verbal components it fails taking 9 (2d8) psychic per spell level of spell it attempted to cast and expends spell slot."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "Immune: form-altering spells/effects."
+    },
+    {
+      "name": "Made of Magic",
+      "desc": "Is formed of magical energy. It temporarily winks out of existence when inside an antimagic field instantly reappearing once space it occupied is no longer within area of effect. If targeted by dispel magic: 21 (6d6) damage + extra 7 (2d6) psychic for each spell level beyond 3rd if spell is cast using a higher spell slot."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 39,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_aphasian-abomination/"
+}

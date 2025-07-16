@@ -1,0 +1,79 @@
+{
+  "slug": "broodiken-tob1-2023",
+  "desc": "False",
+  "name": "Broodiken",
+  "size": "Tiny",
+  "type": "Construct",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 44,
+  "hit_dice": "8d4 + 24",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 8,
+  "dexterity": 14,
+  "constitution": 16,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 14,
+  "skills": {
+    "Perception": 4,
+    "Stealth": 6
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "—",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) piercing damage, and the broodiken attaches to the target. While attached, the broodiken can't attack, and at the start of each of the broodiken's turns, the target takes 9 (2d6 + 2) piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Construct Nature",
+      "desc": "The broodiken doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "The broodiken is immune to any spell or effect that would alter its form."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The broodiken has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Shared Rage",
+      "desc": "The broodiken can't speak with its creator telepathically, but it can magically receive simple ideas, emotions, and images telepathically from its creator while within 100 feet of its creator. The creator can send the broodiken an image of a creature and emotion or simple idea tied to it, such as anger or retrieval, and the broodiken will seek the creature to carry out the emotion or desire. As long as the broodiken is following such an order, it can be more than 100 feet away from its master without wailing."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 43,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_broodiken/"
+}

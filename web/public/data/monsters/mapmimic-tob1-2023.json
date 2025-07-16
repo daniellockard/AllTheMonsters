@@ -1,0 +1,74 @@
+{
+  "slug": "mapmimic-tob1-2023",
+  "desc": "False",
+  "name": "Map Mimic",
+  "size": "Tiny",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 22,
+  "hit_dice": "5d4 + 10",
+  "speed": {
+    "walk": 15,
+    "fly": 30
+  },
+  "strength": 7,
+  "dexterity": 15,
+  "constitution": 14,
+  "intelligence": 5,
+  "wisdom": 13,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "acid",
+  "condition_immunities": "prone",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "—",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Pseudopod",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage, and it attaches to the target. While attached, the mimic can't attack, the target is blinded, and at the start of each of the mimic's turns, the target takes 5 (1d6 + 2) bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "The mimic transforms into a Tiny object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "False Appearance (Object Form Only)",
+      "desc": "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+    },
+    {
+      "name": "Life Path",
+      "desc": "Regardless of the form it takes, the map mimic can make a map on its surface (no action required) that shows the route it has traveled since it left its parent mimic. The map shows terrain features and landmarks of where it has been, but doesn't show the names of those places."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 269,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_map-mimic/"
+}

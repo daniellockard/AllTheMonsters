@@ -1,0 +1,83 @@
+{
+  "slug": "steam_mephit_bf",
+  "desc": "",
+  "name": "Steam Mephit",
+  "size": "Small",
+  "type": "Elemental",
+  "subtype": "",
+  "group": "Mephits",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 27,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "fly": 30,
+    "hover": true
+  },
+  "strength": 4,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 6,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": -3,
+  "dexterity_save": 2,
+  "constitution_save": 0,
+  "intelligence_save": -2,
+  "wisdom_save": 1,
+  "charisma_save": 0,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "cold,thunder",
+  "damage_resistances": "",
+  "damage_immunities": "fire,poison,poisoned,prone",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Aquan,Ignan",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Claws",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 4 (1d4+2) slashing damage plus 2 (1d4) fire damage."
+    },
+    {
+      "name": "Steam Blast",
+      "desc": "_Ranged Weapon Attack:_ +4 to hit, range 20/60 ft., one target. _Hit:_ 4 (1d4+2) bludgeoning damage plus 2 (1d4) fire damage"
+    },
+    {
+      "name": "Steam Breath (Recharge 6)",
+      "desc": "The mephit exhales superheated breath in a 15-foot cone. Each creature in that area must make a DC 11 CON save. On a failure, a creature takes 5 (2d4) fire damage and suffers one level of exhaustion. On a success, a creature takes half the damage and doesn't suffer exhaustion. A creature can't suffer more than two levels of exhaustion from a steam mephit's Steam Breath, regardless of the number of times it fails the save or the number of steam mephits using Steam Breath against it."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Hazy Form (1/Day)",
+      "desc": "The mephit casts the blur spell, requiring no material components and using WIS as the spellcasting ability."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Death Burst",
+      "desc": "When the mephit dies, it explodes in a cloud of steam. Each creature within 5 feet of the mephit must succeed on a DC 11 DEX save or be scalded for 1 minute. A scalded creature has disadvantage on weapon attack rolls and on ability checks that require manual dexterity. A scalded creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While the mephit remains motionless and hovering, it is indistinguishable from an ordinary cloud of steam."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_steam-mephit/"
+}

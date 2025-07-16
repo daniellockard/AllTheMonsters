@@ -1,0 +1,102 @@
+{
+  "slug": "spymaster-a5e",
+  "desc": "",
+  "name": "Spymaster",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 16,
+  "armor_desc": "",
+  "hit_points": 97,
+  "hit_dice": "15d8+30",
+  "speed": {
+    "walk": 35
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 14,
+  "intelligence": 12,
+  "wisdom": 12,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": 4,
+  "wisdom_save": 4,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "acrobatics": 6,
+    "deception": 4,
+    "perception": 4,
+    "stealth": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 10 ft., darkvision 30 ft., passive Perception 14",
+  "languages": "any two",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    {
+      "name": "Hand Crossbow",
+      "desc": "Ranged Weapon Attack: +6 to hit, range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Cunning Action",
+      "desc": "The assassin takes the Dash, Disengage, Hide, or Use an Object action."
+    },
+    {
+      "name": "Rapid Attack",
+      "desc": "The assassin attacks with their shortsword."
+    },
+    {
+      "name": "Don Disguise",
+      "desc": "The spymaster uses a disguise kit, making a Deception check to create the disguise. While the spymaster is wearing a disguise, their true identity can't be determined even if the disguise fails."
+    },
+    {
+      "name": "Study Adversary",
+      "desc": "The spymaster studies the defenses of a creature engaged in combat. The spymaster gains advantage on all attacks and contested ability checks against that creature for 24 hours or until they study a different creature."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Assassinate",
+      "desc": "During the first turn of combat, the assassin has advantage on attack rolls against any creature that hasnt acted. On a successful hit, each creature of the assassins choice that can see the assassins attack is rattled until the end of the assassins next turn."
+    },
+    {
+      "name": "Dangerous Poison",
+      "desc": "As part of making an attack, the assassin can apply a dangerous poison to their weapon (included below). The assassin carries 3 doses of this poison. A single dose can coat one melee weapon or up to 5 pieces of ammunition."
+    },
+    {
+      "name": "Evasion",
+      "desc": "When the assassin makes a Dexterity saving throw against an effect that deals half damage on a success, they take no damage on a success and half damage on a failure."
+    },
+    {
+      "name": "Sneak Attack (1/Turn)",
+      "desc": "The assassin deals an extra 21 (6d6) damage when they hit with a weapon attack while they have advantage on the attack, or when the assassins target is within 5 feet of an ally of the assassin while the assassin doesnt have disadvantage on the attack."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 468,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_spymaster/"
+}

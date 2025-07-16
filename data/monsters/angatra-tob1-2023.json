@@ -1,0 +1,79 @@
+{
+  "slug": "angatra-tob1-2023",
+  "desc": "False",
+  "name": "Angatra",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 85,
+  "hit_dice": "10d8 + 40",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 14,
+  "dexterity": 20,
+  "constitution": 18,
+  "intelligence": 8,
+  "wisdom": 12,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 14,
+  "skills": {
+    "Perception": 4,
+    "Stealth": 8
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "poison",
+  "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "the languages it knew in life",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The angatra makes two Claw attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 14 (2d8 + 5) piercing damage, and the creature must succeed on a DC 15 Constitution saving throw or be paralyzed by pain until the end of its next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Agonizing Gaze",
+      "desc": "When a creature that can see the angatra's eyes starts its turn within 30 feet of the angatra, the angatra can force it to make a DC 13 Charisma saving throw if the angatra isn't incapacitated and can see the creature. On a failed saving throw, the creature's pain threshold lowers, and it becomes vulnerable to all damage types until the end of its next turn."
+    },
+    {
+      "name": "Ancestral Wrath",
+      "desc": "The angatra immediately recognizes any individual descended from its tribe. It has advantage on attack rolls against such creatures, and those creatures have disadvantage on saving throws against the angatra's traits and attacks."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The angatra doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 17,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_angatra/"
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "giant-walking-stick",
+  "desc": "",
+  "name": "Giant Walking Stick",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 76,
+  "hit_dice": "9d10+27",
+  "speed": {
+    "walk": 30,
+    "climb": 40,
+    "fly": 15
+  },
+  "strength": 17,
+  "dexterity": 14,
+  "constitution": 16,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "tremorsense 30', passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Spines or one Ram and one Spine."
+    },
+    {
+      "name": "Ram",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 14 (2d10+3) bludgeoning damage."
+    },
+    {
+      "name": "Spine",
+      "desc": "Melee Weapon Attack: +5 to hit, 10 ft., one target, 6 (1d6+3) piercing damage + 7 (2d6) poison."
+    },
+    {
+      "name": "Deadfall (Recharge 5-6)",
+      "desc": "If stick is 15 ft.+ off the ground can fall to the ground landing on its feet in a space it can see within 20' of it that contains 1+ other creatures. Each of them: 21 (6d6) bludgeoning damage and knocked prone (DC 13 Dex half not knocked prone and pushed 5 ft. out of stick's space into unoccupied space of creature's choice). Also each creature within 10 ft. of stick when it lands: 10 (3d6) bludgeoning damage and knocked prone (DC 13 Dex negates both)."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Startling Display",
+      "desc": "Each creature within 5 ft. of the stick: DC 13 Int save or be incapacitated until end of its next turn. The walking stick then flies up to its flying speed with o provoking opportunity attacks."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from normal forest vegetation. Ex: small tree large branch."
+    },
+    {
+      "name": "Forest Camouflage",
+      "desc": "Has advantage on Dex (Stealth) checks made to hide in forested terrain."
+    },
+    {
+      "name": "Trampling Charge",
+      "desc": "If it moves 20'+ straight toward a creature and then hits it with Ram attack on same turn target: DC 13 Str save or be knocked prone. If target is prone stick can make one Spine attack vs. it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 201,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_giant-walking-stick/"
+}

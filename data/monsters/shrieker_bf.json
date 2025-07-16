@@ -1,0 +1,78 @@
+{
+  "slug": "shrieker_bf",
+  "desc": "",
+  "name": "Shrieker",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "",
+  "group": "Fungi",
+  "alignment": "",
+  "armor_class": 5,
+  "armor_desc": null,
+  "hit_points": 7,
+  "hit_dice": "",
+  "speed": {
+    "walk": 10
+  },
+  "strength": 1,
+  "dexterity": 1,
+  "constitution": 10,
+  "intelligence": 1,
+  "wisdom": 2,
+  "charisma": 1,
+  "strength_save": -5,
+  "dexterity_save": -5,
+  "constitution_save": 0,
+  "intelligence_save": -5,
+  "wisdom_save": -4,
+  "charisma_save": -5,
+  "perception": 6,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "thunder,Plant Resilience",
+  "damage_immunities": "blinded,deafened,frightened",
+  "condition_immunities": "",
+  "senses": "keensense 30 ft. (blind beyond this radius)",
+  "languages": "-",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Thunderous Burst",
+      "desc": "The shrieker emits a concentrated burst of sound at one creature it can sense within 30 feet of it. The target must make a DC 10 DEX save, taking 2 (1d4) thunder damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shriek",
+      "desc": "The shrieker emits a high-pitched shriek audible within 300 feet of it. Each creature within 30 feet of it that isn't a Plant and that can hear the shriek must succeed on a DC 10 WIS save or be frightened until the shriek ends. The shrieker must use a bonus action on its subsequent turns to continue shrieking. It can stop shrieking at any time. The shriek ends if the shrieker is incapacitated.<br>A frightened creature can repeat the save at the end of each of its turns, ending the effect on itself on a success. A creature that successfully saves is immune to the frightened effect of this shrieker's Shriek for the next 24 hours."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Startled Shriek",
+      "desc": "When bright light or a creature other than a Plant moves to within 30 feet of the shrieker, the shrieker can use Shriek, if it isn't already shrieking."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While the shrieker remains motionless, it is indistinguishable from an ordinary fungus."
+    },
+    {
+      "name": "Plant Resilience",
+      "desc": "The shrieker is resistant to exhaustion and to the paralyzed, petrified, and unconscious conditions."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_shrieker/"
+}

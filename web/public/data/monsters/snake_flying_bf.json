@@ -1,0 +1,71 @@
+{
+  "slug": "snake_flying_bf",
+  "desc": "",
+  "name": "Snake, Flying",
+  "size": "Tiny",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": null,
+  "hit_points": 10,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "fly": 60,
+    "swim": 30
+  },
+  "strength": 4,
+  "dexterity": 12,
+  "constitution": 10,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 4,
+  "strength_save": -3,
+  "dexterity_save": 1,
+  "constitution_save": 0,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -3,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "keensense 10 ft.",
+  "languages": "-",
+  "challenge_rating": "1/8",
+  "cr": 0.125,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one creature. _Hit:_ 3 (1d4+1) piercing damage, and the target must succeed on a DC 11 CON save or take 5 (2d4) poison damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Reflexive Escape",
+      "desc": "When a creature the snake can see attacks it, the snake can move up to 5 feet. If this movement puts the snake out of reach of the attack, the attack misses."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Flyby",
+      "desc": "The snake doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_snake-flying/"
+}

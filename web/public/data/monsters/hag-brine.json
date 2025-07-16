@@ -1,0 +1,103 @@
+{
+  "slug": "hag-brine",
+  "desc": "",
+  "name": "Hag, Brine",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 150,
+  "hit_dice": "20d8 +60",
+  "speed": {
+    "walk": 15,
+    "swim": 40
+  },
+  "strength": 17,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 14,
+  "wisdom": 16,
+  "charisma": 19,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "perception": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, poisoned",
+  "senses": "darkvision 120', passive Perception 17",
+  "languages": "Aquan, Common, Sylvan",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Claw attacks and one Tail Slap attack."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 12 (2d8+3) slashing damage + 7 (2d6) poison. Target incapacitated until the end of its next turn (DC 16 Con not incapacitated). If it fails the save by 5+ it is paralyzed instead."
+    },
+    {
+      "name": "Tail Slap",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 16 (2d12 +3) bludgeoning damage and target must make DC 16 Str save or pushed up to 10 ft. away from the hag."
+    },
+    {
+      "name": "Shriek (Recharge 5-6)",
+      "desc": "Unleashes a painful screeching in a 30' cone. Each creature in the area: 33 (6d10) thunder and is stunned until the end of its next turn (DC 16 Con half damage and isn't stunned)."
+    },
+    {
+      "name": "Denizens of the Deep (1/Day)",
+      "desc": "Magically calls 4 reef sharks 2 swarms of quippers or 1 Beast of up to CR 2 with swim speed. Arrive in 1d4 rounds act as hag allies obeying her spoken commands. Beasts stay 1 hr until hag dies or until hag dismisses them as bonus action."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "Cha (DC 16) no material components: At will: minor illusion  • 3/day ea: charm person major image1/day: control water"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "Can breathe air and water."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Polluted Aura",
+      "desc": "Each creature in same water as hag and that starts its turn within 20' of hag: poisoned while within aura and for 1 min after it leaves (DC 16 Con not poisoned). A poisoned creature that starts its turn outside aura can re-save success ends effect on itself."
+    },
+    {
+      "name": "Skilled Submariner",
+      "desc": "Advantage on Wis (Perception) and Wis (Survival) checks to find creatures and objects underwater. Has advantage on Dex (Stealth) checks made to hide while underwater."
+    },
+    {
+      "name": "Speak with Aquatic Creatures",
+      "desc": "Communicate with Beasts and Monstrosities that have a swimming speed as if they shared a language."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 225,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_hag-brine/"
+}

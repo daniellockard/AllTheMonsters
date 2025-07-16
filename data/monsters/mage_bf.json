@@ -1,0 +1,80 @@
+{
+  "slug": "mage_bf",
+  "desc": "",
+  "name": "Mage",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Any Lineage",
+  "group": "NPCs",
+  "alignment": "",
+  "armor_class": 10,
+  "armor_desc": "13 with mage armor",
+  "hit_points": 140,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 8,
+  "dexterity": 10,
+  "constitution": 10,
+  "intelligence": 22,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": -1,
+  "dexterity_save": 0,
+  "constitution_save": 0,
+  "intelligence_save": 6,
+  "wisdom_save": 1,
+  "charisma_save": 0,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "any four languages",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The mage makes three Dagger or Arcane Bolt attacks. It can replace one attack with a use of Spellcasting."
+    },
+    {
+      "name": "Dagger",
+      "desc": "_Melee or Ranged Weapon Attack:_ +3 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 2 (1d4) piercing damage plus 13 (3d8) force damage."
+    },
+    {
+      "name": "Arcane Bolt",
+      "desc": "_Ranged Spell Attack:_ +6 to hit, range 60 ft., one target. _Hit:_ 16 (3d8+3) force damage."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The mage casts one of the following spells, using INT as the spellcasting ability (spell save DC 14).<br>At will: _detect magic_, _light_, _mage hand_, _prestidigitation_<br>3/day each: _fly_, _mage armor_, _mirror image_<br>2/day each: _fireball_, _haste_, _slow_<br>1/day each: _cone of cold_, _greater invisibility_"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Arcane Weapons",
+      "desc": "The mage's weapon attacks are magical. When the mage hits with any weapon, the weapon deals an extra 3d8 force damage (included in the attack)."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The mage has advantage on saves against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_mage/"
+}

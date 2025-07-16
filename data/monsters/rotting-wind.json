@@ -1,0 +1,76 @@
+{
+  "slug": "rotting-wind",
+  "desc": "_A rotting wind brings a chilling gust to the air, turning nearby foliage to rot and raising a sense of dread in all creatures in its path._  \n**Air of Tombs.** A rotting wind is an undead creature made up of the foul air and grave dust sloughed off by innumerable undead creatures within lost tombs and grand necropoli.  \n**Scouts for Undead Armies.** A rotting wind carries the foul stench of death upon it, sometimes flying before undead armies and tomb legions or circling around long-extinct cities and civilizations.  \n**Withering Crops.** Rotting winds sometimes drift mindlessly across a moor or desert, blighting all life they find and leaving only famine and death in their wake. This is especially dangerous when they drift across fields full of crops; they can destroy an entire harvest in minutes.  \n**Undead Nature.** A rotting wind doesn’t require air, food, drink, or sleep.",
+  "name": "Rotting Wind",
+  "size": "Large",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 82,
+  "hit_dice": "11d10+22",
+  "speed": {
+    "hover": true,
+    "walk": 0,
+    "fly": 60
+  },
+  "strength": 14,
+  "dexterity": 20,
+  "constitution": 15,
+  "intelligence": 7,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, grappled, frightened, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+  "senses": "blindsight 60 ft. (blind beyond this), passive Perception 10",
+  "languages": "-",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Wind of Decay",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 0 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 14 (4d6) necrotic damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be cursed with tomb rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies and its body turns to dust. The curse lasts until removed by the remove curse spell or comparable magic.",
+      "attack_bonus": 8,
+      "damage_dice": "2d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Air Form",
+      "desc": "The rotting wind can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+    },
+    {
+      "name": "Befouling Presence",
+      "desc": "All normal plant life and liquid in the same space as a rotting wind at the end of the wind's turn is blighted and cursed. Normal vegetation dies in 1d4 days, while plant creatures take double damage from the wind of decay action. Unattended liquids become noxious and undrinkable."
+    },
+    {
+      "name": "Invisibility",
+      "desc": "The rotting wind is invisible as per a greater invisibility spell."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 330,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_rotting-wind/"
+}

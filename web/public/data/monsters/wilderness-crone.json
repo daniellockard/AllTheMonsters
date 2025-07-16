@@ -1,0 +1,87 @@
+{
+  "slug": "wilderness-crone",
+  "desc": "",
+  "name": "Wilderness Crone",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 105,
+  "hit_dice": "14d8+42",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 10,
+  "constitution": 17,
+  "intelligence": 15,
+  "wisdom": 18,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 6,
+  "intelligence_save": null,
+  "wisdom_save": 7,
+  "charisma_save": null,
+  "perception": 4,
+  "skills": {
+    "perception": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "piercing",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 14",
+  "languages": "Common, Sylvan",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Staff attacks."
+    },
+    {
+      "name": "Wild Staff",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 10 (2d6+3) bludgeoning damage + 4 (1d8) force."
+    },
+    {
+      "name": "Needle Breath (Recharge 5-6)",
+      "desc": "Exhales pine needles in a 30' cone. Each creature in the area: 28 (8d6) piercing damage (DC 15 Dex half)."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "Wis (DC 15). Prepared: At will: minor illusion tree stride3/day ea: goodberry hold person locate animals or plants1/day ea: commune with nature remove curse"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Transmigratory Strike",
+      "desc": "When she kills a Humanoid can immediately restore it to life as a Beast with CR no higher the Humanoid's CR or level. Otherwise works as reincarnate spell."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Beast Passivism",
+      "desc": "No beast with Int 3 or less can willingly attack the crone. They can be forced to do so through magical means."
+    },
+    {
+      "name": "Speak with Beasts and Plants",
+      "desc": "Can communicate with Beasts and Plants as if they shared a language."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 392,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_wilderness-crone/"
+}

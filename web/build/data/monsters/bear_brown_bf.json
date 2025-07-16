@@ -1,0 +1,73 @@
+{
+  "slug": "bear_brown_bf",
+  "desc": "",
+  "name": "Bear, Brown",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": "natural armor",
+  "hit_points": 44,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40,
+    "climb": 30
+  },
+  "strength": 18,
+  "dexterity": 10,
+  "constitution": 16,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 6,
+  "strength_save": 4,
+  "dexterity_save": 0,
+  "constitution_save": 3,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -2,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The brown bear makes one Bite attack and one Claws attack. If both attacks hit one creature, the target is grappled (escape DC 14). The bear can grapple only one creature at a time."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one creature. _Hit:_ 8 (1d8+4) piercing damage."
+    },
+    {
+      "name": "Claws",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 9 (2d4+4) slashing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Heightened Smell",
+      "desc": "The bear's Perception is 18 when perceiving by smell."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_bear-brown/"
+}

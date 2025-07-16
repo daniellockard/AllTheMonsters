@@ -1,0 +1,79 @@
+{
+  "slug": "fleshspurned",
+  "desc": "This horrifying apparition is the disturbing amalgam of a funerary shroud and a set of absurdly large floating teeth. The creature has a roughly humanoid form and clacks its teeth together with terrible ferocity._  \n**Ghosts with Teeth.** A fleshspurned is created when a humanoid is eaten alive or dies while swallowed by a creature such as a purple worm. These people are driven insane by their horrible deaths and arise as monstrous spirits that crave the flesh of other creatures to replace the bodies they lost. However, in a twist of fate, the fleshspurned cannot stomach corporeal flesh, leading it to consume the ectoplasm of Open Game License",
+  "name": "Fleshspurned",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "armor_desc": null,
+  "hit_points": 75,
+  "hit_dice": "10d8+30",
+  "speed": {
+    "fly": 40,
+    "walk": 0,
+    "hover": true
+  },
+  "strength": 1,
+  "dexterity": 18,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 14,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 4,
+  "charisma_save": null,
+  "perception": 4,
+  "skills": {
+    "perception": 4,
+    "stealth": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "any languages it knew in life",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Phantasmal Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 18 (4d6 + 4) necrotic damage. If the target is a creature other than a construct or an undead, it must succeed on a DC 14 Constitution saving throw or become ghostly for 1 minute. While ghostly, it has the Incorporeal Movement trait and is susceptible to the fleshspurned's Ghost Eater trait. The creature can repeat the saving throw at the end of each of its turns, ending the ghostly effect on itself on a success.",
+      "attack_bonus": 6,
+      "damage_dice": "4d6+4"
+    },
+    {
+      "name": "Chatter",
+      "desc": "The fleshspurned clashes its oversized teeth together to create a clattering din. Each creature within 30 feet of the fleshspurned must succeed on a DC 14 Wisdom saving throw or be confused for 1 minute. While confused, a creature acts as if under the effects of the confusion spell. A confused creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the target is immune to the fleshspurned's Chatter for the next 24 hours."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Ghost Eater",
+      "desc": "The fleshspurned has advantage on attack rolls against ghosts, wraiths, and other undead with the Incorporeal Movement trait, and such creatures aren't immune to the necrotic damage dealt by the fleshspurned's bite. When the fleshspurned kills one of these creatures, the fleshspurned gains temporary hp equal to double the creature's challenge rating (minimum of 1)."
+    },
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The fleshspurned can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object. A fleshspurned can't move through other creatures with the Incorporeal Movement trait."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 153,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_fleshspurned/"
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "forest-gnome-scout-a5e",
+  "desc": "",
+  "name": "Forest Gnome Scout",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 19,
+  "hit_dice": "3d8+6",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 14,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "nature": 2,
+    "perception": 4,
+    "stealth": 5,
+    "survival": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 16",
+  "languages": "any one",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    {
+      "name": "Longbow",
+      "desc": "Ranged Weapon Attack: +5 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Hearing and Sight",
+      "desc": "The scout has advantage on Perception checks that rely on hearing or sight."
+    },
+    {
+      "name": "Forest ways",
+      "desc": "The scout can communicate with Small and Tiny beasts, and can innately cast blur, disguise self, and major image once each per long rest with no material components."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 491,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_forest-gnome-scout/"
+}

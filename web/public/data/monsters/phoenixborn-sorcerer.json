@@ -1,0 +1,87 @@
+{
+  "slug": "phoenixborn-sorcerer",
+  "desc": "",
+  "name": "Phoenixborn Sorcerer",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "any",
+  "armor_class": 13,
+  "armor_desc": "16 mage armor",
+  "hit_points": 60,
+  "hit_dice": "11d8+11",
+  "speed": {
+    "walk": 20,
+    "fly": 40
+  },
+  "strength": 12,
+  "dexterity": 16,
+  "constitution": 13,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 17,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "[++], Senses, &amp; [/++][++]Languages[/++] as Phoenixborn",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "xx, passive Perception xx",
+  "languages": "as Phoenixborn",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Talon or Hurl"
+    },
+    {
+      "name": "Flame attacks",
+      "desc": "It can replace one attack with use of Spellcasting."
+    },
+    {
+      "name": "Talon",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 6 (1d6+3) slashing damage + 3 (1d6) fire."
+    },
+    {
+      "name": "Hurl Flame",
+      "desc": "Ranged Spell Attack: +5 to hit, 60 ft., one target, 10 (2d6+3) fire."
+    },
+    {
+      "name": "Fire Jet (Recharge 6)",
+      "desc": "Shoots a jet of fire in a 30' line that is 5 ft. wide. Each creature in line: 14 (4d6) fire (DC 13 Dex negates)."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "Cha (DC 13): At will: mage hand minor illusion light prestidigitation2/day ea: charm person continual flame mage armor1/day: dispel magic"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Fiery Feathers and Rebirth (1/Day)",
+      "desc": "As above but rebirth: 7 (2d6)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 316,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_phoenixborn-sorcerer/"
+}

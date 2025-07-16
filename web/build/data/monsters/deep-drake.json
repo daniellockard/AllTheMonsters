@@ -1,0 +1,92 @@
+{
+  "slug": "deep-drake",
+  "desc": "_This large, unnerving drake’s glassy black scales have purple undertones. Its features are elongated and almost alien. Black, expressionless eyes stare ahead, and a barbed stinger sits at the end of a long tail._  \n**Friend to Ghouls.** The deep drake has made a niche for itself in subterranean realms, establishing trade with the darakhul and with other races of the underworld. The drakes’ poison ensures the ghouls have replacements when their population dwindles. In return, those underlings who fail their rulers become food for the drake.  \n**Love Darkness.** Life underground has warped the drakes. Whereas most drakes attach themselves to humanoids, these creatures feel much more at home with aberrations and undead. They avoid sunlight and are strictly nocturnal when on the surface.  \n**Few in Number.** A deep drake mates for life with another deep drake when two of these rare creatures meet. A hermaphroditic creature, the drake assumes a gender until it finds a mate, at which time it may change. Once every 10-20 years, the drakes reproduce, resulting in three or four three‑foot long, rubbery eggs. Occasionally, subterranean undead or aberrations take these eggs to their cities to train the young drakes. A “household drake” is a great status symbol in some deep places, and surface necromancers who have heard of them are often extremely eager to acquire one.  \nDeep drakes are 12 feet long, plus a three-foot long tail, and weigh up to 1,500 pounds. Their coloration makes them ideal predators in the subterranean dark.",
+  "name": "Deep Drake",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 150,
+  "hit_dice": "20d10+40",
+  "speed": {
+    "walk": 50,
+    "climb": 30,
+    "fly": 100
+  },
+  "strength": 21,
+  "dexterity": 19,
+  "constitution": 14,
+  "intelligence": 11,
+  "wisdom": 14,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": 8,
+  "constitution_save": 6,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "athletics": 9,
+    "insight": 6,
+    "perception": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "necrotic",
+  "condition_immunities": "paralyzed, unconscious",
+  "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 16",
+  "languages": "Common, Darakhul, Draconic, Undercommon",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The drake makes one bite attack, two claw attacks, and one stinger attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage.",
+      "attack_bonus": 9,
+      "damage_dice": "2d10"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage.",
+      "attack_bonus": 9,
+      "damage_dice": "2d6"
+    },
+    {
+      "name": "Stinger",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 16 Constitution saving throw or become poisoned for 4 rounds. While poisoned this way, the target must repeat the save at the start of its turn, ending the condition on a success. On a failure, it takes 10 (3d6) poison damage. When animate dead is cast on creatures killed by this poison, the caster requires no material components.",
+      "attack_bonus": 9,
+      "damage_dice": "2d10"
+    },
+    {
+      "name": "Breath Weapon (Recharge 5-6)",
+      "desc": "A deep drake blasts forth a crackling 80-foot line of purple-black energy that wracks its victims with pain. This attack deals 35 (10d6) necrotic damage, or half damage with a successful DC 16 Dexterity saving throw. Targets that fail this saving throw must also succeed on a DC 16 Constitution saving throw or become stunned for 1d4 rounds."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The drake has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 152,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_deep-drake/"
+}

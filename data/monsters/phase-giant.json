@@ -1,0 +1,77 @@
+{
+  "slug": "phase-giant",
+  "desc": "This immense humanoid is covered in dark, spiny, chitinous skin, and its sizeable fists are rough and decorated with sharp spikes._  \n**Natural Carapace.** The phase giant has naturally hard skin, similar to that of a giant insect. Its face, hands, and joints are articulated and overlapping, allowing it to move freely beneath its hardened skin. The carapace grows into spikes in numerous places throughout its body, which it uses against captured prey and to aid it in climbing.  \n**Highly Mobile.** Deep caverns can be difficult to navigate with their twists and tight squeezes. The phase giant overcomes this by sliding into the Ethereal Plane and passing through the solid stone.  \n**Familial.** Phase giants are smaller than the average hill giant, but they more than make up for it in their ferocity. They are aggressive toward others, but not actually evil, tending to view most they encounter as mere annoyances. They are usually found in small family units of up to four, but rarely band together in larger groups.",
+  "name": "Phase Giant",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 136,
+  "hit_dice": "13d12+52",
+  "speed": {
+    "climb": 20,
+    "walk": 40
+  },
+  "strength": 21,
+  "dexterity": 11,
+  "constitution": 18,
+  "intelligence": 8,
+  "wisdom": 15,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "Giant, Undercommon",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The giant makes two attacks with its spiked fists. If both attacks hit a Large or smaller target, the target must succeed on a DC 15 Strength saving throw or take 7 (2d6) piercing damage as the giant impales the target on its body spikes."
+    },
+    {
+      "name": "Spiked Fist",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) piercing damage. If the target is a Large or smaller creature, it is grappled (escape DC 16). The phase giant has two fists, each of which can grapple only one target.",
+      "attack_bonus": 8,
+      "damage_dice": "2d8+5"
+    },
+    {
+      "name": "Rock",
+      "desc": "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.",
+      "attack_bonus": 8,
+      "damage_dice": "3d10+5"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Ethereal Jaunt",
+      "desc": "As a bonus action, the phase giant can magically shift from the Material Plane to the Ethereal Plane, or vice versa. Any equipment it is wearing or carrying shifts with it. A creature grappled by the phase giant doesn't shift with it, and the grapple ends if the phase giant shifts while grappling a creature."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 172,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_phase-giant/"
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "awakened-shrub",
+  "desc": "An **awakened shrub** is an ordinary shrub given sentience and mobility by the awaken spell or similar magic.",
+  "name": "Awakened Shrub",
+  "size": "Small",
+  "type": "Plant",
+  "subtype": "",
+  "group": "Miscellaneous Creatures",
+  "alignment": "Unaligned",
+  "armor_class": 9,
+  "armor_desc": null,
+  "hit_points": 10,
+  "hit_dice": "3d6",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 3,
+  "dexterity": 8,
+  "constitution": 11,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "piercing",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 10",
+  "languages": "one language known by its creator",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Rake",
+      "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) slashing damage.",
+      "attack_bonus": 1,
+      "damage_dice": "1d4",
+      "damage_bonus": -1
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While the shrub remains motionless, it is indistinguishable from a normal shrub."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 366,
+  "environments": [
+    "Jungle",
+    "Swamp",
+    "Forest",
+    "Laboratory"
+  ],
+  "img_main": null,
+  "document__slug": "wotc-srd",
+  "document__title": "5e Core Rules",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "v2_converted_path": "/v2/creatures/srd_awakened-shrub/"
+}

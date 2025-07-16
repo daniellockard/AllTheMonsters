@@ -1,0 +1,75 @@
+{
+  "slug": "peri",
+  "desc": "",
+  "name": "Peri",
+  "size": "Small",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Good",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 60,
+  "hit_dice": "11d6+22",
+  "speed": {
+    "walk": 30,
+    "fly": 50
+  },
+  "strength": 9,
+  "dexterity": 16,
+  "constitution": 14,
+  "intelligence": 11,
+  "wisdom": 13,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 3,
+  "charisma_save": 6,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "lightning, thunder",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 11",
+  "languages": "Auran, Common",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Wind Slash",
+      "desc": "Melee or Ranged Spell Attack: +6 to hit 5 ft. or range 60' one target 9 (2d4+4) slashing damage + 7 (2d6) lightning or thunder (the peri's choice). "
+    },
+    {
+      "name": "Invisibility",
+      "desc": "Magically turns invisible until it attacks or uses Storm Wave or until its concentration ends (as if concentrating on a spell). Any equipment the peri wears or carries is invisible with it."
+    },
+    {
+      "name": "Storm Wave (1/Day)",
+      "desc": "Throws its arms forward releasing a blast of stormy wind in a 30' line that is 5 ft. wide. All in line make a DC 12 Dex save. On a failure a creature takes 7 (2d6) lightning and 7 (2d6) thunder and is pushed up to 10 ft. away from the peri. On a success a creature takes half the damage and isn't pushed."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Elemental Demise",
+      "desc": "If the peri dies its body disintegrates into a warm breeze leaving behind only the equipment the peri was wearing or carrying."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 314,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_peri/"
+}

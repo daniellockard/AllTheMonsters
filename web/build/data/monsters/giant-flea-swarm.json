@@ -1,0 +1,83 @@
+{
+  "slug": "giant-flea-swarm",
+  "desc": "",
+  "name": "Giant Flea Swarm",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 58,
+  "hit_dice": "9d8+18",
+  "speed": {
+    "walk": 30,
+    "climb": 20
+  },
+  "strength": 13,
+  "dexterity": 14,
+  "constitution": 14,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 2,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, slashing",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "senses": "blindsight 60', passive Perception 10",
+  "languages": "–",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, 0 ft., one creature, in the swarm's space. 14 (4d6) piercing damage or 7 (2d6) piercing damage if the swarm has half its hp or fewer."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Blood Sense",
+      "desc": "The giant flea can pinpoint by scent the location of creatures that have blood within 60' of it."
+    },
+    {
+      "name": "Keen Smell",
+      "desc": "Advantage: smell Wis (Percept) checks."
+    },
+    {
+      "name": "Ravenous",
+      "desc": "When a creature that doesn't have all of its hp starts its turn in the swarm's space that creature must make DC 12 Dex save or lose 5 (2d4) hp from blood loss."
+    },
+    {
+      "name": "Standing Leap",
+      "desc": "The swarm's long jump is up to 30' and its high jump is up to 15 feet with or with o a running start."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa and the swarm can move through any opening large enough for a Tiny flea. The swarm can't regain hp or gain temp hp."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 197,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_giant-flea-swarm/"
+}

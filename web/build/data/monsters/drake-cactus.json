@@ -1,0 +1,91 @@
+{
+  "slug": "drake-cactus",
+  "desc": "",
+  "name": "Drake, Cactus",
+  "size": "Medium",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Good",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 75,
+  "hit_dice": "10d8+30",
+  "speed": {
+    "walk": 20,
+    "climb": 20
+  },
+  "strength": 11,
+  "dexterity": 17,
+  "constitution": 16,
+  "intelligence": 9,
+  "wisdom": 12,
+  "charisma": 11,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "fire, lightning",
+  "damage_immunities": "",
+  "condition_immunities": "paralyzed, unconscious",
+  "senses": "darkvision 60', tremorsense 30', passive Perception 11",
+  "languages": "Common, Draconic",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Bite attack and two Claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 7 (1d8+3) piercing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 6 (1d6+3) slashing damage."
+    },
+    {
+      "name": "Thorn Spray (Recharge 5-6)",
+      "desc": "Shakes its body spraying thorns around it. Each creature within 20' of it: 18 (4d8) piercing damage (DC 13 Dex half). A creature that fails by 5+ has its speed reduced by 10 ft. until it uses action to remove thorns. When drake uses this it loses Thorny Body trait until start of its next turn."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from tall branched cactus."
+    },
+    {
+      "name": "Offering of Flesh",
+      "desc": "Spends 1 min carefully cutting its own flesh inflicting 10 slashing to itself to remove small piece of pulpy material. Pulp is edible and provides Med or smaller creature 1 quart of water and nourishment equivalent to one meal. Pulp provides nourishment only if drake offered it willingly."
+    },
+    {
+      "name": "Regeneration",
+      "desc": "Regains 5 hp at start of its turn. If it takes cold or poison this doesn't function at start of its next turn. Dies only if it starts its turn with 0 hp and doesn't regenerate."
+    },
+    {
+      "name": "Thorny Body",
+      "desc": "A creature that touches it or hits it with melee attack while within 5 ft. of it: DC 13 Dex save or take 4 (1d8) piercing damage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 152,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_drake-cactus/"
+}

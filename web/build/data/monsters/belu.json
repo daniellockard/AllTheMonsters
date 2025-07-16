@@ -1,0 +1,83 @@
+{
+  "slug": "belu",
+  "desc": "",
+  "name": "Belu",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Good",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 184,
+  "hit_dice": "16d12+80",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 22,
+  "dexterity": 12,
+  "constitution": 20,
+  "intelligence": 12,
+  "wisdom": 10,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": 9,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "poison",
+  "damage_immunities": "",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60', passive Perception 10",
+  "languages": "Common, Giant",
+  "challenge_rating": "10",
+  "cr": 10,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +10 to hit, 10 ft., one target, 20 (4d6+6) bludgeoning damage and target: DC 16 Str save or pushed up to 10 ft. away from it and knocked prone."
+    },
+    {
+      "name": "Shatterstone (Recharge 5-6)",
+      "desc": "Hurls enchanted rock at point it can see within 60' of it. Rock shatters on impact and each creature within 10 ft. of that point: 44 (8d10) slashing damage (DC 16 Dex half)."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "Cha (DC 14) no material components: At will: entangle speak with plants stone shape2/day: plant growth"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "Magically transforms into a Small or Med Humanoid or back into its true form. Its stats other than size are same in each form. Any equipment it is wearing or carrying transforms with it. If it dies it reverts to its true form."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Healing Lotuscraft",
+      "desc": "(1/Day). Can spend 1 min crafting poultice that lasts 24 hrs. When a creature takes an action to apply poultice to a wound or skin of a creature target regains 18 (4d8) hp and is cured of any diseases or conditions affecting it."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 55,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_belu/"
+}

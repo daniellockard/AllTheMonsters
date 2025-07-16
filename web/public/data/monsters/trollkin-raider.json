@@ -1,0 +1,91 @@
+{
+  "slug": "trollkin-raider",
+  "desc": "Screams echo in the night as spears meet wood and flesh. One trollkin pulls its spear from its latest victim while its companion raids the victim’s larder._  \nTrollkin raiders are greedy and efficient, moving together under the command of a trollkin leader to take apart a village, a caravan, or a small fortress. Their goal is generally food and portable wealth. Their training as a unit is not extensive but raiders know, trust, and fight for one another.  \n**Night Attacks.** Trollkin raiders attack in a fast-moving, nocturnal group, often using a group of panicked animals or a fire as a distraction in one place while they attack elsewhere. Their assaults are never daylight attacks over open ground; they much prefer surprise and the confusion of night attacks.  \n**Mounted or River Routes.** While trollkin raiders can lope for miles across taiga or through forests, they far prefer to ride horses or row up a river. It gives them both speed and the ability to carry more plunder.  \nNote that in The Raven's Call, the Raider had 78 (12d8 + 24) HP and spoke only Northern Tongue.",
+  "name": "Trollkin Raider",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "trollkin",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "armor_desc": "hide armor",
+  "hit_points": 32,
+  "hit_dice": "5d8+10",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 12,
+  "dexterity": 12,
+  "constitution": 14,
+  "intelligence": 9,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "insight": 3,
+    "nature": 1,
+    "perception": 3,
+    "survival": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "Common, Trollkin",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The trollkin makes two spear attacks or one bite attack and two claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.",
+      "attack_bonus": 3,
+      "damage_dice": "1d4+1"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage.",
+      "attack_bonus": 3,
+      "damage_dice": "1d4+1"
+    },
+    {
+      "name": "Spear",
+      "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
+      "attack_bonus": 3,
+      "damage_dice": "1d6+1"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Regeneration",
+      "desc": "The trollkin regains 1 hp at the start of its turn. If the trollkin takes acid or fire damage, this trait doesn't function at the start of the trollkin's next turn. The trollkin dies only if it starts its turn with 0 hp and doesn't regenerate."
+    },
+    {
+      "name": "Thick Hide",
+      "desc": "The trollkin's skin is thick and tough, granting it a +1 bonus to Armor Class. This bonus is included in the trollkin's AC."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 353,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_trollkin-raider/"
+}

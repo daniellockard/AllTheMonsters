@@ -1,0 +1,68 @@
+{
+  "slug": "elk_bf",
+  "desc": "",
+  "name": "Elk",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 10,
+  "armor_desc": null,
+  "hit_points": 15,
+  "hit_dice": "",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 14,
+  "dexterity": 10,
+  "constitution": 12,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": 2,
+  "dexterity_save": 0,
+  "constitution_save": 1,
+  "intelligence_save": -4,
+  "wisdom_save": 0,
+  "charisma_save": -2,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Ram",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6+2) bludgeoning damage."
+    },
+    {
+      "name": "Kick",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 4 (1d4+2) bludgeoning damage, and the target must succeed on a DC 12 STR save or be pushed up to 10 feet away from the elk."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Charge",
+      "desc": "If the elk moves at least 20 feet straight toward a target and then hits it with a Ram attack on the same turn, the target takes an extra 3 (1d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 12 STR save or be knocked prone."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_elk/"
+}

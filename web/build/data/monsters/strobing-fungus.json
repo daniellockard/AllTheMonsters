@@ -1,0 +1,70 @@
+{
+  "slug": "strobing-fungus",
+  "desc": "This creature is translucent with a white core and is composed of a narrow stalk topped with a bulbous head. It suddenly emits a powerfully bright light, then flashes bright and dark in rapid succession._  \n**Chemical Warrior.** The strobing fungus’ body houses chemicals that, when mixed together, cause it to shine brighter than a torch. It also uses those chemicals for self-defense. When it senses danger, it mixes the chemicals inside a pouch within its body and secretes the mixture, which it can then shoot at the creature threatening it. Once exposed to the open air, the chemicals become highly corrosive and toxic.  \n**Wandering Mushroom.** Unlike many fungi, the strobing fungus is able to move, albeit at a slow pace. It does this by severing the portion of its base anchoring it in place and secreting some of the chemicals within its body to help it glide along to a new location. When it has reached its intended destination, it stops secreting the chemical, its movement stops, and the creature quickly attaches to the ground at the new location.  \n**Popular Guards.** Strobing fungi are often employed as guardians, particularly by creatures that have blindsight. The fungi understand rudimentary Common and can obey commands not to attack their master’s allies. They typically assume anyone who has not been specifically introduced to them is an enemy and behave accordingly.",
+  "name": "Strobing Fungus",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 76,
+  "hit_dice": "9d8+36",
+  "speed": {
+    "walk": 10
+  },
+  "strength": 16,
+  "dexterity": 11,
+  "constitution": 19,
+  "intelligence": 5,
+  "wisdom": 13,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "blinded, deafened, frightened",
+  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 11",
+  "languages": "understands Common but can’t speak",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The strobing fungus makes two attacks."
+    },
+    {
+      "name": "Chemical Burn",
+      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one creature. Hit: 13 (3d6 + 3) acid damage.",
+      "attack_bonus": 5,
+      "damage_dice": "3d6+3"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Strobe",
+      "desc": "As a bonus action, the strobing fungus can start emitting a powerful, strobing light. It rapidly alternates between shedding bright light in a 60-foot radius and shedding no light, creating a dizzying effect unless the area's ambient light is bright light. Each creature within 60 feet of the strobing fungus and that can see the light must succeed on a DC 14 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nUnless surprised, a creature with a shield or other similarly-sized object can use its reaction to raise the object and protect its eyes from the light, avoiding the saving throw. If it does so, it can't use that object for anything else. For example, a creature using a shield to protect its eyes loses the shield's bonus to its Armor Class while using the shield in this way. If the creature looks at the strobing fungus or lowers or uses the object protecting its eyes, it must immediately make the save.\n\nWhile emitting light, the strobing fungus can't attack. It can stop emitting light at any time (no action required)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 160,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_strobing-fungus/"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "hair-golem",
+  "desc": "",
+  "name": "Hair Golem",
+  "size": "Small",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 13,
+  "hit_dice": "3d6+3",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 17,
+  "constitution": 13,
+  "intelligence": 3,
+  "wisdom": 8,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "slashing",
+  "damage_resistances": "bludgeoning and piercing from nonmagical attacks not made with adamantine",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 9",
+  "languages": "understands the languages of its creator but can't speak",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "attack_bonus": 5,
+      "damage_dice": "1d4+3",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) slashing damage. The target must succeed on a DC 11 Dexterity saving throw or be knocked prone.",
+      "name": "Lash"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "desc": "The golem is immune to any spell or effect that would alter its form.",
+      "name": "Immutable Form"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 200,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "cc",
+  "document__title": "Creature Codex",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/creature-codex-for-5th-edition-dnd/",
+  "v2_converted_path": "/v2/creatures/ccdx_hair-golem/"
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "mountain-strider",
+  "desc": "These large creatures stand upright, with exceptionally powerful legs that end in cloven hooves. Their upper bodies are muscular beneath their snowy-white fur, and their heads resemble those of goats._  \n**Dwellers of Mountains.** Mountain striders are most at home in the mountains. They live among the peaks, climbing seemingly impossible slopes to make their homes in the caves and burrows they dig near the tops. Ages ago, they had amicable relations with nearby settlements, but their aggressive behavior and boorish attitudes led to conflicts with the populace. They were subsequently made to withdraw from civilization as a result. In the years since, they have become an insular people, fearful of outsiders and resentful of civilization.  \n**Communal.** Mountain striders live in communal groups that travel the mountains, moving with the seasons. They are highly protective of each other and go into a brief rage when one of their number falls. Their nomadic and overly protective natures occasionally bring them into conflict with dwarves, though the two don’t actively hunt each other.  \n**Bleating Communication.** The weather on the highest mountain peaks can turn at a moment’s notice, separating family groups within minutes. The mountain striders adapted to such dangers by developing complex bleating calls. Over time, these calls became part of the mountain striders’ culture, seeing use outside of emergency situations. The calls range from simple notifications of an individual’s location or health to short songs identifying family affiliation and lineage.",
+  "name": "Mountain Strider",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 34,
+  "hit_dice": "4d10+12",
+  "speed": {
+    "walk": 30,
+    "climb": 30
+  },
+  "strength": 16,
+  "dexterity": 14,
+  "constitution": 17,
+  "intelligence": 8,
+  "wisdom": 14,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "survival": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "Common",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Headbutt",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.",
+      "attack_bonus": 5,
+      "damage_dice": "2d4+3"
+    },
+    {
+      "name": "Spear",
+      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack.",
+      "attack_bonus": 5,
+      "damage_dice": "1d6+3"
+    },
+    {
+      "name": "Thunderous Bleat (Recharge 6)",
+      "desc": "The mountain strider releases a loud bleat in a 15-foot cone. Each creature in the area must make a DC 13 Dexterity saving throw, taking 7 (2d6) thunder damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Revenge for the Fallen",
+      "desc": "When an ally the mountain strider can see is reduced to 0 hp within 30 feet of the mountain strider, the strider can move up to half its speed and make a headbutt attack."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Charge",
+      "desc": "If the mountain strider moves at least 15 feet straight toward a target and then hits it with a headbutt attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be pushed up to 10 feet away from the mountain strider and knocked prone."
+    },
+    {
+      "name": "Sure-Footed",
+      "desc": "The mountain strider has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 261,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_mountain-strider/"
+}

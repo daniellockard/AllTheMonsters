@@ -1,0 +1,72 @@
+{
+  "slug": "cactid-tob1-2023",
+  "desc": "False",
+  "name": "Cactid",
+  "size": "Large",
+  "type": "Plant",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 76,
+  "hit_dice": "8d10 + 32",
+  "speed": {
+    "walk": 15
+  },
+  "strength": 16,
+  "dexterity": 8,
+  "constitution": 18,
+  "intelligence": 5,
+  "wisdom": 10,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "bludgeoning, piercing",
+  "damage_immunities": "False",
+  "condition_immunities": "blinded, deafened",
+  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10",
+  "languages": "understands Sylvan but can’t speak",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The cactid makes two Tendril attacks and uses Reel."
+    },
+    {
+      "name": "Tendril",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 15 ft., one creature. Hit: 10 (2d6 + 3) bludgeoning damage plus 3 (1d6) piercing damage, and the target is grappled (escape DC 13) if it is a Medium or smaller creature. Until this grapple ends, the target is restrained, and if it isn't a Construct or Undead, the cactid begins draining fluid from the target's body. At the start of each of the grappled creature's turns, the creature must make a DC 13 Constitution saving throw. On a failure, its hp maximum is reduced by 3 (1d6). This reduction lasts until the creature finishes a long rest after drinking at least one gallon of water. The grappled creature dies if this effect reduces its hp maximum to 0. The cactid has two tendrils, each of which can grapple only one target."
+    },
+    {
+      "name": "Reel",
+      "desc": "The cactid pulls each creature grappled by it up to 10 feet straight toward it."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Hail of Needles (1/Day)",
+      "desc": "When reduced to below half its hp maximum, the cactid releases a hail of needles. Each creature within 15 feet of the cactid must make a DC 14 Dexterity saving throw, taking 10 (3d6) piercing damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
+  "spell_list": [],
+  "page_no": 48,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_cactid/"
+}

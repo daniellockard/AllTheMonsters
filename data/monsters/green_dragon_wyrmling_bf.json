@@ -1,0 +1,82 @@
+{
+  "slug": "green_dragon_wyrmling_bf",
+  "desc": "",
+  "name": "Green Dragon Wyrmling",
+  "size": "Medium",
+  "type": "Dragon",
+  "subtype": "",
+  "group": "Dragons",
+  "alignment": "",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 51,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "fly": 60,
+    "swim": 30
+  },
+  "strength": 14,
+  "dexterity": 16,
+  "constitution": 16,
+  "intelligence": 18,
+  "wisdom": 14,
+  "charisma": 16,
+  "strength_save": 2,
+  "dexterity_save": 3,
+  "constitution_save": 3,
+  "intelligence_save": 4,
+  "wisdom_save": 2,
+  "charisma_save": 3,
+  "perception": 14,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison,poisoned",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., keensense 10 ft.",
+  "languages": "Draconic",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The dragon makes one Bite attack and one Claw attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 7 (1d10+2) piercing damage plus 3 (1d6) poison damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6+2) slashing damage."
+    },
+    {
+      "name": "Poison Breath (Recharge 5-6)",
+      "desc": "The dragon exhales poisonous gas in a 15-foot cone. Each creature in that area must make a DC 11 CON save, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The dragon can breathe air and water."
+    },
+    {
+      "name": "Pounce",
+      "desc": "If the dragon moves at least 15 feet straight toward a creature and then hits it with a Claw attack on the same turn, that target must succeed on a DC 12 STR save or be knocked prone. If the target is prone, the dragon can make one Claw attack against it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_green-dragon-wyrmling/"
+}

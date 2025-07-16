@@ -1,0 +1,76 @@
+{
+  "slug": "brachyura-shambler",
+  "desc": "The vaguely humanoid creature has an oblong head with a pair of deep-set black eyes, a pair of antennae, and grasping mandibles. The creature is covered in a chitinous shell that is deep red, almost black in color. As it moves, it makes a strange sound, as though it is asking unintelligible questions in gibberish._  \n**Purveyors of Mud.** Brachyura shamblers are foul, vaguely humanoid, semi-intelligent creatures that live in the mud and primarily eat carrion. They eat fresh kills when they can, but they find it easier to eat what is already dead. Because of their filthy living conditions and unsanitary diet, they carry disease, which they easily spread to those they encounter.  \n**Related to the Sporous Crab.** The brachyura often share living space with the Open Game License",
+  "name": "Brachyura Shambler",
+  "size": "Medium",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 71,
+  "hit_dice": "11d8+22",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 12,
+  "constitution": 15,
+  "intelligence": 6,
+  "wisdom": 12,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Brachyura",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The brachyura shambler makes two claw attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 13). Until this grapple ends, the target is restrained."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 11 (2d8 + 2) piercing damage.",
+      "attack_bonus": 5,
+      "damage_dice": "2d8+2"
+    },
+    {
+      "name": "Diseased Spit",
+      "desc": "Ranged Weapon Attack: +3 to hit, range 20/60 ft., one creature. Hit: 7 (2d4 + 2) acid damage. The creature must succeed on a DC 11 Constitution saving throw or contract sewer plague. It takes 1d4 days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The infected creature suffers one level of exhaustion, and it regains only half the normal number of hp from spending Hit Dice and no hp from finishing a long rest. At the end of each long rest, an infected creature must make a DC 11 Constitution saving throw. On a failed save, the character gains one level of exhaustion. On a successful save, the character's exhaustion level decreases by 1 level. If a successful saving throw reduces the infected creature's level of exhaustion below 1, the creature recovers from the disease.",
+      "attack_bonus": 3,
+      "damage_dice": "2d4+2"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Puncturing Claws",
+      "desc": "A creature that starts its turn grappled by the brachyura shambler must succeed on a DC 13 Strength saving throw or take 7 (2d6) piercing damage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 49,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_brachyura-shambler/"
+}

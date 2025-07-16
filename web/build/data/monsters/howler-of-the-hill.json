@@ -1,0 +1,87 @@
+{
+  "slug": "howler-of-the-hill",
+  "desc": "",
+  "name": "Howler Of The Hill",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 178,
+  "hit_dice": "21d10+63",
+  "speed": {
+    "walk": 50,
+    "climb": 30
+  },
+  "strength": 17,
+  "dexterity": 22,
+  "constitution": 16,
+  "intelligence": 17,
+  "wisdom": 18,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": 8,
+  "wisdom_save": 9,
+  "charisma_save": 9,
+  "perception": 4,
+  "skills": {
+    "perception": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, necrotic; nonmagic B/P/S attacks",
+  "damage_immunities": "psychic",
+  "condition_immunities": "charmed, frightened",
+  "senses": "truesight 120', passive Perception 19",
+  "languages": "understands Abyssal, Common, Infernal, and Void Speech but can't speak, telepathy 120'",
+  "challenge_rating": "14",
+  "cr": 14,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Claw or Psychic Bolt attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +11 to hit, 5 ft., one target, 15 (2d8+6) slashing damage + 13 (3d8) psychic."
+    },
+    {
+      "name": "Psychic Bolt",
+      "desc": "Ranged Spell Attack: +9 to hit, 120 ft., one target, 26 (5d8+4) psychic."
+    },
+    {
+      "name": "Gloaming Howl",
+      "desc": "Emits a magical howl that changes in melody and frequency depending on light around it. Each creature of howler's choice within 120' of it and can hear howl: DC 18 Wis save or succumb to effects of one of the following. If creature's save succeeds/effect ends for it creature is immune to that particular howl for next 24 hrs. Bright Howl When howler is in bright light each target that fails the save is incapacitated until end of its next turn. Dim Howl When howler is in dim light each target that fails the save is stunned until end of its next turn.Dark Howl When howler is in darkness each target that fails the save drops whatever it is holding and is paralyzed with fear for 1 min. A paralyzed creature can re-save at end of each of its turns success ends effect on itself."
+    },
+    {
+      "name": "Otherworldly Hunter",
+      "desc": "Transport itself to a different plane of existence. Works like plane shift except howler can affect only itself and can't use this to banish unwilling creature to another plane."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Hungry Void Traveler",
+      "desc": "Doesn't require air drink or sleep."
+    },
+    {
+      "name": "Inscrutable",
+      "desc": "Immune to any effect that would sense its emotions or read its thoughts and any divination spell it refuses. Wis (Insight) checks made to ascertain its intentions/sincerity have disadvantage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 236,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_howler-of-the-hill/"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "hippogriff_bf",
+  "desc": "",
+  "name": "Hippogriff",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "Animal",
+  "group": null,
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": null,
+  "hit_points": 44,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40,
+    "fly": 60
+  },
+  "strength": 16,
+  "dexterity": 12,
+  "constitution": 12,
+  "intelligence": 2,
+  "wisdom": 16,
+  "charisma": 8,
+  "strength_save": 3,
+  "dexterity_save": 1,
+  "constitution_save": 1,
+  "intelligence_save": -4,
+  "wisdom_save": 3,
+  "charisma_save": -1,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Monstrosity Resilience",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The hippogriff makes one Beak attack and one Claws attack."
+    },
+    {
+      "name": "Beak",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 8 (1d10+3) piercing damage."
+    },
+    {
+      "name": "Claws",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 10 (2d6+3) slashing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Dive (Recharge 5-6)",
+      "desc": "While flying, the hippogriff dives onto a creature below it. The hippogriff moves at least 20 feet in a straight line toward a creature it can see. The target must succeed on a DC 13 STR save or take 7 (2d6) bludgeoning damage and be knocked prone."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Heightened Sight",
+      "desc": "The hippogriff's Perception is 18 when perceiving by sight."
+    },
+    {
+      "name": "Monstrosity Resilience",
+      "desc": "The hippogriff is resistant to exhaustion and to the frightened condition."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_hippogriff/"
+}

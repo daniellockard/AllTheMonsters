@@ -1,0 +1,81 @@
+{
+  "slug": "pseudodragon_bf",
+  "desc": "",
+  "name": "Pseudodragon",
+  "size": "Tiny",
+  "type": "Dragon",
+  "subtype": "",
+  "group": "Dragons",
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 12,
+  "hit_dice": "",
+  "speed": {
+    "walk": 15,
+    "fly": 60
+  },
+  "strength": 6,
+  "dexterity": 14,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 16,
+  "charisma": 10,
+  "strength_save": -2,
+  "dexterity_save": 2,
+  "constitution_save": 1,
+  "intelligence_save": 0,
+  "wisdom_save": 3,
+  "charisma_save": 0,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "poison,poisoned",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., keensense 10 ft.",
+  "languages": "understands Common and Draconic but can't speak",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 4 (1d4+2) piercing damage."
+    },
+    {
+      "name": "Sting",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one creature. _Hit:_ 4 (1d4+2) piercing damage plus 2 (1d4) poison damage, and the target must succeed on a DC 11 CON save or be poisoned for 1 hour. If the creature fails the save by 5 or more, it falls unconscious while poisoned in this way, or until it takes damage or another creature uses an action to shake it awake."
+    },
+    {
+      "name": "Puff of Smoke (1/Day)",
+      "desc": "The pseudodragon exhales a cloud of smoke in a 10-foot-radius sphere centered on itself. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Heightened Senses",
+      "desc": "The pseudodragon's Perception is 18 when perceiving by sight, hearing, or smell."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The pseudodragon has advantage on saves against spells and other magical effects."
+    },
+    {
+      "name": "Limited Telepathy",
+      "desc": "The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_pseudodragon/"
+}

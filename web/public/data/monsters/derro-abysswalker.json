@@ -1,0 +1,86 @@
+{
+  "slug": "derro-abysswalker",
+  "desc": "",
+  "name": "Derro, Abysswalker",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 16,
+  "armor_desc": "breastplate",
+  "hit_points": 112,
+  "hit_dice": "15d6+60",
+  "speed": {
+    "walk": 25
+  },
+  "strength": 11,
+  "dexterity": 18,
+  "constitution": 18,
+  "intelligence": 10,
+  "wisdom": 7,
+  "charisma": 17,
+  "strength_save": 3,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 1,
+  "charisma_save": 6,
+  "perception": -2,
+  "skills": {
+    "perception": -2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, fire, lightning",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120', passive Perception 11",
+  "languages": "Abyssal, Common, Dwarvish, Undercommon",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Bite one Claw and one Scimitar or it makes one Bite and two Scimitar attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 6 (1d4+4) piercing damage and 5 (2d4) poison."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 11 (2d6+4) bludgeoning damage and target is grappled (escape DC 15) if it is a Med or smaller creature. Until this grapple ends target is restrained and abysswalker can't make Claw attacks vs. other targets."
+    },
+    {
+      "name": "Scimitar",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 7 (1d6+4) slashing damage."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Insanity",
+      "desc": "Advantage on saves vs. being charmed or frightened."
+    },
+    {
+      "name": "Poisonous Vapors",
+      "desc": "When a creature enters a space within 5 ft. of abysswalker or starts its turn there that creature: 13 (2d12) poison and is poisoned until the start of its next turn (DC 15 Con half damage and isn't poisoned.)"
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "In sunlight disadvantage on attacks and Wis (Perception) checks that use sight."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 113,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_derro-abysswalker/"
+}

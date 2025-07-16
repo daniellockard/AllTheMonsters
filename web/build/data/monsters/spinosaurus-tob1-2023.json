@@ -1,0 +1,103 @@
+{
+  "slug": "spinosaurus-tob1-2023",
+  "desc": "False",
+  "name": "Spinosaurus",
+  "size": "Gargantuan",
+  "type": "Beast",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 232,
+  "hit_dice": "15d20 + 75",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 25,
+  "dexterity": 9,
+  "constitution": 21,
+  "intelligence": 2,
+  "wisdom": 11,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 15,
+  "skills": {
+    "Perception": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "passive Perception 15",
+  "languages": "—",
+  "challenge_rating": "13",
+  "cr": 13,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The spinosaurus makes one Bite attack and two Claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 33 (4d12 + 7) piercing damage. If the target is a Large or smaller creature, it is grappled (escape DC 18). Until this grapple ends, the target is restrained, and the spinosaurus can't Bite another target."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 21 (4d6 + 7) slashing damage."
+    },
+    {
+      "name": "Tail",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 20 ft., one target. Hit: 16 (2d8 + 7) bludgeoning damage."
+    },
+    {
+      "name": "Frightful Presence",
+      "desc": "Each creature of the spinosaurus' choice that is within 120 feet of the spinosaurus and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the spinosaurus's Frightful Presence for the next 24 hours."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": "The spinosaurus can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The spinosaurus regains spent legendary actions at the start of its turn.",
+  "legendary_actions": [
+    {
+      "name": "Move",
+      "desc": "The spinosaurus moves up to half its speed without provoking opportunity attacks."
+    },
+    {
+      "name": "Roar",
+      "desc": "The spinosaurus uses Frightful Presence."
+    },
+    {
+      "name": "Tail Attack (Costs 2 Actions)",
+      "desc": "The spinosaurus makes one Tail attack."
+    }
+  ],
+  "special_abilities": [
+    {
+      "name": "Hold Breath",
+      "desc": "The spinosaurus can hold its breath for 1 hour."
+    },
+    {
+      "name": "Reptilian Affinity",
+      "desc": "The spinosaurus never willingly attacks a reptilian Humanoid, such as a lizardfolk or dragonborn, unless attacked first. If magically forced to attack such a creature, the spinosaurus has disadvantage on attack rolls against it. This trait doesn't function if the spinosaurus's rider or tamer directs it to attack."
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "The spinosaurus deals double damage to objects and structures."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 104,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_spinosaurus/"
+}

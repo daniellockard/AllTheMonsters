@@ -1,0 +1,91 @@
+{
+  "slug": "painted-phantasm",
+  "desc": "",
+  "name": "Painted Phantasm",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 97,
+  "hit_dice": "15d8+30",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 17,
+  "constitution": 14,
+  "intelligence": 7,
+  "wisdom": 14,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "nonmagic B/P/S attacks",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60', passive Perception 15",
+  "languages": "knows creator's, can't speak",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "2 Paint Slashes or 1 Capture Image and 1 Paint Slash."
+    },
+    {
+      "name": "Capture Image",
+      "desc": "Melee Spell Attack: +6 to hit, 5 ft., one target, 22 (4d10) force and target captured as image on flat surface of phantasm's choice within 60' of it (DC 15 Cha negates). While an image target appears on surface as a painting drawing or similar and is incapacitated and restrained. Target can see and hear outside surface but can't target those outside surface with spells or cast spells or use features that allow it to leave surface. If surface where target is captured takes damage target takes half. If surface is reduced to 0 hp target freed. Dispel magic (DC 15) cast on surface also frees captured creature. If phantasm takes 20+ damage on a single turn phantasm must make DC 15 Cha save at end of that turn or lose focus releasing all captured creatures."
+    },
+    {
+      "name": "Paint Slash",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 7 (1d8+3) slashing damage + 16 (3d10) poison."
+    },
+    {
+      "name": "Painting Sensor",
+      "desc": "While touching one artwork can see and hear through another it has previously touched as if it was in that artwork's space if within 1 mile of it. “Artwork” can mean any painting drawing or design on a flat surface including pattern on a wall or in a book."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Painting Portal",
+      "desc": "Uses 10 ft. of move to step magically into one artwork within reach and emerge from 2nd artwork within 100' of 1st appearing in unoccupied space within 5 ft. of 2nd. If both are Large or larger can bring up to 3 willing creatures."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Construct Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "Immune: form-altering spells/effects."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 312,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_painted-phantasm/"
+}

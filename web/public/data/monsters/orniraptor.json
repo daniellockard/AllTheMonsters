@@ -1,0 +1,80 @@
+{
+  "slug": "orniraptor",
+  "desc": "A clumsy-looking flightless bird with a short, conical beak and no feathers or skin stares blankly with its single eye. Its organs are held in place by a slimy, transparent membrane._  \n**Nearly Mindless.** Orniraptors are creatures of pure instinct and share more in common with the basest vermin than with beasts. They attack anything that moves and peck off bits and pieces of their prey as they hunt, gobbling bites as it flees.  \n**Troublesome Pests.** Orniraptors tend to be more troublesome than dangerous, due to their persistence in striking at anything that moves. However, the creatures are capable of sharing their perceptions when near each other. This makes them particularly deadly when one notices something move and dozens of orniraptors suddenly converge on that point.  \n**Quiet Yet Loud.** Orniraptors have no vocal organs and simply squawk soundlessly as they go about their business. Their movements tend to be jerky and clumsy, though, and therefore quite audible.",
+  "name": "Orniraptor",
+  "size": "Small",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "armor_desc": null,
+  "hit_points": 16,
+  "hit_dice": "3d6+6",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 13,
+  "constitution": 14,
+  "intelligence": 2,
+  "wisdom": 7,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 8",
+  "languages": "—",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Peck",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
+      "attack_bonus": 3,
+      "damage_dice": "1d6+1"
+    },
+    {
+      "name": "Spit Stone",
+      "desc": "Ranged Weapon Attack: +3 to hit, range 20/60 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.",
+      "attack_bonus": 3,
+      "damage_dice": "1d4+1"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Blood Spurt",
+      "desc": "When a creature deals piercing or slashing damage to the orniraptor while within 5 feet of it, the creature must succeed on a DC 11 Dexterity saving throw or take 3 (1d6) acid damage as it is struck by the creature's caustic blood."
+    },
+    {
+      "name": "Collective Perception",
+      "desc": "The orniraptor is aware of everything each other orniraptor within 20 feet of it notices."
+    },
+    {
+      "name": "Poor Vision",
+      "desc": "The orniraptor's visual acuity is based on movement. A creature that didn't move between the end of the orniraptor's last turn and beginning of its current turn is invisible to the orniraptor. The creature is not invisible to the orniraptor if another orniraptor within 20 feet of it notices the creature."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 285,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_orniraptor/"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "horse_draft_bf",
+  "desc": "",
+  "name": "Horse, Draft",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 10,
+  "armor_desc": null,
+  "hit_points": 15,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 10,
+  "constitution": 12,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": 4,
+  "dexterity_save": 0,
+  "constitution_save": 1,
+  "intelligence_save": -4,
+  "wisdom_save": 0,
+  "charisma_save": -2,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "frightened",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Hooves",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 7 (1d6+4) bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Draft Animal",
+      "desc": "The draft horse can push, drag, or lift weight in pounds equal to three times its carrying capacity."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_horse-draft/"
+}
