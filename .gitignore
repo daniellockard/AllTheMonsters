@@ -6,7 +6,6 @@ yarn-error.log*
 
 # Data files (can be large)
 data/
-*.json
 
 # Environment variables
 .env
