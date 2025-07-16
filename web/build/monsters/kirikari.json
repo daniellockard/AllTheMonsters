@@ -1,0 +1,92 @@
+{
+  "slug": "kirikari",
+  "desc": "Blanketed in a veil of mist, an enormous, centipede-like creature sifts its way through the swamp, the severed tail of a wyvern gripped tightly within its jaws._  \nWhenever an unnatural mist suddenly arises, some believe it to be the sign of a kirikari. Though they’re rare and solitary creatures, kirikari are considered highly dangerous due to their heightened aggression and territorial behavior.  \n**Ambush Predators.** Few can spot a kirikari in hiding, as it appears as little more than a collapsed tree concealed in fog. It then waits patiently for its prey to draw near—before striking out at them with its lightning-fast bite.  \n**Symbiotic Relationship.** The mist that covers a kirikari’s body comes from a unique type of mold that adheres to its carapace. The mold secretes an acid that evaporates harmlessly shortly after being exposed to air. The kirikari uses this mist to conceal itself and disorient its prey. Despite being natural-born swimmers, kirikari tend to avoid swimming in ocean waters, as exposure to salt quickly kills its mold.  \n**Wyvern Hunters.** Though unusual for its behavior, kirikari have been known to travel incredible distances to hunt down wyverns. Some scholars theorize that the toxins within a wyvern’s body are a necessary component in the maintenance of a kirikari’s mold.",
+  "name": "Kirikari",
+  "size": "Huge",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 142,
+  "hit_dice": "15d12+45",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 21,
+  "dexterity": 17,
+  "constitution": 16,
+  "intelligence": 4,
+  "wisdom": 14,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "perception": 6,
+    "stealth": 11
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "acid, poison",
+  "condition_immunities": "poisoned",
+  "senses": "tremorsense 60 ft., passive Perception 16",
+  "languages": "—",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The kirikari makes two slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage plus 9 (2d8) acid damage.",
+      "attack_bonus": 9,
+      "damage_dice": "2d10+5"
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 31 (4d12 + 5) piercing damage plus 10 (3d6) poison damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the kirikari can't bite another target.",
+      "attack_bonus": 9,
+      "damage_dice": "4d12+5"
+    },
+    {
+      "name": "Blinding Veil (Recharge 5-6)",
+      "desc": "The kirikari expels a cloud of intensified mist, heavily obscuring everything within 30 feet of it. The mist thins back to lightly obscuring the area at the end of the kirikari's next turn."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Corrosive Mold",
+      "desc": "A creature that starts its turn grappled by the kirikari must succeed on a DC 15 Constitution saving throw or take 9 (2d8) acid damage."
+    },
+    {
+      "name": "Misty Veil",
+      "desc": "The kirikari emits a light fog within 30 feet of itself. The mist moves with the kirikari, lightly obscuring the area around it. If dispersed by a wind of moderate or greater speed (at least 10 miles per hour), the mist reappears at the start of the kirikari's next turn."
+    },
+    {
+      "name": "Unseen Attacker",
+      "desc": "On each of its turns, the kirikari can use a bonus action to take the Hide action. If the kirikari is hidden from a creature and hits it with an attack, the target takes an extra 7 (2d6) damage from the attack."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 230,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_kirikari/"
+}

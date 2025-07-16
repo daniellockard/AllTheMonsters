@@ -1,0 +1,69 @@
+{
+  "slug": "badger_bf",
+  "desc": "",
+  "name": "Badger",
+  "size": "Tiny",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 10,
+  "armor_desc": null,
+  "hit_points": 9,
+  "hit_dice": "",
+  "speed": {
+    "walk": 20,
+    "burrow": 10
+  },
+  "strength": 4,
+  "dexterity": 10,
+  "constitution": 12,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 4,
+  "strength_save": -3,
+  "dexterity_save": 0,
+  "constitution_save": 1,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -3,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 30 ft.",
+  "languages": "-",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +2 to hit, reach 5 ft., one creature. _Hit:_ 2 (1d4) piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Grumpy",
+      "desc": "When in combat, the badger attacks the creature that most recently dealt damage to it, provided that creature is within range or moving to it doesn't cause the badger to provoke opportunity attacks. The badger otherwise attacks the nearest hostile creature."
+    },
+    {
+      "name": "Heightened Smell",
+      "desc": "The badger's Perception is 16 when perceiving by smell."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_badger/"
+}

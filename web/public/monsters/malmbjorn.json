@@ -1,0 +1,98 @@
+{
+  "slug": "malmbjorn",
+  "desc": "",
+  "name": "Malmbjorn",
+  "size": "Huge",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 218,
+  "hit_dice": "19d12+95",
+  "speed": {
+    "walk": 40,
+    "burrow": 10,
+    "swim": 30
+  },
+  "strength": 24,
+  "dexterity": 10,
+  "constitution": 20,
+  "intelligence": 3,
+  "wisdom": 12,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 1,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "acid",
+  "damage_resistances": "nonmagic B/P/S attacks",
+  "damage_immunities": "cold ",
+  "condition_immunities": "",
+  "senses": "darkvision 120', passive Perception 16",
+  "languages": "—",
+  "challenge_rating": "15",
+  "cr": 15,
+  "actions": [
+    {
+      "name": "Mulitattack",
+      "desc": "Makes one Bite and two Adamantine Claws."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +12 to hit, 10 ft., one target, 34 (5d10+7) piercing damage and target is grappled (escape DC 18). Until grapple ends target restrained attacker can't Bite another."
+    },
+    {
+      "name": "Adamantine Claw",
+      "desc": "Melee Weapon Attack: +12 to hit, 10 ft., one target, 29 (5d8+7) slashing damage. This attack deals double damage to objects and structures."
+    },
+    {
+      "name": "Metal Volley (Recharge 5-6)",
+      "desc": "Shakes itself launching shards from its hide. Each creature within 20 feet: 45 (13d6) slashing damage (DC 18 Dex half)."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Metal Eater",
+      "desc": "Swallows one Med or smaller ferrous metal object within 5 ft. of it. If the object is being held or worn by a creature that creature must make DC 18 Str save or malmbjorn swallows the object. If the creature holding or wearing the object is also grappled by the malmbjorn it has disadvantage on this save. Nonmagical objects are digested and destroyed at the start of malmbjorn's next turn. Magic objects remain intact in malmbjorn's stomach for 8 hrs then are destroyed. Artifacts are never destroyed in this way."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Ironhide",
+      "desc": "When hit by a metal weapon fur-like metal spikes grow out of its hide until end of its next turn. While spikes remain its AC increases 2 and any critical hit vs. it becomes a normal hit."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Smell",
+      "desc": "Advantage: smell Wis (Percept) checks."
+    },
+    {
+      "name": "Metal Sense",
+      "desc": "Can pinpoint by scent location of any Small or larger ferrous metal such as an iron deposit or steel armor within 100' of it. It can sense general direction of such metal within 1 mile."
+    },
+    {
+      "name": "Tunneler",
+      "desc": "Can burrow through solid rock at half its burrow speed and leaves a 15-foot-diameter tunnel in its wake."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 267,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_malmbjorn/"
+}

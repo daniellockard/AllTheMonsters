@@ -1,0 +1,71 @@
+{
+  "slug": "beetle-clacker-soldier",
+  "desc": "",
+  "name": "Beetle, Clacker Soldier",
+  "size": "Small",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 18,
+  "hit_dice": "4d6+4",
+  "speed": {
+    "walk": 20,
+    "climb": 20
+  },
+  "strength": 8,
+  "dexterity": 14,
+  "constitution": 13,
+  "intelligence": 1,
+  "wisdom": 7,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -2,
+  "skills": {
+    "perception": -2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "slashing from nonmagical attacks",
+  "damage_immunities": "thunder",
+  "condition_immunities": "",
+  "senses": "blindsight 30', passive Perception 8",
+  "languages": "—",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, 0 ft., one creature,. 11 (2d8+2) piercing damage."
+    },
+    {
+      "name": "Clack",
+      "desc": "Clacks its mandibles to create small but dangerous booming noise in 15 ft. cone. Each creature in area: 5 (2d4) thunder (DC 13 Con half). When multiple beetles clack in same turn and create overlapping cones each creature in overlapping cones makes one save with disadvantage vs. total damage from all overlapping cones rather than one save for each."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Compact",
+      "desc": "Can occupy same space as one other clacker soldier."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 54,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_beetle-clacker-soldier/"
+}

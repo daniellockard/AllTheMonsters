@@ -1,0 +1,83 @@
+{
+  "slug": "bone-collector",
+  "desc": "",
+  "name": "Bone Collector",
+  "size": "Small",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 21,
+  "hit_dice": "6d6",
+  "speed": {
+    "walk": 15,
+    "fly": 60
+  },
+  "strength": 6,
+  "dexterity": 15,
+  "constitution": 11,
+  "intelligence": 7,
+  "wisdom": 14,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60', passive Perception 14",
+  "languages": "understands Common but can't speak",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Talons",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 9 (2d6+2) slashing damage. If target is a creature: DC 11 Con save or contract a disease. Until disease is cured target can't regain hp except by magical means and target's hp max decreases by 3 (1d6) every 24 hrs. If target's hp max drops to 0 as a result of this disease target dies."
+    },
+    {
+      "name": "Bad Omen (1/Day)",
+      "desc": "Places a bad omen on a creature it can see within 20' of it. Target: DC 10 Wis save or be cursed for 1 min. While cursed target has disadvantage on attack rolls vs. bone collector. Target can re-save at end of each of its turns success ends effect on itself."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Call of the Grave",
+      "desc": "Attacks made within 60' of the bone collector score a critical hit on a roll of 19 or 20."
+    },
+    {
+      "name": "Death Sense",
+      "desc": "Can pinpoint by scent location of Undead creatures and creatures that have been dead no longer than 1 week within 60' of it and can sense the general direction of such creatures within 1 mile of it."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 64,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_bone-collector/"
+}

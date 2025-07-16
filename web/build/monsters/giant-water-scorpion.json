@@ -1,0 +1,87 @@
+{
+  "slug": "giant-water-scorpion",
+  "desc": "A common threat in canals, lagoons, bayous, and countless other bodies of water, the giant water scorpion is responsible for the deaths of many adventurers exploring waterways. Like most aquatic monsters, giant water scorpions are seldom at the top of the food chain in their native environment, and black dragons in particular enjoy snacking on them. Swamp and water-dwelling humanoids like lizardfolk have been known to use the giant water scorpion’s carapace to create shields or coverings for their tents. The creature’s long tail acts as a breathing tube for it, which is often harvested and used by intrepid explorers and inventors in the creation of diving bells and other apparatuses for traversing the stygian depths.",
+  "name": "Giant Water Scorpion",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 93,
+  "hit_dice": "11d10+33",
+  "speed": {
+    "swim": 30,
+    "walk": 20
+  },
+  "strength": 17,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "stealth": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., blindsight 60 ft., passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The giant water scorpion makes two claw attacks. If it is grappling a creature, it can use its proboscis once."
+    },
+    {
+      "name": "Proboscis",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage, and the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.",
+      "attack_bonus": 5,
+      "damage_dice": "1d10+3"
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 6 (1d6 + 3) piercing damage. The target is grappled (escape DC 13) if it is a Medium or smaller creature and the scorpion doesn't have another creature grappled.",
+      "attack_bonus": 5,
+      "damage_dice": "1d6+3"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Hold Breath",
+      "desc": "The scorpion can hold its breath for 1 hour. If it is within 15 feet of the water's surface, it can use its tail as a breathing tube and doesn't need to hold its breath."
+    },
+    {
+      "name": "Poison Injection",
+      "desc": "When the scorpion hits with a proboscis attack against a grappled, paralyzed, restrained, or stunned creature, it deals an extra 10 (3d6) poison damage."
+    },
+    {
+      "name": "Underwater Camouflage",
+      "desc": "The scorpion has advantage on Dexterity (Stealth) checks made to hide while underwater."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 393,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_giant-water-scorpion/"
+}

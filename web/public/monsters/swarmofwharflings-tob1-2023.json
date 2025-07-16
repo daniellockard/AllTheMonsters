@@ -1,0 +1,75 @@
+{
+  "slug": "swarmofwharflings-tob1-2023",
+  "desc": "False",
+  "name": "Swarm of Wharflings",
+  "size": "Large",
+  "type": "Swarm",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 66,
+  "hit_dice": "12d10",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 10,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 13,
+  "skills": {
+    "Perception": 3,
+    "Sleight of Hand": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, slashing",
+  "damage_immunities": "False",
+  "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "—",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Pilfering Bites",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 28 (8d6) piercing damage, or 14 (4d6) piercing damage if the swarm has half of its hp or fewer, and the target must succeed on a DC 13 Dexterity saving throw or lose one item it is wearing or carrying to the swarm, provided the item weighs no more than 10 pounds, isn't a weapon, and isn't wrapped around or firmly attached to the target, such as a shirt or armor."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The swarm of wharflings can breathe air and water."
+    },
+    {
+      "name": "Snapping Jaws",
+      "desc": "A creature that attempts to move out of or through the swarm of wharflings must succeed on a DC 13 Dexterity saving throw or take 7 (2d6) piercing damage."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny wharfling. The swarm can't regain hp or gain temporary hp."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 395,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_swarm-of-wharflings/"
+}

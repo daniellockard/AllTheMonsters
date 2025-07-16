@@ -1,0 +1,88 @@
+{
+  "slug": "ophinix",
+  "desc": "This bat-like creature has luxurious blue fur covering every part of its body. It has a heavily wrinkled face, large, bulbous eyes, and twin horn-like antennae. Thin sable wings unfurl from its back, and its fur emits tiny sparks of blue lightning._  \n**Cave-Dwelling Hunters.** A large, bat-like monstrosity native to many natural cave systems and chasms, the ophinix spends most of its time flying through the darkened passages of its home looking for its next meal. The ophinix is single-minded in its pursuit of prey, hunting bats, Open Game License",
+  "name": "Ophinix",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 60,
+  "hit_dice": "8d10+16",
+  "speed": {
+    "walk": 10,
+    "fly": 40
+  },
+  "strength": 18,
+  "dexterity": 16,
+  "constitution": 15,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "perception": 3,
+    "stealth": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "lightning",
+  "condition_immunities": "",
+  "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 13",
+  "languages": "—",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d8+4"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage. If the ophinix is charged with electricity, the target also takes 5 (2d4) lightning damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d6+4"
+    },
+    {
+      "name": "Generate Static",
+      "desc": "The ophinix rubs along a dry surface and charges its fur with static electricity. Its fur remains charged with electricity for 1 minute or until it uses Lightning Strike."
+    },
+    {
+      "name": "Lightning Strike (Recharge Special)",
+      "desc": "The ophinix releases its static electricity at up to three targets it can see within 30 feet of it. Each creature must make a DC 12 Dexterity saving throw, taking 5 (2d4) lightning damage on a failed save, or half as much damage on a successful one. After using Lightning Strike, the ophinix is no longer charged with electricity. It can't use Lightning Strike if isn't charged with electricity."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Conductive Fur",
+      "desc": "While the ophinix is charged with electricity, a creature that touches the ophinix or hits it with a melee attack while within 5 feet of it takes 2 (1d4) lightning damage."
+    },
+    {
+      "name": "Lightning Recharge",
+      "desc": "Whenever the ophinix is subjected to lightning damage, it takes no damage and becomes charged with electricity. If it is already charged, the duration resets to 1 minute."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 283,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_ophinix/"
+}

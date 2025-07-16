@@ -1,0 +1,81 @@
+{
+  "slug": "ice-bogie",
+  "desc": "A gaggle of mischievous, rime-covered humanoids, one of which is standing on the shoulders of another, paint hoarfrost patterns on a window._  \nWherever the temperature drops below freezing, mobs of ice bogies may appear to unleash their wintry mischief. Enigmatic creatures of ice: the hows and whys of their random arrivals remain a mystery. A group might plague a remote village for an entire winter or pester a yeti for a single afternoon. Whenever frost forms in suspicious places or patterns, ice bogies are likely to blame.  \n**Japes and Vandalism.** Whether pilfering innocuous items, laying slicks of frost across doorways, or freezing a goat’s eyelids shut while it sleeps, the creatures find delight in pranks and making nuisances of themselves. Capricious and gleeful, they are equal opportunists—seeing little difference between humanoids, beasts, or monstrosities. They find pleasure lurking on the edges of civilization, gathering to play their tricks on unsuspecting pioneers before melting back into the frigid wilds without a trace.  \n**Vicious Reprisals.** While ice bogies are known to occasionally help lost travelers or return stolen prizes the next day, they have a dangerous side. When provoked, they swarm their opponents in a series of darting attacks from all sides and are known to pelt their enemies with shards of ice plucked from their own bodies in a flurry of hail.",
+  "name": "Ice Bogie",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 10,
+  "hit_dice": "3d6",
+  "speed": {
+    "walk": 25
+  },
+  "strength": 7,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 8,
+  "wisdom": 7,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": 4,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "stealth": 4
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "",
+  "damage_immunities": "cold, poison",
+  "condition_immunities": "charmed, petrified, poisoned, unconscious",
+  "senses": "darkvision 30 ft., passive Perception 8",
+  "languages": "Primordial",
+  "challenge_rating": "1/8",
+  "cr": 0.125,
+  "actions": [
+    {
+      "name": "Icicle Fist",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage plus 2 (1d4) cold damage."
+    },
+    {
+      "name": "Spiteful Hail",
+      "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 2 (1d4) cold damage, and the target's speed is reduced by 10 until the end of its next turn.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Frosty Aid (1/Day)",
+      "desc": "Whenever an allied ice bogie within 30 feet is reduced to 0 hp, this ice bogie can choose to reduce its hp by 3 (1d6), and the ally regains hp equal to the amount of hp this ice bogie lost."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Nimble Escape",
+      "desc": "The bogie can take the Disengage or Hide action as a bonus action on each of its turns."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The bogie has advantage on attack rolls against a creature if at least one of the bogie's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 209,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_ice-bogie/"
+}

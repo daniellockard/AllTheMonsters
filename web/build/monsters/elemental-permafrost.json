@@ -1,0 +1,87 @@
+{
+  "slug": "elemental-permafrost",
+  "desc": "",
+  "name": "Elemental, Permafrost",
+  "size": "Large",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 133,
+  "hit_dice": "14d10+56",
+  "speed": {
+    "walk": 20,
+    "burrow": 30
+  },
+  "strength": 19,
+  "dexterity": 8,
+  "constitution": 18,
+  "intelligence": 5,
+  "wisdom": 15,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "nonmagic B/P/S attacks",
+  "damage_immunities": "",
+  "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+  "senses": "darkvision 60', tremorsense 60', passive Perception 12",
+  "languages": "Terran",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +7 to hit, 10 ft., one target, 13 (2d8+4) bludgeoning damage + 7 (2d6) cold."
+    },
+    {
+      "name": "Plague-Ridden Pound (Recharge 5-6)",
+      "desc": "Brings both of its fists down striking ground and sending ice shards from its body flying at nearby creatures. Each creature on the ground within 20' of it: 10 (3d6) bludgeoning damage and 10 (3d6) cold knocked prone and becomes infected with primordial plague (see Plague Bearer; DC 14 Dex half damage and not prone or infected)."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Earth Glide",
+      "desc": "Can burrow through nonmagical unworked earth/stone with o disturbing material it moves through."
+    },
+    {
+      "name": "Elemental Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Frigid Footprints",
+      "desc": "The ground within 10 ft. of the permafrost elemental freezes over and is difficult terrain."
+    },
+    {
+      "name": "Plague Bearer",
+      "desc": "If it takes 15+ fire on single turn each creature within 10 ft. of it: infected with primordial plague disease (DC 14 Con negates). Alternatively creature becomes infected with sewer plague or cackle fever (elemental's choice) instead. Primordial plague takes 1 min to manifest in infected creature. After 1 min creature poisoned until disease cured. Every 24 hrs that elapse creature must re-save reducing its hp max by 5 (1d10) on failure. Disease is cured on success. Reduction lasts until disease is cured. Creature dies if disease reduces its hp max to 0."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 167,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_elemental-permafrost/"
+}

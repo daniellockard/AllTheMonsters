@@ -1,0 +1,72 @@
+{
+  "slug": "xanka-tob1-2023",
+  "desc": "False",
+  "name": "Xanka",
+  "size": "Small",
+  "type": "Construct",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 27,
+  "hit_dice": "6d6 + 6",
+  "speed": {
+    "walk": 15
+  },
+  "strength": 10,
+  "dexterity": 15,
+  "constitution": 12,
+  "intelligence": 4,
+  "wisdom": 10,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "force",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "blindsight 120 ft., passive Perception 10",
+  "languages": "understands the languages of its creator but can’t speak",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Dismantling Leg",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is subjected to the xanka's Absorb trait."
+    },
+    {
+      "name": "Release Energy (Recharge 5-6)",
+      "desc": "The xanka releases energy created from absorbed material in a burst. Each creature within 10 feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) force damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Absorb",
+      "desc": "Any nonmagical object that touches the xanka's central globe, any nonmagical weapon that hits the xanka, or any nonmagical object, structure, or creature hit by the xanka's Dismantling Leg attack begins to deteriorate. If it is a structure or an object that isn't being worn or carried, up to a 1-foot cube of the structure or object is destroyed. If it is an object worn or carried by a creature, the creature must succeed on a DC 11 Dexterity saving throw to avoid the item being affected by the xanka's Absorb."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "The xanka doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 399,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_xanka/"
+}

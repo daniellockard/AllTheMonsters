@@ -1,0 +1,81 @@
+{
+  "slug": "jack-of-strings",
+  "desc": "Clad in fine clothes of black and red, the tall, slim figure steps forward. With a clawed hand grasping a crossbar, it makes its eyeless marionette dance. A chuckle of cruel delight escapes its fanged maw as a nearby observer suddenly rises and spasmodically mimics the dance._  \n**Court Entertainers and Punishers.** A jack of strings uses its collection of marionettes to amuse shadow fey courts. It is adept at tailoring its performances to the crowd, switching effortlessly between charming plays, ribald performances, satirical pantomimes, and terrifying tales. During these performances, the jack of strings can take control of a creature in the audience to enact justice in the form of humiliation, torture, or even death. The jack is sometimes hired by fey nobility to enact such justice on rivals.  \n**Uncanny Valley.** The jack of strings takes control of its victims by establishing a link between the victim and one of its marionettes. When it establishes the link, the marionette becomes lifelike while the jack’s victim takes on a wooden appearance. The puppet gains the victim’s eyes, which disappear from the victim’s face.  \n**Masters of Puppets.** Jacks of strings have several marionettes at their disposal. Aside from the first, which it painstakingly crafts itself, the jack’s puppets derive from victims who perish while linked to the jack’s puppet. Jacks harvest their prey in the mortal realm under the guise of a traveling entertainer and typically target people who won’t be missed.",
+  "name": "Jack of Strings",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 14,
+  "armor_desc": null,
+  "hit_points": 90,
+  "hit_dice": "12d8+36",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 14,
+  "dexterity": 19,
+  "constitution": 17,
+  "intelligence": 15,
+  "wisdom": 14,
+  "charisma": 20,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "acrobatics": 10,
+    "performance": 8
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons not made with cold iron weapons",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "Common, Sylvan, Umbral",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The jack of strings makes two mocking slap attacks."
+    },
+    {
+      "name": "Mocking Slap",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage plus 3 (1d6) psychic damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d6+3"
+    },
+    {
+      "name": "Animate Puppet",
+      "desc": "The jack of strings animates up to three wooden puppets it can see within 60 feet of it. This works like the animate objects spell, except the wooden puppet uses the statistics of a Small object, regardless of the puppet's actual size. The jack can have no more than five puppets animated at one time."
+    },
+    {
+      "name": "Puppet Link",
+      "desc": "One humanoid or beast the jack of strings can see within 60 feet of it must succeed on a DC 15 Wisdom saving throw or become magically linked to the jack's marionette. This link appears as a barely perceptible string between the jack's marionette and the target. A linked creature can repeat the saving throw at the end of each of its turns, ending the link on a success.\n\nWhile a target is linked, the jack of strings can use its reaction at the start of the target's turn to control the linked target. The jack of strings can make the target move, manipulate objects, attack, or take other purely physical actions. The jack can't make the target cast spells. While controlled, the target moves awkwardly and has disadvantage on attack rolls and ability checks. If the target receives a suicidal command from the jack of strings, it can repeat the saving throw, ending the effect on a success.\n\nThe jack of strings can have only one target linked at a time. If it links another, the effect on the previous target ends. If a creature dies while linked to the jack's marionette, the creature's body becomes a wooden puppet that resembles the creature."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The jack of strings has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 218,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_jack-of-strings/"
+}

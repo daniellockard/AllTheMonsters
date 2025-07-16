@@ -1,0 +1,82 @@
+{
+  "slug": "kobold_swiftblade_bf",
+  "desc": "",
+  "name": "Kobold Swiftblade",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": "Kobolds",
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": "leather armor",
+  "hit_points": 80,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "climb": 15
+  },
+  "strength": 8,
+  "dexterity": 22,
+  "constitution": 10,
+  "intelligence": 12,
+  "wisdom": 14,
+  "charisma": 10,
+  "strength_save": -1,
+  "dexterity_save": 6,
+  "constitution_save": 0,
+  "intelligence_save": 1,
+  "wisdom_save": 2,
+  "charisma_save": 0,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Draconic",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The kobold swiftblade makes two Scimitar or Hand Crossbow attacks."
+    },
+    {
+      "name": "Scimitar",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 7 (1d6+4) slashing damage plus 7 (2d6) poison damage."
+    },
+    {
+      "name": "Hand Crossbow",
+      "desc": "_Ranged Weapon Attack:_ +6 to hit, range 30/120 ft., one target. _Hit:_ 7 (1d6+4) piercing damage plus 7 (2d6) poison damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Hidden Scurry",
+      "desc": "The swiftblade moves up to 15 feet without provoking opportunity attacks, and if it moves into a lightly or heavily obscured area, it takes the Hide action, using its **Stealth** value as the result of the check. If the swiftblade is aware of traps in the area, it can choose if this movement triggers any of them."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Pack Tactics",
+      "desc": "The kobold has advantage on attack rolls against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the kobold has disadvantage on attack rolls, and its Perception is 7 when perceiving by sight."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_kobold-swiftblade/"
+}

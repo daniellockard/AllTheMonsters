@@ -1,0 +1,64 @@
+{
+  "slug": "goat_bf",
+  "desc": "",
+  "name": "Goat",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 10,
+  "armor_desc": null,
+  "hit_points": 8,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 12,
+  "dexterity": 10,
+  "constitution": 10,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 4,
+  "strength_save": 1,
+  "dexterity_save": 0,
+  "constitution_save": 0,
+  "intelligence_save": -4,
+  "wisdom_save": 0,
+  "charisma_save": -3,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "prone",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "-",
+  "challenge_rating": "0",
+  "cr": 0,
+  "actions": [
+    {
+      "name": "Ram",
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one target. _Hit:_ 3 (1d4+1) bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Charge",
+      "desc": "If the goat moves at least 20 feet straight toward a target and then hits it with a Ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 11 STR save or be knocked prone."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_goat/"
+}

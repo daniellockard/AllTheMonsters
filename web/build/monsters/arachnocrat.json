@@ -1,0 +1,98 @@
+{
+  "slug": "arachnocrat",
+  "desc": "A portly gentleman with slender arms and legs keeps his face and hands carefully concealed._  \nArachnocrats are spider-like fiends who enjoy masquerading as members of high society. They eat haute cuisine and drink fine wine in the company of humans.  \n**Finer Tastes.** Viewing the wealth and standing of their victims as the greatest measure of taste, these devils delight in aristocratic prey, though they most often feed on the liquefied innards of servants of the aristocracy to avoid detection. They use local spiders as spies and informants to get closer to their quarries or discover dark secrets their quarries would rather keep hidden. Ever patient in their schemes of corruption, arachnocrats often court their quarries over months of theatre, dinner parties, and elaborate balls.  \n**Hidden in Plain Sight.** Arachnocrats are adept at disguising themselves as aristocrats. Their most noticeable features are their clawed hands and their spider-like faces, which they cover with gloves, masks, scarves, voluminous robes, and similar attire. The eccentricities of the well-to-do help to cast off any suspicion over their odd coverings.  \n**As Good As Gold.** The arachnocrat’s preferred prey comes at a high price. Blessed by the Arch-Devil of Greed, Mammon, arachnocrats have a second stomach that can turn common rocks into faux gemstones. The fiends vomit up the gemstones after digesting the rocks for a few months, and they use the gemstones to fund their endeavors. The counterfeit nature of the gems is detectable by only true craftsmen.",
+  "name": "Arachnocrat",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "devil",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 93,
+  "hit_dice": "17d8+17",
+  "speed": {
+    "walk": 30,
+    "climb": 40
+  },
+  "strength": 13,
+  "dexterity": 17,
+  "constitution": 12,
+  "intelligence": 16,
+  "wisdom": 14,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": null,
+  "intelligence_save": 4,
+  "wisdom_save": null,
+  "charisma_save": 6,
+  "perception": null,
+  "skills": {
+    "deception": 8,
+    "insight": 4,
+    "persuasion": 6,
+    "stealth": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 12",
+  "languages": "Common, Infernal, telepathy 120 ft.",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The arachnocrat makes two claw attacks. If both claws hit a Medium or smaller target, the target is restrained in gilded webbing. As an action, the restrained target can make a DC 13 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 12; hp 8; immunity to bludgeoning, poison, and psychic damage)."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d8+3"
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 14 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hp, the target is stable but poisoned for 1 hour, even after regaining hp, and is paralyzed while poisoned in this way. The skin of a creature that dies while poisoned takes on a golden hue.",
+      "attack_bonus": 6,
+      "damage_dice": "1d6+3"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Aristocratic Disguise",
+      "desc": "An arachnocrat in a prepared disguise has advantage on Charisma (Deception) checks made to pass as a humanoid aristocrat."
+    },
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the arachnocrat's darkvision."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The arachnocrat has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Speak with Spiders",
+      "desc": "The arachnocrat can communicate with spiders and other arachnids as if they shared a language."
+    },
+    {
+      "name": "Spider Climb",
+      "desc": "The arachnocrat can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 102,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_arachnocrat/"
+}

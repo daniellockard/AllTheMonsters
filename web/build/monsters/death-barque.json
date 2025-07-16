@@ -1,0 +1,100 @@
+{
+  "slug": "death-barque",
+  "desc": "Necromancers, both living and dead, sometimes come together to make massive undead creatures known collectively as “necrotech”. In nations ruled by undead, these massive creations often act as siege weapons or powerful modes of transportation._  \n**Bone Colossuses.** In a tome of deranged ramblings, the writer theorized how “posthumes”— the tiny skeletal creatures used to make up the bone collectives—might be gathered in even greater numbers to form bigger, stronger creatures. Thus was born the Open Game License",
+  "name": "Death Barque",
+  "size": "Gargantuan",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 198,
+  "hit_dice": "12d20+72",
+  "speed": {
+    "swim": 50,
+    "walk": 0
+  },
+  "strength": 20,
+  "dexterity": 18,
+  "constitution": 23,
+  "intelligence": 8,
+  "wisdom": 14,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": 8,
+  "constitution_save": 10,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "perception": 6,
+    "stealth": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "psychic",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 120 ft., passive Perception 16",
+  "languages": "Darakhul, Deep Speech",
+  "challenge_rating": "12",
+  "cr": 12,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The death barque makes three attacks: one with its bite and two with its tail smash."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage.",
+      "attack_bonus": 9,
+      "damage_dice": "3d10+5"
+    },
+    {
+      "name": "Tail Smash",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage and must succeed on a DC 17 Strength saving throw or be knocked prone.",
+      "attack_bonus": 9,
+      "damage_dice": "3d6+5"
+    },
+    {
+      "name": "Shrapnel Burst",
+      "desc": "The death barque launches a ball of bone shards from its tail at a point it can see within 120 feet of it. Each creature within 10 feet of that point must make a DC 17 Dexterity saving throw. On a failure, a creature takes 28 (8d6) piercing damage and is blinded for 1 minute. On a success, a creature takes half the damage and isn't blinded. A blinded creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Necrotic Breath (Recharge 5-6)",
+      "desc": "The death barque exhales a dark cloud of necrotic energy in a 60-foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 54 (12d8) necrotic damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Immutable Form",
+      "desc": "The death barque is immune to any spell or effect that would alter its form."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The death barque has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "The death barque deals double damage to objects and structures."
+    },
+    {
+      "name": "Turn Resistance",
+      "desc": "The death barque has advantage on saving throws against any effect that turns undead."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 268,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_death-barque/"
+}

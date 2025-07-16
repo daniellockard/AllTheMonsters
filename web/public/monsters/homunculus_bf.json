@@ -1,0 +1,73 @@
+{
+  "slug": "homunculus_bf",
+  "desc": "",
+  "name": "Homunculus",
+  "size": "Tiny",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 34,
+  "hit_dice": "",
+  "speed": {
+    "walk": 20,
+    "fly": 40
+  },
+  "strength": 4,
+  "dexterity": 16,
+  "constitution": 10,
+  "intelligence": 14,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": -3,
+  "dexterity_save": 3,
+  "constitution_save": 0,
+  "intelligence_save": 2,
+  "wisdom_save": 0,
+  "charisma_save": -2,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "Construct Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "understands the languages of its creator but can't speak",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one creature. _Hit:_ 5 (1d4+3) piercing damage plus 5 (2d4) poison damage, and the target must succeed on a DC 12 CON save or be poisoned for 1 minute. If the save fails by 5 or more, the target is instead poisoned for 5 (1d10) minutes and unconscious while poisoned in this way."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Bound Construct",
+      "desc": "The homunculus serves another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded and on the same plane of existence, the companion can sense what the homunculus senses and the two can communicate telepathically. While the homunculus is within 100 feet of the companion, it can use a reaction to deliver any spell the companion casts that has a range of touch. If the spell requires an attack roll, the homunculus uses the companion's spell attack modifier for the roll. While the homunculus is within 10 feet of its companion, the companion has advantage on INT (Arcana) and INT (Investigation) checks. At any time and for any reason, the homunculus can end its service as a familiar, ending the telepathic bond."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "The homunculus doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Construct Resilience",
+      "desc": "The homunculus is immune to poison and psychic damage, and it is immune to exhaustion and the charmed, frightened, paralyzed, petrified, and poisoned conditions."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_homunculus/"
+}

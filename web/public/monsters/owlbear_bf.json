@@ -1,0 +1,89 @@
+{
+  "slug": "owlbear_bf",
+  "desc": "",
+  "name": "Owlbear",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "Animal",
+  "group": null,
+  "alignment": "",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 80,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 20,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 6,
+  "strength_save": 5,
+  "dexterity_save": 1,
+  "constitution_save": 3,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -2,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Monstrosity Resilience",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "-",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The owlbear makes one Beak attack and one Claws attack. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 15)."
+    },
+    {
+      "name": "Beak",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one creature. _Hit:_ 10 (1d10+5) piercing damage."
+    },
+    {
+      "name": "Claws",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 14 (2d8+5) slashing damage."
+    },
+    {
+      "name": "Vicious Bound (44 HP or Fewer)",
+      "desc": "The owlbear roars and barrels through creatures. It moves up to 20 feet in a straight line and can move through the space of any Medium or smaller creature. The first time it enters a creature's space during this move, that creature must make a DC 15 STR save. On a failure, a creature takes 18 (4d8) bludgeoning damage and is knocked prone. On a success, a creature takes half the damage and isn't knocked prone."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Rend",
+      "desc": "The owlbear violently wrenches a Medium or smaller creature it is currently grappling. The target must make a DC 15 STR save, taking 9 (2d8) slashing damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Glide",
+      "desc": "The owlbear has long, sturdy feathers along its forelimbs and sides that expand while falling to slow its rate of descent to 60 feet per round, landing on its feet and taking no falling damage. It can move up to 5 feet horizontally for every 1 foot it falls. The owlbear can't gain height with its gliding feathers alone. If subjected to a strong wind or lift of any kind, it can use the updraft to glide farther."
+    },
+    {
+      "name": "Heightened Sight and Smell",
+      "desc": "The owlbear's Perception is 18 when perceiving by sight or smell."
+    },
+    {
+      "name": "Monstrosity Resilience",
+      "desc": "The owlbear is resistant to exhaustion and to the frightened condition."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_owlbear/"
+}

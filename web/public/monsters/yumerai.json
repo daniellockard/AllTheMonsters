@@ -1,0 +1,82 @@
+{
+  "slug": "yumerai",
+  "desc": "A slender creature with silvery skin moves delicately, as though unsure if the world around it is real. Star-like motes of white light dance in its black eyes._  \nA race of fey said to be born from the dreams of an ancient primeval being, yumerai walk in two worlds. Humanoid in appearance, they possess skin tones that range from pale silver to dark gray. Intrinsically tied to the dream world, they can use sleeping creatures as both weapons and transportation.  \n**Alien Minds.** Although yumerai spend most of their time in the waking world, they have difficulty remembering the differences between dreams and reality. This leads some to misunderstand basic laws of physics or to believe dreams events were real events.  \n**Dream Walkers.** A yumerai can enter an individual’s dreams and use those dreams as a means of transportation to another’s dreams. This process brief connects the creatures, though the yumerai tries not to make its presence known. When multiple people have the same dream, they may have had a yumerai pass through their sleeping minds.  \n**The Gift of Sleep.** For a yumerai, sleep serves as both a tool and a gift. As creatures unable to sleep or dream, the yumerai consider the ability to dream a gift that all mortals should appreciate. As they travel through mortal dreams, yumerai collect energy from the dreams and use it as a form of currency in fey realms. Fey use dream energy in much the same way mortals use paint, creating seemingly alive portraits or making illusions look, smell, sound, or taste more real.  \n**The Horror of Nightmares.** Yumerai usually look forward to the opportunity to experience new dreams. However, not all dreams are pleasant. Particularly horrifying nightmares may leave permanent mental scars on yumerai who witness them, changing them forever. These yumerai take on a sinister and sometimes sadistic personality, seeking to inflict the pain they felt through the nightmare on those around them.  \n**Dream Walker.** A yumerai doesn’t require sleep.",
+  "name": "Yumerai",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 65,
+  "hit_dice": "10d8+20",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 13,
+  "dexterity": 17,
+  "constitution": 14,
+  "intelligence": 13,
+  "wisdom": 14,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 4,
+  "skills": {
+    "insight": 4,
+    "perception": 4,
+    "stealth": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "psychic",
+  "damage_immunities": "",
+  "condition_immunities": "unconscious",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "all, telepathy 60 ft.",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The yumerai makes two psychic lash attacks."
+    },
+    {
+      "name": "Psychic Lash",
+      "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (2d6) psychic damage.",
+      "attack_bonus": 5,
+      "damage_dice": "2d6"
+    },
+    {
+      "name": "Somnambulism",
+      "desc": "The yumerai targets one sleeping creature it can see within 30 feet of it. The yumerai can issue simple commands to the creature, such as “Attack that creature,” “Run over there,” or “Fetch that object.” If the creature takes damage, receives a suicidal command, is told to move into damaging terrain, such as lava or a pit, or is grappled while carrying out the order, it can make a DC 13 Wisdom saving throw, awakening and ending the yumerai's control on a success. The yumerai can control only one sleeping creature at a time. If it takes control of another, the effect on the previous target ends."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Dream Leap",
+      "desc": "Once on its turn, the yumerai can use half its movement to step magically into the dreams of a sleeping creature within 5 feet of it. It emerges from the dreams of another sleeping creature within 1 mile of the first sleeper, appearing in an unoccupied space within 5 feet of the second sleeper. If there is no other sleeping creature within range when it uses this trait, the yumerai is stunned until the end of its next turn."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The yumerai's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:\nAt will: dancing lights, message, minor illusion\n3/day each: detect thoughts, silent image, sleep\n1/day each: confusion, major image"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 381,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_yumerai/"
+}

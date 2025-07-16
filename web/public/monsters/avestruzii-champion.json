@@ -1,0 +1,78 @@
+{
+  "slug": "avestruzii-champion",
+  "desc": "",
+  "name": "Avestruzii Champion",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Any Alignment",
+  "armor_class": 15,
+  "armor_desc": "scale mail",
+  "hit_points": 45,
+  "hit_dice": "6d8+18",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 17,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 12",
+  "languages": "Common, Terran",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Greataxe attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 5 (1d4+3) slashing damage."
+    },
+    {
+      "name": "Greataxe",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 9 (1d12+3) piercing damage. If target is a creature: DC 13 Str save or be pushed 5 ft. away from avestruzii."
+    },
+    {
+      "name": "Shortbow",
+      "desc": "Ranged Weapon Attack: +3 to hit 80/320' one target 4 (1d6+1) piercing damage."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Dig In",
+      "desc": "As Avestruzi above."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 48,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_avestruzii-champion/"
+}

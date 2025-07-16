@@ -1,0 +1,77 @@
+{
+  "slug": "cobbleswarm-tob1-2023",
+  "desc": "False",
+  "name": "Cobbleswarm",
+  "size": "Medium",
+  "type": "Swarm",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 36,
+  "hit_dice": "8d8",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 12,
+  "dexterity": 11,
+  "constitution": 11,
+  "intelligence": 5,
+  "wisdom": 12,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, slashing",
+  "damage_immunities": "False",
+  "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "senses": "passive Perception 11",
+  "languages": "—",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Stings",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 15 (6d4) piercing damage, or 7 (3d4) piercing damage if the swarm has half its hp or fewer."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shift and Tumble",
+      "desc": "The cobbleswarm pushes a prone creature in its space up to 5 feet away from it."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While the cobbleswarm remains motionless, it is indistinguishable from normal stones."
+    },
+    {
+      "name": "Shifting Floor",
+      "desc": "Whenever the cobbleswarm moves into a creature's space or starts its turn in another creature's space, the creature must succeed on a DC 13 Dexterity saving throw or fall prone. A prone creature must succeed on a DC 13 Dexterity (Acrobatics) check to stand up in a space occupied by the swarm."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The cobbleswarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny stone. The swarm can't regain hp or gain temporary hp."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 67,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_cobbleswarm/"
+}

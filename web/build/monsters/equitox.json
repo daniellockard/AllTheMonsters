@@ -1,0 +1,95 @@
+{
+  "slug": "equitox",
+  "desc": "",
+  "name": "Equitox",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 178,
+  "hit_dice": "17d10+85",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 20,
+  "dexterity": 13,
+  "constitution": 20,
+  "intelligence": 14,
+  "wisdom": 12,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": 7,
+  "wisdom_save": 6,
+  "charisma_save": 7,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, fire, lightning; nonmagic B/P/S attacks",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, frightened, exhaustion, poisoned",
+  "senses": "darkvision 60', truesight 30', passive Perception 16",
+  "languages": "Abyssal, Celestial, Common, Infernal",
+  "challenge_rating": "13",
+  "cr": 13,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Gores. If it hits one creature with both target: DC 18 Con save or contract gullylung fever disease (see above)."
+    },
+    {
+      "name": "Gore",
+      "desc": "Melee Weapon Attack: +10 to hit, 5 ft., one target, 18 (2d12+5) piercing damage + 10 (3d6) necrotic."
+    },
+    {
+      "name": "Evaporation Wave (Recharge 6)",
+      "desc": "Exhales hot dry breath in a 60' cone. Each creature in the area that isn't a Construct or Undead: 22 (5d8) fire and 22 (5d8) necrotic (DC 18 Con half). In addition any water in the area that isn't being worn or carried evaporates."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": [
+    {
+      "name": "Teleport",
+      "desc": "With items it has up to 60' to unoccupied space it can see."
+    },
+    {
+      "name": "Withering Gaze (2)",
+      "desc": "Locks eyes with one creature within 60' that can see it. Target: DC 18 Wis or stunned by thirst until end of its next turn."
+    },
+    {
+      "name": "Gore (2)",
+      "desc": "Makes one Gore attack."
+    }
+  ],
+  "special_abilities": [
+    {
+      "name": "Befouling Aura",
+      "desc": "At each of its turns' start all within 30': disadvantage on next attack/ability check as moisture within it is diseased (DC 18 Con negates). If creature spends 1+ min in equitox's aura or drinks water within aura: contract gullylung fever disease (below; DC 18 Con negates). Creatures immune to poisoned are immune to this."
+    },
+    {
+      "name": "Gullylung Fever",
+      "desc": "Creature infected with this disease manifests symptoms 1d4 days after infection: difficulty breathing dehydration and water-themed nightmares. Until cured at end of each long rest infected creature must make DC 18 Con save or its Str score is reduced by 1d4. Reduction lasts until creature finishes long rest after disease is cured. If disease reduces creature's Str to 0 creature dies. A creature that succeeds on two saves recovers from the disease."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 171,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_equitox/"
+}

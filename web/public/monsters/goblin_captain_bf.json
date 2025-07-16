@@ -1,0 +1,81 @@
+{
+  "slug": "goblin_captain_bf",
+  "desc": "",
+  "name": "Goblin Captain",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": "Goblins",
+  "alignment": "",
+  "armor_class": 17,
+  "armor_desc": "chain shirt, shield",
+  "hit_points": 32,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 18,
+  "constitution": 10,
+  "intelligence": 12,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": 0,
+  "dexterity_save": 4,
+  "constitution_save": 0,
+  "intelligence_save": 1,
+  "wisdom_save": 1,
+  "charisma_save": 0,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Goblin",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The goblin captain makes two Scimitar or Shortbow attacks. If both attacks hit one target, the goblin captain can make one extra Scimitar or Shortbow attack."
+    },
+    {
+      "name": "Scimitar",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6+2) slashing damage."
+    },
+    {
+      "name": "Shortbow",
+      "desc": "_Ranged Weapon Attack:_ +4 to hit, range 80/320 ft., one target. _Hit:_ 5 (1d6+2) piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Get That One!",
+      "desc": "The goblin captain points at a target and calls out to a friendly goblin it can see within 30 feet of it. The chosen goblin can use its reaction to move up to half its speed and make one melee attack against the target."
+    },
+    {
+      "name": "Nimble Escape",
+      "desc": "The goblin takes the Disengage or Hide action."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Protect Me!",
+      "desc": "When a creature the goblin captain can see targets it with an attack, the captain can sidestep behind an ally within 5 feet of it, moving to an unoccupied space within 5 feet of the ally. The chosen ally becomes the target of the attack instead."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_goblin-captain/"
+}

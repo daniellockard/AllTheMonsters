@@ -1,0 +1,87 @@
+{
+  "slug": "zilaq",
+  "desc": "",
+  "name": "Zilaq",
+  "size": "Tiny",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 82,
+  "hit_dice": "15d4+45",
+  "speed": {
+    "walk": 30,
+    "fly": 60
+  },
+  "strength": 8,
+  "dexterity": 14,
+  "constitution": 16,
+  "intelligence": 14,
+  "wisdom": 10,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": 4,
+  "wisdom_save": null,
+  "charisma_save": 4,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "thunder",
+  "condition_immunities": "",
+  "senses": "passive Perception 10",
+  "languages": "Common, Draconic",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 7 (2d4+2) piercing damage."
+    },
+    {
+      "name": "Sonic Yelp (Recharge 5-6)",
+      "desc": "Each creature within 60' of it and can hear it: 21 (6d6) thunder (DC 13 Con half). "
+    },
+    {
+      "name": "Enthralling Speech (2/Day)",
+      "desc": "Each creature within 60' of it and can hear it: charmed for 1 min (DC 13 Wis negates). While charmed creature suffers either (zilaq's choice): Creature becomes hostile toward another creature of the zilaq's choice that is also charmed by the zilaq.Creature rolls d100 at start of each of its turns. If result is 51-100 it can take no action until start of its next turn."
+    },
+    {
+      "name": "Phantasmal Oratory (1/Day)",
+      "desc": "Describes a creature so vividly it takes on a semblance of reality. Zilaq creates an illusory creature that resembles a Beast Monstrosity or Plant with CR 1 or less for 1 hr. The illusory creature moves and acts according to zilaq's mental direction and takes its turn immediately after zilaq; uses statistics of creature it resembles except it can't use traits actions or spells that force target to save."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Eidetic Memory",
+      "desc": "Remembers everything it hears or reads. It has advantage on Int (Arcana) and Int (History) checks."
+    },
+    {
+      "name": "Two-Headed",
+      "desc": "Advantage on Wis (Perception) checks and on saves vs. being blinded charmed deafened frightened stunned and knocked unconscious."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 399,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_zilaq/"
+}

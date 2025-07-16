@@ -1,0 +1,82 @@
+{
+  "slug": "de-ogen",
+  "desc": "A roughly humanoid figure composed of thick, greenish-gray fog steps out of the darkness. Its eyes are smoldering orange orbs, and yellow embers trail behind it as it moves forward, burning the very air with its passage._  \n**Spirits of Vengeance and Flame.** De ogen are the malevolent spirits of murderers and other criminals executed by being burned at the stake or thrown into a blazing fire pit. The depth of their evil and strength of their rage return them to life shortly after death to seek vengeance against those who killed them.  \n**Undead Companions.** A de ogen is usually accompanied by Open Game License",
+  "name": "De Ogen",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": null,
+  "hit_points": 45,
+  "hit_dice": "6d8+18",
+  "speed": {
+    "walk": 0,
+    "hover": true,
+    "fly": 40
+  },
+  "strength": 1,
+  "dexterity": 20,
+  "constitution": 16,
+  "intelligence": 11,
+  "wisdom": 13,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "stealth": 9
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "fire, necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Common",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Burning Touch",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (4d6) fire damage. A creature slain by this attack turns to ash. A humanoid slain by this attack rises 24 hours later as a shadow, unless the humanoid is restored to life or its ashes are doused in holy water. The shadow isn't under the de ogen's control, but it follows in the de ogen's wake and aids the de ogen when possible.",
+      "attack_bonus": 7,
+      "damage_dice": "4d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The de ogen can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the de ogen has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "name": "Transfixing Gaze",
+      "desc": "When a creature that can see the de ogen starts its turn within 30 feet of the de ogen, the de ogen can force it to make a DC 14 Wisdom saving throw if the de ogen isn't incapacitated and can see the creature. On a failed save, the creature is incapacitated and its speed is reduced to 0 until the start of its next turn.\n\nA creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the de ogen until the start of its next turn, when it can avert its eyes again. If it looks at the de ogen in the meantime, it must immediately make the saving throw.\n\nCreatures immune to being frightened are immune to the de ogen's Transfixing Gaze."
+    },
+    {
+      "name": "Wilting Passage",
+      "desc": "The first time the de ogen enters or moves through a creature's space on a turn, that creature takes 5 (1d10) fire damage. When the de ogen moves through an object that isn't being worn or carried, the object takes 5 (1d10) fire damage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 80,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_de-ogen/"
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "tzepharion",
+  "desc": "Strutting forward on four legs tipped with sharp talons, this raptor-like fiend has dark crimson feathers covering its scaled hide and an extended, eyeless, saw-toothed maw. A baleful orange eye glares from the monster’s chest._  \n**Primeval Devils.** Tzepharions are perhaps the most savage and primal of all devils. They care little for the schemes and temptations of other devils and are happy to spend their time chasing and devouring lower life forms. For this reason, tzepharions are treated as simple beasts by other fiends, and packs of tzepharions are sometimes employed by Open Game License",
+  "name": "Tzepharion",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "devil",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 110,
+  "hit_dice": "13d10+39",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 19,
+  "dexterity": 14,
+  "constitution": 16,
+  "intelligence": 5,
+  "wisdom": 18,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 7,
+  "skills": {
+    "athletics": 10,
+    "perception": 7,
+    "survival": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 17",
+  "languages": "understands Infernal but can’t speak",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The tzepharion devil makes one bite attack and four claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d8+4"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "1d8+4"
+    },
+    {
+      "name": "Soul Jolt (Recharge 6)",
+      "desc": "The tzepharion leaps up to 20 feet through the air and makes a claw attack against a target within reach. If it hits, the target must succeed on a DC 15 Wisdom saving throw or its soul is forced out of its body, appearing 20 feet in a random direction away from its body, for 1 minute. The creature has control of its soul, which is invisible and can move through creatures and objects as if they were difficult terrain, but it can't cast spells or take any actions. The creature's body is knocked unconscious and can't be awoken until its soul returns, but it can take damage as normal. The creature can repeat the saving throw at the end of each of its turns, reoccupying its body on a success. Alternatively, a creature can reoccupy its body early if it starts its turn within 5 feet of its body. If a creature doesn't return to its body within 1 minute, the creature dies. If its body is reduced to 0 hp before the creature reoccupies its body, the creature dies."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the tzepharion's darkvision."
+    },
+    {
+      "name": "Eye of Rage",
+      "desc": "As a bonus action, the tzepharion incites rage in up to three beasts or monstrosities it can see within 60 feet of it. Each target must succeed on a DC 15 Wisdom saving throw or become enraged until the end of its next turn. While enraged, it has advantage on its attack rolls, but it is unable to distinguish friend from foe and must attack the nearest creature other than the tzepharion. This trait doesn't work on targets with an Intelligence of 6 or higher."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The tzepharion has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The tzepharion has advantage on attack rolls against a creature if at least one of the devil's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 106,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_tzepharion/"
+}

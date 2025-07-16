@@ -1,0 +1,79 @@
+{
+  "slug": "selang-tob1-2023",
+  "desc": "False",
+  "name": "Selang",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 76,
+  "hit_dice": "9d8 + 36",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 15,
+  "constitution": 18,
+  "intelligence": 12,
+  "wisdom": 14,
+  "charisma": 19,
+  "strength_save": null,
+  "dexterity_save": 4,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 6,
+  "perception": 16,
+  "skills": {
+    "Perception": 6,
+    "Performance": 8
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "acid, lightning",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 16",
+  "languages": "Common, Elvish, Sylvan, Void Speech",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The selang can use its Alien Piping. It then makes two Dagger or Poison Bolt attacks."
+    },
+    {
+      "name": "Dagger",
+      "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d4 + 4) piercing damage plus 10 (3d6) poison damage."
+    },
+    {
+      "name": "Poison Bolt",
+      "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit: 14 (3d6 + 4) poison damage."
+    },
+    {
+      "name": "Alien Piping",
+      "desc": "The selang plays one of the following ear-bending melodies on alien pipes. One creature the selang can see within 60 feet of it is the only creature that can hear the melody. The target must succeed on a DC 14 Wisdom saving throw or be affected by the chosen melody."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Poisoned Weapons",
+      "desc": "The selang's weapons are coated with a magical poison. When the selang hits with any weapon, the weapon deals an extra 3d6 poison damage (included in the attack)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 321,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_selang/"
+}

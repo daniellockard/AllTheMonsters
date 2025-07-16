@@ -1,0 +1,89 @@
+{
+  "slug": "mangrove-treant",
+  "desc": "Gnarled roots reaching deep into the muck act as legs for this group of trees conjoined into a sentient being._  \n**Ancient Grove Guardians.** Mangrove treants provide shelter and a resource-rich environment for many creatures. They extend their roots into the water, where several species of fish thrive. Biting and stinging insects, most notably mosquitos, dart about in cloud-like formations near the water’s surface. Arboreal animals nest high among the treants’ boughs mostly removed from the depredations of the insects. Unlike their forest cousins, these swampland treants are more concerned with the safety of those under their protection and less concerned with the overall health of the swamp. They decisively react to direct threats to themselves and the creatures within their boughs and roots, but they may not act if something endangers an area outside their immediate groves.  \nMangrove treants continue to grow throughout their extraordinarily long lives, which can reach millennia if they see no external disruptions. The treants also add ordinary mangrove trees into their gestalt, incorporating the trees’ ecosystems into its whole.  \n**Friend to Lizardfolk.** While a mangrove treant is generally wary of civilization, it befriends Open Game License",
+  "name": "Mangrove Treant",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 136,
+  "hit_dice": "13d12+52",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 20,
+  "dexterity": 7,
+  "constitution": 19,
+  "intelligence": 12,
+  "wisdom": 15,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "athletics": 8,
+    "nature": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 12",
+  "languages": "Common, Draconic, Druidic, Sylvan",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The mangrove treant makes two slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage.",
+      "attack_bonus": 8,
+      "damage_dice": "3d8+5"
+    },
+    {
+      "name": "Mangrove Mosquitos",
+      "desc": "The mangrove treant calls a swarm of mosquitos from its branches. The swarm of mosquitos uses the statistics of a swarm of insects, except it has a flying speed of 30 feet. The swarm acts an ally of the treant and obeys its spoken commands. The swarm remains for 1 day, until the treant dies, or until the treant dismisses it as a bonus action.\n\nThe treant can have only one swarm of mosquitos at a time. If it calls another, the previous swarm disperses."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While the mangrove treant remains motionless, it is indistinguishable from an ordinary mangrove tree."
+    },
+    {
+      "name": "Grasping Roots",
+      "desc": "The treant has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "The mangrove treant deals double damage to objects and structures."
+    },
+    {
+      "name": "Tiny Spies",
+      "desc": "The mangrove treant can communicate with mosquitos as if they shared a language. The mosquitos alert the treant to the presence of intruders, and the treant has advantage on Wisdom (Perception) checks to notice creatures within 60 feet of it."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 350,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_mangrove-treant/"
+}

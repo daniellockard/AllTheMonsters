@@ -1,0 +1,83 @@
+{
+  "slug": "chronomatic-enhancer",
+  "desc": "A giant clock walks on four insectoid legs. As a bolt of fire flies at a nearby humanoid, the clock creature’s inner gears spin and the fire fizzles into a singe on the humanoid’s cloak._  \nChronomatic enhancers are constructs made by powerful spellcasters specializing in time-altering magic. Enhancers are protective guardians of their masters and powerful tools the spellcasters can utilize.  \n**Time Construct.** A chronomatic enhancer resembles a large clock with its inner workings clearly visible. It has four beetle-like legs and two arms. Intricate rune-like markings and glowing blue gems sparkle throughout the enhancer’s interior. These magical runes allow the chronomatic enhancer to alter time around it in minor ways, aiding allies and hindering foes.  \n**Construct Nature.** The chronomatic enhancer doesn’t require air, food, drink, or sleep.",
+  "name": "Chronomatic Enhancer",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 152,
+  "hit_dice": "16d10+64",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 21,
+  "dexterity": 11,
+  "constitution": 19,
+  "intelligence": 9,
+  "wisdom": 15,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": 4,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., tremorsense 10 ft., passive Perception 16",
+  "languages": "understands the languages of its creator but can’t speak",
+  "challenge_rating": "12",
+  "cr": 12,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The chronomatic enhancer can use its Time-Infused Gears. It then makes three slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.",
+      "attack_bonus": 9,
+      "damage_dice": "2d8+5"
+    },
+    {
+      "name": "Time-Infused Gears",
+      "desc": "The chronomatic enhancer spins its time-infused gears, altering time near it. It can't affect itself with its gears. When activating its time-infused gears, it uses one of the following: \n* Energizing Electricity. The chronomatic enhancer releases mild electricity into up to three creatures the enhancer can see within 30 feet of it. Each target has its speed doubled, it gains a +2 bonus to its AC, it has advantage on Dexterity saving throws, and it gains an additional bonus action or reaction (target's choice) until the end of its next turn. \n* Slowing Gas. The chronomatic enhancer releases a slowing gas, affecting up to three creatures it can see within 20 feet of it. Each target must make a DC 16 Constitution saving throw. On a failed save, the creature can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can use either an action or a bonus action on its turn, but not both. These effects last until the end of the target's next turn. \n* Stasis (Recharge 6). The chronomatic enhancer stops time for up to three creatures it can see within 30 feet of it. Each target must succeed on a DC 16 Constitution saving throw or be frozen in time until the end of its next turn. A creature frozen in time is treated as if it is petrified, except it isn't transformed into an inanimate substance and its weight doesn't increase."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Alter Timeline",
+      "desc": "When a friendly creature within 15 feet of the chronomatic enhancer takes damage, the enhancer can modify time to protect the creature, changing all damage dice rolled to 1s."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Delay",
+      "desc": "When damage is dealt to the chronomatic enhancer, the enhancer doesn't take the damage until its next turn. The enhancer must still make the appropriate saving throws, and it immediately suffers any extra effects of the damage, such as the speed-reducing effect of the ray of frost spell. Only the damage is delayed."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "The chronomatic enhancer is immune to any spell or effect that would alter its form."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 64,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_chronomatic-enhancer/"
+}

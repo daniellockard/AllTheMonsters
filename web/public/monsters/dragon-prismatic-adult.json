@@ -1,0 +1,108 @@
+{
+  "slug": "dragon-prismatic-adult",
+  "desc": "",
+  "name": "Dragon, Prismatic Adult",
+  "size": "Huge",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 212,
+  "hit_dice": "17d12+102",
+  "speed": {
+    "walk": 50,
+    "climb": 30
+  },
+  "strength": 22,
+  "dexterity": 10,
+  "constitution": 23,
+  "intelligence": 18,
+  "wisdom": 15,
+  "charisma": 17,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": 1,
+  "intelligence_save": null,
+  "wisdom_save": 7,
+  "charisma_save": 8,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "radiant",
+  "condition_immunities": "blinded",
+  "senses": "blindsight 60', darkvision 120', passive Perception 22",
+  "languages": "Common, Draconic",
+  "challenge_rating": "16",
+  "cr": 16,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Uses its Frightful Presence then one Bite and two Claws."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +11 to hit, 10 ft., one target, 17 (2d10+6) piercing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +11 to hit, 5 ft., one target, 13 (2d6+6) slashing damage."
+    },
+    {
+      "name": "Tail",
+      "desc": "Melee Weapon Attack: +11 to hit, 15 ft., one target, 15 (2d8+6) bludgeoning damage."
+    },
+    {
+      "name": "Frightful Presence",
+      "desc": "All it picks within 120' and aware of it frightened 1 min (DC 16 Wis negates) Can re-save at end of each of its turns. Save/effect ends: immune 24 hrs."
+    },
+    {
+      "name": "Breath Weapon (Recharge 5-6)",
+      "desc": "Uses one of the following:Light Beam. Emits beam of white light in a 90' line that is 5 ft. wide. Each creature in line: 45 (10d8) radiant (DC 19 Dex half).Rainbow Blast. Emits multicolored light in 60' cone. Each creature in area: 36 (8d8) damage (DC 19 Dex half). Dragon splits damage among acid cold fire lightning or poison choosing a number of d8s for each type totaling 8d8. Must choose at least two types."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "Int (DC 17) no material components: At will: charm person color spray dancing lights3/day: prismatic spray1/day: prismatic wall"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": [
+    {
+      "name": "Detect",
+      "desc": "Makes a Wis (Perception) check."
+    },
+    {
+      "name": "Tail Attack",
+      "desc": "Makes a tail attack."
+    },
+    {
+      "name": "Cast a Spell (2)",
+      "desc": "The prismatic dragon uses Spellcasting."
+    },
+    {
+      "name": "Shimmering Wings (2)",
+      "desc": "Each creature within 20': DC 16 Wis save or take 11 (2d10) radiant and blinded until start of its next turn."
+    }
+  ],
+  "special_abilities": [
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "desc": "Choose to succeed failed save."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 140,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_dragon-prismatic-adult/"
+}

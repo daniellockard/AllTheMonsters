@@ -1,0 +1,113 @@
+{
+  "slug": "crystalline-monolith",
+  "desc": "The cavern glitters with refracted light bouncing off thousands of crystals. A towering menhir of shimmering crystal dominates the center of the cavern._  \nWhether a rare evolution of silicate life or a wandering nomadic race from some alternate reality, crystalline monoliths are enigmatic beings found deep underground in caverns where giant crystals flourish and grow.  \n**Crystal Gardens.** Crystalline monoliths reside in areas of living crystal, these formations often growing to gigantic proportions, resembling the monolith itself. Some sages speculate that crystalline monoliths grow crystals to certain specifications, then use their magic to instill sentience in the crystals as a means of reproducing. Whether the gardens are for reproduction or some other mysterious purpose, the crystal monoliths are very protective of them. The environment of these gardens is often not comfortable for most humanoid life; the temperature may be extremely hot or cold, or the cavern may contain poisonous gases or even be partially-submerged in water.  \n**Magical Philosophers.** Crystalline monoliths prefer to spend their days in quiet contemplation. They tend their crystal gardens and meditate. If encountered by other intelligent creatures, they are generally open to exchanges of information and intellectual discussion. They prefer to communicate telepathically but can create sounds through vibrations that mimic speech. Aggressive intruders are dealt with according to the level of threat they exhibit. If the crystalline monolith considers the intruders unlikely to cause it harm, it will often use its magic to misdirect opponents or lure them away from the garden. Should the intruders persist or show themselves to be dangerous, a crystalline monolith is not above using its magic to crush and destroy them. It is especially unforgiving to those that try to steal or damage crystals in its lair.  \n**Crystalline Nature.** A crystalline monolith doesn’t require air, food, drink, or sleep.  \n\n## A Crystalline Monolith’s Lair\n\n  \nCrystalline monoliths lair in vast gardens of crystal in mountains or deep underground, often near areas of extreme temperature or geothermal activity. They harness the ambient magical energy in the crystals to defend themselves and repel intruders.  \n\n### Lair Actions\n\n  \nOn initiative count 20 (losing initiative ties), the crystalline monolith takes a lair action to cause one of the following magical effects; the crystalline monolith can’t use the same effect two rounds in a row:\n* The crystalline monolith creates an illusory duplicate of itself in its space. The double moves or speaks according to the monolith’s mental direction. Each time a creature targets the monolith with an attack, roll a d20 to determine whether the attack instead targets the duplicate. On a roll of 11 or higher, the attack hits and destroys the duplicate. A creature can use its action to make a DC 15 Intelligence (Investigation) check to determine which monolith is real. On a success, the creature identifies the illusion. The duplicate is intangible, but otherwise is identical to the monolith by sight, smell, or hearing. The duplicate lasts for 1 minute or until the monolith uses this lair action again.\n* The crystalline monolith vibrates at a frequency that reverberates through the lair, causing the ground to tremble. Each creature on the ground within 60 feet of the monolith (except for the crystalline monolith itself) must succeed on a DC 15 Dexterity saving throw or be knocked prone.\n* Magically-charged shards of crystal fire from the crystals in the lair, striking up to two targets within 60 feet of the crystalline monolith. The crystalline monolith makes one ranged attack roll (+3 to hit) against each target. On a hit, the target takes 2 (1d4) piercing damage and 2 (1d4) psychic damage.",
+  "name": "Crystalline Monolith",
+  "size": "Huge",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Neutral",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 123,
+  "hit_dice": "13d12+39",
+  "speed": {
+    "walk": 0,
+    "hover": true,
+    "fly": 30
+  },
+  "strength": 14,
+  "dexterity": 10,
+  "constitution": 16,
+  "intelligence": 19,
+  "wisdom": 17,
+  "charisma": 17,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "arcana": 7,
+    "history": 7,
+    "insight": 6,
+    "nature": 7,
+    "perception": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, fire",
+  "damage_immunities": "poison",
+  "condition_immunities": "blinded, paralyzed, petrified, poisoned, prone",
+  "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 16",
+  "languages": "Deep Speech, Undercommon, telepathy 120 ft.",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The crystalline monolith makes two slam attacks or two mind spear attacks. If both slam attacks hit a Large or smaller target, the target must succeed on a DC 14 Constitution saving throw or begin to turn to crystal and be restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 11 (2d8 + 2) bludgeoning damage.",
+      "attack_bonus": 5,
+      "damage_dice": "2d8+2"
+    },
+    {
+      "name": "Mind Spear",
+      "desc": "Ranged Spell Attack: +7 to hit, range 30 ft., one target. Hit: 14 (4d6) psychic damage.",
+      "attack_bonus": 7,
+      "damage_dice": "4d6"
+    },
+    {
+      "name": "Psychic Burst (Recharge 5-6)",
+      "desc": "The crystalline monolith emits a burst of psychic energy in a 30-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 28 (8d6) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "The crystalline monolith can take 3 legendary actions, choosing from one of the options below. Only one legendary action can be used at a time and only at the end of another creature’s turn. The crystalline monolith regains spent legendary actions at the start of its turn.",
+  "legendary_actions": [
+    {
+      "name": "Detect",
+      "desc": "The crystalline monolith makes a Wisdom (Perception) check."
+    },
+    {
+      "name": "Teleport (Costs 2 Actions)",
+      "desc": "The crystalline monolith magically teleports up to 120 feet to an unoccupied space it can see."
+    },
+    {
+      "name": "Cast a Spell (Costs 3 Actions)",
+      "desc": "The crystalline monolith casts a spell from its list of innate spells, expending a daily use as normal."
+    }
+  ],
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While the crystalline monolith remains motionless, it is indistinguishable from a giant crystal."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The crystalline monolith has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Powerful Mind",
+      "desc": "The crystalline monolith has advantage on Intelligence saving throws and ability checks."
+    },
+    {
+      "name": "Innate Spellcasting (Psionics)",
+      "desc": "The crystalline monolith's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:\nAt will: detect magic, detect thoughts, mage hand, silent image\n3/day each: clairvoyance, hypnotic pattern, stinking cloud, telekinesis\n1/day each: confusion, dominate person, suggestion"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 77,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_crystalline-monolith/"
+}

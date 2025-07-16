@@ -1,0 +1,90 @@
+{
+  "slug": "greed-swarm",
+  "desc": "The sound of metal clinking against metal becomes a deafening cacophony as a swirling cloud of coins mindlessly hunts for more valuables to absorb into its ever-expanding mass._  \nLocated in densely-populated areas, the greed swarm is solely focused on increasing the size of its hovering collection of valuables. Able to differentiate between objects of value and worthless junk, the swarm stalks streets and sewers alike. Its movements are erratic; the cloud swells and contracts in quick succession, repositioning itself in jerky, stilted bursts of motion.//  \n**Bad Penny.** The swarm consists of normal, mundane valuables animated by a magical master coin. Often mistaken as a standard regional coin, this master coin is created in a dark ritual to serve as a vessel for pure, ceaseless avarice. If the master coin is destroyed or separated from the swarm, the remaining coins return to their normal inert state and fall to the ground.  \n**All that Glitters.** The master coin cannot exert its power without a large enough supply of valuables to control in close proximity. Bank and vault owners who fail to screen incoming coinage for latent magical properties may find themselves in need of adventurers to discreetly quell a storm of their accumulated wealth. Wishing wells and public fountains are also common homes for greed swarms.  \n**Construct Nature.** The greed swarm doesn’t require air, food, drink, or sleep.",
+  "name": "Greed Swarm",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "Swarm",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 22,
+  "hit_dice": "4d8+4",
+  "speed": {
+    "fly": 40,
+    "walk": 0,
+    "hover": true
+  },
+  "strength": 6,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 1,
+  "wisdom": 9,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "force",
+  "damage_resistances": "bludgeoning, piercing, slashing",
+  "damage_immunities": "poison",
+  "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
+  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 9",
+  "languages": "—",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Coin Slam",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one target in the greed swarm's space. Hit: 10 (4d4) bludgeoning damage, or 5 (2d4) bludgeoning damage if the swarm has half of its hit points or fewer.",
+      "attack_bonus": 5,
+      "damage_dice": "4d4"
+    },
+    {
+      "name": "Coin Barrage",
+      "desc": "Ranged Weapon Attack: +5 to hit, range 20/60 ft., one target. Hit: 7 (2d6) bludgeoning damage, or 3 (1d6) bludgeoning damage if the swarm has half of its hit points or fewer.",
+      "attack_bonus": 5,
+      "damage_dice": "2d6"
+    },
+    {
+      "name": "Gather (1/Day)",
+      "desc": "The swarm magically gathers up to 100 gp worth of coins, gems, and other small, valuable objects within 60 feet of it, adding them to its mass. It regains 7 (2d6) hit points and has advantage on its next attack roll. A creature wearing or carrying such valuables must succeed on a DC 11 Dexterity saving throw or its valuables fly toward the swarm, joining the mass."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Antimagic Susceptibility",
+      "desc": "The swarm is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the swarm must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+    },
+    {
+      "name": "Deafening Clatter",
+      "desc": "A creature in the swarm's space is deafened."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While the greed swarm remains motionless, it is indistinguishable from a normal pile of coins and valuables."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny object. Except for Gather, the swarm can't regain hit points or gain temporary hit points."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 184,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_greed-swarm/"
+}

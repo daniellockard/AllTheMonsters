@@ -1,0 +1,101 @@
+{
+  "slug": "nephirron-devil",
+  "desc": "This devilish monster has a draconic body covered in thick, greenish-gold scales and the head of a handsome giant with gleaming red eyes. It opens its mouth in a sardonic smile, and the head of a serpent appears between its lips, hissing with malevolent, mirthful relish._  \n**Devilish Infiltrators.** Nephirron devils are powerful fiends with draconic features that are adept at corrupting good-aligned dragons and bending evil dragons to their will. The older and more powerful the dragon, the bigger the challenge in the eyes of the nephirron devil. When two of these devils meet, they typically boast about the number and types of dragons they have manipulated and destroyed. This pride can also be a nephirron devil’s undoing, however, for it often overlooks humanoids attempting to interfere with its plans, and more than one nephirron devil has been brought low by a band of mortal heroes.  \n**Hellish Nobles.** Nephirron devils are treated as lesser nobility in the hells, second only to pit fiends and arch-devils in the infernal pecking order. A nephirron devil is often served by Open Game License",
+  "name": "Nephirron Devil",
+  "size": "Huge",
+  "type": "Fiend",
+  "subtype": "devil",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 19,
+  "armor_desc": "natural armor",
+  "hit_points": 225,
+  "hit_dice": "18d12+108",
+  "speed": {
+    "walk": 40,
+    "fly": 80
+  },
+  "strength": 27,
+  "dexterity": 14,
+  "constitution": 23,
+  "intelligence": 22,
+  "wisdom": 19,
+  "charisma": 25,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": 11,
+  "intelligence_save": null,
+  "wisdom_save": 9,
+  "charisma_save": null,
+  "perception": 9,
+  "skills": {
+    "arcana": 11,
+    "deception": 12,
+    "insight": 9,
+    "intimidation": 12,
+    "perception": 9,
+    "persuasion": 12
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "frightened, poisoned",
+  "senses": "truesight 90 ft., passive Perception 19",
+  "languages": "Draconic, Infernal, telepathy 120 ft.",
+  "challenge_rating": "16",
+  "cr": 16,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The nephirron devil makes one bite attack and two claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 26 (4d8 + 8) piercing damage. If the target is a creature, it must succeed on a DC 19 Constitution saving throw or fall unconscious for 1 minute, or until it takes damage or someone uses an action to shake or slap it awake. Dragons and dragon-like creatures, such as dragonborn, have disadvantage on this saving throw.",
+      "attack_bonus": 13,
+      "damage_dice": "4d8+8"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 15 (2d6 + 8) slashing damage.",
+      "attack_bonus": 13,
+      "damage_dice": "2d6+8"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Sculpt Breath (Recharge 6)",
+      "desc": "When the nephirron is in the area of a spell, such as fireball, or a breath weapon, it can create a hole in the spell or breath weapon, protecting itself from the effects. If it does so, the nephirron automatically succeeds on its saving throw against the spell or breath weapon and takes no damage if it would normally take half damage on a successful save."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the nephirron's darkvision."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The nephirron has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Master Liar",
+      "desc": "The nephirron has advantage on Charisma (Deception) checks when telling a lie."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The nephirron devil's spellcasting ability is Charisma (spell save DC 20). The nephirron can innately cast the following spells, requiring no material components:\nAt will: detect thoughts, protection from evil and good, teleport (self plus 150 pounds only)\n3/day each: flame strike, scrying, wall of ice\n1/day each: confusion, mass suggestion, shapechange (dragon or humanoid form only)"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 104,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_nephirron-devil/"
+}

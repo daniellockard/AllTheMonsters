@@ -1,0 +1,85 @@
+{
+  "slug": "chronalmental-tob1-2023",
+  "desc": "False",
+  "name": "Chronalmental",
+  "size": "Large",
+  "type": "Elemental",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 142,
+  "hit_dice": "15d10 + 60",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 14,
+  "dexterity": 20,
+  "constitution": 19,
+  "intelligence": 9,
+  "wisdom": 13,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, restrained, unconscious",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Celestial, Infernal",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The chronalmental makes three Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage."
+    },
+    {
+      "name": "Steal Time (1/Day)",
+      "desc": "The chronalmental steals time from one creature it can see within 30 feet of it, drawing the stolen time into itself. The target must make a DC 16 Wisdom saving throw. On a failure, the target's speed is halved, and it can take either an action or a bonus action on its turn, but not both for 1 minute. Then, the chronalmental's position in the initiative order increases by 10, its speed increases by 30 feet, and when it takes the Multiattack action, it can make one additional Slam attack. The target can repeat the saving throw at the end of each of its turns, ending the effects on itself and the chronalmental on a success."
+    },
+    {
+      "name": "Displace (Recharge 5-6)",
+      "desc": "The chronalmental sends one creature it can see within 30 feet of it outside of the flow of time, shunting the creature to a tiny demiplane. The target must succeed on a DC 16 Wisdom saving throw or be stunned and magically shunted outside of time for 1 minute. The creature disappears for the duration, returning to the space it previously occupied, or the nearest unoccupied space, when the effect ends. At the end of each of its turns, the target can repeat the saving throw, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Step Between Seconds (Recharge 4-6)",
+      "desc": "When a creature the chronalmental can see moves within 5 feet of it, the chronalmental can teleport, along with any equipment it is wearing or carrying, to an unoccupied space within 60 feet that it occupied within the past minute."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Elemental Nature",
+      "desc": "The chronalmental doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Temporal Body",
+      "desc": "When a chronalmental is subjected to a slow spell, haste spell, or similar effect, it automatically succeeds on any saving throws required by the spell or effect and regains 13 (3d8) hp."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 56,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_chronalmental/"
+}

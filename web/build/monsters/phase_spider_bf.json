@@ -1,0 +1,94 @@
+{
+  "slug": "phase_spider_bf",
+  "desc": "",
+  "name": "Phase Spider",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 73,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "climb": 30
+  },
+  "strength": 14,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 6,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": 2,
+  "dexterity_save": 3,
+  "constitution_save": 1,
+  "intelligence_save": -2,
+  "wisdom_save": 0,
+  "charisma_save": -2,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Monstrosity Resilience",
+  "damage_immunities": "poison,poisoned",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Phase Spider",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The phase spider makes one Barbed Legs attack and one Bite attack. It can replace one attack with a Phasing Web attack."
+    },
+    {
+      "name": "Barbed Legs",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 10 ft., one target. _Hit:_ 8 (2d4+3) piercing damage."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one creature. _Hit:_ 7 (1d10+3) piercing damage, and the target must make a DC 13 CON save, taking 13 (3d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 HP, the target is stable but poisoned for 1 hour, even after regaining HP, and is paralyzed while poisoned in this way."
+    },
+    {
+      "name": "Phasing Web",
+      "desc": "_Ranged Weapon Attack:_ +5 to hit, range 30/60 ft., one creature. _Hit:_ The target is restrained by webbing. While restrained in this way, the target can see and attack creatures on the Ethereal Plane, and the restrained target can be seen and attacked by creatures on the Ethereal Plane. A creature, including the restrained target, can take its action to free the target from the webbing by succeeding on a DC 13 STR check. The webbing can also be attacked and destroyed (AC 12; HP 10; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Ethereal Jaunt",
+      "desc": "The phase spider magically shifts from the Material Plane to the Ethereal Plane, or vice versa."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Ethereal Sight",
+      "desc": "The phase spider can see 60 feet into the Ethereal Plane when it is on the Material Plane, and vice versa."
+    },
+    {
+      "name": "Monstrosity Resilience",
+      "desc": "The phase spider is resistant to exhaustion and to the frightened condition."
+    },
+    {
+      "name": "Spider Climb",
+      "desc": "The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Web Walker",
+      "desc": "The spider ignores movement restrictions caused by webbing."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_phase-spider/"
+}

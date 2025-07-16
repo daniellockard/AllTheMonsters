@@ -1,0 +1,94 @@
+{
+  "slug": "young-copper-dragon-a5e",
+  "desc": "",
+  "name": "Young Copper Dragon",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 17,
+  "armor_desc": "",
+  "hit_points": 144,
+  "hit_dice": "17d10+51",
+  "speed": {
+    "walk": 40,
+    "climb": 40,
+    "fly": 80
+  },
+  "strength": 18,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 16,
+  "wisdom": 12,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": 7,
+  "intelligence_save": null,
+  "wisdom_save": 5,
+  "charisma_save": 6,
+  "perception": null,
+  "skills": {
+    "deception": 6,
+    "perception": 5,
+    "stealth": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "acid",
+  "condition_immunities": "",
+  "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 15",
+  "languages": "Common, Draconic",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The dragon attacks with its bite and twice with its claws."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 15 (3d10 + 4) piercing damage plus 4 (1d8) acid damage."
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage."
+    },
+    {
+      "name": "Breath Weapons (Recharge 5-6)",
+      "desc": "The dragon uses one of the following breath weapons:"
+    },
+    {
+      "name": "Acid Breath",
+      "desc": "The dragon exhales acid in a 40-foot-long  5-foot wide-line. Each creature in the area makes a DC 15 Dexterity saving throw  taking 45 (10d8) acid damage on a failed save or half damage on a success."
+    },
+    {
+      "name": "Slowing Breath",
+      "desc": "The dragon exhales toxic gas in a 30-foot cone. Each creature in the area makes a DC 15 Constitution saving throw  becoming slowed for 1 minute on a failure. A creature repeats the saving throw at the end of each of its turns  ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Flow Within the Mountain",
+      "desc": "The dragon has advantage on Stealth checks made to hide in mountainous regions."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The dragons spellcasting ability is Charisma (save DC 15). It can innately cast the following spells, requiring no material components. 3/day each:hideous laughter, suggestion"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 167,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_young-copper-dragon/"
+}

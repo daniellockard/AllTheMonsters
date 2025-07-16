@@ -1,0 +1,94 @@
+{
+  "slug": "strider-a5e",
+  "desc": "",
+  "name": "Strider",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 16,
+  "armor_desc": "",
+  "hit_points": 90,
+  "hit_dice": "12d8+36",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 12,
+  "dexterity": 18,
+  "constitution": 16,
+  "intelligence": 12,
+  "wisdom": 18,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 7,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "nature": 4,
+    "perception": 7,
+    "stealth": 7,
+    "survival": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 20",
+  "languages": "any two",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The strider attacks twice."
+    },
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (3d6 + 4) piercing damage."
+    },
+    {
+      "name": "Shortbow",
+      "desc": "Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit: 14 (3d6 + 4) piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Aimed Strike",
+      "desc": "The strider gains advantage on their next attack made before the end of their turn."
+    },
+    {
+      "name": "Skirmish Step",
+      "desc": "The strider moves up to half their Speed without provoking opportunity attacks."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Hearing and Sight",
+      "desc": "The strider has advantage on Perception checks that rely on hearing or sight."
+    },
+    {
+      "name": "Trackless Travel",
+      "desc": "The strider can't be tracked by nonmagical means."
+    },
+    {
+      "name": "Trained Accuracy",
+      "desc": "The striders weapon attacks deal an extra 7 (2d6) damage (included below)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 491,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_strider/"
+}

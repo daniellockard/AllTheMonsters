@@ -1,0 +1,83 @@
+{
+  "slug": "white_dragon_wyrmling_bf",
+  "desc": "",
+  "name": "White Dragon Wyrmling",
+  "size": "Medium",
+  "type": "Dragon",
+  "subtype": "",
+  "group": "Dragons",
+  "alignment": "",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 54,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "burrow": 15,
+    "fly": 60,
+    "swim": 30
+  },
+  "strength": 14,
+  "dexterity": 14,
+  "constitution": 18,
+  "intelligence": 4,
+  "wisdom": 14,
+  "charisma": 14,
+  "strength_save": 2,
+  "dexterity_save": 2,
+  "constitution_save": 4,
+  "intelligence_save": -3,
+  "wisdom_save": 2,
+  "charisma_save": 2,
+  "perception": 14,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "cold",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., keensense 10 ft.",
+  "languages": "Draconic",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The dragon makes one Bite attack and one Claw attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 7 (1d10+2) piercing damage plus 2 (1d4) cold damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6+2) slashing damage."
+    },
+    {
+      "name": "Cold Breath (Recharge 5-6)",
+      "desc": "The dragon exhales an icy blast in a 15-foot cone. Each creature in that area must make a DC 12 CON save, taking 22 (5d8) cold damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Ice Walk",
+      "desc": "The dragon can move across and climb icy surfaces without needing to make an ability check. In addition, difficult terrain composed of ice or snow doesn't cost it extra movement."
+    },
+    {
+      "name": "Pounce",
+      "desc": "If the dragon moves at least 15 feet straight toward a creature and then hits it with a Claw attack on the same turn, that target must succeed on a DC 12 STR save or be knocked prone. If the target is prone, the dragon can make one Claw attack against it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_white-dragon-wyrmling/"
+}

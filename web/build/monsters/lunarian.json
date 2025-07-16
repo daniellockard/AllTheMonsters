@@ -1,0 +1,89 @@
+{
+  "slug": "lunarian",
+  "desc": "A grey humanoid wearing a dark tattered cloak and worn armor descends on glimmering, mothlike wings. In its hands it wields a halberd tipped with a cold light. Its black lidless eyes are filled with envy and sorrow._  \n**Condemned to the Dark.** Lunarians are a race of mothlike fey originally from the moon. However, after attempting to take the moon’s power for themselves, they were cast out by a fey lord and damned to the depths of the world, never to see their lunar home again.  \n**Angels of the Underworld.** Stories tell of lunarians helping people far below the surface, striking down monsters at the last moment. However, they never do so for free, often demanding valuable trinkets from the surface as payment for their services. If those they rescue deny them a reward or give them a bad one, they are prone to attack.",
+  "name": "Lunarian",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 16,
+  "armor_desc": "breastplate",
+  "hit_points": 97,
+  "hit_dice": "15d8+30",
+  "speed": {
+    "fly": 40,
+    "climb": 15,
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 15,
+  "constitution": 14,
+  "intelligence": 13,
+  "wisdom": 12,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "acrobatics": 5,
+    "history": 4,
+    "stealth": 5,
+    "survival": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "necrotic, poison",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, poisoned, unconscious",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Celestial, Common, Sylvan",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The lunarian makes two halberd attacks."
+    },
+    {
+      "name": "Halberd",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 9 (1d10 + 4) slashing damage plus 4 (1d8) radiant damage.",
+      "attack_bonus": 7,
+      "damage_dice": "1d10+4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Descendant of The Moon",
+      "desc": "Magical light created by the lunarian can't be extinguished."
+    },
+    {
+      "name": "Major Surface Curse",
+      "desc": "A lunarian can never be in the presence of natural light. It takes 9 (2d8) radiant damage at the beginning of its turn if it is exposed to direct moonlight or sunlight. If this damage reduces the lunarian to 0 hp, it dies and turns to moondust."
+    },
+    {
+      "name": "Moon-Touched Weapons",
+      "desc": "The lunarian's weapon attacks are magical. When the lunarian hits with any weapon, the weapon deals an extra 4 (1d8) radiant damage (included in the attack). A creature that takes radiant damage from a lunarian's weapon sheds dim light in a 10-foot radius for 1 hour."
+    },
+    {
+      "name": "Summon Shadowbeam (Recharge 6)",
+      "desc": "As a bonus action, the lunarian summons a beam of pale light, shot through with undulating waves of shadow, centered on a point it can see within 60 feet of it. The beam is a 10-foot-radius, 40-foot-high cylinder and lasts for 1 minute. As a bonus action on each of its turns, the lunarian can move the beam up to 20 feet in any direction. A creature that enters or starts its turn in the beam must make a DC 13 Constitution saving throw. On a failure, a creature takes 11 (2d10) necrotic damage and is cursed with the minor surface curse. On a success, a creature takes half the damage and isn't cursed."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 245,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_lunarian/"
+}

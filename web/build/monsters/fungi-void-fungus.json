@@ -1,0 +1,82 @@
+{
+  "slug": "fungi-void-fungus",
+  "desc": "",
+  "name": "Fungi, Void Fungus",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 65,
+  "hit_dice": "10d8+20",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 15,
+  "dexterity": 14,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 16,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "perception": 3
+  },
+  "damage_vulnerabilities": "radiant",
+  "damage_resistances": "cold, fire",
+  "damage_immunities": "",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, poisoned",
+  "senses": "blindsight 120' (blind beyond), passive Perception 15",
+  "languages": "understands Common and Void Speech but can't speak, telepathy 60'",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "2 Poisonous Mycelium or Psychic Blasts. If it hits one creature with both Blasts target charmed 1 min (DC 13 Cha negates) and can re-save at end of each of its turns success ends effect on itself."
+    },
+    {
+      "name": "Poisonous Mycelium",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 6 (1d8+2) piercing damage + 7 (2d6) poison and poisoned until end of its next turn (DC 13 Con not poisoned.)"
+    },
+    {
+      "name": "Psychic Blast",
+      "desc": "Ranged Spell Attack: +5 to hit, 60 ft., one target, 12 (2d8+3) psychic."
+    },
+    {
+      "name": "Consume Energy",
+      "desc": "Hair-like tendrils dangling from its cap flash as it draws psychic energy from creature it can see within 30' of it. Target 18 (4d8) psychic (DC 13 Cha half). Fungus regains equal hp."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from patch of glowing fungus."
+    },
+    {
+      "name": "Illumination",
+      "desc": "Sheds dim light in a 10 ft. radius."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 193,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_fungi-void-fungus/"
+}

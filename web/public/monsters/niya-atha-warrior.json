@@ -1,0 +1,84 @@
+{
+  "slug": "niya-atha-warrior",
+  "desc": "",
+  "name": "Niya-Atha Warrior",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Neutral",
+  "armor_class": 16,
+  "armor_desc": "chain mail",
+  "hit_points": 49,
+  "hit_dice": "9d8+9",
+  "speed": {
+    "walk": 30,
+    "climb": 30
+  },
+  "strength": 14,
+  "dexterity": 15,
+  "constitution": 12,
+  "intelligence": 11,
+  "wisdom": 10,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": 3,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 10",
+  "languages": "Common, Sylvan",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Mace or Longbow attacks."
+    },
+    {
+      "name": "Mace",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 5 (1d6+2) bludgeoning damage or 9 (2d6+2) bludgeoning damage while enlarged."
+    },
+    {
+      "name": "Longbow",
+      "desc": "Ranged Weapon Attack: +5 to hit 150/600' one target 7 (1d8+3) piercing damage or 12 (2d8+3) piercing damage while enlarged."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Enlarge",
+      "desc": "Magically increases in size along with anything it is wearing or carrying. While enlarged it is Large doubles its damage dice on weapon attacks (included above) and makes Str checks and Str saves with advantage. While enlarged it also can no longer use the Standing Leap trait. If it lacks the room to become Large this action fails."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Reduce",
+      "desc": "If it starts its turn enlarged it can choose to end the effect and return to its normal size (no action required)."
+    },
+    {
+      "name": "Standing Leap",
+      "desc": "The warrior's long jump is up to 20' and its high jump is up to 10 ft. with or with o a running start. The warrior can't use this trait while enlarged."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 290,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_niya-atha-warrior/"
+}

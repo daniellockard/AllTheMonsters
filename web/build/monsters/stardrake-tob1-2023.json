@@ -1,0 +1,99 @@
+{
+  "slug": "stardrake-tob1-2023",
+  "desc": "False",
+  "name": "Star Drake",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral",
+  "armor_class": 19,
+  "armor_desc": "natural armor",
+  "hit_points": 189,
+  "hit_dice": "18d10 + 90",
+  "speed": {
+    "walk": 100,
+    "fly": 40
+  },
+  "strength": 20,
+  "dexterity": 17,
+  "constitution": 21,
+  "intelligence": 16,
+  "wisdom": 24,
+  "charisma": 20,
+  "strength_save": null,
+  "dexterity_save": 8,
+  "constitution_save": 10,
+  "intelligence_save": null,
+  "wisdom_save": 12,
+  "charisma_save": 10,
+  "perception": 22,
+  "skills": {
+    "Arcana": 8,
+    "History": 8,
+    "Insight": 12,
+    "Perception": 12,
+    "Religion": 8
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "condition_immunities": "blinded, charmed, frightened, paralyzed",
+  "senses": "truesight 120 ft., passive Perception 22",
+  "languages": "Abyssal, Celestial, Common, Draconic, Infernal, Primordial",
+  "challenge_rating": "15",
+  "cr": 15,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The drake makes one Bite attack and two Claw attacks, or it makes four Searing Star attacks. If two Searing Star attacks hit one creature, that creature must succeed on a DC 18 Constitution saving throw or be blinded until the end of its next turn."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 18 (4d8) force damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage plus 18 (4d8) force damage."
+    },
+    {
+      "name": "Searing Star",
+      "desc": "Ranged Spell Attack: +12 to hit, range 120 ft., one target. Hit: 14 (2d6 + 7) radiant damage plus 9 (2d8) force damage."
+    },
+    {
+      "name": "Planar Traveler",
+      "desc": "The star drake can transport itself to a different plane of existence. This works like the plane shift spell, except the drake can affect only itself and can't use this action to banish an unwilling creature to another plane."
+    },
+    {
+      "name": "Plane-Altered Breath (Recharge 5-6)",
+      "desc": "The drake exhales raw magic in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 55 (10d10) force damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The drake has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Nimbus of Swirling Stars",
+      "desc": "At the start of each of the drake's turns, each creature within 10 feet of it and that can see it must succeed on a DC 18 Constitution saving throw or be incapacitated until the end of its next turn."
+    },
+    {
+      "name": "Planar Weapons",
+      "desc": "The drake's weapon attacks are magical. When it hits with any weapon, the weapon deals an extra 4d8 force damage (included in the attack)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 146,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_star-drake/"
+}

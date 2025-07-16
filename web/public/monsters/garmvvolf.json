@@ -1,0 +1,86 @@
+{
+  "slug": "garmvvolf",
+  "desc": "",
+  "name": "Garmvvolf",
+  "size": "Huge",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 189,
+  "hit_dice": "18d12+72",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 20,
+  "dexterity": 15,
+  "constitution": 19,
+  "intelligence": 5,
+  "wisdom": 12,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 15",
+  "languages": "—",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Makes as many Bite attacks as it has heads."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +9 to hit, 10 ft., one target, 8 (1d6+5) piercing damage + 10 (3d6) poison."
+    },
+    {
+      "name": "Tripartite Howl (Recharge 5-6)",
+      "desc": "Its heads exhale a three-part howl one filled with poisonous spittle one a thunderous bellow and one a frightful bay in a 30' cone. Each creature in area: 17 (5d6) poison and 17 (5d6) thunder and becomes frightened 1 min (DC 16 Dex half damage isn't frightened). A frightened creature can re-save at end of each of its turns ending effect on itself on a success."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Hearing and Smell",
+      "desc": "Has advantage on Wis (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "name": "Multiple Heads",
+      "desc": "Has three heads. While it has more than one head it has advantage on saves vs. being blinded charmed deafened frightened stunned and knocked unconscious. Whenever it takes 25 or more damage in a single turn one head dies. If all its heads die it dies. At the end of its turn it grows two heads for each head that died since its last turn unless it has taken fire since its last turn. Regains 10 hp for each head regrown in this way."
+    },
+    {
+      "name": "Trampling Charge",
+      "desc": "If it moves 20'+ straight toward creature and then hits it with Bite on same turn target must make a DC 16 Str save or be knocked prone. If target is prone garmvvolf can make one Bite vs. it as a bonus action."
+    },
+    {
+      "name": "Wakeful",
+      "desc": "While it sleeps at least one of its heads is awake."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 194,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_garmvvolf/"
+}

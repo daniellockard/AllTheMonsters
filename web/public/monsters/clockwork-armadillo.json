@@ -1,0 +1,82 @@
+{
+  "slug": "clockwork-armadillo",
+  "desc": "",
+  "name": "Clockwork Armadillo",
+  "size": "Small",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 22,
+  "hit_dice": "4d6+8",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 18,
+  "constitution": 14,
+  "intelligence": 5,
+  "wisdom": 10,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60', passive Perception 12",
+  "languages": "understands the languages of its creator but can't speak",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Scissor Claws",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 6 (1d4+4) slashing damage and the target must make DC 11 Con save or drop whatever it is currently holding."
+    },
+    {
+      "name": "Tuck In",
+      "desc": "Tucks its entire body into its shell forming an armored ball. While an armored ball it moves by rolling has resistance to B/P/S damage is immune to the prone condition and it can't make Scissor Claws attacks. As part of this action the armadillo can expand its shell outward to contain one object of its size or smaller that isn't being worn or carried and is within 5 ft. of the armadillo. The armadillo can uncurl its body and release any contained item as a bonus action."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Construct Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "Immune: form-altering spells/effects."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Overclocked",
+      "desc": "Advantage on initiative rolls."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 86,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_clockwork-armadillo/"
+}

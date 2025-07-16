@@ -1,0 +1,78 @@
+{
+  "slug": "devil-moldering",
+  "desc": "",
+  "name": "Devil, Moldering",
+  "size": "Small",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 27,
+  "hit_dice": "6d6+6",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 14,
+  "dexterity": 10,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 14,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60', passive Perception 12",
+  "languages": "Common, Infernal",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 4 (1d4+2) piercing damage + 3 (1d6) necrotic."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the moldering devil's darkvision."
+    },
+    {
+      "name": "Field Hopper",
+      "desc": "The moldering devil can fly up to 40' on its turn but it must start and end its movement on a solid surface such as a roof or the ground. If it is flying at the end of its turn it falls to the ground and takes falling damage."
+    },
+    {
+      "name": "Rotting Death",
+      "desc": "When it dies all foodstuffs water and beverages within 100' of it are subjected to the devil's Touch of Rot trait."
+    },
+    {
+      "name": "Touch of Rot",
+      "desc": "Any foodstuff water or beverage whether fresh or preserved that comes into contact with the moldering devil immediately decays and becomes inedible or undrinkable. If a creature consumes such food or drink it must make a DC 11 Con save. On a failure it takes 7 (2d6) poison and is poisoned for 24 hrs. On a success it takes half the damage and is poisoned for 1 hr."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 123,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_devil-moldering/"
+}

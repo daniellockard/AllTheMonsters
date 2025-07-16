@@ -1,0 +1,98 @@
+{
+  "slug": "feywardtree-tob1-2023",
+  "desc": "False",
+  "name": "Feyward Tree",
+  "size": "Huge",
+  "type": "Construct",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 126,
+  "hit_dice": "12d12 + 48",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 25,
+  "dexterity": 10,
+  "constitution": 18,
+  "intelligence": 3,
+  "wisdom": 11,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": 3,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 3,
+  "charisma_save": 1,
+  "perception": 13,
+  "skills": {
+    "Perception": 3
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+  "damage_immunities": "lightning, poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "understands the languages of its creator but can’t speak",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The feyward tree makes two Razor-Leafed Branch attacks."
+    },
+    {
+      "name": "Razor-Leafed Branch",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 16 (2d8 + 7) slashing damage plus 9 (2d8) force damage."
+    },
+    {
+      "name": "Flaying Leaves (Recharge 5-6)",
+      "desc": "The feyward tree launches a barrage of razor-sharp cold iron leaves from its branches. Each creature within 20 feet of the tree must make a DC 15 Dexterity saving throw, taking 28 (8d6) slashing damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Aversion to Cold",
+      "desc": "If the feyward tree takes cold damage, it has disadvantage on attack rolls and its speed is halved until the end of its next turn."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "The feyward tree doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Enchanted Leaves",
+      "desc": "The feyward tree's Razor-Leafed Branch attacks are magical. When the tree hits with its Razor-Leafed Branch, the branch deals an extra 9 (2d8) force damage (included in the attack)."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "The feyward tree is immune to any spell or effect that would alter its form."
+    },
+    {
+      "name": "Lightning Absorption",
+      "desc": "Whenever the feyward tree is subjected to lightning damage, it takes no damage and instead regains a number of hp equal to the lightning damage dealt."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The feyward tree has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Warden's Reach",
+      "desc": "A creature within 15 feet of a feyward tree that moves away from it provokes an opportunity attack even if the creature takes the Disengage action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 186,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_feyward-tree/"
+}

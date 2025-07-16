@@ -1,0 +1,96 @@
+{
+  "slug": "drake-riptide",
+  "desc": "",
+  "name": "Drake, Riptide",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 231,
+  "hit_dice": "22d10+110",
+  "speed": {
+    "walk": 20,
+    "swim": 60
+  },
+  "strength": 22,
+  "dexterity": 9,
+  "constitution": 20,
+  "intelligence": 11,
+  "wisdom": 16,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": 3,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "perception": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold",
+  "damage_immunities": "poison",
+  "condition_immunities": "paralyzed, poisoned, unconscious",
+  "senses": "blindsight 120', darkvision 60', passive Perception 17",
+  "languages": "Aquan, Draconic",
+  "challenge_rating": "11",
+  "cr": 11,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Sonic Pulses or one Bite and two Slams."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +10 to hit, 10 ft., one target, 24 (4d8+6) piercing damage."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +10 to hit, 5 ft., one target, 20 (4d6+6) bludgeoning damage."
+    },
+    {
+      "name": "Sonic Pulse",
+      "desc": "Ranged Spell Attack: +7 to hit, 60 ft., one target, 21 (4d8+3) thunder. Drake can use this action only while underwater."
+    },
+    {
+      "name": "Buffeting Blast (Recharge 5-6)",
+      "desc": "Exhales powerful stream of water in 60' line × 5 ft. wide. Each creature in line: 38 (7d10) bludgeoning damage and becomes disoriented for 1 min (DC 17 Dex half damage not disoriented). When a disoriented creature moves it moves in a random direction. It can re-save at end of each of its turns success ends effect on itself."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Manipulate Currents",
+      "desc": "While underwater changes water flow within 60' of it. Chooses one of below which lasts until start of its next turn.A 20' cube of rushing water forms on a point drake can see in the water. The cube's space is difficult terrain and a creature that starts its turn swimming in the area must make DC 17 Str save or be pushed out of the cube directly away from drake.The current shoots in a 60' long 10 ft. wide line from drake in a direction it chooses. Each creature in area: pushed up to 15 ft. away from drake in a direction following the line (DC 17 Str negates).The drake takes the Dash action."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "Can breathe air and water."
+    },
+    {
+      "name": "Echolocation",
+      "desc": "Can't use its blindsight while deafened or out of water."
+    },
+    {
+      "name": "Underwater Camouflage",
+      "desc": "Advantage: Dex (Stealth) underwater."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 155,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_drake-riptide/"
+}

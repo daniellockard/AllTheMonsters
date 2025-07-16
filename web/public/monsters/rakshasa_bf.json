@@ -1,0 +1,91 @@
+{
+  "slug": "rakshasa_bf",
+  "desc": "",
+  "name": "Rakshasa",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 166,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40,
+    "fly": 30,
+    "hover": true
+  },
+  "strength": 14,
+  "dexterity": 26,
+  "constitution": 18,
+  "intelligence": 12,
+  "wisdom": 26,
+  "charisma": 30,
+  "strength_save": 2,
+  "dexterity_save": 8,
+  "constitution_save": 4,
+  "intelligence_save": 1,
+  "wisdom_save": 8,
+  "charisma_save": 10,
+  "perception": 18,
+  "skills": {},
+  "damage_vulnerabilities": "piercing damage from magical attacks",
+  "damage_resistances": "",
+  "damage_immunities": "bludgeoning,piercing,and slashing damage from nonmagical attacks,prone",
+  "condition_immunities": "",
+  "senses": "truesight 60 ft.",
+  "languages": "Abyssal,Common,Infernal",
+  "challenge_rating": "13",
+  "cr": 13,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The rakshasa makes four Claw or Arcane Bolt attacks. It can replace one attack with a use of Spellcasting. If two Claw attacks hit one creature, the target is cursed. While cursed, the target gains no benefit from finishing a short or long rest. The curse lasts until removed by the remove curse spell or similar magic."
+    },
+    {
+      "name": "Claw",
+      "desc": "_Melee Weapon Attack:_ +8 to hit, reach 5 ft., one target. _Hit:_ 12 (2d8+3) slashing damage plus 10 (3d6) force damage."
+    },
+    {
+      "name": "Arcane Bolt",
+      "desc": "_Ranged Spell Attack:_ +10 to hit, range 60 ft., one target. _Hit:_ 22 (5d6+5) force damage."
+    },
+    {
+      "name": "Travel the Planes (1/Day)",
+      "desc": "The rakshasa magically transports itself to a different plane of existence. This works like the plane shift spell, except the rakshasa can affect only itself and can't use this action to banish an unwilling creature."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The rakshasa casts one of the following spells, requiring no material components and using CHA as the spellcasting ability (spell save DC 18).<br>At will: _detect thoughts_, _mage hand_, _minor illusion_<br>3/day each: _major image_, _suggestion_<br>1/day: _dominate_"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Charming Gaze",
+      "desc": "The rakshasa turns its gaze toward one creature it can see within 60 feet of it. If the target can see the rakshasa, the target must succeed on a DC 18 CHA save or be charmed for 1 minute. A charmed creature can repeat the save at the end of each of its turns, ending the effect on itself on a success. The rakshasa can have up to three creatures charmed in this way at a time."
+    },
+    {
+      "name": "Illusory Appearance",
+      "desc": "The rakshasa covers itself and anything it is wearing or carrying with a magical illusion that makes it look like another creature of its general size and Humanoid shape. The illusion ends if the rakshasa takes a bonus action to end it or if the rakshasa dies. The changes wrought by this effect fail to hold up to physical inspection. For example, a creature touching the disguised rakshasa might feel its fur instead of Humanoid flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 25 INT (Investigation) check to discern that the rakshasa is disguised."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Limited Magic Immunity",
+      "desc": "The rakshasa can't be affected or detected by spells of 6th level or lower unless it wishes to be. It has advantage on saves against all other spells and magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_rakshasa/"
+}

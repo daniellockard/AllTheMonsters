@@ -1,0 +1,99 @@
+{
+  "slug": "haugbui-tob1-2023",
+  "desc": "False",
+  "name": "Haugbui",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Lawful Neutral",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 153,
+  "hit_dice": "18d8 + 72",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 20,
+  "constitution": 18,
+  "intelligence": 15,
+  "wisdom": 20,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": 10,
+  "constitution_save": 9,
+  "intelligence_save": null,
+  "wisdom_save": 10,
+  "charisma_save": null,
+  "perception": 20,
+  "skills": {
+    "Arcana": 7,
+    "History": 7,
+    "Intimidation": 8,
+    "Perception": 10,
+    "Religion": 12
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "acid, cold, fire, lightning, necrotic, thunder",
+  "damage_immunities": "poison; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, restrained",
+  "senses": "truesight 60 ft., passive Perception 20",
+  "languages": "the languages it knew in life, telepathy 120 ft.",
+  "challenge_rating": "13",
+  "cr": 13,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The haugbui makes three Psychic Blast attacks. It can replace one attack with a use of Spellcasting."
+    },
+    {
+      "name": "Psychic Blast",
+      "desc": "Melee or Ranged Spell Attack: +10 to hit, range 120 ft., one target. Hit: 27 (5d8 + 5) psychic damage."
+    },
+    {
+      "name": "Invisibility",
+      "desc": "The haugbui magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the haugbui wears or carries is invisible with it."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The haugbui casts one of the following spells, requiring no components and using Wisdom as the spellcasting ability (spell save DC 18):\nAt will: dancing lights, mending, purify food and drink, spare the dying\n3/day each: gust of wind, telekinesis\n1/day each: dispel magic, remove curse"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Sepulchral Scrying (Recharge 6)",
+      "desc": "While within 1 mile of its burial mound, the haugbui creates an invisible sensor within 5 miles of the mound for 1 minute. When it uses this bonus action and as a bonus action on each of its turns for the duration, the haugbui can switch between using its own senses and projecting its senses through the sensor. While projecting its senses through the sensor, it can see, hear, telepathically communicate, and cast spells as if it was in the sensor's space, and it is blinded and deafened with regard to its own senses. The sensor can be dispelled (DC 14)."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The haugbui can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the haugbui has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "name": "Turn Resistance",
+      "desc": "The haugbui has advantage on saving throws against any effect that turns undead."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The hangbui doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 231,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_haugbui/"
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "mummy_bf",
+  "desc": "",
+  "name": "Mummy",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": "Mummies",
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 80,
+  "hit_dice": "",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 16,
+  "dexterity": 8,
+  "constitution": 16,
+  "intelligence": 6,
+  "wisdom": 14,
+  "charisma": 12,
+  "strength_save": 3,
+  "dexterity_save": -1,
+  "constitution_save": 3,
+  "intelligence_save": -2,
+  "wisdom_save": 2,
+  "charisma_save": 1,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "bludgeoning,piercing,and slashing damage from nonmagical attacks",
+  "damage_immunities": "necrotic,charmed,frightened,paralyzed,Undead Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "the languages it knew in life",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The mummy makes two Rotting Fist attacks. If both attacks hit one creature that isn't a Construct or Undead, the target must succeed on a DC 13 CON save or be cursed with mummy rot (see the Mummy Rot sidebar)."
+    },
+    {
+      "name": "Rotting Fist",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8+3) bludgeoning damage plus 7 (2d6) necrotic damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Dreadful Glare",
+      "desc": "The mummy glares at one creature it can see within 60 feet of it. The target must succeed on a DC 13 WIS save or be frightened until the end of its next turn. If the target fails the save by 5 or more, it is also paralyzed for the same duration."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Undead Nature",
+      "desc": "The mummy doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Undead Resilience",
+      "desc": "The mummy is immune to poison damage, to exhaustion, and to the poisoned condition."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_mummy/"
+}

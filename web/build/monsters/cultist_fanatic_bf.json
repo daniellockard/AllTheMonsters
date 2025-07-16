@@ -1,0 +1,85 @@
+{
+  "slug": "cultist_fanatic_bf",
+  "desc": "",
+  "name": "Cultist, Fanatic",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Any Lineage",
+  "group": "NPCs",
+  "alignment": "",
+  "armor_class": 14,
+  "armor_desc": "studded leather",
+  "hit_points": 60,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 10,
+  "dexterity": 14,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 16,
+  "charisma": 16,
+  "strength_save": 0,
+  "dexterity_save": 2,
+  "constitution_save": 1,
+  "intelligence_save": 0,
+  "wisdom_save": 3,
+  "charisma_save": 3,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Dark Devotion",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "any one language (usually Common)",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The fanatic makes two Sacrificial Dagger or Unholy Bolt attacks."
+    },
+    {
+      "name": "Sacrificial Dagger",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 4 (1d4+2) slashing damage plus 7 (2d6) fire damage or necrotic damage (the fanatic's choice). If the target is paralyzed, prone, stunned, or unconscious, it takes an extra 2 (1d4) slashing damage."
+    },
+    {
+      "name": "Unholy Bolt",
+      "desc": "_Ranged Spell Attack:_ +5 to hit, range 60 ft., one target. _Hit:_ 10 (2d6+3) fire damage or necrotic damage (the fanatic's choice)."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The fanatic casts one of the following spells, using WIS as the spellcasting ability (spell save DC 13).<br>At will: _light_, _thaumaturgy_<br>3/day each: _bane_, _command_<br>2/day: _hold_"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Unholy Brand (Recharge 5-6)",
+      "desc": "One creature the fanatic can see within 30 feet of it must succeed on a DC 13 CHA save or be marked with an unholy brand until the start of the fanatic's next turn. While the creature is branded, Fiends and cultists have advantage on attack rolls against it."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Dark Devotion",
+      "desc": "The fanatic is resistant to the charmed and frightened conditions."
+    },
+    {
+      "name": "Unholy Weapons",
+      "desc": "The fanatic's weapons are coated in dark, magical flames. When the fanatic hits with any weapon, the weapon deals an extra 2d6 fire damage or necrotic damage (included in the attack), the fanatic's choice."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_cultist-fanatic/"
+}

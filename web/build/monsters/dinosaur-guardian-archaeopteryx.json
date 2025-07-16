@@ -1,0 +1,88 @@
+{
+  "slug": "dinosaur-guardian-archaeopteryx",
+  "desc": "",
+  "name": "Dinosaur, Guardian Archaeopteryx",
+  "size": "Small",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 36,
+  "hit_dice": "8d6+8",
+  "speed": {
+    "walk": 15,
+    "fly": 50
+  },
+  "strength": 7,
+  "dexterity": 14,
+  "constitution": 13,
+  "intelligence": 5,
+  "wisdom": 14,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "poison",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 14",
+  "languages": "understands Common but can't speak",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Beak attack and one Talons attack or it makes two Spit Thorn attacks. If the archaeopteryx hits one creature with two attacks the target must make DC 11 Con save or take 2 (1d4) poison and be poisoned until the end of its next turn."
+    },
+    {
+      "name": "Beak",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 7 (2d4+2) piercing damage + 2 (1d4) poison."
+    },
+    {
+      "name": "Talons",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 7 (2d4+2) slashing damage."
+    },
+    {
+      "name": "Spit Thorn",
+      "desc": "Ranged Spell Attack: +4 to hit, 60 ft., one target, 4 (1d4+2) piercing damage + 2 (1d4) poison."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Imbue Poison",
+      "desc": "The guardian archaeopteryx chooses a friendly creature it can see within 30' of it and imbues that creature's attacks with magical poison. The next time the friendly creature hits with an attack before the start of archaeopteryx's next turn target of attack takes an extra 2 (1d4) poison and must make DC 11 Con save or be poisoned until end of its next turn."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Flyby",
+      "desc": "The archaeopteryx doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 126,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_dinosaur-guardian-archaeopteryx/"
+}

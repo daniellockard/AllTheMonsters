@@ -1,0 +1,71 @@
+{
+  "slug": "death-dog-a5e",
+  "desc": "",
+  "name": "Death Dog",
+  "size": "Medium",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 32,
+  "hit_dice": "5d8+10",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 14,
+  "dexterity": 14,
+  "constitution": 14,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "perception": 3,
+    "stealth": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft., passive Perception 18",
+  "languages": "",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The death dog attacks twice with its bite."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage. If the target is a creature  it makes a DC 12 Constitution saving throw. On a failure  it becomes infected with a disease. Until this disease is cured  the target is poisoned. While diseased  the target makes a DC 12 Constitution saving throw every 24 hours  reducing its hit point maximum by 5 (1d10) on a failure and ending the disease on a success. This hit point maximum reduction lasts until the disease is cured. The target dies if its hit point maximum is reduced to 0."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Two Heads",
+      "desc": "The death dog has advantage on Perception checks and on saving throws made to resist being blinded, charmed, deafened, frightened, stunned, or knocked unconscious, and it can't be flanked."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 442,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_death-dog/"
+}

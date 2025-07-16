@@ -1,0 +1,86 @@
+{
+  "slug": "hulkingwhelp-tob1-2023",
+  "desc": "False",
+  "name": "Hulking Whelp",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 94,
+  "hit_dice": "9d12 + 36",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 21,
+  "dexterity": 10,
+  "constitution": 18,
+  "intelligence": 7,
+  "wisdom": 14,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "passive Perception 12",
+  "languages": "—",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The hulking whelp makes two Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "The hulking whelp transforms into a Huge, hulking canine or back into its true whelp form, which is Fey. Its statistics, other than its size and creature type, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Defensive Transformation (Whelp Form Only)",
+      "desc": "When the hulking whelp is hit with an attack or when a creature it can see or hear within 30 feet of it threatens to harm it, it must succeed on a DC 12 Wisdom saving throw or transform into its hulking canine form (see the Change Shape bonus action)."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Frightened Anger (Hulking Form Only)",
+      "desc": "The hulking whelp has disadvantage on saving throws against spells and other magical effects that reduce strong emotions, such as the calm emotions spell."
+    },
+    {
+      "name": "Pacify (Hulking Form Only)",
+      "desc": "A friendly creature that has interacted peacefully with the hulking whelp in its whelp form can try to calm it by speaking firmly and persuasively. The hulking whelp must be able to hear the creature, who must take an action to make a DC 15 Charisma (Persuasion) check. If the check succeeds, the hulking whelp transforms back into its whelp form on its next turn and stops attacking. If the hulking whelp takes damage before then, it remains in its hulking form and continues attacking."
+    },
+    {
+      "name": "Unleashed Emotion (Hulking Form Only)",
+      "desc": "On each of the hulking whelp's turns, it attacks the nearest creature it can see. If no creature is near enough to move to and attack, the hulking whelp attacks an object, with preference for an object smaller than itself. If no creature is near enough to move to and attack for two turns in a row, the hulking whelp uses Change Shape to return to its whelp form and stops attacking."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 236,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_hulking-whelp/"
+}

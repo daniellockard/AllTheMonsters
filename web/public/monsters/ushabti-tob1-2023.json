@@ -1,0 +1,93 @@
+{
+  "slug": "ushabti-tob1-2023",
+  "desc": "False",
+  "name": "Ushabti",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 119,
+  "hit_dice": "14d8 + 56",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 14,
+  "dexterity": 20,
+  "constitution": 18,
+  "intelligence": 6,
+  "wisdom": 11,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 3,
+  "charisma_save": 1,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "understands the languages of its creator but can’t speak",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The ushabti makes two Nabboot attacks."
+    },
+    {
+      "name": "Nabboot",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 13 (3d8) necrotic damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or be cursed with tomb taint. The cursed target's speed is halved, and its hp maximum decreases by 3 (1d6) for every 24 hours that elapse. If the curse reduces the target's hp maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or comparable magic."
+    },
+    {
+      "name": "Serpentine Armlets (1/Day)",
+      "desc": "The ushabti commands its armlets to drop to the floor and transform into two giant, poisonous snakes. The snakes act as allies of the ushabti and obey its spoken commands. The snakes remain for 1 hour, until the ushabti dies, or until the ushabti dismisses one or both of them as a bonus action. When the snakes disappear, they become wisps of smoke and reform as armlets around the ushabti's arms."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Telekinesis",
+      "desc": "One creature the ushabti can see within 60 feet of it must succeed on a DC 16 Strength saving throw or the ushabti moves the creature up to 30 feet in any direction (including upward). The target is restrained until the start of the ushabti's next turn."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Construct Nature",
+      "desc": "The ushabti doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While the ushabti is motionless, it is indistinguishable from a normal funerary statue."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "The ushabti is immune to spells and effects that would alter its form."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The ushabti has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Necrotic Weapons",
+      "desc": "The ushabti's weapon attacks are magical. When the ushabti hits with any weapon, the weapon deals an extra 3d8 necrotic damage (included in the attack)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 376,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_ushabti/"
+}

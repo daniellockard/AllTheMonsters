@@ -1,0 +1,76 @@
+{
+  "slug": "giant-bat",
+  "desc": "",
+  "name": "Giant Bat",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Miscellaneous Creatures",
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 22,
+  "hit_dice": "4d10",
+  "speed": {
+    "walk": 10,
+    "fly": 60
+  },
+  "strength": 15,
+  "dexterity": 16,
+  "constitution": 11,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 60 ft., passive Perception 11",
+  "languages": "",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d6",
+      "damage_bonus": 2
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Echolocation",
+      "desc": "The bat can't use its blindsight while deafened."
+    },
+    {
+      "name": "Keen Hearing",
+      "desc": "The bat has advantage on Wisdom (Perception) checks that rely on hearing."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 373,
+  "environments": [
+    "Underdark",
+    "Forest",
+    "Caverns"
+  ],
+  "img_main": null,
+  "document__slug": "wotc-srd",
+  "document__title": "5e Core Rules",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "v2_converted_path": "/v2/creatures/srd_giant-bat/"
+}

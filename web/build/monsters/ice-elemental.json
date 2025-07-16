@@ -1,0 +1,86 @@
+{
+  "slug": "ice-elemental",
+  "desc": "A humanoid-shaped block of ice lumbers forward on angular legs._  \n**Visitors from Polar Portals.** Remote polar regions possess their own entrances to the demiplane of ice. Ice elementals emerge from the core of ancient glaciers or rise from foot-thick patches of permafrost. They are aware of portals to their demiplane, but they often choose to traverse terrestrial lands as long as the temperatures remain below freezing. Though not inherently malevolent, they enjoy enclosing warmblooded foes in ice and watching as the creatures freeze. Some ice elementals even decorate their lairs with these “sculptures.”  \n**Rivals to Water Elementals.** Open Game License",
+  "name": "Ice Elemental",
+  "size": "Large",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 114,
+  "hit_dice": "12d10+48",
+  "speed": {
+    "burrow": 30,
+    "climb": 20,
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 9,
+  "constitution": 19,
+  "intelligence": 5,
+  "wisdom": 14,
+  "charisma": 6,
+  "strength_save": 7,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "cold, poison",
+  "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "Aquan",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The ice elemental makes two ice claw attacks."
+    },
+    {
+      "name": "Ice Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (4d8 + 4) slashing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "4d8+4"
+    },
+    {
+      "name": "Encase in Ice",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft. one creature. Hit: 14 (4d6) cold damage, and the target must make a DC 14 Constitution saving throw. On a failure, ice begins to form around the creature, and it is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified in ice on a failure or ending the effect on a success. The petrification lasts until the creature spends at least 1 hour in a warm environment. Alternatively, a creature can be freed of the restrained or petrified conditions if it takes at least 10 fire damage.",
+      "attack_bonus": 7,
+      "damage_dice": "4d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Ice Glide",
+      "desc": "The elemental can burrow through nonmagical ice. While doing so, the elemental doesn't disturb the material it moves through."
+    },
+    {
+      "name": "Ice Walk",
+      "desc": "The ice elemental can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+    },
+    {
+      "name": "Splinter",
+      "desc": "A creature that hits the ice elemental with a melee weapon attack that deals bludgeoning damage while within 5 feet of the elemental takes 3 (1d6) piercing damage as shards of ice fly out from the elemental's body."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 133,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_ice-elemental/"
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "herald-of-slaughter",
+  "desc": "The butcher strides down the lane, preaching of threshing the chaff from the wheat. Around it, people tear into each other, blind with rage. All the while, the butcher grows in stature and sprouts wicked horns as it revels in the massacre._  \nHeralds of slaughter are sent by dark gods to foment unrest and agitate mortals into committing barbaric atrocities.  \n**Provokers of Wrath.** Disguised as a trusted craftsman, a herald of slaughter finds a source of anger in a community and feeds it until it grows, all while pretending to understand and offer solutions to the source. A herald of slaughter fuels the anger of the people by instigating mass culling, revolts, and blood sacrifices. As problems escalate, a herald of slaughter reveals its fiendish form to culminate the savagery in a final, chaotic exaltation of the dark gods.  \n**Brutality and Blood.** Once a herald of slaughter has been revealed, it assumes its fiendish appearance and wades fanatically into combat. Wielding a massive meat cleaver and rage-inducing magic, a herald of slaughter seeks to destabilize its opponents by inciting blinding fury and pitting comrades against each other.",
+  "name": "Herald of Slaughter",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 133,
+  "hit_dice": "14d10+56",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 10,
+  "constitution": 19,
+  "intelligence": 12,
+  "wisdom": 12,
+  "charisma": 18,
+  "strength_save": 8,
+  "dexterity_save": 4,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 5,
+  "charisma_save": 8,
+  "perception": 5,
+  "skills": {
+    "athletics": 8,
+    "deception": 8,
+    "perception": 5,
+    "persuasion": 8
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, fire, lightning, slashing",
+  "damage_immunities": "necrotic, poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 120 ft., passive Perception 15",
+  "languages": "Abyssal, Common, Infernal",
+  "challenge_rating": "11",
+  "cr": 11,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The herald of slaughter makes three attacks: one with its gore and two with its cleaver. Alternatively, it can use Enkindle Hate twice. If it hits one target with Enkindle Hate twice using this action, the target must succeed on a DC 16 Charisma saving throw or use its reaction to immediately move up to half its speed and make one melee attack against a random target within range."
+    },
+    {
+      "name": "Enkindle Hate",
+      "desc": "Ranged Spell Attack: +8 to hit, range 120 ft., one target. Hit: 18 (4d8) fire damage, and the target must succeed on a DC 16 Constitution saving throw or be blinded until the end of its next turn.",
+      "attack_bonus": 8,
+      "damage_dice": "4d8"
+    },
+    {
+      "name": "Gore",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage, and the target must succeed on a DC 16 Strength saving throw or be knocked prone.",
+      "attack_bonus": 8,
+      "damage_dice": "2d10+4"
+    },
+    {
+      "name": "Cleaver",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) slashing damage plus 9 (2d8) necrotic damage.",
+      "attack_bonus": 8,
+      "damage_dice": "2d10+4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Corrupting Aura",
+      "desc": "The calm emotions spell instantly fails when cast within 60 feet of the herald. In addition, any creature that starts its turn within 30 feet of the herald must succeed on a DC 16 Wisdom saving throw or grow hostile. On its turn, a hostile creature must move to and make one attack against the nearest creature other than the herald. If no other creature is near enough to move to and attack, the hostile creature stalks off in a random direction, seeking a target for its hostility. At the start of each of the herald's turn, it chooses whether this aura is active."
+    },
+    {
+      "name": "Magic Weapons",
+      "desc": "The herald's weapon attacks are magical."
+    },
+    {
+      "name": "Shapechanger",
+      "desc": "The herald can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The herald's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:\nAt will: detect thoughts\n3/day: charm person, fear, suggestion\n1/day: modify memory, seeming"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 198,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_herald-of-slaughter/"
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "crinaea",
+  "desc": "A beautiful figure made of water and plants steps from the lake and smiles._  \nCrinaea are nymph-like water fey that inhabit small bodies of water such as wells and fountains.  \n**Water-bound Fey.** Similar to dryads, crinaea are bound to a body of water which becomes their home and focal point. Unlike dryads, crinaea can choose to be bound to a water source and can change which water source they call home. A crinaea must submerge itself in its bound water source every day or suffer. As long as the water source stays pure and the crinaea never travels more than a mile from it, the crinaea can live indefinitely. If its home water source is ever dried up or destroyed, the crinaea quickly fades until it finds a new home or dies.  \n**Friendly but Poisonous.** One of the most gregarious fey, the crinaea enjoys long conversations with intelligent creatures. The crinaea is often well-versed in the goings-on around its home and happily shares such information with friendly creatures. It offers its pure water to those in need and those who are polite, but woe be unto those who anger the fey after having tasted its water, as the crinaea can poison any water taken from its home.",
+  "name": "Crinaea",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 44,
+  "hit_dice": "8d8+8",
+  "speed": {
+    "swim": 60,
+    "walk": 30
+  },
+  "strength": 11,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 14,
+  "wisdom": 12,
+  "charisma": 17,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "perception": 3,
+    "stealth": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "fire",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "Common, Sylvan",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Dagger",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage plus 7 (2d6) cold damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d4+3"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Crinaea's Curse",
+      "desc": "The crinaea can sense water within 300 feet of it that was drawn from its bonded source within the last 24 hours. As a bonus action, the crinaea can poison up to 1 gallon of water within 300 feet of it that was drawn from its bonded source. This can even affect water that has been used to make another nonmagical substance, such as soup or tea, or water that was consumed within the last 30 minutes. The poison can affect a target through contact or ingestion. A creature subjected to this poison must make a DC 13 Constitution saving throw. On a failure, a creature takes 18 (4d8) poison damage and is poisoned for 1 hour. On a success, a creature takes half the damage and isn't poisoned."
+    },
+    {
+      "name": "Water-bound Form",
+      "desc": "The crinaea is bound to its water source. If the crinaea is separated from its water source for more than 24 hours, the crinaea gains 1 level of exhaustion. It gains an additional level of exhaustion for each day until it bonds with another water source or it dies. The crinaea can bond with a new water source and remove its levels of exhaustion by finishing a long rest while submerged in the new water source."
+    },
+    {
+      "name": "Watery Form",
+      "desc": "While fully immersed in water, the crinaea is invisible and it can move through a space as narrow as 1 inch wide without squeezing."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The crinaea's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:\nAt will: poison spray\n3/day each: create or destroy water (create water only), purify food and drink (water only)\n1/day each: disguise self, fog cloud, protection from poison"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 74,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_crinaea/"
+}

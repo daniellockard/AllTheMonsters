@@ -1,0 +1,86 @@
+{
+  "slug": "ice-urchin",
+  "desc": "",
+  "name": "Ice Urchin",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 45,
+  "hit_dice": "6d10+12",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 15,
+  "dexterity": 12,
+  "constitution": 14,
+  "intelligence": 5,
+  "wisdom": 11,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "cold",
+  "condition_immunities": "",
+  "senses": "passive Perception 10",
+  "languages": "understands Aquan but can't speak",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Ice Spine",
+      "desc": "Melee Weapon Attack: +4 to hit reach 5 ft. one target 9 (2d6+2) piercing damage + 2 (1d4) cold"
+    },
+    {
+      "name": "Venomous Spine",
+      "desc": "Ranged Weapon Attack: +3 to hit range 20/60' one target 3 (1d4+1) piercing damage + 2 (1d4) cold and 7 (2d6) poison."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Fear of Fire",
+      "desc": "An ice urchin is inherently fearful of fire. If presented forcefully with fire or if it is dealt fire the ice urchin must make DC 13 Wis save or become frightened until the end of its next turn. Once it has been frightened by a specific source of fire (such as a torch) the ice urchin can't be frightened by that same source again for 24 hrs."
+    },
+    {
+      "name": "Ice Slide",
+      "desc": "Its speed increases to 60' when it moves on snow or ice. Additionally difficult terrain composed of ice or snow doesn't cost it extra movement."
+    },
+    {
+      "name": "Melting Away",
+      "desc": "If it takes fire damage its AC is reduced by 2 and it has disadvantage on attack rolls until the end of its next turn."
+    },
+    {
+      "name": "Spiny Defense",
+      "desc": "A creature that touches the ice urchin or hits it with melee attack while within 5 ft. of it takes 3 (1d6) piercing damage and 2 (1d4) cold."
+    },
+    {
+      "name": "Venomous Spine Regrowth",
+      "desc": "An ice urchin has twelve venomous spines. Used spines regrow when the ice urchin finishes a long rest."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 239,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_ice-urchin/"
+}

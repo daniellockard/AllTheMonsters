@@ -1,0 +1,83 @@
+{
+  "slug": "hound-guardian-a5e",
+  "desc": "",
+  "name": "Hound Guardian",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 32,
+  "hit_dice": "5d8+10",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 16,
+  "dexterity": 10,
+  "constitution": 14,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "perception": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison; damage from nonmagical, non-adamantine weapons",
+  "condition_immunities": "charmed, fatigue, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "understands the languages of its creator but can't speak",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) piercing damage. If the target is a creature  it makes a DC 13 Strength saving throw  falling prone on a failure."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Protective Bite",
+      "desc": "When a creature within 5 feet hits the guardians owner with a melee attack, the guardian bites the attacker."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Immutable Form",
+      "desc": "The guardian is immune to any effect that would alter its form."
+    },
+    {
+      "name": "Keen Hearing and Smell",
+      "desc": "The guardian has advantage on Perception checks that rely on hearing or smell."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The guardian has advantage on saving throws against spells and magical effects."
+    },
+    {
+      "name": "Constructed Nature",
+      "desc": "Guardians dont require air, sustenance, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 262,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_hound-guardian/"
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "vrock_bf",
+  "desc": "",
+  "name": "Vrock",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "group": "Demons",
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 110,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40,
+    "fly": 60
+  },
+  "strength": 16,
+  "dexterity": 20,
+  "constitution": 18,
+  "intelligence": 8,
+  "wisdom": 22,
+  "charisma": 14,
+  "strength_save": 3,
+  "dexterity_save": 5,
+  "constitution_save": 4,
+  "intelligence_save": -1,
+  "wisdom_save": 6,
+  "charisma_save": 2,
+  "perception": 16,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning,piercing,and slashing damage from nonmagical attacks,Demonic Resilience",
+  "damage_immunities": "Demonic Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft.",
+  "languages": "Abyssal,telepathy 120 ft.",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The vrock makes one Beak attack and two Talon attacks."
+    },
+    {
+      "name": "Beak",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 12 (2d8+3) piercing damage."
+    },
+    {
+      "name": "Talon",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 14 (2d10+3) slashing damage."
+    },
+    {
+      "name": "Wing Spores (Recharge 5-6)",
+      "desc": "The vrock shakes a cloud of toxic spores from its wings. Each creature within 15 feet of it must make a DC 15 CON save. On a failure, a creature takes 28 (8d6) poison damage and is poisoned for 1 minute. On a success, a creature takes half the damage and isn't poisoned. While poisoned, a creature takes 3 (1d6) poison damage at the start of each of its turns. A poisoned creature can repeat the save at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the poisoned creature also ends the effect on it."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Startling Screech",
+      "desc": "The vrock emits a horrific screech at one creature it can see within 30 feet of it. The target must succeed on a DC 14 CON save or be able to take either an action or bonus action on its turn, not both, and it can't take reactions."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Demonic Resilience",
+      "desc": "The vrock is resistant to cold, fire, and lightning damage. In addition, it is immune to poison damage and to the poisoned condition."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The vrock has advantage on saves against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_vrock/"
+}

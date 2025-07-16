@@ -1,0 +1,357 @@
+{
+  "totalMonsters": 50,
+  "totalErrors": 0,
+  "timestamp": "2025-07-16T20:26:18.599Z",
+  "monsters": [
+    {
+      "name": "A-mi-kuk",
+      "slug": "a-mi-kuk",
+      "challenge_rating": "7",
+      "type": "Aberration",
+      "size": "Huge"
+    },
+    {
+      "name": "Aalpamac",
+      "slug": "aalpamac",
+      "challenge_rating": "7",
+      "type": "Monstrosity",
+      "size": "Huge"
+    },
+    {
+      "name": "Aatxe",
+      "slug": "aatxe",
+      "challenge_rating": "5",
+      "type": "Celestial",
+      "size": "Large"
+    },
+    {
+      "name": "Abaasy",
+      "slug": "abaasy",
+      "challenge_rating": "8",
+      "type": "Giant",
+      "size": "Huge"
+    },
+    {
+      "name": "Abbanith Giant",
+      "slug": "abbanith-giant",
+      "challenge_rating": "3",
+      "type": "Giant",
+      "size": "Large"
+    },
+    {
+      "name": "Aboleth",
+      "slug": "aboleth",
+      "challenge_rating": "10",
+      "type": "Aberration",
+      "size": "Large"
+    },
+    {
+      "name": "Aboleth",
+      "slug": "aboleth-a5e",
+      "challenge_rating": "11",
+      "type": "Aberration",
+      "size": "Large"
+    },
+    {
+      "name": "Aboleth, Nihilith",
+      "slug": "aboleth-nihilith",
+      "challenge_rating": "12",
+      "type": "Undead",
+      "size": "Large"
+    },
+    {
+      "name": "Aboleth Thrall",
+      "slug": "aboleth-thrall-a5e",
+      "challenge_rating": "2",
+      "type": "Humanoid",
+      "size": "Medium"
+    },
+    {
+      "name": "Aboleth",
+      "slug": "aboleth_bf",
+      "challenge_rating": "10",
+      "type": "Aberration",
+      "size": "large"
+    },
+    {
+      "name": "Abominable Beauty",
+      "slug": "abominable-beauty",
+      "challenge_rating": "11",
+      "type": "Fey",
+      "size": "Medium"
+    },
+    {
+      "name": "Abominable Snowman",
+      "slug": "abominable-snowman-a5e",
+      "challenge_rating": "4",
+      "type": "Monstrosity",
+      "size": "Large"
+    },
+    {
+      "name": "Abominable Beauty",
+      "slug": "abominablebeauty-tob1-2023",
+      "challenge_rating": "11",
+      "type": "Fey",
+      "size": "Medium"
+    },
+    {
+      "name": "Accursed Defiler",
+      "slug": "accursed-defiler",
+      "challenge_rating": "4",
+      "type": "Undead",
+      "size": "Medium"
+    },
+    {
+      "name": "Accursed Guardian Naga",
+      "slug": "accursed-guardian-naga-a5e",
+      "challenge_rating": "12",
+      "type": "Monstrosity",
+      "size": "Large"
+    },
+    {
+      "name": "Accursed Spirit Naga",
+      "slug": "accursed-spirit-naga-a5e",
+      "challenge_rating": "8",
+      "type": "Monstrosity",
+      "size": "Large"
+    },
+    {
+      "name": "Accursed Defiler",
+      "slug": "accurseddefiler-tob1-2023",
+      "challenge_rating": "4",
+      "type": "Undead",
+      "size": "Medium"
+    },
+    {
+      "name": "Acid Ant",
+      "slug": "acid-ant",
+      "challenge_rating": "1/4",
+      "type": "Monstrosity",
+      "size": "Small"
+    },
+    {
+      "name": "Acolyte",
+      "slug": "acolyte",
+      "challenge_rating": "1/4",
+      "type": "Humanoid",
+      "size": "Medium"
+    },
+    {
+      "name": "Acolyte",
+      "slug": "acolyte-a5e",
+      "challenge_rating": "1/4",
+      "type": "Humanoid",
+      "size": "Medium"
+    },
+    {
+      "name": "Acolyte",
+      "slug": "acolyte_bf",
+      "challenge_rating": "1/4",
+      "type": "Humanoid",
+      "size": "medium"
+    },
+    {
+      "name": "Adult Amethyst Dragon",
+      "slug": "adult-amethyst-dragon-a5e",
+      "challenge_rating": "17",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Black Dragon",
+      "slug": "adult-black-dragon",
+      "challenge_rating": "14",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Black Dragon",
+      "slug": "adult-black-dragon-a5e",
+      "challenge_rating": "17",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Black Dragon Lich",
+      "slug": "adult-black-dragon-lich-a5e",
+      "challenge_rating": "17",
+      "type": "Undead",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Blue Dragon",
+      "slug": "adult-blue-dragon",
+      "challenge_rating": "16",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Blue Dragon",
+      "slug": "adult-blue-dragon-a5e",
+      "challenge_rating": "19",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Boreal Dragon",
+      "slug": "adult-boreal-dragon",
+      "challenge_rating": "17",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Brass Dragon",
+      "slug": "adult-brass-dragon",
+      "challenge_rating": "13",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Brass Dragon",
+      "slug": "adult-brass-dragon-a5e",
+      "challenge_rating": "16",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Bronze Dragon",
+      "slug": "adult-bronze-dragon",
+      "challenge_rating": "15",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Bronze Dragon",
+      "slug": "adult-bronze-dragon-a5e",
+      "challenge_rating": "18",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Cave Dragon",
+      "slug": "adult-cave-dragon",
+      "challenge_rating": "16",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Copper Dragon",
+      "slug": "adult-copper-dragon",
+      "challenge_rating": "14",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Copper Dragon",
+      "slug": "adult-copper-dragon-a5e",
+      "challenge_rating": "17",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Earth Dragon",
+      "slug": "adult-earth-dragon-a5e",
+      "challenge_rating": "18",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Emerald Dragon",
+      "slug": "adult-emerald-dragon-a5e",
+      "challenge_rating": "17",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Flame Dragon",
+      "slug": "adult-flame-dragon",
+      "challenge_rating": "16",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Gold Dragon",
+      "slug": "adult-gold-dragon",
+      "challenge_rating": "17",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Gold Dragon",
+      "slug": "adult-gold-dragon-a5e",
+      "challenge_rating": "20",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Green Dragon",
+      "slug": "adult-green-dragon",
+      "challenge_rating": "15",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Green Dragon",
+      "slug": "adult-green-dragon-a5e",
+      "challenge_rating": "18",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Imperial Dragon",
+      "slug": "adult-imperial-dragon",
+      "challenge_rating": "20",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Light Dragon",
+      "slug": "adult-light-dragon",
+      "challenge_rating": "16",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Mithral Dragon",
+      "slug": "adult-mithral-dragon",
+      "challenge_rating": "14",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Red Dragon",
+      "slug": "adult-red-dragon",
+      "challenge_rating": "17",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Red Dragon",
+      "slug": "adult-red-dragon-a5e",
+      "challenge_rating": "20",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Rime Worm",
+      "slug": "adult-rime-worm",
+      "challenge_rating": "6",
+      "type": "Elemental",
+      "size": "Large"
+    },
+    {
+      "name": "Adult River Dragon",
+      "slug": "adult-river-dragon-a5e",
+      "challenge_rating": "17",
+      "type": "Dragon",
+      "size": "Huge"
+    },
+    {
+      "name": "Adult Sapphire Dragon",
+      "slug": "adult-sapphire-dragon-a5e",
+      "challenge_rating": "19",
+      "type": "Dragon",
+      "size": "Huge"
+    }
+  ]
+}

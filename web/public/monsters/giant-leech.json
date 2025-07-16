@@ -1,0 +1,69 @@
+{
+  "slug": "giant-leech",
+  "desc": "Giant leeches lurk in placid ponds, babbling creeks, and mighty rivers. They slink through the dark forest waters with their distinctive vertical undulation, following any movement they sense toward fresh blood. Some varieties have adapted to life in the oceans, and a rare few dwell on land, though land-dwelling leeches prefer humid, moist climates.",
+  "name": "Giant Leech",
+  "size": "Small",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 7,
+  "hit_dice": "2d6",
+  "speed": {
+    "swim": 30,
+    "walk": 15
+  },
+  "strength": 6,
+  "dexterity": 16,
+  "constitution": 10,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 2,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": 2,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "stealth": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "tremorsense 30 ft., passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage, and the leech attaches to the target. While attached, the leech doesn't attack. Instead, at the start of each of the leech's turns, the target loses 5 (1d4 + 3) hp due to blood loss.\n\nThe leech can detach itself by spending 5 feet of its movement. It does so after it drains 15 hp of blood from the target or the target dies. A creature, including the target, can use its action to detach the leech.",
+      "attack_bonus": 5,
+      "damage_dice": "1d4+3"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The leech can breathe air and water."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 393,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_giant-leech/"
+}

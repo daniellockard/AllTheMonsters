@@ -1,0 +1,80 @@
+{
+  "slug": "peat-mammoth",
+  "desc": "This pile of rotting plant matter is shaped similarly to a woolly mammoth, without the tusks. The plants forming its hide droop to the ground._  \n**Elephantine Plant Mound.** The peat mammoth is a mobile peat bog on four, stumpy legs. The plants draping from it give it the shaggy appearance of a wooly mammoth. It can extrude parts of its plant mound to strike at foes, but it mostly ambles over prey, absorbing them into its mass.  \n**Spirit-infused.** Peat mammoths are mounds of plant material inhabited and driven by the souls of intelligent creatures that died in peat bogs. The restless spirits steer the mammoth’s movements, but the jumble of trapped souls leaves the mammoth without a true pilot or goal. Thus, the plant matter shambles onward, absorbing creatures and plants in its path, driven by the energy of spirits seeking release yet unable to find it.  \n**Swamp Gas Hazard.** The rotting plant and animal material contained within the peat mammoth’s mass give off flammable swamp gases. The mammoth’s saturated body gives it a measure of protection from fire, but the gases escaping from it easily catch fire. In rare instances, attacking the mammoth with fire results in a terrible explosion.",
+  "name": "Peat Mammoth",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 172,
+  "hit_dice": "15d12+75",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 24,
+  "dexterity": 6,
+  "constitution": 21,
+  "intelligence": 1,
+  "wisdom": 8,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "stealth": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "fire, necrotic",
+  "damage_immunities": "",
+  "condition_immunities": "blinded, deafened, frightened",
+  "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 9",
+  "languages": "—",
+  "challenge_rating": "10",
+  "cr": 10,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The peat mammoth makes two slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one creature. Hit: 20 (3d8 + 7) bludgeoning damage. If the peat mammoth is on fire, the target also takes 7 (2d6) fire damage.",
+      "attack_bonus": 11,
+      "damage_dice": "3d8+7"
+    },
+    {
+      "name": "Engulf",
+      "desc": "The peat mammoth moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the mammoth enters a creature's space, the creature must make a DC 17 Dexterity saving throw.\n\nOn a successful save, the creature can choose to be pushed 5 feet back or to the side of the mammoth. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.\n\nOn a failed save, the mammoth enters the creature's space, and the creature takes 22 (5d8) necrotic damage and is engulfed. The engulfed creature can't breathe, is restrained, and takes 22 (5d8) necrotic damage at the start of each of the mammoth's turns. When the mammoth moves, engulfed creatures move with it.\n\nAn engulfed creature can try to escape by taking an action to make a DC 17 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the mammoth. The mammoth can engulf up to two Large or smaller creatures at a time."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Slow Burn",
+      "desc": "When the peat mammoth takes fire damage, it catches fire. If the peat mammoth starts its turn on fire, it takes 5 (1d10) fire damage. The mammoth's saturated body douses the fire at the end of the peat mammoth's turn. Creatures engulfed by the mammoth don't take fire damage from this effect.\n\nIf the peat mammoth dies while it is on fire, it explodes in a burst of fire and flaming peat. Each creature within 15 feet of the peat mammoth must make a DC 17 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one. If a creature is engulfed by the mammoth when it dies in this way, the creature has disadvantage on the saving throw."
+    },
+    {
+      "name": "Swamp Camouflage",
+      "desc": "The peat mammoth has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 293,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_peat-mammoth/"
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "pestilence-swarm",
+  "desc": "These flying insects are coated in a thick layer of dust and cover the walls, ceiling and floor of a room, completely motionless in the dark. The stray light from a lantern falls one of them, awakening the swarm, which takes to the air in an angry fury._  \n**Awakened by Light.** The pestilence swarm is a massive group of tiny flying insects resembling enormous, fat houseflies. The smell of carrion often lures them underground or into shallow caves, though they also dig burrows. As long as they are in darkness, they are immobile, appearing almost dead. When hit by light, however, they awake and swarm any creatures in the area.  \n**Destroyer of Crops.** Although fortunately rare, when a cloud of these insects descends on a field, it takes mere hours for them to completely devour everything that might have been worth harvesting. They eat fruits, grains, and even the livestock, leaving a decimated field in their wake.  \n**Bringer of Plagues.** Pestilence swarms often carry and transmit disease as they move from area to area. They descend on populated areas, eat any food that is left out, bite the people who live there, and eventually move to the next area. Diseases from one area spread to another, festering in the bite wounds left by the swarm. The suffering they bring to small villages and towns is legendary.",
+  "name": "Pestilence Swarm",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "Swarm",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 22,
+  "hit_dice": "4d8+4",
+  "speed": {
+    "fly": 30,
+    "walk": 10,
+    "hover": true
+  },
+  "strength": 7,
+  "dexterity": 16,
+  "constitution": 13,
+  "intelligence": 1,
+  "wisdom": 12,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, slashing",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "—",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Diseased Bites",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half its hp or fewer. The creature must succeed on a DC 11 Constitution saving throw or contract sewer plague. It takes 1d4 days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The infected creature suffers one level of exhaustion, and it regains only half the normal number of hp from spending Hit Dice and no hp from finishing a long rest. At the end of each long rest, an infected creature must make a DC 11 Constitution saving throw. On a failed save, the creature gains one level of exhaustion. On a successful save, the creature's exhaustion level decreases by one level. If a successful saving throw reduces the infected creature's level of exhaustion below 1, the creature recovers from the disease.",
+      "attack_bonus": 5,
+      "damage_dice": "4d4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Dormant in Darkness",
+      "desc": "The pestilence swarm appears dead in darkness and remains in a passive state until touched by light. When at least one insect in the swarm sees light, the entire swarm becomes active and attacks anything that moves. Once active, a swarm in complete darkness that isn't taking damage returns to its dormant state after 1 minute. The swarm poses no threat to creatures passing near it in complete darkness."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny beast. The swarm can't regain hp or gain temporary hp."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 294,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_pestilence-swarm/"
+}

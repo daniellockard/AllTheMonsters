@@ -1,0 +1,73 @@
+{
+  "slug": "giant-firestorm",
+  "desc": "",
+  "name": "Giant, Firestorm",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "armor_desc": "hide armor",
+  "hit_points": 149,
+  "hit_dice": "13d12+65",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 23,
+  "dexterity": 15,
+  "constitution": 20,
+  "intelligence": 12,
+  "wisdom": 16,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": 5,
+  "constitution_save": 8,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "perception": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "cold, fire",
+  "condition_immunities": "",
+  "senses": "passive Perception 16",
+  "languages": "Giant",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Obsidian Axe or Firestorm Bolt attacks."
+    },
+    {
+      "name": "Obsidian Axe",
+      "desc": "Melee Weapon Attack: +9 to hit, 10 ft., one target, 19 (3d8+6) slashing damage + 3 (1d6) cold and 3 (1d6) fire."
+    },
+    {
+      "name": "Firestorm Bolt",
+      "desc": "Ranged Spell Attack: +6 to hit, 120 ft., one target, 13 (3d6+3) fire + 10 (3d6) cold."
+    },
+    {
+      "name": "Lava Geyser (Recharge 5-6)",
+      "desc": "Gestures at a point on the ground it can see within 60' of it. A fountain of molten rock erupts from that point in a 10 ft. radius 40' high cylinder. The area is difficult terrain for 1 min. Each creature in the cylinder must make a DC 16 Dex save. On a failure a creature takes 24 (7d6) fire and is coated in hardened lava. On a success a creature takes half the damage and isn't coated in hardened lava. A creature coated in hardened lava has its speed halved while it remains coated. A creature including the coated creature can take its action to break and remove the hardened lava ending the effect."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 202,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_giant-firestorm/"
+}

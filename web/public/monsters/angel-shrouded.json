@@ -1,0 +1,100 @@
+{
+  "slug": "angel-shrouded",
+  "desc": "",
+  "name": "Angel, Shrouded",
+  "size": "Medium",
+  "type": "Celestial",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Good",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 161,
+  "hit_dice": "17d8+85",
+  "speed": {
+    "walk": 40,
+    "fly": 60
+  },
+  "strength": 18,
+  "dexterity": 20,
+  "constitution": 20,
+  "intelligence": 16,
+  "wisdom": 22,
+  "charisma": 10,
+  "strength_save": 9,
+  "dexterity_save": 1,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 1,
+  "charisma_save": 5,
+  "perception": 6,
+  "skills": {
+    "perception": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "poison, radiant; nonmagic B/P/S attacks",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+  "senses": "blindsight 30', darkvision 120', passive Perception 21",
+  "languages": "all, telepathy 120'",
+  "challenge_rating": "13",
+  "cr": 13,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Justicar's Blade or Justicar's Blast attacks."
+    },
+    {
+      "name": "Justicar's Blade",
+      "desc": "Melee Weapon Attack: +10 to hit, 5 ft., one target, 13 (2d8+5) slashing damage + 14 (4d6) poison and target: DC 17 Con save or be poisoned. Poisoned condition lasts until it is removed by the lesser restoration spell or similar magic."
+    },
+    {
+      "name": "Justicar's Blast",
+      "desc": "Ranged Spell Attack: +11 to hit, 120 ft., one target, 24 (4d8+6) radiant."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "Wis (DC 19) no material components: At will: bane bless locate creature3/day ea: invisibility (self only) healing word (level 5) nondetection"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Executioner's Judgment",
+      "desc": "When a creature poisoned by shrouded angel starts its turn angel demands target repent. If it doesn't repent: DC 17 Con save. Fail: reduced to 0 hp. Success: 22 (5d8) radiant. If target repents its next action is chosen by angel as if it failed a save vs. the command spell: “Draw Nigh” (approach) “Clasp Hands in Prayer” (drop) “Seek Redemption” (flee) “Be Penitent” (grovel) or “In Stillness Hear the Truth” (halt). Once angel uses this reaction it must deal poison to a poisoned target before using it again."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Angelic Poison",
+      "desc": "Its weapon attacks are magical and its weapons are coated with radiant poison. Creatures with resistance or immunity to poison or the poisoned condition can be affected by angel's poison. Such creatures have advantage on saves vs. the angel's poison."
+    },
+    {
+      "name": "Divine Awareness",
+      "desc": "Knows if it hears a lie."
+    },
+    {
+      "name": "Evasion",
+      "desc": "If subject to effect that allows Dex save for half damage takes no damage on success and only half if it fails."
+    },
+    {
+      "name": "Immortal Nature",
+      "desc": "Doesn't require food drink or sleep"
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 29,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_angel-shrouded/"
+}

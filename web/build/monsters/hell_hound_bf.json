@@ -1,0 +1,76 @@
+{
+  "slug": "hell_hound_bf",
+  "desc": "",
+  "name": "Hell Hound",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 76,
+  "hit_dice": "",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 20,
+  "dexterity": 12,
+  "constitution": 14,
+  "intelligence": 6,
+  "wisdom": 16,
+  "charisma": 6,
+  "strength_save": 5,
+  "dexterity_save": 1,
+  "constitution_save": 2,
+  "intelligence_save": -2,
+  "wisdom_save": 3,
+  "charisma_save": -2,
+  "perception": 15,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "fire,charmed,frightened",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "understands Infernal but can't speak",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The hell hound makes two Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8+3) piercing damage plus 7 (2d6) fire damage."
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "desc": "The hound exhales fire in a 15foot cone. Each creature in that area must make a DC 13 DEX save, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Pack Tactics",
+      "desc": "The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    },
+    {
+      "name": "Prey Sense",
+      "desc": "The hound can pinpoint, by scent, the location of Medium and smaller creatures within 30 feet of it."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_hell-hound/"
+}

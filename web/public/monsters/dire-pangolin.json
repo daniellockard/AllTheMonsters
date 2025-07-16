@@ -1,0 +1,83 @@
+{
+  "slug": "dire-pangolin",
+  "desc": "",
+  "name": "Dire Pangolin",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 82,
+  "hit_dice": "11d10+22",
+  "speed": {
+    "walk": 30,
+    "climb": 20
+  },
+  "strength": 18,
+  "dexterity": 11,
+  "constitution": 15,
+  "intelligence": 3,
+  "wisdom": 12,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "poison",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 13",
+  "languages": "—",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Claws attacks and one Tail Slap attack."
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 10 (2d6+4) slashing damage."
+    },
+    {
+      "name": "Tail Slap",
+      "desc": "Melee Weapon Attack: +6 to hit, 10 ft., one target, 8 (1d8+4) piercing damage and the target must make DC 14 Str save or be knocked prone."
+    },
+    {
+      "name": "Tuck In",
+      "desc": "Curls its entire body forming an armored ball. While an armored ball it moves by rolling has resistance to B/P/S damage is immune to the prone condition and it can't make Claw or Tail Slap attacks or climb. The dire pangolin can uncurl its body as a bonus action."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Edged Scales",
+      "desc": "A creature that touches the pangolin or hits it with melee attack while within 5 ft. of it takes 4 (1d8) slashing damage."
+    },
+    {
+      "name": "Keen Hearing and Smell",
+      "desc": "The pangolin has advantage on Wis (Perception) checks that rely on hearing or smell."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 133,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_dire-pangolin/"
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "drake-shepherd",
+  "desc": "",
+  "name": "Drake, Shepherd",
+  "size": "Medium",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 110,
+  "hit_dice": "13d8+52",
+  "speed": {
+    "walk": 25,
+    "fly": 50
+  },
+  "strength": 12,
+  "dexterity": 16,
+  "constitution": 18,
+  "intelligence": 12,
+  "wisdom": 20,
+  "charisma": 17,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 5,
+  "skills": {
+    "perception": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened",
+  "senses": "darkvision 60', passive Perception 15",
+  "languages": "Common, Draconic, Halfling",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Ram attack and two Claw attacks."
+    },
+    {
+      "name": "Ram",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 12 (2d8+3) bludgeoning damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 10 (2d6+3) slashing damage."
+    },
+    {
+      "name": "Charm Animals",
+      "desc": "Charms any number of Beasts with an Int of 3 or less that it can see within 30' of it. Each target magically charmed for 1 hr (DC 15 Wis negates). Charmed targets obey drake's verbal commands. If target's savesucceeds/effect ends for it target is immune to drake's Charm Animals for next 24 hrs."
+    },
+    {
+      "name": "Breath Weapons (Recharge 5-6)",
+      "desc": "Uses one of the following:Calming Breath Breathes a cloud of soothing gas around itself. Each creature within 30' of it: become indifferent about creatures that it is hostile toward within 100' of the drake for 1 hr (DC 15 Cha negates). Indifference ends if creature is attacked harmed by a spell or witnesses any of its allies being harmed. Frightened creatures within 30' of drake are no longer frightened.Protective Roar Each hostile creature in 30' cone: 21 (6d6) thunder (DC 15 Con half). Each friendly Beast in area gains 5 (1d10) temp hp or 11 (2d10) temp hp if it is charmed by the drake."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Shepherd's Safeguard",
+      "desc": "When a Beast within 30' of the drake would be hit by an attack drake can chirp and beast adds 3 to its AC vs. the attack. To do so drake must see attacker and Beast."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Charge",
+      "desc": "If it moves 20'+ straight to a target and then hits with ram attack on same turn target: extra 9 (2d8) bludgeoning damage. If target is a creature knocked prone (DC 15 Str not prone)."
+    },
+    {
+      "name": "Speak with Beasts",
+      "desc": "Communicate with Beasts as if shared language."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 156,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_drake-shepherd/"
+}

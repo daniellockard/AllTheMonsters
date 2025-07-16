@@ -1,0 +1,82 @@
+{
+  "slug": "will-o-wisp-a5e",
+  "desc": "",
+  "name": "Will-o-Wisp",
+  "size": "Small",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 17,
+  "armor_desc": "",
+  "hit_points": 28,
+  "hit_dice": "8d6",
+  "speed": {
+    "walk": 0,
+    "fly": 50
+  },
+  "strength": 2,
+  "dexterity": 24,
+  "constitution": 10,
+  "intelligence": 12,
+  "wisdom": 14,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold, fire, necrotic, thunder; damage from nonmagical weapons",
+  "damage_immunities": "lightning, poison",
+  "condition_immunities": "fatigue, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+  "senses": "darkvision 120 ft., passive Perception 12",
+  "languages": "the languages it knew in life",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Shock",
+      "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one target. Hit: 10 (3d6) lightning damage. The will-o-wisp can't make this attack while its glow is extinguished."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Illumination",
+      "desc": "The will-o-wisp alters the radius of its glow (shedding bright light in a 5- to 20-foot radius and dim light for the same number of feet beyond that radius), changes the color of its glow, or extinguishes its glow (making it invisible)."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Conductive",
+      "desc": "Each time a creature touches the will-o-wisp or hits it with a metal melee weapon for the first time on a turn, the creature takes 7 (2d6) lightning damage. This trait doesnt function while the will-o-wisps glow is extinguished."
+    },
+    {
+      "name": "Insubstantial",
+      "desc": "The will-o-wisp can't pick up or move objects or creatures. It can move through creatures and objects. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Treasure Sense",
+      "desc": "The will-o-wisp knows the location of coins, gems, and other nonmagical wealth within 500 feet."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "A will-o-wisp doesnt require air, sustenance, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 425,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_will-o-wisp/"
+}

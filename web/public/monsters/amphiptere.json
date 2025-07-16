@@ -1,0 +1,85 @@
+{
+  "slug": "amphiptere",
+  "desc": "_The amphiptere is most commonly found as a flight of gold-crested, bat-winged serpents bursting from the foliage._  \n**Tiny Wyverns.** An amphiptere has batlike wings and a stinger similar to a wyvern’s at the end of its tail. Their reptilian bodies are scaly, but their wings sprout greenish-yellow feathers.  \n**Swooping and Swift.** They are surprisingly maneuverable in spite of their size, able to change direction suddenly and make deadly hit-and-run strikes. They swoop in and out of combat, snapping at targets with their needlelike teeth and striking with their envenomed stingers. Once a foe is poisoned and injured, they hover closer in a tightly packed, flapping mass of fangs, battering wings, and jabbing stingers.  \n**Strength in Flocks.** Despite their fighting ability, amphipteres are not particularly brave. Most often, they tend to lurk in small flocks in dense foliage, where they can burst forth in a flurry of wings when prey comes within view. They display surprising cunning and tenacity in large groups; they may harass foes for minutes or hours before closing in for the kill.",
+  "name": "Amphiptere",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 60,
+  "hit_dice": "8d8+24",
+  "speed": {
+    "walk": 20,
+    "climb": 20,
+    "fly": 60,
+    "swim": 20
+  },
+  "strength": 11,
+  "dexterity": 18,
+  "constitution": 17,
+  "intelligence": 2,
+  "wisdom": 16,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 5,
+  "skills": {
+    "perception": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 10 ft., passive Perception 15",
+  "languages": "-",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The amphiptere makes one bite attack and one stinger attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d6"
+    },
+    {
+      "name": "Stinger",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) piercing damage plus 10 (3d6) poison damage, and the target must make a successful DC 13 Constitution saving throw or be poisoned for 1 hour.",
+      "attack_bonus": 6,
+      "damage_dice": "1d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Flyby",
+      "desc": "The amphiptere doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+    },
+    {
+      "name": "Swarming",
+      "desc": "Up to two amphipteres can share the same space at the same time. The amphiptere has advantage on melee attack rolls if it is sharing its space with another amphiptere that isn't incapacitated."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 16,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_amphiptere/"
+}

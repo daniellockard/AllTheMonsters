@@ -1,0 +1,75 @@
+{
+  "slug": "nilbog-a5e",
+  "desc": "",
+  "name": "Nilbog",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 14,
+  "armor_desc": "",
+  "hit_points": 14,
+  "hit_dice": "4d6",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 12,
+  "dexterity": 8,
+  "constitution": 10,
+  "intelligence": 12,
+  "wisdom": 14,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "stealth": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Common, Goblin",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Rat flail",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 9 (3d4 + 1) bludgeoning or piercing damage."
+    },
+    {
+      "name": "Fetid sling",
+      "desc": "Ranged Weapon Attack: +3 to hit, range 20/60 ft., one target. Hit: 3(1d6) bludgeoning damage  and the target must make a DC 14 Constitutionsaving throw. On a failure  the target is poisoned for 1minute."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Nimble Escape",
+      "desc": "The goblin takes the Disengage or Hide action."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Opposite Nature",
+      "desc": "Normal damage heals the nilbogfor the amount done. Nilbogs can only be harmed/damaged by healing magic. Their skin resists all otherforms of harm. Potions of healing deal acid damage toa nilbog equal to the amount of hit points they wouldnormally heal, and spells that restore hit pointsinstead deal necrotic damage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_nilbog/"
+}

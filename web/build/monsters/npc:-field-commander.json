@@ -1,0 +1,87 @@
+{
+  "slug": "npc:-field-commander",
+  "desc": "",
+  "name": "Npc: Field Commander",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Any Alignment",
+  "armor_class": 19,
+  "armor_desc": "breastplate, shield",
+  "hit_points": 170,
+  "hit_dice": "20d8+80",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 19,
+  "dexterity": 14,
+  "constitution": 18,
+  "intelligence": 12,
+  "wisdom": 13,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 5,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 7,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "frightened",
+  "senses": "passive Perception 15",
+  "languages": "Common and one other language",
+  "challenge_rating": "10",
+  "cr": 10,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Uses Battle Cry if available. Then three Longswords or two Longswords and uses Spellcasting. If commander hits one creature with two Longswords target: DC 16 Con save or be stunned until end of its next turn."
+    },
+    {
+      "name": "Longsword",
+      "desc": "Melee Weapon Attack: +8 to hit, 5 ft., one target, 8 (1d8+4) slashing damage or 9 (1d10+4) slashing damage if used with 2 hands + 13 (3d8) necrotic or radiant (commander's choice)."
+    },
+    {
+      "name": "Battle Cry (Recharge 5-6)",
+      "desc": "Commander shouts a frightful and rallying battle cry. Each hostile creature within 30 of it that can hear the cry: DC 16 Wis save or be frightened for 1 min. A frightened creature can re-save at end of each of its turns success ends effect on itself. Each friendly creature within 30' of the commander and that can hear the cry has advantage on the next attack roll it makes before start of commander's next turn."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "Cha (DC 16): At will: command protection from evil and good3/day ea: cure wounds (level 3) find steed (as an action)1/day: revivify"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Bolster Soldier",
+      "desc": "When a friendly creature the field commander can see is hit with weapon attack the commander calls out encouragement and creature gains 5 (1d10) temp hp."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Aura of Courage and Protection",
+      "desc": "If conscious friendly creatures within 10 ft. of it immune to frightened and advantage on all saves."
+    },
+    {
+      "name": "Divine Weapons",
+      "desc": "Its weapon attacks are magical. When commander hits with any weapon weapon deals extra 3d8 necrotic or radiant (included below) commander's choice."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 406,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_npc-field-commander/"
+}

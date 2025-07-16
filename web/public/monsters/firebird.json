@@ -1,0 +1,97 @@
+{
+  "slug": "firebird",
+  "desc": "_This proud bird struts like a peacock, made all the more majestic by its flaming fan of feathers, which shift through the color spectrum._  \n**Guides and Helpers.** Firebirds are welcome sights to those in need of warmth and safety. They primarily work at night or in underground areas, where their abilities are most needed. Friendly to all creatures, they become aggressive only upon witnessing obviously evil acts.  \nFirebirds enjoy working with good adventuring parties, providing light and healing, though their wanderlust prevents them from staying for long. Well-traveled parties may encounter the same firebird more than once, however.  \n**Redeemers.** Firebirds enjoy acting as reformers. They find mercenary creatures they perceive as potential “light bringers” to whom they grant boons in exchange for a geas to perform a specific good deed, in the hope such acts will redeem them.  \n**Magical Feathers.** Firebird feathers are prized throughout the mortal world; occasionally, the creatures bestow feathers upon those they favor. Firebirds also seed hidden locations with specialized feathers, which burst into full-grown firebirds after a year. As the creatures age, their feathers’ light dims, but this occurs gradually, as the creatures live over 100 years. Firebirds stand three feet tall and weigh 20 lb.",
+  "name": "Firebird",
+  "size": "Small",
+  "type": "Celestial",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Good",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 99,
+  "hit_dice": "18d6+36",
+  "speed": {
+    "walk": 20,
+    "fly": 100
+  },
+  "strength": 12,
+  "dexterity": 19,
+  "constitution": 14,
+  "intelligence": 16,
+  "wisdom": 15,
+  "charisma": 21,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": 4,
+  "intelligence_save": 5,
+  "wisdom_save": 4,
+  "charisma_save": 7,
+  "perception": 7,
+  "skills": {
+    "acrobatics": 6,
+    "arcana": 5,
+    "insight": 4,
+    "medicine": 4,
+    "nature": 5,
+    "perception": 7,
+    "religion": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "fire",
+  "condition_immunities": "charmed, frightened, invisible",
+  "senses": "truesight 60 ft., passive Perception 17",
+  "languages": "Celestial, Common, Elvish, Primordial, Sylvan",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The firebird makes one bite attack and two claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 4) piercing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d8"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d8 + 4) slashing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d8"
+    },
+    {
+      "name": "Blinding Ray (Recharge 5-6)",
+      "desc": "The firebird can fire a burning ray of light from its tail feathers in a line 5 feet wide and up to 50 feet long. Targets in the line must succeed on a DC 15 Dexterity saving throw or take 24 (7d6) fire damage and become blinded for 1d4 rounds. A successful saving throw negates the blindness and reduces the damage by half."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Innate Spellcasting",
+      "desc": "the firebird's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:\n\nat will: guidance, purify food and drink, speak with animals\n\n3/day each: charm person, cure wounds (2d8 + 5), daylight, faerie fire, heat metal, hypnotic pattern, tongues\n\n1/day each: geas, heal, reincarnate"
+    },
+    {
+      "name": "Light of the World",
+      "desc": "The firebird's feathers glow with a warm light. The creature sheds light as dim as a candle or as bright as a lantern. It always sheds light, and any feathers plucked from the creature continue to shed light as a torch."
+    },
+    {
+      "name": "Warming Presence",
+      "desc": "The firebird and any creatures within a 5-foot radius are immune to the effects of natural, environmental cold. Invited into a home or building, a firebird can expand this warming presence to its inhabitants no matter how close they are to the creature."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 201,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_firebird/"
+}

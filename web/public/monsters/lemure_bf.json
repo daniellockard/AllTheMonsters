@@ -1,0 +1,77 @@
+{
+  "slug": "lemure_bf",
+  "desc": "",
+  "name": "Lemure",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "Devil",
+  "group": "Devils",
+  "alignment": "",
+  "armor_class": 8,
+  "armor_desc": null,
+  "hit_points": 17,
+  "hit_dice": "",
+  "speed": {
+    "walk": 15
+  },
+  "strength": 14,
+  "dexterity": 6,
+  "constitution": 12,
+  "intelligence": 4,
+  "wisdom": 10,
+  "charisma": 2,
+  "strength_save": 2,
+  "dexterity_save": -2,
+  "constitution_save": 1,
+  "intelligence_save": -3,
+  "wisdom_save": 0,
+  "charisma_save": -4,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Devilish Resilience",
+  "damage_immunities": "Devilish Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft.",
+  "languages": "Infernal",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Fist",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 4 (1d4+2) bludgeoning damage plus 2 (1d4) fire damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Rippling Heat (1/Day)",
+      "desc": "The lemure exudes an aura of extreme heat for 1 minute. Each creature that starts its turn within 15 feet of the lemure and that isn't a devil must succeed on a DC 11 CON save or be weakened until the start of its next turn. A weakened creature has disadvantage on all attack rolls, and it deals only half damage with weapon attacks that use Strength. A creature that fails this save by 5 or more suffers one level of exhaustion. A creature that has suffered a level of exhaustion from this lemure's Rippling Heat can't suffer another level from this lemure's Rippling Heat for 24 hours."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the lemure's darkvision."
+    },
+    {
+      "name": "Devilish Resilience",
+      "desc": "The devil is resistant to cold damage. In addition, it is immune to fire damage and poison damage and to the poisoned condition."
+    },
+    {
+      "name": "Hellish Rejuvenation",
+      "desc": "Unlike other outsiders, a lemure that dies in its home plane of the Hells is restored in a new body in 1d10 days, regaining all its HP and becoming active again. The new body appears in the Hells within 1 mile of where it was slain. Only sprinkling holy water on the lemure's remains can prevent this trait from functioning."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_lemure/"
+}

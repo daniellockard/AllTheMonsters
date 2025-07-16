@@ -1,0 +1,93 @@
+{
+  "slug": "werynax",
+  "desc": "Resembling a giant scaled stoat with savage tusks jutting from the corners of its mouth, this monster bears a set of diaphanous, mothlike wings that radiate all the colors of the spectrum._  \n**Eaters of Magical Energy.** The werynax is a fearsome predator that supplements its diet with magical energy from the natural world, occasionally disrupting plant growth rates, water cycles, and weather patterns. Fortunately, werynax are solitary creatures, though female werynax are fiercely protective of their young and may have a litter of up to a dozen offspring. Most werynax live in forests and grasslands.  \n**Strange Habits.** Why and how werynax feed on the magical energy of the natural world has baffled sages and scholars throughout the centuries, though it is clear that the energy werynax consume grants them their magical abilities. Some sages point to magical experimentation on the part of an insane lich or fey lord, while others lay the blame at the feet of the gods, believing the werynax to be some form of divine punishment for misusing the land. Many druids, however, speculate the werynax is an integral part of the natural order—just as death and decay are part of the life cycle, so too is the werynax part of the land’s natural cycle.",
+  "name": "Werynax",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 114,
+  "hit_dice": "12d10+48",
+  "speed": {
+    "fly": 60,
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 16,
+  "constitution": 18,
+  "intelligence": 10,
+  "wisdom": 15,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 5,
+  "charisma_save": null,
+  "perception": 5,
+  "skills": {
+    "athletics": 7,
+    "perception": 5,
+    "stealth": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "force",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 15",
+  "languages": "understands Common but can’t speak",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The werynax makes three attacks: one with its bite and two with its claws."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "1d10+4"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "1d6+4"
+    },
+    {
+      "name": "Arcane Bombardment (Recharge 6)",
+      "desc": "The werynax unleashes an explosion of multicolored arcane energy from its outstretched wings. Each creature within 20 feet of the werynax must make a DC 15 Dexterity saving throw. On a failure, a creature takes 21 (6d6) force damage and is stunned until the end of its next turn. On a success, a creature takes half the damage and isn't stunned."
+    },
+    {
+      "name": "Nature's Healing (2/Day)",
+      "desc": "The werynax taps into the power inherent in the land around it. It regains 13 (3d8) hp and is freed from any disease, poison, blindness, or deafness."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The werynax has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Pounce",
+      "desc": "If the werynax moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, the target must succeed on a DC 15 Strength saving throw or be knocked prone. If the target is prone, the werynax can make one bite attack against it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 367,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_werynax/"
+}

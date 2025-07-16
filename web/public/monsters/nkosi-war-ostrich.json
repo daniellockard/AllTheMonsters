@@ -1,0 +1,74 @@
+{
+  "slug": "nkosi-war-ostrich",
+  "desc": "",
+  "name": "Nkosi War Ostrich",
+  "size": "Large",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 11,
+  "armor_desc": "",
+  "hit_points": 42,
+  "hit_dice": "5d10+15",
+  "speed": {
+    "walk": 60
+  },
+  "strength": 15,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60ft, passive Perception 10",
+  "languages": "-",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The ostrich makes two kicking claw attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d8"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Standing Leap",
+      "desc": "The ostrich can jump horizontally up to 20 feet and vertically up to 10 feet, with or without a running start."
+    },
+    {
+      "name": "Battle Leaper",
+      "desc": "If a riderless ostrich jumps at least 10 feet and lands within 5 feet of a creature, it has advantage on attacks against that creature this turn."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 307,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_nkosi-war-ostrich/"
+}

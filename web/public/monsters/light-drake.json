@@ -1,0 +1,79 @@
+{
+  "slug": "light-drake",
+  "desc": "The light drake is a small, bulky dragon with two legs and two wings. It has glowing yellow eyes, and light reflects easily off its golden scales._  \n**Light Bringers.** Light drakes are obsessed with bringing light into dark places, and often inhabit the darkest parts of the world. They use their light to aid lost travelers and defeat the denizens of the darkest parts of the world. They are regularly hunted by such denizens, who offer large rewards for their golden hides.  \n**Social Trinket-Collectors.** Light drakes are social creatures that live in small, glowing colonies in deep caverns. Like their larger cousins, they enjoy collecting trinkets, though they prefer objects made of bright metals or iridescent stones. They often adorn themselves with such trinkets and use their light magic to make the trinkets shine. Light drakes tend to sleep together in piles for warmth and light in the cold darkness, which has led to many a thief inadvertently stumbling into a colony of the jewelry-coated sleeping drakes after mistaking them for a pile of glittering treasure.  \n**Undead Slayers.** Light drakes despise undead and any creatures that use light, or the absence of light, to prey on innocents. They have a particularly strong hatred for Open Game License",
+  "name": "Light Drake",
+  "size": "Tiny",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Good",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 24,
+  "hit_dice": "7d4+7",
+  "speed": {
+    "fly": 60,
+    "walk": 20,
+    "hover": true
+  },
+  "strength": 7,
+  "dexterity": 16,
+  "constitution": 13,
+  "intelligence": 8,
+  "wisdom": 12,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "acrobatics": 5,
+    "perception": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "radiant",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "Common, Draconic",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d6+3"
+    },
+    {
+      "name": "Breath Weapon (Recharge 6)",
+      "desc": "A light drake can breathe a 30-foot line of brilliant white light. Each creature in that line must make a DC 13 Dexterity saving throw. On a failure, a creature takes 5 (2d4) radiant damage and is blinded for 1 minute. On a success, a creature takes half the damage and isn't blinded. A blinded creature can make a DC 13 Constitution saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Reflective Scales",
+      "desc": "When a light drake is within 5 feet of a source of light, that source of light sheds bright light and dim light for an additional 10 feet. While the light drake wears or carries an object that sheds light from the daylight spell, the light within 10 feet of the drake is sunlight."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The light drake's innate spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\nAt will: dancing lights, light, guiding star, starburst\n3/day each: color spray, faerie fire"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 231,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_light-drake/"
+}

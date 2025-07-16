@@ -1,0 +1,96 @@
+{
+  "slug": "lindwurm",
+  "desc": "_Coiling like a living corkscrew, moving with a scraping hiss, a lindwurm’s serpentine form skates nimbly across ice on long curving claws, maw agape and stinking of a hundred graves._  \n**Swift and Smooth as Ice.** Lindwurms have long bodies and crocodilian jaws, but they skitter overland on spindly limbs. Their talons are long and curved, acting as skates or short skis when moving over ice. Few things are swifter on the ice.  \n**Sea Hunters.** In the wild, lindwurms hunt in groups, looking for breaching whales, seals, or incautious fishermen. They employ wolf-pack tactics and enjoy surprising foes. With their considerable cunning, they may skate by their prey at speed, snapping a bite as they pass or snatching them up with their constricting tails.",
+  "name": "Lindwurm",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 136,
+  "hit_dice": "16d10+48",
+  "speed": {
+    "walk": 40,
+    "swim": 20
+  },
+  "strength": 18,
+  "dexterity": 20,
+  "constitution": 16,
+  "intelligence": 6,
+  "wisdom": 12,
+  "charisma": 8,
+  "strength_save": 7,
+  "dexterity_save": 8,
+  "constitution_save": 6,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 4,
+  "skills": {
+    "acrobatics": 8,
+    "athletics": 8,
+    "perception": 4,
+    "stealth": 9
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "",
+  "damage_immunities": "cold",
+  "condition_immunities": "paralyzed, prone, unconscious",
+  "senses": "darkvision 60 ft., tremorsense 120 ft. on ice, passive Perception 14",
+  "languages": "",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The lindwurm makes one bite attack, one claw attack, and one constrict attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or contract lindwurm fever.",
+      "attack_bonus": 7,
+      "damage_dice": "2d8"
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 17 (3d8 + 4) slashing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "3d8"
+    },
+    {
+      "name": "Constrict",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the lindwurm can constrict only this target.",
+      "attack_bonus": 7,
+      "damage_dice": "2d8"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Lindwurm Fever",
+      "desc": "A creature infected with this disease by a lindwurm's bite gains one level of exhaustion an hour after being infected. The creature must make a DC 14 Constitution saving throw after each long rest. On a failure, the creature gains one level of exhaustion and recovers no hit dice from the long rest. On a success, the creature recovers from one level of exhaustion and regains hit dice normally. If the infected creature reduces itself to zero exhaustion by making successful saving throws, the disease is cured."
+    },
+    {
+      "name": "Skittering Skater",
+      "desc": "Lindwurms suffer no penalties from difficult terrain on ice and are immune to the effects of the grease spell."
+    },
+    {
+      "name": "Snake Belly",
+      "desc": "When lying with its sensitive stomach on the ice, a lindwurm can sense approaching creatures by the vibrations they cause, granting them tremorsense."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 276,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_lindwurm/"
+}

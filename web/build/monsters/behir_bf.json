@@ -1,0 +1,85 @@
+{
+  "slug": "behir_bf",
+  "desc": "",
+  "name": "Behir",
+  "size": "Huge",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 223,
+  "hit_dice": "",
+  "speed": {
+    "walk": 50,
+    "climb": 40
+  },
+  "strength": 30,
+  "dexterity": 16,
+  "constitution": 18,
+  "intelligence": 6,
+  "wisdom": 22,
+  "charisma": 12,
+  "strength_save": 10,
+  "dexterity_save": 3,
+  "constitution_save": 4,
+  "intelligence_save": -2,
+  "wisdom_save": 6,
+  "charisma_save": 1,
+  "perception": 16,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Monstrosity Resilience",
+  "damage_immunities": "lightning",
+  "condition_immunities": "",
+  "senses": "darkvision 90 ft.",
+  "languages": "Draconic",
+  "challenge_rating": "11",
+  "cr": 11,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The behir makes one Bite attack and one Constrict attack. It can replace its Bite attack with a use of Swallow."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +10 to hit, reach 10 ft., one target. _Hit:_ 22 (3d10+6) piercing damage plus 27 (6d8) lightning damage."
+    },
+    {
+      "name": "Constrict",
+      "desc": "_Melee Weapon Attack:_ +10 to hit, reach 5 ft., one Large or smaller creature. _Hit:_ 17 (2d10+6) bludgeoning damage. If the target is Large or smaller and the behir isn't already grappling a creature, the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the behir can't Constrict another target."
+    },
+    {
+      "name": "Swallow",
+      "desc": "The behir makes one Bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outside the behir, and it takes 21 (6d6) acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time. If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a DC 14 CON save at the end of that turn or regurgitate the creature, which falls prone in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 15 feet of movement, exiting prone."
+    },
+    {
+      "name": "Lightning Breath (Recharge 5-6)",
+      "desc": "The behir exhales lightning in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 54 (12d8) lightning damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Lightning Absorption",
+      "desc": "Whenever the behir is subjected to lighting damage, it takes no damage and instead regains a number of HP equal to the lightning damage dealt."
+    },
+    {
+      "name": "Monstrosity Resilience",
+      "desc": "The behir is resistant to exhaustion and to the frightened condition."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_behir/"
+}

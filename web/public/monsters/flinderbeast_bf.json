@@ -1,0 +1,87 @@
+{
+  "slug": "flinderbeast_bf",
+  "desc": "",
+  "name": "Flinderbeast",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 14,
+  "armor_desc": null,
+  "hit_points": 38,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "climb": 20
+  },
+  "strength": 12,
+  "dexterity": 18,
+  "constitution": 10,
+  "intelligence": 6,
+  "wisdom": 12,
+  "charisma": 16,
+  "strength_save": 1,
+  "dexterity_save": 4,
+  "constitution_save": 0,
+  "intelligence_save": -2,
+  "wisdom_save": 1,
+  "charisma_save": 3,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid,Fey Resilience",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Sylvan",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 9 (2d4+4) piercing damage plus 3 (1d6) acid damage."
+    },
+    {
+      "name": "Acid Spit",
+      "desc": "_Ranged Weapon Attack:_ +6 to hit, range 20/60 ft., one target. _Hit:_ 11 (2d6+4) acid damage."
+    },
+    {
+      "name": "Breath of Flinders (Recharge 5-6)",
+      "desc": "The flinderbeast exhales splinters in a 15-foot cone. Each creature in that area must make a DC 14 DEX save, taking 18 (4d8) piercing damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Short Step",
+      "desc": "The flinderbeast teleports to an unoccupied space it can see within 15 feet of it."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Catch Snack",
+      "desc": "When the flinderbeast is the target of a ranged weapon attack that uses ammunition made mostly of wood, such as an arrow, the flinderbeast can attempt to catch and eat the ammunition. The flinderbeast must make a DC 14 DEX save. On a success, it gains 3 (1d6) temporary HP and prevents the attack's damage."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Fey Resilience",
+      "desc": "The flinderbeast is resistant to the charmed and unconscious conditions."
+    },
+    {
+      "name": "Heightened Hearing and Smell",
+      "desc": "The flinderbeast's Perception 18 when perceiving by hearing or smell."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_flinderbeast/"
+}

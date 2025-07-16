@@ -1,0 +1,76 @@
+{
+  "slug": "satarre_bf",
+  "desc": "",
+  "name": "Satarre",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "leather armor",
+  "hit_points": 40,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 14,
+  "dexterity": 12,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 12,
+  "strength_save": 2,
+  "dexterity_save": 1,
+  "constitution_save": 1,
+  "intelligence_save": 0,
+  "wisdom_save": 0,
+  "charisma_save": 1,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "necrotic,Void Strength",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Void Speech",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The satarre makes two Claw or Spear attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6+2) piercing damage plus 3 (1d6) necrotic damage."
+    },
+    {
+      "name": "Spear",
+      "desc": "_Melee or Ranged Weapon Attack:_ +4 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 5 (1d6+2) piercing damage plus 3 (1d6) necrotic damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Void Strength",
+      "desc": "The satarre is resistant to the blinded, charmed, deafened, frightened, stunned, and unconscious conditions."
+    },
+    {
+      "name": "Void Weapons",
+      "desc": "The satarre's weapon attacks are magical. When the satarre hits with any weapon, the weapon deals an extra 1d6 necrotic damage (included in the attack)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_satarre/"
+}

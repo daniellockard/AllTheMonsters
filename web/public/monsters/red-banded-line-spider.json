@@ -1,0 +1,80 @@
+{
+  "slug": "red-banded-line-spider",
+  "desc": "_These spiders are named for both the deep red swirls on their abdomens, unique to each spider, and for their peculiar hunting technique. The largest ones hunt in the dark canopy of temperate and subtropical forests._  \n**Hand-Sized Hunters.** These furry, brown spiders are not enormous monsters, but they are big enough to be alarming. A typical one is as big as a human hand with fingers spread wide, but some grow as large as small dogs.  \n**Webbed Line.** Line spiders don’t spin webs but instead perch and watch for prey. When prey wanders near, the spider launches a line of webbing to snare it, then pounces unerringly along that line to deliver a deep bite. Their potent venom can incapacitate creatures much larger than themselves, and they quickly devour flesh with their powerful jaws.  \n**City Dwellers.** Line spiders are often found in cities, and their size makes them a good replacement for a garroter crab in certain forms of divination. They’re favorites among exotic-pet dealers—usually with their venom sacs removed, sometimes not. Goblins, kobolds, and some humans use them rather than cats to control a mouse or rat infestation, and they make reasonably good pets if they’re kept well-fed. If they get hungry, line spiders may devour other small pets or even their owners.",
+  "name": "Red-Banded Line Spider",
+  "size": "Tiny",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 2,
+  "hit_dice": "1d4",
+  "speed": {
+    "walk": 30,
+    "climb": 30
+  },
+  "strength": 4,
+  "dexterity": 16,
+  "constitution": 10,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 2,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2,
+    "stealth": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "psychic",
+  "condition_immunities": "charmed, frightened",
+  "senses": "darkvision 60 ft., passive Perception 12",
+  "languages": "-",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 3 (1d6) poison damage and be poisoned until the start of the spider's next turn. The target fails the saving throw automatically and takes an extra 1d6 poison damage if it is bitten by another red-banded line spider while poisoned this way.",
+      "attack_bonus": 5,
+      "damage_dice": "1d6"
+    },
+    {
+      "name": "Swingline",
+      "desc": "Ranged Weapon Attack: +5 to hit, range 60 ft., one target. Hit: the spider immediately moves the full length of the webbing (up to 60 feet) to the target and delivers a bite with advantage. This attack can be used only if the spider is higher than its target and at least 10 feet away.",
+      "attack_bonus": 5,
+      "damage_dice": "0"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Spider Climb",
+      "desc": "The spider can climb difficult surfaces, including upside down and on ceilings, without needing to make an ability check."
+    },
+    {
+      "name": "Web Walker",
+      "desc": "The spider ignores movement restrictions caused by webbing."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 363,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_red-banded-line-spider/"
+}

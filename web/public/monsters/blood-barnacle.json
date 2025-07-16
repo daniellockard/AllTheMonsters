@@ -1,0 +1,80 @@
+{
+  "slug": "blood-barnacle",
+  "desc": "",
+  "name": "Blood Barnacle",
+  "size": "Tiny",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 25,
+  "hit_dice": "10d4",
+  "speed": {
+    "walk": 10,
+    "swim": 30
+  },
+  "strength": 2,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 1,
+  "wisdom": 12,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 2,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "necrotic",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 60' (blind beyond), passive Perception 11",
+  "languages": "—",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one creature,. 5 (1d6+2) piercing damage and barnacle attaches to target. While attached barnacle doesn't attack. Instead at start of each of barnacle's turns target loses 5 (1d6+2) hp due to blood loss. Barnacle can detach itself by spending 5 ft. of its movement. A creature including target can take its action to detach barnacle via DC 12 Str check. When barnacle is removed target takes 2 (1d4) piercing damage. If creature ends its turn with barnacle attached to it that creature: DC 12 Con save or contract barnacle shivers (see above)."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Host Defense",
+      "desc": "When a creature damages an attached blood barnacle with anything other than fire creature hosting barnacle must make DC 12 Wis save or use its reaction to protect the barnacle. Barnacle takes half the damage dealt to it and host takes the other half."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Barnacle Shivers",
+      "desc": "Characterized by inescapable cold and shiveringthat slowly pervades victim's body this is a disease that infects creatures attacked by blood barnacles. Until disease is cured infected creature can't regain hp except magically and its hp max decreases by 3 (1d6) for every 24 hrs that elapse. Reduction lasts until disease is cured. Creature dies if disease reduces its hp max to 0. A Humanoid or Beast slain by this disease rises 24 hrs later as a zombie. Zombie isn't under barnacle's control but it views barnacle as an ally."
+    },
+    {
+      "name": "Blood Sense",
+      "desc": "Can pinpoint by scent location of creatures that aren't Constructs or Undead and that don't have all of their hp within 60' of it and can sense general direction of such creatures within 1 mile of it."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from normal barnacle."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 62,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_blood-barnacle/"
+}

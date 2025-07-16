@@ -1,0 +1,91 @@
+{
+  "slug": "rug_of_smothering_bf",
+  "desc": "",
+  "name": "Rug of Smothering",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": "Animated Objects",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": null,
+  "hit_points": 45,
+  "hit_dice": "",
+  "speed": {
+    "walk": 10,
+    "fly": 15,
+    "hover": true
+  },
+  "strength": 16,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 1,
+  "wisdom": 2,
+  "charisma": 1,
+  "strength_save": 3,
+  "dexterity_save": 2,
+  "constitution_save": 0,
+  "intelligence_save": -5,
+  "wisdom_save": -4,
+  "charisma_save": -5,
+  "perception": 8,
+  "skills": {},
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "",
+  "damage_immunities": "blinded,deafened,Construct Resilience",
+  "condition_immunities": "",
+  "senses": "keensense 60 ft. (can't sense beyond this radius)",
+  "languages": "-",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Smother",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one Medium or smaller creature. _Hit:_ 12 (2d8+3) bludgeoning damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and unable to breathe, and the rug can't fly and can't Smother another target."
+    },
+    {
+      "name": "Squeeze Prey",
+      "desc": "The rug of smothering tightens around a creature it is grappling. The target must make a DC 13 STR save, taking 18 (4d8) bludgeoning damage on a failed save, or half as much damage on a successful one. A breathing creature that fails this save by 5 or more has the remaining air squeezed from its lungs and begins suffocating."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Rolling Charge (25 HP or Fewer)",
+      "desc": "If it isn't grappling a creature, the rug curls up and rolls along the ground up to triple its speed straight toward a creature it can sense. If it stops within 5 feet of the target, it can make one Smother attack against the target."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Antimagic Susceptibility",
+      "desc": "The rug is incapacitated while in the area of an antimagic field. If targeted by _dispel magic_, the rug must succeed on a CON save against the caster's spell save DC or fall unconscious for 1 minute."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "The rug doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Construct Resilience",
+      "desc": "The rug is immune to poison and psychic damage, and it is immune to exhaustion and the charmed, frightened, paralyzed, petrified, and poisoned conditions."
+    },
+    {
+      "name": "Damage Transfer",
+      "desc": "While it is grappling a creature, the rug takes only half the damage dealt to it (rounded down), and the creature grappled by the rug takes the other half."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While the rug remains motionless and isn't flying, it is indistinguishable from a normal rug."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_rug-of-smothering/"
+}

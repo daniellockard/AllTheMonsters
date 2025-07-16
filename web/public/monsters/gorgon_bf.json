@@ -1,0 +1,85 @@
+{
+  "slug": "gorgon_bf",
+  "desc": "",
+  "name": "Gorgon",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 96,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 20,
+  "dexterity": 10,
+  "constitution": 18,
+  "intelligence": 2,
+  "wisdom": 14,
+  "charisma": 6,
+  "strength_save": 5,
+  "dexterity_save": 0,
+  "constitution_save": 4,
+  "intelligence_save": -4,
+  "wisdom_save": 2,
+  "charisma_save": -2,
+  "perception": 15,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Monstrosity Resilience",
+  "damage_immunities": "poison,petrified,poisoned",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "-",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Petrifying Breath (Recharge 5-6)",
+      "desc": "The gorgon exhales poisonous, petrifying gas in a 30-foot cone. Creatures in the area must make a DC 13 CON save. On a failure, a creature takes 21 (6d6) poison damage and is restrained as it begins to turn to stone. On a success, a creature takes half the damage and isn't restrained. A restrained creature must repeat the save at the end of its next turn. On a success, the effect ends on the creature. On a failure, the creature is petrified until freed by the greater restoration spell or other magic."
+    },
+    {
+      "name": "Multiattack",
+      "desc": "The gorgon makes one Gore attack and one Hooves attack."
+    },
+    {
+      "name": "Gore",
+      "desc": "_Melee Weapon Attack:_ +8 to hit, reach 5 ft., one target. _Hit:_ 18 (2d12+5) piercing damage."
+    },
+    {
+      "name": "Hooves",
+      "desc": "_Melee Weapon Attack:_ +8 to hit, reach 5 ft., one target. _Hit:_ 16 (2d10+5) bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Poisonous Retort",
+      "desc": "When the gorgon is hit by an attack from a creature it can see within 10 feet of it, the gorgon can snort angrily, releasing a puff of poisonous gas at the creature. The attacker must succeed on a DC 16 CON save or be poisoned until the end of its next turn."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Monstrosity Resilience",
+      "desc": "The gorgon is resistant to exhaustion and to the frightened condition."
+    },
+    {
+      "name": "Trampling Charge",
+      "desc": "If the gorgon moves at least 20 feet straight toward a creature and then hits it with a Gore attack on the same turn, that target must succeed on a DC 16 STR save or be knocked prone. If the target is prone, the gorgon can make one Hooves attack against it as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_gorgon/"
+}

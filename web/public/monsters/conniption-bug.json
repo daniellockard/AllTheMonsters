@@ -1,0 +1,87 @@
+{
+  "slug": "conniption-bug",
+  "desc": "",
+  "name": "Conniption Bug",
+  "size": "Small",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 55,
+  "hit_dice": "10d6+20",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 13,
+  "dexterity": 14,
+  "constitution": 14,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "tremorsense 30', passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Barbed Mandibles",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 6 (1d8+2) piercing damage. Target is grappled (escape DC 13) if it is a Med or smaller creature and bug doesn't have another creature grappled. Until this grapple ends target takes 4 (1d8) piercing damage at start of each of its turns and bug can't make Barbed Mandible attacks vs. other targets."
+    },
+    {
+      "name": "Barbed Claws",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 7 (2d4+2) piercing damage."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Death Trap",
+      "desc": "When it dies its mandibles remain locked in place continuing to grapple beyond its death. Until grapple ends creature takes 4 (1d8) piercing damage at start of each of its turns as if the bug was still alive. Any creature can take an action to remove mandibles with successful DC 11 Str (Athletics) or Wis (Medicine) check."
+    },
+    {
+      "name": "Limited Amphibiousness",
+      "desc": "Can breathe air and water but it needs to be submerged at least once every 4 hrs to avoid suffocating."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "Advantage on attacks vs. creature if 1+ unincapacitated attacker ally is within 5 ft. of target."
+    },
+    {
+      "name": "Standing Leap",
+      "desc": "Its long jump is up to 20' and its high jump is up to 10 feet with or with o a running start."
+    },
+    {
+      "name": "Vicious Wound",
+      "desc": "Its melee attacks score a critical hit on a 19 or 20."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 93,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_conniption-bug/"
+}

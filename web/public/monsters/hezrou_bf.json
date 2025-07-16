@@ -1,0 +1,102 @@
+{
+  "slug": "hezrou_bf",
+  "desc": "",
+  "name": "Hezrou",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "Demon",
+  "group": "Demons",
+  "alignment": "",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 138,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 24,
+  "dexterity": 16,
+  "constitution": 26,
+  "intelligence": 4,
+  "wisdom": 18,
+  "charisma": 12,
+  "strength_save": 7,
+  "dexterity_save": 3,
+  "constitution_save": 8,
+  "intelligence_save": -3,
+  "wisdom_save": 4,
+  "charisma_save": 1,
+  "perception": 14,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning,piercing,and slashing damage from nonmagical attacks,Demonic Resilience",
+  "damage_immunities": "Demonic Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft.",
+  "languages": "Abyssal,telepathy 120 ft.",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The hezrou makes one Sticky Tongue attack, one Bite attack, and two Claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 15 (2d10+4) piercing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 17 (3d8+4) slashing damage."
+    },
+    {
+      "name": "Sticky Tongue",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 20 ft., one target. _Hit:_ 11 (2d6+4) bludgeoning damage, and the target must succeed on a DC 16 STR save or be pulled up to 15 feet toward the hezrou."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Quick Leap",
+      "desc": "The hezrou jumps horizontally up to 20 feet to an unoccupied space it can see without provoking opportunity attacks."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The hezrou can breathe air and water."
+    },
+    {
+      "name": "Demonic Resilience",
+      "desc": "The hezrou is resistant to cold, fire, and lightning damage. In addition, it is immune to poison damage and to the poisoned condition."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The hezrou has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Speak with Frogs and Toads",
+      "desc": "The hezrou can communicate with frogs and toads as if they shared a language."
+    },
+    {
+      "name": "Standing Leap",
+      "desc": "The hezrou's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+    },
+    {
+      "name": "Stench",
+      "desc": "A creature that starts its turn within 10 feet of the hezrou must succeed on a DC 16 CON save or be poisoned until the start of its next turn. On a success, the creature is immune to the hezrou's Stench for the next 24 hours."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_hezrou/"
+}

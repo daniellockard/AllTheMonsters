@@ -1,0 +1,76 @@
+{
+  "slug": "myling-tob1-2023",
+  "desc": "False",
+  "name": "Myling",
+  "size": "Small",
+  "type": "Undead",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 45,
+  "hit_dice": "10d6 + 10",
+  "speed": {
+    "walk": 10,
+    "burrow": 30
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 11,
+  "skills": {
+    "Stealth": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, frightened, poisoned, stunned, unconscious",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "the languages it knew in life",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 7 (2d6) necrotic damage, and the target must succeed on a DC 13 Dexterity saving throw or the myling attaches to it. While attached, the myling sinks its teeth into the target and can't attack, and at the start of each of the myling's turns, the target takes 17 (5d6) necrotic damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Bury Alive (Recharge 6)",
+      "desc": "The creature to which the myling is attached is knocked prone, dragged into the ground, and buried just below the surface, ending the attachment. The buried creature is restrained and unable to breathe or stand up. A creature, including the buried creature, can take its action to free the buried creature by succeeding on a DC 13 Strength check."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Enfeebling Attacks",
+      "desc": "Each time the myling deals necrotic damage to a creature that is below half its hp maximum, the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The myling doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 281,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_myling/"
+}

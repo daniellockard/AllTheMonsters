@@ -1,0 +1,103 @@
+{
+  "slug": "lunardevil-tob1-2023",
+  "desc": "False",
+  "name": "Lunar Devil",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Lawful Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 94,
+  "hit_dice": "9d10 + 45",
+  "speed": {
+    "walk": 60,
+    "fly": 40
+  },
+  "strength": 21,
+  "dexterity": 21,
+  "constitution": 20,
+  "intelligence": 16,
+  "wisdom": 15,
+  "charisma": 18,
+  "strength_save": 8,
+  "dexterity_save": 8,
+  "constitution_save": 8,
+  "intelligence_save": null,
+  "wisdom_save": 5,
+  "charisma_save": null,
+  "perception": 15,
+  "skills": {
+    "Perception": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "cold; bludgeoning, piercing, and slashing damage from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 15",
+  "languages": "Celestial, Draconic, Elvish, Infernal, Sylvan, telepathy 120 ft.",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The lunar devil makes one Bite attack, one Claw attack, and one Tail attack, or it makes three Hurl Moonlight attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 9 (2d8) cold damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) slashing damage."
+    },
+    {
+      "name": "Tail",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage."
+    },
+    {
+      "name": "Hurl Moonlight",
+      "desc": "Ranged Spell Attack: +7 to hit, range 150 ft., one target. Hit: 17 (3d8 + 4) cold damage, and the target must succeed on a DC 15 Constitution saving throw or become blinded until the end of its next turn."
+    },
+    {
+      "name": "Summon Devil (1/Day)",
+      "desc": "The lunar devil magically calls 1d4 giant owls that are Fiends with the lunar devil's damage resistances and immunities (but not its Light Incorporeality trait). The lunar devil has a 25 percent chance of calling one lunar devil instead. The called creatures arrive in 1d4 rounds, acting as allies of the devil and obeying its telepathic commands. The creatures remain for 1 hour, until the devil dies, or until the devil dismisses them as a bonus action."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The lunar devil casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 15):\nAt will: fly, major image\n3/day: greater invisibility\n1/day: wall of ice"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Devil's Sight",
+      "desc": "Magical darkness doesn't impede the lunar devil's darkvision."
+    },
+    {
+      "name": "Light Incorporeality",
+      "desc": "The lunar devil is translucent when standing in moonlight and is immune to damage from all nonmagical weapons in such conditions."
+    },
+    {
+      "name": "Lightwalking",
+      "desc": "Once on its turn, the lunar devil can use half its movement to step magically into one area of moonlight within its reach and emerge from a second area of moonlight within 80 feet of the first, appearing in an unoccupied space within that second area."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The lunar devil has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 98,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_lunar-devil/"
+}

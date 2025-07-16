@@ -1,0 +1,93 @@
+{
+  "slug": "waverider",
+  "desc": "The waveriders know firsthand the dangers of the open ocean, and dedicate their lives to protecting seafarers from storms, pirates, and sea monsters. Though they are not warriors, they are accomplished healers and aquatic empaths, using their powers to seek out and rescue survivors of marine disasters, sometimes returning critically wounded survivors to the tribe of elemental wardens itself. The isolationists among the water wardens condemn this practice, fearing that the refugees threaten their way of life. The waveriders take their peers’ scorn in stride, for they would rather be righteous than popular.\nA waverider turns to violence only as a last resort, and prefer to fight in fishform than with their fishing harpoon, using hit-and-run tactics as a shark or their octopus form’s natural camouflage to harry opponents. When patrolling the open seas, waveriders skim across the water on personal waveboards with folding sails, similar in function to the _skysails_ of the wind wardens.",
+  "name": "Waverider",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "any race",
+  "group": "Elemental Wardens",
+  "alignment": "Neutral Good",
+  "armor_class": 14,
+  "armor_desc": "hide armor of cold resistance",
+  "hit_points": 77,
+  "hit_dice": "14d8+14",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 15,
+  "dexterity": 14,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 16,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 4,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 13",
+  "languages": "Common, Druidic, Primordial (Aquan)",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Harpoon",
+      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage. Attacks with this weapon while underwater are not made with disadvantage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d6",
+      "damage_bonus": 2
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Fishform",
+      "desc": "As a bonus action, the waverider can transform into a **hunter shark** or **giant octopus**. While in this form, the waverider cannot cast spells, but can expend a spell slot as a bonus action to regain 1d8 hit points per level of the spell slot expended. When the waverider is reduced to 0 hit points, falls unconscious, or dies in this form, it reverts to its humanoid form. It can remain in fishform for up to 3 hours, and can enter fishform twice, regaining expended uses after completing a short or long rest."
+    },
+    {
+      "name": "Healing Tides",
+      "desc": "Whenever the waverider casts a spell of 1st level or higher that affects a nonhostile creature, that creature regains 3 hit points (in addition to any healing the spell may provide)."
+    },
+    {
+      "name": "Marine Empathy",
+      "desc": "The waverider can speak with and understand aquatic plants and animals."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The waverider is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). It has the following druid spells prepared:\n\n* Cantrips (at will): druidcraft, poison spray, resistance\n* 1st level (4 slots): cure wounds, create or destroy water, healing word\n* 2nd level (3 slots): animal messenger, enhance ability, lesser restoration\n* 3rd level (3 slots): conjure animals (aquatic beasts only), water walk, water breathing\n* 4th level (1 slots): control water"
+    }
+  ],
+  "spell_list": [
+    "https://api.open5e.com/v2/spells/druidcraft/",
+    "https://api.open5e.com/v2/spells/poison-spray/",
+    "https://api.open5e.com/v2/spells/resistance/",
+    "https://api.open5e.com/v2/spells/cure-wounds/",
+    "https://api.open5e.com/v2/spells/create-or-destroy-water/",
+    "https://api.open5e.com/v2/spells/healing-word/",
+    "https://api.open5e.com/v2/spells/animal-messenger/",
+    "https://api.open5e.com/v2/spells/enhance-ability/",
+    "https://api.open5e.com/v2/spells/lesser-restoration/",
+    "https://api.open5e.com/v2/spells/conjure-animals/",
+    "https://api.open5e.com/v2/spells/water-walk/",
+    "https://api.open5e.com/v2/spells/water-breathing/",
+    "https://api.open5e.com/v2/spells/control-water/"
+  ],
+  "page_no": 129,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "taldorei",
+  "document__title": "Critical Role: Tal’Dorei Campaign Setting",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://https://greenronin.com/blog/2017/09/25/ronin-round-table-integrating-wizards-5e-adventures-with-the-taldorei-campaign-setting/",
+  "v2_converted_path": "/v2/creatures/tdcs_waverider/"
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "gray-orc",
+  "desc": "The ground erupts into a scrambling flood of orcs, their pale skin decorated with swirls of black resin._  \nDwelling deep beneath the ground, gray orcs move in a dark world, only drawn toward the surface by their innate hatred of arcane defilement.  \n**Drawn to Magical Corruption.** Gray orcs are drawn to areas where magic is frequently used or locations marred by magical pollution. Scholars believe the orcs’ ancestral home was ravaged by magic, cursing them and driving them deep beneath the surface. They believe this history fuels within the orcs a deep hatred for magic, especially magic that defiles the natural world. For their part, the orcs have neither confirmed nor denied this speculation, though few scholars have been brave enough to approach them about it. Whatever the case, gray orcs grow violent around magic and seek to snuff it out wherever they find it.  \n**Synchronized Tribes.** Gray orcs move and act as one, their training leading their actions to be so synchronized that they appear to think as one. When faced with a major threat or a large magical catastrophe, a group of gray orcs will erupt from the ground in unison to swarm over the source.",
+  "name": "Gray Orc",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "orc",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 15,
+  "hit_dice": "2d8+6",
+  "speed": {
+    "climb": 30,
+    "walk": 40,
+    "burrow": 20
+  },
+  "strength": 14,
+  "dexterity": 16,
+  "constitution": 16,
+  "intelligence": 9,
+  "wisdom": 11,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "acrobatics": 5,
+    "athletics": 4,
+    "perception": 2,
+    "stealth": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 12",
+  "languages": "Orc",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) slashing damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d4+3"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Silent Hunters",
+      "desc": "Adept at surviving in a dark and quiet world below the ground, gray orcs instinctively know how to move, hunt, and kill without making the slightest sound. When they hunt, gray orcs paint their pale skin with swirls of a mushroom-based black resin. They often form the resin into runes or symbols of their gods as a way of honoring the gods and asking for success on the hunt."
+    },
+    {
+      "name": "Aggressive",
+      "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature it can see."
+    },
+    {
+      "name": "Magic Absorption",
+      "desc": "When the gray orc is hit by a spell or is in the area of a spell, it regains hp equal to the spell's level. This trait doesn't counter the spell or negate its damage or effects. The orc regains the hp after the spell is resolved."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The gray orc has advantage on attack rolls against a creature if at least one of the orc's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the gray orc has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 162,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_gray-orc/"
+}

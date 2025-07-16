@@ -1,0 +1,94 @@
+{
+  "slug": "devilboundgnome-tob1-2023",
+  "desc": "False",
+  "name": "Devilbound Gnome",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Any Evil",
+  "armor_class": 17,
+  "armor_desc": "Infernal Blessing",
+  "hit_points": 104,
+  "hit_dice": "19d6 + 38",
+  "speed": {
+    "walk": 25
+  },
+  "strength": 10,
+  "dexterity": 14,
+  "constitution": 15,
+  "intelligence": 16,
+  "wisdom": 12,
+  "charisma": 21,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 6,
+  "intelligence_save": 7,
+  "wisdom_save": null,
+  "charisma_save": 9,
+  "perception": 11,
+  "skills": {
+    "Arcana": 7,
+    "Deception": 9,
+    "History": 7,
+    "Persuasion": 9
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "cold, fire, poison; bludgeoning, piercing, and slashing damage from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "False",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Common, Infernal, Gnomish",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Hellish Blast",
+      "desc": "Melee or Ranged Spell Attack: +9 to hit, reach 5 ft. or range 120 ft., one target. Hit: 12 (2d6 + 5) fire damage plus 9 (2d8) poison damage."
+    },
+    {
+      "name": "Hell's Servitors (1/Day)",
+      "desc": "The devilbound gnome magically calls 1d4 devils with a challenge rating of 4 or lower, or it calls 1 devil with a challenge rating of 6 or lower. The called Fiends arrive in 1d4 rounds, acting as allies of the gnome and obeying its spoken commands. The Fiends remain for 1 hour, until the gnome dies, or until the gnome dismisses them as a bonus action."
+    },
+    {
+      "name": "To Hell and Back (1/Day)",
+      "desc": "The devilbound gnome sends one creature it can see within 60 feet of it hurling through Hell. The target must make a DC 17 Wisdom saving throw. On a success, the target takes 35 (10d6) fire damage as Hell pulls on the creature. On a failure, the target is incapacitated and disappears, as it takes a quick trip through the nightmarish landscapes of Hell. At the end of the gnome's next turn, the target reappears in the space it previously occupied, or the nearest unoccupied space, and takes 55 (10d10) psychic damage."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The devilbound gnome casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 17):\nAt will: detect magic, minor illusion, prestidigitation\n3/day each: command, dimension door, invisibility\n1/day each: fly, haste, wall of fire"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Fiendish Sacrifice",
+      "desc": "When the devilbound gnome is reduced to 0 hp, it can sacrifice a Fiend called with the Hell's Servitor's action or sacrifice its bonded imp, preventing the damage and killing the chosen Fiend. If the gnome sacrifices its bonded imp, it loses its Infernal Blessing and Infernal Bond traits until it receives a new imp from its patron devil."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Infernal Blessing",
+      "desc": "While the devilbound gnome is conscious and wearing no armor and wielding no shield, it adds its Charisma modifier to its AC (included above) and saving throws. In addition, magical darkness doesn't impede the gnome's darkvision."
+    },
+    {
+      "name": "Infernal Bond",
+      "desc": "The devilbound gnome is magically bound to an imp. The imp acts as an ally of the gnome's, obeying its spoken commands. The gnome can perceive through the imp's senses, speak through its mouth, and communicate with it telepathically even if the two aren't on the same plane of existence."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The devilbound gnome has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 408,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_devilbound-gnome/"
+}

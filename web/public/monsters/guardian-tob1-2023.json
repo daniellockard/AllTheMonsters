@@ -1,0 +1,93 @@
+{
+  "slug": "guardian-tob1-2023",
+  "desc": "False",
+  "name": "Guardian",
+  "size": "Large",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "chain shirt",
+  "hit_points": 110,
+  "hit_dice": "13d10 + 39",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 16,
+  "intelligence": 6,
+  "wisdom": 14,
+  "charisma": 8,
+  "strength_save": 6,
+  "dexterity_save": null,
+  "constitution_save": 5,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 14,
+  "skills": {
+    "Athletics": 6,
+    "Perception": 4
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "charmed, frightened",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "Common, Elvish, Umbral",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The shadow fey guardian makes two Pike or Javelin attacks."
+    },
+    {
+      "name": "Pike",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage."
+    },
+    {
+      "name": "Javelin",
+      "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 11 (2d6 + 4) piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shadow Traveler (2/Day)",
+      "desc": "While in shadows, dim light, or darkness, the shadow fey disappears into the darkness and reappears in an unoccupied space it can see within 30 feet. A tendril of inky smoke appears at the origin and destination when it uses this bonus action."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Protective Interference",
+      "desc": "When a friendly creature the shadow fey guardian can see within 5 feet of it is the target of an attack, the guardian can impose disadvantage on the attack roll. To do so, the guardian must see the attacker and be wielding a melee weapon."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Fey Ancestry",
+      "desc": "The shadow fey guardian has advantage on saving throws against being charmed, and magic can't put it to sleep."
+    },
+    {
+      "name": "Shadow's Vigil",
+      "desc": "The guardian has advantage on Wisdom (Perception) checks, and magical darkness doesn't impede the guardian's darkvision."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the shadow fey has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 162,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_guardian/"
+}

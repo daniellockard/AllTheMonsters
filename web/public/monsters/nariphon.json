@@ -1,0 +1,83 @@
+{
+  "slug": "nariphon",
+  "desc": "",
+  "name": "Nariphon",
+  "size": "Huge",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 10,
+  "armor_desc": "natural armor",
+  "hit_points": 195,
+  "hit_dice": "17d12+85",
+  "speed": {
+    "walk": 15
+  },
+  "strength": 24,
+  "dexterity": 6,
+  "constitution": 21,
+  "intelligence": 6,
+  "wisdom": 14,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "bludgeoning, piercing, poison",
+  "condition_immunities": "exhaustion, poisoned, prone",
+  "senses": "tremorsense 120', passive Perception 17",
+  "languages": "understands Common but can't speak",
+  "challenge_rating": "13",
+  "cr": 13,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Four Roots or Thorns attacks."
+    },
+    {
+      "name": "Roots",
+      "desc": "Melee Weapon Attack: +12 to hit, 15 ft., one target, 18 (2d10+7) bludgeoning damage and target is grappled (escape DC 18). Until the grapple ends target is restrained and it takes 3 (1d6) poison at the start of each of its turns. The nariphon has four roots each of which can grapple only one target."
+    },
+    {
+      "name": "Thorns",
+      "desc": "Ranged Weapon Attack: +12 to hit 30/120' one target 17 (3d6+7) piercing damage and target must make DC 18 Wis save or thorn falls to the ground and instantly grows into a vegetative clone (see above) under nariphon's control."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Bury",
+      "desc": "One creature grappled by nariphon is knocked prone dragged into ground and buried just below surface ending grapple. Victim is restrained unable to breathe or stand up. Creature including victim can use action to free buried creature via DC 18 Str."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False",
+      "desc": "[+]Appearance[/+] Motionless: indistinguishable from ordinary tree."
+    },
+    {
+      "name": "Vegetative Clone",
+      "desc": "A vegetative clone resembles the creature hit by the nariphon's Thorn attack. Each clone uses stats of an awakened tree except it has the target's size speed and any special senses such as darkvision. Clones are extensions of the nariphon and it can see and hear what a clone sees and hears as if it was in the clone's space. The nariphon can switch from using its senses to using a clone's or back again as a bonus action. Nariphon can have no more than six vegetative clones under its control at one time. Each clone remains until killed or until the nariphon dismisses it (no action required)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 285,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_nariphon/"
+}

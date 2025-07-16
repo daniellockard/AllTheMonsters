@@ -1,0 +1,80 @@
+{
+  "slug": "sandwyrm-tob1-2023",
+  "desc": "False",
+  "name": "Sandwyrm",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 142,
+  "hit_dice": "15d10 + 60",
+  "speed": {
+    "walk": 40,
+    "burrow": 20
+  },
+  "strength": 20,
+  "dexterity": 12,
+  "constitution": 18,
+  "intelligence": 5,
+  "wisdom": 13,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 17,
+  "skills": {
+    "Perception": 7,
+    "Stealth": 4
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., tremorsense 120 ft., passive Perception 17",
+  "languages": "—",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The sandwyrm makes one Bite attack, one Gore attack, and one Stinger attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 12 (2d6 + 5) piercing damage."
+    },
+    {
+      "name": "Gore",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 11 (1d12 + 5) piercing damage."
+    },
+    {
+      "name": "Stinger",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature. Hit: 9 (1d4 + 5) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 14 (4d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hp, the target is stable but poisoned for 1 hour, even after regaining hp, and is paralyzed while poisoned in this way."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Spine Trap",
+      "desc": "When the sandwyrm is burrowed just below the surface of sand with its back spines exposed and a Medium or smaller creature enters the spines' space, the sandwyrm closes the spines on the creature. The creature must succeed on a DC 15 Dexterity saving throw or be restrained. When the sandwyrm moves, a restrained creature moves with it. The sandwyrm can have only one creature restrained at a time. A creature, including the restrained creature, can take an action to free the restrained creature by succeeding on a DC 15 Strength check."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
+  "spell_list": [],
+  "page_no": 314,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_sandwyrm/"
+}

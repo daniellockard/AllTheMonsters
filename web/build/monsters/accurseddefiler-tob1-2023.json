@@ -1,0 +1,83 @@
+{
+  "slug": "accurseddefiler-tob1-2023",
+  "desc": "False",
+  "name": "Accursed Defiler",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 75,
+  "hit_dice": "10d8 + 30",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 19,
+  "dexterity": 14,
+  "constitution": 17,
+  "intelligence": 6,
+  "wisdom": 15,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 14,
+  "skills": {
+    "Perception": 4,
+    "Stealth": 4
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "poison",
+  "condition_immunities": "charmed, exhaustion, frightened, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "understands an ancient language but can’t speak",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The accursed defiler makes two Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) bludgeoning damage. If the accursed defiler scores a critical hit, the target suffers one level of exhaustion."
+    },
+    {
+      "name": "Sandslash (Recharge 5-6)",
+      "desc": "The accursed defiler intensifies the vortex of sand that surrounds it. Each creature within 10 feet of the accursed defiler must make a DC 14 Dexterity saving throw, taking 21 (6d6) slashing damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Cursed Existence",
+      "desc": "When it drops to 0 hp in desert terrain, the accursed defiler's body disintegrates into sand and a parched breeze. However, unless it was killed in a hallowed location, with radiant damage, or by a creature under the effects of the bless spell, the accursed defiler reforms at the next sundown 1d100 miles away from where it died in a random direction."
+    },
+    {
+      "name": "Sand Shroud",
+      "desc": "A miniature sandstorm constantly whirls around the accursed defiler in a 10-foot radius. This area is lightly obscured to creatures other than the accursed defiler. Wisdom (Survival) checks made to follow tracks left by the accursed defiler or other creatures that were traveling in its sand shroud are made with disadvantage."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The accursed defiler doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 12,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_accursed-defiler/"
+}

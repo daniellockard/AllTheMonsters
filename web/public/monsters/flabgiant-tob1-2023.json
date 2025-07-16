@@ -1,0 +1,74 @@
+{
+  "slug": "flabgiant-tob1-2023",
+  "desc": "False",
+  "name": "Flab Giant",
+  "size": "Large",
+  "type": "Giant",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 110,
+  "hit_dice": "13d10 + 39",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 20,
+  "dexterity": 6,
+  "constitution": 16,
+  "intelligence": 9,
+  "wisdom": 13,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 5,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 13,
+  "skills": {
+    "Perception": 3
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "passive Perception 13",
+  "languages": "Common, Dwarvish, Giant",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The giant makes two Slam attacks. If both attacks hit a Medium or smaller creature, the target is grappled (escape DC 15)."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage."
+    },
+    {
+      "name": "Squatting Pin",
+      "desc": "One creature grappled by the flab giant must make a DC 15 Strength saving throw. On a failure, a creature takes 22 (5d6 + 5) bludgeoning damage and is restrained until the grapple ends. On a success, a creature takes half the damage and isn't restrained, but it remains grappled until it escapes. While restrained, a creature takes 8 (1d6 + 5) bludgeoning damage at the start of each of the giant's turns. If the flab giant moves, the target is no longer restrained or grappled."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Massive Bulk",
+      "desc": "A flab giant can't take the Dash action. In addition, a creature attempting to grapple, push, or knock the giant prone has disadvantage on attack rolls and ability checks to do so."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 206,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_flab-giant/"
+}

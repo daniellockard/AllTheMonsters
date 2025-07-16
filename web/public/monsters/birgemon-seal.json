@@ -1,0 +1,92 @@
+{
+  "slug": "birgemon-seal",
+  "desc": "",
+  "name": "Birgemon Seal",
+  "size": "Medium",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 60,
+  "hit_dice": "8d8+24",
+  "speed": {
+    "walk": 20,
+    "swim": 60
+  },
+  "strength": 12,
+  "dexterity": 15,
+  "constitution": 16,
+  "intelligence": 4,
+  "wisdom": 12,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 13",
+  "languages": "—",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Bite attack one Toothy Maw attack and three Tendril attacks. It can replace all three Tendril attacks with use of Reel."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 7 (2d4+2) piercing damage."
+    },
+    {
+      "name": "Toothy Maw",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 9 (2d6+2) piercing damage."
+    },
+    {
+      "name": "Tendril",
+      "desc": "Melee Weapon Attack: +4 to hit, 15 ft., one target, The target is grappled (escape DC 13) if it is a Med or smaller creature and the seal can't use the same tendril on another target. If a creature is grappled by two or more tendrils it is also Restrained."
+    },
+    {
+      "name": "Reel",
+      "desc": "Pulls each creature grappled by it up to 10 ft. straight toward it."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Ice Slide",
+      "desc": "If the birgemon seal moves at least 10 ft. in a straight line while on snow or ice during its turn it can slide up to 40 feet."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Frozen to the Spot",
+      "desc": "When on snow or ice the birgemon seal can't be moved vs. its will."
+    },
+    {
+      "name": "Hold Breath",
+      "desc": "Can hold its breath for 90 min."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 57,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_birgemon-seal/"
+}

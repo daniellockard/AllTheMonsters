@@ -1,0 +1,76 @@
+{
+  "slug": "mage_apprentice_bf",
+  "desc": "",
+  "name": "Mage Apprentice",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "Any Lineage",
+  "group": "NPCs",
+  "alignment": "",
+  "armor_class": 10,
+  "armor_desc": "13 with mage armor",
+  "hit_points": 40,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 8,
+  "dexterity": 12,
+  "constitution": 12,
+  "intelligence": 18,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": -1,
+  "dexterity_save": 1,
+  "constitution_save": 1,
+  "intelligence_save": 4,
+  "wisdom_save": 1,
+  "charisma_save": 0,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "any two languages",
+  "challenge_rating": "1",
+  "cr": 1,
+  "actions": [
+    {
+      "name": "Dagger",
+      "desc": "_Melee or Ranged Weapon Attack:_ +3 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 2 (1d4) piercing damage plus 9 (2d8) force damage."
+    },
+    {
+      "name": "Arcane Bolt",
+      "desc": "_Ranged Spell Attack:_ +4 to hit, range 60 ft., one target. _Hit:_ 11 (2d8+2) force damage."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The mage apprentice casts one of the following spells, using INT as the spellcasting ability (spell save DC 12).<br>At will: _mage hand_, _minor illusion_<br>1/day each: _color spray_, _mage armor_, _sleep_"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Arcane Weapons",
+      "desc": "The mage apprentice's weapon attacks are magical. When the mage hits with any weapon, the weapon deals an extra 2d8 force damage (included in the attack)."
+    },
+    {
+      "name": "Reckless Show-Off",
+      "desc": "If it can see a fellow apprentice or its magical teacher at the start of its turn, the mage apprentice has advantage on the first spell attack roll it makes during that turn, but attack rolls against it also have advantage until the start of its next turn."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_mage-apprentice/"
+}

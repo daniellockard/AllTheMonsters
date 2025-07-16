@@ -1,0 +1,81 @@
+{
+  "slug": "scorpioncultist-tob1-2023",
+  "desc": "False",
+  "name": "Scorpion Cultist",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 26,
+  "hit_dice": "4d8 + 8",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 11,
+  "dexterity": 17,
+  "constitution": 15,
+  "intelligence": 10,
+  "wisdom": 13,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 13,
+  "skills": {
+    "Animal Handling": 3,
+    "Deception": 2,
+    "Perception": 3,
+    "Stealth": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "poison",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "passive Perception 14",
+  "languages": "Common",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Scimitar",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft, one target. Hit: 6 (1d6 + 3) slashing damage plus 2 (1d4) poison damage."
+    },
+    {
+      "name": "Sling",
+      "desc": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) poison damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Dark Devotion",
+      "desc": "The scorpion cultist has advantage on saving throws against being charmed or frightened."
+    },
+    {
+      "name": "Keen Senses",
+      "desc": "The scorpion cultist has advantage on Wisdom (Perception) checks."
+    },
+    {
+      "name": "Scorpion's Blessing",
+      "desc": "The scorpion cultist has advantage on saving throws against poison. In addition, when the scorpion cultist hits with any weapon, the weapon deals an extra 1d4 poison damage (included in the attack)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 411,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_scorpion-cultist/"
+}

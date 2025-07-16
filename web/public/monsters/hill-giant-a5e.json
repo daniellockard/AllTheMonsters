@@ -1,0 +1,81 @@
+{
+  "slug": "hill-giant-a5e",
+  "desc": "",
+  "name": "Hill Giant",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 105,
+  "hit_dice": "10d12+40",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 20,
+  "dexterity": 8,
+  "constitution": 18,
+  "intelligence": 6,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": 8,
+  "dexterity_save": null,
+  "constitution_save": 7,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 10",
+  "languages": "Giant",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The giant attacks twice with its greatclub."
+    },
+    {
+      "name": "Greatclub",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage. If the target is a Medium or smaller creature  it makes a DC 16 Strength saving throw  falling prone on a failure."
+    },
+    {
+      "name": "Rock",
+      "desc": "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit: 26 (6d6 + 5) bludgeoning damage. If the target is a Medium or smaller creature  it makes a DC 16 Strength saving throw  falling prone on a failure. In lieu of a rock  the giant can throw a grappled Medium or smaller creature up to 30 feet. On a hit  the target and the thrown creature both take 15 (3d6 + 5) bludgeoning damage. On a miss  only the thrown creature takes the damage. The thrown creature falls prone in an unoccupied space 5 feet from the target."
+    },
+    {
+      "name": "Greatclub Sweep (1/Day, While Bloodied)",
+      "desc": "Each creature within 10 feet makes a DC 16 Dexterity saving throw. On a failure  a creature takes 18 (3d8 + 5) bludgeoning damage  is pushed 10 feet away from the giant  and falls prone."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Grab",
+      "desc": "One creature within 5 feet makes a DC 10 Dexterity saving throw. On a failure, it is grappled (escape DC 16). Until this grapple ends, the giant can't grab another target, and it makes greatclub attacks with advantage against the grappled target."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Gullible",
+      "desc": "The giant makes Insight checks with disadvantage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 238,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_hill-giant/"
+}

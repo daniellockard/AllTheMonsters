@@ -1,0 +1,95 @@
+{
+  "slug": "grivid",
+  "desc": "",
+  "name": "Grivid",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 180,
+  "hit_dice": "19d10+76",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 21,
+  "dexterity": 16,
+  "constitution": 18,
+  "intelligence": 2,
+  "wisdom": 15,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "tremorsense 60', passive Perception 16",
+  "languages": "—",
+  "challenge_rating": "11",
+  "cr": 11,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Bite and two Kicks or three Spit Worms."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +9 to hit, 10 ft., one creature,. 18 (3d8+5) piercing damage + 7 (2d6) poison and target must make DC 16 Con save or be infested with parasitic cheek worm (see above) if grivid has at least 1 cheek worm."
+    },
+    {
+      "name": "Kick",
+      "desc": "Melee Weapon Attack: +9 to hit, 5 ft., one creature,. 18 (3d8+5) bludgeoning damage and target must make DC 16 Str save or be knocked prone."
+    },
+    {
+      "name": "Spit Worm",
+      "desc": "Ranged Weapon Attack: +7 to hit 20/60' one creature. 13 (3d6+3) bludgeoning damage + 7 (2d6) poison and target: DC 16 Con save or be infested with parasitic cheek worm (see above) if grivid has at least 1 cheek worm."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Consume Worms",
+      "desc": "Consumes up to 3 cheek worms regaining 5 (2d4) hp for each worm consumed."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Cheek Worm Regrowth",
+      "desc": "Has twenty worms stored in its cheeks. Used worms regrow when the grivid finishes a long rest."
+    },
+    {
+      "name": "Keen Sight",
+      "desc": "Advantage: sight Wis (Percept) checks."
+    },
+    {
+      "name": "Parasitic Cheek Worm",
+      "desc": "Produces parasitic worms in its cheeks and it expels these worms into other creatures when it attacks. Worm burrows into target's flesh and that creature is poisoned while infested with at least one worm. At start of each of infested creature's turns it takes 5 (2d4) poison. Any creature can take an action to remove one worm with successful DC 12 Wis (Medicine) check. An effect that cures disease removes and kills one worm infesting the creature. When grivid dies all worms currently infesting creatures die ending infestation in all infested creatures."
+    },
+    {
+      "name": "Worm Regeneration",
+      "desc": "If it has at least 1 hp grivid regains 5 hp for each worm infesting another creature at start of its turn."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 221,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_grivid/"
+}

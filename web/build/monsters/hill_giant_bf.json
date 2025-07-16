@@ -1,0 +1,81 @@
+{
+  "slug": "hill_giant_bf",
+  "desc": "",
+  "name": "Hill Giant",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "group": "Giants",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "hide armor",
+  "hit_points": 126,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 20,
+  "dexterity": 10,
+  "constitution": 24,
+  "intelligence": 4,
+  "wisdom": 8,
+  "charisma": 6,
+  "strength_save": 5,
+  "dexterity_save": 0,
+  "constitution_save": 7,
+  "intelligence_save": -3,
+  "wisdom_save": -1,
+  "charisma_save": -2,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "Giant Attributes",
+  "damage_resistances": "poison,poisoned,Giant Attributes",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "Giant",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The giant makes two Spiked Tree Branch or Rotten Snack attacks."
+    },
+    {
+      "name": "Spiked Tree Branch",
+      "desc": "_Melee Weapon Attack:_ +8 to hit, reach 10 ft., one target. _Hit:_ 14 (2d8+5) bludgeoning damage plus 5 (2d4) piercing damage."
+    },
+    {
+      "name": "Rotten Snack",
+      "desc": "_Ranged Weapon Attack:_ +8 to hit, range 60/240 ft., one target. _Hit:_ 12 (2d6+5) bludgeoning damage plus 7 (2d6) poison damage, and the target must succeed on a DC 16 CON save or be poisoned until the end of its next turn."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Body Bounce",
+      "desc": "The hill giant bumps its stomach, hip, shoulder, knee, or other part of its body into a creature within 10 feet of it. The target must succeed on a DC 16 STR save or be pushed up to 10 feet away from the giant and knocked prone."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Giant Attributes",
+      "desc": "The hill giant is resistant to the stunned condition, and it is vulnerable to the prone condition."
+    },
+    {
+      "name": "Show of Might",
+      "desc": "The hill giant can use STR instead of CHA when making CHA (Intimidation) checks."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_hill-giant/"
+}

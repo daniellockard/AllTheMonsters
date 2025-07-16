@@ -1,0 +1,82 @@
+{
+  "slug": "nightmare_bf",
+  "desc": "",
+  "name": "Nightmare",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 76,
+  "hit_dice": "",
+  "speed": {
+    "walk": 60,
+    "fly": 90
+  },
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 12,
+  "charisma": 14,
+  "strength_save": 4,
+  "dexterity_save": 2,
+  "constitution_save": 3,
+  "intelligence_save": 0,
+  "wisdom_save": 1,
+  "charisma_save": 2,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "fire",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "understands Abyssal,Common,and Infernal but can't speak",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The nightmare makes two Flaming Hoof attacks."
+    },
+    {
+      "name": "Flaming Hoof",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 7 (1d6+4) bludgeoning damage plus 7 (2d6) fire damage."
+    },
+    {
+      "name": "Ethereal Stride",
+      "desc": "The nightmare and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Burning Hoofprints",
+      "desc": "The nightmare increases the intensity of the heat on its hooves. Until the start of its next turn, it leaves burning hoofprints in any surface through which it walks, creating a trail of fire in its wake. A creature that enters a space with burning hoofprints for the first time on a turn or starts its turn there must succeed on a DC 13 DEX save or take 3 (1d6) fire damage. The hoofprints stop burning at the start of the nightmare's next turn."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Illumination",
+      "desc": "The nightmare sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
+    },
+    {
+      "name": "Riding Flames",
+      "desc": "Any creature riding a willing nightmare is resistant to fire damage. A creature riding the nightmare without the nightmare's permission takes 3 (1d6) fire damage at the start of each of the nightmare's turns."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_nightmare/"
+}

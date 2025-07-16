@@ -1,0 +1,92 @@
+{
+  "slug": "npc:-infested-duelist",
+  "desc": "",
+  "name": "Npc: Infested Duelist",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 144,
+  "hit_dice": "32d8",
+  "speed": {
+    "walk": 40,
+    "climb": 30
+  },
+  "strength": 11,
+  "dexterity": 20,
+  "constitution": 10,
+  "intelligence": 10,
+  "wisdom": 16,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 4,
+  "intelligence_save": null,
+  "wisdom_save": 7,
+  "charisma_save": 6,
+  "perception": 3,
+  "skills": {
+    "perception": 3
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, restrained, poisoned",
+  "senses": "passive Perception 13",
+  "languages": "any one language (usually Common)",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Slam attack and two Shortsword attacks or it makes two Thorn Shot attacks."
+    },
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +10 to hit, 5 ft., one target, 9 (1d6+6) piercing damage."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +10 to hit, 5 ft., one target, 15 (2d8+6) bludgeoning damage and target: DC 15 Con save. On failure target takes 14 (4d6) poison and is poisoned 1 min. On success target takes half damage and isn't poisoned. Poisoned target can re-save at end of each of its turns success ends effect on itself."
+    },
+    {
+      "name": "Thorn Shot",
+      "desc": "Melee Weapon Attack: +10 to hit 30/120' one target 10 (2d4+5) piercing damage + 7 (2d6) poison."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Spore Cloud",
+      "desc": "When it takes damage from a ranged attack emits a burst of thick yellow spores that surround infested duelist and heavily obscure area within 5 ft. of it. Spores dissipate at start of duelist's next turn."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Evasion",
+      "desc": "If subject to effect that allows Dex save for half damage takes no damage on success and only half if it fails."
+    },
+    {
+      "name": "Parasite Sense",
+      "desc": "Advantage on attacks vs. poisoned creatures."
+    },
+    {
+      "name": "Plant-Powered Mobility",
+      "desc": "Opportunity attacks made vs. duelist have disadvantage. If the duelist is prone at the start of its turn it can immediately stand with o costing movement."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 409,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_npc-infested-duelist/"
+}

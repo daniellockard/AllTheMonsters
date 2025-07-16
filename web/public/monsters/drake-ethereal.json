@@ -1,0 +1,84 @@
+{
+  "slug": "drake-ethereal",
+  "desc": "",
+  "name": "Drake, Ethereal",
+  "size": "Large",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 133,
+  "hit_dice": "14d10+56",
+  "speed": {
+    "walk": 30,
+    "fly": 60
+  },
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 19,
+  "intelligence": 8,
+  "wisdom": 14,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 7,
+  "intelligence_save": null,
+  "wisdom_save": 5,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, necrotic",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 60', passive Perception 15",
+  "languages": "Draconic",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Bite attack and two Claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 15 (2d10+4) piercing damage + 9 (2d8) force. Target is grappled (escape DC 15) if it is a Large or smaller creature and drake doesn't have another creature grappled."
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 11 (2d6+4) slashing damage."
+    },
+    {
+      "name": "Phase Breath (Recharge 5-6)",
+      "desc": "Exhales a blue mist in a 30' cone. Each creature in that area: 27 (6d8) force and is magically shifted to the Ethereal Plane for 1 min (DC 15 Con half damage and isn't magically shifted). A creature shifted to the Ethereal Plane in this way can re-save at end of each of its turns magically shifting back to the Material Plane on a success."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Ethereal Step",
+      "desc": "Magically shifts from Material Plane to Ethereal or vice versa. Drake can bring creatures grappled by it into the Ethereal Plane with it. A creature not native to Ethereal Plane returns to Material Plane in 1d4 rounds if brought to the plane while grappled by drake."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Ethereal Sight",
+      "desc": "Can see 60' into the Ethereal Plane when on the Material Plane and vice versa."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 153,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_drake-ethereal/"
+}

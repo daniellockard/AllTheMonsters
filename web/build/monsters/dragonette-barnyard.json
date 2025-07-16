@@ -1,0 +1,78 @@
+{
+  "slug": "dragonette-barnyard",
+  "desc": "",
+  "name": "Dragonette, Barnyard",
+  "size": "Tiny",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 18,
+  "hit_dice": "4d4+8",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 14,
+  "dexterity": 12,
+  "constitution": 15,
+  "intelligence": 8,
+  "wisdom": 13,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 13",
+  "languages": "Common, Draconic",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 4 (1d4+2) piercing damage. If target is a Small or smaller creature: DC 12 Str save or be grappled."
+    },
+    {
+      "name": "Scale Rake",
+      "desc": "One creature grappled by it must make DC 12 Str save: 5 (2d4) slashing damage on a failed save or half damage if made."
+    },
+    {
+      "name": "Gritty Breath (Recharge 5-6)",
+      "desc": "Exhales a cloud of stinging dust in a 15 ft. cone. Each creature in the area: DC 12 Con save or be blinded 1 min. A blinded creature can repeat the save at end of each of its turns ending effect on itself on a success"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Keen Smell",
+      "desc": "Advantage: smell Wis (Percept) checks."
+    },
+    {
+      "name": "Speak with Beasts",
+      "desc": "The barnyard dragonette can communicate with Beasts as if they shared a language."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 148,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_dragonette-barnyard/"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "catamount",
+  "desc": "",
+  "name": "Catamount",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 117,
+  "hit_dice": "18d10+18",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 12,
+  "intelligence": 3,
+  "wisdom": 10,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": 4,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "tremorsense 30', passive Perception 12",
+  "languages": "—",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Bite attack and two Claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 8 (1d8+4) piercing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 9 (2d4+4) slashing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Control Earth",
+      "desc": "Molds the ground near it causing one of: Stone Wall Causes wall of rock to rise from ground at a point it can see within 30' of it. Wall is up to 30' long 5 ft. high and 5 ft. thick. It can be any shape as long as its base is connected to the ground. If wall cuts through creature's space when it appears creature is pushed to one side (catamount's choice). If creature would be surrounded on all sides by the wall it can make a DC 14 Dex save. On success it can use its reaction to move up to its speed so it is not enclosed by the wall. Wall lasts 1 min or until catamount creates new wall.Fissure Catamount causes a rift to form in the ground at a point it can see within 30' of it. Rift can be up to 15 ft. wide up to 30' long and up to 10 ft. deep and can be any shape. Each creature standing on a spot where fissure opens must make DC 14 Dex save or fall in. Creature that successfully saves moves with fissure's edge as it opens. Fissure that opens beneath a structure causes it to automatically collapse as if structure was in the area of an earthquake spell. It can have only one fissure open at a time. If it opens another previous fissure closes shunting all creatures inside it to surface.Tremors Catamount causes earth beneath its feet to shake and shift. Each creature within 30' of it: 3 (1d6) bludgeoning damage and be knocked prone (DC 14 Str negates both)."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Well-Grounded",
+      "desc": "Has advantage on ability checks and saves made vs. effects that would knock it prone."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 74,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_catamount/"
+}

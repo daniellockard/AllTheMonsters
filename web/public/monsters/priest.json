@@ -1,0 +1,93 @@
+{
+  "slug": "priest",
+  "desc": "**Priests** bring the teachings of their gods to the common folk. They are the spiritual leaders of temples and shrines and often hold positions of influence in their communities. Evil priests might work openly under a tyrant, or they might be the leaders of religious sects hidden in the shadows of good society, overseeing depraved rites. \nA priest typically has one or more acolytes to help with religious ceremonies and other sacred duties.",
+  "name": "Priest",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "any race",
+  "group": "NPCs",
+  "alignment": "Any Alignment",
+  "armor_class": 13,
+  "armor_desc": "chain shirt",
+  "hit_points": 27,
+  "hit_dice": "5d8+5",
+  "speed": {
+    "walk": 25
+  },
+  "strength": 10,
+  "dexterity": 10,
+  "constitution": 12,
+  "intelligence": 13,
+  "wisdom": 16,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "medicine": 7,
+    "persuasion": 3,
+    "religion": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 13",
+  "languages": "any two languages",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Mace",
+      "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.",
+      "attack_bonus": 2,
+      "damage_dice": "1d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Divine Eminence",
+      "desc": "As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st.",
+      "attack_bonus": 0,
+      "damage_dice": "3d6"
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared:\n\n* Cantrips (at will): light, sacred flame, thaumaturgy\n* 1st level (4 slots): cure wounds, guiding bolt, sanctuary\n* 2nd level (3 slots): lesser restoration, spiritual weapon\n* 3rd level (2 slots): dispel magic, spirit guardians"
+    }
+  ],
+  "spell_list": [
+    "https://api.open5e.com/v2/spells/light/",
+    "https://api.open5e.com/v2/spells/sacred-flame/",
+    "https://api.open5e.com/v2/spells/thaumaturgy/",
+    "https://api.open5e.com/v2/spells/cure-wounds/",
+    "https://api.open5e.com/v2/spells/guiding-bolt/",
+    "https://api.open5e.com/v2/spells/sanctuary/",
+    "https://api.open5e.com/v2/spells/lesser-restoration/",
+    "https://api.open5e.com/v2/spells/spiritual-weapon/",
+    "https://api.open5e.com/v2/spells/dispel-magic/",
+    "https://api.open5e.com/v2/spells/spirit-guardians/"
+  ],
+  "page_no": 401,
+  "environments": [
+    "Temple",
+    "Desert",
+    "Urban",
+    "Hills",
+    "Settlement"
+  ],
+  "img_main": null,
+  "document__slug": "wotc-srd",
+  "document__title": "5e Core Rules",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "v2_converted_path": "/v2/creatures/srd_priest/"
+}

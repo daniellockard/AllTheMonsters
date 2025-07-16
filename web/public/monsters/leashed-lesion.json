@@ -1,0 +1,78 @@
+{
+  "slug": "leashed-lesion",
+  "desc": "",
+  "name": "Leashed Lesion",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 65,
+  "hit_dice": "10d10+10",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 15,
+  "dexterity": 11,
+  "constitution": 12,
+  "intelligence": 6,
+  "wisdom": 9,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -1,
+  "skills": {
+    "perception": -1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "necrotic",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 120', passive Perception 9",
+  "languages": "understands Void Speech but can't speak",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Bite attack and two Claw attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one creature,. 6 (1d8+2) piercing damage + 5 (2d4) necrotic. The lesion and any creature grappled by its Life Tether regain hp equal to the necrotic dealt."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 5 (1d6+2) slashing damage."
+    },
+    {
+      "name": "Draining Burst (Recharge 5-6)",
+      "desc": "Selects a point it can see within 120' of it. Each creature within 20' of that point must make a DC 12 Con save taking 13 (3d8) necrotic on a failed save or half damage if made. The lesion and any creature grappled by its Life Tether each gain 13 (3d8) temp hp."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Life Tether",
+      "desc": "Attaches a symbiotic tether to a creature sitting in the recess in its back. A creature in the recess that isn't attached to the tether takes 7 (2d6) piercing damage at the end of the lesion's turn and the lesion regains hp equal to the damage dealt. While the tether is attached the creature is grappled by the lesion. The lesion or the creature can detach the tether as a bonus action. Lesion can have its symbiotic tether attached to only one creature at a time."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 259,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_leashed-lesion/"
+}

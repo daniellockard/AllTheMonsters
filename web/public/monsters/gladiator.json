@@ -1,0 +1,93 @@
+{
+  "slug": "gladiator",
+  "desc": "**Gladiators** battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-or-death struggle, while others are professional duelists who command huge fees but rarely fight to the death.",
+  "name": "Gladiator",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "any race",
+  "group": "NPCs",
+  "alignment": "Any Alignment",
+  "armor_class": 16,
+  "armor_desc": "studded leather, shield",
+  "hit_points": 112,
+  "hit_dice": "15d8+45",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 15,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 12,
+  "charisma": 15,
+  "strength_save": 7,
+  "dexterity_save": 5,
+  "constitution_save": 6,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "athletics": 10,
+    "intimidation": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 11",
+  "languages": "any one language (usually Common)",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The gladiator makes three melee attacks or two ranged attacks."
+    },
+    {
+      "name": "Spear",
+      "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.",
+      "attack_bonus": 7,
+      "damage_dice": "2d6",
+      "damage_bonus": 4
+    },
+    {
+      "name": "Shield Bash",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.",
+      "attack_bonus": 7,
+      "damage_dice": "2d4",
+      "damage_bonus": 4
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Parry",
+      "desc": "The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Brave",
+      "desc": "The gladiator has advantage on saving throws against being frightened."
+    },
+    {
+      "name": "Brute",
+      "desc": "A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 399,
+  "environments": [
+    "Urban",
+    "Settlement"
+  ],
+  "img_main": null,
+  "document__slug": "wotc-srd",
+  "document__title": "5e Core Rules",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "v2_converted_path": "/v2/creatures/srd_gladiator/"
+}

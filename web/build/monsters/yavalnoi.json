@@ -1,0 +1,97 @@
+{
+  "slug": "yavalnoi",
+  "desc": "Rising up from the seafloor is a nightmarish creature resembling an obese mermaid with a wide, fluked tail, claws, and a humanoid head with a fish-like mouth and large, saucer-like, yellow eyes. An organ like the anchor of a boat emerges from its brow, shedding a pale blue light that glimmers off its iridescent crimson scales._  \n**Monster Creator.** Yavalnois are wicked aberrations capable of procreating with almost any creature from the sea, be it a Open Game License",
+  "name": "Yavalnoi",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 126,
+  "hit_dice": "12d10+60",
+  "speed": {
+    "walk": 10,
+    "swim": 40
+  },
+  "strength": 17,
+  "dexterity": 14,
+  "constitution": 20,
+  "intelligence": 12,
+  "wisdom": 16,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 8,
+  "intelligence_save": null,
+  "wisdom_save": 6,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "perception": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 90 ft., passive Perception 16",
+  "languages": "Aquan, Primordial",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The yavalnoi makes three attacks: one with its bite, one with its claw, and one with its tail."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) piercing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d10+3"
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d8+3"
+    },
+    {
+      "name": "Tail",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.",
+      "attack_bonus": 6,
+      "damage_dice": "2d6+3"
+    },
+    {
+      "name": "Luminous Burst (Recharge 5-6)",
+      "desc": "The anchor-shaped organ atop the yavalnoi's head emits a burst of blue light. Each hostile creature within 30 feet of the yavalnoi must succeed on a DC 15 Wisdom saving throw or be outlined in blue light for 1 minute. While outlined in blue light, a creature can't breathe underwater. This effect dispels spells such as water breathing and temporarily suppresses water breathing granted through magic items or a creature's natural physiology. In addition, the yavalnoi and creatures friendly to the yavalnoi have advantage on attack rolls against creatures outlined in blue light. A creature outlined in blue light can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Call of the Deep (1/Day)",
+      "desc": "The yavalnoi magically calls 2d4 giant crabs or 1 giant octopus. The called creatures arrive in 1d4 rounds, acting as allies of the yavalnoi and obeying its spoken commands. The beasts remain for 1 hour, until the yavalnoi dies, or until the yavalnoi dismisses them as a bonus action."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Water Breathing",
+      "desc": "The yavalnoi can breathe only underwater."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The yavalnoi's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components.\nAt will: ray of enfeeblement, silent image\n3/day: control water, slow"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 379,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_yavalnoi/"
+}

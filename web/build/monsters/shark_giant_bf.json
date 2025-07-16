@@ -1,0 +1,86 @@
+{
+  "slug": "shark_giant_bf",
+  "desc": "",
+  "name": "Shark, Giant",
+  "size": "Huge",
+  "type": "Beast",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 126,
+  "hit_dice": "",
+  "speed": {
+    "walk": 0,
+    "swim": 50
+  },
+  "strength": 22,
+  "dexterity": 10,
+  "constitution": 20,
+  "intelligence": 1,
+  "wisdom": 10,
+  "charisma": 4,
+  "strength_save": 6,
+  "dexterity_save": 0,
+  "constitution_save": 5,
+  "intelligence_save": -5,
+  "wisdom_save": 0,
+  "charisma_save": -3,
+  "perception": 13,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "keensense 60 ft.",
+  "languages": "-",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The shark makes two Bite attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +9 to hit, reach 5 ft., one target. _Hit:_ 19 (3d8+6) piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Swift Hunter",
+      "desc": "The shark moves up to half its speed toward a hostile creature that it can see. This movement doesn't provoke opportunity attacks."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Blood Frenzy",
+      "desc": "The shark has advantage on melee attack rolls against any creature that doesn't have all its HP."
+    },
+    {
+      "name": "Blood Sense",
+      "desc": "The shark can pinpoint, by scent, the location of creatures that don't have all of their HP within 120 feet of it and can sense the general direction of such creatures within 1 mile of it."
+    },
+    {
+      "name": "Electrical Sensitivity",
+      "desc": "Whenever the shark takes lightning damage, it must succeed on a DC 15 CON save or be incapacitated until the end of its next turn."
+    },
+    {
+      "name": "Water Breathing",
+      "desc": "The shark can breathe only underwater."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_shark-giant/"
+}

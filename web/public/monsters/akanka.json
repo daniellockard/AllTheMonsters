@@ -1,0 +1,86 @@
+{
+  "slug": "akanka",
+  "desc": "",
+  "name": "Akanka",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 45,
+  "hit_dice": "7d8+14",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 10,
+  "dexterity": 15,
+  "constitution": 14,
+  "intelligence": 15,
+  "wisdom": 10,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "unconscious",
+  "senses": "passive Perception 12",
+  "languages": "Common",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Uses Mirrored Carapace and then one Bite."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, 5 ft., one target, 5 (1d6+2) piercing damage and target: DC 12 Con save or fall unconscious 1 min. Target wakes up if it takes damage or if another creature takes an action to shake it awake."
+    },
+    {
+      "name": "Mirrored Carapace",
+      "desc": "Projects illusory duplicate of itself that appears in its space. Each time creature targets it if attack result is below 15 targets duplicate instead and destroys duplicate. Duplicate can be destroyed only by attack that hits it. It ignores all other damage/effects. Creature is unaffected by this if it can't see if it relies on senses other than sight (ex: blindsight) or if it can perceive illusions as false as with truesight. It can't use this while in darkness."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "Cha (DC 13) no material components: At will: minor illusion silent image3/day: major image1/day: hallucinatory terrain"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Spider Climb",
+      "desc": "Difficult surfaces even ceilings no ability check."
+    },
+    {
+      "name": "Web Sense",
+      "desc": "While in contact with web it knows the exact location of any other creature in contact with the same web."
+    },
+    {
+      "name": "Web Walker",
+      "desc": "Ignores move restrictions caused by webbing."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 10,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_akanka/"
+}

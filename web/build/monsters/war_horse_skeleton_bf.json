@@ -1,0 +1,77 @@
+{
+  "slug": "war_horse_skeleton_bf",
+  "desc": "",
+  "name": "War Horse Skeleton",
+  "size": "Large",
+  "type": "Undead",
+  "subtype": "",
+  "group": "Skeletons",
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "barding scraps",
+  "hit_points": 25,
+  "hit_dice": "",
+  "speed": {
+    "walk": 60
+  },
+  "strength": 18,
+  "dexterity": 12,
+  "constitution": 14,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 4,
+  "strength_save": 4,
+  "dexterity_save": 1,
+  "constitution_save": 2,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -3,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "bludgeoning",
+  "damage_resistances": "piercing",
+  "damage_immunities": "Undead Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "-",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Hooves",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 11 (2d6+4) bludgeoning damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Counterattack (Recharge 6)",
+      "desc": "When a creature the war horse skeleton can see hits it with a melee attack while within 5 feet of it, the skeleton can make one Hooves attack against the attacker."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While the war horse skeleton remains motionless and prone, it is indistinguishable from an inanimate war horse skeleton."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The skeleton doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Undead Resilience",
+      "desc": "The skeleton is immune to poison damage, to exhaustion, and to the poisoned condition."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_war-horse-skeleton/"
+}

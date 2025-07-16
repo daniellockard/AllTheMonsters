@@ -1,0 +1,86 @@
+{
+  "slug": "sprite_bf",
+  "desc": "",
+  "name": "Sprite",
+  "size": "Tiny",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 14,
+  "armor_desc": "leather armor",
+  "hit_points": 13,
+  "hit_dice": "",
+  "speed": {
+    "walk": 10,
+    "fly": 40
+  },
+  "strength": 2,
+  "dexterity": 16,
+  "constitution": 10,
+  "intelligence": 14,
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": -4,
+  "dexterity_save": 3,
+  "constitution_save": 0,
+  "intelligence_save": 2,
+  "wisdom_save": 1,
+  "charisma_save": 0,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Fey Resilience",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "-",
+  "languages": "Common,Elvish,Sylvan",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Shortsword",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 6 (1d6+3) piercing damage."
+    },
+    {
+      "name": "Shortbow",
+      "desc": "_Ranged Weapon Attack:_ +5 to hit, range 80/320 ft., one target. _Hit:_ 6 (1d6+3) piercing damage, and the target must succeed on a DC 13 CON save or be poisoned for 1 minute. If the save fails by 5 or more, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake."
+    },
+    {
+      "name": "Invisibility",
+      "desc": "The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Heart Sight",
+      "desc": "The sprite touches a creature and magically knows the creature's current emotional state. If the target fails a DC 13 CHA save, the sprite also knows if the creature has malign intentions or intends to commit malevolent acts within the next hour. Celestials, Fiends, and Undead automatically fail the save."
+    },
+    {
+      "name": "Swift Flight",
+      "desc": "The sprite moves up to half its speed without provoking opportunity attacks."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Fey Resilience",
+      "desc": "The sprite is resistant to the charmed and unconscious conditions."
+    },
+    {
+      "name": "Speak with Beasts and Plants",
+      "desc": "The sprite can communicate with Beasts and Plants as if they shared a language."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_sprite/"
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "umbralvampire-tob1-2023",
+  "desc": "False",
+  "name": "Umbral Vampire",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 14,
+  "armor_desc": "",
+  "hit_points": 84,
+  "hit_dice": "13d8 + 26",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 1,
+  "dexterity": 18,
+  "constitution": 15,
+  "intelligence": 14,
+  "wisdom": 14,
+  "charisma": 19,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 7,
+  "perception": 15,
+  "skills": {
+    "Perception": 5,
+    "Stealth": 7
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "cold, necrotic, poison",
+  "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft., passive Perception 15",
+  "languages": "Common, Umbral, Void Speech",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The umbral vampire can use its Umbral Grasp. It then makes two Shadow Touch attacks."
+    },
+    {
+      "name": "Shadow Touch",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) necrotic damage, and the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest. A non-evil Humanoid slain by this attack rises 24 hours later as a shadow under the vampire's control, unless the Humanoid is restored to life. The vampire can have no more than five shadows under its control at one time."
+    },
+    {
+      "name": "Umbral Grasp",
+      "desc": "The umbral vampire sends a giant hand of shadow to grab one creature it can see that is in dim light or darkness within 30 feet of it. The target must succeed on a DC 15 Dexterity saving throw or be restrained by wisps of magical shadow for 1 minute. While restrained, the target takes 9 (2d8) necrotic damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The umbral vampire can have no more than two creatures restrained by its Umbral Grasp at a time."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Shadow Stealth",
+      "desc": "While in dim light or darkness, the umbral vampire takes the Hide action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The umbral vampire can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the umbral vampire has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The umbral vampire doesn't require air."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 382,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_umbral-vampire/"
+}

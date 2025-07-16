@@ -1,0 +1,84 @@
+{
+  "slug": "fraughashar",
+  "desc": "_This slight creature resembles a goblin, but its blue skin and the icicles hanging from the tip of its long nose speak to the chilling truth._  \nThe fraughashar are a race of short, tricky, and cruel fey who inhabit cold mountainous regions. Fraughashar have light blue skin, short pointed ears, and needlelike teeth. Delighting in mayhem, they always seem to have devilish grins on their faces.  \n**Sacred Rivers.** They view cold rivers and river gorges as sacred places in which their wicked god Fraugh dwells, and they likewise revere the snowy peaks where the Snow Queen holds sway. Fraughashar are fiercely protective of their territory, and their easy mobility over frozen and rocky terrain lets them make short work of intruders.  \n**Chilling Tales.** The origin of the strange and deadly fraughashar is unclear. Some druidic legends claim the fraughashar were born out of a winter so cold and cruel that the spirits of the river itself froze. Bardic tales claim that the fraughashar are a tribe of corrupted goblins, and that they were permanently disfigured during a botched attempt at summoning an ice devil. Whatever the truth of their beginnings, the fraughashar are cruel and merciless, and they will kill anyone who enters their land.",
+  "name": "Fraughashar",
+  "size": "Small",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "leather armor, shield",
+  "hit_points": 18,
+  "hit_dice": "4d6+4",
+  "speed": {
+    "walk": 25
+  },
+  "strength": 8,
+  "dexterity": 14,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 11,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "stealth": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "cold",
+  "condition_immunities": "",
+  "senses": "passive Perception 10",
+  "languages": "Sylvan",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The fraughashar makes one bite attack and one dagger attack."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4"
+    },
+    {
+      "name": "Dagger",
+      "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4"
+    },
+    {
+      "name": "Sling",
+      "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Frost Walker",
+      "desc": "The fraughashar's speed is unimpeded by rocky, snowy, or icy terrain. It never needs to make Dexterity checks to move or avoid falling prone because of icy or snowy ground."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 206,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_fraughashar/"
+}

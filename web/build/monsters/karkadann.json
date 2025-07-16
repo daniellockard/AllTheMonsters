@@ -1,0 +1,86 @@
+{
+  "slug": "karkadann",
+  "desc": "",
+  "name": "Karkadann",
+  "size": "Huge",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 157,
+  "hit_dice": "15d12+60",
+  "speed": {
+    "walk": 50
+  },
+  "strength": 22,
+  "dexterity": 10,
+  "constitution": 18,
+  "intelligence": 7,
+  "wisdom": 12,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 7,
+  "intelligence_save": null,
+  "wisdom_save": 4,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "passive Perception 14",
+  "languages": "Common",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Hooves or one Horn and one Hooves."
+    },
+    {
+      "name": "Hooves",
+      "desc": "Melee Weapon Attack: +9 to hit, 5 ft., one target, 15 (2d8+6) bludgeoning damage."
+    },
+    {
+      "name": "Horn",
+      "desc": "Melee Weapon Attack: +9 to hit, 5 ft., one target, 24 (4d8+6) piercing damage."
+    },
+    {
+      "name": "Toss",
+      "desc": "One Large or smaller creature impaled by karkadann is thrown up to 30' in a random direction and knocked prone. If a thrown target strikes a solid surface target takes 3 (1d6) bludgeoning damage for every 10 ft. it was thrown. If target is thrown at another creature that creature must make DC 15 Dex save or take same damage and be knocked prone."
+    },
+    {
+      "name": "Healing Touch (3/Day)",
+      "desc": "Touches another creature with its horn. The target magically regains 22 (4d8+2) hp and is cured of all diseases and poisons afflicting it."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Impaling Charge",
+      "desc": "If it moves 20+' straight toward a target and then hits it with Horn attack on same turn karkadann impales target on its horn grappling the target if it is a Large or smaller creature (escape DC 15). Until the grapple ends the target is restrained takes 18 (4d8) piercing damage at start of each of its turns and karkadann can't make horn attacks vs. other targets."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 249,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_karkadann/"
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "dancing-foliage",
+  "desc": "A slender, humanoid-shaped plant dances in a clearing. Its two long legs and four arms are decorated with a plethora of vibrant petals and serrated leaves. A wide flower blossoms at the top of the whimsical performer._  \n**Jovial Creations.** Dancing foliage appears in areas where the magic of the arts combines with the magic of nature. Birthed by such magic, the creature is influenced by both: it loves the arts and is protective of the natural world.  \n**Garden Guardians.** Dancing foliage primarily inhabits and defends forest groves from outside threats, but they sometimes wander the gardens of urban settlements. Their love of flowers causes them to tend and protect the plants at all costs, often to the dismay of the garden’s owner or castle groundskeeper. Once a dancing foliage has decided to protect an area, it refuses to leave, though terms of pruning and planting can be negotiated with it, especially if such actions make the garden more aesthetically pleasing.  \n**Dancing Gardeners.** When tending to its garden, dancing foliage moves to some unheard tune, gracefully leaping, twirling, and bobbing around the garden. If it or its garden is threatened, the dancing foliage enters a battle dance until the threat is either removed or eliminated. It never pursues foes beyond the end of its garden.",
+  "name": "Dancing Foliage",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Good",
+  "armor_class": 13,
+  "armor_desc": null,
+  "hit_points": 66,
+  "hit_dice": "12d8+12",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 9,
+  "dexterity": 17,
+  "constitution": 12,
+  "intelligence": 10,
+  "wisdom": 13,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 3,
+  "skills": {
+    "acrobatics": 5,
+    "perception": 3,
+    "performance": 6
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "bludgeoning, piercing",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, frightened, poisoned",
+  "senses": "passive Perception 13",
+  "languages": "Druidic, Sylvan",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The dancing foliage makes four attacks with its serrated leaves."
+    },
+    {
+      "name": "Serrated Leaves",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) slashing damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d4+3"
+    },
+    {
+      "name": "Flower Dance (Recharge 4-6)",
+      "desc": "The dancing foliage uses one of the following flower dances: \n* Alluring Dance. The dancing foliage sways, releasing scintillating petals. Up to three creatures of the foliage's choice that can see the petals and that are within 20 feet of the foliage must succeed on a DC 12 Wisdom saving throw or be magically charmed for 1 minute. While charmed in this way, the creature is incapacitated and has a speed of 0 as it watches the swirling and falling petals. The effect ends for a creature if the creature takes damage or another creature uses an action to shake it out of its stupor. \n* Serrated Dance. The dancing foliage whirls a flurry of serrated leaves around itself. Each creature within 10 feet of the dancing foliage must make a DC 12 Dexterity saving throw, taking 14 (4d6) slashing damage on failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Shower of Petals",
+      "desc": "When a creature the dancing foliage can see targets it with an attack, it releases a shower of flower petals, giving the attacker disadvantage on that attack roll."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Evasion",
+      "desc": "If the dancing foliage is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the dancing foliage instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While the dancing foliage remains motionless, it is indistinguishable from a flowering shrub or small tree."
+    },
+    {
+      "name": "Nimble Dance",
+      "desc": "The dancing foliage can take the Dash or Disengage action as a bonus action on each of its turns."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 79,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_dancing-foliage/"
+}

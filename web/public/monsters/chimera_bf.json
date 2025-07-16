@@ -1,0 +1,89 @@
+{
+  "slug": "chimera_bf",
+  "desc": "",
+  "name": "Chimera",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 126,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30,
+    "fly": 60
+  },
+  "strength": 18,
+  "dexterity": 10,
+  "constitution": 18,
+  "intelligence": 4,
+  "wisdom": 20,
+  "charisma": 10,
+  "strength_save": 4,
+  "dexterity_save": 0,
+  "constitution_save": 4,
+  "intelligence_save": -3,
+  "wisdom_save": 5,
+  "charisma_save": 0,
+  "perception": 18,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Multiple Heads,Monstrosity Resilience",
+  "damage_immunities": "fire",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Draconic",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The chimera makes one Bite attack, one Headbutt attack, and two Claws attacks, or it can make two Claws attacks and use Fire Breath, if available."
+    },
+    {
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 13 (2d8+4) piercing damage."
+    },
+    {
+      "name": "Headbutt",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 10 (1d12+4) bludgeoning damage."
+    },
+    {
+      "name": "Claws",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 11 (2d6+4) slashing damage."
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "desc": "The dragon head exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 DEX save, taking 27 (6d8) fire damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Bickering Heads",
+      "desc": "The chimera is perpetually one step away from arguing with itself. A creature that can see the chimera can use a bonus action on its turn to appeal to one of the chimera's heads with bribes (dragon), praise (lion), displays of magic (goat), or other clever manipulation of a head's desires. The chimera must succeed on a DC 15 WIS save or succumb to that desire.<br>If the lion or goat head succumbs, the chimera has disadvantage on the next Bite or Headbutt attack it makes before the end of its next turn. If the dragon head succumbs, creatures caught in the chimera's next Fire Breath have advantage on the save, provided the chimera uses the breath within the next 1 minute. Once a head has succumbed to a desire, that head can't succumb again for the next 24 hours."
+    },
+    {
+      "name": "Monstrosity Resilience",
+      "desc": "The chimera is resistant to exhaustion and to the frightened condition."
+    },
+    {
+      "name": "Multiple Heads",
+      "desc": "The chimera has three heads and is resistant to the blinded, charmed, deafened, frightened, stunned, and unconscious conditions."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_chimera/"
+}

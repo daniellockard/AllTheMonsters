@@ -1,0 +1,86 @@
+{
+  "slug": "stone_giant_bf",
+  "desc": "",
+  "name": "Stone Giant",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "group": "Giants",
+  "alignment": "",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 156,
+  "hit_dice": "",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 22,
+  "dexterity": 20,
+  "constitution": 26,
+  "intelligence": 10,
+  "wisdom": 18,
+  "charisma": 8,
+  "strength_save": 6,
+  "dexterity_save": 5,
+  "constitution_save": 8,
+  "intelligence_save": 0,
+  "wisdom_save": 4,
+  "charisma_save": -1,
+  "perception": 14,
+  "skills": {},
+  "damage_vulnerabilities": "thunder,Giant Attributes",
+  "damage_resistances": "lightning,petrified,Giant Attributes",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Giant",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The giant makes two Stony Fist or Rock attacks."
+    },
+    {
+      "name": "Stony Fist",
+      "desc": "_Melee Weapon Attack:_ +9 to hit, reach 10 ft., one target. _Hit:_ 24 (4d8+6) bludgeoning damage. The target is grappled (escape DC 17) if it is a Large or smaller creature and the stone giant isn't already grappling a creature."
+    },
+    {
+      "name": "Rock",
+      "desc": "_Ranged Weapon Attack:_ +9 to hit, range 60/240 ft., one target. _Hit:_ 28 (4d10+6) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 STR save or be knocked prone."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Wrestle",
+      "desc": "The stone giant performs one of the following wrestling maneuvers against one creature it is grappling. The target must succeed on a DC 17 STR save or suffer the listed effect until the stone giant uses this bonus action again or until the grapple ends.\n- **Armbar.** The target has disadvantage on attack rolls and on checks made to escape the grapple.\n- **Chinlock.** The target can't speak and can't cast spells with verbal components.\n- **Takedown.** The target is knocked prone and restrained.\n- **Throw.** The target is thrown up to 30 feet in a random direction and knocked prone, ending the grapple. If a thrown target strikes a solid surface, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 17 DEX save or take the same damage and be knocked prone."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Missile Deflection",
+      "desc": "If a creature the giant can see makes a ranged weapon attack against the giant, the giant can add 3 to its AC. If the attack misses, the giant can catch the missile, provided the attack included a projectile, and throw it back at the attacker, using the giant's normal ranged weapon attack bonus and the weapon's normal damage."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Giant Attributes",
+      "desc": "The stone giant is resistant to the stunned condition, and it is vulnerable to the prone condition."
+    },
+    {
+      "name": "Stone Camouflage",
+      "desc": "The giant's Stealth is 20 while in rocky terrain."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_stone-giant/"
+}

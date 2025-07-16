@@ -1,0 +1,83 @@
+{
+  "slug": "midnight-sun",
+  "desc": "",
+  "name": "Midnight Sun",
+  "size": "Large",
+  "type": "Aberration",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 136,
+  "hit_dice": "16d10+48",
+  "speed": {
+    "walk": 0,
+    "fly": 60
+  },
+  "strength": 10,
+  "dexterity": 16,
+  "constitution": 16,
+  "intelligence": 11,
+  "wisdom": 18,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 7,
+  "charisma_save": 5,
+  "perception": 4,
+  "skills": {
+    "perception": 4
+  },
+  "damage_vulnerabilities": "necrotic (in day form), radiant (in night form)",
+  "damage_resistances": "acid, cold, fire, lightning, thunder; nonmagic B/P/S attacks",
+  "damage_immunities": "necrotic (in night form), poison, radiant (in day form)",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+  "senses": "blindsight 120' (blind beyond), passive Perception 17",
+  "languages": "Deep Speech",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Energy Blast attacks."
+    },
+    {
+      "name": "Energy Blast",
+      "desc": "Melee or Ranged Spell Attack: +7 to hit 5 ft. or range 120' one target 14 (3d6+4) damage of the type determined by the sun's current form."
+    },
+    {
+      "name": "Energy Pulse (Recharge 5-6)",
+      "desc": "Each creature within 15 ft. of it: 28 (8d6) damage of type determined by sun's form (DC 15 Con half)."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Changing Form",
+      "desc": "Automatically changes based on presence light.Day Form. While more than half midnight sun is in darkness it appears as a glowing orb of light but sheds no light. In this form it deals radiant has immunity to radiant and vulnerability to necrotic.Night Form. While more than half the midnight sun is in bright or dim light it appears as an orb of darkness. In this form it deals necrotic has immunity to necrotic and has vulnerability to radiant.Twilight Form. While half of it is in bright or dim light and half is in darkness it appears as split orb of light and darkness. It deals force."
+    },
+    {
+      "name": "Energy Being",
+      "desc": "Can move through a space as narrow as 1 inch wide with o squeezing and it can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn that creature takes 3 (1d6) damage of the type determined by the sun's current form."
+    },
+    {
+      "name": "Reality Inversion",
+      "desc": "When creature starts turn in sun's space or within 5 ft. any circumstance trait or feature that would grant it advantage instead grants disadvantage and vice versa until start of its next turn."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 270,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_midnight-sun/"
+}

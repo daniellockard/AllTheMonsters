@@ -1,0 +1,92 @@
+{
+  "slug": "dragonflesh-golem",
+  "desc": "A hulking being with a dragon’s head and a patchwork of black, blue, green, red, and white scales for skin lurches forward on two legs, raising clawed fists into the air._  \nDragonflesh golems are rare constructs created from the remains of dead chromatic dragons.  \n**Built from Dragon Corpses.** Dragonflesh golems are powerful, but building such a creature requires great expense beyond the normal costs to create most other golems. The crafter must use the remains of five dragons, one of each color, of adult age or older. Mages looking to construct dragonflesh golems often hire adventurers to acquire the bodies they need.  \n**Powered by Dragon Blood.** Dragonflesh golems require frequent infusions of dragon blood to remain operational. This blood does not need to come from a true dragon; any creature with draconic blood will suffice.  \n**Construct Nature.** The dragonflesh golem doesn’t require air, food, drink, or sleep.",
+  "name": "Dragonflesh Golem",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 115,
+  "hit_dice": "11d10+55",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 22,
+  "dexterity": 7,
+  "constitution": 20,
+  "intelligence": 3,
+  "wisdom": 10,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold, fire, lightning, poison",
+  "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 120 ft., passive Perception 10",
+  "languages": "understands the languages of its creator but can’t speak",
+  "challenge_rating": "10",
+  "cr": 10,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The dragonflesh golem uses Terror Stare. It then makes two attacks: one with its bite and one with its claws."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) piercing damage plus 3 (1d6) fire damage.",
+      "attack_bonus": 10,
+      "damage_dice": "2d10+6"
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 16 (3d6 + 6) slashing damage.",
+      "attack_bonus": 10,
+      "damage_dice": "3d6+6"
+    },
+    {
+      "name": "Terror Stare",
+      "desc": "The dragonflesh golem chooses a creature that can see its eyes within 30 feet of it. The target must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the golem's Terror Stare for the next 24 hours."
+    },
+    {
+      "name": "Elemental Breath (Recharge 5-6)",
+      "desc": "The dragonflesh golem exhales energy in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 21 (6d6) fire damage and 21 (6d6) damage of another type on a failed save, or half as much damage on a successful one. Roll a d4 to determine the additional damage type: 1 is acid, 2 is cold, 3 is lightning, and 4 is poison."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Immutable Form",
+      "desc": "The golem is immune to any spell or effect that would alter its form."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The golem has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Magic Weapons",
+      "desc": "The golem's weapon attacks are magical."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 180,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_dragonflesh-golem/"
+}

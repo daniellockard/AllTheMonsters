@@ -1,0 +1,85 @@
+{
+  "slug": "infernal-centaur",
+  "desc": "This composite creature combines a ruddy-skinned gnome’s upper body and a hell hound’s reddish black body. Stitches and glowing runes where the gnome and hell hound are fused demonstrate the creature’s unnaturalness._  \nInfernal centaurs are a response by various cults to the physical might possessed by the centaurs of the nearby plains. Rather than a melding of human and horse, though, these centaurs combine hell-bound gnomes with hell hounds. The composite creature combines gnome cunning with the speed and fiery breath belonging to hell hounds. The ritual that creates an infernal centaur infuses the creature with a peculiar brutality.  \n**Unnatural.** Infernal centaurs are not naturally occurring. However, as the ritual to create these centaurs improves and spreads among cults, more gnomes who desire hellish power submit to the ritual, increasing the number of these centaurs.",
+  "name": "Infernal Centaur",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "Lawful Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 60,
+  "hit_dice": "8d8+24",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 17,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 11,
+  "wisdom": 14,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 4,
+  "skills": {
+    "intimidation": 3,
+    "perception": 4
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "fire",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "Common, Gnomish, Infernal",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The infernal centaur makes two dagger attacks."
+    },
+    {
+      "name": "Dagger",
+      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d4+3"
+    },
+    {
+      "name": "Fiery Breath (Recharge 5-6)",
+      "desc": "The infernal centaur exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 28 (8d6) fire damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Cruelty",
+      "desc": "If the infernal centaur scores a critical hit with a melee attack, it can make a second attack against the same target as a bonus action. It has advantage on this attack roll."
+    },
+    {
+      "name": "Hell Hound Affinity",
+      "desc": "Hell hounds view infernal centaurs as leaders of their packs. A hell hound refuses to attack an infernal centaur unless the centaur attacks it first. If magically coerced, the hell hound has disadvantage on attack rolls against the centaur. The centaur has advantage on Charisma (Persuasion) checks against hell hounds."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The centaur has advantage on attack rolls against a creature if at least one of the centaur's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 214,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_infernal-centaur/"
+}

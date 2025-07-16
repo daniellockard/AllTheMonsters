@@ -1,0 +1,90 @@
+{
+  "slug": "gargoyle",
+  "desc": "",
+  "name": "Gargoyle",
+  "size": "Medium",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 52,
+  "hit_dice": "7d8+21",
+  "speed": {
+    "walk": 30,
+    "fly": 60
+  },
+  "strength": 15,
+  "dexterity": 11,
+  "constitution": 16,
+  "intelligence": 6,
+  "wisdom": 11,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Terran",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The gargoyle makes two attacks: one with its bite and one with its claws."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d6",
+      "damage_bonus": 2
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d6",
+      "damage_bonus": 2
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "False Appearance",
+      "desc": "While the gargoyle remains motion less, it is indistinguishable from an inanimate statue."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 309,
+  "environments": [
+    "Temple",
+    "Underdark",
+    "Urban",
+    "Mountains",
+    "Ruin",
+    "Laboratory",
+    "Tomb",
+    "Hills",
+    "Settlement",
+    "Plane Of Earth"
+  ],
+  "img_main": null,
+  "document__slug": "wotc-srd",
+  "document__title": "5e Core Rules",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "v2_converted_path": "/v2/creatures/srd_gargoyle/"
+}

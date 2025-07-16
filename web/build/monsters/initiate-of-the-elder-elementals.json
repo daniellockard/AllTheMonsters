@@ -1,0 +1,91 @@
+{
+  "slug": "initiate-of-the-elder-elementals",
+  "desc": "The kobold stands at the stone altar, chanting words of elemental power. Winds swirl around it, the stone beneath its feet rumbles, and fire ignites in one hand while frost rimes the other._  \n**Elemental Servant.** Serving as part of a secret cabal, the initiate taps into the elemental magic that taints it to serve the four great elemental lords of evil. It often worships in secret underground sites devoted to its dark gods. Service means access to power, and an initiate hopes to use that power to rise in station.",
+  "name": "Initiate of the Elder Elementals",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "kobold",
+  "group": null,
+  "alignment": "Any Evil Alignment",
+  "armor_class": 12,
+  "armor_desc": "15 with mage armor",
+  "hit_points": 33,
+  "hit_dice": "6d6+12",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 9,
+  "dexterity": 14,
+  "constitution": 15,
+  "intelligence": 16,
+  "wisdom": 11,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 4,
+  "intelligence_save": 5,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "intimidation": 3,
+    "religion": 5
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Common, Draconic, Primordial",
+  "challenge_rating": "2",
+  "cr": 2,
+  "actions": [
+    {
+      "name": "Dagger",
+      "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4+2"
+    },
+    {
+      "name": "Gift of the Elder Elementals",
+      "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 7 (2d6) acid, cold, fire, or lightning damage, and the target has disadvantage on its next saving throw against any of the initiate's spells that deal the chosen type of damage.",
+      "attack_bonus": 5,
+      "damage_dice": "2d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Blessing of the Elder Elementals",
+      "desc": "The initiate has advantage on saving throws against spells and abilities that deal acid, cold, fire, or lightning damage."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The initiate has advantage on attack rolls against a creature if at least one of the initiate's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    },
+    {
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the initiate has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+    },
+    {
+      "name": "Versatility of the Elder Elementals",
+      "desc": "As a bonus action, the initiate can change the damage of a spell it casts from acid, cold, fire, or lightning to another one of those elements."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The initiate of the elder elementals is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The initiate has the following wizard spells prepared:\nCantrips (at will): pummelstone, light, mage hand, ray of frost\n1st level (4 slots): burning hands, mage armor, tidal barrier\n2nd level (3 slots): gust of wind, misty step, scorching ray\n3rd level (2 slots): lightning bolt, frozen razors"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 216,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_initiate-of-the-elder-elementals/"
+}

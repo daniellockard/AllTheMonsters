@@ -1,0 +1,71 @@
+{
+  "slug": "doom-creeper",
+  "desc": "",
+  "name": "Doom Creeper",
+  "size": "Small",
+  "type": "Plant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 137,
+  "hit_dice": "25d6+50",
+  "speed": {
+    "walk": 15,
+    "climb": 45,
+    "burrow": 10
+  },
+  "strength": 8,
+  "dexterity": 21,
+  "constitution": 14,
+  "intelligence": 5,
+  "wisdom": 14,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "cold",
+  "damage_resistances": "bludgeoning, piercing",
+  "damage_immunities": "poison",
+  "condition_immunities": "blinded, deafened, poisoned",
+  "senses": "blindsight 60' (blind beyond), passive Perception 15",
+  "languages": "understands Sylvan but can't speak",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Decaying Vine attacks."
+    },
+    {
+      "name": "Decaying Vine",
+      "desc": "Melee Weapon Attack: +8 to hit, 15 ft., one creature,. 12 (2d6+5) slashing damage and 9 (2d8) necrotic."
+    },
+    {
+      "name": "Death's Rose",
+      "desc": "Shoots a glowing purple beam of magical energy at a creature it can see within 60' of it choosing one effect:Disorienting Petal. Target: DC 15 Int save or be incapacitated for 1 min. Target can re-save at end of each of its turns success ends effect on itself.Frightful Petal. Target: DC 15 Cha save or frightened 1 min. Target can re-save at end of each of its turns with disadvantage if it can see creeper success ends effect on itself.Slowing Petal. Target: DC 15 Wis save or its speed is halved it takes a -2 penalty to AC and Dex saves and it can't take reactions for 1 min. Target can re-save at end of each of its turns success ends effect on itself.Wasting Petal. Target: DC 15 Con save or waste away for 1 min. While wasting away target vulnerable to necrotic and regains only half the hp when it receives magical healing. Target can re-save at end of each of its turns success ends effect on itself."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 138,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_doom-creeper/"
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "orc_bf",
+  "desc": "",
+  "name": "Orc",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": "Orcs",
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "hide armor",
+  "hit_points": 25,
+  "hit_dice": "",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 6,
+  "wisdom": 10,
+  "charisma": 10,
+  "strength_save": 3,
+  "dexterity_save": 1,
+  "constitution_save": 3,
+  "intelligence_save": -2,
+  "wisdom_save": 0,
+  "charisma_save": 0,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "exhaustion",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Orc",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Greataxe",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 9 (1d12+3) slashing damage."
+    },
+    {
+      "name": "Javelin",
+      "desc": "_Melee or Ranged Weapon Attack:_ +5 to hit, reach 5 ft. or range 30/120 ft., one target. _Hit:_ 6 (1d6+3) piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Warrior's Advance",
+      "desc": "The orc moves up to its speed toward a hostile creature that it can see."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Stalwart",
+      "desc": "If the orc starts its turn afflicted by an ongoing effect that allows for a repeated save to end the effect, such as the hold spell or the poison from an ettercap's Bite, the orc can make the save at the start of the turn instead of the end and has advantage on the save."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_orc/"
+}

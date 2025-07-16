@@ -1,0 +1,86 @@
+{
+  "slug": "ogre-cunning-artisan",
+  "desc": "",
+  "name": "Ogre, Cunning Artisan",
+  "size": "Large",
+  "type": "Giant",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": "breastplate",
+  "hit_points": 119,
+  "hit_dice": "14d10+42",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 18,
+  "dexterity": 10,
+  "constitution": 17,
+  "intelligence": 16,
+  "wisdom": 12,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 6,
+  "intelligence_save": 6,
+  "wisdom_save": 4,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 14",
+  "languages": "Common, Giant",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Battleaxes or three Arcane Bolts."
+    },
+    {
+      "name": "Battleaxe",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 13 (2d8+4) slashing damage or 15 (2d10+4) slashing damage if used with two hands + 4 (1d8) force."
+    },
+    {
+      "name": "Arcane Bolt",
+      "desc": "Ranged Spell Attack: +6 to hit, 60 ft., one target, 12 (2d8+3) force."
+    },
+    {
+      "name": "Curse Item (Recharge 5-6)",
+      "desc": "Curses one magic item it can see within 60' of it. If item is being worn or carried by a creature creature must make DC 15 Cha save to avoid curse. For 1 min cursed item suffers one curse described below based on type."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Arcane Weapons",
+      "desc": "Its weapon attacks are magical. When it hits with any weapon deals an extra 1d8 force (included below)."
+    },
+    {
+      "name": "Artisan's Prowess",
+      "desc": "If a magic item requires an action to activate ogre can activate it as a bonus action instead."
+    },
+    {
+      "name": "Sense Magic",
+      "desc": "Senses magic within 120' of it at will. Otherwise works like the detect magic spell but isn't itself magical."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 299,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_ogre-cunning-artisan/"
+}

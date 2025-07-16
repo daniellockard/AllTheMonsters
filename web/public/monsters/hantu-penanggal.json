@@ -1,0 +1,96 @@
+{
+  "slug": "hantu-penanggal",
+  "desc": "The head of a beautiful woman flies through the air, trailing tentacle-like entrails while her headless body follows, bearing demonic claws._  \n**Cursed Nature.** Hantu penanggal arise when creatures pledged to fiendish powers break their agreements. They are cursed, becoming fiends hungering for the flesh and blood of the innocent.  \n**Mistaken for Undead.** Hantu penanggal are often mistaken for undead and don’t correct this error, finding delight in taking advantage of adventurers ill-prepared for an encounter with a fiend.",
+  "name": "Hantu Penanggal",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "Any Evil",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 123,
+  "hit_dice": "19d8+38",
+  "speed": {
+    "fly": 40,
+    "walk": 30
+  },
+  "strength": 14,
+  "dexterity": 16,
+  "constitution": 14,
+  "intelligence": 11,
+  "wisdom": 10,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 3,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "deception": 10,
+    "stealth": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "fire, poison",
+  "condition_immunities": "poisoned",
+  "senses": "truesight 60 ft., passive Perception 10",
+  "languages": "Abyssal, Common, Infernal",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "When detached, the hantu penanggal's head makes one bite attack and one entrails attack, and its body makes two claw attacks. In its whole form, it can make three rapier attacks."
+    },
+    {
+      "name": "Rapier (Whole Form Only)",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) necrotic damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d8+3"
+    },
+    {
+      "name": "Claw (Body Only)",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage plus 3 (1d6) necrotic damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d8+3"
+    },
+    {
+      "name": "Bite (Head Only)",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage plus 7 (2d6) necrotic damage. The target's hp maximum is reduced by an amount equal to the necrotic damage taken, and the penanggal regains hp equal to that amount. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hp maximum to 0. A humanoid slain in this way becomes the new body for the penanggal, if it is detached and its body died. Otherwise, the humanoid rises 24 hours later as a new hantu penanggal.",
+      "attack_bonus": 6,
+      "damage_dice": "2d8+3"
+    },
+    {
+      "name": "Entrails (Head Only)",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the penanggal can't use its entrails on another target.",
+      "attack_bonus": 6,
+      "damage_dice": "2d6+3"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Detachable Head",
+      "desc": "As a bonus action, the hantu penanggal detaches its head. The head trails entrails like flexible tentacles. While detached, the head and body act independently from each other on the same initiative, and each has hp equal to half its hp before detaching its head. Its statistics remain the same in both forms, except the body loses its truesight and gains blindsight out to a range of 60 feet.\n\nThe head and body can use the whole form's innate spellcasting trait, expending daily uses as normal. The two forms can rejoin into the fiend's whole form as a bonus action if they are within 5 feet of each other. If the head is destroyed while it is detached, the body also perishes. If the body is destroyed while the head is detached, the head has disadvantage on attack rolls and ability checks until it acquires a new body. A creature within 30 feet of the penanggal and that can see the detachment must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The hantu penanggal's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components.\nAt will: darkness, detect evil and good\n2/day each: protection from evil and good, scorching ray\n1/day each: gaseous form"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 192,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_hantu-penanggal/"
+}

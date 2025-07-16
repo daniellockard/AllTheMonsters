@@ -1,0 +1,80 @@
+{
+  "slug": "rock-salamander",
+  "desc": "",
+  "name": "Rock Salamander",
+  "size": "Tiny",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 27,
+  "hit_dice": "6d4+12",
+  "speed": {
+    "walk": 20,
+    "burrow": 20,
+    "climb": 20
+  },
+  "strength": 8,
+  "dexterity": 17,
+  "constitution": 14,
+  "intelligence": 5,
+  "wisdom": 13,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+  "senses": "darkvision 60', tremorsense 60', passive Perception 11",
+  "languages": "understands Terran but can't speak",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 6 (1d6+3) piercing damage."
+    },
+    {
+      "name": "Manipulate Stone",
+      "desc": "If it is touching stone it can manipulate stone contiguous with its location to create one of the following:Rumbling Earth: One creature touching stone within 10 ft. of salamander is knocked prone (DC 12 Dex negates).Softened Earth One creature touching stone within 10 ft. of salamander is restrained by softened mud-like stone until the end of its next turn (DC 12 Str negates).Stone Armor Salamander's AC +2 until start of its next turn."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Earth Glide",
+      "desc": "Can burrow through nonmagical unworked earth/stone with o disturbing material it moves through."
+    },
+    {
+      "name": "Stone Camouflage",
+      "desc": "Has advantage on Dex (Stealth) checks made to hide in rocky terrain."
+    },
+    {
+      "name": "Stone Spider Climb",
+      "desc": "Can climb difficult stone surfaces including upside down on ceilings with o an ability check."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 333,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_rock-salamander/"
+}

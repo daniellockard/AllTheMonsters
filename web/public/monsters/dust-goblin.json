@@ -1,0 +1,74 @@
+{
+  "slug": "dust-goblin",
+  "desc": "_A ragged creature emerges from the sand. Its spindly frame is encased in a hodge‑podge of armor scraps and rusted weapons. A long, hooked nose protrudes over a wide mouth filled with sharp teeth._  \nDust goblins vary greatly in size and appearance, although they are universally scrawny, bony, and lanky. They seem to suffer from malnutrition even when in perfect health, a perception reinforced by the way their bellies distend after they’ve gorged themselves on flesh. Their skin is always dry and cracked, ranging from dusky gray to dark green in color.  \n**Rule the Wastelands.** Dust goblins are twisted creatures, tainted by many generations of life in a blasted wasteland. After a magical war devastated the dust goblins’ homeland, they rose to become the most dominant inhabitants. They inhabit ancient ruins and ambush travelers who stray too close to their borders.  \n**Twisted Minds.** The lingering magical energy saturating the wastes of their home, coupled with the harsh conditions in which they scratch out a living, have tainted the minds of all dust goblins. Their thinking is alien and unfathomable to most creatures. Whereas most goblins are cowardly, dust goblins don’t seem to experience fear. To the contrary, they enjoy wearing skull helmets and using ghostly whistles to frighten foes. Owing to this alien mindset, dust goblins get along disturbingly well with aberrations. The creatures often forge alliances and work together for mutual benefit, while making their unnerving mark on communal lairs.  \nDust goblins range from 2 to 4 feet tall, and weigh between 20 and 80 pounds.",
+  "name": "Dust Goblin",
+  "size": "Small",
+  "type": "Humanoid",
+  "subtype": "goblinoid",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 14,
+  "armor_desc": "leather armor",
+  "hit_points": 5,
+  "hit_dice": "1d6+2",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 8,
+  "dexterity": 16,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 8,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "stealth": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened",
+  "senses": "darkvision 60 ft., passive Perception 9",
+  "languages": "Common, Goblin",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d6"
+    },
+    {
+      "name": "Light Crossbow",
+      "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+      "attack_bonus": 5,
+      "damage_dice": "1d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Twisted",
+      "desc": "When the dust goblin attacks a creature from hiding, its target must make a successful DC 10 Wisdom saving throw or be frightened until the end of its next turn."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 232,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_dust-goblin/"
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "kezai",
+  "desc": "This creature looks much like a human-sized scorpion with wide, laced wings. The tip of its curled tail holds numerous barbs that drip sticky poison._  \n**Chemical Killing Machine.** The kezai is a creature that lives in hot climates and wages a chemical war on anything that opposes it. It emits a foul poison from its tail, coating the barbs that it hurls at enemies. If this wasn’t deadly enough, it naturally produces a thin, flammable gas that it can ignite with a searing chemical produced in a gland near its mandibles. Fortunately for those who come across the kezai, the gland is slow-acting and takes time to produce the chemical necessary to ignite the gas.",
+  "name": "Kezai",
+  "size": "Medium",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 67,
+  "hit_dice": "9d8+27",
+  "speed": {
+    "walk": 30,
+    "fly": 50
+  },
+  "strength": 13,
+  "dexterity": 18,
+  "constitution": 16,
+  "intelligence": 4,
+  "wisdom": 12,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "fire",
+  "condition_immunities": "",
+  "senses": "blindsight 60 ft., passive Perception 11",
+  "languages": "—",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The kezai makes three attacks: one with its poison barb and two with its claws."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 7 (1d6 + 4) bludgeoning damage.",
+      "attack_bonus": 6,
+      "damage_dice": "1d6+4"
+    },
+    {
+      "name": "Poison Barb",
+      "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/120 ft., one creature. Hit: 6 (1d4 + 4) piercing damage, and the target must make a DC 14 Constitution saving throw. On a failure, the creature takes 7 (2d6) poison damage and is poisoned for 1 minute. On a success, the creature takes half the damage and isn't poisoned. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. While poisoned in this way, the creature takes 3 (1d6) poison damage at the start of each of its turns.",
+      "attack_bonus": 6,
+      "damage_dice": "1d4+4"
+    },
+    {
+      "name": "Searing Acid (Recharge 6)",
+      "desc": "The kezai's mandibles drip a searing acid, instantly igniting the gas around it. Each creature within 20 feet of the kezai must make a DC 14 Dexterity saving throw, taking 18 (4d8) fire damage on a failed save, or half as much damage on a successful one. The kezai's Nauseous Gas trait becomes inactive for 1 minute. The kezai can't use Searing Gas unless Nauseous Gas has been active for at least 1 minute."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Nauseous Gas",
+      "desc": "The kezai produces a faint, nauseating gas. Any creature that starts its turn within 20 feet of the kezai must succeed on a DC 14 Constitution saving throw or take 2 (1d4) poison damage. The area within 20 feet of the kezai is lightly obscured by the thin gas."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 228,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_kezai/"
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "resinous-frog",
+  "desc": "Resinous frogs secrete a fluid from their skin and tongues that adheres to most material, even if the frogs are in water. Most creatures stuck to the frogs become exhausted in the struggle to break free, providing the patient frog a later meal. If the frog has a dangerous predator stuck to its tongue, it can detach its tongue and leave the predator behind while it escapes. The frogs’ limited regenerative capabilities allow them to regrow lost tongues.",
+  "name": "Resinous Frog",
+  "size": "Small",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "armor_desc": "natural armor",
+  "hit_points": 19,
+  "hit_dice": "3d6+9",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 14,
+  "dexterity": 9,
+  "constitution": 16,
+  "intelligence": 3,
+  "wisdom": 11,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.",
+      "attack_bonus": 4,
+      "damage_dice": "1d6+2"
+    },
+    {
+      "name": "Tongue",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 10 ft., one creature. Hit: 4 (1d4 + 2) bludgeoning damage. If the creature is Medium or smaller, it is grappled (escape DC 12), and the frog can't make tongue attacks against other targets.",
+      "attack_bonus": 4,
+      "damage_dice": "1d4+2"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Adhesive Skin",
+      "desc": "The resinous frog adheres to anything that touches it. A Medium or smaller creature adhered to the frog is also grappled by it (escape DC 12). When the frog moves, any Small or smaller creature it is grappling moves with it.\n\nIn addition, when a creature hits the frog with a weapon, it must succeed on a DC 12 Strength saving throw or the weapon sticks to the frog. A stuck weapon can't be used. A creature can take its action to remove one creature or object from the frog by succeeding on a DC 12 Strength check.\n\nAs a bonus action, the frog can release one creature or weapon stuck to it. The frog can't be affected by another resinous frog's Adhesive Skin."
+    },
+    {
+      "name": "Detach Tongue",
+      "desc": "As a bonus action, the resinous frog can detach its tongue and move up to half its speed without provoking opportunity attacks. If it was grappling a creature with its tongue, the creature is freed. Its tongue regrows by the time it finishes a short or long rest."
+    },
+    {
+      "name": "Easy Prey",
+      "desc": "The resinous frog has advantage on bite attack rolls against any creature grappled by it."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 397,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_resinous-frog/"
+}

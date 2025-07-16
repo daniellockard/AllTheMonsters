@@ -1,0 +1,98 @@
+{
+  "slug": "culicoid",
+  "desc": "Filthy rags partially conceal this walking mosquito’s form. The hands poking out of its rags end in needle-like fingers, which resemble the proboscis on the creature’s head._  \n**Abyssal Swamp Dwellers.** Culicoid demons make their home in a fetid layer of the Abyss where they serve demon lords who value insects. When they travel to the Material Plane, they make themselves at home in insect-infested marshes.  \n**Buzzing and Itching.** Though a culicoid’s wings are suitably large for its size, they produce a high-pitched drone. Their wingbeats don’t stand out from regular insects, making them difficult to detect. The culicoid’s filthy proboscis induces an irritating rash that forces its victims to ignore all else to scratch the rash.  \n**Friend to Mosquitos.** The culicoid demon can communicate with mosquitos, stirges, and other similar creatures, such as Open Game License",
+  "name": "Culicoid",
+  "size": "Large",
+  "type": "Fiend",
+  "subtype": "demon",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 190,
+  "hit_dice": "20d10+80",
+  "speed": {
+    "fly": 60,
+    "hover": true,
+    "walk": 30
+  },
+  "strength": 20,
+  "dexterity": 15,
+  "constitution": 18,
+  "intelligence": 11,
+  "wisdom": 14,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": 8,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 6,
+  "skills": {
+    "acrobatics": 6,
+    "perception": 6,
+    "stealth": 6
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
+  "senses": "darkvision 120 ft., passive Perception 16",
+  "languages": "Abyssal, telepathy 60 ft.",
+  "challenge_rating": "12",
+  "cr": 12,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The culicoid makes three attacks: one with its proboscis and two with its needle claws."
+    },
+    {
+      "name": "Needle Claws",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, the culicoid can automatically hit the target with its needle claw, and it can't use the same needle claw against other targets. The culicoid has two needle claws, each of which can grapple only one target.",
+      "attack_bonus": 9,
+      "damage_dice": "2d6+5"
+    },
+    {
+      "name": "Proboscis",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one creature. Hit: 14 (2d8 + 5) piercing damage plus 7 (2d6) poison damage. The target must succeed on a DC 16 Constitution saving throw or be poisoned for 1 minute. While poisoned, a creature must succeed on a DC 16 Wisdom saving throw at the start of each of its turns or spend its full turn scratching the rash. A poisoned creature can repeat the Constitution saving throw at the end of each of its turns, ending the poisoned condition on itself on a success.",
+      "attack_bonus": 9,
+      "damage_dice": "2d8+5"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Blood Sense",
+      "desc": "The culicoid can pinpoint, by scent, the location of creatures that have blood within 60 feet of it."
+    },
+    {
+      "name": "Cloud of Mosquitos",
+      "desc": "When the culicoid is reduced to 0 hp, it transforms into a swarm of mosquitos (use the statistics of a swarm of insects). If at least one mosquito from the swarm survives for 24 hours, the culicoid reforms at the following dusk from the remaining mosquitos, regaining all its hp and becoming active again."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The culicoid has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Mosquito-Proof",
+      "desc": "The culicoid can't be subjected to blood drain from mosquitos and mosquito-like creatures."
+    },
+    {
+      "name": "Speak with Mosquitos",
+      "desc": "The culicoid can communicate with mosquitos and other mosquito-like creatures as if they shared a language."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 94,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_culicoid/"
+}

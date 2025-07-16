@@ -1,0 +1,80 @@
+{
+  "slug": "ramag-tob1-2023",
+  "desc": "False",
+  "name": "Ramag",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral",
+  "armor_class": 13,
+  "armor_desc": "leather armor",
+  "hit_points": 27,
+  "hit_dice": "6d8",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 9,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 16,
+  "wisdom": 12,
+  "charisma": 11,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 11,
+  "skills": {
+    "Arcana": 5,
+    "Investigation": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "passive Perception 11",
+  "languages": "Common",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Scimitar",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+    },
+    {
+      "name": "Shortbow",
+      "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Portal Traveler (Recharge 5-6)",
+      "desc": "The ramag creates and steps into a small portal and out of an identical portal in a space it can see within 60 feet of it. If a creature is in the destination space, the creature must make a DC 13 Intelligence saving throw. On a failure, the ramag trades spaces with the creature. On a success, the ramag fails to teleport. Whatever the result, the portal disappears."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The ramag has advantage on saving throws against spells or other magical effects."
+    },
+    {
+      "name": "Portal Sense",
+      "desc": "The ramag can pinpoint the location of planar portals within 100 feet of it and can sense the general direction of planar portals within 1 mile of it. In addition, if the ramag spends 10 minutes studying a portal, it can determine the portal's destination and any requirements to use or activate it."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 299,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_ramag/"
+}

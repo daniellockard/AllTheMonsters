@@ -1,0 +1,90 @@
+{
+  "slug": "xecha",
+  "desc": "",
+  "name": "Xecha",
+  "size": "Medium",
+  "type": "Fiend",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 133,
+  "hit_dice": "14d8+70",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 12,
+  "dexterity": 17,
+  "constitution": 20,
+  "intelligence": 11,
+  "wisdom": 14,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 5,
+  "charisma_save": 6,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "acid, poison",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, poisoned, prone",
+  "senses": "blindsight 120' (blind beyond), passive Perception 12",
+  "languages": "Abyssal, Common, Infernal, telepathy 120'",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Pseudopod attacks or three Slams."
+    },
+    {
+      "name": "Pseudopod (True Form Only)",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 13 (3d6+3) bludgeoning damage + 7 (2d6) acid."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 12 (2d8+3) bludgeoning damage."
+    },
+    {
+      "name": "Sensory Overload (Recharge 5-6)",
+      "desc": "Psychic pulse. Each creature that isn't a Construct or Undead within 20' of the xecha: 24 (7d6) psychic and blinded and deafened until end of its next turn (DC 15 Int half damage not blinded/deafened)."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amorphous ",
+      "desc": "Can move through a space as narrow as 1' wide with o squeezing. Any equipment worn/carried is left behind when it goes through a space too small for the equipment."
+    },
+    {
+      "name": "Assume the Dead",
+      "desc": "Enters corpse of a Small Medium or Large creature that has been dead less than 24 hrs impersonating it for 2d4 days before body decays. If xecha takes 15 damage or more on a single turn while inhabiting body it must make DC 15 Con save or be ejected from the body which falls apart and is destroyed. Its stats except size are same in each body."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Transparent",
+      "desc": "Even when in plain sight it takes a successful DC 16 Wis (Perception) check to spot a xecha that has neither moved nor attacked. A creature that tries to enter the xecha's space while unaware of it is surprised by the xecha."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 397,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_xecha/"
+}

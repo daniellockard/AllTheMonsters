@@ -1,0 +1,80 @@
+{
+  "slug": "zombie-knight-a5e",
+  "desc": "",
+  "name": "Zombie Knight",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 16,
+  "armor_desc": "",
+  "hit_points": 52,
+  "hit_dice": "8d8+16",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 16,
+  "dexterity": 6,
+  "constitution": 14,
+  "intelligence": 3,
+  "wisdom": 8,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "poison",
+  "condition_immunities": "fatigue, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 9",
+  "languages": "understands one language but can't speak",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The zombie makes two melee attacks."
+    },
+    {
+      "name": "Greatsword",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage."
+    },
+    {
+      "name": "Grab",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage  and the creature is grappled if its Medium or smaller (escape DC 13)  and until the grapple ends  the zombie can't grab another target."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature grappled by a zombie. Hit: 8 (1d10 + 3) piercing damage  and the zombie regains hit points equal to the damage dealt."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Undead Fortitude (1/Day)",
+      "desc": "If the zombie is reduced to 0 hit points by damage that isnt radiant or from a critical hit, its instead reduced to 1 hit point, falls prone, and is stunned until the end of its next turn, appearing to be dead."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "A zombie doesnt require air, sustenance, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 437,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_zombie-knight/"
+}

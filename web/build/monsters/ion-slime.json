@@ -1,0 +1,96 @@
+{
+  "slug": "ion-slime",
+  "desc": "",
+  "name": "Ion Slime",
+  "size": "Small",
+  "type": "Ooze",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 112,
+  "hit_dice": "15d6+60",
+  "speed": {
+    "walk": 20,
+    "swim": 20
+  },
+  "strength": 10,
+  "dexterity": 17,
+  "constitution": 18,
+  "intelligence": 2,
+  "wisdom": 4,
+  "charisma": 1,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -3,
+  "skills": {
+    "perception": -3
+  },
+  "damage_vulnerabilities": "cold",
+  "damage_resistances": "thunder",
+  "damage_immunities": "",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
+  "senses": "blindsight 60' (blind beyond), passive Perception 7",
+  "languages": "—",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Pseudopod attacks."
+    },
+    {
+      "name": "Pseudopod",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 6 (1d6+3) bludgeoning damage + 9 (2d8) lightning."
+    },
+    {
+      "name": "Discharge (Supercharged Only)",
+      "desc": "Sends shock of lightning through its supercharged pseudopod at onecreature it can see within 5 ft. of it ending supercharged state. Target: 27 (6d8) lightning (DC 15 Con half). Three bolts of lightning then leap to as many as three targets each must be within 20' of first target. Target can be creature or object and each can be targeted by only one bolt. Each target: 13 (3d8) lightning (DC 15 Con half)."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Charged Motion (Supercharged Only)",
+      "desc": "Dash or Dodge action."
+    },
+    {
+      "name": "Supercharge (Recharge 5-6)",
+      "desc": "Gathers ambient electricity to supercharge itself for 3 rounds. While supercharged slime gains +2 bonus to its AC and it gains an additional action on each of its turns. At end of the third round if the slime hasn't used the Discharge action it suffers feedback taking 18 (4d8) force. Its supercharged state then ends."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Amorphous",
+      "desc": "Move through space 1ft.+ wide with o squeezing."
+    },
+    {
+      "name": "Ionic Form",
+      "desc": "Whenever subjected to lightning it takes no damage and instead regains hp equal to lightning dealt. Its Supercharge then recharges. If it takes cold while supercharged it must roll a d6. On a 1 or 2 it loses the supercharged state."
+    },
+    {
+      "name": "Ooze Nature",
+      "desc": "Doesn't require sleep."
+    },
+    {
+      "name": "Spider Climb",
+      "desc": "Difficult surfaces even ceilings no ability check."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 245,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_ion-slime/"
+}

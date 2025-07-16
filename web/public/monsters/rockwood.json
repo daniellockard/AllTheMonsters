@@ -1,0 +1,99 @@
+{
+  "slug": "rockwood",
+  "desc": "",
+  "name": "Rockwood",
+  "size": "Huge",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 94,
+  "hit_dice": "9d12+36",
+  "speed": {
+    "walk": 30,
+    "burrow": 15
+  },
+  "strength": 20,
+  "dexterity": 8,
+  "constitution": 19,
+  "intelligence": 10,
+  "wisdom": 15,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "thunder",
+  "damage_resistances": "nonmagic B/P/S attacks",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+  "senses": "darkvision 60', tremorsense 60', passive Perception 12",
+  "languages": "Sylvan, Terran",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Whomping Slam or Rock attacks. If both Slams hit 1 target each creature within 5 ft. of target: 9 (2d8) bludgeoning damage and knocked prone (DC 15 Dex negates damage and prone)."
+    },
+    {
+      "name": "Whomping Slam",
+      "desc": "Melee Weapon Attack: +8 to hit, 10 ft., one target, 18 (3d8+5) bludgeoning damage and if the target is a Large or smaller creature it must make DC 15 Str save or be knocked prone."
+    },
+    {
+      "name": "Rock",
+      "desc": "Ranged Weapon Attack: +8 to hit 60/180' one target 16 (2d10+5) bludgeoning damage."
+    },
+    {
+      "name": "Fossil Barrage (Recharge 6)",
+      "desc": "Stone shards in 30' cone. Each creature in area: 28 (8d6) piercing damage (DC 15 Dex half)."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Earth Glide",
+      "desc": "Can burrow through nonmagical unworked earth/stone with o disturbing material it moves through."
+    },
+    {
+      "name": "Elemental Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Persistence of Stone (Recharge: Short/Long Rest)",
+      "desc": "When reduced to below half its hp max Fossil Barrage recharges."
+    },
+    {
+      "name": "Roiling Roots",
+      "desc": "Its stony roots make the ground within 15 ft. of it difficult terrain for creatures other than the rockwood."
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "Double damage to objects/structures."
+    },
+    {
+      "name": "Towering Reach",
+      "desc": "Doesn't have disadvantage on ranged attack rolls from being within 5 ft. of a hostile creature though it may still have disadvantage from other sources."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 334,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_rockwood/"
+}

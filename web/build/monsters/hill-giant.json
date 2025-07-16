@@ -1,0 +1,82 @@
+{
+  "slug": "hill-giant",
+  "desc": "",
+  "name": "Hill Giant",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "group": "Giants",
+  "alignment": "Chaotic Evil",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 105,
+  "hit_dice": "10d12+40",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 21,
+  "dexterity": 8,
+  "constitution": 19,
+  "intelligence": 5,
+  "wisdom": 9,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "passive Perception 12",
+  "languages": "Giant",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The giant makes two greatclub attacks."
+    },
+    {
+      "name": "Greatclub",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage.",
+      "attack_bonus": 8,
+      "damage_dice": "3d8",
+      "damage_bonus": 5
+    },
+    {
+      "name": "Rock",
+      "desc": "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage.",
+      "attack_bonus": 8,
+      "damage_dice": "3d10",
+      "damage_bonus": 5
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": null,
+  "spell_list": [],
+  "page_no": 313,
+  "environments": [
+    "Hill",
+    "Feywild",
+    "Mountains",
+    "Forest",
+    "Ruin",
+    "Plane Of Earth"
+  ],
+  "img_main": null,
+  "document__slug": "wotc-srd",
+  "document__title": "5e Core Rules",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+  "v2_converted_path": "/v2/creatures/srd_hill-giant/"
+}

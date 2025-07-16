@@ -1,0 +1,84 @@
+{
+  "slug": "risen-reaver",
+  "desc": "_A body that might once have been human now has four legs and nightmarishly long, thick arms. What’s worse, its skin has been flayed off, revealing the dead muscle and sinew beneath._  \n**Spirt of War.** The risen reaver is an undead born from a warrior fallen on the battlefield. Its body becomes an avatar of combat, with four legs and a pair of long, heavy arms. In the process, it sheds its skin, becoming entirely undead muscle, bone, and sinew.  \n**Absorb Weapons.** When risen reavers take form, they absorb all weapons around them. Some of these weapons pierce their bodies, and others become part of the risen reaver’s armament. Their four legs are tipped with blades on which they walk like metallic spiders. Their arms are covered in weaponry infused into their flesh, which they use to crush and flay any living creatures they encounter.  \n**Battle Mad.** Risen reavers are battle‑maddened spirits of vengeance and slaughter, obsessed with the chaos of combat that led to their own death. They hunt the living with the sole purpose of killing, and they thrive on violence and murder. As they died, so should others die.  \n**Undead Nature.** A risen reaver doesn’t require air, food, drink, or sleep.",
+  "name": "Risen Reaver",
+  "size": "Large",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "studded leather",
+  "hit_points": 168,
+  "hit_dice": "16d10+80",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 19,
+  "dexterity": 16,
+  "constitution": 20,
+  "intelligence": 9,
+  "wisdom": 7,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": 6,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft., passive Perception 11",
+  "languages": "any languages it knew in life",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The risen reaver makes three blade attacks."
+    },
+    {
+      "name": "Blade",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 15 (2d10 + 4) slashing damage.",
+      "attack_bonus": 7,
+      "damage_dice": "2d10"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Life Sense",
+      "desc": "The risen reaver automatically detects all living creatures within 120 feet. This sense is blocked by 3 feet of wood, 1 foot of earth or stone, an inch of metal, or a thin sheet of lead."
+    },
+    {
+      "name": "Pounce",
+      "desc": "When the risen reaver hits an enemy with its blade attack after moving at least 20 feet, the target creature must make a DC 15 Strength saving throw. On a failure, the creature falls prone and the risen reaver can use a bonus action to make a single blade attack."
+    },
+    {
+      "name": "Infused Arsenal",
+      "desc": "As a bonus action, the risen reaver can absorb one unattended weapon into its body. For every weapon it absorbs, it deals +1 damage with its blade attacks ( maximum of +3)."
+    },
+    {
+      "name": "Skitter",
+      "desc": "The risen reaver can take the Dash action as a bonus action."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 328,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_risen-reaver/"
+}

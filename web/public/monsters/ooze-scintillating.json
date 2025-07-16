@@ -1,0 +1,105 @@
+{
+  "slug": "ooze-scintillating",
+  "desc": "",
+  "name": "Ooze, Scintillating",
+  "size": "Large",
+  "type": "Ooze",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 165,
+  "hit_dice": "22d8+66",
+  "speed": {
+    "walk": 30,
+    "climb": 30
+  },
+  "strength": 20,
+  "dexterity": 10,
+  "constitution": 16,
+  "intelligence": 3,
+  "wisdom": 7,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -2,
+  "skills": {
+    "perception": -2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "acid, cold, lightning, slashing",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, grappled, prone",
+  "senses": "blindsight 120' (blind beyond), passive Perception 16",
+  "languages": "—",
+  "challenge_rating": "12",
+  "cr": 12,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "One Pseudopod and three Weapon Thrashes."
+    },
+    {
+      "name": "Weapon Thrash",
+      "desc": "Melee Weapon Attack: +9 to hit, 5 ft., one target, 10 (2d4+5) bludgeoning damage/P/S (the ooze's choice) damage."
+    },
+    {
+      "name": "Pseudopod",
+      "desc": "Melee Weapon Attack: +9 to hit, 5 ft., one target, 10 (2d4+5) bludgeoning damage + 18 (4d8) acid."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Shed Oozling",
+      "desc": "When it has more than 10 hp and is subjected to acid cold lightning or slashing it can lose 10 hp to create an oozling: same stats as scintillating ooze except it is Tiny has 10 hp can't make Weapon Thrashes and can't use this reaction or legendary actions."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": [
+    {
+      "name": "Move",
+      "desc": "Up to its speed with o provoking opportunity attacks."
+    },
+    {
+      "name": "Grasping Pseudopod",
+      "desc": "Launches a pseudopod at one creature it can see within 30' of it. Target must make DC 17 Str save or be pulled up to 30' toward the ooze."
+    },
+    {
+      "name": "Lunging Attack (2)",
+      "desc": "Makes one Weapon Thrash attack at a creature it can see within 10 ft. of it."
+    }
+  ],
+  "special_abilities": [
+    {
+      "name": "Amorphous",
+      "desc": "Move through space 1ft.+ wide with o squeezing."
+    },
+    {
+      "name": "Corrosive Form",
+      "desc": "A creature that touches it or hits it with melee attack while within 5 ft. of it takes 10 (3d6) acid."
+    },
+    {
+      "name": "Ooze Nature",
+      "desc": "Doesn't require sleep."
+    },
+    {
+      "name": "Spider Climb",
+      "desc": "Difficult surfaces even ceilings no ability check."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 307,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_ooze-scintillating/"
+}

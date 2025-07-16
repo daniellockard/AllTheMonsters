@@ -1,0 +1,87 @@
+{
+  "slug": "collais",
+  "desc": "The colláis is a large, deer-like creature covered in thick, black fur. A great rack of antlers grows from its thick skull, in which prominent eye sockets display two red embers for eyes. The monster has no mouth; instead, a coarse beard grows in its place._  \n**Summoned Protector.** If a forest village is in danger, the villagers might perform a ritual sacrifice to summon a colláis. Once the ritual is complete, the creature appears in the branches of a nearby tree. It then stalks the village and its surroundings. A colláis returns to its home plane after 24 hours.",
+  "name": "Colláis",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 150,
+  "hit_dice": "20d10+40",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 19,
+  "dexterity": 15,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 17,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": 5,
+  "perception": 7,
+  "skills": {
+    "intimidation": 9,
+    "perception": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing damage from nonmagical attacks",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened",
+  "senses": "darkvision 120 ft., passive Perception 17",
+  "languages": "understands Common and Sylvan but can’t speak",
+  "challenge_rating": "10",
+  "cr": 10,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The colláis makes one gore attack and two hooves attacks."
+    },
+    {
+      "name": "Gore",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage.",
+      "attack_bonus": 8,
+      "damage_dice": "2d10+4"
+    },
+    {
+      "name": "Hooves",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
+      "attack_bonus": 8,
+      "damage_dice": "2d8+4"
+    },
+    {
+      "name": "Cry of the Forest",
+      "desc": "The colláis sounds a dreadful and reverberating call. Each creature within 100 feet of the colláis that can hear the cry must succeed on a DC 16 Charisma saving throw or be frightened until the end of its next turn. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the colláis's Cry of the Forest for the next 24 hours. Forest-dwelling beasts and monstrosities with an Intelligence of 4 or lower automatically succeed or fail on this saving throw, the colláis's choice."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Impale and Toss",
+      "desc": "When the colláis hits a Medium or smaller creature with a gore attack, it can use a bonus action to impale and toss the creature. The target must succeed on a DC 16 Strength saving throw or take 11 (2d10) piercing damage and be flung up to 10 feet away from the colláis in a random direction and knocked prone."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The colláis has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 69,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_collais/"
+}

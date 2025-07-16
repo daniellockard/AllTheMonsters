@@ -1,0 +1,82 @@
+{
+  "slug": "flying_sword_bf",
+  "desc": "",
+  "name": "Flying Sword",
+  "size": "Small",
+  "type": "Construct",
+  "subtype": "",
+  "group": "Animated Objects",
+  "alignment": "",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 11,
+  "hit_dice": "",
+  "speed": {
+    "walk": 0,
+    "fly": 50
+  },
+  "strength": 12,
+  "dexterity": 16,
+  "constitution": 10,
+  "intelligence": 1,
+  "wisdom": 4,
+  "charisma": 1,
+  "strength_save": 1,
+  "dexterity_save": 3,
+  "constitution_save": 0,
+  "intelligence_save": -5,
+  "wisdom_save": -3,
+  "charisma_save": -5,
+  "perception": 7,
+  "skills": {},
+  "damage_vulnerabilities": "acid",
+  "damage_resistances": "piercing",
+  "damage_immunities": "blinded,deafened,prone,Construct Resilience",
+  "condition_immunities": "",
+  "senses": "keensense 60 ft. (can't sense beyond this radius)",
+  "languages": "-",
+  "challenge_rating": "1/4",
+  "cr": 0.25,
+  "actions": [
+    {
+      "name": "Slash",
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one target. _Hit:_ 5 (1d8+1) slashing damage."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Whirling Blade (6 HP or Fewer)",
+      "desc": "The flying sword makes a Slash attack against a target it can sense within 5 feet of it."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Antimagic Susceptibility",
+      "desc": "The sword is incapacitated while in the area of an antimagic field. If targeted by _dispel magic_, the sword must succeed on a CON save against the caster's spell save DC or fall unconscious for 1 minute."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "The sword doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Construct Resilience",
+      "desc": "The sword is immune to poison and psychic damage, and it is immune to exhaustion and the charmed, frightened, paralyzed, petrified, and poisoned conditions."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While the sword remains motionless and isn't flying, it is indistinguishable from a normal sword."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_flying-sword/"
+}

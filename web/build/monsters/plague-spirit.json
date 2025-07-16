@@ -1,0 +1,84 @@
+{
+  "slug": "plague-spirit",
+  "desc": "A tight, leather coif underneath a cracked, black mask that resembles a long-beaked bird with hollow, black eyes obscures the face and head of this humanoid. Long, tattered, dark-green robes drape loosely over its form. An obsidian censer decorated in etchings of dead trees moves from hand to hand, green mist pouring forth with each swing as it performs a strange and eerie dance._  \nPlague spirits and their deadly mists have haunted the planes as long as life has existed. The path of death left in their wake is often mistaken as the result of a natural disaster. Many druids speculate that plague spirits are entropic forces that exist as the embodiment of the darker side of nature, curbing overgrowth and allowing new life to grow from the dead.  \n**Harbingers of Decay.** The presence of a plague spirit is always announced by a rolling front of sickly, green mist that spans several miles. The spirit can always be found at the center, performing an unsettling yet enchanting dance. As it dances, the censer it carries expels mist in all directions. Any living thing exposed to this mist slowly succumbs to decay. Whether turning a lush forest and its inhabitants into a dark, desiccated landscape or creating a silent ruin out of a bustling city, the presence of a plague spirit forewarns a massive loss of life.  \n**Drawn to Life.** Plague spirits are drawn to the densest collections of life in an area, and nothing seems to deter these spirits from their path.",
+  "name": "Plague Spirit",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 14,
+  "armor_desc": null,
+  "hit_points": 150,
+  "hit_dice": "20d8+60",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 10,
+  "dexterity": 18,
+  "constitution": 17,
+  "intelligence": 2,
+  "wisdom": 18,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": 8,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 8,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, diseased, exhaustion, frightened, poisoned, unconscious",
+  "senses": "darkvision 120 ft., passive Perception 14",
+  "languages": "—",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The plague spirit makes three attacks: one with its enfeebling touch and two with its censer."
+    },
+    {
+      "name": "Censer",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 7 (2d6) necrotic damage.",
+      "attack_bonus": 8,
+      "damage_dice": "2d8+4"
+    },
+    {
+      "name": "Enfeebling Touch",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 14 (4d6) necrotic damage, and the target's Strength score is reduced by 1d6. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.",
+      "attack_bonus": 8,
+      "damage_dice": "4d6"
+    },
+    {
+      "name": "Dance of Death (Recharge 5-6)",
+      "desc": "The plague spirit dances and twirls its censer. Each creature within 20 feet of the plague spirit that can see it must make a DC 16 Constitution saving throw. On a failure, a creature takes 28 (8d6) necrotic damage and is frightened for 1 minute. On a success, a creature takes half the damage and isn't frightened. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Decrepit Mist",
+      "desc": "A cloud of green mist with a diameter of 1 mile and height of 60 feet is centered on the spirit. For each day a creature spends in the mist, it must succeed on a DC 16 Constitution saving throw or increase in age by 5 percent of its total life span. The mist has no effect on undead or constructs."
+    },
+    {
+      "name": "Hunter of the Living",
+      "desc": "The plague spirit can magically sense the general direction of the largest concentration of living flora and fauna within 50 miles of it."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 296,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_plague-spirit/"
+}

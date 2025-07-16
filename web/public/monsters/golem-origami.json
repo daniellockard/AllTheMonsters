@@ -1,0 +1,112 @@
+{
+  "slug": "golem-origami",
+  "desc": "",
+  "name": "Golem, Origami",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 114,
+  "hit_dice": "12d10+48",
+  "speed": {
+    "walk": 30,
+    "fly": 40
+  },
+  "strength": 17,
+  "dexterity": 14,
+  "constitution": 18,
+  "intelligence": 5,
+  "wisdom": 10,
+  "charisma": 5,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "fire",
+  "damage_resistances": "",
+  "damage_immunities": "poison, psychic; nonmagic bludgeoning, piercing, and slashing attacks not made with adamantine weapons",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone",
+  "senses": "darkvision 60', passive Perception 13",
+  "languages": "understands creator's languages, can't speak",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Lacerating Strike or Wing Buffet attacks."
+    },
+    {
+      "name": "Lacerating Strike",
+      "desc": "Melee Weapon Attack: +6 to hit, 10 ft., one target, 16 (3d8+3) slashing damage."
+    },
+    {
+      "name": "Wing Buffet (Dragon or Swan Form)",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 13 (3d6+3) bludgeoning damage and target must make DC 15 Str save or be knocked prone."
+    },
+    {
+      "name": "Hazardous Hop (Frog Form)",
+      "desc": "If it jumps 15 ft.+ as part of its move it can then use this to land on its feet in unoccupied space it can see. Each creature within 10 of golem when it lands: 33 (6d10) bludgeoning damage and knocked prone (DC 15 Dex half not prone)."
+    },
+    {
+      "name": "Shredded Breath (Dragon Form Recharge 5-6)",
+      "desc": "Exhales a spray of paper fragments in a 30' cone. Each creature in area: 31 (9d6) slashing damage and blinded until end of its next turn (DC 15 Dex half not blinded)."
+    },
+    {
+      "name": "Trumpeting Blast (Swan Form Recharge 5-6)",
+      "desc": "Emits a trumpeting blast in 30' cone. Each creature in area: 31 (7d8) thunder and deafened until end of its next turn (DC 15 Con half not deafened)."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Fold",
+      "desc": "Reshape papery body to resemble Large dragon Large swan or Med frog. Use again to unfold into Large flat piece of fabric/paper. Stats except size same in each form. Unfolded if it dies."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Construct Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "False Appearance (Unfolded Form)",
+      "desc": "Motionless indistinguishable from ordinary paper screen tapestry or similar flat paper/fabric art."
+    },
+    {
+      "name": "Immutable Form",
+      "desc": "Immune: form-altering spells/effects."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Magic Weapons",
+      "desc": "Weapon attacks are magical."
+    },
+    {
+      "name": "Standing Leap (Frog Form)",
+      "desc": "Its long jump is up to 30' and its high jump is up to 15 ft. with or with o a running start."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 217,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_golem-origami/"
+}

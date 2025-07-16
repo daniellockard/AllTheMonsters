@@ -1,0 +1,84 @@
+{
+  "slug": "mallqui-tob1-2023",
+  "desc": "False",
+  "name": "Mallqui",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Lawful Neutral",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 120,
+  "hit_dice": "16d8 + 48",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 16,
+  "dexterity": 9,
+  "constitution": 16,
+  "intelligence": 11,
+  "wisdom": 18,
+  "charisma": 14,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": 3,
+  "wisdom_save": null,
+  "charisma_save": 5,
+  "perception": 14,
+  "skills": {
+    "History": 3,
+    "Insight": 7,
+    "Religion": 3
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "the languages it knew in life",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Xeric Blast",
+      "desc": "Melee or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 60 ft., one target. Hit: 18 (4d6 + 4) necrotic damage."
+    },
+    {
+      "name": "Xeric Aura",
+      "desc": "Each creature within 20 feet of the mallqui must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion, as moisture is drained from its body. If a creature's saving throw is successful, it is immune to the mallqui's Xeric Aura for the next 24 hours."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The mallqui casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save DC 15):\nAt will: druidcraft\n3/day each: create or destroy water, entangle\n1/day each: locate animals or plants, wind wall"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Regeneration",
+      "desc": "The mallqui regains 10 hp at the start of its turn. If the mallqui takes radiant damage, this trait doesn't function at the start of the mallqui's next turn. The mallqui dies only if it starts its turn with 0 hp and doesn't regenerate."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The mallqui doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Water Hypersusceptibility",
+      "desc": "For every 5 feet the mallqui moves in water, or for every gallon of water splashed on it, it takes 2 (1d4) radiant damage. In addition, the mallqui takes 10 radiant damage when it starts its turn at least partially submerged in water."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 261,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_mallqui/"
+}

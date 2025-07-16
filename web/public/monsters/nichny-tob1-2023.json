@@ -1,0 +1,93 @@
+{
+  "slug": "nichny-tob1-2023",
+  "desc": "False",
+  "name": "Nichny",
+  "size": "Medium",
+  "type": "Fey",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 17,
+  "armor_desc": "natural armor",
+  "hit_points": 127,
+  "hit_dice": "17d8 + 51",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 17,
+  "dexterity": 19,
+  "constitution": 17,
+  "intelligence": 18,
+  "wisdom": 18,
+  "charisma": 19,
+  "strength_save": null,
+  "dexterity_save": 7,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 17,
+  "skills": {
+    "Acrobatics": 7,
+    "Insight": 7,
+    "Perception": 7,
+    "Stealth": 7
+  },
+  "damage_vulnerabilities": "The falseheart is vulnerable to radiant damage.",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_immunities": "poison",
+  "condition_immunities": "charmed, frightened, paralyzed, poisoned, unconscious",
+  "senses": "darkvision 60 ft., passive Perception 17",
+  "languages": "Elvish, Primordial, Sylvan, Void Speech",
+  "challenge_rating": "6",
+  "cr": 6,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The nichny makes two Claw or Luck-Stealing Bolt attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage plus 9 (2d8) force damage."
+    },
+    {
+      "name": "Luck-Stealing Bolt",
+      "desc": "Ranged Spell Attack: +7 to hit, range 60 ft., one target. Hit: 22 (4d8 + 4) force damage, and the target has disadvantage on ability checks and attack rolls until the end of its next turn."
+    },
+    {
+      "name": "Create Lucky Stone",
+      "desc": "The nichny magically imbues a small stone with good luck. A creature, other than the nichny, wearing or carrying the stone has a +1 bonus to saving throws. The nichny can have no more than three such stones actively imbued at a time. If it imbues a fourth, the effect on the oldest imbued stone ends. The nichny can end the magic on any of the stones at any time (no action required)."
+    },
+    {
+      "name": "Teleport (Recharge 6)",
+      "desc": "The nichny magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Aura of Luck",
+      "desc": "The nichny is surrounded by an aura that manipulates the luck of those near the nichny. Each friendly creature, other than the nichny, within 10 feet of the nichny has a +1 bonus to attack rolls and saving throws. Each hostile creature that starts its turn within 10 feet of the nichny must succeed on a DC 15 Wisdom saving throw or have disadvantage on attack rolls and saving throws until the end of its turn."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The nichny has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Soothsaying (1/Day)",
+      "desc": "The nichny can spend 1 minute conversing with a creature it can see within 30 feet of it. During this time, the creature can ask up to three questions about the past, present, or future. At the end of the minute, the nichny then offers two truthful answers and one false answer, each in the form of a paradox, riddle, or cryptic rhyme."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 284,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_nichny/"
+}

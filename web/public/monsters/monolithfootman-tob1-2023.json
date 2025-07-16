@@ -1,0 +1,76 @@
+{
+  "slug": "monolithfootman-tob1-2023",
+  "desc": "False",
+  "name": "Monolith Footman",
+  "size": "Large",
+  "type": "Construct",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 60,
+  "hit_dice": "8d10 + 16",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 15,
+  "dexterity": 12,
+  "constitution": 14,
+  "intelligence": 10,
+  "wisdom": 10,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Elvish, Umbral",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The footman makes two Shortsword attacks."
+    },
+    {
+      "name": "Shortsword",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage plus 4 (1d8) cold damage or fire damage (the footman's choice). If the target is within a fey court or castle, the target must succeed on a DC 12 Charisma saving throw or become invisible, silent, and paralyzed for 1 minute, while an illusory version of the target under the footman's control remains visible and audible. The illusion shouts to the target's allies for a retreat or similar action. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself and destroying the illusory double on a success."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Coldfire Weapons",
+      "desc": "The monolith footman's weapon attacks are imbued with blue fey fire and magical. When the footman hits with any weapon, the weapon deals an extra 1d8 cold damage or fire damage (included in the attack), the champion's choice."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "The monolith footman doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Simple Construction",
+      "desc": "A critical hit against the footman causes it to burst into pieces and be destroyed. Each creature within 5 feet of the footman must succeed on a DC 12 Dexterity saving throw or take 5 (2d4) bludgeoning damage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 275,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_monolith-footman/"
+}

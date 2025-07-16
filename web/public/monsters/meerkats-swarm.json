@@ -1,0 +1,79 @@
+{
+  "slug": "meerkats-swarm",
+  "desc": "",
+  "name": "Meerkats, Swarm",
+  "size": "Medium",
+  "type": "Beast",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 22,
+  "hit_dice": "5d8",
+  "speed": {
+    "walk": 20,
+    "burrow": 10
+  },
+  "strength": 9,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 2,
+  "wisdom": 10,
+  "charisma": 4,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, poison, slashing",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "senses": "passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +4 to hit, 0 ft., one creature, in the swarm's space. 10 (4d4) piercing damage or 5 (2d4) piercing damage if swarm has half of its hp or fewer."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Corral",
+      "desc": "A creature in the swarm's space must make DC 12 Dex save to leave its space. The creature has advantage on its save if the swarm has half of its hp or fewer."
+    },
+    {
+      "name": "Keen Sight",
+      "desc": "Advantage: sight Wis (Percept) checks."
+    },
+    {
+      "name": "Snake Hunter",
+      "desc": "Has advantage on saves vs. being poisoned."
+    },
+    {
+      "name": "Swarm",
+      "desc": "Can occupy another creature's space and vice versa and swarm can move through any opening large enough for a Tiny meerkat. Swarm can't regain hp or gain temp hp."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 268,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_meerkats-swarm/"
+}

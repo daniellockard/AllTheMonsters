@@ -1,0 +1,89 @@
+{
+  "slug": "krakespawn-tob1-2023",
+  "desc": "False",
+  "name": "Krake Spawn",
+  "size": "Huge",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 175,
+  "hit_dice": "14d12 + 84",
+  "speed": {
+    "walk": 60
+  },
+  "strength": 24,
+  "dexterity": 12,
+  "constitution": 22,
+  "intelligence": 17,
+  "wisdom": 15,
+  "charisma": 18,
+  "strength_save": 12,
+  "dexterity_save": null,
+  "constitution_save": 11,
+  "intelligence_save": 8,
+  "wisdom_save": null,
+  "charisma_save": 9,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "cold, poison, psychic",
+  "condition_immunities": "charmed, poisoned",
+  "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 12",
+  "languages": "Common, Infernal, Primordial, Void Speech",
+  "challenge_rating": "14",
+  "cr": 14,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The krake spawn makes one Bite attack and eight Tentacle attacks, or it makes four Freezing Water Bolt attacks."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft, one target. Hit: 12 (1d10 + 7) slashing damage."
+    },
+    {
+      "name": "Tentacle",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 10 (1d6 + 7) bludgeoning damage. If the target is a Large or smaller creature, it is grappled (escape DC 17). Until this grapple ends, the target is restrained. The krake spawn has eight tentacles, each of which can grapple only one target."
+    },
+    {
+      "name": "Freezing Water Bolt",
+      "desc": "Ranged Spell Attack: +9 to hit, range 60 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage plus 10 (3d6) cold damage."
+    },
+    {
+      "name": "Ink Cloud (Recharge 5-6)",
+      "desc": "While underwater, the krake spawn emits a 20-foot-radius cloud of ink all around itself. Each creature in the cloud must make a DC 17 Constitution saving throw, taking 55 (10d10) poison damage on a failed save, or half as much damage on a successful one. The area is heavily obscured for 1 minute, although a significant current can disperse the ink."
+    },
+    {
+      "name": "Vomit Forth the Deeps (Recharge 5-6)",
+      "desc": "The krake spawn sprays half-digested food from its maw in a 30-foot cone. Each creature in the area must make a DC 17 Dexterity saving throw. On a failure, a creature takes 27 (6d8) acid damage plus 27 (5d10) poison damage and is incapacitated. On a success, a creature takes half the damage and isn't incapacitated."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Water Jet",
+      "desc": "Each creature within 5 feet of the krake spawn must succeed on a DC 17 Dexterity saving throw or be knocked prone. The spawn then swims up to half its swimming speed without provoking opportunity attacks. The spawn must be underwater to use this bonus action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The krake spawn can breathe air and water."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 249,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_krake-spawn/"
+}

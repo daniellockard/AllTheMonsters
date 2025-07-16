@@ -1,0 +1,86 @@
+{
+  "slug": "necrohydra-tob1-2023",
+  "desc": "False",
+  "name": "Necrohydra",
+  "size": "Huge",
+  "type": "Undead",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 13,
+  "armor_desc": "natural armor",
+  "hit_points": 207,
+  "hit_dice": "18d12 + 90",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 20,
+  "dexterity": 6,
+  "constitution": 20,
+  "intelligence": 3,
+  "wisdom": 10,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 4,
+  "charisma_save": null,
+  "perception": 18,
+  "skills": {
+    "Perception": 8
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "necrotic",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 18",
+  "languages": "the languages its heads knew in life",
+  "challenge_rating": "9",
+  "cr": 9,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The necrohydra makes as many Bite attacks as it has heads."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 7 (1d4 + 5) piercing damage plus 4 (1d8) necrotic damage."
+    },
+    {
+      "name": "Dreadful Dirge",
+      "desc": "The necrohydra's heads emit a cacophonous, moaning wail. Each creature that isn't a Construct or Undead within 30 feet of the necrohydra that can hear the wail must succeed on a DC 17 Wisdom saving throw or be frightened until the wail ends. The necrohydra must take a bonus action on its subsequent turns to continue wailing. It can stop wailing at any time. The wail ends if the necrohydra is incapacitated. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Necrotic Bile (Recharge 6)",
+      "desc": "The necrohydra spews rotten bile soaked in necrotic energy in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 21 (6d6) poison damage and 18 (4d8) necrotic damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Multiple Heads",
+      "desc": "The necrohydra has five fleshy heads. While it has more than one head, the necrohydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Whenever the necrohydra takes 25 or more damage in a single turn, one of its fleshy heads dies. If all its fleshy heads die, the necrohydra can't use Unnerving Faces and can't use or maintain Dreadful Dirge."
+    },
+    {
+      "name": "Reactive Heads",
+      "desc": "For each head the necrohydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The necrohydra doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 283,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_necrohydra/"
+}

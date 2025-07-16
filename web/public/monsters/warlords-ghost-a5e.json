@@ -1,0 +1,90 @@
+{
+  "slug": "warlords-ghost-a5e",
+  "desc": "",
+  "name": "Warlords Ghost",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 13,
+  "armor_desc": "",
+  "hit_points": 58,
+  "hit_dice": "13d8",
+  "speed": {
+    "walk": 30,
+    "fly": 40
+  },
+  "strength": 8,
+  "dexterity": 16,
+  "constitution": 10,
+  "intelligence": 12,
+  "wisdom": 10,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": 2,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, fire, lightning, thunder; damage from nonmagical weapons",
+  "damage_immunities": "cold, necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
+  "senses": "darkvision 60 ft., Passive Perception 10",
+  "languages": "the languages it spoke in life",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Presage Death",
+      "desc": "The banshee targets a creature within 60 feet that can hear it  predicting its doom. The target makes a DC 14 Wisdom saving throw. On a failure  the target takes 11 (2d6 + 4) psychic damage and is magically cursed for 1 hour. While cursed in this way  the target has disadvantage on saving throws against the banshees Baleful Wail."
+    },
+    {
+      "name": "Baleful Wail",
+      "desc": "The banshee shrieks. All living creatures within 30 feet of it that can hear it make a DC 14 Constitution saving throw. On a failure  a creature takes 11 (2d6 + 4) psychic damage. If the creature is cursed by the banshee  it drops to 0 hit points instead."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": [
+    {
+      "name": "Wounded Warning",
+      "desc": "When the banshee takes damage from a creature within 60 feet, it uses Presage Death on the attacker."
+    }
+  ],
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Death Howl",
+      "desc": "When reduced to 0 hit points, the banshee uses Baleful Wail."
+    },
+    {
+      "name": "Detect Life",
+      "desc": "The banshee magically senses the general direction of living creatures up to 5 miles away."
+    },
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The banshee can move through creatures and objects. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "A banshee doesnt require air, sustenance, or sleep."
+    },
+    {
+      "name": "Unquiet Spirit",
+      "desc": "If defeated in combat, the banshee returns on the anniversary of its death. It can be permanently put to rest only by finding and casting remove curse on its grave or by righting whatever wrong was done to it."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 30,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_warlords-ghost/"
+}

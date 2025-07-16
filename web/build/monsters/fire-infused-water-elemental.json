@@ -1,0 +1,75 @@
+{
+  "slug": "fire-infused-water-elemental",
+  "desc": "A pillar of water rises up into a humanoid shape, steam trailing from its boiling form._  \n**Boiling Water.** Fire-infused water elementals are created when water elementals spend great lengths of time in superheated water, such as the borderlands between the Elemental Planes of Fire and Water, or when they are inundated with large amounts of fire magic. The elementals are irreparably changed and exist in a state between fire and water elemental. Too fiery for one and too watery for the other, they often find their way to the Material Plane, where they can carve out their own territory.  \n**Geothermal Dwellers.** Fire-infused water elementals prefer to inhabit areas with water heated by geothermal activity, such as hot springs and geysers. They claim such locations as their homes and grow violent when creatures harm or pollute their claimed waters. Fire-infused water elementals get along well with Open Game License",
+  "name": "Fire-Infused Water Elemental",
+  "size": "Huge",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 138,
+  "hit_dice": "12d12+60",
+  "speed": {
+    "swim": 90,
+    "walk": 30
+  },
+  "strength": 20,
+  "dexterity": 14,
+  "constitution": 20,
+  "intelligence": 5,
+  "wisdom": 10,
+  "charisma": 8,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold, fire; bludgeoning, piercing, slashing from nonmagical attacks",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "Aquan",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The elemental makes two slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage plus 7 (2d6) fire damage.",
+      "attack_bonus": 8,
+      "damage_dice": "2d10+5"
+    },
+    {
+      "name": "Scald (Recharge 6)",
+      "desc": "A fire-infused water elemental sprays a 30-foot cone of superheated water. Each creature in the area must make a DC 12 Dexterity saving throw. On a failure, a creature takes 21 (6d6) fire damage and is knocked prone. On a success, a creature takes half as much damage and isn't knocked prone."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Water Form",
+      "desc": "The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 216,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_fire-infused-water-elemental/"
+}

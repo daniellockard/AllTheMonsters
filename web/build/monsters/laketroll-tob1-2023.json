@@ -1,0 +1,83 @@
+{
+  "slug": "laketroll-tob1-2023",
+  "desc": "False",
+  "name": "Lake Troll",
+  "size": "Large",
+  "type": "Giant",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 126,
+  "hit_dice": "12d10 + 60",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 22,
+  "dexterity": 13,
+  "constitution": 20,
+  "intelligence": 8,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 13,
+  "skills": {
+    "Perception": 3,
+    "Stealth": 4
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "Common, Giant",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The lake troll makes one Bite attack and two Claw attacks. If both Claw attacks hit one creature that is wielding a weapon, the target must succeed on a DC 16 Dexterity saving throw or the target's weapon takes a permanent and cumulative −1 penalty to damage rolls. If the weapon's penalty drops to −5, the weapon is destroyed. If the target is wielding more than one weapon, the troll chooses which weapon to affect."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 10 (1d8 + 6) slashing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) piercing damage."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The lake troll can breathe air and water."
+    },
+    {
+      "name": "Keen Smell",
+      "desc": "The lake troll has advantage on Wisdom (Perception) checks that rely on smell."
+    },
+    {
+      "name": "Regeneration",
+      "desc": "The lake troll regains 10 hp at the start of its turn. If the lake troll takes cold or fire damage, it regains only 5 hp at the start of its next turn. If the lake troll takes both cold and fire damage, this trait doesn't function at the start of the lake troll's next turn. The lake troll dies only if it starts its turn with 0 hp and doesn't regenerate."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 370,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_lake-troll/"
+}

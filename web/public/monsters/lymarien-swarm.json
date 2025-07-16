@@ -1,0 +1,86 @@
+{
+  "slug": "lymarien-swarm",
+  "desc": "A tiny bird swoops through the air and alights on a nearby branch. It has the body of a tiny hawk, the colorful wings of a butterfly, and the head of an elf with large, luminous eyes._  \n**Miniscule Fey.** Dwelling in pastoral woods and rich farmland, the lymarien is one of the smallest fey in existence. Barely larger than a wasp, a lymarien is frequently mistaken for a butterfly and often ignored by larger creatures. They are sometimes preyed upon by birds like owls and crows, or attacked by evil fey like Open Game License",
+  "name": "Lymarien Swarm",
+  "size": "Large",
+  "type": "Fey",
+  "subtype": "Swarm",
+  "group": null,
+  "alignment": "Neutral Good",
+  "armor_class": 14,
+  "armor_desc": null,
+  "hit_points": 90,
+  "hit_dice": "12d10+24",
+  "speed": {
+    "walk": 5,
+    "fly": 50
+  },
+  "strength": 8,
+  "dexterity": 19,
+  "constitution": 14,
+  "intelligence": 7,
+  "wisdom": 13,
+  "charisma": 15,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 4,
+  "skills": {
+    "perception": 4,
+    "stealth": 7
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, slashing",
+  "damage_immunities": "",
+  "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "Sylvan",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 0 ft., one creature in the swarm's space. Hit: 21 (6d6) slashing damage, or 10 (3d6) slashing damage if the swarm has half its hp or fewer.",
+      "attack_bonus": 7,
+      "damage_dice": "6d6"
+    },
+    {
+      "name": "Flight of the Fey (Recharge 4-6)",
+      "desc": "The lymarien swarm lifts a Large or smaller creature in its space. The target must succeed on a DC 15 Dexterity saving throw or be lifted directly upward to a height up to the swarm's flying speed. When the swarm moves, the lifted creature moves with it. At the end of the swarm's turn, the swarm drops the creature, which takes falling damage as normal."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Distracting Beauty",
+      "desc": "A creature that starts its turn in the lymarien swarm's space must succeed on a DC 15 Wisdom saving throw or be distracted by the swarm's luminous eyes and fluttering wings until the end of its next turn. A distracted creature has disadvantage on Wisdom (Perception) checks and on attack rolls against the lymarien swarm."
+    },
+    {
+      "name": "Speak with Beasts",
+      "desc": "The lymarien swarm can communicate with beasts as if they shared a language."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny lymarien. The swarm can't regain hp or gain temporary hp."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The lymarien swarm's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:\nAt will: dancing lights, minor illusion\n3/day each: hypnotic pattern, sleep (affects 9d8 hp)"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 248,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_lymarien-swarm/"
+}

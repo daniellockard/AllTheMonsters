@@ -1,0 +1,83 @@
+{
+  "slug": "sewer-weird",
+  "desc": "",
+  "name": "Sewer Weird",
+  "size": "Large",
+  "type": "Elemental",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 136,
+  "hit_dice": "16d10+48",
+  "speed": {
+    "walk": 30,
+    "swim": 60
+  },
+  "strength": 10,
+  "dexterity": 19,
+  "constitution": 17,
+  "intelligence": 5,
+  "wisdom": 10,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 0,
+  "skills": {
+    "perception": 0
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold; nonmagic B/P/S attacks",
+  "damage_immunities": "poison",
+  "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+  "senses": "darkvision 60', passive Perception 10 ",
+  "languages": "Aquan",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Three Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +7 to hit, 5 ft., one target, 13 (2d8+4) bludgeoning damage and the target must make DC 15 Con save or be poisoned until end of its next turn."
+    },
+    {
+      "name": "Sewer Overflow (Recharge 5-6)",
+      "desc": "Emits a tide of filth and water from itself in a 15 ft. cube. Each creature in this cube: 18 (4d8) bludgeoning damage and 18 (4d8) poison and is infected with sewer plague (DC 15 Con half damage and isn't infected)."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Elemental Nature",
+      "desc": "Doesn't require air food drink or sleep."
+    },
+    {
+      "name": "Flammable Fumes",
+      "desc": "If it takes fire it erupts in a gout of flame. The weird immediately takes 5 (2d4) thunder and each creature within 10 ft. of the weird must make DC 15 Dex save or take 3 (1d6) thunder and 7 (2d6) fire."
+    },
+    {
+      "name": "Water Form",
+      "desc": "Can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide with o squeezing."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 341,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_sewer-weird/"
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "degeneratetitan-tob1-2023",
+  "desc": "False",
+  "name": "Degenerate Titan",
+  "size": "Huge",
+  "type": "Giant",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 12,
+  "armor_desc": "armor scraps",
+  "hit_points": 161,
+  "hit_dice": "14d12 + 70",
+  "speed": {
+    "walk": 40
+  },
+  "strength": 21,
+  "dexterity": 6,
+  "constitution": 20,
+  "intelligence": 6,
+  "wisdom": 12,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 14,
+  "skills": {
+    "Intimidation": 4,
+    "Perception": 4
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 14",
+  "languages": "Giant",
+  "challenge_rating": "8",
+  "cr": 8,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The degenerate titan can use its Reality-Bending Shout. It then makes three Greatclub attacks or two Rock attacks."
+    },
+    {
+      "name": "Greatclub",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage."
+    },
+    {
+      "name": "Rock",
+      "desc": "Ranged Weapon Attack: +8 to hit, range 60/240 ft., one target. Hit: 27 (4d10 + 5) bludgeoning damage."
+    },
+    {
+      "name": "Reality-Bending Shout",
+      "desc": "The degenerate titan utters a scream that vibrates the fabric of reality around one creature it can see within 30 feet of it. The titan can attempt to end one magical effect of its choice of 3rd level or lower on the target. This effect works like the dispel magic spell, except the titan must always make an ability check. The titan's ability check for this is +4."
+    },
+    {
+      "name": "Earthstrike (Recharge 5-6)",
+      "desc": "The degenerate titan slams its fists onto the ground, creating a shockwave in a 60-foot line that is 10 feet wide. Each creature in the line must make a 16 Dexterity saving throw. On a failure, a creature takes 35 (10d6) force damage and is flung 20 feet away from the titan and knocked prone, as the earth buckles and tosses the creature. On a success, a creature takes half the damage and isn't flung or knocked prone. If a flung creature strikes a solid surface, the creature takes 3 (1d6) bludgeoning damage for every 10 feet it was flung. If the creature is flung at another creature, that creature must succeed on a DC 16 Dexterity saving throw or take the same damage and be knocked prone."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The degenerate titan has advantage on saving throws against spells and other magical effects."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 362,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_degenerate-titan/"
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "deathcapmyconid-tob1-2023",
+  "desc": "False",
+  "name": "Deathcap Myconid",
+  "size": "Medium",
+  "type": "Plant",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral Evil",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 90,
+  "hit_dice": "12d8 + 36",
+  "speed": {
+    "walk": 20
+  },
+  "strength": 14,
+  "dexterity": 10,
+  "constitution": 16,
+  "intelligence": 10,
+  "wisdom": 11,
+  "charisma": 9,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 10,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 10",
+  "languages": "—",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The myconid can use its Eject Spores. It then makes two Spore-Coated Fist attacks."
+    },
+    {
+      "name": "Spore-Coated Fist",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 10 (3d6) poison damage."
+    },
+    {
+      "name": "Eject Spores",
+      "desc": "The myconid ejects one of the following types of spores at one creature it can see within 15 feet of it."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Sunlight Hypersensitivity",
+      "desc": "The deathcap takes 10 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 280,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_deathcap-myconid/"
+}

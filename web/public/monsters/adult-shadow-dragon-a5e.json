@@ -1,0 +1,126 @@
+{
+  "slug": "adult-shadow-dragon-a5e",
+  "desc": "",
+  "name": "Adult Shadow Dragon",
+  "size": "Huge",
+  "type": "Dragon",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 18,
+  "armor_desc": "",
+  "hit_points": 212,
+  "hit_dice": "17d12+102",
+  "speed": {
+    "walk": 40,
+    "climb": 40,
+    "fly": 80,
+    "swim": 40
+  },
+  "strength": 22,
+  "dexterity": 14,
+  "constitution": 22,
+  "intelligence": 14,
+  "wisdom": 14,
+  "charisma": 23,
+  "strength_save": null,
+  "dexterity_save": 8,
+  "constitution_save": 12,
+  "intelligence_save": 8,
+  "wisdom_save": 8,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {
+    "deception": 12,
+    "insight": 8,
+    "nature": 8,
+    "perception": 8,
+    "stealth": 8
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold, fire, lightning, thunder; damage from nonmagical weapons",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "fatigue, frightened, grappled, paralyzed, poisoned, prone, restrained",
+  "senses": "darkvision 240 ft., passive Perception 18",
+  "languages": "Common, Draconic",
+  "challenge_rating": "19",
+  "cr": 19,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The dragon uses Grasp of Shadows  then attacks once with its bite and twice with its claws."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) piercing damage plus 4 (1d8) necrotic damage."
+    },
+    {
+      "name": "Claws",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 19 (3d8 + 6) slashing damage plus 4 (1d8) necrotic damage."
+    },
+    {
+      "name": "Grasp of Shadows",
+      "desc": "The dragon targets a creature within 60 feet  forcing it to make a DC 16 Dexterity saving throw. On a failure  it is grappled by tendrils of shadow (escape DC 20) and restrained while grappled this way. The effect ends if the dragon is incapacitated or uses this ability again."
+    },
+    {
+      "name": "Anguished Breath (Recharge 5-6)",
+      "desc": "The dragon exhales a shadowy maelstrom of anguish in a 60-foot cone. Each creature in that area makes a DC 20 Wisdom saving throw  taking 67 (15d8) necrotic damage and gaining a level of strife on a failed save or half damage on a success."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": [
+    {
+      "name": "The dragon can take 3 legendary actions",
+      "desc": "Only one legendary action can be used at a time and only at the end of another creatures turn. It regains spent legendary actions at the start of its turn."
+    },
+    {
+      "name": "Corrupting Presence",
+      "desc": "Each creature of the dragons choice within 120 feet and aware of it must succeed on a DC 16 Wisdom saving throw or gain a level of strife. Once a creature has passed or failed this saving throw, it is immune to the dragons Corrupting Presence for the next 24 hours."
+    },
+    {
+      "name": "Lurk",
+      "desc": "If the dragon is in dim light or darkness, it magically becomes invisible until it attacks, causes a creature to make a saving throw, or enters an area of bright light. It can't use this ability if it has taken radiant damage since the end of its last turn."
+    },
+    {
+      "name": "Slip Through Shadows",
+      "desc": "If the dragon is in dim light or darkness, it magically teleports up to 45 feet to an unoccupied space that is also in dim light or darkness. The dragon can't use this ability if it has taken radiant damage since the end of its last turn."
+    },
+    {
+      "name": "Horrid Whispers (Costs 2 Actions)",
+      "desc": "A creature that can hear the dragon makes a DC 21 Wisdom saving throw. On a failure, the creature takes 13 (3d8) psychic damage, and the dragon regains the same number of hit points."
+    }
+  ],
+  "special_abilities": [
+    {
+      "name": "Evil",
+      "desc": "The dragon radiates an Evil aura."
+    },
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The dragon can move through other creatures and objects. It takes 11 (2d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "desc": "When the dragon fails a saving throw, it can choose to succeed instead. When it does, it becomes more solid, losing its Incorporeal trait and its damage resistances, until the end of its next turn."
+    },
+    {
+      "name": "Essence Link",
+      "desc": "The essence dragon is spiritually linked to a specific area or landmark. The dragon gains no benefit from a long rest when more than 1 mile away from its linked area. If the dragon dies, the area it is linked to loses its vital essence until it forms a new essence dragon, which can take centuries. When a creature first enters an area that has lost its vital essence in this way, they gain a level of fatigue and a level of strife. This fatigue and strife can be removed only by completing a long rest outside the area."
+    },
+    {
+      "name": "Innate Spellcasting",
+      "desc": "The dragons spellcasting ability is Charisma (save DC 20). It can innately cast the following spells, requiring no material components. 3/day each:darkness, detect evil and good, bane, create undead"
+    }
+  ],
+  "spell_list": [],
+  "page_no": 136,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/mmenag_adult-shadow-dragon/"
+}

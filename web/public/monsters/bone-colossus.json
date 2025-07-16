@@ -1,0 +1,91 @@
+{
+  "slug": "bone-colossus",
+  "desc": "Necromancers, both living and dead, sometimes come together to make massive undead creatures known collectively as “necrotech”. In nations ruled by undead, these massive creations often act as siege weapons or powerful modes of transportation._  \n**Bone Colossuses.** In a tome of deranged ramblings, the writer theorized how “posthumes”— the tiny skeletal creatures used to make up the bone collectives—might be gathered in even greater numbers to form bigger, stronger creatures. Thus was born the Open Game License",
+  "name": "Bone Colossus",
+  "size": "Gargantuan",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 16,
+  "armor_desc": "natural armor",
+  "hit_points": 181,
+  "hit_dice": "11d20+66",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 24,
+  "dexterity": 11,
+  "constitution": 22,
+  "intelligence": 14,
+  "wisdom": 16,
+  "charisma": 16,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 11,
+  "intelligence_save": null,
+  "wisdom_save": 8,
+  "charisma_save": null,
+  "perception": 8,
+  "skills": {
+    "intimidation": 13,
+    "perception": 8
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
+  "senses": "darkvision 120 ft., passive Perception 18",
+  "languages": "Common, Darakhul",
+  "challenge_rating": "13",
+  "cr": 13,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The bone colossus makes two attacks."
+    },
+    {
+      "name": "Thunderous Slam (Colossus Form Only)",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage plus 10 (3d6) thunder damage, and the target must succeed on a DC 18 Strength saving throw or be knocked prone.",
+      "attack_bonus": 12,
+      "damage_dice": "4d10+7"
+    },
+    {
+      "name": "Razor Teeth (Swarm Form Only)",
+      "desc": "Melee Weapon Attack: +12 to hit, reach 0 ft., one target in the swarm's space. Hit: 21 (6d6) piercing damage, or 10 (3d6) piercing damage if the swarm has half its hp or fewer.",
+      "attack_bonus": 12,
+      "damage_dice": "6d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Collective Mind",
+      "desc": "The bone colossus' individual posthumes are connected via a hive mind. It can telepathically communicate with any of its individual posthumes within 50 miles of it, and it can't be surprised. If the bone colossus is reduced to half its hp or fewer, its Intelligence score is reduced to 1."
+    },
+    {
+      "name": "Siege Monster",
+      "desc": "The bone colossus deals double damage to objects and structures."
+    },
+    {
+      "name": "Swarm Form",
+      "desc": "A bone colossus can use its action to split into four individual swarms of tiny bone posthumes. Each swarm has an hp total equal to the bone colossus' hp divided by 4 (rounded down), and all are affected by any conditions, spells, and other magical effects that affected the bone colossus. The swarms act on the same initiative count as the bone colossus did and occupy any unoccupied space that previously contained the bone colossus. A bone swarm can occupy another creature's space and vice versa, and the swarm can move through a space as narrow as 1 foot wide without squeezing. A swarm can't regain hp or gain temporary hp.\n\nAs an action, the swarms can reform into a single bone colossus as long as all surviving swarms are within 5 feet of each other. The reformed bone colossus' hp total is equal to the combined remaining hp of the swarms, and the bone colossus is affected by any conditions, spells, and other magical effects currently affecting any of the swarms. It occupies any unoccupied space that previously contained at least one of the swarms that formed it."
+    },
+    {
+      "name": "Turn Resistance",
+      "desc": "The bone colossus has advantage on saving throws against any effect that turns undead."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 267,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob2",
+  "document__title": "Tome of Beasts 2",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-2-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob2_bone-colossus/"
+}

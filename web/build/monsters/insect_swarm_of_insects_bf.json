@@ -1,0 +1,73 @@
+{
+  "slug": "insect_swarm_of_insects_bf",
+  "desc": "",
+  "name": "Insect, Swarm of Insects",
+  "size": "Medium",
+  "type": "Swarm",
+  "subtype": "",
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "natural armor",
+  "hit_points": 24,
+  "hit_dice": "",
+  "speed": {
+    "walk": 20,
+    "climb": 20
+  },
+  "strength": 2,
+  "dexterity": 12,
+  "constitution": 10,
+  "intelligence": 1,
+  "wisdom": 6,
+  "charisma": 1,
+  "strength_save": -4,
+  "dexterity_save": 1,
+  "constitution_save": 0,
+  "intelligence_save": -5,
+  "wisdom_save": -2,
+  "charisma_save": -5,
+  "perception": 8,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "Swarm Resilience",
+  "damage_immunities": "Swarm Resilience",
+  "condition_immunities": "",
+  "senses": "keensense 10 ft.",
+  "languages": "-",
+  "challenge_rating": "1/2",
+  "cr": 0.5,
+  "actions": [
+    {
+      "name": "Bites",
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 0 ft., one target in the swarm's space. _Hit:_ 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its HP or fewer."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Crawling Swarm",
+      "desc": "A creature in the swarm's space is covered in crawling and buzzing insects. If the creature casts a spell with a somatic component, it must succeed on a DC 11 CON save or the spell fails to cast, expending the action required to cast it but not the spell slot or daily use."
+    },
+    {
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain HP or gain temporary HP."
+    },
+    {
+      "name": "Swarm Resilience",
+      "desc": "The swarm is resistant to bludgeoning, piercing, and slashing damage, and it is immune to the charmed, frightened, grappled, paralyzed, petrified, prone, restrained, and stunned conditions."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_insect-swarm-of-insects/"
+}

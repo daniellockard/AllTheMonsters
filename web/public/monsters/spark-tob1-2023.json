@@ -1,0 +1,73 @@
+{
+  "slug": "spark-tob1-2023",
+  "desc": "False",
+  "name": "Spark",
+  "size": "Tiny",
+  "type": "Elemental",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Neutral",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 104,
+  "hit_dice": "16d4 + 64",
+  "speed": {
+    "walk": 60,
+    "fly": 10
+  },
+  "strength": 4,
+  "dexterity": 20,
+  "constitution": 18,
+  "intelligence": 10,
+  "wisdom": 12,
+  "charisma": 17,
+  "strength_save": null,
+  "dexterity_save": 8,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 11,
+  "skills": {},
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "lightning",
+  "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+  "senses": "darkvision 60 ft., passive Perception 11",
+  "languages": "Common, Primordial",
+  "challenge_rating": "7",
+  "cr": 7,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The spark makes three Electric Touch attacks."
+    },
+    {
+      "name": "Electric Touch",
+      "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one target. Hit: 16 (3d8 + 3) lightning damage."
+    },
+    {
+      "name": "Inhabit",
+      "desc": "One Humanoid that the spark can see within 5 feet of it must succeed on a DC 14 Charisma saving throw or be inhabited by the spark. The spark then disappears, fusing with the target's nervous system, and the target is incapacitated and loses control of its body. The spark now controls the body but doesn't deprive the target of awareness. The spark can't be targeted by any attack, spell, or other effect, and it retains its alignment, Intelligence, Wisdom, Charisma, immunity to being paralyzed, petrified, or unconscious, and its Electric Touch attack. It otherwise uses the inhabited target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Elemental Nature",
+      "desc": "The spark doesn't require air, food, drink, or sleep."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 337,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_spark/"
+}

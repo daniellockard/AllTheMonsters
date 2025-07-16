@@ -1,0 +1,72 @@
+{
+  "slug": "edimmu",
+  "desc": "_An evil wind swirls out of the desert, parching those it touches, whispering evil plans. These winds are the edimmus._  \n**Bitter Exiles.** Desert and plains tribes often exile their criminals to wander as outcasts. A banished criminal who dies of thirst sometimes rises as an edimmu, a hateful undead that blames all sentient living beings for its fate.  \n**Rise Again.** Unless its body is found and given a proper burial, an edimmu is nearly impossible to destroy. While edimmus linger near their corpses, they often follow prey they have cursed to seal the creature’s fate. Once that creature is slain, they return to the site of their demise.  \n**Undead Nature.** An edimmu doesn’t require air, food, drink, or sleep.",
+  "name": "Edimmu",
+  "size": "Medium",
+  "type": "Undead",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Evil",
+  "armor_class": 15,
+  "armor_desc": "",
+  "hit_points": 75,
+  "hit_dice": "10d8+30",
+  "speed": {
+    "hover": true,
+    "walk": 0,
+    "fly": 60
+  },
+  "strength": 1,
+  "dexterity": 19,
+  "constitution": 16,
+  "intelligence": 12,
+  "wisdom": 13,
+  "charisma": 13,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": null,
+  "skills": {},
+  "damage_vulnerabilities": "",
+  "damage_resistances": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "necrotic, poison",
+  "condition_immunities": "charmed, exhaustion, grappled, frightened, paralyzed, petrified, poisoned, prone, restrained, unconscious",
+  "senses": "blindsight 60 ft., passive Perception 11",
+  "languages": "Common but can't speak",
+  "challenge_rating": "4",
+  "cr": 4,
+  "actions": [
+    {
+      "name": "Water Siphon",
+      "desc": "Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit: 21 (6d6) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken and it is stunned for 1 minute and gains one level of exhaustion. A stunned creature repeats the saving throw at the end of each of its turns, ending the stun on itself on a success. The hit point reduction lasts until the creature finishes a long rest and drinks abundant water or until it is affected by greater restoration or comparable magic. The target dies if this effect reduces its hit point maximum to 0.",
+      "attack_bonus": 7,
+      "damage_dice": "6d6"
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Rejuvenation",
+      "desc": "If destroyed, an edimmu rises again in 2d4 days. Permanently destroying one requires properly burying its mortal remains in consecrated or hallowed ground. Edimmus rarely venture more than a mile from the place of their death."
+    },
+    {
+      "name": "Incorporeal Movement",
+      "desc": "The edimmu can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 165,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob",
+  "document__title": "Tome of Beasts",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
+  "v2_converted_path": "/v2/creatures/tob_edimmu/"
+}

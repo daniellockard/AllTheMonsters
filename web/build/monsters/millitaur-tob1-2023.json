@@ -1,0 +1,74 @@
+{
+  "slug": "millitaur-tob1-2023",
+  "desc": "False",
+  "name": "Millitaur",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Neutral",
+  "armor_class": 14,
+  "armor_desc": "natural armor",
+  "hit_points": 85,
+  "hit_dice": "10d10 + 30",
+  "speed": {
+    "walk": 30,
+    "burrow": 40
+  },
+  "strength": 17,
+  "dexterity": 14,
+  "constitution": 16,
+  "intelligence": 8,
+  "wisdom": 16,
+  "charisma": 10,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 13,
+  "skills": {
+    "Acrobatics": 4
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "poison, slashing",
+  "damage_immunities": "False",
+  "condition_immunities": "prone",
+  "senses": "darkvision 60 ft., tremorsense 30 ft., passive Perception 13",
+  "languages": "Common, Millitaur",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The millitaur makes two Handaxe attacks."
+    },
+    {
+      "name": "Handaxe",
+      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 3 (1d6) poison damage."
+    },
+    {
+      "name": "Poisonous Flask (Recharge 5-6)",
+      "desc": "The millitaur hastily combines alchemical substances into a poisonous concoction and throws it at a point the millitaur can see within 30 feet. Each creature within 15 feet of that point must make a DC 13 Dexterity saving throw. On a failure, a creature takes 14 (4d6) poison damage and is poisoned for 1 minute. On a success, a creature takes half the damage and isn't poisoned. A poisoned creature can make a DC 13 Constitution saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Healing Tonic (2/Day)",
+      "desc": "The millitaur administers a healing tonic to a willing creature within 5 feet of it. The target magically regains 7 (2d6) hp and is freed from any disease or poison."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
+  "spell_list": [],
+  "page_no": 267,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_millitaur/"
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "void-constructor",
+  "desc": "",
+  "name": "Void Constructor",
+  "size": "Medium",
+  "type": "Construct",
+  "subtype": "",
+  "group": null,
+  "alignment": "Neutral Evil",
+  "armor_class": 19,
+  "armor_desc": "natural",
+  "hit_points": 43,
+  "hit_dice": "5d8+20",
+  "speed": {
+    "walk": 0,
+    "fly": 30
+  },
+  "strength": 16,
+  "dexterity": 12,
+  "constitution": 18,
+  "intelligence": 6,
+  "wisdom": 8,
+  "charisma": 3,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": -1,
+  "skills": {
+    "perception": -1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "necrotic, poison, psychic",
+  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned, prone",
+  "senses": "darkvision 60', passive Perception 9",
+  "languages": "understands Void Speech but can't speak",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Slam attacks."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one target, 10 (2d6+3) bludgeoning damage."
+    },
+    {
+      "name": "Tentacles",
+      "desc": "Melee Weapon Attack: +5 to hit, 10 ft., one target, 13 (4d4+3) bludgeoning damage and the target is grappled (escape DC 13). Until this grapple ends the constructor can't use its tentacles on another target."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Mobile Grappler",
+      "desc": "While grappling a creature the constructor can move at its full speed carrying the grappled creature along with it."
+    },
+    {
+      "name": "Tainted Aura",
+      "desc": "A Void constructor that has completed a Void henge gains necrotic energy while within 1 mile of the henge. At the start of each of the Void constructor's turns each creature within 10 ft. of it must make DC 13 Cha save or take 2 (1d4) necrotic. The Void constructor can choose for a creature it is grappling to be immune to the Tainted Auras of all Void constructors."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 385,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_void-constructor/"
+}

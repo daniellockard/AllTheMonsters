@@ -1,0 +1,95 @@
+{
+  "slug": "trollkin-ragecaster",
+  "desc": "",
+  "name": "Trollkin Ragecaster",
+  "size": "Medium",
+  "type": "Humanoid",
+  "subtype": "",
+  "group": null,
+  "alignment": "Chaotic Neutral",
+  "armor_class": 15,
+  "armor_desc": "leather armor",
+  "hit_points": 112,
+  "hit_dice": "15d8+45",
+  "speed": {
+    "walk": 30
+  },
+  "strength": 14,
+  "dexterity": 17,
+  "constitution": 16,
+  "intelligence": 9,
+  "wisdom": 14,
+  "charisma": 18,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 6,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 2,
+  "skills": {
+    "perception": 2
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "darkvision 60', passive Perception 15",
+  "languages": "Common, Trollkin",
+  "challenge_rating": "5",
+  "cr": 5,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Claws or two Elemental Blast attacks."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, 5 ft., one target, 16 (3d8+3) slashing damage when not ragecasting or 12 (2d8+3) slashing damage while ragecasting."
+    },
+    {
+      "name": "Elemental Blast (Ragecasting Only)",
+      "desc": "Ranged Spell Attack: +7 to hit, 120 ft., one target, 14 (3d6+4) cold fire lightning or thunder (trollkin's choice)."
+    },
+    {
+      "name": "Spellcasting (Ragecasting Only)",
+      "desc": "Cha (DC 15) no material components: At will: thunderwave3/day ea: call lightning firebal1/day: fire shield"
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Ragecasting (3/Day)",
+      "desc": "Enters special rage that lets it channel elemental power for 1 min. While ragecasting: disadvantage on Wis saves and gains fly speed of 60'. It can end ragecasting as a bonus action. When ragecasting ends it descends 60'/round until it lands on a solid surface and can continue concentrating on spell it cast while ragecasting."
+    }
+  ],
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Brutal Claws",
+      "desc": "Its claw deals one extra die of its damage when trollkin isn't ragecasting (included in the attack)."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "Advantage: spell/magic effect saves."
+    },
+    {
+      "name": "Regeneration",
+      "desc": "Regains 10 hp at the start of its turn. If it takes acid or fire this trait doesn't function at start of its next turn. Dies only if it starts turn with 0 hp and doesn't regenerate."
+    },
+    {
+      "name": "Thick Hide",
+      "desc": "Its skin is thick and tough granting it a +1 bonus to Armor Class (already factored into its AC)."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 377,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_trollkin-ragecaster/"
+}

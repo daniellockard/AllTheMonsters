@@ -1,0 +1,104 @@
+{
+  "slug": "zmey-tob1-2023",
+  "desc": "False",
+  "name": "Zmey",
+  "size": "Huge",
+  "type": "Dragon",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Chaotic Evil",
+  "armor_class": 18,
+  "armor_desc": "natural armor",
+  "hit_points": 189,
+  "hit_dice": "18d12 + 72",
+  "speed": {
+    "walk": 30,
+    "fly": 30
+  },
+  "strength": 22,
+  "dexterity": 13,
+  "constitution": 19,
+  "intelligence": 16,
+  "wisdom": 16,
+  "charisma": 12,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": 9,
+  "intelligence_save": null,
+  "wisdom_save": 8,
+  "charisma_save": 6,
+  "perception": 18,
+  "skills": {
+    "Perception": 8
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "cold, fire",
+  "damage_immunities": "False",
+  "condition_immunities": "paralyzed, unconscious",
+  "senses": "blindsight 60 ft., darkvision 90 ft., passive Perception 18",
+  "languages": "Common, Draconic, Elvish, Sylvan",
+  "challenge_rating": "15",
+  "cr": 15,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "The zmey makes two Claw attacks and as many Bite attacks as it has heads."
+    },
+    {
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 19 (2d12 + 6) piercing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 20 (4d6 + 6) slashing damage."
+    },
+    {
+      "name": "Fire Breath (Recharge 5-6)",
+      "desc": "The zmey exhales fire in a 30-foot cone out of each of its heads. Each creature in a cone must make a DC 17 Dexterity saving throw, taking 49 (14d6) fire damage on a failed save, or half as much damage on a successful one. If the cones overlap, each creature in the overlapping cones must make one saving throw with disadvantage against only one of the cones rather than one saving throw for each cone. The zmey can choose for this breath to not harm plants or Plant creatures."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": "The zmey can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The zmey regains spent legendary actions at the start of its turn.",
+  "legendary_actions": [
+    {
+      "name": "Move",
+      "desc": "The zmey moves up to its speed, or flies up to half its flying speed, without provoking opportunity attacks."
+    },
+    {
+      "name": "Tail Whip",
+      "desc": "The zmey whips its tail around it. Each creature within 15 feet of the zmey must succeed on a DC 17 Dexterity saving throw or be knocked prone."
+    },
+    {
+      "name": "Tripartite Roar (Costs 2 Actions)",
+      "desc": "The zmey's heads exhale a three-part roar, one a deafening shriek, one a frightful screech, and one a stunning bellow, in a 30-foot cone. Each creature in that area must succeed on a DC 17 Wisdom saving throw or suffer the effects of the roars until the end of its next turn. The effects depend upon the number of heads the zmey has remaining: deafened for only one head, deafened and frightened for two heads, or stunned for three heads."
+    }
+  ],
+  "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The zmey can breathe air and water."
+    },
+    {
+      "name": "Legendary Resistance (3/Day)",
+      "desc": "If the zmey fails a saving throw, it can choose to succeed instead."
+    },
+    {
+      "name": "Regeneration",
+      "desc": "The zmey regains 15 hp at the start of its turn. If the zmey takes acid or fire damage, this trait doesn't function at the start of the zmey's next turn. The zmey dies if it starts its turn with 0 hp and doesn't regenerate."
+    },
+    {
+      "name": "Three Heads",
+      "desc": "The zmey has three heads. While it has more than one head, the zmey has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious. Whenever the zmey takes 40 damage or more in a single turn, one of its heads is severed. If it has only one head remaining, dealing 40 damage or more to it doesn't sever the final head. It regrows any severed heads when it finishes a long rest."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 403,
+  "environments": [],
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_zmey/"
+}

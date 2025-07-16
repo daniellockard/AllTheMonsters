@@ -1,0 +1,79 @@
+{
+  "slug": "crab-duffel",
+  "desc": "",
+  "name": "Crab, Duffel",
+  "size": "Large",
+  "type": "Monstrosity",
+  "subtype": "",
+  "group": null,
+  "alignment": "Unaligned",
+  "armor_class": 15,
+  "armor_desc": "natural armor",
+  "hit_points": 60,
+  "hit_dice": "8d8+24",
+  "speed": {
+    "walk": 30,
+    "swim": 30
+  },
+  "strength": 16,
+  "dexterity": 12,
+  "constitution": 16,
+  "intelligence": 2,
+  "wisdom": 12,
+  "charisma": 7,
+  "strength_save": null,
+  "dexterity_save": null,
+  "constitution_save": null,
+  "intelligence_save": null,
+  "wisdom_save": null,
+  "charisma_save": null,
+  "perception": 1,
+  "skills": {
+    "perception": 1
+  },
+  "damage_vulnerabilities": "",
+  "damage_resistances": "",
+  "damage_immunities": "",
+  "condition_immunities": "",
+  "senses": "blindsight 30', passive Perception 11",
+  "languages": "—",
+  "challenge_rating": "3",
+  "cr": 3,
+  "actions": [
+    {
+      "name": "Multiattack",
+      "desc": "Two Claws or one Claw and uses Collect."
+    },
+    {
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +5 to hit, 5 ft., one creature,. 10 (2d6+3) bludgeoning damage and target is grappled (escape DC 13). Until this grapple ends target is restrained and crab can't attack another target with that claw. The crab has two claws each of which can grapple only one target."
+    },
+    {
+      "name": "Collect",
+      "desc": "Places one target it is grappling into its extradimensional space if there is room and grapple ends. Target blinded and restrained and has total cover vs. attacks and effects outside. A trapped creature can take its action to climb out of the bag by succeeding on a DC 13 Str or Dex check (creature's choice). If crab dies trapped creature is no longer restrained by crab and can escape bag using 5 ft. of movement exiting prone."
+    }
+  ],
+  "bonus_actions": null,
+  "reactions": null,
+  "legendary_desc": "",
+  "legendary_actions": null,
+  "special_abilities": [
+    {
+      "name": "Extradimensional Bag",
+      "desc": "Uses an extra-dimensional space such as a bag of holding as its “shell.” Bag can hold creatures in addition to the crab based on extradimensional space's size. Breathing creatures inside bag can survive up to a number of min equal to 10 divided by the number of creatures (minimum 1 min) after which time they begin to suffocate. If bag is overloaded pierced or torn it ruptures and is destroyed. While this would normally cause the contents to be lost in the Astral Plane crab's half-in half-out existence kept the bag constantly open even when it fully withdrew altering the bag which simply spills out its contents into area when the bag is destroyed or crab dies. Bag becomes a standard bag of holding or similar magic item with extradimensional space 24 hrs after crab dies."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While motionless indistinguishable from its extradimensional bag with an ajar lid or opening."
+    }
+  ],
+  "spell_list": [],
+  "page_no": 97,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "tob3",
+  "document__title": "Tome of Beasts 3",
+  "document__license_url": "http://open5e.com/legal",
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-3-for-5th-edition/",
+  "v2_converted_path": "/v2/creatures/tob3_crab-duffel/"
+}
