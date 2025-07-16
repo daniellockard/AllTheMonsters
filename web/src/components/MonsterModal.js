@@ -110,7 +110,7 @@ const MonsterModal = ({ monster, onClose }) => {
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
-          <div className="sticky top-0 bg-dnd-gray/20 border-b border-dnd-purple/20 p-6">
+          <div className="sticky top-0 bg-dnd-gray/40 border-b border-dnd-purple/20 p-6 z-10 backdrop-blur-sm shadow-lg">
             <div className="flex items-start justify-between">
               <div className="flex-1">
                 <h2 className="text-3xl font-fantasy text-dnd-gold mb-2">{monster.name}</h2>
