@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Interactive D&D Monster Viewer",
   "private": true,
-  "homepage": "https://all-the-monsters.vercel.app",
+  "homepage": "https://daniellockard.github.io/AllTheMonsters",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
