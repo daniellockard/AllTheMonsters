@@ -24,10 +24,12 @@ function useDebounce(value, delay) {
 }
 
 // Virtual scrolling hook
-function useVirtualScroll(items, itemHeight = 400, overscan = 5) {
+function useVirtualScroll(items, itemHeight = 400, overscan = 8) {
   const [visibleRange, setVisibleRange] = useState({ start: 0, end: 20 });
   const containerRef = useRef(null);
   const scrollTopRef = useRef(0);
+  const rafIdRef = useRef(null);
+  const lastScrollTopRef = useRef(0);
 
   const updateVisibleRange = useCallback(() => {
     if (!containerRef.current) return;
@@ -36,22 +38,45 @@ function useVirtualScroll(items, itemHeight = 400, overscan = 5) {
     const scrollTop = container.scrollTop;
     const containerHeight = container.clientHeight;
     
+    // Skip update if scroll position hasn't changed significantly
+    const scrollDiff = Math.abs(scrollTop - lastScrollTopRef.current);
+    if (scrollDiff < 50) { // Only update if scrolled more than 50px
+      return;
+    }
+    
     // Calculate visible range with better precision
     const start = Math.floor(scrollTop / itemHeight);
     const visibleCount = Math.ceil(containerHeight / itemHeight);
     const end = Math.min(start + visibleCount + overscan * 2, items.length);
     
     const newStart = Math.max(0, start - overscan);
-    setVisibleRange({ start: newStart, end });
+    
+    // Only update if the range has actually changed significantly
+    const currentRange = visibleRange;
+    const startDiff = Math.abs(currentRange.start - newStart);
+    const endDiff = Math.abs(currentRange.end - end);
+    
+    if (startDiff > 1 || endDiff > 1) {
+      setVisibleRange({ start: newStart, end });
+    }
+    lastScrollTopRef.current = scrollTop;
     scrollTopRef.current = scrollTop;
-  }, [items.length, itemHeight, overscan]);
+  }, [items.length, itemHeight, overscan, visibleRange]);
 
   useEffect(() => {
     const container = containerRef.current;
     if (!container) return;
 
     const handleScroll = () => {
-      requestAnimationFrame(updateVisibleRange);
+      // Cancel any pending RAF to prevent multiple updates
+      if (rafIdRef.current) {
+        cancelAnimationFrame(rafIdRef.current);
+      }
+      
+      rafIdRef.current = requestAnimationFrame(() => {
+        updateVisibleRange();
+        rafIdRef.current = null;
+      });
     };
 
     container.addEventListener('scroll', handleScroll, { passive: true });
@@ -59,6 +84,9 @@ function useVirtualScroll(items, itemHeight = 400, overscan = 5) {
 
     return () => {
       container.removeEventListener('scroll', handleScroll);
+      if (rafIdRef.current) {
+        cancelAnimationFrame(rafIdRef.current);
+      }
     };
   }, [updateVisibleRange]);
 
