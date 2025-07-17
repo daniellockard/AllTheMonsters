@@ -176,14 +176,14 @@ function App() {
   }, [processedMonsters]);
 
   // Virtual scrolling for monster cards
-  const { containerRef, visibleItems, totalHeight, offsetY, visibleRange } = useVirtualScroll(filteredMonsters, 400, 3);
+  const { containerRef, visibleItems, totalHeight, offsetY } = useVirtualScroll(filteredMonsters, 400, 3);
 
   // Scroll to top when filtered results change
   useEffect(() => {
     if (containerRef.current) {
       containerRef.current.scrollTop = 0;
     }
-  }, [filteredMonsters]);
+  }, [filteredMonsters, containerRef]);
 
   const handleMonsterClick = useCallback((monster) => {
     setSelectedMonster(monster);
