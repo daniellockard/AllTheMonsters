@@ -23,65 +23,46 @@ function useDebounce(value, delay) {
   return debouncedValue;
 }
 
-// Progressive fill hook
-function useProgressiveFill(items, itemHeight = 400, overscan = 8) {
-  const [visibleRange, setVisibleRange] = useState({ start: 0, end: 20 });
-  const [maxRendered, setMaxRendered] = useState(20);
+// Progressive rendering hook - simple approach
+function useProgressiveRender(items, batchSize = 50) {
+  const [renderedCount, setRenderedCount] = useState(batchSize);
   const containerRef = useRef(null);
 
-  // Update visible range on scroll
-  const updateVisibleRange = useCallback(() => {
-    if (!containerRef.current) return;
-    const container = containerRef.current;
-    const scrollTop = container.scrollTop;
-    const containerHeight = container.clientHeight;
-    const start = Math.floor(scrollTop / itemHeight);
-    const visibleCount = Math.ceil(containerHeight / itemHeight);
-    const end = Math.min(start + visibleCount + overscan * 2, items.length);
-    const newStart = Math.max(0, start - overscan);
-    setVisibleRange({ start: newStart, end });
-    // Always ensure visible range is rendered
-    setMaxRendered(m => Math.max(m, end));
-  }, [items.length, itemHeight, overscan]);
-
+  // Progressive rendering: render more items in batches
   useEffect(() => {
-    const container = containerRef.current;
-    if (!container) return;
-    const handleScroll = () => requestAnimationFrame(updateVisibleRange);
-    container.addEventListener('scroll', handleScroll, { passive: true });
-    updateVisibleRange();
-    return () => container.removeEventListener('scroll', handleScroll);
-  }, [updateVisibleRange]);
-
-  // Progressive fill: incrementally increase maxRendered
-  useEffect(() => {
-    if (maxRendered >= items.length) return;
+    if (renderedCount >= items.length) return;
+    
     let cancelled = false;
-    function step() {
+    function renderNextBatch() {
       if (cancelled) return;
-      setMaxRendered(m => {
-        if (m >= items.length) return m;
-        return Math.min(m + 30, items.length); // batch size
+      
+      setRenderedCount(prev => {
+        const next = Math.min(prev + batchSize, items.length);
+        return next;
       });
-      if (maxRendered < items.length) {
+      
+      // Schedule next batch if there are more items
+      if (renderedCount < items.length) {
         if ('requestIdleCallback' in window) {
-          requestIdleCallback(step, { timeout: 100 });
+          requestIdleCallback(renderNextBatch, { timeout:100});
         } else {
-          setTimeout(step, 16);
+          setTimeout(renderNextBatch, 16);
         }
       }
     }
-    step();
+    
+    renderNextBatch();
     return () => { cancelled = true; };
-  }, [maxRendered, items.length]);
+  }, [renderedCount, items.length, batchSize]);
 
-  // Only render up to maxRendered
-  const renderedItems = items.slice(0, maxRendered);
-  const visibleItems = renderedItems.slice(visibleRange.start, visibleRange.end);
-  const totalHeight = items.length * itemHeight;
-  const offsetY = visibleRange.start * itemHeight;
+  // Reset when items change
+  useEffect(() => {
+    setRenderedCount(batchSize);
+  }, [items.length, batchSize]);
 
-  return { containerRef, visibleItems, totalHeight, offsetY };
+  const visibleItems = items.slice(0, renderedCount);
+
+  return { containerRef, visibleItems };
 }
 
 function App() {
@@ -180,8 +161,8 @@ function App() {
     setFilteredMonsters(processedMonsters);
   }, [processedMonsters]);
 
-  // Virtual scrolling for monster cards
-  const { containerRef, visibleItems, totalHeight, offsetY } = useProgressiveFill(filteredMonsters, 400, 8);
+  // Simple progressive rendering for monster cards
+  const { containerRef, visibleItems } = useProgressiveRender(filteredMonsters, 50);
 
   // Scroll to top when filtered results change
   useEffect(() => {
@@ -387,31 +368,27 @@ function App() {
                 className="h-[600px] overflow-y-auto"
                 style={{ scrollBehavior: 'smooth' }}
               >
-                <div style={{ height: totalHeight, position: 'relative' }}>
-                  <div style={{ transform: `translateY(${offsetY}px)` }}>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-                      {visibleItems.map((monster, index) => (
-                        <motion.div
-                          key={monster.slug}
-                          initial={{ opacity: 0, scale: 0.9 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          exit={{ opacity: 0, scale: 0.9 }}
-                          transition={{ 
-                            duration: 0.2, 
-                            delay: (index % 10) * 0.01,
-                            ease: "easeOut"
-                          }}
-                        >
-                          <MonsterCard 
-                            monster={monster} 
-                            onClick={() => handleMonsterClick(monster)}
-                            onCompare={handleComparisonClick}
-                            hasDuplicates={monsters.filter(m => m.name === monster.name).length > 1}
-                          />
-                        </motion.div>
-                      ))}
-                    </div>
-                  </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                  {visibleItems.map((monster, index) => (
+                    <motion.div
+                      key={monster.slug}
+                      initial={{ opacity: 0, scale: 0.9 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      exit={{ opacity: 0, scale: 0.9 }}
+                      transition={{ 
+                        duration: 0.2, 
+                        delay: (index % 10) * 0.01,
+                        ease: "easeOut"
+                      }}
+                    >
+                      <MonsterCard 
+                        monster={monster} 
+                        onClick={() => handleMonsterClick(monster)}
+                        onCompare={handleComparisonClick}
+                        hasDuplicates={monsters.filter(m => m.name === monster.name).length > 1}
+                      />
+                    </motion.div>
+                  ))}
                 </div>
               </div>
             </motion.div>
