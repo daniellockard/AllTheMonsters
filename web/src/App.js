@@ -42,13 +42,9 @@ function useVirtualScroll(items, itemHeight = 400, overscan = 5) {
     const end = Math.min(start + visibleCount + overscan * 2, items.length);
     
     const newStart = Math.max(0, start - overscan);
-    
-    // Only update if the range actually changed
-    if (visibleRange.start !== newStart || visibleRange.end !== end) {
-      setVisibleRange({ start: newStart, end });
-    }
+    setVisibleRange({ start: newStart, end });
     scrollTopRef.current = scrollTop;
-  }, [items.length, itemHeight, overscan, visibleRange.start, visibleRange.end]);
+  }, [items.length, itemHeight, overscan]);
 
   useEffect(() => {
     const container = containerRef.current;
