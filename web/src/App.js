@@ -29,9 +29,10 @@ function useAsyncProgressiveRender(items, batchSize = 10) {
   const [isLoading, setIsLoading] = useState(false);
   const timeoutRef = useRef(null);
   const rafRef = useRef(null);
+  const currentCountRef = useRef(0);
 
   const renderNextBatch = useCallback(() => {
-    if (renderedCount >= items.length) {
+    if (currentCountRef.current >= items.length) {
       setIsLoading(false);
       return;
     }
@@ -40,7 +41,8 @@ function useAsyncProgressiveRender(items, batchSize = 10) {
     
     // Use requestAnimationFrame to yield control back to browser
     rafRef.current = requestAnimationFrame(() => {
-      const nextBatch = Math.min(renderedCount + batchSize, items.length);
+      const nextBatch = Math.min(currentCountRef.current + batchSize, items.length);
+      currentCountRef.current = nextBatch;
       setRenderedCount(nextBatch);
       
       // Schedule next batch with setTimeout to allow browser to breathe
@@ -48,7 +50,7 @@ function useAsyncProgressiveRender(items, batchSize = 10) {
         renderNextBatch();
       }, 16); // ~60fps
     });
-  }, [renderedCount, items.length, batchSize]);
+  }, [items.length, batchSize]);
 
   // Reset and start rendering when items change
   useEffect(() => {
@@ -60,6 +62,7 @@ function useAsyncProgressiveRender(items, batchSize = 10) {
       cancelAnimationFrame(rafRef.current);
     }
 
+    currentCountRef.current = 0;
     setRenderedCount(0);
     setIsLoading(false);
 
