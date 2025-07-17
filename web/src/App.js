@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, BarChart3, Grid3 } from 'lucide-react';
+import { Search, BarChart3, Grid } from 'lucide-react';
 import MonsterCard from './components/MonsterCard';
 import MonsterModal from './components/MonsterModal';
 import MonsterComparison from './components/MonsterComparison';
@@ -353,7 +353,7 @@ function App() {
                     : 'bg-dnd-gray/30 text-dnd-light hover:bg-dnd-gray/50'
                 }`}
               >
-                <Grid3 className="w-4 h-4" />
+                <Grid className="w-4 h-4" />
                 Grid
               </button>
               <button
