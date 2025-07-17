@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search } from 'lucide-react';
 import MonsterCard from './components/MonsterCard';
@@ -21,6 +21,69 @@ function useDebounce(value, delay) {
   }, [value, delay]);
 
   return debouncedValue;
+}
+
+// Async progressive rendering hook
+function useAsyncProgressiveRender(items, batchSize = 10) {
+  const [renderedCount, setRenderedCount] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
+  const timeoutRef = useRef(null);
+  const rafRef = useRef(null);
+
+  const renderNextBatch = useCallback(() => {
+    if (renderedCount >= items.length) {
+      setIsLoading(false);
+      return;
+    }
+
+    setIsLoading(true);
+    
+    // Use requestAnimationFrame to yield control back to browser
+    rafRef.current = requestAnimationFrame(() => {
+      const nextBatch = Math.min(renderedCount + batchSize, items.length);
+      setRenderedCount(nextBatch);
+      
+      // Schedule next batch with setTimeout to allow browser to breathe
+      timeoutRef.current = setTimeout(() => {
+        renderNextBatch();
+      }, 16); // ~60fps
+    });
+  }, [renderedCount, items.length, batchSize]);
+
+  // Reset and start rendering when items change
+  useEffect(() => {
+    // Clear any existing timeouts/animations
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+    if (rafRef.current) {
+      cancelAnimationFrame(rafRef.current);
+    }
+
+    setRenderedCount(0);
+    setIsLoading(false);
+
+    if (items.length > 0) {
+      // Start rendering immediately
+      renderNextBatch();
+    }
+
+    return () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+      if (rafRef.current) {
+        cancelAnimationFrame(rafRef.current);
+      }
+    };
+  }, [items]);
+
+  return {
+    renderedItems: items.slice(0, renderedCount),
+    isLoading,
+    totalCount: items.length,
+    renderedCount
+  };
 }
 
 function App() {
@@ -117,6 +180,9 @@ function App() {
   useEffect(() => {
     setFilteredMonsters(processedMonsters);
   }, [processedMonsters]);
+
+  // Async progressive rendering of monster cards
+  const { renderedItems, isLoading, totalCount, renderedCount } = useAsyncProgressiveRender(filteredMonsters, 10);
 
   // Scroll to top when filtered results change
   useEffect(() => {
@@ -273,7 +339,10 @@ function App() {
           {/* Results Count */}
           <div className="text-center">
             <p className="text-dnd-light/70">
-              Showing {filteredMonsters.length} of {monsters.length} monsters
+              Showing {renderedCount} of {totalCount} monsters
+              {isLoading && (
+                <span className="ml-2 text-dnd-gold">(Loading more...)</span>
+              )}
             </p>
           </div>
         </motion.div>
@@ -287,14 +356,18 @@ function App() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6"
         >
           <AnimatePresence>
-            {filteredMonsters.map((monster, index) => (
+            {renderedItems.map((monster, index) => (
               <motion.div
                 key={monster.slug}
                 layout
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
-                transition={{ duration: 0.2, delay: index * 0.01 }}
+                transition={{ 
+                  duration: 0.2, 
+                  delay: (index % 10) * 0.01,
+                  ease: "easeOut"
+                }}
               >
                 <MonsterCard 
                   monster={monster} 
