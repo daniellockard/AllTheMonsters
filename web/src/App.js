@@ -23,89 +23,65 @@ function useDebounce(value, delay) {
   return debouncedValue;
 }
 
-// Virtual scrolling hook
-function useVirtualScroll(items, itemHeight = 400, overscan = 8) {
+// Progressive fill hook
+function useProgressiveFill(items, itemHeight = 400, overscan = 8) {
   const [visibleRange, setVisibleRange] = useState({ start: 0, end: 20 });
+  const [maxRendered, setMaxRendered] = useState(20);
   const containerRef = useRef(null);
-  const scrollTopRef = useRef(0);
-  const rafIdRef = useRef(null);
-  const lastScrollTopRef = useRef(0);
 
+  // Update visible range on scroll
   const updateVisibleRange = useCallback(() => {
     if (!containerRef.current) return;
-    
     const container = containerRef.current;
     const scrollTop = container.scrollTop;
     const containerHeight = container.clientHeight;
-    
-    // Skip update if scroll position hasn't changed significantly
-    const scrollDiff = Math.abs(scrollTop - lastScrollTopRef.current);
-    if (scrollDiff < 50) { // Only update if scrolled more than 50px
-      return;
-    }
-    
-    // Calculate visible range with better precision
     const start = Math.floor(scrollTop / itemHeight);
     const visibleCount = Math.ceil(containerHeight / itemHeight);
     const end = Math.min(start + visibleCount + overscan * 2, items.length);
-    
     const newStart = Math.max(0, start - overscan);
-    
-    // Only update if the range has actually changed significantly
-    const currentRange = visibleRange;
-    const startDiff = Math.abs(currentRange.start - newStart);
-    const endDiff = Math.abs(currentRange.end - end);
-    
-    if (startDiff > 1 || endDiff > 1) {
-      setVisibleRange({ start: newStart, end });
-    }
-    lastScrollTopRef.current = scrollTop;
-    scrollTopRef.current = scrollTop;
-  }, [items.length, itemHeight, overscan, visibleRange]);
+    setVisibleRange({ start: newStart, end });
+    // Always ensure visible range is rendered
+    setMaxRendered(m => Math.max(m, end));
+  }, [items.length, itemHeight, overscan]);
 
   useEffect(() => {
     const container = containerRef.current;
     if (!container) return;
-
-    const handleScroll = () => {
-      // Cancel any pending RAF to prevent multiple updates
-      if (rafIdRef.current) {
-        cancelAnimationFrame(rafIdRef.current);
-      }
-      
-      rafIdRef.current = requestAnimationFrame(() => {
-        updateVisibleRange();
-        rafIdRef.current = null;
-      });
-    };
-
+    const handleScroll = () => requestAnimationFrame(updateVisibleRange);
     container.addEventListener('scroll', handleScroll, { passive: true });
-    updateVisibleRange(); // Initial calculation
-
-    return () => {
-      container.removeEventListener('scroll', handleScroll);
-      if (rafIdRef.current) {
-        cancelAnimationFrame(rafIdRef.current);
-      }
-    };
+    updateVisibleRange();
+    return () => container.removeEventListener('scroll', handleScroll);
   }, [updateVisibleRange]);
 
-  // Update when items change
+  // Progressive fill: incrementally increase maxRendered
   useEffect(() => {
-    setVisibleRange({ start: 0, end: Math.min(20, items.length) });
-  }, [items.length]);
+    if (maxRendered >= items.length) return;
+    let cancelled = false;
+    function step() {
+      if (cancelled) return;
+      setMaxRendered(m => {
+        if (m >= items.length) return m;
+        return Math.min(m + 30, items.length); // batch size
+      });
+      if (maxRendered < items.length) {
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(step, { timeout: 100 });
+        } else {
+          setTimeout(step, 16);
+        }
+      }
+    }
+    step();
+    return () => { cancelled = true; };
+  }, [maxRendered, items.length]);
 
-  const visibleItems = items.slice(visibleRange.start, visibleRange.end);
+  // Only render up to maxRendered
+  const renderedItems = items.slice(0, maxRendered);
+  const visibleItems = renderedItems.slice(visibleRange.start, visibleRange.end);
   const totalHeight = items.length * itemHeight;
   const offsetY = visibleRange.start * itemHeight;
 
-  return {
-    containerRef,
-    visibleItems,
-    totalHeight,
-    offsetY,
-    visibleRange
-  };
+  return { containerRef, visibleItems, totalHeight, offsetY };
 }
 
 function App() {
@@ -205,7 +181,7 @@ function App() {
   }, [processedMonsters]);
 
   // Virtual scrolling for monster cards
-  const { containerRef, visibleItems, totalHeight, offsetY } = useVirtualScroll(filteredMonsters, 400, 8);
+  const { containerRef, visibleItems, totalHeight, offsetY } = useProgressiveFill(filteredMonsters, 400, 8);
 
   // Scroll to top when filtered results change
   useEffect(() => {
