@@ -23,69 +23,60 @@ function useDebounce(value, delay) {
   return debouncedValue;
 }
 
-// Async progressive rendering hook
-function useAsyncProgressiveRender(items, batchSize = 10) {
-  const [renderedCount, setRenderedCount] = useState(0);
-  const [isLoading, setIsLoading] = useState(false);
-  const timeoutRef = useRef(null);
-  const rafRef = useRef(null);
-  const currentCountRef = useRef(0);
+// Virtual scrolling hook
+function useVirtualScroll(items, itemHeight = 400, overscan = 5) {
+  const [visibleRange, setVisibleRange] = useState({ start: 0, end: 20 });
+  const containerRef = useRef(null);
+  const scrollTopRef = useRef(0);
 
-  const renderNextBatch = useCallback(() => {
-    if (currentCountRef.current >= items.length) {
-      setIsLoading(false);
-      return;
-    }
-
-    setIsLoading(true);
+  const updateVisibleRange = useCallback(() => {
+    if (!containerRef.current) return;
     
-    // Use requestAnimationFrame to yield control back to browser
-    rafRef.current = requestAnimationFrame(() => {
-      const nextBatch = Math.min(currentCountRef.current + batchSize, items.length);
-      currentCountRef.current = nextBatch;
-      setRenderedCount(nextBatch);
-      
-      // Schedule next batch with setTimeout to allow browser to breathe
-      timeoutRef.current = setTimeout(() => {
-        renderNextBatch();
-      }, 16); // ~60fps
-    });
-  }, [items.length, batchSize]);
+    const container = containerRef.current;
+    const scrollTop = container.scrollTop;
+    const containerHeight = container.clientHeight;
+    
+    const start = Math.floor(scrollTop / itemHeight);
+    const visibleCount = Math.ceil(containerHeight / itemHeight);
+    const end = Math.min(start + visibleCount + overscan, items.length);
+    
+    const newStart = Math.max(0, start - overscan);
+    
+    setVisibleRange({ start: newStart, end });
+    scrollTopRef.current = scrollTop;
+  }, [items.length, itemHeight, overscan]);
 
-  // Reset and start rendering when items change
   useEffect(() => {
-    // Clear any existing timeouts/animations
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
-    }
-    if (rafRef.current) {
-      cancelAnimationFrame(rafRef.current);
-    }
+    const container = containerRef.current;
+    if (!container) return;
 
-    currentCountRef.current = 0;
-    setRenderedCount(0);
-    setIsLoading(false);
+    const handleScroll = () => {
+      requestAnimationFrame(updateVisibleRange);
+    };
 
-    if (items.length > 0) {
-      // Start rendering immediately
-      renderNextBatch();
-    }
+    container.addEventListener('scroll', handleScroll, { passive: true });
+    updateVisibleRange(); // Initial calculation
 
     return () => {
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current);
-      }
-      if (rafRef.current) {
-        cancelAnimationFrame(rafRef.current);
-      }
+      container.removeEventListener('scroll', handleScroll);
     };
-  }, [items, renderNextBatch]);
+  }, [updateVisibleRange]);
+
+  // Update when items change
+  useEffect(() => {
+    setVisibleRange({ start: 0, end: Math.min(20, items.length) });
+  }, [items.length]);
+
+  const visibleItems = items.slice(visibleRange.start, visibleRange.end);
+  const totalHeight = items.length * itemHeight;
+  const offsetY = visibleRange.start * itemHeight;
 
   return {
-    renderedItems: items.slice(0, renderedCount),
-    isLoading,
-    totalCount: items.length,
-    renderedCount
+    containerRef,
+    visibleItems,
+    totalHeight,
+    offsetY,
+    visibleRange
   };
 }
 
@@ -184,12 +175,14 @@ function App() {
     setFilteredMonsters(processedMonsters);
   }, [processedMonsters]);
 
-  // Async progressive rendering of monster cards
-  const { renderedItems, isLoading, totalCount, renderedCount } = useAsyncProgressiveRender(filteredMonsters, 10);
+  // Virtual scrolling for monster cards
+  const { containerRef, visibleItems, totalHeight, offsetY, visibleRange } = useVirtualScroll(filteredMonsters, 400, 3);
 
   // Scroll to top when filtered results change
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (containerRef.current) {
+      containerRef.current.scrollTop = 0;
+    }
   }, [filteredMonsters]);
 
   const handleMonsterClick = useCallback((monster) => {
@@ -342,10 +335,7 @@ function App() {
           {/* Results Count */}
           <div className="text-center">
             <p className="text-dnd-light/70">
-              Showing {renderedCount} of {totalCount} monsters
-              {isLoading && (
-                <span className="ml-2 text-dnd-gold">(Loading more...)</span>
-              )}
+              Showing {filteredMonsters.length} of {monsters.length} monsters
             </p>
           </div>
         </motion.div>
@@ -353,35 +343,39 @@ function App() {
         {/* Stats Panel */}
         <StatsPanel monsters={filteredMonsters} />
 
-        {/* Monster Grid */}
-        <motion.div 
-          layout
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6"
+        {/* Monster Grid with Virtual Scrolling */}
+        <div 
+          ref={containerRef}
+          className="h-[600px] overflow-y-auto"
+          style={{ scrollBehavior: 'smooth' }}
         >
-          <AnimatePresence>
-            {renderedItems.map((monster, index) => (
-              <motion.div
-                key={monster.slug}
-                layout
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.9 }}
-                transition={{ 
-                  duration: 0.2, 
-                  delay: (index % 10) * 0.01,
-                  ease: "easeOut"
-                }}
-              >
-                <MonsterCard 
-                  monster={monster} 
-                  onClick={() => handleMonsterClick(monster)}
-                  onCompare={handleComparisonClick}
-                  hasDuplicates={monsters.filter(m => m.name === monster.name).length > 1}
-                />
-              </motion.div>
-            ))}
-          </AnimatePresence>
-        </motion.div>
+          <div style={{ height: totalHeight, position: 'relative' }}>
+            <div style={{ transform: `translateY(${offsetY}px)` }}>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                {visibleItems.map((monster, index) => (
+                  <motion.div
+                    key={monster.slug}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.9 }}
+                    transition={{ 
+                      duration: 0.2, 
+                      delay: (index % 10) * 0.01,
+                      ease: "easeOut"
+                    }}
+                  >
+                    <MonsterCard 
+                      monster={monster} 
+                      onClick={() => handleMonsterClick(monster)}
+                      onCompare={handleComparisonClick}
+                      hasDuplicates={monsters.filter(m => m.name === monster.name).length > 1}
+                    />
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* No Results */}
         {filteredMonsters.length === 0 && (
