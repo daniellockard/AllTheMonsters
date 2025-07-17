@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search } from 'lucide-react';
+import { Search, BarChart3, Grid3 } from 'lucide-react';
 import MonsterCard from './components/MonsterCard';
 import MonsterModal from './components/MonsterModal';
 import MonsterComparison from './components/MonsterComparison';
@@ -36,15 +36,19 @@ function useVirtualScroll(items, itemHeight = 400, overscan = 5) {
     const scrollTop = container.scrollTop;
     const containerHeight = container.clientHeight;
     
+    // Calculate visible range with better precision
     const start = Math.floor(scrollTop / itemHeight);
     const visibleCount = Math.ceil(containerHeight / itemHeight);
-    const end = Math.min(start + visibleCount + overscan, items.length);
+    const end = Math.min(start + visibleCount + overscan * 2, items.length);
     
     const newStart = Math.max(0, start - overscan);
     
-    setVisibleRange({ start: newStart, end });
+    // Only update if the range actually changed
+    if (visibleRange.start !== newStart || visibleRange.end !== end) {
+      setVisibleRange({ start: newStart, end });
+    }
     scrollTopRef.current = scrollTop;
-  }, [items.length, itemHeight, overscan]);
+  }, [items.length, itemHeight, overscan, visibleRange.start, visibleRange.end]);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -94,6 +98,7 @@ function App() {
   const [showComparison, setShowComparison] = useState(false);
   const [comparisonMonsters, setComparisonMonsters] = useState([]);
   const [sortBy, setSortBy] = useState('name');
+  const [viewMode, setViewMode] = useState('grid'); // 'grid' or 'stats'
 
   // Debounce search term to avoid excessive filtering
   const debouncedSearchTerm = useDebounce(searchTerm, 300);
@@ -332,50 +337,97 @@ function App() {
             </div>
           </div>
 
-          {/* Results Count */}
-          <div className="text-center">
+          {/* Results Count and View Toggle */}
+          <div className="flex justify-between items-center">
             <p className="text-dnd-light/70">
               Showing {filteredMonsters.length} of {monsters.length} monsters
             </p>
+            
+            {/* View Toggle Buttons */}
+            <div className="flex gap-2">
+              <button
+                onClick={() => setViewMode('grid')}
+                className={`px-4 py-2 rounded-lg transition-colors ${
+                  viewMode === 'grid' 
+                    ? 'bg-dnd-purple text-white' 
+                    : 'bg-dnd-gray/30 text-dnd-light hover:bg-dnd-gray/50'
+                }`}
+              >
+                <Grid3 className="w-4 h-4" />
+                Grid
+              </button>
+              <button
+                onClick={() => setViewMode('stats')}
+                className={`px-4 py-2 rounded-lg transition-colors ${
+                  viewMode === 'stats' 
+                    ? 'bg-dnd-purple text-white' 
+                    : 'bg-dnd-gray/30 text-dnd-light hover:bg-dnd-gray/50'
+                }`}
+              >
+                <BarChart3 className="w-4 h-4" />
+                Stats
+              </button>
+            </div>
           </div>
         </motion.div>
 
-        {/* Stats Panel */}
-        <StatsPanel monsters={filteredMonsters} />
-
-        {/* Monster Grid with Virtual Scrolling */}
-        <div 
-          ref={containerRef}
-          className="h-[600px] overflow-y-auto"
-          style={{ scrollBehavior: 'smooth' }}
-        >
-          <div style={{ height: totalHeight, position: 'relative' }}>
-            <div style={{ transform: `translateY(${offsetY}px)` }}>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
-                {visibleItems.map((monster, index) => (
-                  <motion.div
-                    key={monster.slug}
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    exit={{ opacity: 0, scale: 0.9 }}
-                    transition={{ 
-                      duration: 0.2, 
-                      delay: (index % 10) * 0.01,
-                      ease: "easeOut"
-                    }}
-                  >
-                    <MonsterCard 
-                      monster={monster} 
-                      onClick={() => handleMonsterClick(monster)}
-                      onCompare={handleComparisonClick}
-                      hasDuplicates={monsters.filter(m => m.name === monster.name).length > 1}
-                    />
-                  </motion.div>
-                ))}
+        {/* Content Area */}
+        <AnimatePresence mode="wait">
+          {viewMode === 'grid' ? (
+            <motion.div
+              key="grid"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+            >
+              {/* Monster Grid with Virtual Scrolling */}
+              <div 
+                ref={containerRef}
+                className="h-[600px] overflow-y-auto"
+                style={{ scrollBehavior: 'smooth' }}
+              >
+                <div style={{ height: totalHeight, position: 'relative' }}>
+                  <div style={{ transform: `translateY(${offsetY}px)` }}>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+                      {visibleItems.map((monster, index) => (
+                        <motion.div
+                          key={monster.slug}
+                          initial={{ opacity: 0, scale: 0.9 }}
+                          animate={{ opacity: 1, scale: 1 }}
+                          exit={{ opacity: 0, scale: 0.9 }}
+                          transition={{ 
+                            duration: 0.2, 
+                            delay: (index % 10) * 0.01,
+                            ease: "easeOut"
+                          }}
+                        >
+                          <MonsterCard 
+                            monster={monster} 
+                            onClick={() => handleMonsterClick(monster)}
+                            onCompare={handleComparisonClick}
+                            hasDuplicates={monsters.filter(m => m.name === monster.name).length > 1}
+                          />
+                        </motion.div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
+            </motion.div>
+          ) : (
+            <motion.div
+              key="stats"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3 }}
+            >
+              {/* Stats Panel */}
+              <StatsPanel monsters={filteredMonsters} />
+            </motion.div>
+          )}
+        </AnimatePresence>
 
         {/* No Results */}
         {filteredMonsters.length === 0 && (
