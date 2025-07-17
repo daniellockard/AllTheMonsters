@@ -76,7 +76,7 @@ function useAsyncProgressiveRender(items, batchSize = 10) {
         cancelAnimationFrame(rafRef.current);
       }
     };
-  }, [items]);
+  }, [items, renderNextBatch]);
 
   return {
     renderedItems: items.slice(0, renderedCount),
