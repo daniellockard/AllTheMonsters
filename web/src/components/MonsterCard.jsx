@@ -97,7 +97,7 @@ const MonsterCard = memo(({ monster, onClick }) => {
   return (
     <div
       onClick={onClick}
-      className={`group relative h-80 bg-gradient-to-br ${gradient} backdrop-blur-sm rounded-2xl border ${borderColor} p-5 cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-black/20 overflow-hidden isolate`}
+      className={`group relative h-80 bg-gradient-to-br ${gradient} backdrop-blur-sm rounded-2xl border ${borderColor} p-5 cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-black/20 overflow-hidden isolate hover:z-10`}
     >
       {/* Subtle glow effect on hover */}
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-t from-white/5 to-transparent pointer-events-none z-0" />
