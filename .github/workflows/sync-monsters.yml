@@ -1,0 +1,56 @@
+name: Sync Monster Data
+
+on:
+  # Run weekly on Monday at 6 AM UTC
+  schedule:
+    - cron: '0 6 * * 1'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run monster update
+        run: npm run collect:update
+        continue-on-error: true
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Monster data has changed!"
+            git diff --staged --stat | head -20
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: sync monster data from Open5e API"
+          git push
+
+      - name: Trigger deploy
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          echo "Changes committed - deploy workflow will run automatically"
