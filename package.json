@@ -1,22 +1,35 @@
 {
   "name": "all-the-monsters",
   "version": "1.0.0",
-  "description": "D&D 5.1 SRD Monster Data Collector",
-  "main": "src/index.js",
+  "description": "D&D 5.1 SRD Monster Data Collector & Web Viewer",
   "type": "module",
   "scripts": {
-    "start": "node collector/index.js",
-    "build": "node collector/index.js",
-    "test": "node collector/test.js",
-    "resume": "node collector/resume.js",
-    "debug": "node collector/debug.js"
+    "dev": "cd web && vite",
+    "build:web": "cd web && vite build",
+    "preview": "vite preview web",
+    "collect": "node collector/index.js",
+    "collect:resume": "node collector/resume.js",
+    "collect:debug": "node collector/debug.js",
+    "test": "node collector/test.js"
   },
   "dependencies": {
-    "axios": "^1.6.0",
-    "fs-extra": "^11.1.1"
+    "@tanstack/react-virtual": "^3.13.18",
+    "axios": "^1.13.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.29.2",
+    "fs-extra": "^11.3.3",
+    "lucide-react": "^0.563.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-markdown": "^10.1.0",
+    "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "@tailwindcss/vite": "^4.1.18",
+    "@vitejs/plugin-react": "^5.1.2",
+    "nodemon": "^3.1.11",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.3.1"
   },
   "keywords": ["dnd", "dungeons-dragons", "srd", "monsters", "api"],
   "author": "",

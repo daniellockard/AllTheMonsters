@@ -1,6 +1,14 @@
 # All The Monsters
 
-A Node.js application that collects all monster stat blocks from D&D 5.1 SRD using the Open5e API and saves them to local JSON files.
+A modern web application that collects and displays all monster stat blocks from D&D 5.1 SRD using the Open5e API.
+
+## Tech Stack
+
+- ⚡ **Vite 7** - Lightning fast dev server and builds
+- ⚛️ **React 19** - Latest React with concurrent features
+- 🎨 **Tailwind CSS 4** - Modern utility-first styling
+- 🎭 **Framer Motion 12** - Smooth animations
+- 📜 **Virtual Scrolling** - Handles 3,207 monsters efficiently
 
 ## Features
 
@@ -39,31 +47,24 @@ This will:
 Run the full monster collection:
 
 ```bash
-npm start
+npm run collect
 ```
 
 ### Web Interface
 
 To run the web interface for browsing monsters:
 
-**Option 1: Quick Start Script**
 ```bash
-./start-web.sh
+npm run dev
 ```
 
-**Option 2: Manual Start**
+This will start the Vite development server at `http://localhost:3000/AllTheMonsters/`
+
+### Build for Production
+
 ```bash
-cd web
-npm start
+npm run build:web
 ```
-
-This will start the React development server at `http://localhost:3000`
-
-This will:
-- Fetch all monsters from the Open5e API
-- Save individual monster files to `data/monsters/`
-- Create summary and statistics files
-- Handle errors gracefully
 
 ## Project Structure
 

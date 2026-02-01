@@ -5,6 +5,17 @@ import path from 'path';
 const OPEN5E_API_BASE = 'https://api.open5e.com';
 const OUTPUT_DIR = './data/monsters';
 
+// Sanitize filenames to be cross-platform safe (no colons, etc.)
+const sanitizeFilename = (name) => {
+  return name
+    .replace(/:/g, '-')      // Replace colons (Windows incompatible)
+    .replace(/[<>"\|\?\*]/g, '-')  // Replace other Windows-unsafe chars
+    .replace(/\s+/g, '-')    // Replace spaces
+    .replace(/-+/g, '-')     // Collapse multiple dashes
+    .replace(/^-|-$/g, '')   // Trim leading/trailing dashes
+    .toLowerCase();
+};
+
 // Configuration
 const CONFIG = {
   timeout: 30000,
@@ -230,7 +241,8 @@ class MonsterResumer {
     // Save individual monster files
     console.log('💾 Saving individual monster files...');
     for (const monster of this.monsters) {
-      const filename = `${monster.slug || monster.name.toLowerCase().replace(/[^a-z0-9]/g, '-')}.json`;
+      const baseSlug = monster.slug || monster.name.toLowerCase().replace(/[^a-z0-9-]/g, '-');
+      const filename = `${sanitizeFilename(baseSlug)}.json`;
       const filepath = path.join(OUTPUT_DIR, filename);
       await fs.writeJson(filepath, monster, { spaces: 2 });
     }

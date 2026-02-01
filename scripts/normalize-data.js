@@ -5,6 +5,17 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Sanitize filenames to be cross-platform safe (no colons, etc.)
+const sanitizeFilename = (name) => {
+  return name
+    .replace(/:/g, '-')      // Replace colons (Windows incompatible)
+    .replace(/[<>"\|\?\*]/g, '-')  // Replace other Windows-unsafe chars
+    .replace(/\s+/g, '-')    // Replace spaces
+    .replace(/-+/g, '-')     // Collapse multiple dashes
+    .replace(/^-|-$/g, '')   // Trim leading/trailing dashes
+    .toLowerCase();
+};
+
 // Normalization mappings
 const typeNormalization = {
   'monstrosity': 'Monstrosity',
@@ -141,7 +152,7 @@ function normalizeData() {
   
   let savedCount = 0;
   monsters.forEach(monster => {
-    const filename = `${monster.slug}.json`;
+    const filename = `${sanitizeFilename(monster.slug)}.json`;
     const filepath = path.join(individualDir, filename);
     fs.writeFileSync(filepath, JSON.stringify(monster, null, 2));
     savedCount++;
