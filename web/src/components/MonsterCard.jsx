@@ -97,7 +97,7 @@ const MonsterCard = memo(({ monster, onClick }) => {
   return (
     <div
       onClick={onClick}
-      className={`group relative h-80 bg-gradient-to-br ${gradient} backdrop-blur-sm rounded-2xl border ${borderColor} p-5 cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-black/20 overflow-hidden hover:z-10`}
+      className={`group relative h-80 bg-linear-to-br ${gradient} rounded-2xl border ${borderColor} p-5 cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-black/20 overflow-hidden hover:z-10`}
     >
       {/* Header */}
       <div className="flex items-start justify-between gap-3 mb-4">
