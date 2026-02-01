@@ -6,7 +6,7 @@
   "type": "Fey",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral Evil",
+  "alignment": "neutral evil",
   "armor_class": 17,
   "armor_desc": "natural armor",
   "hit_points": 135,

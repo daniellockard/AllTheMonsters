@@ -1,86 +1,82 @@
 {
-  "slug": "wyvern",
+  "slug": "wyvern_bf",
   "desc": "",
   "name": "Wyvern",
-  "size": "Large",
+  "size": "large",
   "type": "Dragon",
   "subtype": "",
   "group": null,
-  "alignment": "Unaligned",
+  "alignment": "",
   "armor_class": 13,
   "armor_desc": "natural armor",
-  "hit_points": 110,
-  "hit_dice": "13d10+39",
+  "hit_points": 147,
+  "hit_dice": "",
   "speed": {
     "walk": 20,
     "fly": 80
   },
-  "strength": 19,
+  "strength": 18,
   "dexterity": 10,
   "constitution": 16,
-  "intelligence": 5,
+  "intelligence": 4,
   "wisdom": 12,
   "charisma": 6,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 4,
-  "skills": {
-    "perception": 4
-  },
-  "damage_vulnerabilities": "",
+  "strength_save": 4,
+  "dexterity_save": 0,
+  "constitution_save": 3,
+  "intelligence_save": -3,
+  "wisdom_save": 1,
+  "charisma_save": -2,
+  "perception": 14,
+  "skills": {},
+  "damage_vulnerabilities": "Clumsy",
   "damage_resistances": "",
-  "damage_immunities": "",
+  "damage_immunities": "poison,poisoned",
   "condition_immunities": "",
-  "senses": "darkvision 60 ft., passive Perception 14",
-  "languages": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "-",
   "challenge_rating": "6",
   "cr": 6,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The wyvern makes two attacks: one with its bite and one with its stinger. While flying, it can use its claws in place of one other attack."
+      "desc": "The wyvern makes one Bite attack and one Stinger attack. While flying, it can replace one attack with a Claws attack."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 11 (2d6 + 4) piercing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "2d6",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one creature. _Hit:_ 11 (2d6+4) piercing damage."
     },
     {
       "name": "Claws",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "2d8",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 13 (2d8+4) slashing damage."
     },
     {
       "name": "Stinger",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 11 (2d6 + 4) piercing damage. The target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.",
-      "attack_bonus": 7,
-      "damage_dice": "2d6",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 15 ft., one creature. _Hit:_ 15 (2d10+4) piercing damage plus 18 (4d8) poison damage. The target must succeed on a DC 15 CON save or be poisoned for 1 minute. A poisoned creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": null,
-  "spell_list": [],
-  "page_no": 356,
-  "environments": [
-    "Hill",
-    "Mountain"
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Reflexive Tail Whip",
+      "desc": "When a creature moves into a space within 15 feet of the wyvern, it can whip its tail at the creature. The target must succeed on a DC 15 STR save or be knocked prone."
+    }
   ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Clumsy",
+      "desc": "While not flying, the wyvern is vulnerable to the grappled, prone, and restrained conditions."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_wyvern/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_wyvern/"
 }

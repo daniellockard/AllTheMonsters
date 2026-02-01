@@ -1,84 +1,73 @@
 {
-  "slug": "orc",
+  "slug": "orc_bf",
   "desc": "",
   "name": "Orc",
-  "size": "Medium",
+  "size": "medium",
   "type": "Humanoid",
-  "subtype": "orc",
-  "group": null,
-  "alignment": "Chaotic Evil",
+  "subtype": "",
+  "group": "Orcs",
+  "alignment": "",
   "armor_class": 13,
   "armor_desc": "hide armor",
-  "hit_points": 15,
-  "hit_dice": "2d8+6",
+  "hit_points": 25,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
   "strength": 16,
   "dexterity": 12,
   "constitution": 16,
-  "intelligence": 7,
-  "wisdom": 11,
+  "intelligence": 6,
+  "wisdom": 10,
   "charisma": 10,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
-  "skills": {
-    "intimidation": 2
-  },
+  "strength_save": 3,
+  "dexterity_save": 1,
+  "constitution_save": 3,
+  "intelligence_save": -2,
+  "wisdom_save": 0,
+  "charisma_save": 0,
+  "perception": 12,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_resistances": "exhaustion",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 60 ft., passive Perception 10",
-  "languages": "Common, Orc",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Orc",
   "challenge_rating": "1/2",
   "cr": 0.5,
   "actions": [
     {
       "name": "Greataxe",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d12",
-      "damage_bonus": 3
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 9 (1d12+3) slashing damage."
     },
     {
       "name": "Javelin",
-      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d6",
-      "damage_bonus": 3
+      "desc": "_Melee or Ranged Weapon Attack:_ +5 to hit, reach 5 ft. or range 30/120 ft., one target. _Hit:_ 6 (1d6+3) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Warrior's Advance",
+      "desc": "The orc moves up to its speed toward a hostile creature that it can see."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Aggressive",
-      "desc": "As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+      "name": "Stalwart",
+      "desc": "If the orc starts its turn afflicted by an ongoing effect that allows for a repeated save to end the effect, such as the hold spell or the poison from an ettercap's Bite, the orc can make the save at the start of the turn instead of the end and has advantage on the save."
     }
   ],
   "spell_list": [],
-  "page_no": 339,
-  "environments": [
-    "Hill",
-    "Underdark",
-    "Swamp",
-    "Grassland",
-    "Mountain",
-    "Forest",
-    "Arctic"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_orc/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_orc/"
 }

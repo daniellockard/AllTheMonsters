@@ -1,126 +1,97 @@
 {
-  "slug": "green-hag",
+  "slug": "green_hag_bf",
   "desc": "",
   "name": "Green Hag",
-  "size": "Medium",
+  "size": "medium",
   "type": "Fey",
   "subtype": "",
   "group": "Hags",
-  "alignment": "Neutral Evil",
-  "armor_class": 17,
+  "alignment": "",
+  "armor_class": 16,
   "armor_desc": "natural armor",
-  "hit_points": 82,
-  "hit_dice": "11d8+33",
+  "hit_points": 76,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
   "strength": 18,
   "dexterity": 12,
   "constitution": 16,
-  "intelligence": 13,
+  "intelligence": 12,
   "wisdom": 14,
-  "charisma": 14,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 4,
-  "skills": {
-    "arcana": 3,
-    "deception": 4,
-    "perception": 4,
-    "stealth": 3
-  },
+  "charisma": 22,
+  "strength_save": 4,
+  "dexterity_save": 1,
+  "constitution_save": 3,
+  "intelligence_save": 1,
+  "wisdom_save": 2,
+  "charisma_save": 6,
+  "perception": 14,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_resistances": "Fey Resilience",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 60 ft., passive Perception 14",
-  "languages": "Common, Draconic, Sylvan",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Sylvan",
   "challenge_rating": "3",
   "cr": 3,
   "actions": [
     {
-      "name": "Claws",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "2d8",
-      "damage_bonus": 4
+      "name": "Multiattack",
+      "desc": "The hag makes two Claw or Torment attacks. If two attacks hit one creature, the target must succeed on a DC 14 WIS save or be overwhelmed with pain and have disadvantage on attack rolls until the end of its next turn."
     },
     {
-      "name": "Illusory Appearance",
-      "desc": "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.\nThe changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised."
+      "name": "Claw",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 13 (2d8+4) slashing damage."
+    },
+    {
+      "name": "Torment",
+      "desc": "_Ranged Spell Attack:_ +6 to hit, range 60 ft., one target. _Hit:_ 14 (3d6+4) psychic damage."
+    },
+    {
+      "name": "Poisonous Allies (1/Day)",
+      "desc": "The hag magically calls 1 **giant spider**, 2 **giant poisonous snakes**, or 2d4 **poisonous snakes**. They arrive in 1d4 rounds, acting as allies of the hag and obeying its spoken commands. The creatures remain for 1 hour, until the hag dies, or until the hag dismisses them as a bonus action."
     },
     {
       "name": "Invisible Passage",
-      "desc": "The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her."
+      "desc": "The hag magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). While invisible, it leaves no physical evidence of its passage and can be tracked only by magic. Any equipment it wears or carries is invisible with it."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The hag casts one of the following spells, requiring no material components and using CHA as the spellcasting ability (spell save DC 14).<br>At will: _dancing lights_, _minor illusion_<br>1/day: _bestow curse_"
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Illusory Appearance",
+      "desc": "The hag covers itself and anything it is wearing or carrying with a magical illusion that makes it look like another creature of its general size and Humanoid shape. The illusion ends if the hag takes a bonus action to end it or if the hag dies.<br>The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching it would feel its rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 INT (Investigation) check to discern that the hag is disguised."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Amphibious",
       "desc": "The hag can breathe air and water."
     },
     {
-      "name": "Innate Spellcasting",
-      "desc": "The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:\n\nAt will: dancing lights, minor illusion, vicious mockery"
+      "name": "Fey Resilience",
+      "desc": "The hag is resistant to the charmed and unconscious conditions."
     },
     {
       "name": "Mimicry",
-      "desc": "The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check."
-    },
-    {
-      "name": "Hag Coven",
-      "desc": "When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.\nA coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos."
-    },
-    {
-      "name": "Shared Spellcasting (Coven Only)",
-      "desc": "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:\n\n* 1st level (4 slots): identify, ray of sickness\n* 2nd level (3 slots): hold person, locate object\n* 3rd level (3 slots): bestow curse, counterspell, lightning bolt\n* 4th level (3 slots): phantasmal killer, polymorph\n* 5th level (2 slots): contact other plane, scrying\n* 6th level (1 slot): eye bite\n\nFor casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12+the hag's Intelligence modifier, and the spell attack bonus is 4+the hag's Intelligence modifier."
-    },
-    {
-      "name": "Hag Eye (Coven Only)",
-      "desc": "A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and darkvision with a radius of 60 feet. If it is destroyed, each coven member takes 3d10 psychic damage and is blinded for 24 hours.\nA hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while blinded. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+      "desc": "The hag can mimic Animal sounds and Humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 WIS (Insight) check. Speak with Beasts. The hag can communicate with Beasts as if they shared a language."
     }
   ],
-  "spell_list": [
-    "https://api.open5e.com/v2/spells/dancing-lights/",
-    "https://api.open5e.com/v2/spells/minor-illusion/",
-    "https://api.open5e.com/v2/spells/vicious-mockery/",
-    "https://api.open5e.com/v2/spells/identify/",
-    "https://api.open5e.com/v2/spells/ray-of-sickness/",
-    "https://api.open5e.com/v2/spells/hold-person/",
-    "https://api.open5e.com/v2/spells/locate-object/",
-    "https://api.open5e.com/v2/spells/bestow-curse/",
-    "https://api.open5e.com/v2/spells/counterspell/",
-    "https://api.open5e.com/v2/spells/lightning-bolt/",
-    "https://api.open5e.com/v2/spells/phantasmal-killer/",
-    "https://api.open5e.com/v2/spells/polymorph/",
-    "https://api.open5e.com/v2/spells/contact-other-plane/",
-    "https://api.open5e.com/v2/spells/scrying/",
-    "https://api.open5e.com/v2/spells/eye-bite/"
-  ],
-  "page_no": 319,
-  "environments": [
-    "Hill",
-    "Forest",
-    "Ruin",
-    "Swamp",
-    "Jungle",
-    "Feywild",
-    "Shadowfell",
-    "Caverns",
-    "Settlement"
-  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_green-hag/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_green-hag/"
 }

@@ -1,26 +1,26 @@
 {
-  "slug": "swarm-of-quippers",
+  "slug": "swarm-of-quippers-a5e",
   "desc": "",
   "name": "Swarm of Quippers",
   "size": "Medium",
   "type": "Beast",
-  "subtype": "Swarm",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
   "armor_class": 13,
-  "armor_desc": null,
+  "armor_desc": "",
   "hit_points": 28,
   "hit_dice": "8d8-8",
   "speed": {
     "walk": 0,
     "swim": 40
   },
-  "strength": 13,
+  "strength": 12,
   "dexterity": 16,
-  "constitution": 9,
-  "intelligence": 1,
-  "wisdom": 7,
-  "charisma": 2,
+  "constitution": 8,
+  "intelligence": 2,
+  "wisdom": 6,
+  "charisma": 4,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
@@ -32,7 +32,7 @@
   "damage_vulnerabilities": "",
   "damage_resistances": "bludgeoning, piercing, slashing",
   "damage_immunities": "",
-  "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned, unconscious",
   "senses": "darkvision 60 ft., passive Perception 8",
   "languages": "",
   "challenge_rating": "1",
@@ -40,9 +40,7 @@
   "actions": [
     {
       "name": "Bites",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one creature in the swarm's space. Hit: 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.",
-      "attack_bonus": 5,
-      "damage_dice": "4d6"
+      "desc": "Melee Weapon Attack: +5 to hit, reach 0 ft., one target. Hit: 10 (4d4) piercing damage  or 5 (2d4) piercing damage if the swarm is bloodied. On a hit  the swarm can use a bonus action to make a second bites attack."
     }
   ],
   "bonus_actions": null,
@@ -51,29 +49,21 @@
   "legendary_actions": null,
   "special_abilities": [
     {
-      "name": "Blood Frenzy",
-      "desc": "The swarm has advantage on melee attack rolls against any creature that doesn't have all its hit points."
-    },
-    {
       "name": "Swarm",
-      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny quipper. The swarm can't regain hit points or gain temporary hit points."
+      "desc": "The swarm can occupy another creatures space and move through any opening large enough for a Tiny creature. It can't gain hit points or temporary hit points."
     },
     {
       "name": "Water Breathing",
-      "desc": "The swarm can breathe only underwater."
+      "desc": "The swarm breathes only water."
     }
   ],
   "spell_list": [],
-  "page_no": 390,
-  "environments": [
-    "Underwater",
-    "Sewer",
-    "Water"
-  ],
+  "page_no": 461,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_swarm-of-quippers/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_swarm-of-quippers/"
 }

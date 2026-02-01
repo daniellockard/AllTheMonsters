@@ -6,7 +6,7 @@
   "type": "Beast",
   "subtype": "Swarm",
   "group": null,
-  "alignment": "Unaligned",
+  "alignment": "unaligned",
   "armor_class": 13,
   "armor_desc": "natural",
   "hit_points": 114,

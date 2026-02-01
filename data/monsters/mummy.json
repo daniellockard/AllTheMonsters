@@ -1,76 +1,77 @@
 {
-  "slug": "mummy",
+  "slug": "mummy_bf",
   "desc": "",
   "name": "Mummy",
-  "size": "Medium",
+  "size": "medium",
   "type": "Undead",
   "subtype": "",
   "group": "Mummies",
-  "alignment": "Lawful Evil",
-  "armor_class": 11,
+  "alignment": "",
+  "armor_class": 13,
   "armor_desc": "natural armor",
-  "hit_points": 58,
-  "hit_dice": "9d8+18",
+  "hit_points": 80,
+  "hit_dice": "",
   "speed": {
     "walk": 20
   },
   "strength": 16,
   "dexterity": 8,
-  "constitution": 15,
+  "constitution": 16,
   "intelligence": 6,
-  "wisdom": 10,
+  "wisdom": 14,
   "charisma": 12,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
+  "strength_save": 3,
+  "dexterity_save": -1,
+  "constitution_save": 3,
+  "intelligence_save": -2,
   "wisdom_save": 2,
-  "charisma_save": null,
-  "perception": null,
+  "charisma_save": 1,
+  "perception": 12,
   "skills": {},
   "damage_vulnerabilities": "fire",
-  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
-  "damage_immunities": "necrotic, poison",
-  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
-  "senses": "darkvision 60 ft., passive Perception 10",
+  "damage_resistances": "bludgeoning,piercing,and slashing damage from nonmagical attacks",
+  "damage_immunities": "necrotic,charmed,frightened,paralyzed,Undead Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
   "languages": "the languages it knew in life",
   "challenge_rating": "3",
   "cr": 3,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The mummy can use its Dreadful Glare and makes one attack with its rotting fist."
+      "desc": "The mummy makes two Rotting Fist attacks. If both attacks hit one creature that isn't a Construct or Undead, the target must succeed on a DC 13 CON save or be cursed with mummy rot (see the Mummy Rot sidebar)."
     },
     {
       "name": "Rotting Fist",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage plus 10 (3d6) necrotic damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the remove curse spell or other magic.",
-      "attack_bonus": 5,
-      "damage_dice": "2d6",
-      "damage_bonus": 3
-    },
-    {
-      "name": "Dreadful Glare",
-      "desc": "The mummy targets one creature it can see within 60 ft. of it. If the target can see the mummy, it must succeed on a DC 11 Wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours."
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8+3) bludgeoning damage plus 7 (2d6) necrotic damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": null,
-  "spell_list": [],
-  "page_no": 333,
-  "environments": [
-    "Temple",
-    "Desert",
-    "Shadowfell",
-    "Ruin",
-    "Tomb"
+  "bonus_actions": [
+    {
+      "name": "Dreadful Glare",
+      "desc": "The mummy glares at one creature it can see within 60 feet of it. The target must succeed on a DC 13 WIS save or be frightened until the end of its next turn. If the target fails the save by 5 or more, it is also paralyzed for the same duration."
+    }
   ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Undead Nature",
+      "desc": "The mummy doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Undead Resilience",
+      "desc": "The mummy is immune to poison damage, to exhaustion, and to the poisoned condition."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_mummy/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_mummy/"
 }

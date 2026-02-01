@@ -1,97 +1,82 @@
 {
-  "slug": "ice-mephit",
+  "slug": "ice_mephit_bf",
   "desc": "",
   "name": "Ice Mephit",
-  "size": "Small",
+  "size": "small",
   "type": "Elemental",
   "subtype": "",
   "group": "Mephits",
-  "alignment": "Neutral Evil",
-  "armor_class": 11,
+  "alignment": "",
+  "armor_class": 12,
   "armor_desc": null,
-  "hit_points": 21,
-  "hit_dice": "6d6",
+  "hit_points": 27,
+  "hit_dice": "",
   "speed": {
     "walk": 30,
     "fly": 30
   },
-  "strength": 7,
-  "dexterity": 13,
+  "strength": 4,
+  "dexterity": 14,
   "constitution": 10,
-  "intelligence": 9,
-  "wisdom": 11,
+  "intelligence": 6,
+  "wisdom": 10,
   "charisma": 12,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 2,
-  "skills": {
-    "perception": 2,
-    "stealth": 3
-  },
-  "damage_vulnerabilities": "bludgeoning, fire",
+  "strength_save": -3,
+  "dexterity_save": 2,
+  "constitution_save": 0,
+  "intelligence_save": -2,
+  "wisdom_save": 0,
+  "charisma_save": 1,
+  "perception": 12,
+  "skills": {},
+  "damage_vulnerabilities": "bludgeoning,fire",
   "damage_resistances": "",
-  "damage_immunities": "cold, poison",
-  "condition_immunities": "poisoned",
-  "senses": "darkvision 60 ft., passive Perception 12",
-  "languages": "Aquan, Auran",
+  "damage_immunities": "cold,poison,poisoned",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "Aquan,Auran",
   "challenge_rating": "1/2",
   "cr": 0.5,
   "actions": [
     {
       "name": "Claws",
-      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 3 (1d4 + 1) slashing damage plus 2 (1d4) cold damage.",
-      "attack_bonus": 3,
-      "damage_dice": "1d4",
-      "damage_bonus": 1
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 4 (1d4+2) slashing damage plus 3 (1d6) cold damage."
+    },
+    {
+      "name": "Ice Shard",
+      "desc": "_Ranged Weapon Attack:_ +4 to hit, range 20/60 ft., one target. _Hit:_ 4 (1d4+2) piercing damage plus 3 (1d6) cold damage."
     },
     {
       "name": "Frost Breath (Recharge 6)",
-      "desc": "The mephit exhales a 15-foot cone of cold air. Each creature in that area must succeed on a DC 10 Dexterity saving throw, taking 5 (2d4) cold damage on a failed save, or half as much damage on a successful one."
-    },
-    {
-      "name": "Variant: Summon Mephits (1/Day)",
-      "desc": "The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+      "desc": "The mephit exhales freezing fog in a 15-foot cone. Each creature in that area must make a DC 11 CON save. On a failure, a creature takes 7 (2d6) cold damage and is restrained by ice until the end of its next turn. On a success, a creature takes half the damage and isn't restrained."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Cloud of Snow (1/Day)",
+      "desc": "The mephit casts the fog cloud spell, requiring no material components and using CHA as the spellcasting ability."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Death Burst",
-      "desc": "When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 ft. of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one.",
-      "attack_bonus": 0,
-      "damage_dice": "1d8"
+      "desc": "When the mephit dies, it explodes in a burst of viscous ice. Each creature within 5 feet of it must succeed on a DC 11 DEX save or be restrained by ice for 1 minute. A creature, including the restrained creature, can take its action to free the restrained creature by succeeding on a DC 11 STR check. The ice melts immediately if the restrained creature takes fire damage, freeing the creature."
     },
     {
       "name": "False Appearance",
       "desc": "While the mephit remains motionless, it is indistinguishable from an ordinary shard of ice."
-    },
-    {
-      "name": "Innate Spellcasting (1/Day)",
-      "desc": "The mephit can innately cast _fog cloud_, requiring no material components. Its innate spellcasting ability is Charisma."
     }
   ],
-  "spell_list": [
-    "https://api.open5e.com/v2/spells/fog-cloud/"
-  ],
-  "page_no": 331,
-  "environments": [
-    "Plane Of Air",
-    "Mountains",
-    "Tundra",
-    "Plane Of Water",
-    "Arctic"
-  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_ice-mephit/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_ice-mephit/"
 }

@@ -1,73 +1,69 @@
 {
-  "slug": "bat",
+  "slug": "bat_bf",
   "desc": "",
   "name": "Bat",
-  "size": "Tiny",
+  "size": "tiny",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
-  "armor_class": 12,
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 11,
   "armor_desc": null,
-  "hit_points": 1,
-  "hit_dice": "1d4-1",
+  "hit_points": 8,
+  "hit_dice": "",
   "speed": {
     "walk": 5,
     "fly": 30
   },
   "strength": 2,
-  "dexterity": 15,
+  "dexterity": 12,
   "constitution": 8,
   "intelligence": 2,
   "wisdom": 12,
   "charisma": 4,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
+  "strength_save": -4,
+  "dexterity_save": 1,
+  "constitution_save": -1,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -3,
+  "perception": 11,
   "skills": {},
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_vulnerabilities": "deafened",
+  "damage_resistances": "blinded",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "blindsight 60 ft., passive Perception 11",
-  "languages": "",
+  "senses": "keensense 60 ft.",
+  "languages": "-",
   "challenge_rating": "0",
   "cr": 0,
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +0 to hit, reach 5 ft., one creature. Hit: 1 piercing damage.",
-      "damage_bonus": 1
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one creature. _Hit:_ 3 (1d4+1) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Echolocation",
-      "desc": "The bat can't use its blindsight while deafened."
+      "desc": "The bat can't use its keensense while deafened."
     },
     {
-      "name": "Keen Hearing",
-      "desc": "The bat has advantage on Wisdom (Perception) checks that rely on hearing."
+      "name": "Heightened Hearing",
+      "desc": "The bat's Perception is 16 when perceiving by hearing."
     }
   ],
   "spell_list": [],
-  "page_no": 367,
-  "environments": [
-    "Forest",
-    "Caverns"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_bat/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_bat/"
 }

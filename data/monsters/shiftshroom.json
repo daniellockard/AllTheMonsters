@@ -6,7 +6,7 @@
   "type": "Plant",
   "subtype": "shapechanger",
   "group": null,
-  "alignment": "Unaligned",
+  "alignment": "unaligned",
   "armor_class": 5,
   "armor_desc": null,
   "hit_points": 18,

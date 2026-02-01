@@ -1,35 +1,35 @@
 {
-  "slug": "giant-ape",
+  "slug": "giant-ape-a5e",
   "desc": "",
   "name": "Giant Ape",
   "size": "Huge",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
-  "armor_class": 12,
-  "armor_desc": null,
-  "hit_points": 157,
-  "hit_dice": "15d12+60",
+  "group": null,
+  "alignment": "",
+  "armor_class": 14,
+  "armor_desc": "",
+  "hit_points": 115,
+  "hit_dice": "11d12+44",
   "speed": {
     "walk": 40,
     "climb": 40
   },
-  "strength": 23,
+  "strength": 20,
   "dexterity": 14,
   "constitution": 18,
-  "intelligence": 7,
+  "intelligence": 6,
   "wisdom": 12,
-  "charisma": 7,
+  "charisma": 6,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 4,
+  "perception": null,
   "skills": {
-    "athletics": 9,
+    "athletics": 8,
     "perception": 4
   },
   "damage_vulnerabilities": "",
@@ -43,21 +43,15 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The ape makes two fist attacks."
+      "desc": "The ape attacks twice with its fists."
     },
     {
-      "name": "Fist",
-      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) bludgeoning damage.",
-      "attack_bonus": 9,
-      "damage_dice": "3d10",
-      "damage_bonus": 6
+      "name": "Fists",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 21 (3d10+5) bludgeoning damage."
     },
     {
       "name": "Rock",
-      "desc": "Ranged Weapon Attack: +9 to hit, range 50/100 ft., one target. Hit: 30 (7d6 + 6) bludgeoning damage.",
-      "attack_bonus": 9,
-      "damage_dice": "7d6",
-      "damage_bonus": 6
+      "desc": "Ranged Weapon Attack: +8 to hit, range 50/100 ft., one target. Hit: 26 (6d6+5) bludgeoning damage."
     }
   ],
   "bonus_actions": null,
@@ -66,15 +60,12 @@
   "legendary_actions": null,
   "special_abilities": null,
   "spell_list": [],
-  "page_no": 373,
-  "environments": [
-    "Jungle",
-    "Forest"
-  ],
+  "page_no": 444,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_giant-ape/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_giant-ape/"
 }

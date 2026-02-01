@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "human",
   "group": null,
-  "alignment": "Neutral",
+  "alignment": "neutral",
   "armor_class": 13,
   "armor_desc": "16 with mage armor",
   "hit_points": 115,

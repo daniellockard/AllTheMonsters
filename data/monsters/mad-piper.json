@@ -6,7 +6,7 @@
   "type": "Construct",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral",
+  "alignment": "neutral",
   "armor_class": 12,
   "armor_desc": "padded armor",
   "hit_points": 19,

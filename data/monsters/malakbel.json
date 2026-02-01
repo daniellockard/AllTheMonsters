@@ -1,16 +1,16 @@
 {
-  "slug": "malakbel",
-  "desc": "_Within a blinding wave of heat and glare strides a long-limbed, misshapen form. The creature scorches everything in its path as it strides forward._  \nWhat most people recall most vividly from an encounter with a malakbel is the blinding light and blistering heat surrounding them. Rippling distortion obscures the creature’s body, which is roughly the size and shape of an adult human.  \n_**Demonic Messengers.**_ Malakbel demons are contradictory creatures. They are both messengers and destroyers who carry the words of demon lords or even dark gods to the mortal realm. Paradoxically, once their message is delivered, they often leave none of its hearers alive to spread the tale.  \n_**Where Virtue Cannot Look.**_ The malakbel is the embodiment of all that is forbidden and destructive. Despite its vital role as a messenger, its destructive nature always comes to the fore. A malakbel descends upon settlements and travelers with the merciless and relentless onslaught of the raging sun, burning all it sees to cinders before vanishing like heat shimmers at dusk.",
+  "slug": "malakbel-tob1-2023",
+  "desc": "False",
   "name": "Malakbel",
   "size": "Medium",
   "type": "Fiend",
-  "subtype": "demon",
-  "group": null,
+  "subtype": "",
+  "group": "null",
   "alignment": "Chaotic Evil",
   "armor_class": 14,
   "armor_desc": "natural armor",
   "hit_points": 102,
-  "hit_dice": "12d8+48",
+  "hit_dice": "12d8 + 48",
   "speed": {
     "walk": 40
   },
@@ -26,11 +26,11 @@
   "intelligence_save": null,
   "wisdom_save": 7,
   "charisma_save": null,
-  "perception": 7,
+  "perception": 17,
   "skills": {
-    "perception": 7
+    "Perception": 7
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "cold, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
   "damage_immunities": "fire, radiant, poison",
   "condition_immunities": "blinded, poisoned",
@@ -41,35 +41,33 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The malakbel makes two scorching blast attacks."
+      "desc": "The malakbel makes two Scorching Blast attacks."
     },
     {
       "name": "Scorching Blast",
-      "desc": "Ranged Spell Attack: +9 to hit, range 120 ft., one target. Hit: 18 (3d8 + 5) fire damage.",
-      "attack_bonus": 9,
-      "damage_dice": "3d8"
+      "desc": "Melee or Ranged Spell Attack: +9 to hit, reach 5 ft. or range 120 ft., one target. Hit: 18 (3d8 + 5) fire damage."
     },
     {
       "name": "Searing Flare (Recharge 5-6)",
-      "desc": "The malakbel intensifies its Blistering Radiance to withering levels. All creatures in the malakbel's aura take 31 (7d8) radiant damage and gain a level of exhaustion; a successful DC 16 Constitution saving throw reduces damage by half and negates exhaustion."
+      "desc": "The malakbel intensifies the heat and light it sheds to withering levels. Each creature in the bright light shed by the malakbel's Blistering Radiance trait must make a DC 16 Constitution saving throw. On a failure, a creature takes 13 (3d8) fire damage and 22 (4d10) radiant damage and suffers one level of exhaustion. On a success, a creature takes half the damage and doesn't suffer exhaustion."
     },
     {
       "name": "Teleport",
-      "desc": "The malakbel magically teleports to an unoccupied space it can see within 100 feet."
+      "desc": "The malakbel magically teleports, along with any equipment it is wearing or carrying, up to 100 feet to an unoccupied space it can see."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Blistering Radiance",
-      "desc": "The malakbel generates a 30-foot-radius aura of searing light and heat. A creature that starts its turn in the aura, or who enters it for the first time on a turn, takes 11 (2d10) radiant damage. The area in the aura is brightly lit, and it sheds dim light for another 30 feet. The aura dispels magical darkness of 3rd level or lower where the areas overlap."
+      "desc": "The malakbel sheds searing, bright light in a 30-foot radius and dim light for an additional 30 feet. At the start of each of the malakbel's turns, each creature in the bright light shed by the malakbel takes 11 (2d10) radiant damage. If any of the bright light overlaps with an area of darkness created by a spell of 3rd level or lower, the spell creating the darkness is dispelled."
     },
     {
       "name": "Distortion",
-      "desc": "Ranged attacks against the malakbel have disadvantage."
+      "desc": "Ranged attacks against the malakbel are made with disadvantage."
     },
     {
       "name": "Magic Resistance",
@@ -77,12 +75,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 78,
+  "page_no": 13,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_malakbel/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_malakbel/"
 }

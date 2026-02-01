@@ -1,101 +1,89 @@
 {
-  "slug": "wererat",
+  "slug": "wererat_bf",
   "desc": "",
   "name": "Wererat",
-  "size": "Medium",
+  "size": "medium",
   "type": "Humanoid",
-  "subtype": "human",
+  "subtype": "Lycanthrope",
   "group": "Lycanthropes",
-  "alignment": "Lawful Evil",
+  "alignment": "",
   "armor_class": 12,
   "armor_desc": null,
-  "hit_points": 33,
-  "hit_dice": "6d8+6",
+  "hit_points": 57,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
   "strength": 10,
-  "dexterity": 15,
+  "dexterity": 18,
   "constitution": 12,
-  "intelligence": 11,
+  "intelligence": 10,
   "wisdom": 10,
   "charisma": 8,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 2,
-  "skills": {
-    "perception": 2,
-    "stealth": 4
-  },
+  "strength_save": 0,
+  "dexterity_save": 4,
+  "constitution_save": 1,
+  "intelligence_save": 0,
+  "wisdom_save": 0,
+  "charisma_save": -1,
+  "perception": 12,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_resistances": "bludgeoning,piercing,and slashing damage from nonmagical attacks",
+  "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 60 ft. (rat form only), passive Perception 12",
+  "senses": "darkvision 60 ft.",
   "languages": "Common (can't speak in rat form)",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
       "name": "Multiattack (Humanoid or Hybrid Form Only)",
-      "desc": "The wererat makes two attacks, only one of which can be a bite."
+      "desc": "The wererat makes three Claw or Shortsword attacks, or it makes three Hand Crossbow attacks. It can replace one attack with a Bite attack, provided it is in the appropriate form."
     },
     {
-      "name": "Bite (Rat or Hybrid Form Only).",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.",
-      "attack_bonus": 4,
-      "damage_dice": "1d4",
-      "damage_bonus": 2
+      "name": "Bite (Rat or Hybrid Form Only)",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 7 (2d4+2) piercing damage. If the target is a Humanoid, it must succeed on a DC 11 CON save or be cursed with the wererat lycanthropy curse (see Curse of Lycanthropy sidebar)."
+    },
+    {
+      "name": "Claw (Rat or Hybrid Form Only)",
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 7 (2d4+2) slashing damage."
     },
     {
       "name": "Shortsword (Humanoid or Hybrid Form Only)",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6+2) piercing damage."
     },
     {
       "name": "Hand Crossbow (Humanoid or Hybrid Form Only)",
-      "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "_Ranged Weapon Attack:_ +4 to hit, range 30/120 ft., one target. _Hit:_ 5 (1d6+2) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "The wererat transforms into a Tiny or Small rat, a Medium rat-humanoid hybrid, or back into its true form, which is Humanoid. Its statistics, other than its size and speed, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Shapechanger",
-      "desc": "The wererat can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      "name": "Heightened Smell",
+      "desc": "The wererat's Perception is 17 when perceiving by smell."
     },
     {
-      "name": "Keen Smell",
-      "desc": "The wererat has advantage on Wisdom (Perception) checks that rely on smell."
+      "name": "Pack Tactics",
+      "desc": "The wererat has advantage on attack rolls against a creature if at least one of the wererat's allies is within 5 feet of the creature and the ally isn't incapacitated."
     }
   ],
   "spell_list": [],
-  "page_no": 327,
-  "environments": [
-    "Urban",
-    "Sewer",
-    "Forest",
-    "Ruin",
-    "Feywild",
-    "Shadowfell",
-    "Caverns",
-    "Settlement"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_wererat/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_wererat/"
 }

@@ -1,19 +1,19 @@
 {
-  "slug": "dream-eater",
-  "desc": "_This tattered skeletal humanoid resembles a monster from a nightmare. A dream eater’s natural form is mostly human in appearance, though with vestigial skeletal wings with a few feathers, small horns, sharp teeth, and cloven hooves. Most often they use magic to disguise themselves as attractive members of a humanoid race._  \n**Drawn to Sin.** Dream eaters are dedicated to lust, gluttony, and greed, and they make their lairs in casinos, brothels, thieves’ dens, and other locations where gambling, food, and other pleasures are readily available. Sometimes dream eaters work together to create such a place, especially near large towns or cities. Some band together to create traveling shows, offering all the oddities, whimsies, and flights of fantasy customary for such entertainers.  \n**Devouring Hopes.** Dream eaters lure people into their lairs, enticing them with promises of pleasure or wealth, but they make sure the odds are stacked in their favor. Eventually, their victims are left with nothing. Worse than the loss of physical treasures, though, dream eaters leave their victims stripped of all hopes and aspirations. Dream eaters feed on their emotions, leaving helpless thralls willing to sell their souls for their vices.  \n**Lords of Confusion.** When confronted, dream eaters are dangerous opponents. Using their innate abilities, they can drive enemies into a dream state, using the resulting confusion to make their escape while their foes destroy themselves.",
+  "slug": "dreameater-tob1-2023",
+  "desc": "False",
   "name": "Dream Eater",
   "size": "Medium",
   "type": "Fiend",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Lawful Evil",
   "armor_class": 15,
   "armor_desc": "natural armor",
   "hit_points": 75,
-  "hit_dice": "10d8+30",
+  "hit_dice": "10d8 + 30",
   "speed": {
-    "walk": 30,
-    "fly": 20
+    "walk": 20,
+    "fly": 30
   },
   "strength": 15,
   "dexterity": 18,
@@ -27,71 +27,64 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 11,
   "skills": {
-    "deception": 8,
-    "insight": 4,
-    "persuasion": 8
+    "Deception": 8,
+    "Insight": 4,
+    "Persuasion": 8
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
   "damage_immunities": "poison",
   "condition_immunities": "poisoned",
   "senses": "darkvision 60 ft., passive Perception 11",
-  "languages": "Celestial, Common, Draconic, Infernal, telepathy 100 ft.",
+  "languages": "Abyssal, Celestial, Common, Infernal, telepathy 120 ft.",
   "challenge_rating": "5",
   "cr": 5,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The dream eater makes one bite attack and one claw attack."
+      "desc": "The dream eater uses its Lotus Scent. It then makes one Bite attack and one Claw attack."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage, and the target is grappled (escape DC 12).",
-      "attack_bonus": 7,
-      "damage_dice": "2d8"
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 24 (4d10 + 2) slashing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "4d10"
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage, and the target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends, the creature is restrained. The dream eater has two claws, each of which can grapple only one target."
     },
     {
-      "name": "Dream Eater's Caress",
-      "desc": "A creature that ends its turn grappled by a dream eater is restrained until the end of its next turn, it takes 5 (1d4 + 3) psychic damage, and the dream eater gains the same number of temporary hit points."
+      "name": "Lotus Scent",
+      "desc": "The dream eater secretes an oily chemical that most creatures find intoxicating. Each creature that isn't a Construct or Undead within 15 feet of the dream eater must succeed on a DC 14 Constitution saving throw or be poisoned for 1 minute. While poisoned, the creature is charmed by the fiend. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dream eater's Lotus Scent for the next 24 hours."
     },
     {
-      "name": "Lotus Scent (Recharge 6)",
-      "desc": "The dream eater secretes an oily chemical that most creatures find intoxicating. All living creatures within 30 feet must succeed on a DC 14 Constitution saving throw against poison or be poisoned for 2d4 rounds. While poisoned this way, the creature is stunned. Creatures that successfully save are immune to that dream eater's lotus scent for 24 hours."
-    },
-    {
-      "name": "Waking Dreams (1/Day)",
-      "desc": "Every creature within 20 feet of the dream eater must make a DC 16 Charisma saving throw. Those that fail enter waking dreams and are confused (as the spell) for 6 rounds. On turns when the creature can act normally (rolls 9 or 10 for the confusion effect), it can repeat the saving throw at the end of its turn, and the effect ends early on a successful save."
+      "name": "Waking Dreams (Recharge 5-6)",
+      "desc": "Each creature within 20 feet of the dream eater must make a DC 14 Charisma saving throw. On a failure, a creature takes 21 (6d6) psychic damage and is incapacitated for 1 minute. When it moves, an incapacitated creature moves in a random direction. On a success, a creature takes half the damage and isn't incapacitated. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "The dream eater magically transforms into a Small or Medium humanoid it has seen, or back into its true form, which is a Fiend. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying transforms with it. It reverts to its true form if it dies."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Shapechanger",
-      "desc": "The dream eater can use its turn to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in all forms. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
-    },
-    {
-      "name": "Innate Spellcasting",
-      "desc": "the dream eater's innate spellcasting ability is Charisma (spell save DC 16). It can innately cast the following spells, requiring no material components:\n\nat will: command\n\n3/day: suggestion"
+      "name": "Dream Eater's Caress",
+      "desc": "A creature that starts its turn grappled by the dream eater must succeed on a DC 14 Charisma saving throw or take 5 (2d4) psychic damage. The dream eater gains temporary hp equal to the psychic damage dealt."
     }
   ],
   "spell_list": [],
-  "page_no": 158,
+  "page_no": 148,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_dream-eater/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_dream-eater/"
 }

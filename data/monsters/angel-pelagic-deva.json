@@ -6,7 +6,7 @@
   "type": "Celestial",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral Good",
+  "alignment": "neutral good",
   "armor_class": 17,
   "armor_desc": "Living Coral Armor",
   "hit_points": 142,

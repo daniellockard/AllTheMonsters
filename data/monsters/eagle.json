@@ -1,78 +1,69 @@
 {
-  "slug": "eagle",
+  "slug": "eagle_bf",
   "desc": "",
   "name": "Eagle",
-  "size": "Small",
+  "size": "small",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
-  "armor_class": 12,
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 11,
   "armor_desc": null,
-  "hit_points": 3,
-  "hit_dice": "1d6",
+  "hit_points": 8,
+  "hit_dice": "",
   "speed": {
     "walk": 10,
     "fly": 60
   },
   "strength": 6,
-  "dexterity": 15,
+  "dexterity": 12,
   "constitution": 10,
   "intelligence": 2,
   "wisdom": 14,
-  "charisma": 7,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 4,
-  "skills": {
-    "perception": 4
-  },
-  "damage_vulnerabilities": "",
+  "charisma": 6,
+  "strength_save": -2,
+  "dexterity_save": 1,
+  "constitution_save": 0,
+  "intelligence_save": -4,
+  "wisdom_save": 2,
+  "charisma_save": -2,
+  "perception": 14,
+  "skills": {},
+  "damage_vulnerabilities": "blinded",
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 14",
-  "languages": "",
+  "senses": "-",
+  "languages": "-",
   "challenge_rating": "0",
   "cr": 0,
   "actions": [
     {
       "name": "Talons",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d4",
-      "damage_bonus": 2
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one creature. _Hit:_ 3 (1d4+1) slashing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Keen Sight",
-      "desc": "The eagle has advantage on Wisdom (Perception) checks that rely on sight."
+      "name": "Heightened Sight",
+      "desc": "The eagle's Perception is 19 when perceiving by sight."
+    },
+    {
+      "name": "Seabird",
+      "desc": "The eagle can swim up to 30 feet on its turn, but it must start and end its movement either flying or on a solid surface, such as a ship or beach. If it is swimming at the end of its turn, it must succeed on a DC 10 CON save or it immediately begins to sink and suffocate. A suffocating eagle must succeed on a DC 8 STR check to fly out of the substance where it is sinking."
     }
   ],
   "spell_list": [],
-  "page_no": 371,
-  "environments": [
-    "Hill",
-    "Hills",
-    "Grassland",
-    "Mountains",
-    "Mountain",
-    "Desert",
-    "Coastal"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_eagle/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_eagle/"
 }

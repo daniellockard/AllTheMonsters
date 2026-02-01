@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "any race",
   "group": "Elemental Wardens",
-  "alignment": "Chaotic Neutral",
+  "alignment": "chaotic neutral",
   "armor_class": 14,
   "armor_desc": null,
   "hit_points": 63,

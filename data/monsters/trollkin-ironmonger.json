@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral",
+  "alignment": "neutral",
   "armor_class": 19,
   "armor_desc": "plate",
   "hit_points": 105,

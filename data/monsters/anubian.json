@@ -1,16 +1,16 @@
 {
-  "slug": "anubian",
-  "desc": "_An anubian’s swirling sand comes together to form a snarling, canine-faced humanoid whose eyes shine with an eerie, blue glow. Anubians are elementals summoned to guard tombs or protect treasures._  \n**Piles of Dust.** An anubian at rest resembles a pile of sand or dust, often strewn about an already dusty location. When active, it rises up to form a muscular humanoid with the head of a jackal. A destroyed anubian collapses into an inert pile of sand.  \n**Death to the Unarmored.** In combat, anubians prefer to fight unarmored foes rather than creatures wearing armor. They associate unarmored creatures with spellcasters, and their latent resentment over centuries of being summoned as servants drives them to attack such figures when they aren’t shackled by magical bondage.  \n**Sandstorm Tag Teams.** Anubians fight effectively as teams, using their haboob attacks to corner and isolate the most vulnerable targets.  \n**Elemental Nature.** An anubian doesn’t require air, food, drink, or sleep.",
+  "slug": "anubian-tob1-2023",
+  "desc": "False",
   "name": "Anubian",
   "size": "Medium",
   "type": "Elemental",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Evil",
   "armor_class": 13,
   "armor_desc": "",
   "hit_points": 44,
-  "hit_dice": "8d8+8",
+  "hit_dice": "8d8 + 8",
   "speed": {
     "walk": 30
   },
@@ -26,11 +26,11 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 11,
   "skills": {
-    "stealth": 5
+    "Stealth": 5
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
   "damage_immunities": "poison",
   "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
@@ -41,44 +41,51 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The anubian makes two claw attacks."
+      "desc": "The anubian makes two Claw attacks."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d6"
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage."
     },
     {
       "name": "Haboob (1/Day)",
-      "desc": "The anubian creates a sandstorm in a cylinder 30-feet high, that reaches to within 5 feet of it. The storm moves with the anubian. The area is heavily obscured, and each creature other than an anubian that enters the sandstorm or ends its turn there must make a successful DC 13 Strength saving throw or be restrained by it. Also, each creature other than an anubian that ends its turn inside the sandstorm takes 3 (1d6) slashing damage. The anubian can maintain the haboob for up to 10 minutes as if concentrating on a spell. While maintaining the haboob, the anubian's speed is reduced to 5 feet and it can't sand step. Creatures restrained by the sandstorm move with the anubian. A creature can free itself or an adjacent creature from the sandstorm by using its action and making a DC 13 Strength check. A successful check ends the restraint on the target creature."
+      "desc": "A 30-foot-tall cylinder of sand forms in the anubian's space and moves with it for 10 minutes, until the anubian ends the storm as a bonus action, or until its concentration ends (as if concentrating on a spell). The area within 5 feet of the anubian is heavily obscured. A creature that starts its turn in that area or enters the area for the first time on a turn must succeed on a DC 13 Strength saving throw or be restrained by the storm. While restrained, the creature takes 3 (1d6) slashing damage at the start of each of its turns, and moves with the anubian when the anubian moves. A creature, including the restrained creature, can use its action to free the restrained creature by succeeding on a DC 13 Strength check."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
-    {
-      "name": "Sand Stealth",
-      "desc": "The anubian gains an additional +2 (+7 in total) to Stealth in sand terrain"
-    },
+  "bonus_actions": [
     {
       "name": "Sand Step",
-      "desc": "Instead of moving, the anubian's humanoid form collapses into loose sand and immediately reforms at another unoccupied space within 10 feet. This movement doesn't provoke opportunity attacks. After using this trait in sand terrain, the anubian can Hide as part of this movement even if under direct observation. Anubians can sand step under doors or through similar obstacles, provided there's a gap large enough for sand to sift through."
+      "desc": "The anubian collapses into loose sand and teleports up to 30 feet to an unoccupied space it can see, reforming in that space. If the destination space contains sand, the anubian can immediately Hide. The anubian can't use Sand Step while Haboob is active."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Elemental Nature",
+      "desc": "The anubian doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Sand Camouflage",
+      "desc": "The anubian has advantage on Dexterity (Stealth) checks made to hide in sandy terrain."
+    },
+    {
+      "name": "Sand Form",
+      "desc": "The anubian can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
     },
     {
       "name": "Vulnerability to Water",
-      "desc": "For every 5 feet the anubian moves while touching water or for every gallon of water splashed on it, it takes 2 (1d4) cold damage. An anubian completely immersed in water takes 10 (4d4) cold damage at the start of its turn."
+      "desc": "For every 5 feet the anubian moves in water, or for every gallon of water splashed on it, it takes 2 (1d4) cold damage. An anubian completely immersed in water takes 10 (4d4) cold damage at the start of its turn."
     }
   ],
   "spell_list": [],
-  "page_no": 24,
+  "page_no": 23,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_anubian/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_anubian/"
 }

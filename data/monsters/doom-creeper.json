@@ -6,7 +6,7 @@
   "type": "Plant",
   "subtype": "",
   "group": null,
-  "alignment": "Unaligned",
+  "alignment": "unaligned",
   "armor_class": 15,
   "armor_desc": "",
   "hit_points": 137,

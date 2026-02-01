@@ -1,16 +1,16 @@
 {
-  "slug": "bone-devil",
+  "slug": "bone_devil_bf",
   "desc": "",
   "name": "Bone Devil",
-  "size": "Large",
+  "size": "large",
   "type": "Fiend",
-  "subtype": "devil",
+  "subtype": "Devil",
   "group": "Devils",
-  "alignment": "Lawful Evil",
-  "armor_class": 19,
+  "alignment": "",
+  "armor_class": 18,
   "armor_desc": "natural armor",
-  "hit_points": 142,
-  "hit_dice": "15d10+60",
+  "hit_points": 144,
+  "hit_dice": "",
   "speed": {
     "walk": 40,
     "fly": 40
@@ -18,71 +18,69 @@
   "strength": 18,
   "dexterity": 16,
   "constitution": 18,
-  "intelligence": 13,
-  "wisdom": 14,
-  "charisma": 16,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
+  "intelligence": 20,
+  "wisdom": 22,
+  "charisma": 24,
+  "strength_save": 4,
+  "dexterity_save": 3,
+  "constitution_save": 4,
   "intelligence_save": 5,
   "wisdom_save": 6,
   "charisma_save": 7,
-  "perception": null,
-  "skills": {
-    "deception": 7,
-    "insight": 6
-  },
+  "perception": 16,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
-  "damage_immunities": "fire, poison",
-  "condition_immunities": "poisoned",
-  "senses": "darkvision 120 ft., passive Perception 9",
-  "languages": "Infernal, telepathy 120 ft.",
+  "damage_resistances": "Devilish Resilience",
+  "damage_immunities": "Devilish Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft.",
+  "languages": "Infernal,telepathy 120 ft.",
   "challenge_rating": "9",
   "cr": 9,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The devil makes three attacks: two with its claws and one with its sting."
+      "desc": "The devil makes two Claw attacks and one Sting attack."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) slashing damage.",
-      "attack_bonus": 8,
-      "damage_dice": "1d8",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +8 to hit, reach 5 ft., one target. _Hit:_ 17 (3d8+4) slashing damage."
     },
     {
       "name": "Sting",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-      "attack_bonus": 8,
-      "damage_dice": "2d8",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +8 to hit, reach 10 ft., one target. _Hit:_ 15 (2d10+4) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 15 CON save or be poisoned for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Devilish Command",
+      "desc": "The bone devil shouts one of the following commands at one creature it can see within 30 feet of it. The target must succeed on a DC 15 CHA save or obey the command. A lesser devil, such as a barbed devil or lemure, has disadvantage on this save.\n- **Attack.** The target uses its reaction to make one melee or ranged attack (the devil's choice) against one creature the target can see within its weapon's range.\n- **Beg for Mercy.** The target immediately falls prone and can't cast spells with verbal components on its next turn as it is magically compelled to speak pleas of mercy.\n- **Flee.** The target uses its reaction to move up to its speed directly away from the bone devil. This movement doesn't provoke opportunity attacks, but the target doesn't avoid damaging terrain, such as lava."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Devil's Sight",
       "desc": "Magical darkness doesn't impede the devil's darkvision."
     },
     {
+      "name": "Devilish Resilience",
+      "desc": "The devil is resistant to cold damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks. In addition, it is immune to fire damage and poison damage and to the poisoned condition."
+    },
+    {
       "name": "Magic Resistance",
-      "desc": "The devil has advantage on saving throws against spells and other magical effects."
+      "desc": "The devil has advantage on saves against spells and other magical effects."
     }
   ],
   "spell_list": [],
-  "page_no": 275,
-  "environments": [
-    "Hell"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_bone-devil/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_bone-devil/"
 }

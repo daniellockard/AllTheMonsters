@@ -1,20 +1,20 @@
 {
-  "slug": "emerald-order-cult-leader",
-  "desc": "",
+  "slug": "emeraldordercultleader-tob1-2023",
+  "desc": "False",
   "name": "Emerald Order Cult Leader",
   "size": "Medium",
   "type": "Humanoid",
-  "subtype": "any race",
-  "group": null,
-  "alignment": "Lawful Neutral or Evil",
-  "armor_class": 14,
-  "armor_desc": "breastplate",
-  "hit_points": 117,
-  "hit_dice": "18d8+36",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Lawful Neutral or Lawful Evil",
+  "armor_class": 15,
+  "armor_desc": "Divine Blessing",
+  "hit_points": 156,
+  "hit_dice": "24d8 + 48",
   "speed": {
     "walk": 30
   },
-  "strength": 10,
+  "strength": 14,
   "dexterity": 10,
   "constitution": 14,
   "intelligence": 15,
@@ -26,63 +26,65 @@
   "intelligence_save": 5,
   "wisdom_save": 8,
   "charisma_save": 5,
-  "perception": null,
+  "perception": 15,
   "skills": {
-    "arcana": 5,
-    "deception": 5,
-    "history": 5,
-    "religion": 5
+    "Arcana": 5,
+    "Deception": 5,
+    "History": 5,
+    "Religion": 5
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "cold, fire, lightning",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 15",
   "languages": "any three languages",
   "challenge_rating": "8",
   "cr": 8,
   "actions": [
     {
-      "name": "Multiattack",
-      "desc": "The Emerald Order cult leader makes one melee attack and casts a cantrip."
-    },
-    {
       "name": "Mace",
-      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.",
-      "attack_bonus": 3,
-      "damage_dice": "1d6"
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": [
-    {
-      "name": "Esoteric Vengeance",
-      "desc": "As a reaction when struck by a melee attack, the emerald order cult leader can expend a spell slot to do 10 (3d6) necrotic damage to the attacker. If the emerald order cult leader expends a spell slot of 2nd level or higher, the damage increases by 1d6 for each level above 1st."
-    }
-  ],
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
-    {
-      "name": "Key of Prophecy",
-      "desc": "The Emerald Order cult leader can always act in a surprise round, but if he fails to notice a foe, he is still considered surprised until he takes an action. He receives a +3 bonus on initiative checks."
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 13 (3d8) radiant damage."
     },
     {
-      "name": "Innate Spellcasting",
-      "desc": "the Emerald Order cult leader's innate spellcasting ability is Wisdom (spell save DC 16). He can innately cast the following spells, requiring no material components:\n\n2/day each: detect thoughts, dimension door, haste, slow\n\n1/day each: suggestion, teleport"
+      "name": "Radiant Bolt",
+      "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit: 18 (3d8 + 5) radiant damage."
     },
     {
       "name": "Spellcasting",
-      "desc": "the Emerald Order cult leader is a 10th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). The cult leader has the following cleric spells prepared:\n\ncantrips (at will): guidance, light, sacred flame, spare the dying, thaumaturgy\n\n1st level (4 slots): cure wounds, identify, guiding bolt\n\n2nd level (3 slots): lesser restoration, silence, spiritual weapon\n\n3rd level (3 slots): dispel magic, mass healing word, spirit guardians\n\n4th level (3 slots): banishment, death ward, guardian of faith\n\n5th level (2 slots): flame strike"
+      "desc": "The Emerald Order cult leader casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save DC 16):\nAt will: command, light, thaumaturgy\n3/day each: detect thoughts, dimension door, silence, slow\n1/day each: divination, freedom of movement"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Esoteric Vengeance",
+      "desc": "When a creature the cult leader can see within 30 feet of it hits it with an attack, the cult leader intonates a mind-bending arcane secret, and the attacker takes 7 (2d6) psychic damage."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Blessed Weapons",
+      "desc": "The cult leader's weapons are blessed by its deity, and its weapon attacks are magical. When the cult leader hits with any weapon, the weapon deals an extra 3d8 radiant damage (included in the attack)."
+    },
+    {
+      "name": "Divine Blessing",
+      "desc": "While the cult leader is conscious and wearing no armor and wielding no shield, it adds its Wisdom modifier to its Armor Class (included above). In addition, it has advantage on saving throws against being charmed or frightened."
+    },
+    {
+      "name": "Prophetic Tactics",
+      "desc": "The cult leader has advantage on initiative rolls. In addition, at the start of each of the cult leader's turns, one friendly creature within 30 feet of the cult leader has advantage on the first attack roll it makes before the start of the cult leader's next turn."
     }
   ],
   "spell_list": [],
-  "page_no": 421,
+  "page_no": 410,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_emerald-order-cult-leader/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_emerald-order-cult-leader/"
 }

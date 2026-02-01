@@ -1,16 +1,16 @@
 {
-  "slug": "abominable-beauty",
-  "desc": "_An otherworldly humanoid of such indescribable beauty, it pains anyone’s eyes to gaze upon her._  \n**Beauty that Destroys.** An abominable beauty is so perfect that her gaze blinds, her voice is so melodious that no ears can withstand it, and her touch is so tantalizing that it burns like fire. In adolescence, this fey creature adopts features that meet the superficial ideals of the nearest humanoid population: long‐legged elegance near elves, a stout figure with lustrous hair near dwarves, unscarred or emerald skin near goblins.  \n**Jealous and Cruel.** Abominable beauties are so consumed with being the most beautiful creature in the region that they almost invariably grow jealous and paranoid about potential rivals. Because such an abominable beauty cannot abide competition, she seeks to kill anyone whose beauty is compared to her own.  \n**Male of the Species.** Male abominable beauties are rare but even more jealous in their rages.",
+  "slug": "abominablebeauty-tob1-2023",
+  "desc": "False",
   "name": "Abominable Beauty",
   "size": "Medium",
   "type": "Fey",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 18,
   "armor_desc": "natural armor",
   "hit_points": 187,
-  "hit_dice": "22d8+88",
+  "hit_dice": "22d8 + 88",
   "speed": {
     "walk": 30
   },
@@ -26,17 +26,17 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": 12,
-  "perception": 7,
+  "perception": 17,
   "skills": {
-    "deception": 12,
-    "perception": 7,
-    "performance": 12,
-    "persuasion": 12
+    "Deception": 12,
+    "Perception": 7,
+    "Performance": 12,
+    "Persuasion": 12
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
   "damage_immunities": "fire",
-  "condition_immunities": "",
+  "condition_immunities": "False",
   "senses": "passive Perception 17",
   "languages": "Common, Draconic, Elvish, Sylvan",
   "challenge_rating": "11",
@@ -44,38 +44,38 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The abominable beauty makes two slam attacks."
+      "desc": "The abominable beauty uses Blinding Gaze. She then makes two Slam attacks."
     },
     {
       "name": "Slam",
-      "desc": "+8 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) damage plus 28 (8d6) fire damage."
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage plus 21 (6d6) fire damage."
     },
     {
-      "name": "Blinding Gaze (Recharge 5-6)",
-      "desc": "A creature within 30 feet of the abominable beauty who is targeted by this attack and who meets the abominable beauty's gaze must succeed on a DC 17 Charisma saving throw or be blinded. If the saving throw succeeds, the target creature is permanently immune to this abominable beauty's Blinding Gaze."
+      "name": "Blinding Gaze",
+      "desc": "The abominable beauty fixes her gaze on a creature within 30 feet of her. If the target can see the beauty's eyes, the target must succeed on a DC 16 Charisma saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful, the creature is immune to the abominable beauty's Blinding Gaze for the next 24 hours."
     },
     {
       "name": "Deafening Voice (Recharge 5-6)",
-      "desc": "An abominable beauty's voice is lovely, but any creature within 90 feet and able to hear her when she makes her Deafening Voice attack must succeed on a DC 16 Constitution saving throw or be permanently deafened."
+      "desc": "The abominable beauty speaks a lilting incantation. Each creature within 30 feet of her and that can hear her voice must make a DC 16 Constitution saving throw. On a failure, a creature takes 31 (9d6) thunder damage and is deafened for 1 hour. On a success, a creature takes half the damage, isn't deafened, and is immune to the abominable beauty's Deafening Voice for the next 24 hours."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Burning Touch",
-      "desc": "The abominable beauty's slam attacks do 28 (8d6) fire damage. A creature who touches her also takes 28 (8d6) fire damage."
+      "desc": "When the abominable beauty hits with a Slam attack, the Slam deals an extra 21 (6d6) fire damage (included in the attack). In addition, a creature that touches the abominable beauty or hits her with a melee weapon attack while within 5 feet of her takes 10 (3d6) fire damage."
     }
   ],
   "spell_list": [],
   "page_no": 11,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_abominable-beauty/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_abominable-beauty/"
 }

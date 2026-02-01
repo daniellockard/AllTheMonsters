@@ -1,19 +1,19 @@
 {
-  "slug": "ash-drake",
-  "desc": "_A lean and dull-scaled ash drake often perches on a chimney as if it just crawled out, its tail still hanging into the chimney as smoke billows out._  \n**Chimney Nesting.** Ash drakes clog chimney flues and delight in dusting crowds with thick, choking ash and soot, while the drakes laugh with sneering, wheezing tones. To placate the creatures, owners of smelters and smithies leave large piles of ash for the drakes to play in, with the hope they leave the shop and its workers alone. Anyone hunting ash drakes finds them very difficult to attack in their cramped lairs because the creatures blend in with the surroundings. Ash drakes often befriend kobolds, who have little trouble appeasing the beasts and appreciate the added security they bring.  \n**Hunt Strays and Pets.** Ash drakes eat rats and stray animals, although few can resist snatching an unattended, possibly beloved pet. Contrary to popular opinion, this drake doesn’t consume ash, but enjoys a pile of ash like a cat would catnip, rolling around in it and becoming wild-eyed. Anyone who disrupts such play becomes the target of the creature’s intensely hot and sooty breath weapon.  \nWhile an ash drake is three feet long with a four-foot long tail that seems to trail off into smoke, it weighs less than one might expect—approximately ten lb. Every third winter, when chimneys are active, a male drake leaves his lair to find a mate. If the new couple roosts in a city or town, the nearby streets know it, as the air becomes nearly unbreathable with soot. The resulting eggs are left in a suitable chimney, and one of the parents protects the young until they leave the nest at two years of age.  \n**Volcanic Haunts.** Ash drakes outside a city live in or near volcanic plateaus, and mutter about the lack of neighbors to bully. In the wild, an ash drake may partner with a red dragon or flame dragon, since the dragon provides its lesser cousin with plenty of ash.",
+  "slug": "ashdrake-tob1-2023",
+  "desc": "False",
   "name": "Ash Drake",
   "size": "Small",
   "type": "Dragon",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 16,
   "armor_desc": "natural armor",
   "hit_points": 117,
-  "hit_dice": "18d6+54",
+  "hit_dice": "18d6 + 54",
   "speed": {
-    "walk": 30,
-    "fly": 60
+    "walk": 60,
+    "fly": 30
   },
   "strength": 14,
   "dexterity": 15,
@@ -27,14 +27,14 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 12,
   "skills": {
-    "stealth": 4
+    "Stealth": 4
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "fire",
-  "damage_immunities": "",
-  "condition_immunities": "paralyzed, unconscious",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "fire",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 12",
   "languages": "Common, Draconic",
   "challenge_rating": "4",
@@ -42,41 +42,42 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The ash drake makes one bite attack and two claw attacks."
+      "desc": "The drake makes one Bite attack and two Claw attacks."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) piercing damage + 3 (1d6) fire damage.",
-      "attack_bonus": 4,
-      "damage_dice": "2d6"
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) piercing damage plus 3 (1d6) fire damage."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "2d6"
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage."
     },
     {
-      "name": "Ash Cloud",
-      "desc": "An ash drake can beat its wings and create a cloud of ash that extends 10 feet in all directions, centered on itself. This cloud provides half cover, though the ash drake can see normally through its own cloud. Any creature that enters or starts its turn in the cloud must succeed on a DC 14 Constitution saving throw or become blinded for 1d6 rounds."
+      "name": "Ash Cloud (Recharge 6)",
+      "desc": "The ash drake beats its wings, filling the area within 10 feet of it with ash for 1 minute. The ash spreads around corners, and its area is heavily obscured. Each creature that isn't an ash drake and that enters the cloud for the first time on its turn or starts its turn there must succeed on a DC 13 Constitution saving throw or become blinded until the end of its next turn. The ash moves with the drake, remaining centered on it for the duration."
     },
     {
-      "name": "Ash Breath (recharge 6)",
-      "desc": "An ash drake spews a 20-foot cone of blistering hot, choking ash. Any targets in the path of this spray takes 14 (4d6) fire damage and become poisoned for one minute; a successful DC 13 Dexterity saving throw reduces damage by half and negates the poisoning. A poisoned creature repeats the saving throw at the end of each of its turns, ending the effect on itself with a successful save."
+      "name": "Ash Breath (Recharge 5-6)",
+      "desc": "The ash drake spews blistering hot, choking ash in a 30-foot cone. Each creature in the area must make a DC 13 Dexterity saving throw. On a failure, a creature takes 14 (4d6) fire damage and is poisoned for 1 minute. On a success, a creature takes half the damage and isn't poisoned. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Firesight",
+      "desc": "The ash drake can see through areas obscured by fire, smoke, and fog without penalty."
+    }
+  ],
   "spell_list": [],
-  "page_no": 149,
+  "page_no": 139,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_ash-drake/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_ash-drake/"
 }

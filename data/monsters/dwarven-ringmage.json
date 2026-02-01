@@ -1,22 +1,22 @@
 {
-  "slug": "dwarven-ringmage",
-  "desc": "",
+  "slug": "dwarvenringmage-tob1-2023",
+  "desc": "False",
   "name": "Dwarven Ringmage",
   "size": "Medium",
   "type": "Humanoid",
-  "subtype": "dwarf",
-  "group": null,
-  "alignment": "any",
+  "subtype": "",
+  "group": "null",
+  "alignment": "Any Alignment",
   "armor_class": 16,
   "armor_desc": "breastplate",
-  "hit_points": 82,
-  "hit_dice": "15d8+15",
+  "hit_points": 136,
+  "hit_dice": "21d8 + 42",
   "speed": {
     "walk": 30
   },
   "strength": 10,
   "dexterity": 14,
-  "constitution": 13,
+  "constitution": 15,
   "intelligence": 18,
   "wisdom": 12,
   "charisma": 9,
@@ -26,60 +26,50 @@
   "intelligence_save": 7,
   "wisdom_save": 4,
   "charisma_save": null,
-  "perception": null,
+  "perception": 11,
   "skills": {
-    "arcana": 7,
-    "history": 7
+    "Arcana": 7,
+    "History": 7
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "poison",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 11",
   "languages": "Common, Dwarvish",
   "challenge_rating": "7",
   "cr": 7,
   "actions": [
     {
-      "name": "Multiattack",
-      "desc": "The dwarven ringmage makes two melee attacks."
-    },
-    {
-      "name": "Ring-Staff",
-      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.",
-      "attack_bonus": 3,
-      "damage_dice": "1d6"
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
-    {
-      "name": "Dwarven Resistance",
-      "desc": "The dwarven ringmage has advantage on saving throws against poison."
+      "name": "Ring Staff",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage plus 10 (3d6) acid, cold, fire, lightning, or thunder damage (the ringmage's choice)."
     },
     {
       "name": "Ring Magic",
-      "desc": "The dwarven ringmage can imbue a nonmagical ring with a spell that has a range of self or touch. Doing so expends components as if the dwarven ringmage had cast the spell normally and uses a spell slot one level higher than the spell normally requires. When the wearer of the ring activates the ring as an action, the spell is cast as if the dwarven ringmage had cast the spell. The dwarven ringmage does not regain the spell slot until the ring is discharged or the dwarven ringmage chooses to dismiss the spell."
-    },
-    {
-      "name": "Ring-Staff Focus",
-      "desc": "The dwarven ringmage can use his ring-staff as a focus for spells that require rings as a focus or component, or for his Ring Magic ability. If used as a focus for Ring Magic, the spell does not require a spell slot one level higher than the spell normally requires. Once per day, the dwarven ringmage can imbue a spell of 4th level or lower into his ring-staff by expending a spell slot equal to the spell being imbued."
+      "desc": "The dwarven ringmage draws circles of magic in the air and sends them toward one creature it can see within 30 feet of it, causing one of the following effects:"
     },
     {
       "name": "Spellcasting",
-      "desc": "the mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The mage has the following wizard spells prepared:\n\ncantrips (at will): fire bolt, mage hand, shocking grasp, true strike\n\n1st level (4 slots): expeditious retreat, magic missile, shield, thunderwave\n\n2nd level (3 slots): misty step, web\n\n3rd level (3 slots): counterspell, fireball, fly\n\n4th level (3 slots): greater invisibility, ice storm\n\n5th level (1 slot): cone of cold"
+      "desc": "The dwarven ringmage casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 15):\nAt will: color spray, mage hand, true strike\n3/day each: expeditious retreat, fly, haste\n1/day each: greater invisibility, wall of stone"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Dwarven Resilience",
+      "desc": "The dwarven ringmage has advantage on saving throws against poison."
     }
   ],
   "spell_list": [],
-  "page_no": 420,
+  "page_no": 409,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_dwarven-ringmage/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_dwarven-ringmage/"
 }

@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "npc:-breathstealer",
   "desc": "",
   "name": "Npc: Breathstealer",
@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Any Non-Good",
+  "alignment": "any non-good",
   "armor_class": 15,
   "armor_desc": "leather armor",
   "hit_points": 99,

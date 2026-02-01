@@ -1,97 +1,77 @@
 {
-  "slug": "kobold",
+  "slug": "kobold_bf",
   "desc": "",
   "name": "Kobold",
-  "size": "Small",
+  "size": "small",
   "type": "Humanoid",
-  "subtype": "kobold",
-  "group": null,
-  "alignment": "Lawful Evil",
+  "subtype": "",
+  "group": "Kobolds",
+  "alignment": "",
   "armor_class": 12,
   "armor_desc": null,
-  "hit_points": 5,
-  "hit_dice": "2d6-2",
+  "hit_points": 9,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
-  "strength": 7,
-  "dexterity": 15,
-  "constitution": 9,
+  "strength": 6,
+  "dexterity": 18,
+  "constitution": 8,
   "intelligence": 8,
-  "wisdom": 7,
+  "wisdom": 6,
   "charisma": 8,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
+  "strength_save": -2,
+  "dexterity_save": 4,
+  "constitution_save": -1,
+  "intelligence_save": -1,
+  "wisdom_save": -2,
+  "charisma_save": -1,
+  "perception": 8,
   "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 60 ft., passive Perception 8",
-  "languages": "Common, Draconic",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Draconic",
   "challenge_rating": "1/8",
   "cr": 0.125,
   "actions": [
     {
       "name": "Dagger",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d4",
-      "damage_bonus": 2
+      "desc": "_Melee or Ranged Weapon Attack:_ +4 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 4 (1d4+2) piercing damage."
     },
     {
       "name": "Sling",
-      "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d4",
-      "damage_bonus": 2
+      "desc": "_Ranged Weapon Attack:_ +4 to hit, range 30/120 ft., one target. _Hit:_ 4 (1d4+2) bludgeoning damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Scurry",
+      "desc": "The kobold moves up to 15 feet without provoking opportunity attacks. If the kobold is aware of traps in the area, the kobold can choose if this movement triggers any of them."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Sunlight Sensitivity",
-      "desc": "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      "name": "Pack Tactics",
+      "desc": "The kobold has advantage on attack rolls against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
     },
     {
-      "name": "Pack Tactics",
-      "desc": "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+      "name": "Sunlight Sensitivity",
+      "desc": "While in sunlight, the kobold has disadvantage on attack rolls, and its Perception is 3 when perceiving by sight."
     }
   ],
   "spell_list": [],
-  "page_no": 324,
-  "environments": [
-    "Hill",
-    "Underdark",
-    "Mountains",
-    "Coastal",
-    "Tundra",
-    "Grassland",
-    "Ruin",
-    "Swamp",
-    "Mountain",
-    "Desert",
-    "Settlement",
-    "Urban",
-    "Forest",
-    "Arctic",
-    "Jungle",
-    "Hills",
-    "Caverns",
-    "Plane Of Earth"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_kobold/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_kobold/"
 }

@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Lawful Neutral",
+  "alignment": "lawful neutral",
   "armor_class": 16,
   "armor_desc": "chain mail",
   "hit_points": 30,

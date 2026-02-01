@@ -6,7 +6,7 @@
   "type": "Construct",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral",
+  "alignment": "neutral",
   "armor_class": 15,
   "armor_desc": "natural armor",
   "hit_points": 201,

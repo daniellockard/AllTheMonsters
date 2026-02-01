@@ -1,16 +1,16 @@
 {
-  "slug": "clurichaun",
-  "desc": "_Around a corner in the wine cellar stumbles a surly, two-foot tall man carrying an open bottle of wine. He has a bushy beard and wears a rumpled, red overcoat over a dirty white shirt and kneelength red trousers with blue stockings and silver-buckled shoes. A cap made from leaves stitched together with gold thread slouches atop his head, and he reeks of stale beer and wine._  \n**Drunks in the Cellar.** Clurichauns are mean-spirited, alcohol-loving fey that plague butteries and wine cellars. These drunken fey were once leprechauns, but they long ago forsook a life of toil for one of solitary debauchery. Now they spend every night drinking, warbling off-key, and tormenting their hapless hosts with cruel pranks.  \nHowever, if the clurichaun’s host keeps him or her well supplied with a favorite libation and otherwise leaves him or her alone, the clurichaun will protect their wine cellars from thieves, drunkards, or worse—becoming quite vigorous when they feel the security of the cellars is threatened in any way. They have a particular hatred for Open Game License",
+  "slug": "clurichaun-tob1-2023",
+  "desc": "False",
   "name": "Clurichaun",
   "size": "Tiny",
   "type": "Fey",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Neutral",
   "armor_class": 14,
-  "armor_desc": "",
+  "armor_desc": "Clurichaun’s Luck",
   "hit_points": 22,
-  "hit_dice": "4d4+12",
+  "hit_dice": "4d4 + 12",
   "speed": {
     "walk": 30
   },
@@ -26,45 +26,45 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 1,
+  "perception": 11,
   "skills": {
-    "perception": 1,
-    "stealth": 3
+    "Perception": 1,
+    "Stealth": 3
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
   "condition_immunities": "frightened, poisoned",
-  "senses": "darkvision 60ft., passive Perception 11",
+  "senses": "darkvision 60 ft., passive Perception 11",
   "languages": "Common, Elvish, Sylvan",
   "challenge_rating": "1/4",
   "cr": 0.25,
   "actions": [
     {
-      "name": "Unarmed Strike",
-      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 2 (1 + 1) bludgeoning damage.",
-      "attack_bonus": 3,
-      "damage_dice": "1"
+      "name": "Improvised Weapon",
+      "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d4 + 1) bludgeoning, piercing, or slashing damage, depending on the weapon."
     },
     {
-      "name": "Improvised Weapon",
-      "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 3 (1d4 + 1) bludgeoning, piercing, or slashing damage, depending on weapon.",
-      "attack_bonus": 3,
-      "damage_dice": "1d4"
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage."
+    },
+    {
+      "name": "Bawdy Remark",
+      "desc": "Ranged Spell Attack: +5 to hit, range 30 ft., one creature. Hit: 5 (1d4 + 3) psychic damage, and the target must succeed on a DC 13 Wisdom saving throw or be incapacitated until the end of its next turn as it doubles over in laughter or freezes up in embarrassment (the target's choice)."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The clurichaun casts one of the following spells, requiring alcohol as the only material component and using Charisma as the spellcasting ability (spell save DC 13):\nAt will: mending, purify food and drink\n1/day each: blur, heroism, suggestion"
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Clurichaun's Luck",
-      "desc": "Clurichauns add both their Dexterity and Charisma modifiers to their Armor Class."
-    },
-    {
-      "name": "Innate Spellcasting",
-      "desc": "the clurichaun's innate spellcasting ability is Charisma (spell save DC 13). The clurichaun can cast the following spells, requiring only alcohol as a component.\n\nat will: friends, mending, minor illusion, purify food and drink, vicious mockery\n\n1/day each: blur, calm emotions, heroism, sleep, suggestion"
+      "desc": "While the clurichaun is conscious and wearing no armor and wielding no shield, it adds its Charisma modifier to its AC (included above)."
     },
     {
       "name": "Magic Resistance",
@@ -72,12 +72,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 67,
+  "page_no": 66,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_clurichaun/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_clurichaun/"
 }

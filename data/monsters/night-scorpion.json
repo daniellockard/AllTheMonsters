@@ -1,16 +1,16 @@
 {
-  "slug": "night-scorpion",
-  "desc": "",
+  "slug": "nightscorpion-tob1-2023",
+  "desc": "False",
   "name": "Night Scorpion",
   "size": "Large",
   "type": "Beast",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Unaligned",
   "armor_class": 14,
   "armor_desc": "natural armor",
   "hit_points": 90,
-  "hit_dice": "12d10+24",
+  "hit_dice": "12d10 + 24",
   "speed": {
     "walk": 40
   },
@@ -26,46 +26,42 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 9,
   "skills": {},
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "blindsight 60 ft., passive Perception 9",
-  "languages": "-",
+  "languages": "—",
   "challenge_rating": "3",
   "cr": 3,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The scorpion makes three attacks: two with its claws and one with its sting."
+      "desc": "The scorpion makes two Claw attacks and one Sting attack."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple one target.",
-      "attack_bonus": 4,
-      "damage_dice": "1d8+2"
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only one target."
     },
     {
       "name": "Sting",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target takes 7 (2d6) poison damage and is blinded for 1d3 hours; a successful DC 12 Constitution saving throw reduces damage by half and prevents blindness. If the target fails the saving throw by 5 or more, the target is also paralyzed while poisoned. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.",
-      "attack_bonus": 4,
-      "damage_dice": "1d10"
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (1d10 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw. On a failure, the target takes 7 (2d6) poison damage and is blinded for 1 hour. On a success, a creature takes half the damage and isn't blinded. If the target fails the saving throw by 5 or more, it is also poisoned for 1 minute, and it is paralyzed while poisoned in this way. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
   "spell_list": [],
-  "page_no": 340,
+  "page_no": 320,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_night-scorpion/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_night-scorpion/"
 }

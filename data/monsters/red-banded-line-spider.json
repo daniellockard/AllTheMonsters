@@ -1,19 +1,18 @@
 {
-  "slug": "red-banded-line-spider",
-  "desc": "_These spiders are named for both the deep red swirls on their abdomens, unique to each spider, and for their peculiar hunting technique. The largest ones hunt in the dark canopy of temperate and subtropical forests._  \n**Hand-Sized Hunters.** These furry, brown spiders are not enormous monsters, but they are big enough to be alarming. A typical one is as big as a human hand with fingers spread wide, but some grow as large as small dogs.  \n**Webbed Line.** Line spiders don’t spin webs but instead perch and watch for prey. When prey wanders near, the spider launches a line of webbing to snare it, then pounces unerringly along that line to deliver a deep bite. Their potent venom can incapacitate creatures much larger than themselves, and they quickly devour flesh with their powerful jaws.  \n**City Dwellers.** Line spiders are often found in cities, and their size makes them a good replacement for a garroter crab in certain forms of divination. They’re favorites among exotic-pet dealers—usually with their venom sacs removed, sometimes not. Goblins, kobolds, and some humans use them rather than cats to control a mouse or rat infestation, and they make reasonably good pets if they’re kept well-fed. If they get hungry, line spiders may devour other small pets or even their owners.",
+  "slug": "red-bandedlinespider-tob1-2023",
+  "desc": "False",
   "name": "Red-Banded Line Spider",
   "size": "Tiny",
   "type": "Beast",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Unaligned",
   "armor_class": 13,
   "armor_desc": "",
-  "hit_points": 2,
-  "hit_dice": "1d4",
+  "hit_points": 15,
+  "hit_dice": "6d4",
   "speed": {
-    "walk": 30,
-    "climb": 30
+    "walk": 30
   },
   "strength": 4,
   "dexterity": 16,
@@ -27,38 +26,39 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 2,
+  "perception": 12,
   "skills": {
-    "perception": 2,
-    "stealth": 5
+    "Perception": 2,
+    "Stealth": 5
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
   "damage_immunities": "psychic",
   "condition_immunities": "charmed, frightened",
   "senses": "darkvision 60 ft., passive Perception 12",
-  "languages": "-",
+  "languages": "—",
   "challenge_rating": "1/4",
   "cr": 0.25,
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 3 (1d6) poison damage and be poisoned until the start of the spider's next turn. The target fails the saving throw automatically and takes an extra 1d6 poison damage if it is bitten by another red-banded line spider while poisoned this way.",
-      "attack_bonus": 5,
-      "damage_dice": "1d6"
-    },
-    {
-      "name": "Swingline",
-      "desc": "Ranged Weapon Attack: +5 to hit, range 60 ft., one target. Hit: the spider immediately moves the full length of the webbing (up to 60 feet) to the target and delivers a bite with advantage. This attack can be used only if the spider is higher than its target and at least 10 feet away.",
-      "attack_bonus": 5,
-      "damage_dice": "0"
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage plus 5 (2d4) poison damage, and the target must succeed on a DC 10 Constitution saving throw or be poisoned until the end of its next turn."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Swingline",
+      "desc": "The spider throws a length of webbing at a point on a surface, such as the ground or wall, it can see within 30 feet of it, attaching one end of the webbing to that point. It then reels in the webbing, pulling itself to an unoccupied space within 5 feet of that point. When the spider moves in this way, opportunity attacks against it have disadvantage. If the spider pulled itself at least 15 feet straight toward a creature, it has advantage on the next Bite attack it makes against that creature before the start of its next turn."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
+    {
+      "name": "Reactive Venom",
+      "desc": "If the spider deals poison damage to a creature that is poisoned, the target takes an extra 2 (1d4) poison damage."
+    },
     {
       "name": "Spider Climb",
       "desc": "The spider can climb difficult surfaces, including upside down and on ceilings, without needing to make an ability check."
@@ -69,12 +69,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 363,
+  "page_no": 345,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_red-banded-line-spider/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_red-banded-line-spider/"
 }

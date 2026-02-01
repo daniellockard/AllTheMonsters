@@ -6,7 +6,7 @@
   "type": "Monstrosity",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral Evil",
+  "alignment": "neutral evil",
   "armor_class": 14,
   "armor_desc": "natural armor",
   "hit_points": 210,

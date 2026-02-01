@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "elf",
   "group": null,
-  "alignment": "Chaotic Neutral",
+  "alignment": "chaotic neutral",
   "armor_class": 16,
   "armor_desc": "breastplate",
   "hit_points": 72,

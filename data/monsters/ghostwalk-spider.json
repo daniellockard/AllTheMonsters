@@ -1,19 +1,18 @@
 {
-  "slug": "ghostwalk-spider",
-  "desc": "",
+  "slug": "ghostwalkspider-tob1-2023",
+  "desc": "False",
   "name": "Ghostwalk Spider",
   "size": "Large",
   "type": "Monstrosity",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 15,
   "armor_desc": "",
   "hit_points": 119,
-  "hit_dice": "14d10+42",
+  "hit_dice": "14d10 + 42",
   "speed": {
-    "walk": 50,
-    "climb": 50
+    "walk": 50
   },
   "strength": 15,
   "dexterity": 20,
@@ -22,50 +21,54 @@
   "wisdom": 14,
   "charisma": 8,
   "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": 9,
+  "dexterity_save": 9,
+  "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": 3,
-  "perception": 6,
+  "perception": 16,
   "skills": {
-    "perception": 6
+    "Perception": 6,
+    "Stealth": 9
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
   "damage_immunities": "poison",
   "condition_immunities": "poisoned",
-  "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 16",
-  "languages": "understands Undercommon but can't speak",
+  "senses": "truesight 60 ft., passive Perception 16",
+  "languages": "understands Undercommon but can’t speak",
   "challenge_rating": "9",
   "cr": 9,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The ghostwalk spider makes two bite attacks. It can make a ghostly snare attack in place of one of its bites."
+      "desc": "The ghostwalk spider makes one Bite attack and one Ghostly Snare attack, or it makes two Bite attacks."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) piercing damage plus 13 (3d8) poison damage, or half poison damage with a successful DC 15 Constitution saving throw. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned and paralyzed for 1 hour, even after regaining hit points. While using Ghostwalk, the spider's bite and poison do half damage to targets that aren't affected by Ghostly Snare (see below).",
-      "attack_bonus": 9,
-      "damage_dice": "2d10"
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage. If the ghostwalk spider is in its true form, the target must make a DC 15 Constitution saving throw, taking 13 (3d8) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hp, the target is stable but poisoned for 1 hour, even after regaining hp, and is paralyzed while poisoned in this way."
     },
     {
-      "name": "Ghostly Snare (During Ghostwalk Only, Recharge 5-6)",
-      "desc": "Ranged Weapon Attack: +9 to hit, range 40/160 ft., one target. Hit: The target is restrained by ghostly webbing. While restrained in this way, the target is invisible to all creatures except ghostwalk spiders, and it has resistance to acid, cold, fire, lightning, and thunder damage. A creature restrained by Ghostly Snare can escape by using an action to make a successful DC 14 Strength check, or the webs can be attacked and destroyed (AC 10; hp 5)."
+      "name": "Ghostly Snare (Ghostwalk Form Only, Recharge 4-6)",
+      "desc": "Ranged Weapon Attack: +9 to hit, range 30/60 ft., one target. Hit: The target is restrained by invisible webbing. While restrained in this way, the target is invisible. As an action, the restrained target can make a DC 15 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 12; hp 15; immunity to bludgeoning, poison, and psychic damage)."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
+  "bonus_actions": [
     {
       "name": "Ghostwalk",
-      "desc": "As a bonus action, the ghostwalk spider becomes invisible and intangible. Attacking doesn't end this invisibility. While invisible, the ghostwalk spider has advantage on Dexterity (Stealth) checks and gains the following: Damage Resistances acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing damage from nonmagical attacks. Condition Immunities paralyzed, petrified, prone, restrained, stunned. The ghostwalk ends when the spider chooses to end it as a bonus action or when the spider dies"
+      "desc": "The ghostwalk spider magically takes on a ghostly form or returns to its true, tangible form. Its statistics are the same in each form. Any equipment it is wearing or carrying becomes ghostly with it. It reverts to its true form if it dies."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Ghostly Body (Ghostwalk Form Only)",
+      "desc": "The ghostwalk spider has resistance to acid, cold, fire, lightning, and thunder damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks, and it has immunity to the grappled, paralyzed, petrified, and restrained conditions."
     },
     {
-      "name": "Incorporeal Movement (During Ghostwalk Only)",
+      "name": "Incorporeal Movement (Ghostwalk Form Only)",
       "desc": "The ghostwalk spider can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
     },
     {
@@ -78,12 +81,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 361,
+  "page_no": 343,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_ghostwalk-spider/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_ghostwalk-spider/"
 }

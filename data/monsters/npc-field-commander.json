@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "npc:-field-commander",
   "desc": "",
   "name": "Npc: Field Commander",
@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Any Alignment",
+  "alignment": "any alignment",
   "armor_class": 19,
   "armor_desc": "breastplate, shield",
   "hit_points": 170,

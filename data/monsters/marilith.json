@@ -1,101 +1,106 @@
 {
-  "slug": "marilith",
+  "slug": "marilith_bf",
   "desc": "",
   "name": "Marilith",
-  "size": "Large",
+  "size": "large",
   "type": "Fiend",
-  "subtype": "demon",
+  "subtype": "Demon",
   "group": "Demons",
-  "alignment": "Chaotic Evil",
+  "alignment": "",
   "armor_class": 18,
   "armor_desc": "natural armor",
-  "hit_points": 189,
-  "hit_dice": "18d10+90",
+  "hit_points": 217,
+  "hit_dice": "",
   "speed": {
     "walk": 40
   },
-  "strength": 18,
+  "strength": 28,
   "dexterity": 20,
-  "constitution": 20,
+  "constitution": 30,
   "intelligence": 18,
-  "wisdom": 16,
-  "charisma": 20,
+  "wisdom": 26,
+  "charisma": 30,
   "strength_save": 9,
-  "dexterity_save": null,
+  "dexterity_save": 5,
   "constitution_save": 10,
-  "intelligence_save": null,
+  "intelligence_save": 4,
   "wisdom_save": 8,
   "charisma_save": 10,
-  "perception": null,
+  "perception": 18,
   "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
-  "damage_immunities": "poison",
-  "condition_immunities": "poisoned",
-  "senses": "truesight 120 ft., passive Perception 13",
-  "languages": "Abyssal, telepathy 120 ft.",
+  "damage_resistances": "bludgeoning,piercing,and slashing damage from nonmagical attacks,Demonic Resilience",
+  "damage_immunities": "Demonic Resilience",
+  "condition_immunities": "",
+  "senses": "truesight 120 ft.",
+  "languages": "Abyssal,telepathy 120 ft.",
   "challenge_rating": "16",
   "cr": 16,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The marilith can make seven attacks: six with its longswords and one with its tail."
+      "desc": "The marilith makes two Dagger attacks, two Mace attacks, and two Longsword attacks. It can replace two Dagger attacks with a Tail attack."
+    },
+    {
+      "name": "Dagger",
+      "desc": "_Melee or Ranged Weapon Attack:_ +9 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 9 (2d4+4) piercing damage plus 7 (2d6) fire damage."
+    },
+    {
+      "name": "Mace",
+      "desc": "_Melee Weapon Attack:_ +9 to hit, reach 5 ft., one target. _Hit:_ 11 (2d6+4) bludgeoning damage plus 7 (2d6) fire damage."
     },
     {
       "name": "Longsword",
-      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
-      "attack_bonus": 9,
-      "damage_dice": "2d8",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +9 to hit, reach 5 ft., one target. _Hit:_ 13 (2d8+4) slashing damage plus 7 (2d6) fire damage."
     },
     {
       "name": "Tail",
-      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 15 (2d10 + 4) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 19). Until this grapple ends, the target is restrained, the marilith can automatically hit the target with its tail, and the marilith can't make tail attacks against other targets.",
-      "attack_bonus": 9,
-      "damage_dice": "2d10",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +9 to hit, reach 10 ft., one creature. _Hit:_ 20 (3d10+4) bludgeoning damage plus 7 (2d6) fire damage. If the target is Medium or smaller, it is grappled (escape DC 17). Until this grapple ends, the target is restrained, the marilith can automatically hit the target with its Tail, and the marilith can't make Tail attacks against other targets."
+    }
+  ],
+  "bonus_actions": [
+    {
+      "name": "Marilith Tactics",
+      "desc": "The marilith shouts one of the following commands at up to two friendly creatures it can see within 30 feet of it:\n- **March!** Each target can use a reaction to move up to half its speed in a direction of the marilith's choice. This movement is unaffected by difficult terrain and doesn't provoke opportunity attacks.\n- **Protect Yourself!** Each target gains the marilith's Parry reaction until the start of the marilith's next turn.\n- **Remember Your Training!** Each target has advantage on the next weapon attack roll it makes before the start of the marilith's next turn."
     },
     {
       "name": "Teleport",
-      "desc": "The marilith magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
-    },
-    {
-      "name": "Variant: Summon Demon (1/Day)",
-      "desc": "The demon chooses what to summon and attempts a magical summoning.\nA marilith has a 50 percent chance of summoning 1d6 vrocks, 1d4 hezrous, 1d3 glabrezus, 1d2 nalfeshnees, or one marilith.\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+      "desc": "The marilith magically teleports, along with any equipment it is wearing or carrying, up to 60 feet to an unoccupied space it can see."
     }
   ],
-  "bonus_actions": null,
   "reactions": [
     {
       "name": "Parry",
       "desc": "The marilith adds 5 to its AC against one melee attack that would hit it. To do so, the marilith must see the attacker and be wielding a melee weapon."
     }
   ],
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Magic Resistance",
-      "desc": "The marilith has advantage on saving throws against spells and other magical effects."
+      "name": "Demonic Resilience",
+      "desc": "The marilith is resistant to cold, fire, and lightning damage. In addition, it is immune to poison damage and to the poisoned condition."
     },
     {
-      "name": "Magic Weapons",
-      "desc": "The marilith's weapon attacks are magical."
+      "name": "Flaming Weapons",
+      "desc": "The marilith's weapon attacks are magical. When it hits with any weapon, the weapon deals an extra 2d6 fire damage (included in the attack)."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The marilith has advantage on saves against spells and other magical effects."
     },
     {
       "name": "Reactive",
-      "desc": "The marilith can take one reaction on every turn in combat."
+      "desc": "The marilith gets up to five extra reactions, but these extra reactions can be used only for Parry."
     }
   ],
   "spell_list": [],
-  "page_no": 272,
-  "environments": [
-    "Abyss"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_marilith/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_marilith/"
 }

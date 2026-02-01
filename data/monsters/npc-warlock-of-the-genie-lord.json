@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "npc:-warlock-of-the-genie-lord",
   "desc": "",
   "name": "Npc: Warlock Of The Genie Lord",
@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Any Alignment",
+  "alignment": "any alignment",
   "armor_class": 15,
   "armor_desc": "studded leather",
   "hit_points": 78,

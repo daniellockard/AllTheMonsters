@@ -1,26 +1,26 @@
 {
-  "slug": "giant-crocodile",
+  "slug": "giant-crocodile-a5e",
   "desc": "",
   "name": "Giant Crocodile",
   "size": "Huge",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": null,
+  "alignment": "",
   "armor_class": 14,
-  "armor_desc": "natural armor",
+  "armor_desc": "",
   "hit_points": 85,
   "hit_dice": "9d12+27",
   "speed": {
     "walk": 30,
     "swim": 50
   },
-  "strength": 21,
-  "dexterity": 9,
-  "constitution": 17,
+  "strength": 20,
+  "dexterity": 10,
+  "constitution": 16,
   "intelligence": 2,
   "wisdom": 10,
-  "charisma": 7,
+  "charisma": 6,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
@@ -29,7 +29,7 @@
   "charisma_save": null,
   "perception": null,
   "skills": {
-    "stealth": 5
+    "stealth": 3
   },
   "damage_vulnerabilities": "",
   "damage_resistances": "",
@@ -42,21 +42,15 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The crocodile makes two attacks: one with its bite and one with its tail."
+      "desc": "The crocodile attacks with its bite and its tail."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 21 (3d10 + 5) piercing damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained, and the crocodile can't bite another target.",
-      "attack_bonus": 8,
-      "damage_dice": "3d10",
-      "damage_bonus": 5
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10+5) piercing damage and the target is grappled (escape DC 15). Until this grapple ends  the target is restrained and the crocodile can't bite a different target."
     },
     {
       "name": "Tail",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target not grappled by the crocodile. Hit: 14 (2d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be knocked prone.",
-      "attack_bonus": 8,
-      "damage_dice": "2d8",
-      "damage_bonus": 5
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one creature not grappled by the crocodile. Hit: 14 (2d8+5) bludgeoning damage and the target makes a DC 18 Strength saving throw  falling prone on a failure."
     }
   ],
   "bonus_actions": null,
@@ -70,15 +64,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 374,
-  "environments": [
-    "Swamp",
-    "Water"
-  ],
+  "page_no": 446,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_giant-crocodile/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_giant-crocodile/"
 }

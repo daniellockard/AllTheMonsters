@@ -1,22 +1,22 @@
 {
-  "slug": "giant-rat",
+  "slug": "giant-rat-a5e",
   "desc": "",
   "name": "Giant Rat",
   "size": "Small",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": null,
+  "alignment": "",
   "armor_class": 12,
-  "armor_desc": null,
+  "armor_desc": "",
   "hit_points": 7,
   "hit_dice": "2d6",
   "speed": {
     "walk": 30
   },
-  "strength": 7,
-  "dexterity": 15,
-  "constitution": 11,
+  "strength": 6,
+  "dexterity": 14,
+  "constitution": 10,
   "intelligence": 2,
   "wisdom": 10,
   "charisma": 4,
@@ -39,10 +39,7 @@
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d4",
-      "damage_bonus": 2
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage."
     }
   ],
   "bonus_actions": null,
@@ -52,29 +49,20 @@
   "special_abilities": [
     {
       "name": "Keen Smell",
-      "desc": "The rat has advantage on Wisdom (Perception) checks that rely on smell."
+      "desc": "The rat has advantage on Perception checks that rely on smell."
     },
     {
       "name": "Pack Tactics",
-      "desc": "The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+      "desc": "The giant rat has advantage on attack rolls against a creature if at least one of the rats allies is within 5 feet of the creature and not incapacitated."
     }
   ],
   "spell_list": [],
-  "page_no": 378,
-  "environments": [
-    "Underdark",
-    "Urban",
-    "Sewer",
-    "Forest",
-    "Ruin",
-    "Swamp",
-    "Caverns",
-    "Settlement"
-  ],
+  "page_no": 449,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_giant-rat/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_giant-rat/"
 }

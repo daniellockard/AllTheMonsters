@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "npc:-wind-acolyte",
   "desc": "",
   "name": "Npc: Wind Acolyte",
@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral",
+  "alignment": "neutral",
   "armor_class": 15,
   "armor_desc": "",
   "hit_points": 105,

@@ -1,85 +1,82 @@
 {
-  "slug": "bulette",
+  "slug": "bulette_bf",
   "desc": "",
   "name": "Bulette",
-  "size": "Large",
+  "size": "large",
   "type": "Monstrosity",
   "subtype": "",
   "group": null,
-  "alignment": "Unaligned",
+  "alignment": "",
   "armor_class": 17,
   "armor_desc": "natural armor",
-  "hit_points": 94,
-  "hit_dice": "9d10+45",
+  "hit_points": 108,
+  "hit_dice": "",
   "speed": {
     "walk": 40,
     "burrow": 40
   },
-  "strength": 19,
-  "dexterity": 11,
-  "constitution": 21,
+  "strength": 24,
+  "dexterity": 10,
+  "constitution": 20,
   "intelligence": 2,
   "wisdom": 10,
-  "charisma": 5,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 6,
-  "skills": {
-    "perception": 6
-  },
+  "charisma": 4,
+  "strength_save": 7,
+  "dexterity_save": 0,
+  "constitution_save": 5,
+  "intelligence_save": -4,
+  "wisdom_save": 0,
+  "charisma_save": -3,
+  "perception": 16,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_resistances": "bludgeoning,Monstrosity Resilience",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16",
-  "languages": "",
+  "senses": "darkvision 60 ft., tremorsense 60 ft.",
+  "languages": "-",
   "challenge_rating": "5",
   "cr": 5,
   "actions": [
     {
-      "name": "Bite",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 30 (4d12 + 4) piercing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "4d12",
-      "damage_bonus": 4
+      "name": "Multiattack",
+      "desc": "The bulette makes two Bite attacks."
     },
     {
-      "name": "Deadly Leap",
-      "desc": "If the bulette jumps at least 15 ft. as part of its movement, it can then use this action to land on its ft. in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 ft. out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the bulette's space."
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 20 (3d10+4) piercing damage."
+    },
+    {
+      "name": "Deadly Leap (Recharge 5-6)",
+      "desc": "The bulette leaps up to 30 feet, diving onto a point it can see or sense within that range and landing on its feet with a thunderous crash. It occupies a space of its choice within 5 feet of that point, and each creature within 10 feet of that point must make a DC 15 STR save. On a failure, a creature takes 14 (4d6) bludgeoning damage and 14 (4d6) thunder damage and is knocked prone. On a success, a creature takes half the damage and isn't knocked prone. Any creature in the bulette's space is then pushed into an unoccupied space within 5 feet of the bulette. If no unoccupied space is within range, the creature instead falls prone in the bulette's space."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Seek Prey",
+      "desc": "The bulette looks and sniffs around for new prey, releasing a satisfied, guttural chirp when it settles on one. One creature the bulette can see or sense within 30 feet of it and that can see or hear the bulette must make a DC 15 WIS save. On a failure, the target is frightened until the end of its next turn, and the bulette has advantage on the next attack roll it makes against the creature before the start of its next turn."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
+      "name": "Monstrosity Resilience",
+      "desc": "The bulette is resistant to exhaustion and to the frightened condition."
+    },
+    {
       "name": "Standing Leap",
-      "desc": "The bulette's long jump is up to 30 ft. and its high jump is up to 15 ft., with or without a running start."
+      "desc": "The bulette's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
     }
   ],
   "spell_list": [],
-  "page_no": 266,
-  "environments": [
-    "Hill",
-    "Desert",
-    "Mountains",
-    "Grassland",
-    "Forest",
-    "Ruin",
-    "Hills",
-    "Mountain",
-    "Settlement",
-    "Plane Of Earth"
-  ],
-  "img_main": "http://api.open5e.com/static/img/monsters/bulette.png",
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_bulette/"
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_bulette/"
 }

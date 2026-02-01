@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "dhampir",
   "group": null,
-  "alignment": "Any Alignment",
+  "alignment": "any alignment",
   "armor_class": 17,
   "armor_desc": "studded leather, shield",
   "hit_points": 97,

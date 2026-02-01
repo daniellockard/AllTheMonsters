@@ -1,25 +1,25 @@
 {
-  "slug": "giant-boar",
+  "slug": "giant-boar-a5e",
   "desc": "",
   "name": "Giant Boar",
   "size": "Large",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": null,
+  "alignment": "",
   "armor_class": 12,
-  "armor_desc": "natural armor",
-  "hit_points": 42,
-  "hit_dice": "5d10+15",
+  "armor_desc": "",
+  "hit_points": 47,
+  "hit_dice": "5d10+20",
   "speed": {
     "walk": 40
   },
-  "strength": 17,
+  "strength": 16,
   "dexterity": 10,
-  "constitution": 16,
+  "constitution": 18,
   "intelligence": 2,
-  "wisdom": 7,
-  "charisma": 5,
+  "wisdom": 8,
+  "charisma": 4,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
@@ -32,17 +32,14 @@
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 8",
+  "senses": "passive Perception 9",
   "languages": "",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
       "name": "Tusk",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "2d6",
-      "damage_bonus": 3
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage. If the boar moves at least 20 feet straight towards the target before the attack  the attack deals an extra 7 (2d6) slashing damage and the target makes a DC 13 Strength saving throw  falling prone on a failure."
     }
   ],
   "bonus_actions": null,
@@ -51,29 +48,17 @@
   "legendary_actions": null,
   "special_abilities": [
     {
-      "name": "Charge",
-      "desc": "If the boar moves at least 20 ft. straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
-      "attack_bonus": 0,
-      "damage_dice": "2d6"
-    },
-    {
-      "name": "Relentless (Recharges after a Short or Long Rest)",
-      "desc": "If the boar takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+      "name": "Relentless (1/Day)",
+      "desc": "If the boar takes 10 or less damage that would reduce it to 0 hit points, it is instead reduced to 1 hit point."
     }
   ],
   "spell_list": [],
-  "page_no": 373,
-  "environments": [
-    "Hill",
-    "Jungle",
-    "Feywild",
-    "Grassland",
-    "Forest"
-  ],
+  "page_no": 445,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_giant-boar/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_giant-boar/"
 }

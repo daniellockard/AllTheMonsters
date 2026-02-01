@@ -1,72 +1,72 @@
 {
-  "slug": "awakened-shrub",
-  "desc": "An **awakened shrub** is an ordinary shrub given sentience and mobility by the awaken spell or similar magic.",
+  "slug": "awakened_shrub_bf",
+  "desc": "",
   "name": "Awakened Shrub",
-  "size": "Small",
+  "size": "small",
   "type": "Plant",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
-  "armor_class": 9,
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 10,
   "armor_desc": null,
-  "hit_points": 10,
-  "hit_dice": "3d6",
+  "hit_points": 9,
+  "hit_dice": "",
   "speed": {
     "walk": 20
   },
-  "strength": 3,
-  "dexterity": 8,
-  "constitution": 11,
+  "strength": 2,
+  "dexterity": 10,
+  "constitution": 10,
   "intelligence": 10,
   "wisdom": 10,
   "charisma": 6,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
+  "strength_save": -4,
+  "dexterity_save": 0,
+  "constitution_save": 0,
+  "intelligence_save": 0,
+  "wisdom_save": 0,
+  "charisma_save": -2,
+  "perception": 10,
   "skills": {},
   "damage_vulnerabilities": "fire",
-  "damage_resistances": "piercing",
+  "damage_resistances": "piercing,Plant Resilience",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 10",
+  "senses": "-",
   "languages": "one language known by its creator",
   "challenge_rating": "0",
   "cr": 0,
   "actions": [
     {
       "name": "Rake",
-      "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) slashing damage.",
-      "attack_bonus": 1,
-      "damage_dice": "1d4",
-      "damage_bonus": -1
+      "desc": "_Melee Weapon Attack:_ +2 to hit, reach 5 ft., one target. _Hit:_ 2 (1d4) slashing damage."
+    },
+    {
+      "name": "Thorn",
+      "desc": "_Ranged Weapon Attack:_ +2 to hit, range 15/30 ft., one target. _Hit:_ 2 (1d4) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "False Appearance",
       "desc": "While the shrub remains motionless, it is indistinguishable from a normal shrub."
+    },
+    {
+      "name": "Plant Resilience",
+      "desc": "The shrub is resistant to exhaustion and to the paralyzed, petrified, and unconscious conditions."
     }
   ],
   "spell_list": [],
-  "page_no": 366,
-  "environments": [
-    "Jungle",
-    "Swamp",
-    "Forest",
-    "Laboratory"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_awakened-shrub/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_awakened-shrub/"
 }

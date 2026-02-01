@@ -1,26 +1,26 @@
 {
-  "slug": "giant-bat",
+  "slug": "giant-bat-a5e",
   "desc": "",
   "name": "Giant Bat",
   "size": "Large",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": null,
+  "alignment": "",
   "armor_class": 13,
-  "armor_desc": null,
-  "hit_points": 22,
-  "hit_dice": "4d10",
+  "armor_desc": "",
+  "hit_points": 16,
+  "hit_dice": "3d10",
   "speed": {
     "walk": 10,
     "fly": 60
   },
-  "strength": 15,
+  "strength": 14,
   "dexterity": 16,
-  "constitution": 11,
+  "constitution": 10,
   "intelligence": 2,
   "wisdom": 12,
-  "charisma": 6,
+  "charisma": 14,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
@@ -40,10 +40,7 @@
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage."
     }
   ],
   "bonus_actions": null,
@@ -53,24 +50,20 @@
   "special_abilities": [
     {
       "name": "Echolocation",
-      "desc": "The bat can't use its blindsight while deafened."
+      "desc": "The bat can't use blindsight while deafened."
     },
     {
       "name": "Keen Hearing",
-      "desc": "The bat has advantage on Wisdom (Perception) checks that rely on hearing."
+      "desc": "The bat has advantage on Perception checks that rely on hearing."
     }
   ],
   "spell_list": [],
-  "page_no": 373,
-  "environments": [
-    "Underdark",
-    "Forest",
-    "Caverns"
-  ],
+  "page_no": 445,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_giant-bat/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_giant-bat/"
 }

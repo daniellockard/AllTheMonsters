@@ -1,19 +1,19 @@
 {
-  "slug": "crimson-drake",
-  "desc": "_Crimson drakes are easy to spot, with scales the color of dried blood, a deadly scorpion stinger, and a mischievous gleam in their eyes._  \n**Fiery Raiders.** Crimson drakes lair in woodlands near small settlements, making nighttime forays to set fires and hunt those who flee the flames—traits that make humanoid tribes prize them as raiding partners. Goblins gleefully adopt a crimson drake as a mascot to burn things down while they get on with slaughtering people. Red dragons and flame dragons regard a crimson drake as a pet, at best, but this rarely works out. When it is inevitably insulted by its larger cousins, a malicious crimson drake may even intentionally set fires to blaze a trail for hunters to the dragon’s lair.  \n**Mistaken for Pseudodragons.** A crimson drake’s scales and features are quite similar to those of a pseudodragon, and they will imitate a pseudodragon’s hunting cry or song to trick victims into approaching. Once their prey gets close enough, they immolate it.  \nAs with pseudodragons, they resemble a red dragon in all but size and the presence of the drake’s scorpion-like stinger. On average, a crimson drake weighs 12 lb, its body measures about 18 inches long, and its tail adds another 18 inches.  \n**Foul Familiars.** A crimson drake occasionally chooses to serve an evil spellcaster as a familiar; they are too mischievous to be loyal or trustworthy, but ferocious in defense of their master.",
+  "slug": "crimsondrake-tob1-2023",
+  "desc": "False",
   "name": "Crimson Drake",
   "size": "Tiny",
   "type": "Dragon",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Evil",
   "armor_class": 14,
   "armor_desc": "natural armor",
-  "hit_points": 54,
-  "hit_dice": "12d4+24",
+  "hit_points": 45,
+  "hit_dice": "10d4 + 20",
   "speed": {
-    "walk": 15,
-    "fly": 80
+    "walk": 80,
+    "fly": 15
   },
   "strength": 10,
   "dexterity": 14,
@@ -27,45 +27,45 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 1,
+  "perception": 11,
   "skills": {
-    "acrobatics": 4,
-    "perception": 1
+    "Acrobatics": 4,
+    "Perception": 1
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
   "damage_immunities": "fire",
-  "condition_immunities": "paralyzed, unconscious",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 11",
-  "languages": "Common, Draconic, telepathy 60 ft.",
+  "languages": "Common, Draconic",
   "challenge_rating": "1",
   "cr": 1,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The crimson drake makes one bite attack and one stinger attack."
+      "desc": "The crimson drake makes one Bite attack and one Stinger attack."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 4 (1d8) fire damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6"
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 3 (1d6) fire damage."
     },
     {
       "name": "Stinger",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target takes 2 (1d4) poison damage at the start of each of its turns for 3 rounds. The target may repeat the saving throw at the end of its turn to end the effect early.",
-      "attack_bonus": 4,
-      "damage_dice": "1d4"
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. If the saving throw fails by 5 or more, the target takes 2 (1d4) poison damage at the start of each of its turns while poisoned. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     },
     {
-      "name": "Breath Weapon (Recharge 6)",
-      "desc": "The drake exhales fire in a 15-ft. cone. Each target in that cone takes 18 (4d8) fire damage, or half damage with a successful DC 12 Dexterity saving throw."
+      "name": "Fire Breath (Recharge 6)",
+      "desc": "The drake exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "name": "Familiar",
+      "desc": "The drake can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the drake senses as long as they are within 1 mile of each other. While the drake is within 10 feet of its companion, the companion shares the drake's Magic Resistance trait. At any time and for any reason, the drake can end its service as a familiar, ending the telepathic bond."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Magic Resistance",
@@ -73,12 +73,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 151,
+  "page_no": 141,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_crimson-drake/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_crimson-drake/"
 }

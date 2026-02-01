@@ -1,16 +1,16 @@
 {
-  "slug": "young-white-dragon",
+  "slug": "young_white_dragon_bf",
   "desc": "",
   "name": "Young White Dragon",
-  "size": "Large",
+  "size": "large",
   "type": "Dragon",
   "subtype": "",
-  "group": "White Dragon",
-  "alignment": "Chaotic Evil",
+  "group": "Dragons",
+  "alignment": "",
   "armor_class": 17,
   "armor_desc": "natural armor",
-  "hit_points": 133,
-  "hit_dice": "14d10+56",
+  "hit_points": 126,
+  "hit_dice": "",
   "speed": {
     "walk": 40,
     "burrow": 20,
@@ -18,75 +18,66 @@
     "swim": 40
   },
   "strength": 18,
-  "dexterity": 10,
-  "constitution": 18,
+  "dexterity": 16,
+  "constitution": 24,
   "intelligence": 6,
-  "wisdom": 11,
-  "charisma": 12,
-  "strength_save": null,
+  "wisdom": 18,
+  "charisma": 18,
+  "strength_save": 4,
   "dexterity_save": 3,
   "constitution_save": 7,
-  "intelligence_save": null,
-  "wisdom_save": 3,
+  "intelligence_save": -2,
+  "wisdom_save": 4,
   "charisma_save": 4,
-  "perception": 6,
-  "skills": {
-    "perception": 6,
-    "stealth": 3
-  },
+  "perception": 17,
+  "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "cold",
   "condition_immunities": "",
-  "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16",
-  "languages": "Common, Draconic",
+  "senses": "darkvision 120 ft., keensense 30 ft.",
+  "languages": "Common,Draconic",
   "challenge_rating": "6",
   "cr": 6,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The dragon makes three attacks: one with its bite and two with its claws."
+      "desc": "The dragon makes one Bite attack and two Claw attacks."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) piercing damage plus 4 (1d8) cold damage.",
-      "attack_bonus": 7,
-      "damage_dice": "2d10+1d8",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 10 ft., one target. _Hit:_ 15 (2d10+4) piercing damage plus 4 (1d8) cold damage."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "2d6",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 11 (2d6+4) slashing damage."
     },
     {
       "name": "Cold Breath (Recharge 5-6)",
-      "desc": "The dragon exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful one.",
-      "attack_bonus": 0,
-      "damage_dice": "10d8"
+      "desc": "The dragon exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 15 CON save, taking 31 (7d8) cold damage on a failed save, or half as much damage on a successful one."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Ice Walk",
-      "desc": "The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+      "desc": "The dragon can move across and climb icy surfaces without needing to make an ability check. In addition, difficult terrain composed of ice or snow doesn’t cost it extra movement."
+    },
+    {
+      "name": "Numbing Chill",
+      "desc": "When the white dragon hasn’t unleashed its Cold Breath, the cold builds up within it and ripples outward from it. While the dragon’s Cold Breath is available, it emits a numbing chill, and each creature that starts its turn within 10 feet of the dragon must succeed on a DC 15 CON save or its speed is reduced by 10 feet."
     }
   ],
   "spell_list": [],
-  "page_no": 290,
-  "environments": [
-    "Arctic"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_young-white-dragon/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_young-white-dragon/"
 }

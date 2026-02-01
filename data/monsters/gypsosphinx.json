@@ -1,19 +1,19 @@
 {
-  "slug": "gypsosphinx",
-  "desc": "_With black wings and a body pale as alabaster, the vulture-beaked gypsosphinx is easy to identify. As powerful servants of the gods of death and the desert, their riddles and obsessions all hinge on death and carrion. Their eyes can spot prey miles away, and the distance they climb into the sky hides their enormous size._  \nThe pale gypsosphinx shines in the desert sun and stands out in underground tombs and caverns, yet it can conceal itself when it flies in moonlit clouds. Gypsosphinxes are found anywhere bodies are buried or left to rot, and they harvest corpses from battlefields of warring desert tribes.  \n_**Gossips and Riddlers.**_ Gypsosphinxes converse with intelligent undead, priests of death gods, and with other sphinxes, but they rarely gather among their own kind. They guard their territory jealously, typically claiming a necropolis as the heart of their region.  \nLike all sphinxes, gypsosphinxes enjoy riddles. They rely on magic to solve challenging riddles they can’t solve on their own.  \n_**Night Flyers.**_ Unlike most of their cousins, gypsosphinxes are gifted fliers capable of diving steeply from the night sky to snatch carrion or a sleeping camel. The stroke of midnight has a special but unknown significance for the beasts.  \n_**Foretell Doom.**_ Occasionally, a paranoid noble seeks out a gypsosphinx and entreats the creature to reveal the time and place of his or her death, hoping to cheat fate. A gypsosphinx demands a high price for such a service, including payment in corpses of humans, unusual creatures, or near-extinct species. Even if paid, the gypsosphinx rarely honors its side of the bargain; instead, it turns its death magic against the supplicant, bringing about his or her death then and there.",
+  "slug": "gypsosphinx-tob1-2023",
+  "desc": "False",
   "name": "Gypsosphinx",
   "size": "Large",
   "type": "Monstrosity",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 17,
   "armor_desc": "natural armor",
-  "hit_points": 171,
-  "hit_dice": "18d10+72",
+  "hit_points": 190,
+  "hit_dice": "20d10 + 80",
   "speed": {
-    "walk": 40,
-    "fly": 70
+    "walk": 70,
+    "fly": 40
   },
   "strength": 20,
   "dexterity": 14,
@@ -27,15 +27,15 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 9,
+  "perception": 19,
   "skills": {
-    "arcana": 9,
-    "history": 9,
-    "perception": 9,
-    "religion": 9
+    "Arcana": 9,
+    "History": 9,
+    "Perception": 9,
+    "Religion": 9
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical attacks",
   "damage_immunities": "psychic, poison",
   "condition_immunities": "poisoned",
   "senses": "truesight 90 ft., passive Perception 19",
@@ -45,43 +45,47 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The sphinx makes one bite attack and two claw attacks."
+      "desc": "The sphinx makes one Beak attack and two Claw attacks. If both Claw attacks hit one creature, the target must succeed on a DC 18 Strength saving throw or take 14 (4d6) slashing damage and be knocked prone."
     },
     {
-      "name": "Bite",
-      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 5) piercing damage.",
-      "attack_bonus": 10,
-      "damage_dice": "3d10"
+      "name": "Beak",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 10 (1d10 + 5) piercing damage."
     },
     {
-      "name": "Claws",
-      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 32 (6d8 + 5) slashing damage.",
-      "attack_bonus": 10,
-      "damage_dice": "6d8"
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 19 (4d6 + 5) slashing damage."
     },
     {
-      "name": "Rake",
-      "desc": "If the sphinx succeeds with both claw attacks, it automatically follows up with a rake attack. If the target fails a DC 17 Dexterity check, it is knocked prone and takes 14 (2d8 + 5) slashing damage."
+      "name": "Carrion Breath (Recharge 5-6)",
+      "desc": "The gypsosphinx exhales rotting breath in a 30-foot cone. Each creature in the area must make a DC 18 Constitution saving throw. On a failure, a creature takes 21 (6d6) poison damage and 27 (6d8) necrotic damage and is poisoned for 1 minute. On a success, a creature takes half the damage and isn't poisoned. While poisoned in this way, a creature has disadvantage on death saving throws. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The sphinx casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 17):\nAt will: comprehend languages, detect magic, mage hand\n3/day each: blur, dispel magic, locate object\n1/day each: major image, greater invisibility"
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "The sphinx can take 3 legendary actions, choosing from the options below. Only one option can be used at a time and only at the end of another creature's turn. It regains spent legendary actions at the start of its turn.",
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": "The sphinx can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The sphinx regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Bite Attack",
-      "desc": "The sphinx makes one bite attack."
+      "name": "Beak Attack",
+      "desc": "The sphinx makes one Beak attack."
+    },
+    {
+      "name": "Cast a Spell (Costs 2 Actions)",
+      "desc": "The sphinx uses Spellcasting."
     },
     {
       "name": "Teleport (Costs 2 Actions)",
       "desc": "The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
-    },
-    {
-      "name": "Cast a Spell (Costs 3 Actions)",
-      "desc": "The sphinx casts a spell from its list of prepared spells, using a spell slot as normal."
     }
   ],
   "special_abilities": [
+    {
+      "name": "Death Sense",
+      "desc": "The sphinx can pinpoint, by scent, the location of each creature below half its hp maximum within 60 feet of it, and it can sense the general direction of creatures that don't have all of their hp within 1 mile of it. In addition, the sphinx can foretell the age and manner of a creature's death by looking at it. This effect doesn't take into account possible circumstances that might change the outcome, such as the casting of powerful spells or the creature making a radical change in its life's path."
+    },
     {
       "name": "Inscrutable",
       "desc": "The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage."
@@ -89,23 +93,15 @@
     {
       "name": "Magic Weapons",
       "desc": "The sphinx's weapon attacks are magical."
-    },
-    {
-      "name": "Mystic Sight",
-      "desc": "A gypsosphinx sees death coming and can foretell the manner of a person's death. This ability does not come with any urge to share that information. Gypsosphinxes are notorious for hinting, teasing, and even lying about a creature's death (\"If we fight, I will kill you and eat your heart. I have seen it,\"is a favorite bluff)."
-    },
-    {
-      "name": "Spellcasting",
-      "desc": "the sphinx is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following wizard spells prepared:\n\ncantrips: (at will): mage hand, mending, minor illusion, poison spray\n\n1st level (4 slots): comprehend languages, detect magic, identify\n\n2nd level (3 slots): blur, darkness, locate object\n\n3rd level (3 slots): dispel magic, glyph of warding, major image\n\n4th level (3 slots): blight, greater invisibility\n\n5th level (1 slot): cloudkill"
     }
   ],
   "spell_list": [],
-  "page_no": 359,
+  "page_no": 339,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_gypsosphinx/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_gypsosphinx/"
 }

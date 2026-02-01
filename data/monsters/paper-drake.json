@@ -1,19 +1,19 @@
 {
-  "slug": "paper-drake",
-  "desc": "_With its sharp angles and translucent skin, this draconic creature looks as if it were carefully folded from a massive sheet of paper, including its razor-sharp claws and teeth._  \n**Book and Map Erasers.** These drakes originated in exotic lands far away, where paper is as common as parchment and vellum. They now inhabit wide stretches of the world, and they seem to have edited their origins out of history.  \nPaper drakes are a bane to historians and spellcasters because they can erase ink and pigments, and they often do so at random simply for aesthetic purposes. They adore the possibility of a blank page, but they also sometimes erase one selectively to make beautiful patterns in the remaining ink.  \n**Correcting Errors.** Some paper drakes have a compulsion to correct errors in text or speech, and in these cases their strange ability isn’t a nuisance. Indeed, these paper drakes help scribes correct mistakes, update outdated text, or erase entire volumes so they can be hand-lettered again with different text.  \n**Tattoo Magicians.** Paper drakes are sometimes subjected to strange magical rituals in which wizards tattoo powerful runes and symbols onto their skin. Those who survive this process gain even stranger, esoteric abilities, such as the ability to “stamp” text or images with their feet, the ability to make illustrations move as if alive, or even the ability to erase the memory of written words from a person’s mind, much as they erase text from a page.  \nIn their regular form, paper drakes reach just over four feet in length and weight around 30 lb. They are usually white or tan, but develop a brown or yellow tone as they age.",
+  "slug": "paperdrake-tob1-2023",
+  "desc": "False",
   "name": "Paper Drake",
   "size": "Small",
   "type": "Dragon",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral",
   "armor_class": 13,
   "armor_desc": "",
   "hit_points": 78,
-  "hit_dice": "12d6+36",
+  "hit_dice": "12d6 + 36",
   "speed": {
-    "walk": 40,
-    "fly": 100
+    "walk": 60,
+    "fly": 20
   },
   "strength": 7,
   "dexterity": 17,
@@ -27,61 +27,64 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 11,
   "skills": {},
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "paralysis, unconscious",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 11",
-  "languages": "Common, Draconic, Dwarvish, Elvish",
+  "languages": "Common, Draconic",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The drake makes one bite attack, one claw attack, and one tail attack."
+      "desc": "The drake makes one Bite attack and one Claw attack, or it makes two Book Flap attacks."
     },
     {
-      "name": "Bite",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "2d6"
+      "name": "Bite (Dragon Form Only)",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage."
     },
     {
-      "name": "Claws",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 13 (3d6 + 3) slashing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "3d6"
+      "name": "Book Flap (Book Form Only)",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage, and the drake can fly up to 15 feet without provoking opportunity attacks, as it flaps its pages."
     },
     {
-      "name": "Tail (Recharge 5-6)",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 16 (5d6 + 3) slashing damage, and the target must succeed on a DC 13 Constitution saving throw or be incapacitated for 1 round.",
-      "attack_bonus": 6,
-      "damage_dice": "5d6+3"
+      "name": "Claw (Dragon Form Only)",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage."
+    },
+    {
+      "name": "Shredded Breath (Dragon Form Only; Recharge 5-6)",
+      "desc": "The drake exhales sharp shreds of paper in a 15-foot cone. Each creature in the area must make a DC 13 Dexterity saving throw. On a failure, a creature takes 10 (4d4) slashing damage and is blinded until the end of its next turn. On a success, a creature takes half the damage and isn't blinded."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Fold",
+      "desc": "The paper drake can fold and reshape its papery body to change its size between Tiny, Small, and Medium. It can also use this bonus action to fold itself into the shape of a book, which doesn't have wings, or back into its Small form. Without wings, it loses its flying speed. Its statistics, other than its size and speed, are the same in each form. It reverts to its Small form if it dies."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Shelve",
-      "desc": "A paper drake can fold itself into a small, almost flat form, perfect for hiding on bookshelves. The drake can still be recognized as something other than a book by someone who handles it (doesn't just glance at it on the shelf) and makes a successful DC 11 Intelligence (Nature or Investigation) check. The drake can hop or fly (clumsily, by flapping its pages) 5 feet per turn in this form."
+      "name": "Bibliophile",
+      "desc": "The paper drake understands any written language it can see, provided it is touching the surface on which the words are written."
     },
     {
-      "name": "Refold (Recharge 5-6)",
-      "desc": "A paper drake can fold its body into different sizes and shapes. The drake can adjust its size by one step in either direction, but can't be smaller than Tiny or larger than Medium size. Changes in size or shape don't affect the paper drake's stats."
+      "name": "False Appearance (Book Form Only)",
+      "desc": "While the drake remains motionless, it is indistinguishable from an ordinary book."
     }
   ],
   "spell_list": [],
-  "page_no": 154,
+  "page_no": 144,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_paper-drake/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_paper-drake/"
 }

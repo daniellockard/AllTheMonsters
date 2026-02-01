@@ -1,16 +1,16 @@
 {
-  "slug": "giant-wasp",
+  "slug": "giant-wasp-a5e",
   "desc": "",
   "name": "Giant Wasp",
   "size": "Medium",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": null,
+  "alignment": "",
   "armor_class": 12,
-  "armor_desc": null,
-  "hit_points": 13,
-  "hit_dice": "3d8",
+  "armor_desc": "",
+  "hit_points": 18,
+  "hit_dice": "4d8",
   "speed": {
     "walk": 10,
     "fly": 50
@@ -20,7 +20,7 @@
   "constitution": 10,
   "intelligence": 1,
   "wisdom": 10,
-  "charisma": 3,
+  "charisma": 4,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
@@ -40,10 +40,7 @@
   "actions": [
     {
       "name": "Sting",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage and the target makes a DC 11 Constitution saving throw  taking 7 (2d6) poison damage on a failure or half damage on a success. If the poison damage reduces the target to 0 hit points  the target is made stable but poisoned for 1 hour  even if it regains hit points  and it is paralyzed while poisoned in this way."
     }
   ],
   "bonus_actions": null,
@@ -52,18 +49,12 @@
   "legendary_actions": null,
   "special_abilities": null,
   "spell_list": [],
-  "page_no": 380,
-  "environments": [
-    "Urban",
-    "Jungle",
-    "Hills",
-    "Grassland",
-    "Forest"
-  ],
+  "page_no": 451,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_giant-wasp/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_giant-wasp/"
 }

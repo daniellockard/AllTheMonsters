@@ -1,73 +1,70 @@
 {
-  "slug": "baboon",
+  "slug": "baboon_bf",
   "desc": "",
   "name": "Baboon",
-  "size": "Small",
+  "size": "small",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
-  "armor_class": 12,
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 11,
   "armor_desc": null,
-  "hit_points": 3,
-  "hit_dice": "1d6",
+  "hit_points": 10,
+  "hit_dice": "",
   "speed": {
     "walk": 30,
     "climb": 30
   },
   "strength": 8,
-  "dexterity": 14,
-  "constitution": 11,
+  "dexterity": 12,
+  "constitution": 10,
   "intelligence": 4,
   "wisdom": 12,
   "charisma": 6,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
+  "strength_save": -1,
+  "dexterity_save": 1,
+  "constitution_save": 0,
+  "intelligence_save": -3,
+  "wisdom_save": 1,
+  "charisma_save": -2,
+  "perception": 11,
   "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 11",
-  "languages": "",
-  "challenge_rating": "0",
-  "cr": 0,
+  "senses": "darkvision 30 ft.",
+  "languages": "-",
+  "challenge_rating": "1/8",
+  "cr": 0.125,
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 (1d4 - 1) piercing damage.",
-      "attack_bonus": 1,
-      "damage_dice": "1d4",
-      "damage_bonus": -1
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one creature. _Hit:_ 3 (1d4+1) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Startling Display",
+      "desc": "When a creature the baboon can see attacks it while within 5 feet of it, the baboon can bare its teeth, puff its chest, or emit a quick series of barks. The attacker must succeed on a DC 11 WIS save or have disadvantage on the attack roll."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Pack Tactics",
-      "desc": "The baboon has advantage on an attack roll against a creature if at least one of the baboon's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+      "desc": "The baboon has advantage on attack rolls against a creature if at least one of the baboon's allies is within 5 feet of the creature and the ally isn't incapacitated."
     }
   ],
   "spell_list": [],
-  "page_no": 367,
-  "environments": [
-    "Hill",
-    "Jungle",
-    "Grassland",
-    "Forest"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_baboon/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_baboon/"
 }

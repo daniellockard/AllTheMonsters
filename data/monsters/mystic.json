@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "satarre",
   "group": null,
-  "alignment": "Neutral Evil",
+  "alignment": "neutral evil",
   "armor_class": 14,
   "armor_desc": "hide armor",
   "hit_points": 75,

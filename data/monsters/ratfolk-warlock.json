@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "ratfolk",
   "group": null,
-  "alignment": "Any Alignment",
+  "alignment": "any alignment",
   "armor_class": 13,
   "armor_desc": "16 with mage armor",
   "hit_points": 27,

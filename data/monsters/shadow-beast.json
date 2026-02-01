@@ -1,41 +1,39 @@
 {
-  "slug": "shadow-beast",
-  "desc": "_A mass of shadows and cloudstuff, never touching the ground, a shadow beast may at first look harmless—except for its clawed hands and the glint of its jagged teeth._  \n**Called from the Void.** Shadow beasts are thought to be the result of shadow fey dabbling in the magic of the void. Almost shapeless and largely incorporeal, through an act of will they can form rough semblances of their old bodies when needed.  \n**Hate the Past.** The motivations of these creatures are inscrutable. They despise light and anything that reminds them of light or of their former existence. Beyond that, little is understood about them.  \n**Cryptic Messages.** Shadow beasts are seldom found in groups, but when they are, they seem to have no difficulty or reluctance about operating and fighting together. They have been known to deliver cryptic and threatening messages, but speaking is difficult for them. At times, they perform arcane rituals with the aid of evil humanoids and the use of dark materials. In these rituals they sacrifice magical energies and life blood as well as the tears of innocents and the souls of the damned.",
+  "slug": "shadowbeast-tob1-2023",
+  "desc": "False",
   "name": "Shadow Beast",
   "size": "Medium",
   "type": "Fey",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Evil",
-  "armor_class": 14,
+  "armor_class": 15,
   "armor_desc": "",
-  "hit_points": 135,
-  "hit_dice": "18d8+54",
+  "hit_points": 112,
+  "hit_dice": "15d8 + 45",
   "speed": {
-    "hover": true,
-    "walk": 0,
-    "fly": 40
+    "walk": 40
   },
-  "strength": 20,
-  "dexterity": 18,
+  "strength": 6,
+  "dexterity": 20,
   "constitution": 17,
   "intelligence": 14,
   "wisdom": 14,
   "charisma": 19,
   "strength_save": null,
-  "dexterity_save": 7,
+  "dexterity_save": null,
   "constitution_save": 6,
   "intelligence_save": null,
-  "wisdom_save": null,
+  "wisdom_save": 5,
   "charisma_save": null,
-  "perception": null,
+  "perception": 12,
   "skills": {
-    "stealth": 7
+    "Stealth": 8
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "False",
+  "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, restrained",
   "senses": "darkvision 60 ft., passive Perception 12",
   "languages": "Common, Elvish, Umbral, Void Speech",
   "challenge_rating": "7",
@@ -43,45 +41,37 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The shadow beast makes one bite attack and two claw attacks."
+      "desc": "The shadow beast makes one Bite attack and two Claw attacks."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.",
-      "attack_bonus": 8,
-      "damage_dice": "2d8"
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage plus 7 (2d6) necrotic damage."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) slashing damage.",
-      "attack_bonus": 8,
-      "damage_dice": "2d10"
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage plus 7 (2d6) necrotic damage."
     },
     {
-      "name": "Shadow Push (Recharge 5-6)",
-      "desc": "The shadow beast buffets opponents with a gale of animated shadows in a 15-foot cone. Any creatures in the area of effect must succeed on a DC 15 Strength saving throw or be pushed back 10 feet and knocked prone."
+      "name": "Frightful Shadows (Recharge 5-6)",
+      "desc": "The shadow beast releases a wave of shadows filled with frightening images of eyes, fangs, and other barely seen and terrifying beasts in a 30-foot cone. Each creature in the area must make a DC 15 Wisdom saving throw. On a failure, a creature takes 42 (12d6) necrotic damage and is frightened for 1 minute. On a success, a creature takes half the damage and isn't frightened. A frightened creature must take the Dash action and move away from the shadow beast by the safest available route on each of its turns, unless there is nowhere to move. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
-    {
-      "name": "Amorphous",
-      "desc": "The shadow beast can move through a space as narrow as 1 inch wide without squeezing."
-    },
     {
       "name": "Incorporeal Movement",
       "desc": "The shadow beast can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
     },
     {
-      "name": "Innate Spellcasting",
-      "desc": "the shadow beast's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:\n\n3/day each: fear, telekinesis"
+      "name": "Magic Resistance",
+      "desc": "The shadow beast has advantage on saving throws against spells and other magical effects."
     },
     {
-      "name": "Magic Resistance",
-      "desc": "The beast has advantage on saving throws against spells and other magical effects."
+      "name": "Shadow Weapons",
+      "desc": "The shadow beast's weapon attacks are magical. When the shadow beast hits with any weapon, the weapon deals an extra 2d6 necrotic damage (included in the attack)."
     },
     {
       "name": "Sunlight Sensitivity",
@@ -89,12 +79,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 345,
+  "page_no": 324,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_shadow-beast/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_shadow-beast/"
 }

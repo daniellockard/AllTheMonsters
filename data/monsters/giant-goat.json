@@ -1,33 +1,35 @@
 {
-  "slug": "giant-goat",
+  "slug": "giant-goat-a5e",
   "desc": "",
   "name": "Giant Goat",
   "size": "Large",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": null,
+  "alignment": "",
   "armor_class": 11,
-  "armor_desc": "natural armor",
-  "hit_points": 19,
-  "hit_dice": "3d10+3",
+  "armor_desc": "",
+  "hit_points": 22,
+  "hit_dice": "3d10+6",
   "speed": {
     "walk": 40
   },
-  "strength": 17,
-  "dexterity": 11,
-  "constitution": 12,
+  "strength": 16,
+  "dexterity": 10,
+  "constitution": 14,
   "intelligence": 3,
   "wisdom": 12,
   "charisma": 6,
-  "strength_save": null,
+  "strength_save": 5,
   "dexterity_save": null,
   "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
   "perception": null,
-  "skills": {},
+  "skills": {
+    "athletics": 5
+  },
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "",
@@ -39,41 +41,21 @@
   "actions": [
     {
       "name": "Ram",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) bludgeoning damage.",
-      "attack_bonus": 5,
-      "damage_dice": "2d4",
-      "damage_bonus": 3
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4+3) bludgeoning damage. If the target is a creature and the goat moves at least 20 feet straight towards the target before the attack  the target takes an additional 5 (2d4) bludgeoning damage and makes a DC 13 Strength saving throw  falling prone on a failure."
     }
   ],
   "bonus_actions": null,
   "reactions": null,
   "legendary_desc": "",
   "legendary_actions": null,
-  "special_abilities": [
-    {
-      "name": "Charge",
-      "desc": "If the goat moves at least 20 ft. straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 (2d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.",
-      "attack_bonus": 0,
-      "damage_dice": "2d4"
-    },
-    {
-      "name": "Sure-Footed",
-      "desc": "The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
-    }
-  ],
+  "special_abilities": null,
   "spell_list": [],
-  "page_no": 376,
-  "environments": [
-    "Hill",
-    "Hills",
-    "Grassland",
-    "Mountains",
-    "Mountain"
-  ],
+  "page_no": 447,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_giant-goat/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_giant-goat/"
 }

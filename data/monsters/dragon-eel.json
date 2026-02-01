@@ -1,19 +1,18 @@
 {
-  "slug": "dragon-eel",
-  "desc": "_The dragon eel’s unmistakable slender form sports a powerful single finned tail and wicked jaws like a matched pair of serrated blades. Dragon eels vary widely in color from browns and blacks to brilliant iridescent hues in mottled patterns._  \n**Fond of Servants.** While most dragon eels are solitary and irascible, on rare instances some form pairs or small bands—and some gather humanoid servants.  \n**Magnetic and Lightning.** Dragon eels make their natural homes in twisting underwater cave systems and prefer magnetically-aligned, metallic cavern formations navigable with their refined electric-sight. Some dragon eels use their constant electric auras combined with acquired alchemical reagents to electroplate portions of their golden hoard onto the walls of their dwellings.  \n**Pirate Fleets and Dominions.** Dragon eels claim large swaths of shoreline as their demesne. Although neither particularly cruel nor righteous, a dragon eel often lords over awed tribes, allowing locals to revere it as a mighty spirit. Some dragon eels use such tribes as the core of a pirate fleet or raiding parties carried on their backs. Their ability to swim through air during storms adds to their reputation as terrible thunder spirits.  \n**Bribable.** Their deceptive moniker sometimes lulls foolish sailors into a false confidence when they expect to face a simple if dangerous eel beast, but instead find themselves dealing with intelligent draconic kings of the coastal shallows. Wise sailors traveling through known dragon eel territory bring tithes and offerings to placate them.",
+  "slug": "dragoneel-tob1-2023",
+  "desc": "False",
   "name": "Dragon Eel",
   "size": "Huge",
   "type": "Dragon",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral",
   "armor_class": 18,
   "armor_desc": "natural armor",
-  "hit_points": 230,
-  "hit_dice": "20d12+100",
+  "hit_points": 195,
+  "hit_dice": "17d12 + 85",
   "speed": {
-    "walk": 20,
-    "swim": 60
+    "walk": 60
   },
   "strength": 26,
   "dexterity": 12,
@@ -27,68 +26,64 @@
   "intelligence_save": 6,
   "wisdom_save": 5,
   "charisma_save": 6,
-  "perception": 6,
+  "perception": 15,
   "skills": {
-    "acrobatics": 5,
-    "athletics": 12,
-    "insight": 5,
-    "perception": 6
+    "Acrobatics": 5,
+    "Athletics": 12,
+    "Insight": 5,
+    "Perception": 5
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
   "damage_immunities": "lightning",
   "condition_immunities": "paralyzed, prone",
-  "senses": "darkvision 60 ft., passive Perception 16",
+  "senses": "darkvision 60 ft., passive Perception 15",
   "languages": "Common, Draconic, Primordial",
   "challenge_rating": "12",
   "cr": 12,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The dragon eel makes one bite attack and one tail slap attack."
+      "desc": "The dragon eel makes one Bite attack and one Tail Slap attack."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 26 (4d8 + 8) piercing damage plus 5 (1d10) lightning damage, and the target must succeed on a DC 18 Constitution saving throw or become paralyzed for 1d4 rounds.",
-      "attack_bonus": 12,
-      "damage_dice": "4d8"
+      "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 26 (4d8 + 8) piercing damage plus 5 (1d10) lightning damage, and the target must succeed on a DC 18 Constitution saving throw or become paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     },
     {
       "name": "Tail Slap",
-      "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 30 (5d8 + 8) bludgeoning damage plus 5 (1d10) lightning damage and push the target up to 10 feet away.",
-      "attack_bonus": 12,
-      "damage_dice": "5d8"
+      "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 30 (5d8 + 8) bludgeoning damage plus 5 (1d10) lightning damage, and the target must succeed on a DC 18 Strength saving throw or be pushed up to 10 feet away from the eel. The dragon eel can choose to not push a target."
     },
     {
       "name": "Lightning Breath (Recharge 6)",
-      "desc": "The dragon eel exhales lightning in a 60-foot line that is 5 feet wide. Each target in that line takes 55 (10d10) lightning damage, or half damage with a successful DC 18 Dexterity saving throw."
+      "desc": "The dragon eel exhales lightning in a 60-foot line that is 5 feet wide. Each target in that line must make a DC 18 Dexterity saving throw, taking 55 (10d10) lightning damage on a failed save, or half as much damage on a successful one."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Limited Amphibiousness",
-      "desc": "The dragon eel can breathe air and water, but it needs to be submerged at least once every six hours to avoid suffocation."
+      "desc": "The dragon eel can breathe air and water, but it needs to be submerged at least once every 6 hours to avoid suffocating."
     },
     {
-      "name": "Shocking Touch",
-      "desc": "A dragon eel's body generates a potent charge of lightning. A creature that touches or makes a successful melee attack against a dragon eel takes 5 (1d10) lightning damage."
+      "name": "Shocking Hide",
+      "desc": "A creature that touches the dragon eel or hits it with a melee attack while within 5 feet of it takes 5 (1d10) lightning damage."
     },
     {
       "name": "Storm Glide",
-      "desc": "During storms, the dragon eel can travel through the air as if under the effects of a fly spell, except using its swim speed."
+      "desc": "During storms with ample rain or lightning, the dragon eel gains a flying speed equal to its swimming speed."
     }
   ],
   "spell_list": [],
-  "page_no": 146,
+  "page_no": 111,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_dragon-eel/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_dragon-eel/"
 }

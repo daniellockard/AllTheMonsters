@@ -1,22 +1,21 @@
 {
-  "slug": "vesiculosa",
-  "desc": "_This glittering pool stands among lush and verdant fruiting plants._  \n**Underground Oasis.** A vesiculosa is a huge, burrowing pitcher plant that dwells in oases, spurring nearby growth and luring in prey with soporific scents and tainted water. A vesiculosa’s body is buried in the ground, with only its rootlets swarming in the open in ropy tangles. It catches meals with these rootlets and drags them to its mouth. Usually these morsels are unconscious, but the rootlets can put up a fight if they must.  \n**Rich Sapphire Heartvine.** A vesiculosa’s heartvine resembles a lump of sapphire and is highly prized by alchemists (worth 1,000 gp). It can be reached with an hour or two of hard digging.",
+  "slug": "vesiculosa-tob1-2023",
+  "desc": "False",
   "name": "Vesiculosa",
   "size": "Gargantuan",
   "type": "Plant",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Unaligned",
   "armor_class": 15,
   "armor_desc": "natural armor",
-  "hit_points": 203,
-  "hit_dice": "14d20+56",
+  "hit_points": 232,
+  "hit_dice": "16d20 + 64",
   "speed": {
-    "walk": 0,
-    "burrow": 5
+    "walk": 20
   },
   "strength": 20,
-  "dexterity": 10,
+  "dexterity": 15,
   "constitution": 19,
   "intelligence": 2,
   "wisdom": 14,
@@ -27,69 +26,62 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 6,
+  "perception": 16,
   "skills": {
-    "perception": 6
+    "Perception": 6
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "fire, bludgeoning, piercing",
-  "damage_immunities": "",
+  "damage_immunities": "False",
   "condition_immunities": "charmed, blinded, deafened, frightened, prone",
   "senses": "tremorsense 60 ft., passive Perception 16",
-  "languages": "-",
+  "languages": "—",
   "challenge_rating": "11",
   "cr": 11,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The vesiculosa uses Entrap 4 times, and uses Reel and Engulf once each. It loses one Entrap attack for each rootlet swarm that's been destroyed."
+      "desc": "The vesiculosa makes four Root or Spit Sweet Water attacks."
     },
     {
-      "name": "Entrap",
-      "desc": "The vesiculosa targets a Large or smaller creature within 5 feet of one of its rootlet swarms. The target takes 10 (4d4) piercing damage and is grappled (escape DC 15), or takes half damage and isn't grappled if it makes a successful DC 17 Dexterity saving throw. Until the grapple ends, the target is restrained, it has disadvantage on Strength checks and Strength saving throws, and that rootlet swarm can't entrap another target."
+      "name": "Root",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 18 (3d8 + 5) bludgeoning damage, and the target is grappled (escape DC 16). Until the grapple ends, the target is restrained. The vesiculosa has four roots, each of which can grapple only one target."
     },
     {
-      "name": "Reel",
-      "desc": "Each rootlet swarm that has a creature grappled moves up to 20 feet toward the vesiculosa's main body. Rootlets wander up to 100 feet from the main body."
-    },
-    {
-      "name": "Engulf",
-      "desc": "The vesiculosa engulfs all restrained or unconscious creatures within 5 feet of its main body (up to 2 Large, 4 Medium or 8 Small creatures). An engulfed creature is restrained, has total cover against attacks and other effects outside the vesiculosa, and takes 21 (6d6) acid damage at the start of each of the vesiculosa's turns. When the vesiculosa moves, the engulfed creature moves with it. An engulfed creature can try to escape by using an action to make a DC 15 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the vesiculosa's main body."
+      "name": "Spit Sweet Water",
+      "desc": "Ranged Weapon Attack: +6 to hit, range 20/60 ft., one creature. Hit: 18 (3d10 + 2) bludgeoning damage, and the target must succeed on a DC 16 Constitution saving throw or fall unconscious for 1 minute. The target wakes up if it takes damage or if another creature takes an action to shake it awake."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Bury",
+      "desc": "One creature grappled by the vesiculosa is knocked prone, dragged into the ground, and buried just below the surface, ending the grapple. The buried creature is restrained and unable to breathe or stand up. A creature, including the buried creature, can take its action to free the buried creature by succeeding on a DC 16 Strength check. This bonus action doesn't wake a creature that is unconscious from the vesiculosa's Sweet Water trait or Spit Sweet Water action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "False Appearance",
-      "desc": "While the vesiculosa remains motionless, it is indistinguishable from a normal pool of water."
+      "name": "Oasis Appearance",
+      "desc": "While the vesiculosa remains motionless and partially submerged on the surface of sand or soil, it is indistinguishable from a small oasis or pond. The vesiculosa's pitcher produces enough water for plants to grow around it, provided the vesiculosa remains in the area for an extended period of time. A creature that eats a fruit from a plant growing in the vesiculosa's water is affected by the Sweet Water trait as if it drank the water."
     },
     {
-      "name": "Rich Sapphire Heartvine",
-      "desc": "A vesiculosa's heartvine resembles a lump of sapphire and is highly prized by alchemists (worth 1,000 gp). It can be reached with an hour or two of hard digging."
-    },
-    {
-      "name": "Rootlet Swarms",
-      "desc": "The vesiculosa is surrounded at all times by four Medium swarms of Tiny rootlets that move as the vesiculosa directs. Each swarm has a speed of 30 feet, can be targeted independently, has 25 hit points, and (unlike the parent plant) quite vulnerable to fire damage. Other than that, they have the same statistics as the vesiculosa's main body. For each swarm that drops to 0 hit points, the vesiculosa loses one of its Entrap attacks. A destroyed swarm regrows in 24 hours."
+      "name": "Sweet Fragrance",
+      "desc": "When a creature that can smell the vesiculosa's sweet fragrance starts its turn within 30 feet of the vesiculosa, the creature must succeed on a DC 16 Wisdom saving throw or be charmed for 1 minute. While charmed, the creature must move on its turn toward the vesiculosa by the safest available route to get within 5 feet of the plant and drink its water. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the vesiculosa's Sweet Fragrance for the next 24 hours."
     },
     {
       "name": "Sweet Water",
-      "desc": "The vesiculosa's pool emits a sweet fragrance that lures creatures to drink. Creatures that are neither undead nor constructs within 60 feet must succeed on a DC 16 Wisdom saving throw or be compelled to approach the vesiculosa and drink. The water is cool and refreshing but carries a sleeping poison: any creature (other than undead and constructs) that drinks from it regains 1d4 hp and recovers from 1 level of exhaustion, but must succeed on a DC 15 Constitution saving throw against poison or fall unconscious for 1 minute. If the saving throw fails by 5 or more, the creature is unconscious for 1 hour. An unconscious creature wakes up if it takes damage or if another creature uses an action to shake it awake."
-    },
-    {
-      "name": "Verdant",
-      "desc": "The vesiculosa's sap seeps into the soil, promoting lush vegetation. At any given time, 3d6 beneficial fruits (fruit, nuts, figs, dates) can be found within 30 feet of the vesiculosa. These have the same effect as berries from a goodberry spell, but they retain their potency for one week after being picked or after the vesiculosa is killed."
+      "desc": "A creature that drinks water from the vesiculosa's pitcher regains 5 (2d4) hp, reduces its exhaustion level by 1, and must succeed on a DC 16 Constitution saving throw or fall unconscious for 10 minutes. An unconscious creature wakes up if it takes damage or if another creature takes an action to shake it awake. Drinking the water provides a creature enough nourishment to sustain it for one day."
     }
   ],
   "spell_list": [],
-  "page_no": 399,
+  "page_no": 385,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_vesiculosa/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_vesiculosa/"
 }

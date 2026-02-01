@@ -1,19 +1,18 @@
 {
-  "slug": "nihilethic-zombie",
-  "desc": "",
+  "slug": "nihilethiczombie-tob1-2023",
+  "desc": "False",
   "name": "Nihilethic Zombie",
   "size": "Medium",
   "type": "Undead",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
-  "armor_class": 9,
-  "armor_desc": "natural armor",
-  "hit_points": 22,
-  "hit_dice": "3d8+9",
+  "armor_class": 8,
+  "armor_desc": "",
+  "hit_points": 37,
+  "hit_dice": "5d8 + 15",
   "speed": {
-    "walk": 20,
-    "swim": 30
+    "walk": 30
   },
   "strength": 13,
   "dexterity": 6,
@@ -27,64 +26,65 @@
   "intelligence_save": null,
   "wisdom_save": 0,
   "charisma_save": null,
-  "perception": null,
+  "perception": 8,
   "skills": {},
-  "damage_vulnerabilities": "",
-  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
-  "damage_immunities": "cold, necrotic, poison; bludgeoning, piercing and slashing from nonmagical attacks (only when in ethereal form)",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "cold, necrotic, poison",
   "condition_immunities": "poisoned",
   "senses": "darkvision 60 ft., passive Perception 8",
-  "languages": "understand Void Speech and the languages it knew in life but can't speak",
+  "languages": "understands Void Speech and the languages it knew in life but can’t speak",
   "challenge_rating": "1",
   "cr": 1,
   "actions": [
     {
-      "name": "Slam (Material Form Only)",
-      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage and the target must make a successful DC 13 Constitution saving throw or become diseased. The disease has little effect for 1 minute; during that time, it can be removed by bless, lesser restoration, or comparable magic. After 1 minute, the diseased creature's skin becomes translucent and slimy. The creature cannot regain hit points unless it is at least partially underwater, and the disease can only be removed by heal or comparable magic. Unless the creature is either fully submerged or frequently doused with water, it takes 6 (1d12) acid damage every 10 minutes. If a creature dies while diseased, it rises in 2d6 rounds as a nihilethic zombie. This zombie is permanently dominated by the nihileth that commands the attacking zombie.",
-      "attack_bonus": 3,
-      "damage_dice": "4d6+1"
+      "name": "Slam (Undead Form Only)",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage plus 7 (2d6) necrotic damage."
     },
     {
-      "name": "Withering Touch (Ethereal Form)",
-      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) necrotic damage.",
-      "attack_bonus": 3,
-      "damage_dice": "1d6+1"
-    },
-    {
-      "name": "Form Swap",
-      "desc": "As a bonus action, the nihilethic zombie can alter between its material and ethereal forms at will."
-    },
-    {
-      "name": "Sacrifice Life",
-      "desc": "A nihilethic zombie can sacrifice itself to heal a nihileth within 30 feet of it. All of its remaining hit points transfer to the nihileth in the form of healing. The nihilethic zombie is reduced to 0 hit points and it doesn't make an Undead Fortitude saving throw. A nihileth cannot be healed above its maximum hit points in this manner."
+      "name": "Withering Touch (Void Ghost Form Only)",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) necrotic damage."
     }
   ],
-  "bonus_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Void Shape",
+      "desc": "The nihilethic zombie magically transforms into a dark purple, Void ghost form or back into its Undead form. Its statistics, other than its speed and resistances, are the same in each form. Any equipment it is wearing or carrying changes with it. It reverts to its Undead form of it dies."
+    }
+  ],
   "reactions": [
     {
-      "name": "Void Body",
-      "desc": "The nihilethic zombie can reduce the damage it takes from a single source by 1d12 points. This reduction cannot be applied to radiant damage."
-    }
-  ],
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
-    {
-      "name": "Undead Fortitude",
-      "desc": "If damage reduces the nihileth to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the nihileth drops to 1 hit point instead."
+      "name": "Sacrifice Life",
+      "desc": "When the nihilethic zombie's controlling nihileth takes damage while within 30 feet of the zombie, the zombie can send its life force to the nihileth. The zombie's hp is reduced by up to the amount of damage the nihileth took, preventing that amount of damage to the nihileth. If this damage reduces the zombie to 0 hp, it is immediately destroyed. A nihileth can benefit from only one zombie's Sacrifice Life for each source of damage it takes."
     },
     {
-      "name": "Dual State",
-      "desc": "Like its nihileth creator, a nihilethic zombie can assume either a material or ethereal form. When in its material form, it has resistance to nonmagical weapons. In its ethereal form, it is immune to nonmagical weapons. Its ethereal form appears as a dark purple outline of its material form, with a blackish-purple haze within."
+      "name": "Void Body",
+      "desc": "When the nihilethic zombie takes damage that isn't radiant, it can reduce the damage by 1d12."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Ghostly Body (Void Ghost Form Only)",
+      "desc": "The nihilethic zombie has resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks. In addition, the zombie can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object."
+    },
+    {
+      "name": "Undead Fortitude",
+      "desc": "If damage reduces the nihilethic zombie to 0 hp, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hp instead."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The nihilethic zombie doesn't require air, food, drink, or sleep."
     }
   ],
   "spell_list": [],
   "page_no": 9,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_nihilethic-zombie/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_nihilethic-zombie/"
 }

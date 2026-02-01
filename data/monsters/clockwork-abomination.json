@@ -1,19 +1,18 @@
 {
-  "slug": "clockwork-abomination",
-  "desc": "_At rest, a clockwork abomination resembles a pile of debris and scrap on the ground, but in motion it reveals a large insectoid form with smoke rising between the plates of its hide. Its many orange‑yellow eyes shine like dim lanterns and reveal no hint of expression or intent._  \n**Bound Devils.** Clockwork abominations result from ill‑considered attempts to bind lesser devils into clockwork or steam-driven constructs. The disciplines of devil binding and engineering seemingly do not mix well, and the results of such attempts are typically disastrous. Every now and then, however, something goes right, and a clockwork abomination is created.  \n**Junk Collectors.** Clockwork abominations are canny enough to collect bits of old wagons, tools, or machinery as camouflage. Motionless among such objects, they can often surprise a foe.  \n**Sadistic Machines.** Malevolent in the extreme, these fiendish automatons are frustrated by the limits of their new forms, and they delight in inflicting suffering on others. Constantly seeking to break free of their creators’ control, the most they can be entrusted to do is to serve as a guardian or attack something.  \n**Constructed Nature.** A clockwork abomination doesn’t require air, food, drink, or sleep.",
+  "slug": "clockworkabomination-tob1-2023",
+  "desc": "False",
   "name": "Clockwork Abomination",
   "size": "Large",
   "type": "Construct",
-  "subtype": "devil",
-  "group": null,
+  "subtype": "",
+  "group": "null",
   "alignment": "Lawful Evil",
   "armor_class": 16,
   "armor_desc": "natural armor",
   "hit_points": 76,
-  "hit_dice": "8d10+32",
+  "hit_dice": "8d10 + 32",
   "speed": {
-    "walk": 30,
-    "climb": 30
+    "walk": 30
   },
   "strength": 21,
   "dexterity": 12,
@@ -23,17 +22,17 @@
   "charisma": 12,
   "strength_save": null,
   "dexterity_save": 4,
-  "constitution_save": 7,
+  "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 4,
+  "perception": 13,
   "skills": {
-    "athletics": 9,
-    "perception": 4,
-    "stealth": 4
+    "Athletics": 8,
+    "Perception": 3,
+    "Stealth": 4
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "acid, cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks",
   "damage_immunities": "poison",
   "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
@@ -44,54 +43,54 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The clockwork abomination makes one bite attack and one slam attack."
+      "desc": "The clockwork abomination makes one Bite attack and one Slam attack."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (2d8 + 6) piercing damage.",
-      "attack_bonus": 9,
-      "damage_dice": "2d8"
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) piercing damage plus 7 (2d6) fire damage."
     },
     {
       "name": "Slam",
-      "desc": "Melee Weapon Attack: +9 to hit, reach 15 ft., one target. Hit: 13 (2d6 + 6) bludgeoning damage.",
-      "attack_bonus": 9,
-      "damage_dice": "2d6"
+      "desc": "Melee Weapon Attack: +8 to hit, reach 15 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage."
     },
     {
-      "name": "Breath Weapon (Recharge 5-6)",
-      "desc": "The clockwork abomination's Infernal Power Source allows it to breathe fire in a 20-foot cone. Targets in this cone take 22 (4d10) fire damage, or half damage with a successful DC 14 Dexterity saving throw."
+      "name": "Fire Breath (Recharge 5-6)",
+      "desc": "The clockwork abomination's infernal power source allows it to breathe fire in a 30-foot cone. Each creature in the area must make a DC 14 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Additional Legs",
-      "desc": "Four legs allow the clockwork abomination to climb at a speed equal to its base speed and to ignore difficult terrain."
+      "name": "Construct Nature",
+      "desc": "The clockwork abomination doesn't require air, food, drink, or sleep."
     },
     {
-      "name": "Piston Reach",
-      "desc": "The abomination's melee attacks have a deceptively long reach thanks to the pistons powering them."
+      "name": "Explosive Infernal Power Source",
+      "desc": "When a clockwork abomination is destroyed, its infernal battery explodes. Each creature within 10 feet of the abomination must make a DC 14 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in the area that aren't being worn or carried."
     },
     {
       "name": "Immutable Form",
       "desc": "The clockwork abomination is immune to any spell or effect that would alter its form."
     },
     {
-      "name": "Infernal Power Source",
-      "desc": "When a clockwork abomination falls to 0 hp, its infernal battery explodes. Creatures within 10 feet of the clockwork abomination take 14 (4d6) fire damage, or half damage with a successful DC 14 Dexterity saving throw."
+      "name": "Magic Resistance",
+      "desc": "The clockwork abomination has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Unstoppable",
+      "desc": "Moving through difficult terrain doesn't cost the clockwork abomination extra movement, and its speed can't be reduced."
     }
   ],
   "spell_list": [],
   "page_no": 59,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_clockwork-abomination/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_clockwork-abomination/"
 }

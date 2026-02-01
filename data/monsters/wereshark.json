@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "human, shapechanger",
   "group": null,
-  "alignment": "Chaotic Evil",
+  "alignment": "chaotic evil",
   "armor_class": 11,
   "armor_desc": "in humanoid form, 12 (natural armor) in shark and hybrid form",
   "hit_points": 90,

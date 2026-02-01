@@ -1,93 +1,77 @@
 {
-  "slug": "knight",
-  "desc": "**Knights** are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners.",
+  "slug": "knight_bf",
+  "desc": "",
   "name": "Knight",
-  "size": "Medium",
+  "size": "medium",
   "type": "Humanoid",
-  "subtype": "any race",
+  "subtype": "Any Lineage",
   "group": "NPCs",
-  "alignment": "Any Alignment",
+  "alignment": "",
   "armor_class": 18,
   "armor_desc": "plate",
-  "hit_points": 52,
-  "hit_dice": "8d8+16",
+  "hit_points": 68,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
   "strength": 16,
-  "dexterity": 11,
+  "dexterity": 10,
   "constitution": 14,
-  "intelligence": 11,
-  "wisdom": 11,
-  "charisma": 15,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": 4,
-  "intelligence_save": null,
-  "wisdom_save": 2,
-  "charisma_save": null,
-  "perception": null,
+  "intelligence": 12,
+  "wisdom": 12,
+  "charisma": 14,
+  "strength_save": 3,
+  "dexterity_save": 0,
+  "constitution_save": 2,
+  "intelligence_save": 1,
+  "wisdom_save": 1,
+  "charisma_save": 2,
+  "perception": 13,
   "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_resistances": "charmed,frightened",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 10",
-  "languages": "any one language (usually Common)",
+  "senses": "-",
+  "languages": "Common and one other language",
   "challenge_rating": "3",
   "cr": 3,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The knight makes two melee attacks."
+      "desc": "The knight makes three Greatsword attacks, or it makes four Javelin attacks."
     },
     {
       "name": "Greatsword",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "2d6",
-      "damage_bonus": 3
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 10 (2d6+3) slashing damage."
     },
     {
-      "name": "Heavy Crossbow",
-      "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage.",
-      "attack_bonus": 2,
-      "damage_dice": "1d10"
-    },
-    {
-      "name": "Leadership (Recharges after a Short or Long Rest)",
-      "desc": "For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is incapacitated."
+      "name": "Javelin",
+      "desc": "_Melee or Ranged Weapon Attack:_ +5 to hit, reach 5 ft. or range 30/120 ft., one target. _Hit:_ 6 (1d6+3) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": [
+  "bonus_actions": [
     {
-      "name": "Parry",
-      "desc": "The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon."
+      "name": "Champion's Challenge",
+      "desc": "The knight challenges one creature it can see within 30 feet of it. The target must succeed on a DC 13 CHA save or have disadvantage on attack rolls against creatures that aren't the knight until the end of its next turn."
     }
   ],
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Brave",
-      "desc": "The knight has advantage on saving throws against being frightened."
+      "name": "Chivalrous Presence",
+      "desc": "The knight exudes a powerful presence. At the start of each of the knight's turns, it chooses one of the following presences, which lasts until the start of the knight's next turn.\n- **Empowering Presence.** Each friendly creature that starts its turn within 15 feet of the knight has advantage on the first attack roll it makes before this presence ends.\n- **Protective Presence.** Hostile creatures have disadvantage on attack rolls against friendly creatures within 5 feet of the knight.\n- **Unwavering Presence.** Each friendly creature within 15 feet of the knight is resistant to the charmed and frightened conditions."
     }
   ],
   "spell_list": [],
-  "page_no": 400,
-  "environments": [
-    "Temple",
-    "Urban",
-    "Hills",
-    "Mountains",
-    "Grassland",
-    "Settlement"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_knight/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_knight/"
 }

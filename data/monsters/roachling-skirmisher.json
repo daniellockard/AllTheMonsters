@@ -1,16 +1,16 @@
 {
-  "slug": "roachling-skirmisher",
-  "desc": "_The creature is humanoid but disturbingly roachlike. Its legs are too short, its arms too long, its skin is oily, and its back is covered by a carapace. Atop those features sits an incongruously humanlike face._  \nCombining the worst of human and cockroach qualities, these nimble creatures have a talent for stealth and for fighting dirty. Also known as scuttlers, roachlings are an unpleasant humanoid race—inquisitive and covetous, unclean and ill-mannered—and most other races shun them.  \n_**Devious Combatants.**_ Roachlings are skittish and easily frightened, but they aren’t cowards. Rather, they are practical about their weaknesses. They understand survival often depends on remaining unseen and out of reach. Most roachlings prefer to fight only when the chance for victory sits squarely on their side.  \nThey also have a well-deserved reputation for deviousness. Roachlings are adept at skulking, underhanded tactics, and hit‑and-run fighting. Filth and trickery are their most useful tools.  \n_**Deeply Paranoid.**_ Because they have long been hunted and persecuted, roachlings are naturally suspicious, and they extend their trust slowly. A deep-rooted paranoia infects the race, and unsurprisingly their paranoia often turns out to be justified.  \n_**Fused Carapace.**_ Roachlings have prominent, whip-like antennae, a carapace covering much of their backs, and small spines on their legs and arms. They have short, noticeably bowed legs. Hair is unusual among roachlings, but when present, it’s always oily and dark, pressed flat against the skull.  \nRoachling coloration varies across tan, yellow, dark brown, and black. Regardless of color, their thick, hardened skin appears shiny and slightly oily although it is dry. Roachlings have an internal skeleton, however, not the exoskeleton of a true insect.",
+  "slug": "roachlingskirmisher-tob1-2023",
+  "desc": "False",
   "name": "Roachling Skirmisher",
   "size": "Small",
   "type": "Humanoid",
-  "subtype": "roachling",
-  "group": null,
+  "subtype": "",
+  "group": "null",
   "alignment": "Chaotic Neutral",
   "armor_class": 13,
   "armor_desc": "natural armor",
-  "hit_points": 7,
-  "hit_dice": "2d6",
+  "hit_points": 21,
+  "hit_dice": "6d6",
   "speed": {
     "walk": 25
   },
@@ -26,15 +26,15 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 9,
   "skills": {
-    "acrobatics": 4,
-    "stealth": 6
+    "Acrobatics": 4,
+    "Stealth": 6
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "poisoned",
   "senses": "darkvision 60 ft., tremorsense 10 ft., passive Perception 9",
   "languages": "Common",
   "challenge_rating": "1/4",
@@ -42,38 +42,34 @@
   "actions": [
     {
       "name": "Shortsword",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6"
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
     },
     {
       "name": "Dart",
-      "desc": "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d4"
+      "desc": "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Resistant",
-      "desc": "The roachling skirmisher has advantage on Constitution saving throws."
+      "name": "Hardy",
+      "desc": "The roachling is immune to diseases and has advantage on Constitution saving throws."
     },
     {
-      "name": "Unlovely",
-      "desc": "The skirmisher has disadvantage on Performance and Persuasion checks in interactions with nonroachlings."
+      "name": "Unpleasant Scent",
+      "desc": "The roachling has disadvantage on Wisdom (Animal Handling) checks when interacting with Beasts and on Charisma checks when interacting with Humanoids. If the roachling bathes meticulously, it loses this trait for 24 hours."
     }
   ],
   "spell_list": [],
-  "page_no": 329,
+  "page_no": 310,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_roachling-skirmisher/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_roachling-skirmisher/"
 }

@@ -6,7 +6,7 @@
   "type": "Fey",
   "subtype": "shapechanger",
   "group": null,
-  "alignment": "Neutral Evil",
+  "alignment": "neutral evil",
   "armor_class": 12,
   "armor_desc": "in humanoid form, 14 (natural armor) in horse or hybrid form",
   "hit_points": 77,

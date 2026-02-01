@@ -1,19 +1,19 @@
 {
-  "slug": "bone-swarm",
-  "desc": "_Dank winds sweep up skeletons, both humanoid and animal. They blow forward, reaching out for living creatures like a clawed hand of bone. A scattering of bones rolls across the ground, then rises into the air, billowing like a sheet._  \n**Swarms of Fallen.** On rare occasions, the pugnacious spirits of fallen undead join together, bonded by a common craving: to feel alive again. They gather up their bones from life, as well as any other bones they come across, and form bone swarms.  \n**Nomadic Undead.** These swarms then ravage the countryside wresting life from living creatures, grabbing livestock, humanoids, and even dragons, digging in their claws in an attempt to cling to life. Bone swarms with one or more sets of jaws wail constantly in their sorrow, interrupting their cries with snippets of rational but scattered speech declaiming their woes and despair.  \n**Cliff and Pit Dwellers.** Bone swarms gather near cliffs, crevasses, and pits in the hope of forcing a victim or an entire herd of animals to fall to its death, creating more shattered bones to add to their mass.  \n**Undead Nature.** A mask wight doesn’t require air, food, drink, or sleep.",
+  "slug": "boneswarm-tob1-2023",
+  "desc": "False",
   "name": "Bone Swarm",
   "size": "Large",
-  "type": "Undead",
-  "subtype": "Swarm",
-  "group": null,
+  "type": "Swarm",
+  "subtype": "",
+  "group": "null",
   "alignment": "Chaotic Evil",
   "armor_class": 17,
   "armor_desc": "natural armor",
   "hit_points": 198,
   "hit_dice": "36d10",
   "speed": {
-    "walk": 20,
-    "fly": 60
+    "walk": 60,
+    "fly": 20
   },
   "strength": 22,
   "dexterity": 18,
@@ -27,16 +27,16 @@
   "intelligence_save": null,
   "wisdom_save": 6,
   "charisma_save": 9,
-  "perception": 6,
+  "perception": 16,
   "skills": {
-    "acrobatics": 8,
-    "perception": 6,
-    "stealth": 8
+    "Acrobatics": 8,
+    "Perception": 6,
+    "Stealth": 8
   },
   "damage_vulnerabilities": "bludgeoning",
   "damage_resistances": "piercing and slashing from nonmagical attacks",
   "damage_immunities": "poison",
-  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned, prone, restrained, stunned",
+  "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
   "senses": "darkvision 60 ft., passive Perception 16",
   "languages": "Common, Void Speech",
   "challenge_rating": "10",
@@ -44,40 +44,38 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The bone swarm can attack every hostile creature in its space with swirling bones."
+      "desc": "The bone swarm makes two Swirling Bones attacks. It can replace one Swirling Bones attack with one Death's Embrace attack, if available."
     },
     {
       "name": "Swirling Bones",
-      "desc": "Melee Weapon Attack: +10 to hit, reach 0 ft., one creature in the swarm's space. Hit: 31 (5d8 + 9) bludgeoning, piercing, or slashing damage (includes Strength of Bone special ability).",
-      "attack_bonus": 10,
-      "damage_dice": "5d8"
+      "desc": "Melee Weapon Attack: +10 to hit, reach 0 ft., one creature in the swarm's space. Hit: 36 (8d8) bludgeoning, piercing, or slashing damage (the bone swarm's choice), or 18 (4d8) bludgeoning, piercing, or slashing damage (the bone swarm's choice) if the swarm has half of its hp or fewer."
     },
     {
       "name": "Death's Embrace (Recharge 5-6)",
-      "desc": "Melee Weapon Attack: +10 to hit, reach 0 ft., one creature in the swarm's space. Hit: the target is grappled (escape DC 16) and enveloped within the swarm's bones. The swarm can force the creature to move at its normal speed wherever the bone swarm wishes. Any non-area attack against the bone swarm has a 50 percent chance of hitting a creature grappled in Death's Embrace instead."
+      "desc": "Melee Weapon Attack: +10 to hit, reach 0 ft., one creature in the swarm's space. Hit: The target is grappled (escape DC 16) if it is a Large or smaller creature. Until this grapple ends, the creature is restrained and any attack against the bone swarm has a 50 percent chance of hitting the grappled creature instead. The bone swarm can have only one creature grappled at a time. The grappled creature has advantage on ability checks made to escape the grapple when the bone swarm has half of its hp or fewer."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Strength of Bone",
-      "desc": "A bone swarm can choose to deal bludgeoning, piercing, or slashing damage, and adds 1.5x its Strength bonus on swarm damage rolls as bits and pieces of broken skeletons claw, bite, stab, and slam at the victim."
+      "name": "Swarm",
+      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny human skull. The swarm can't regain hp or gain temporary hp."
     },
     {
-      "name": "Swarm",
-      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a human skull. The swarm can't regain hit points or gain temporary hit points."
+      "name": "Undead Nature",
+      "desc": "The bone swarm doesn't require air, food, drink, or sleep."
     }
   ],
   "spell_list": [],
   "page_no": 41,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_bone-swarm/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_bone-swarm/"
 }

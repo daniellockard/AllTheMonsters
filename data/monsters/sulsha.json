@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "simian",
   "group": null,
-  "alignment": "Lawful Evil",
+  "alignment": "lawful evil",
   "armor_class": 16,
   "armor_desc": "natural armor",
   "hit_points": 90,

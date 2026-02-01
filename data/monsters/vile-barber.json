@@ -1,16 +1,16 @@
 {
-  "slug": "vile-barber",
-  "desc": "_A pale, scrawny fellow clad in a black leather apron and slender ebon gloves grins from the shadows. A maw of needle-sharp teeth and the wicked straight razor at his side are a clear warning that his enemies should hasten their footsteps._  \nVile barbers are sadistic, unseelie fey who move through the shadows to execute their bloody, malevolent wills. Known as barbers for both the use of wicked blades and their proclivity for slashing the necks of their victims, these insidious fey can be found lurking in dark and harrowed places like back-alley streets or abandoned, deep-shaded cemeteries.  \n_**Fey Punishers.**_ Called the siabhra (pronounced she-uvh-ra) among the fey courts, vile barbers are fickle creatures. They are sent to punish those who have offended the fey lords and ladies, and their cruelty and cunning help them write messages in blood and skin. At the very least, they scar those who have spoken ill of the fey; those who have harmed or murdered the fey are more likely to be bled slowly. Some of these deaths are made quite public—though in a few cases, the victim is enchanted to remain invisible while the siabhra does its bloody work.  \n_**Slippery Fighters.**_ A vile barber often uses its ability to step through shadows to steal a victim’s weapon and use it against its former owner with devastating effect. Any creature grappled by a vile barber is at the mercy of the barber’s sinister and unclean weapons—they delight in close combat.  \n_**Assassins and Envoys.**_ Vile barbers frequently consort with hags and prowl the places these wicked crones cannot go as emissaries and assassins. Information on the siabhra is scant; most adventurers who meet them don’t live to share their findings or to see the vile barber lick its bloody blade clean.",
+  "slug": "vilebarber-tob1-2023",
+  "desc": "False",
   "name": "Vile Barber",
   "size": "Small",
   "type": "Fey",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Evil",
-  "armor_class": 15,
-  "armor_desc": "leather armor",
-  "hit_points": 28,
-  "hit_dice": "8d6",
+  "armor_class": 14,
+  "armor_desc": "",
+  "hit_points": 35,
+  "hit_dice": "10d6",
   "speed": {
     "walk": 30
   },
@@ -26,74 +26,55 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 9,
   "skills": {
-    "athletics": 3,
-    "stealth": 6
+    "Acrobatics": 3,
+    "Stealth": 6
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered or cold iron weapons",
-  "damage_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with cold iron weapons",
+  "damage_immunities": "False",
   "condition_immunities": "frightened",
-  "senses": "blindsight 60 ft., passive Perception 9",
+  "senses": "darkvision 60 ft., passive Perception 9",
   "languages": "Common, Goblin, Sylvan, Umbral",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The vile barber makes two attacks with its straight razor."
+      "desc": "The vile barber makes two Straight Razor attacks. If both attacks hit one creature, the target must succeed on a DC 14 Dexterity saving throw or lose 3 (1d6) hp at the start of each of its turns due to a bleeding wound. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing."
     },
     {
       "name": "Straight Razor",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d4 + 4) slashing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "1d4"
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) slashing damage. Instead of dealing damage, the vile barber can steal one item the target is wearing or carrying, provided the item weighs no more than 10 pounds, isn't a weapon, and isn't wrapped around or firmly attached to the target, such as a shirt or armor."
     },
     {
-      "name": "Unclean Cut",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature that is grappled by the vile barber, incapacitated, or restrained. Hit: 6 (1d4 + 4) slashing damage plus 7 (2d6) necrotic damage. The creature and all its allies who see this attack must make successful DC 15 Wisdom saving throws or become frightened for 1d4 rounds.",
-      "attack_bonus": 6,
-      "damage_dice": "1d4"
+      "name": "Frightening Cut (Recharge 5-6)",
+      "desc": "The vile barber makes one Straight Razor attack against a creature it can see within 5 feet of it. If the attack hits and deals damage, the target takes an extra 7 (2d6) necrotic damage, and each creature that can see the attack within 15 feet of the target must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Hidden Step",
+      "desc": "The vile barber magically teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see and takes the Hide action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Close-in Slasher",
-      "desc": "The vile barber has advantage on attack rolls against any creature in the same space with it."
-    },
-    {
-      "name": "Inhumanly Quick",
-      "desc": "The vile barber can take two bonus actions on its turn, instead of one. Each bonus action must be different; it can't use the same bonus action twice in a single turn."
-    },
-    {
-      "name": "Invasive",
-      "desc": "The vile barber can enter, move through, or even remain in a hostile creature's space regardless of the creature's size, without penalty."
-    },
-    {
-      "name": "Nimble Escape",
-      "desc": "As a bonus action, the vile barber can take the Disengage or Hide action on each of its turns."
-    },
-    {
-      "name": "Pilfer",
-      "desc": "As a bonus action, the vile barber can take the Use an Object action or make a Dexterity (Sleight of Hand) check."
-    },
-    {
-      "name": "Shadow Step",
-      "desc": "As a bonus action, the vile barber magically teleports from an area of dim light or darkness it currently occupies, along with any equipment it is wearing or carrying, up to 80 feet to any other area of dim light or darkness it can see. The barber then has advantage on the first melee attack it makes before the end of the turn."
+      "name": "Blood Frenzy",
+      "desc": "The vile barber has advantage on melee attack rolls against any creature that doesn't have all its hp."
     }
   ],
   "spell_list": [],
-  "page_no": 401,
+  "page_no": 387,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_vile-barber/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_vile-barber/"
 }

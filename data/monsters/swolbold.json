@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "kobold",
   "group": null,
-  "alignment": "Chaotic Neutral",
+  "alignment": "chaotic neutral",
   "armor_class": 14,
   "armor_desc": "scale mail",
   "hit_points": 65,

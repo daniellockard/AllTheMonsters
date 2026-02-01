@@ -1,94 +1,76 @@
 {
-  "slug": "druid",
-  "desc": "**Druids** dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are **tribal shamans** who heal the sick, pray to animal spirits, and provide spiritual guidance.",
+  "slug": "druid_bf",
+  "desc": "",
   "name": "Druid",
-  "size": "Medium",
+  "size": "medium",
   "type": "Humanoid",
-  "subtype": "any race",
+  "subtype": "Any Lineage",
   "group": "NPCs",
-  "alignment": "Any Alignment",
+  "alignment": "",
   "armor_class": 11,
-  "armor_desc": "16 with _barkskin_",
-  "hit_points": 27,
-  "hit_dice": "5d8+5",
+  "armor_desc": "16 with barkskin",
+  "hit_points": 66,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
   "strength": 10,
   "dexterity": 12,
-  "constitution": 13,
+  "constitution": 12,
   "intelligence": 12,
-  "wisdom": 15,
-  "charisma": 11,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 4,
-  "skills": {
-    "medicine": 4,
-    "nature": 3,
-    "perception": 4
-  },
+  "wisdom": 16,
+  "charisma": 10,
+  "strength_save": 0,
+  "dexterity_save": 1,
+  "constitution_save": 1,
+  "intelligence_save": 1,
+  "wisdom_save": 3,
+  "charisma_save": 0,
+  "perception": 13,
+  "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 14",
+  "senses": "-",
   "languages": "Druidic plus any two languages",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
-      "name": "Quarterstaff",
-      "desc": "Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two hands.",
-      "attack_bonus": 2,
-      "damage_dice": "1d6"
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
+      "name": "Multiattack",
+      "desc": "The druid makes two Flowering Quarterstaff or Poison Bolt attacks."
+    },
+    {
+      "name": "Flowering Quarterstaff",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8+3) bludgeoning damage plus 5 (2d4) poison damage."
+    },
+    {
+      "name": "Poison Bolt",
+      "desc": "_Ranged Spell Attack:_ +5 to hit, range 60 ft., one target. _Hit:_ 10 (3d4+3) poison damage."
+    },
     {
       "name": "Spellcasting",
-      "desc": "The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:\n\n* Cantrips (at will): druidcraft, produce flame, shillelagh\n* 1st level (4 slots): entangle, longstrider, speak with animals, thunderwave\n* 2nd level (3 slots): animal messenger, barkskin"
+      "desc": "The druid casts one of the following spells, using WIS as the spellcasting ability (spell save DC 13).<br>At will: druidcraft, speak with animals<br>3/day each: _entangle_, _cure wounds_, _thunderwave_<br>2/day each: _barkskin_, _spike growth_"
     }
   ],
-  "spell_list": [
-    "https://api.open5e.com/v2/spells/druidcraft/",
-    "https://api.open5e.com/v2/spells/produce-flame/",
-    "https://api.open5e.com/v2/spells/shillelagh/",
-    "https://api.open5e.com/v2/spells/entangle/",
-    "https://api.open5e.com/v2/spells/longstrider/",
-    "https://api.open5e.com/v2/spells/speak-with-animals/",
-    "https://api.open5e.com/v2/spells/thunderwave/",
-    "https://api.open5e.com/v2/spells/animal-messenger/",
-    "https://api.open5e.com/v2/spells/barkskin/"
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "The druid magically transforms into a Medium or smaller Beast that has a challenge rating no higher than its own, or back into its true form, which is Humanoid. Any equipment it is wearing or carrying transforms with it. It reverts to its true form if it dies. In a new form, the druid retains its HP, ability to speak, proficiencies, and INT, WIS, and CHA modifiers, as well as this bonus action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+    }
   ],
-  "page_no": 398,
-  "environments": [
-    "Hill",
-    "Desert",
-    "Underdark",
-    "Mountains",
-    "Coastal",
-    "Tundra",
-    "Grassland",
-    "Swamp",
-    "Mountain",
-    "Forest",
-    "Arctic",
-    "Jungle",
-    "Hills"
-  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_druid/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_druid/"
 }

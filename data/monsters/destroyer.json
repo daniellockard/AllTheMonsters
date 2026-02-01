@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "satarre",
   "group": null,
-  "alignment": "Neutral Evil",
+  "alignment": "neutral evil",
   "armor_class": 15,
   "armor_desc": "scale mail",
   "hit_points": 60,

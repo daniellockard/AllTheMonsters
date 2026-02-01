@@ -6,7 +6,7 @@
   "type": "Ooze",
   "subtype": "",
   "group": null,
-  "alignment": "Unaligned",
+  "alignment": "unaligned",
   "armor_class": 8,
   "armor_desc": "",
   "hit_points": 75,

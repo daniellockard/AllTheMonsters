@@ -1,93 +1,82 @@
 {
-  "slug": "gladiator",
-  "desc": "**Gladiators** battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-or-death struggle, while others are professional duelists who command huge fees but rarely fight to the death.",
+  "slug": "gladiator_bf",
+  "desc": "",
   "name": "Gladiator",
-  "size": "Medium",
+  "size": "medium",
   "type": "Humanoid",
-  "subtype": "any race",
+  "subtype": "Any Lineage",
   "group": "NPCs",
-  "alignment": "Any Alignment",
+  "alignment": "",
   "armor_class": 16,
   "armor_desc": "studded leather, shield",
-  "hit_points": 112,
-  "hit_dice": "15d8+45",
+  "hit_points": 108,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
-  "strength": 18,
-  "dexterity": 15,
-  "constitution": 16,
+  "strength": 24,
+  "dexterity": 14,
+  "constitution": 22,
   "intelligence": 10,
   "wisdom": 12,
-  "charisma": 15,
+  "charisma": 14,
   "strength_save": 7,
-  "dexterity_save": 5,
+  "dexterity_save": 2,
   "constitution_save": 6,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
-  "skills": {
-    "athletics": 10,
-    "intimidation": 5
-  },
+  "intelligence_save": 0,
+  "wisdom_save": 1,
+  "charisma_save": 2,
+  "perception": 11,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_resistances": "frightened",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 11",
+  "senses": "-",
   "languages": "any one language (usually Common)",
   "challenge_rating": "5",
   "cr": 5,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The gladiator makes three melee attacks or two ranged attacks."
-    },
-    {
-      "name": "Spear",
-      "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.",
-      "attack_bonus": 7,
-      "damage_dice": "2d6",
-      "damage_bonus": 4
+      "desc": "The gladiator makes two Shield Bash attacks and two Spear attacks, or it makes three Spear attacks."
     },
     {
       "name": "Shield Bash",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.",
-      "attack_bonus": 7,
-      "damage_dice": "2d4",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 9 (2d4+4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 STR save or be knocked prone."
+    },
+    {
+      "name": "Spear",
+      "desc": "_Melee or Ranged Weapon Attack:_ +7 to hit, reach 5 ft. and range 20/60 ft., one target. _Hit:_ 11 (2d6+4) piercing damage, or 13 (2d8+4) piercing damage if used with two hands to make a melee attack."
     }
   ],
-  "bonus_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Entertaining Display",
+      "desc": "The gladiator slams its spear against its shield, twirls its spear, or roars while flexing, entertaining or intimidating up to two creatures it can see within 15 feet of it. Each target must succeed on a DC 15 CHA save or be charmed or frightened (the gladiator's choice) until the end of its next turn."
+    }
+  ],
   "reactions": [
     {
       "name": "Parry",
       "desc": "The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon."
     }
   ],
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Brave",
-      "desc": "The gladiator has advantage on saving throws against being frightened."
-    },
-    {
-      "name": "Brute",
+      "name": "Brutal",
       "desc": "A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack)."
     }
   ],
   "spell_list": [],
-  "page_no": 399,
-  "environments": [
-    "Urban",
-    "Settlement"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_gladiator/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_gladiator/"
 }

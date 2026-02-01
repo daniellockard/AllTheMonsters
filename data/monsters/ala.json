@@ -1,19 +1,19 @@
 {
-  "slug": "ala",
-  "desc": "_Alas are born from galls that grow on treant trunks. Within this parasitic pocket, an ala sickens the treant and consumes its life force. When the treant dies, the ala is born in a black whirlwind._  \n**Daughters of the Whirlwind.** Alas have windblown hair and wear smoky black rags, but their true form is that of a whirlwind, which can always be seen by šestaci, those men and women with six digits on each hand. In flight or in battle, an ala takes on a form with the upper body of a hag and a whirling vortex of air in place of hips and legs. When an ala enters a house in human form, the whole building groans in protest, as if it had been struck by a powerful stormwind.  \nAlas live in the hollows of trees that were struck by lightning. They are most active when thunder rocks the forest, and when they travel hail or thunderstorms spawn around them.  \n**Enormous Appetites.**The huge-mouthed alas have voracious appetites. In the wild, they devour wolves, bears, and badgers. They prefer to hunt in settled areas, however, because they favor the taste of innocents above all else. Unsavory tribes of savage humanoids may beg an ala’s favor (or divert its wrath) with gifts of bound captives.  \n**Energized by Storms.** In battle, an ala is constantly on the move, weaving between foes like the wind. It tears at its foes with claws and a poisonous bite, or throws wicked lightning bolts and hailstorms from afar. Woe betides the hero who confronts an ala while a storm rages overhead, because such storms energize the ala and make its lightning stronger. Because alas wield lightning with such mastery, some sages associate them with the god of lightning.",
+  "slug": "ala-tob1-2023",
+  "desc": "False",
   "name": "Ala",
   "size": "Medium",
   "type": "Fey",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Evil",
   "armor_class": 17,
   "armor_desc": "natural armor",
   "hit_points": 127,
-  "hit_dice": "15d8+60",
+  "hit_dice": "15d8 + 60",
   "speed": {
-    "walk": 30,
-    "fly": 40
+    "walk": 40,
+    "fly": 30
   },
   "strength": 20,
   "dexterity": 16,
@@ -27,14 +27,14 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 9,
+  "perception": 19,
   "skills": {
-    "athletics": 8,
-    "perception": 9,
-    "stealth": 6
+    "Athletics": 8,
+    "Perception": 9,
+    "Stealth": 6
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
   "damage_immunities": "lightning, poison, thunder",
   "condition_immunities": "poisoned",
   "senses": "darkvision 60 ft., passive Perception 19",
@@ -44,50 +44,46 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The ala makes two claw attacks or one claw and one bite attack."
+      "desc": "The ala makes one Bite attack and two Claw attacks."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 5) piercing damage, and the target must succeed on a DC 16 saving throw or take 10 (3d6) poison damage.",
-      "attack_bonus": 8,
-      "damage_dice": "1d10"
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage plus 7 (2d6) poison damage."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.",
-      "attack_bonus": 8,
-      "damage_dice": "2d8"
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d6 + 5) slashing damage plus 7 (2d6) poison damage."
     },
     {
       "name": "Lightning's Kiss (Recharge 5-6)",
-      "desc": "One target within 50 feet must make a DC 16 Dexterity saving throw. It takes 28 (8d6) lightning damage on a failed save, or half as much damage on a successful one."
+      "desc": "The ala launches a bolt of lightning at up to three targets it can see within 30 feet of it. Each target must make a DC 16 Dexterity saving throw, taking 28 (8d6) lightning damage on a failed save, or half as much damage on a successful one."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Flyby",
       "desc": "The ala doesn't provoke an opportunity attack when it flies out of an enemy's reach."
     },
     {
-      "name": "Poison Flesh",
-      "desc": "The ala's poison infuses its flesh. A creature that makes a successful bite attack against an ala must make a DC 16 Constitution saving throw; if it fails, the creature takes 10 (3d6) poison damage."
+      "name": "Poisonous Flesh",
+      "desc": "The ala's poison infuses its flesh. A creature that touches the ala or hits it with a melee attack while within 5 feet of it takes 7 (2d6) poison damage."
     },
     {
       "name": "Storm's Strength",
-      "desc": "If an electrical storm is raging around an ala and its target, the saving throw against Lightning's Kiss is made with disadvantage."
+      "desc": "If the ala is outside and an electrical storm is within 1 mile of it, creatures have disadvantage on their saving throws against the ala's Lightning's Kiss."
     }
   ],
   "spell_list": [],
   "page_no": 13,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_ala/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_ala/"
 }

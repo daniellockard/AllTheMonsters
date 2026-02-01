@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "dragonborn",
   "group": null,
-  "alignment": "Lawful Neutral",
+  "alignment": "lawful neutral",
   "armor_class": 14,
   "armor_desc": "chain shirt",
   "hit_points": 52,

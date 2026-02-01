@@ -1,19 +1,18 @@
 {
-  "slug": "kot-bayun",
-  "desc": "_This oddly colored cat appears at first to be a powerful panther. Its wide mouth pulls into something like a human grin, and its knowing eyes hint at intelligence beyond that of a typical predator._  \nEnemies of elves and blink dogs, kot bayuns are magical hunting cats gifted with eloquent speech and cunning abilities.  \n**Speaking Fey Cats.** These brutal and temperamental creatures get along well with cruel-minded fey. More gentle fey rightfully find the creatures to be a menace. A kot bayun measures six feet long and weighs over 200 lb. They are long-lived, and some stories record the same kot bayun in a region for over 400 years.  \n**Sing to Sleep.** In addition to their stealthy natures and physical prowess, kot bayun have the ability to put prey to sleep with song. They carefully choose victims and stalk them for a time, learning their strengths and weaknesses before making their attack. They lay in wait until their prey is vulnerable and then begin their slumbering song. Those resisting the call to slumber are always the kot bayun’s first victims as they launch from cover and attempt to disembowel their prey. In forests with a thick canopy, a kot bayun stealthily creeps among tree limbs, tracking the movement of its prey below.  \n**Healing Poetry.** If discovered by intelligent prey, a kot bayun opens with a parley instead of claws. In rare cases, a kot bayun finds something in its prey it likes and cold predation turns to a lukewarm association.  \nBefriending a kot bayun has benefits as the creature’s poems, tales, and sagas have the magical ability to heal negative conditions. A kot bayun tells its stories in the form of strange epics and poetry, ranging from simple rhyming folk poems to complex sonnets. This ability is not widely known (a secret the creatures intend to keep), but, as folktales spread, more and more adventurers and sages seek out these elusive beasts.",
+  "slug": "kotbayun-tob1-2023",
+  "desc": "False",
   "name": "Kot Bayun",
   "size": "Medium",
   "type": "Monstrosity",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral",
   "armor_class": 15,
-  "armor_desc": "",
-  "hit_points": 44,
-  "hit_dice": "8d8+8",
+  "armor_desc": "natural armor",
+  "hit_points": 66,
+  "hit_dice": "12d8 + 12",
   "speed": {
-    "walk": 40,
-    "climb": 20
+    "walk": 20
   },
   "strength": 16,
   "dexterity": 16,
@@ -27,59 +26,56 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
-  "skills": {},
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "perception": 13,
+  "skills": {
+    "Stealth": 5
+  },
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 13",
   "languages": "Common, Sylvan",
-  "challenge_rating": "2",
-  "cr": 2,
+  "challenge_rating": "3",
+  "cr": 3,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The kot bayun makes one bite attack and one claws attack."
+      "desc": "The kot bayun can use its Slumbering Song. It then makes one Bite attack and two Claw attacks."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d8"
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage."
     },
     {
-      "name": "Claws",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5ft., one target. Hit: 14 (2d10 + 3) slashing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "2d10"
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage."
+    },
+    {
+      "name": "Invisibility",
+      "desc": "The kot bayun magically turns invisible until it attacks or uses Slumbering Song, or until its concentration ends (as if concentrating on a spell). Any equipment the kot bayun wears or carries is invisible with it."
     },
     {
       "name": "Slumbering Song",
-      "desc": "The kot bayun puts creatures to sleep with its haunting melody. While a kot bayun sings, it can target one hearing creature within a 100-foot radius. This target must succeed on a DC 13 Charisma saving throw or fall asleep. The target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. Each round the kot bayun maintains its song, it can select a new target. A creature that successfully saves is immune to the effect of that kot bayun's song for 24 hours. The slumbering song even affects elves, but they have advantage on the Charisma saving throw."
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
-    {
-      "name": "Folk Cure",
-      "desc": "A kot bayun's tales have the effect of a lesser restoration spell at will, and once per week it can have the effect of greater restoration. The kot bayun designates one listener to benefit from its ability, and that listener must spend one uninterrupted hour listening to the cat's tales. Kot bayuns are reluctant to share this benefit and must be bargained with or under the effect of domination to grant the boon."
+      "desc": "The kot bayun sings a magical song to one creature it can see within 60 feet of it. The target must succeed on a DC 13 Charisma saving throw on fall unconscious for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If the kot bayun uses a bonus action on its subsequent turns to continue singing, the target has disadvantage on this saving throw. Otherwise, the effect ends for a target if the target takes damage while below half its hp maximum."
     },
     {
-      "name": "Innate Spellcasting",
-      "desc": "the kot bayun's innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components:\n\n3/day each: fog cloud, invisibility (self only)\n\n1/day: blink"
+      "name": "Healing Purr (2/Day)",
+      "desc": "The kot bayun purrs at a creature it can see within 15 feet of it. The target magically regains 10 (3d6) hp and is freed from any disease, poison, blindness, or deafness."
     }
   ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
   "spell_list": [],
-  "page_no": 268,
+  "page_no": 248,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_kot-bayun/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_kot-bayun/"
 }

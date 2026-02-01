@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Lawful Neutral",
+  "alignment": "lawful neutral",
   "armor_class": 15,
   "armor_desc": "studded leather",
   "hit_points": 66,

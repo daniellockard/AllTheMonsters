@@ -1,16 +1,16 @@
 {
-  "slug": "spire-walker",
-  "desc": "_This miniscule creature kicks up a ghostly, sparkling fire when it jostles and jigs. Lightning sparks fly between it and its perch._  \n**Storm Dancers.** When storm clouds gather over cities, harbors, and twisted badlands, electrical energy fills the air. During these times, miniscule fey dance on church steeples, desolate peaks, and ships’ masts.  \nAlso called corposanti by scholars, spire walkers are nature spirits that delight in grandiose displays of thunderbolts. They can be found frolicking in a thunderstorm or keeping company with blue dragons or storm giants—though these larger creatures often chase them off for being a nuisance.  \n**Small and Metallic.** These spire walkers stand no more than a foot tall, with dusky blue-gray skin and shocks of silvery, slate, or pale blue hair. Spire walkers prefer clothing in metallic hues with many buttons, and they always carry a handful of tiny copper darts that they hurl at each other during their incomprehensible games. When excited, they emit a sparking glow from the tips of their noses, eyebrows, ears, and pointy shoes.  \nThey play rough-and-tumble games among themselves and enjoy pranking bystanders with frightening but mostly harmless electric shocks. If a spire walker perishes during the fun, the others pause just long enough to say “awww, we’ll miss you” and go through their comrade’s pockets before continuing with the game.  \n**Love Copper and Amber.** Spire walkers like gold but they love copper. They prefer it over all other metals, and they keep the copper pieces in their pockets brilliantly polished. They also value amber gems. Among a group of spire walkers, the leader is not the cleverest or most ruthless, but the one displaying the most ostentatious amber jewel.",
+  "slug": "spirewalker-tob1-2023",
+  "desc": "False",
   "name": "Spire Walker",
   "size": "Tiny",
   "type": "Fey",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Neutral",
   "armor_class": 16,
   "armor_desc": "natural armor",
-  "hit_points": 38,
-  "hit_dice": "11d4+22",
+  "hit_points": 49,
+  "hit_dice": "11d4 + 22",
   "speed": {
     "walk": 20
   },
@@ -19,56 +19,57 @@
   "constitution": 14,
   "intelligence": 11,
   "wisdom": 10,
-  "charisma": 14,
+  "charisma": 16,
   "strength_save": null,
-  "dexterity_save": 7,
+  "dexterity_save": 6,
   "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
-  "skills": {},
-  "damage_vulnerabilities": "",
+  "perception": 10,
+  "skills": {
+    "Acrobatics": 6
+  },
+  "damage_vulnerabilities": "False",
   "damage_resistances": "piercing from nonmagical attacks",
   "damage_immunities": "lightning, thunder",
-  "condition_immunities": "",
+  "condition_immunities": "False",
   "senses": "passive Perception 10",
   "languages": "Common, Sylvan",
   "challenge_rating": "3",
   "cr": 3,
   "actions": [
     {
-      "name": "Lightning Dart",
-      "desc": "Ranged Weapon Attack: +6 to hit, range 20/60 ft., one target. Hit: 1 piercing damage plus 9 (2d8) lightning damage. If the attack misses, the target still takes 4 (1d8) lightning damage. Whether the attack hits or misses its intended target, every other creature within 10 feet of the target takes 9 (2d8) lightning damage, or half damage with a successful DC 14 Dexterity saving throw.",
-      "attack_bonus": 6,
-      "damage_dice": "2d8"
+      "name": "Lightning Burst",
+      "desc": "Melee or Ranged Spell Attack: +5 to hit, reach 5 ft. or range 60 ft., one target. Hit: 17 (4d6 + 3) lightning damage, and each creature, other than the target, within 10 feet of the target must make a DC 13 Dexterity saving throw, taking 7 (2d6) lightning damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "name": "Invisibility",
+      "desc": "The spire walker magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the spire walker wears or carries is invisible with it."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Steeple Step",
+      "desc": "The spire walker teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. The destination must be on the steeple of a building, mast of a ship, corner of a rooftop, or similar narrow point or feature."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Energized Body",
-      "desc": "A creature that hits the spire walker with a melee attack using a metal weapon takes 5 (1d10) lightning damage."
-    },
-    {
-      "name": "Innate Spellcasting",
-      "desc": "the spire walker's innate spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). The spire walker can innately cast the following spells, requiring no material components:\n\nat will: produce spark (as the cantrip produce flame, but it does lightning damage)\n\n3/day each: dancing lights, feather fall, invisibility\n\n1/day each: faerie fire, thunderwave"
-    },
-    {
-      "name": "Steeple Step",
-      "desc": "The spire walker can use 10 feet of its movement to step magically from its position to the point of a steeple, mast, or other spire-like feature that is in view within 30 feet. The spire walker has advantage on Dexterity (Acrobatics) checks and Dexterity saving throws while it is standing on a steeple or any similar narrow, steep structure or feature."
+      "desc": "A creature wearing metal or wielding a metal weapon that touches the spire walker or hits it with a melee attack while within 5 feet of it takes 3 (1d6) lightning damage."
     }
   ],
   "spell_list": [],
-  "page_no": 367,
+  "page_no": 347,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_spire-walker/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_spire-walker/"
 }

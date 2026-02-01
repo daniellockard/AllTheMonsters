@@ -1,70 +1,69 @@
 {
-  "slug": "badger",
+  "slug": "badger_bf",
   "desc": "",
   "name": "Badger",
-  "size": "Tiny",
+  "size": "tiny",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": "Animals",
+  "alignment": "",
   "armor_class": 10,
   "armor_desc": null,
-  "hit_points": 3,
-  "hit_dice": "1d4+1",
+  "hit_points": 9,
+  "hit_dice": "",
   "speed": {
     "walk": 20,
-    "burrow": 5
+    "burrow": 10
   },
   "strength": 4,
-  "dexterity": 11,
+  "dexterity": 10,
   "constitution": 12,
   "intelligence": 2,
   "wisdom": 12,
-  "charisma": 5,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
+  "charisma": 4,
+  "strength_save": -3,
+  "dexterity_save": 0,
+  "constitution_save": 1,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -3,
+  "perception": 11,
   "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 30 ft., passive Perception 11",
-  "languages": "",
+  "senses": "darkvision 30 ft.",
+  "languages": "-",
   "challenge_rating": "0",
   "cr": 0,
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
-      "attack_bonus": 2,
-      "damage_bonus": 1
+      "desc": "_Melee Weapon Attack:_ +2 to hit, reach 5 ft., one creature. _Hit:_ 2 (1d4) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Keen Smell",
-      "desc": "The badger has advantage on Wisdom (Perception) checks that rely on smell."
+      "name": "Grumpy",
+      "desc": "When in combat, the badger attacks the creature that most recently dealt damage to it, provided that creature is within range or moving to it doesn't cause the badger to provoke opportunity attacks. The badger otherwise attacks the nearest hostile creature."
+    },
+    {
+      "name": "Heightened Smell",
+      "desc": "The badger's Perception is 16 when perceiving by smell."
     }
   ],
   "spell_list": [],
-  "page_no": 367,
-  "environments": [
-    "Forest",
-    "Grassland"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_badger/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_badger/"
 }

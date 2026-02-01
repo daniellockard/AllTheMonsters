@@ -6,7 +6,7 @@
   "type": "Dragon",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral Evil",
+  "alignment": "neutral evil",
   "armor_class": 18,
   "armor_desc": "natural",
   "hit_points": 152,

@@ -1,19 +1,19 @@
 {
-  "slug": "lich-hound",
-  "desc": "_Their howls echoing from another plane, lich hounds always arrive wreathed in mist. Half bone, half purple fire, they are creatures of hunger and the hunt. Nothing makes them happier than taking down creatures larger than themselves—or racing through the air to catch a surprised bat in mid-flight. All cruelty and fang, lich hounds are most satisfied when praised by their great undead lords._  \n**Fiery Bones.** Bright white skulls with a heavy jaw and thick, robust skeletal bodies define the ferocious lich hounds. Their eyes burn green or blue, and their tongues resemble black fire. Fueled by necromantic power, these creatures are loyal servants of either ghoul high priests or liches.  \n**Echoing Howls.** Even on their own, lich hounds are relentless hunters, pursuing their prey with powerful senses and a keen ability to find the living wherever they may hide. Lich hound howls fade into and out of normal hearing, with strangely shifted pitch and echoes.  \n**Murdered Celestials.** The dark process of creating a lich hound involves a perverse ritual of first summoning a celestial canine and binding it to the Material Plane. The hound’s future master then murders the trapped beast. Only then can the creature be animated in all its unholy glory. Hound archons have long been outraged by the creation of lich hounds, and they occasionally band together to rid the world of those who practice this particular dark magic.  \n**Undead Nature.** A lich hound doesn’t require air, food, drink, or sleep.",
+  "slug": "lichhound-tob1-2023",
+  "desc": "False",
   "name": "Lich Hound",
   "size": "Medium",
   "type": "Undead",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 14,
   "armor_desc": "",
-  "hit_points": 119,
-  "hit_dice": "14d8+56",
+  "hit_points": 85,
+  "hit_dice": "10d8 + 40",
   "speed": {
-    "walk": 30,
-    "fly": 50
+    "walk": 50,
+    "fly": 30
   },
   "strength": 10,
   "dexterity": 18,
@@ -22,61 +22,68 @@
   "wisdom": 10,
   "charisma": 16,
   "strength_save": null,
-  "dexterity_save": 4,
-  "constitution_save": 4,
+  "dexterity_save": null,
+  "constitution_save": null,
   "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": 3,
-  "perception": 4,
+  "wisdom_save": 2,
+  "charisma_save": 5,
+  "perception": 14,
   "skills": {
-    "acrobatics": 6,
-    "perception": 4
+    "Acrobatics": 6,
+    "Perception": 4
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "piercing and bludgeoning from nonmagical attacks",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "piercing and slashing from nonmagical attacks",
   "damage_immunities": "poison",
   "condition_immunities": "exhaustion, poisoned",
-  "senses": "blindsight 100 ft., passive Perception 14",
-  "languages": "understands Darakhul",
+  "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 14",
+  "languages": "understands Common and Darakhul but can’t speak",
   "challenge_rating": "4",
   "cr": 4,
   "actions": [
     {
+      "name": "Multiattack",
+      "desc": "The lich hound can use its Eerie Howl. It then makes two Bite attacks. If both attacks hit one creature, the target must succeed on a DC 14 Constitution saving throw or take 7 (2d6) slashing damage and be incapacitated until the end of its next turn."
+    },
+    {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.",
-      "attack_bonus": 6,
-      "damage_dice": "1d12"
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
     },
     {
-      "name": "Ethereal Jaunt",
-      "desc": "As a bonus action, the lich hound can magically shift from the Material Plane to the Ethereal Plane, or vice versa."
-    },
-    {
-      "name": "Gut Rip",
-      "desc": "As a bonus action, the lich hound tears into any adjacent prone creature, inflicting 19 (3d12) slashing damage. The target must succeed on a DC 14 Constitution saving throw or be incapacitated for 1d4 rounds. An incapacitated creature repeats the saving throw at the end of each of its turns; a successful save ends the condition early."
-    },
-    {
-      "name": "Howl",
-      "desc": "The eerie howl of lich hounds as they close in on their prey plays havoc on the morale of living creatures that hear it. Howling requires and action, and creatures that hear the howl of a lich hound within 100 feet must succeed on a DC 14 Wisdom saving throw or become frightened for 5 rounds. Creatures that successfully save against this effect cannot be affected by a lich hound's howl for 24 hours."
+      "name": "Eerie Howl",
+      "desc": "The lich hound releases an eerie howl that fades in and out and echoes strangely. Each creature within 30 feet of the lich hound must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the lich hound's Eerie Howl for the next 24 hours."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Ethereal Jaunt",
+      "desc": "The lich hound magically shifts from the Material Plane to the Ethereal Plane, or vice versa."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
+    {
+      "name": "Blood Sense",
+      "desc": "The lich hound can pinpoint the location of creatures that aren't Constructs or Undead within 60 feet of it and can sense the general direction of such creatures within 1 mile of it."
+    },
     {
       "name": "Keen Hearing and Smell",
       "desc": "The lich hound has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The lich hound doesn't require air, food, drink, or sleep."
     }
   ],
   "spell_list": [],
-  "page_no": 274,
+  "page_no": 253,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_lich-hound/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_lich-hound/"
 }

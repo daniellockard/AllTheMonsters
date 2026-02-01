@@ -1,90 +1,82 @@
 {
-  "slug": "gargoyle",
+  "slug": "gargoyle_bf",
   "desc": "",
   "name": "Gargoyle",
-  "size": "Medium",
+  "size": "medium",
   "type": "Elemental",
   "subtype": "",
   "group": null,
-  "alignment": "Chaotic Evil",
+  "alignment": "",
   "armor_class": 15,
   "armor_desc": "natural armor",
   "hit_points": 52,
-  "hit_dice": "7d8+21",
+  "hit_dice": "",
   "speed": {
     "walk": 30,
     "fly": 60
   },
-  "strength": 15,
-  "dexterity": 11,
-  "constitution": 16,
+  "strength": 16,
+  "dexterity": 10,
+  "constitution": 20,
   "intelligence": 6,
-  "wisdom": 11,
-  "charisma": 7,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
+  "wisdom": 10,
+  "charisma": 6,
+  "strength_save": 3,
+  "dexterity_save": 0,
+  "constitution_save": 5,
+  "intelligence_save": -2,
+  "wisdom_save": 0,
+  "charisma_save": -2,
+  "perception": 10,
   "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
-  "damage_immunities": "poison",
-  "condition_immunities": "exhaustion, petrified, poisoned",
-  "senses": "darkvision 60 ft., passive Perception 10",
+  "damage_resistances": "bludgeoning,piercing,and slashing from nonmagical attacks",
+  "damage_immunities": "poison,exhaustion,petrified,poisoned",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
   "languages": "Terran",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The gargoyle makes two attacks: one with its bite and one with its claws."
+      "desc": "The gargoyle makes one Bite attack and one Claws attack."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 10 (2d6+3) piercing damage."
     },
     {
       "name": "Claws",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 8 (2d4+3) slashing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Fearsome Mien",
+      "desc": "When a creature the gargoyle can see hits it with an attack, the gargoyle can shift its face to appear more monstrous. The attacker must succeed on a DC 13 WIS save or be frightened of the gargoyle until the end of its next turn."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
+      "name": "Diving Pounce",
+      "desc": "If the gargoyle is flying and moves at least 20 feet straight toward a creature and then hits it with a Claws attack on the same turn, that target must succeed on a DC 13 STR save or be knocked prone. If the target is prone, the gargoyle can make one Bite attack against it as a bonus action."
+    },
+    {
       "name": "False Appearance",
-      "desc": "While the gargoyle remains motion less, it is indistinguishable from an inanimate statue."
+      "desc": "While the gargoyle remains motionless, it is indistinguishable from an inanimate statue."
     }
   ],
   "spell_list": [],
-  "page_no": 309,
-  "environments": [
-    "Temple",
-    "Underdark",
-    "Urban",
-    "Mountains",
-    "Ruin",
-    "Laboratory",
-    "Tomb",
-    "Hills",
-    "Settlement",
-    "Plane Of Earth"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_gargoyle/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_gargoyle/"
 }

@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "any race",
   "group": "Elemental Wardens",
-  "alignment": "Neutral Good",
+  "alignment": "neutral good",
   "armor_class": 17,
   "armor_desc": "red dragon scale mail",
   "hit_points": 92,

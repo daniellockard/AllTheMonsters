@@ -1,80 +1,77 @@
 {
-  "slug": "death-dog",
-  "desc": "A **death dog** is an ugly two-headed hound that roams plains, and deserts. Hate burns in a death dog's heart, and a taste for humanoid flesh drives it to attack travelers and explorers. Death dog saliva carries a foul disease that causes a victim's flesh to slowly rot off the bone.",
+  "slug": "death_dog_bf",
+  "desc": "",
   "name": "Death Dog",
-  "size": "Medium",
+  "size": "medium",
   "type": "Monstrosity",
-  "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Neutral Evil",
+  "subtype": "Animal",
+  "group": null,
+  "alignment": "",
   "armor_class": 12,
   "armor_desc": null,
-  "hit_points": 39,
-  "hit_dice": "6d8+12",
+  "hit_points": 40,
+  "hit_dice": "",
   "speed": {
     "walk": 40
   },
-  "strength": 15,
+  "strength": 14,
   "dexterity": 14,
   "constitution": 14,
-  "intelligence": 3,
-  "wisdom": 13,
+  "intelligence": 2,
+  "wisdom": 12,
   "charisma": 6,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 5,
-  "skills": {
-    "perception": 5,
-    "stealth": 4
-  },
+  "strength_save": 2,
+  "dexterity_save": 2,
+  "constitution_save": 2,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -2,
+  "perception": 15,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_resistances": "Multiple Heads,Monstrosity Resilience",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 120 ft., passive Perception 15",
-  "languages": "",
+  "senses": "darkvision 120 ft.",
+  "languages": "-",
   "challenge_rating": "1",
   "cr": 1,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The dog makes two bite attacks."
+      "desc": "The death dog makes two Bite attacks."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the creature must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. This reduction lasts until the disease is cured. The creature dies if the disease reduces its hit point maximum to 0.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 7 (2d4+2) piercing damage. If the target is a creature, it must succeed on a DC 12 CON save or contract a disease. Until the disease is cured, the target is poisoned. Every 24 hours that elapse, the infected creature must repeat the save, reducing its HP maximum by 5 (2d4) on a failure. This reduction lasts until the creature finishes a long rest after the disease is cured. The creature dies if the disease reduces its HP maximum to 0."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Dual Bark",
+      "desc": "The death dog's two heads bark at creatures in two 15-foot cones. Each creature in the area of a cone must succeed on a DC 12 CON save or be deafened until the end of its next turn. If the cones overlap each other, each creature in overlapping cones must make only one save with disadvantage rather than one save for each cone."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Two-Headed",
-      "desc": "The dog has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, or knocked unconscious."
+      "name": "Monstrosity Resilience",
+      "desc": "The death dog is resistant to exhaustion and to the frightened condition."
+    },
+    {
+      "name": "Multiple Heads",
+      "desc": "The death dog has two heads and is resistant to the blinded, charmed, deafened, frightened, stunned, and unconscious conditions."
     }
   ],
   "spell_list": [],
-  "page_no": 370,
-  "environments": [
-    "Desert",
-    "Abyss",
-    "Shadowfell",
-    "Grassland",
-    "Hell"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_death-dog/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_death-dog/"
 }

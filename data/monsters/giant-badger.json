@@ -1,26 +1,26 @@
 {
-  "slug": "giant-badger",
+  "slug": "giant-badger-a5e",
   "desc": "",
   "name": "Giant Badger",
   "size": "Medium",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": null,
+  "alignment": "",
   "armor_class": 10,
-  "armor_desc": null,
-  "hit_points": 13,
-  "hit_dice": "2d8+4",
+  "armor_desc": "",
+  "hit_points": 19,
+  "hit_dice": "3d8+6",
   "speed": {
     "walk": 30,
     "burrow": 10
   },
-  "strength": 13,
+  "strength": 12,
   "dexterity": 10,
-  "constitution": 15,
+  "constitution": 14,
   "intelligence": 2,
   "wisdom": 12,
-  "charisma": 5,
+  "charisma": 4,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
@@ -39,22 +39,8 @@
   "cr": 0.25,
   "actions": [
     {
-      "name": "Multiattack",
-      "desc": "The badger makes two attacks: one with its bite and one with its claws."
-    },
-    {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
-      "attack_bonus": 3,
-      "damage_dice": "1d6",
-      "damage_bonus": 1
-    },
-    {
-      "name": "Claws",
-      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) slashing damage.",
-      "attack_bonus": 3,
-      "damage_dice": "2d4",
-      "damage_bonus": 1
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) piercing damage."
     }
   ],
   "bonus_actions": null,
@@ -64,19 +50,16 @@
   "special_abilities": [
     {
       "name": "Keen Smell",
-      "desc": "The badger has advantage on Wisdom (Perception) checks that rely on smell."
+      "desc": "The badger has advantage on Perception checks that rely on smell."
     }
   ],
   "spell_list": [],
-  "page_no": 373,
-  "environments": [
-    "Forest",
-    "Grassland"
-  ],
+  "page_no": 444,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_giant-badger/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_giant-badger/"
 }

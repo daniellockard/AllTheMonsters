@@ -6,7 +6,7 @@
   "type": "Celestial",
   "subtype": "",
   "group": null,
-  "alignment": "Any Alignment (as its deity)",
+  "alignment": "any alignment (as its deity)",
   "armor_class": 16,
   "armor_desc": "natural armor",
   "hit_points": 114,

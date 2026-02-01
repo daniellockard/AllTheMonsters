@@ -1,19 +1,18 @@
 {
-  "slug": "fear-smith",
-  "desc": "_Apart from their taloned hands and blank face, fear smiths appear elven. While its mouth is closed, a fear smith’s face is featureless save for rows of deep wrinkles. Opening the large mouth in the center of its face reveals long needlelike teeth surrounding a single massive eye._  \nKnown as a fiarsídhe among themselves, fear smiths are servants of the Court of the Shadow Fey and similar dark fey courts of such as those of Queen Mab and the Snow Queen.  \n_**Icy-Cold Eyes.**_ Fear smiths often serve as torturers or are dispatched to demoralize the court’s enemies. Their stare stops enemies cold, making it easy for heavily-armed warriors to trap and finish a foe.  \n_**Devour Fear.**_ As their nickname suggests, fear smiths feed off strong emotions, and their favorite meal is terror. The fey prefer prolonging the death of victims, and, when free to indulge, a fear smith stalks its victim for days before attacking, hinting at its presence to build dread.  \n_**Hoods and Masks.**_ Fear smiths favor fine clothing and high fashion, donning hooded cloaks or masks when discretion is required. Eerily well-mannered and respectful, fear smiths enjoy feigning civility and playing the part of nobility, speaking genteelly but with a thick, unidentifiable accent from within a cowl.",
+  "slug": "fearsmith-tob1-2023",
+  "desc": "False",
   "name": "Fear Smith",
   "size": "Medium",
   "type": "Fey",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Neutral",
   "armor_class": 17,
   "armor_desc": "natural armor",
-  "hit_points": 123,
-  "hit_dice": "19d8+38",
+  "hit_points": 149,
+  "hit_dice": "23d8 + 46",
   "speed": {
-    "walk": 40,
-    "climb": 15
+    "walk": 15
   },
   "strength": 11,
   "dexterity": 17,
@@ -27,13 +26,14 @@
   "intelligence_save": null,
   "wisdom_save": 6,
   "charisma_save": null,
-  "perception": null,
+  "perception": 12,
   "skills": {
-    "stealth": 7
+    "Intimidation": 8,
+    "Stealth": 7
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "bludgeoning, piercing, and slashing from weapons that aren't made of cold iron",
-  "damage_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from attacks not made with cold iron weapons",
+  "damage_immunities": "False",
   "condition_immunities": "charmed, frightened",
   "senses": "blindsight 30 ft., passive Perception 12",
   "languages": "Common, Elvish, Sylvan",
@@ -42,35 +42,33 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The fear smith makes three claw attacks."
+      "desc": "The fear smith makes three Claw attacks. It can replace one attack with a use of Heart-Stopping Stare."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 16 (2d12 + 3) slashing damage. If the target is disoriented by Distortion Gaze, this attack does an additional 13 (3d8) psychic damage and heals the fear smith by an equal amount.",
-      "attack_bonus": 7,
-      "damage_dice": "2d12+3"
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage plus 9 (2d8) psychic damage. If the target is disoriented by Distortion Gaze, the fear smith regains hp equal to the amount of psychic damage dealt."
     },
     {
-      "name": "Heartstopping Stare",
-      "desc": "The fear smith terrifies a creature within 30 feet with a look. The target must succeed on a DC 16 Wisdom saving throw or be stunned for 1 round and take 13 (3d8) psychic damage and heal the fear smith by an equal amount."
+      "name": "Heart-Stopping Stare",
+      "desc": "The fear smith terrifies a creature within 30 feet of it with a look. The target must succeed on a DC 16 Wisdom saving throw or take 13 (3d8) psychic damage and be stunned until the end of its next turn. The fear smith regains hp equal to the psychic damage dealt."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The fear smith casts one of the following spells, requiring no verbal or material components and using Charisma as the spellcasting ability (spell save DC 16):\nAt will: detect thoughts, fear\n2/day each: charm person, command"
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Distortion Gaze",
-      "desc": "Those who meet the gaze of the fear smith experience the world seeming to twist at unnatural angles beneath their feet. When a creature that can see the fear smith's eye starts its turn within 30 feet of the fear smith, the creature must make a successful DC 16 Wisdom saving throw or become disoriented. While disoriented, the creature falls prone each time it tries to move or take the Dash or Disengage action. To recover from disorientation, a creature must start its turn outside the fear smith's gaze and make a successful DC 16 Wisdom saving throw. To use this ability, the fear smith can't be incapacitated and must see the affected creature. A creature that isn't surprised can avert its eyes at the start of its turn to avoid the effect. In that case, no saving throw is necessary but the creature treats the fear smith as invisible until the start of the creature's next turn. If during its turn the creature chooses to look at the fear smith, it must immediately make the saving throw."
+      "desc": "Those who meet the gaze of the fear smith experience the world seeming to twist at unnatural angles beneath their feet. When a creature that can see the fear smith's eye starts its turn within 30 feet of the fear smith, the fear smith can force the creature to make a DC 16 Wisdom saving throw if the fear smith isn't incapacitated and can see the creature. On a failed save, the creature is disoriented until the start of its next turn. While disoriented, a creature can't take the Dash or Disengage action, and when it moves for the first time on its turn, it must succeed on a DC 16 Dexterity saving throw or fall prone."
     },
     {
       "name": "Hidden Eye",
-      "desc": "The fear smith has advantage on saving throws against the blinded condition."
-    },
-    {
-      "name": "Innate Spellcasting",
-      "desc": "the fear smith's innate spellcasting ability is Charisma (spell save DC 16). The fear smith can innately cast the following spells, requiring no verbal or material components:at will: detect thoughts, fear2/day each: charm person, command, confusion"
+      "desc": "The fear smith has advantage on saving throws against being blinded."
     },
     {
       "name": "Magic Resistance",
@@ -78,12 +76,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 181,
+  "page_no": 169,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_fear-smith/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_fear-smith/"
 }

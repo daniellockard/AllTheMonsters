@@ -6,7 +6,7 @@
   "type": "Undead",
   "subtype": "",
   "group": null,
-  "alignment": "Lawful Evil",
+  "alignment": "lawful evil",
   "armor_class": 15,
   "armor_desc": "chain shirt",
   "hit_points": 120,

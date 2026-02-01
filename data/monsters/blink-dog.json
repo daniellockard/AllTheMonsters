@@ -1,79 +1,76 @@
 {
-  "slug": "blink-dog",
-  "desc": "A **blink dog** takes its name from its ability to blink in and out of existence, a talent it uses to aid its attacks and to avoid harm.",
+  "slug": "blink_dog_bf",
+  "desc": "",
   "name": "Blink Dog",
-  "size": "Medium",
+  "size": "medium",
   "type": "Fey",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Lawful Good",
+  "group": null,
+  "alignment": "",
   "armor_class": 13,
   "armor_desc": null,
-  "hit_points": 22,
-  "hit_dice": "4d8+4",
+  "hit_points": 14,
+  "hit_dice": "",
   "speed": {
     "walk": 40
   },
   "strength": 12,
-  "dexterity": 17,
+  "dexterity": 16,
   "constitution": 12,
   "intelligence": 10,
-  "wisdom": 13,
-  "charisma": 11,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 3,
-  "skills": {
-    "perception": 3,
-    "stealth": 5
-  },
+  "wisdom": 12,
+  "charisma": 10,
+  "strength_save": 1,
+  "dexterity_save": 3,
+  "constitution_save": 1,
+  "intelligence_save": 0,
+  "wisdom_save": 1,
+  "charisma_save": 0,
+  "perception": 13,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_resistances": "Fey Resilience",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 10",
-  "languages": "Blink Dog, understands Sylvan but can't speak it",
+  "senses": "-",
+  "languages": "Blink Dog,understands Sylvan but can't speak it",
   "challenge_rating": "1/4",
   "cr": 0.25,
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
-      "attack_bonus": 3,
-      "damage_dice": "1d6",
-      "damage_bonus": 1
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 6 (1d6+3) piercing damage."
     },
     {
       "name": "Teleport (Recharge 4-6)",
-      "desc": "The dog magically teleports, along with any equipment it is wearing or carrying, up to 40 ft. to an unoccupied space it can see. Before or after teleporting, the dog can make one bite attack."
+      "desc": "The blink dog teleports, along with any equipment it is wearing or carrying, up to 40 feet to an unoccupied space it can see. Before or after teleporting, the dog can make one Bite attack."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Keen Hearing and Smell",
-      "desc": "The dog has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      "name": "Fey Resilience",
+      "desc": "The blink dog is resistant to the charmed and unconscious conditions."
+    },
+    {
+      "name": "Heightened Hearing and Smell",
+      "desc": "The blink dog's Perception is 18 while perceiving by hearing or smell."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The blink dog has advantage on attack rolls against a creature if at least one of the dog's allies is within 5 feet of the creature and the ally isn't incapacitated."
     }
   ],
   "spell_list": [],
-  "page_no": 368,
-  "environments": [
-    "Jungle",
-    "Feywild",
-    "Forest",
-    "Grassland"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_blink-dog/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_blink-dog/"
 }

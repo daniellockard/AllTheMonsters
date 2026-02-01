@@ -1,20 +1,19 @@
 {
-  "slug": "sathaq-worm",
-  "desc": "_This titanic worm’s rocky hide is rough and hard as stone. Its yawning gullet writhes with miniature worms like itself._  \n**Elemental Predators.** Sathaq worms are nightmarish predators from the Plane of Elemental Earth, 30 feet long and 10 feet thick, with rugged brown hide embedded with stones. They devour stone and flesh with equal ease.  \n**Guts Filled with Larvae.** Sathaq worms are solitary; they approach each other only to mate. Their young incubate inside the worms’ gullets. Creatures they swallow are simultaneously digested by the parent worm and devoured by the larvae.  \n**Painful Presence.** Ultrasonic noise and magical ripples that tear at flesh and bone make the very presence of a sathaq worm extremely uncomfortable for creatures of the Material Plane.",
+  "slug": "sathaqworm-tob1-2023",
+  "desc": "False",
   "name": "Sathaq Worm",
   "size": "Huge",
   "type": "Elemental",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 16,
   "armor_desc": "natural armor",
-  "hit_points": 172,
-  "hit_dice": "15d12+75",
+  "hit_points": 149,
+  "hit_dice": "13d12 + 65",
   "speed": {
-    "walk": 20,
-    "burrow": 20,
-    "swim": 20
+    "walk": 40,
+    "burrow": 20
   },
   "strength": 22,
   "dexterity": 6,
@@ -28,56 +27,66 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 5,
+  "perception": 15,
   "skills": {
-    "perception": 5,
-    "stealth": 2
+    "Perception": 5,
+    "Stealth": 2
   },
-  "damage_vulnerabilities": "thunder",
-  "damage_resistances": "fire; bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
   "damage_immunities": "acid, poison",
-  "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
+  "condition_immunities": "exhaustion, paralyzed, petrified, poisoned",
   "senses": "tremorsense 60 ft., passive Perception 15",
-  "languages": "understands Deep Speech and Terran, but can't speak",
+  "languages": "understands Deep Speech and Terran but can’t speak",
   "challenge_rating": "10",
   "cr": 10,
   "actions": [
     {
+      "name": "Multiattack",
+      "desc": "The sathaq worm makes one Bite attack and two Slam attacks, or it makes three Slam attacks. It can replace its Bite attack with a use of Swallow."
+    },
+    {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Dexterity saving throw or be swallowed by the sathaq worm. A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside the worm, and takes 7 (2d6) bludgeoning damage plus 7 (2d6) slashing damage plus 7 (2d6) acid damage at the start of each of the sathaq worm's turns. The sathaq worm can have only one creature swallowed at a time. If the sathaq worm takes 20 damage or more on a single turn from a creature inside it, the sathaq worm must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls prone in a space within 5 feet of the sathaq worm. If the sathaq worm dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone.",
-      "attack_bonus": 10,
-      "damage_dice": "4d8"
+      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 24 (4d8 + 6) piercing damage, and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the sathaq worm can't Bite another target."
+    },
+    {
+      "name": "Slam",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 19 (3d8 + 6) bludgeoning damage."
+    },
+    {
+      "name": "Swallow",
+      "desc": "The sathaq worm makes one Bite attack against a Large or smaller creature it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is blinded and restrained, it has total cover against attacks and other effects outside the worm (including the worm's Agonizing Aura), and takes 10 (3d6) piercing damage and 10 (3d6) acid damage at the start of each of the sathaq worm's turns. The sathaq worm can have only one creature swallowed at a time."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Agonizing Aura",
-      "desc": "The sathaq worms' presence induces pain in creatures native to the Material Plane. Any creature that starts its turn within 30 feet of the sathaq worm must make a DC 17 Fortitude saving throw. On a failed save, the creature is poisoned until the start of its next turn. If a creature's saving throw succeeds, it is immune to the sathaq worm's Agonizing Aura for the next 24 hours."
+      "desc": "The sathaq worm emits ultrasonic noise and minor vibrations that cause pain and subtly disrupt the functions of most creatures. A creature that starts its turn within 15 feet of the sathaq worm must succeed on a DC 17 Constitution saving throw or have disadvantage on attack rolls until the start of its next turn. Creatures with resistance or immunity to thunder damage automatically succeed on the saving throw."
     },
     {
       "name": "Earth Glide",
-      "desc": "The sathaq worm can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn't disturb the material it moves through."
+      "desc": "The sathaq worm can burrow through nonmagical, unworked earth and stone. While doing so, the worm doesn't disturb the material it moves through."
+    },
+    {
+      "name": "Earthen Camouflage",
+      "desc": "The sathaq worm has advantage on Dexterity (Stealth) checks made to hide in sandy, muddy, or rocky terrain."
     },
     {
       "name": "Siege Monster",
       "desc": "The sathaq worm deals double damage to objects and structures."
-    },
-    {
-      "name": "Earthen Camoflage",
-      "desc": "The sathaq worm's stealth bonus is increased to +6 in sand, mud, or dirt."
     }
   ],
   "spell_list": [],
-  "page_no": 337,
+  "page_no": 317,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_sathaq-worm/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_sathaq-worm/"
 }

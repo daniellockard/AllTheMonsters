@@ -1,88 +1,89 @@
 {
-  "slug": "bearded-devil",
+  "slug": "bearded_devil_bf",
   "desc": "",
   "name": "Bearded Devil",
-  "size": "Medium",
+  "size": "medium",
   "type": "Fiend",
-  "subtype": "devil",
+  "subtype": "Devil",
   "group": "Devils",
-  "alignment": "Lawful Evil",
+  "alignment": "",
   "armor_class": 13,
   "armor_desc": "natural armor",
-  "hit_points": 52,
-  "hit_dice": "8d8+16",
+  "hit_points": 63,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
-  "strength": 16,
-  "dexterity": 15,
-  "constitution": 15,
-  "intelligence": 9,
-  "wisdom": 11,
-  "charisma": 11,
+  "strength": 20,
+  "dexterity": 14,
+  "constitution": 18,
+  "intelligence": 8,
+  "wisdom": 14,
+  "charisma": 10,
   "strength_save": 5,
-  "dexterity_save": null,
+  "dexterity_save": 2,
   "constitution_save": 4,
-  "intelligence_save": null,
+  "intelligence_save": -1,
   "wisdom_save": 2,
-  "charisma_save": null,
-  "perception": null,
+  "charisma_save": 0,
+  "perception": 12,
   "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
-  "damage_immunities": "fire, poison",
-  "condition_immunities": "poisoned",
-  "senses": "darkvision 120 ft., passive Perception 10",
-  "languages": "Infernal, telepathy 120 ft.",
+  "damage_resistances": "Devilish Resilience",
+  "damage_immunities": "Devilish Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft.",
+  "languages": "Infernal,telepathy 120 ft.",
   "challenge_rating": "3",
   "cr": 3,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The devil makes two attacks: one with its beard and one with its glaive."
+      "desc": "The devil makes two Beard Spines attacks and one Glaive attack."
     },
     {
-      "name": "Beard",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target can't regain hit points. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-      "attack_bonus": 5,
-      "damage_dice": "1d8",
-      "damage_bonus": 2
+      "name": "Beard Spines",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one creature. _Hit:_ 8 (2d4+3) piercing damage, and the target must succeed on a DC 13 CON save or be poisoned for 1 minute. While poisoned in this way, the target can't regain HP. The target can repeat the save at the end of each of its turns, ending the effect on itself on a success."
     },
     {
       "name": "Glaive",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) slashing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.",
-      "attack_bonus": 5,
-      "damage_dice": "1d10",
-      "damage_bonus": 3
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 10 ft., one target. _Hit:_ 8 (1d10+3) slashing damage. If the target is a creature other than a Construct or Undead, it must succeed on a DC 13 CON save or lose 3 (1d6) HP at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 3 (1d6). Any creature can take an action to stanch the wound with a successful DC 10 WIS (Medicine) check. The wound also closes if the target receives magical healing, provided the target is capable of regaining HP."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Enhance Pain",
+      "desc": "The bearded devil enhances the pain in one creature it can see within 30 feet of it that is poisoned from the devil's Beard Spines attack or suffering an infernal wound from the devil's Glaive attack. The target must succeed on a DC 13 CON save or be incapacitated until the end of its next turn, as it doubles over in pain."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Devil's Sight",
       "desc": "Magical darkness doesn't impede the devil's darkvision."
     },
     {
-      "name": "Magic Resistance",
-      "desc": "The devil has advantage on saving throws against spells and other magical effects."
+      "name": "Devilish Resilience",
+      "desc": "The devil is resistant to cold damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks. In addition, it is immune to fire damage and poison damage and to the poisoned condition."
     },
     {
-      "name": "Steadfast",
-      "desc": "The devil can't be frightened while it can see an allied creature within 30 feet of it."
+      "name": "Magic Resistance",
+      "desc": "The devil has advantage on saves against spells and other magical effects."
+    },
+    {
+      "name": "Show Mettle",
+      "desc": "While it can see a superior devil, such as a barbed devil, pit fiend, or similar, the bearded devil has advantage on saves against being charmed and frightened."
     }
   ],
   "spell_list": [],
-  "page_no": 274,
-  "environments": [
-    "Hell"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_bearded-devil/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_bearded-devil/"
 }

@@ -1,19 +1,19 @@
 {
-  "slug": "mirror-hag",
-  "desc": "_A mirror hag forces an unsuspecting creature to reflect on its own superficiality by gazing into the hag’s horrible face._  \n**Hideous Hex.** Until a creature can see past the hag’s deformities, it suffers the pain of a disfigured life. Some mirror hags do this for the betterment of all, but most do it because causing pain amuses them.  \n**Warped Features.** Mirror hags are hunchbacked, with growths and lesions covering their skin. Their joints misalign, and the extremities of their bones press against their skin. However, it is their faces that inspire legends: the blackest moles sprouting long white hairs, noses resembling half-eaten carrots, and eyes mismatched in size, color, and alignment. If a creature recoils from a mirror hag’s looks, she bestows her reconfiguring curse on it.  \n**Mirror Covens.** Mirror hags can form a coven with two other hags. Generally, mirror hags only form covens with other mirror hags, but from time to time a mirror hag will join a coven of witches or green hags.",
+  "slug": "mirrorhag-tob1-2023",
+  "desc": "False",
   "name": "Mirror Hag",
   "size": "Medium",
   "type": "Fey",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Neutral",
   "armor_class": 16,
   "armor_desc": "natural armor",
-  "hit_points": 168,
-  "hit_dice": "16d8+96",
+  "hit_points": 147,
+  "hit_dice": "14d8 + 84",
   "speed": {
-    "walk": 30,
-    "fly": 10
+    "walk": 10,
+    "fly": 30
   },
   "strength": 15,
   "dexterity": 16,
@@ -27,63 +27,51 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 12,
   "skills": {},
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "thunder",
-  "damage_immunities": "",
+  "damage_immunities": "False",
   "condition_immunities": "charmed, frightened",
   "senses": "darkvision 60 ft., passive Perception 12",
-  "languages": "Common",
+  "languages": "Common, Sylvan",
   "challenge_rating": "6",
   "cr": 6,
   "actions": [
     {
-      "name": "Multiattack",
-      "desc": "A mirror hag can use its Reconfiguring Curse and make one melee attack."
-    },
-    {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21 (4d8 + 3) piercing damage, or 39 (8d8 + 3) piercing damage against a stunned target.",
-      "attack_bonus": 6,
-      "damage_dice": "4d8"
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) piercing damage plus 5 (2d4) necrotic damage."
     },
     {
-      "name": "Quarterstaff",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d6"
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage plus 5 (2d4) necrotic damage."
     },
     {
       "name": "Reconfiguring Curse",
-      "desc": "The mirror hag curses a living creature within 60 feet, giving it beastly or hideous features. The target of the reconfiguring curse must succeed on a DC 15 Constitution saving throw or take 1d6 Charisma damage. A successful save renders the target immune to further uses of that hag's curse for 24 hours."
+      "desc": "The mirror hag curses one creature she can see within 60 feet of her, corrupting its form. The target must make a DC 15 Constitution saving throw. On a success, the target is immune to the hag's Reconfiguring Curse for the next 24 hours. On a failure, the target is cursed, suffering one of the following effects of the hag's choice: Disfigured. The target’s skin erupts with growths and lesions, and it has disadvantage on all Charisma checks made to influence Humanoids, except for Intimidation. Sickly. The target becomes frail and unhealthy, and it has disadvantage on Constitution saving throws. It regains only half its lost hp at the end of a long rest, and it halves the result of any Hit Dice rolled to restore hp during a short rest. Twisted. The target’s limbs and spine become bent and clumsy. It has disadvantage on all Dexterity checks and Dexterity saving throws, and its speed is reduced by 10 feet. Withered. The target’s muscles atrophy, and it has disadvantage on all Strength checks and Strength saving throws."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The mirror hag casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 15):\nAt will: disguise self, ray of enfeeblement\n1/day each: dispel magic, locate creature"
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Innate Spellcasting",
-      "desc": "the hag's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). She can innately cast the following spells, requiring no material components:\n\nat will: disguise self, inflict wounds (4d10), message, ray of enfeeblement\n\n1/day each: detect thoughts, dispel magic, lightning bolt, locate creature, shillelagh, stinking cloud, teleport"
-    },
-    {
-      "name": "Magic Resistance",
-      "desc": "The hag has advantage on saving throws against spells and other magical effects."
-    },
-    {
       "name": "Confounding Ugliness",
-      "desc": "When confronting a mirror hag at any range, a creature must make a choice at the start of each of its turns: either avert its eyes so that it has disadvantage on attack rolls against the hag until the start of its next turn, or look at the hag and make a DC 15 Constitution saving throw. Failure on the saving throw leaves the character stunned until the start of its next turn."
+      "desc": "Any Humanoid that starts its turn within 60 feet of the hag and can see the hag's true form must succeed on a DC 15 Wisdom saving throw or be incapacitated until the start of its next turn. If the Humanoid's saving throw is successful, it is immune to the hag's Confounding Ugliness for the next 24 hours."
     }
   ],
   "spell_list": [],
-  "page_no": 243,
+  "page_no": 227,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_mirror-hag/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_mirror-hag/"
 }

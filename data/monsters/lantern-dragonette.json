@@ -1,82 +1,80 @@
 {
-  "slug": "lantern-dragonette",
-  "desc": "_This cat-sized drake with a waxy appearance and a glow emanating from its belly can hover in midair, filling a small area with a warm glow._  \nThe lantern drake is named for its belly, which glows with a warm light. The beast's yellow, waxy scales darken with age, though lantern drakes rarely live more than 50 years or so. They weigh from 5 to 10 pounds and are 18 inches long. Most believe they are the result of an arcane fusion of a radiant spirit with a paper drake.  \n**Eat Candle Wax.** The drake devours four ounces of candle wax per day, plus four more ounces if it uses its belly lantern. A lantern dragonette’s unusual diet leads it to lair in libraries, abbeys, and other places of study. Even though the dragonettes eat candles essential for study during dark hours, they still provide light and protect their adopted homes. Residents and caretakers consider them good luck and enjoy conversing with them.  \n**Telepathic Chatterbox.** This gregarious drake prefers to speak with its companions but uses telepathy if necessary, and the creature hisses when surprised or displeased. It loves nothing more than discussing magic and history with an intelligent and informed individual.  \n**Adventurous Companions.** Occasionally, a dragonette wishing to learn more about the world finds a spellcaster or adventuring party to travel with, purely for the sake of learning or to acquire new sources of knowledge. Most parties enjoy the traveling light source and the abilities these companions bring to bear. A lantern dragonette avoids combat and uses its abilities only to escape or to defend its lair, family, and friends.  \nA dragonette lives up to 30 years. A mated pair produces one clutch of two to five eggs every five years, and one parent raises the young dragonettes until they mature after a year and leave to search for their own lairs. A cloister of lantern dragonettes taxes their lair’s resources, so the other parent often ventures out to retrieve more candles.",
+  "slug": "lanterndragonette-tob1-2023",
+  "desc": "False",
   "name": "Lantern Dragonette",
   "size": "Tiny",
   "type": "Dragon",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Lawful Neutral",
   "armor_class": 13,
   "armor_desc": "natural armor",
   "hit_points": 28,
-  "hit_dice": "8d4+8",
+  "hit_dice": "8d4 + 8",
   "speed": {
-    "hover": true,
-    "walk": 15,
-    "fly": 40
+    "walk": 40,
+    "fly": 15
   },
   "strength": 7,
-  "dexterity": 12,
+  "dexterity": 15,
   "constitution": 13,
   "intelligence": 16,
   "wisdom": 13,
   "charisma": 12,
   "strength_save": null,
-  "dexterity_save": 3,
+  "dexterity_save": null,
   "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": 3,
   "charisma_save": 3,
-  "perception": 3,
+  "perception": 13,
   "skills": {
-    "arcana": 5,
-    "history": 5,
-    "nature": 5,
-    "perception": 3,
-    "religion": 5
+    "Arcana": 5,
+    "History": 5,
+    "Nature": 5,
+    "Perception": 3,
+    "Religion": 5
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "paralyzed, unconscious",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 13",
-  "languages": "Common, Draconic, Elvish, Primordial; telepathy 60 ft.",
+  "languages": "Common, Draconic, Primordial, telepathy 60 ft.",
   "challenge_rating": "1/2",
   "cr": 0.5,
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.",
-      "attack_bonus": 3,
-      "damage_dice": "1d4"
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+    },
+    {
+      "name": "Fire Breath",
+      "desc": "The lantern dragonette breathes fire in a 15-foot cone. Each creature in the area must make a DC 11 Dexterity saving throw, taking 10 (3d6) fire damage on a failed save, or half the damage on a successful one."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Lantern Belly",
+      "desc": "The dragonette sheds bright light in a 20-foot radius and dim light for an additional 20 feet or stops shedding light. To shed light, it must have eaten at least 4 ounces of candle wax in the past 24 hours. It can shed light for up to 1 hour for every 4 ounces of candle wax it has eaten in the past 24 hours, to a maximum of 4 hours every 24 hours."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Lantern Belly (1/Day)",
-      "desc": "If the dragonette has eaten 8 ounces of candle wax in the last 24 hours, it can emit a continual flame for 3d20 minutes. The continual flame can be dispelled, but the dragonette can resume it with a bonus action except in areas of magical darkness, if the time limit hasn't expired."
-    },
-    {
-      "name": "Innate Spellcasting",
-      "desc": "the lantern dragonette's innate spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\n1/day each: burning hands, color spray, scorching ray"
-    },
-    {
-      "name": "Vulnerable to Magical Darkness",
-      "desc": "A lantern dragonette in an area of magical darkness loses its lantern belly ability and its ability to fly. It also suffers 1d6 radiant damage for every minute of exposure."
+      "name": "Magical Darkness Hypersensitivity",
+      "desc": "While in an area of magical darkness, the lantern dragonette can't fly or use Lantern Belly, and it takes 3 (1d6) necrotic damage each minute."
     }
   ],
   "spell_list": [],
-  "page_no": 270,
+  "page_no": 136,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_lantern-dragonette/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_lantern-dragonette/"
 }

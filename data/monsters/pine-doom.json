@@ -6,7 +6,7 @@
   "type": "Plant",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral",
+  "alignment": "neutral",
   "armor_class": 16,
   "armor_desc": "natural armor",
   "hit_points": 172,

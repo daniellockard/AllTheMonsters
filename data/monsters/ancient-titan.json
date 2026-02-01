@@ -1,18 +1,18 @@
 {
-  "slug": "ancient-titan",
-  "desc": "_Radiating a powerful presence, this towering humanoid has sharp-edged features that seem hewn from ancient stone._  \n**Children of the Gods.** Ancient titans are the surviving immortal children of an early primordial god. They fled to the wilds after a divine war, where they founded an empire that lasted thousands of years before plague brought about its collapse.  \n**Sea God’s Servants.** A few ancient titans still dwell in the ocean realm, spared by the sea god in exchange for eternal servitude. Ancient titans have long, glossy hair, usually black, red, or silver, and they stand 60 feet tall and weigh over 20 tons.  \n**Friends to Dragons.** Ancient titans have a strong rapport with wind and sea dragons, as well as gold, silver, and mithral dragons.",
+  "slug": "ancienttitan-tob1-2023",
+  "desc": "False",
   "name": "Ancient Titan",
   "size": "Gargantuan",
   "type": "Celestial",
-  "subtype": "titan",
-  "group": null,
+  "subtype": "",
+  "group": "null",
   "alignment": "Neutral Good",
   "armor_class": 15,
   "armor_desc": "breastplate",
   "hit_points": 198,
-  "hit_dice": "12d20+72",
+  "hit_dice": "12d20 + 72",
   "speed": {
-    "walk": 50
+    "walk": 30
   },
   "strength": 27,
   "dexterity": 13,
@@ -26,63 +26,63 @@
   "intelligence_save": null,
   "wisdom_save": 7,
   "charisma_save": 9,
-  "perception": 7,
+  "perception": 17,
   "skills": {
-    "athletics": 14,
-    "intimidation": 9,
-    "perception": 7
+    "Athletics": 12,
+    "Intimidation": 9,
+    "Perception": 7
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 120 ft., passive Perception 17",
-  "languages": "Common, Giant, Primordial, Titan, telepathy 120 ft.",
+  "languages": "Common, Giant, Primordial, telepathy 120 ft.",
   "challenge_rating": "12",
   "cr": 12,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The ancient titan makes two greatsword attacks or two longbow attacks"
+      "desc": "The ancient titan can use its Reality-Altering Words. It then makes two Greatsword attacks or three Word of Pain attacks."
     },
     {
       "name": "Greatsword",
-      "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 38 (8d6 + 8) slashing damage.",
-      "attack_bonus": 12,
-      "damage_dice": "8d6"
+      "desc": "Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 36 (8d6 + 8) slashing damage."
     },
     {
-      "name": "Longbow",
-      "desc": "Ranged Weapon Attack: +5 to hit, range 150/640 ft., one target. Hit: 19 (4d8 + 1) piercing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "4d8"
+      "name": "Word of Pain",
+      "desc": "Ranged Spell Attack:+9 to hit, range 120 ft., one target. Hit: 23 (4d8 + 5) force damage, and the target must succeed on a DC 17 Constitution saving throw or have disadvantage on attack rolls, ability checks, and saving throws until the end of its next turn as pain courses through its body."
     },
     {
-      "name": "Eldritch Singularity (Recharge 5-6)",
-      "desc": "The ancient titan opens a momentary rupture in the eldritch source that fuels its words of power. This rupture appears at a spot designated by the titan within 100 feet. Any creature within 60 feet of the spot must make a DC 17 Constitution saving throw. On a failure, the creature takes 28 (8d6) force damage, falls prone, and is pulled 1d6 x 10 feet toward the eldritch singularity, taking an additional 3 (1d6) bludgeoning damage per 10 feet they were dragged. If the saving throw succeeds, the target takes half as much force damage and isn't knocked prone or pulled. The spot where the rupture occurs becomes the center of a 60-foot-radius antimagic field until the end of the ancient titan's next turn. The titan's spells are not affected by this antimagic field."
+      "name": "Reality-Altering Words",
+      "desc": "The titan speaks a phrase that temporarily reshapes reality around it, warping the terrain, displacing creatures, and disrupting magic. Each creature within 30 feet of the titan must succeed on a DC 17 Dexterity saving throw or be pulled or pushed up to 25 feet toward or away from the titan (the titan's choice) and knocked prone. Instead of pushing or pulling a creature that failed the saving throw, the titan can end one magical effect of its choice of 4th level or lower on that creature. The area then becomes difficult terrain until the start of the titan's next turn. Moving through this difficult terrain doesn't cost the titan extra movement."
+    },
+    {
+      "name": "Stunning Word (Recharge 5-6)",
+      "desc": "The titan speaks a brief, echoing word of power at up to three creatures it can see within 60 feet of it. Each target must make a DC 17 Constitution saving throw. On a failure, a creature takes 45 (10d8) force damage and is stunned for 1 minute. On a success, a creature takes half the damage and isn't stunned. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
+    {
+      "name": "Amphibious",
+      "desc": "The ancient titan can breathe air and water."
+    },
     {
       "name": "Magic Resistance",
       "desc": "The ancient titan has advantage on saving throws against spells and other magical effects."
-    },
-    {
-      "name": "Innate Spellcasting",
-      "desc": "the ancient titan's spellcasting ability is Charisma (spell save DC 17). The ancient titan can innately cast the following spells, requiring no material components:\n\n3/day: power word stun\n\n1/day: power word kill"
     }
   ],
   "spell_list": [],
-  "page_no": 380,
+  "page_no": 361,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_ancient-titan/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_ancient-titan/"
 }

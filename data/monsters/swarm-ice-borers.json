@@ -6,7 +6,7 @@
   "type": "Elemental",
   "subtype": "",
   "group": null,
-  "alignment": "Unaligned",
+  "alignment": "unaligned",
   "armor_class": 12,
   "armor_desc": "",
   "hit_points": 40,

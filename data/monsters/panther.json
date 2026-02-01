@@ -1,87 +1,78 @@
 {
-  "slug": "panther",
+  "slug": "panther_bf",
   "desc": "",
   "name": "Panther",
-  "size": "Medium",
+  "size": "medium",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": "Animals",
+  "alignment": "",
   "armor_class": 12,
   "armor_desc": null,
-  "hit_points": 13,
-  "hit_dice": "3d8",
+  "hit_points": 15,
+  "hit_dice": "",
   "speed": {
     "walk": 50,
     "climb": 40
   },
   "strength": 14,
-  "dexterity": 15,
+  "dexterity": 14,
   "constitution": 10,
-  "intelligence": 3,
+  "intelligence": 2,
   "wisdom": 14,
-  "charisma": 7,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 4,
-  "skills": {
-    "perception": 4,
-    "stealth": 6
-  },
+  "charisma": 6,
+  "strength_save": 2,
+  "dexterity_save": 2,
+  "constitution_save": 0,
+  "intelligence_save": -4,
+  "wisdom_save": 2,
+  "charisma_save": -2,
+  "perception": 14,
+  "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 14",
-  "languages": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "-",
   "challenge_rating": "1/4",
   "cr": 0.25,
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one creature. _Hit:_ 5 (1d6+2) piercing damage."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) slashing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d4",
-      "damage_bonus": 2
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 4 (1d4+2) slashing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Stealthy Hunter",
+      "desc": "The panther takes the Hide action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Keen Smell",
-      "desc": "The panther has advantage on Wisdom (Perception) checks that rely on smell."
+      "name": "Heightened Smell",
+      "desc": "The panther's Perception is 19 when perceiving by smell."
     },
     {
       "name": "Pounce",
-      "desc": "If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action."
+      "desc": "If the panther moves at least 20 feet straight toward a creature and then hits it with a Claw attack on the same turn, that target must succeed on a DC 12 STR save or be knocked prone. If the target is prone, the panther can make one Bite attack against it as a bonus action."
     }
   ],
   "spell_list": [],
-  "page_no": 385,
-  "environments": [
-    "Hill",
-    "Jungle",
-    "Grassland",
-    "Forest"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_panther/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_panther/"
 }

@@ -1,84 +1,85 @@
 {
-  "slug": "dorreq",
-  "desc": "_These twitching balls of tentacles surround an inhuman face dominated by a squid-like beak._  \n**Servants of the Void.** The dorreqi are servants to ancient horrors of the void and realms beyond human understanding. They are guardians and sentries for such creatures, and they swarm and attack any creatures approaching too close to the elder aberrations they serve.  \n**Death from Above.** Dorreq prefer to drop on their victims from above, pinning them in a grapple attack with their many tentacles and biting them with their large chitinous beaks.",
+  "slug": "dorreq-tob1-2023",
+  "desc": "False",
   "name": "Dorreq",
   "size": "Medium",
   "type": "Aberration",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 15,
   "armor_desc": "natural armor",
   "hit_points": 93,
-  "hit_dice": "17d8+17",
+  "hit_dice": "17d8 + 17",
   "speed": {
-    "walk": 20,
-    "climb": 15
+    "walk": 15
   },
   "strength": 19,
   "dexterity": 19,
   "constitution": 13,
   "intelligence": 11,
   "wisdom": 8,
-  "charisma": 6,
+  "charisma": 10,
   "strength_save": null,
   "dexterity_save": 6,
   "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 3,
+  "perception": 11,
   "skills": {
-    "perception": 3,
-    "stealth": 8
+    "Intimidation": 2,
+    "Perception": 1,
+    "Stealth": 8
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "acid, cold, lightning",
-  "damage_immunities": "",
-  "condition_immunities": "",
-  "senses": "darkvision 60 ft., passive Perception 13",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 11",
   "languages": "Void Speech",
   "challenge_rating": "4",
   "cr": 4,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The dorreq makes two tentacle attacks and one bite attack. If both tentacle attacks hit, the target is grappled (escape DC 14)."
+      "desc": "The dorreq makes one Bite attack and two Tentacles attacks."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) piercing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "4d8"
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage."
     },
     {
-      "name": "Tentacle",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage. If both tentacles hit the same target in a single turn, the target is grappled (escape DC 14) and pulled within reach of the bite attack, if it was farther than 5 feet away. The target must be size Large or smaller to be pulled this way. The dorreq can maintain a grapple on one Large, two Medium, or two Small creatures at one time.",
-      "attack_bonus": 6,
-      "damage_dice": "1d8"
+      "name": "Tentacles",
+      "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage, and if the target is a Medium or smaller creature, it is grappled (escape DC 14) and pulled up to 5 feet closer to the dorreq. Until this grapple ends, the target is restrained. The dorreq can grapple up to two creatures at a time."
     },
     {
-      "name": "Entanglement",
-      "desc": "Any creature that starts its turn within 10 feet of a dorreq must make a successful DC 14 Dexterity saving throw each round or be restrained by the dorreq's tentacles until the start of its next turn. On its turn, the dorreq can ignore or freely release a creature in the affected area."
+      "name": "Void Thrum (Recharge 5-6)",
+      "desc": "The dorreq emits a barely audible, vibrating thrum laced with Void energy. Each creature within 20 feet of the dorreq must make a DC 14 Constitution saving throw, taking 10 (3d6) thunder damage and 10 (3d6) necrotic damage on a failed save, or half as much damage on a successful one."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Stone Step",
+      "desc": "The dorreq teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. The origin and destination spaces must contain a stone or rocky surface, such as a cliff face or rocky terrain."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Innate Spellcasting",
-      "desc": "The dorreq's innate spellcasting ability is Intelligence (spell save DC 10). It can innately cast the following spells, requiring no material components: 3/day each: blink, dimension door, haste, shatter Wasteland Stride. This ability works like tree stride, but the dorreq can use it to sink into and appear out of any sandy or rocky ground, and the range is only 30 ft. Using this ability replaces the dorreq's usual movement."
+      "name": "Void Warping",
+      "desc": "The area around the dorreq is warped by its connection to the Void. A creature that starts its turn within 20 feet of the dorreq must succeed on a DC 14 Strength saving throw or its speed is halved until the start of its next turn."
     }
   ],
   "spell_list": [],
-  "page_no": 124,
+  "page_no": 110,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_dorreq/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_dorreq/"
 }

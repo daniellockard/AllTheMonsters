@@ -1,22 +1,22 @@
 {
-  "slug": "fext",
-  "desc": "_Taut dead skin, adorned entirely with tattooed fish scales, covers this woman’s face and hands. She wears scaled armor, sea green like verdigris on copper, and wields a strange sword. Her pale eyes stare, unblinking._  \n**Undead Warlock Slaves.** Ancient and powerful beings across the multiverse grant magical knowledge to mortals through dangerous pacts. Those bound to these pacts become warlocks, but the will and force of their patron is borne by more than just those who strike bargains for sorcerous power. A fext is a former warlock who has become wholly dedicated to their patron—mind, body, and soul—and functions as enforcer, bodyguard, and assassin. They are powerful undead slaves to the will of their otherworldly patron.  \n**Linked to a Master.** Each fext is a unique servant of their patron and exhibits the physical traits of its master. The eyes of every fext are tied directly to their patron’s mind, who can see what the fext sees at any time. The fext also possesses a telepathic link to its patron.  \nThe process a warlock undergoes to become a fext is horrendous. The warlock is emptied of whatever morality and humanity he or she had as wine from a jug, and the patron imbues the empty vessel with its corruption and unearthly will. Whatever life the fext led before is completely gone. They exist only to serve.  \n**Outdoing Rivals.** Scholars have debated about how many fext a patron can command. The more powerful and well-established have at least 100, while others have only a handful. Where there is more than one fext, however, they maneuverings amongst themselves to curry favor with their powerful lord. Each fext is bound to obey commands, but they attempt to carry them out to the detriment of their competitors. Scheming is common and rampant among them and they try to work without the aid of other fext as much as possible.  \n**Undead Nature.** A fext doesn’t require air, food, drink, or sleep.",
+  "slug": "fext-tob1-2023",
+  "desc": "False",
   "name": "Fext",
   "size": "Medium",
   "type": "Undead",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Any Alignment",
   "armor_class": 17,
-  "armor_desc": "natural armor",
-  "hit_points": 60,
-  "hit_dice": "11d8+11",
+  "armor_desc": "Patron’s Blessing",
+  "hit_points": 77,
+  "hit_dice": "14d8 + 14",
   "speed": {
     "walk": 30
   },
   "strength": 14,
   "dexterity": 16,
-  "constitution": 1,
+  "constitution": 12,
   "intelligence": 14,
   "wisdom": 12,
   "charisma": 18,
@@ -25,66 +25,66 @@
   "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": 4,
-  "charisma_save": 7,
-  "perception": 4,
+  "charisma_save": null,
+  "perception": 14,
   "skills": {
-    "perception": 4
+    "Perception": 4
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "bludgeoning, piercing, and slashing damage with nonmagical weapons",
-  "damage_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_immunities": "poison",
   "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
-  "senses": "darkvision 60 ft., passive Perception 14",
-  "languages": "the languages spoken by its patron",
+  "senses": "darkvision 60 ft., truesight 20 ft., passive Perception 14",
+  "languages": "the languages it knew in life",
   "challenge_rating": "6",
   "cr": 6,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The fext makes two melee or ranged attacks."
+      "desc": "The fext makes two Eldritch Blade or Eldritch Fury attacks."
     },
     {
       "name": "Eldritch Blade",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage plus 16 (3d10) force damage.",
-      "attack_bonus": 5,
-      "damage_dice": "2d6+2"
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage plus 9 (2d8) force damage."
     },
     {
       "name": "Eldritch Fury",
-      "desc": "Ranged Weapon Attack: +6 to hit, range 60/200 ft., one creature. Hit: 25 (4d10 + 3) force damage.",
-      "attack_bonus": 6,
-      "damage_dice": "4d10"
+      "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 17 (3d8 + 4) force damage."
+    },
+    {
+      "name": "Patron's Might (Recharge 5-6)",
+      "desc": "The fext channels its patron's awe-inspiring presence, terrifying those nearby. Each creature within 10 feet of the fext must make a DC 15 Wisdom saving throw. On a failure, a creature takes 35 (10d6) psychic damage and is frightened for 1 minute. On a success, a creature takes half the damage and isn't frightened. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Innate Spellcasting",
-      "desc": "the fext's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:at will: hex3/day each: counterspell, fear, gaseous form1/day each: hold monster, true seeing"
+      "name": "Eldritch Weapons",
+      "desc": "The fext's weapon attacks are magical. When the fext hits with any weapon, the weapon deals an extra 2d8 force damage (included in the attack)."
     },
     {
       "name": "Magic Resistance",
       "desc": "The fext has advantage on saving throws against spells and other magical effects."
     },
     {
-      "name": "Magic Weapons",
-      "desc": "The fext's weapon attacks are magical."
+      "name": "Patron's Blessing",
+      "desc": "While the fext is conscious and wearing no armor and wielding no shield, it adds its Charisma modifier to its AC (included above)."
     },
     {
-      "name": "Patron Blessing",
-      "desc": "A fext is infused with a portion of their patron's power. They have an Armor Class equal to 10 + their Charisma modifier + their Dexterity modifier."
+      "name": "Undead Nature",
+      "desc": "The fext doesn't require air, food, drink, or sleep."
     }
   ],
   "spell_list": [],
-  "page_no": 183,
+  "page_no": 171,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_fext/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_fext/"
 }

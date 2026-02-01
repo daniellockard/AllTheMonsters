@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "elf",
   "group": null,
-  "alignment": "Any Alignment",
+  "alignment": "any alignment",
   "armor_class": 12,
   "armor_desc": "15 with mage armor",
   "hit_points": 58,

@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "npc:-first-servant",
   "desc": "",
   "name": "Npc: First Servant",
@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Any Alignment",
+  "alignment": "any alignment",
   "armor_class": 17,
   "armor_desc": "Armor of Foresight",
   "hit_points": 162,

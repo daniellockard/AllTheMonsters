@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "npc:-infested-duelist",
   "desc": "",
   "name": "Npc: Infested Duelist",
@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Chaotic Neutral",
+  "alignment": "chaotic neutral",
   "armor_class": 18,
   "armor_desc": "natural armor",
   "hit_points": 144,

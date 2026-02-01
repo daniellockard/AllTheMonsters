@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "dark folk",
   "group": null,
-  "alignment": "Neutral Evil",
+  "alignment": "neutral evil",
   "armor_class": 16,
   "armor_desc": "breastplate",
   "hit_points": 71,

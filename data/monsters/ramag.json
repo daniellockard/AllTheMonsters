@@ -1,11 +1,11 @@
 {
-  "slug": "ramag",
-  "desc": "_These few denizens of a blasted desert waste now huddle in the remains of an ancient city—a city magically scattered across hundreds of miles._  \n**Once Human.** The ramag were a powerful tribe of dimensional sorcerers allied with a great society of titans, and they were indeed human in ages past. Over time, strange practices warped them into their current state, and they are clearly no longer purely human. Their limbs grow too long in proportion to their bodies, giving them a stooped, odd posture. Their features are angular, and a ramag’s hair is impossibly thick; each strand is the width of a human finger. They wear their strange hair tied back in decorative clasps.  \n**Portal Network.** The ramag used their innate magical gifts to maintain powerful magical conduits, ley lines that crisscrossed the titan’s empire. This mastery of arcane might allowed instantaneous travel to the farthest-flung outpost. The ramag still maintain a network of magical monoliths that connect the scattered districts of their home, but this network is frayed and fading.  \n**Studious and Powerful.** Although physically weak, the ramag are sharp-witted, studious, and naturally infused with magic. Lifetimes of exposure to the warping effect of their runaway magical energy have given the ramag innate control over magic, as well as sharp resistance to it. They are acutely aware of their responsibility for keeping magic in check, and fully know the danger of uncontrolled magical energies. Even the the lowliest ramag has a sharp intellect and a natural understanding of magic. Many ramag take up the study of wizardry. Few become wandering adventurers, but well-equipped expeditions sometimes leave their homeland to inspect the surrounding countryside.",
+  "slug": "ramag-tob1-2023",
+  "desc": "False",
   "name": "Ramag",
   "size": "Medium",
   "type": "Humanoid",
-  "subtype": "ramag",
-  "group": null,
+  "subtype": "",
+  "group": "null",
   "alignment": "Neutral",
   "armor_class": 13,
   "armor_desc": "leather armor",
@@ -26,15 +26,15 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 11,
   "skills": {
-    "arcana": 5,
-    "investigation": 5
+    "Arcana": 5,
+    "Investigation": 5
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "passive Perception 11",
   "languages": "Common",
   "challenge_rating": "1/4",
@@ -42,34 +42,39 @@
   "actions": [
     {
       "name": "Scimitar",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6"
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
     },
     {
       "name": "Shortbow",
-      "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6"
+      "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Portal Traveler (Recharge 5-6)",
+      "desc": "The ramag creates and steps into a small portal and out of an identical portal in a space it can see within 60 feet of it. If a creature is in the destination space, the creature must make a DC 13 Intelligence saving throw. On a failure, the ramag trades spaces with the creature. On a success, the ramag fails to teleport. Whatever the result, the portal disappears."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Magic Resistance",
       "desc": "The ramag has advantage on saving throws against spells or other magical effects."
+    },
+    {
+      "name": "Portal Sense",
+      "desc": "The ramag can pinpoint the location of planar portals within 100 feet of it and can sense the general direction of planar portals within 1 mile of it. In addition, if the ramag spends 10 minutes studying a portal, it can determine the portal's destination and any requirements to use or activate it."
     }
   ],
   "spell_list": [],
-  "page_no": 317,
+  "page_no": 299,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_ramag/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_ramag/"
 }

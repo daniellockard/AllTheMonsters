@@ -1,16 +1,16 @@
 {
-  "slug": "tosculi-drone",
-  "desc": "The tosculi are a race of wasp-folk that share the Golden Song of the hive, which unites them under the command and iron rule of their queen. Each hive has its own song, and most tosculi hives are predatory, dangerous places—quick to turn to banditry, cattle theft, and raiding against small villages.  \nThose few tosculi who do not hear their queen’s Golden Song are the Hiveless, driven out of the embrace of the hive to attempt survive on their own.  \nTosculi drones are the workers of the tosculi hive; the smallest, weakest, least intelligent, and most abundant of the wasp folk. Their carapaces are mostly iridescent blue with gold abdomens and lower legs. A drone stands between 3 and 4 feet tall, and weighs around 50 lb. They have only vestigial wings, so they can glide but not truly fly.  \n**One-Way Scouts.** Drones function primarily as menial workers but, during time of war, they also act as highly expendable scouts and soldiers. Because the warriors know whatever a drone knows (thanks to the hive-queen), a drone doesn’t need to survive its scouting mission to deliver useful information.",
+  "slug": "tosculidrone-tob1-2023",
+  "desc": "False",
   "name": "Tosculi Drone",
   "size": "Small",
-  "type": "Monstrosity",
+  "type": "Humanoid",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Lawful Evil",
   "armor_class": 13,
   "armor_desc": "",
   "hit_points": 22,
-  "hit_dice": "4d6+8",
+  "hit_dice": "4d6 + 8",
   "speed": {
     "walk": 20
   },
@@ -26,51 +26,47 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 11,
   "skills": {},
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 11",
   "languages": "Tosculi",
   "challenge_rating": "1/2",
   "cr": 0.5,
   "actions": [
     {
-      "name": "Claws",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "2d4"
-    },
-    {
-      "name": "Light Crossbow",
-      "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d8"
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Gliding Wings",
-      "desc": "The tosculi drone can use its wings to slowly descend when falling (as if under the effect of the feather fall spell). It can move up to 5 feet horizontally for every foot it falls. The tosculi drone can't gain height with these wings alone. If subjected to a strong wind or lift of any kind, it can use the updraft to glide farther."
+      "name": "Crowd Tactics",
+      "desc": "The tosculi can share its space with up to one other tosculi. While sharing its space with one other tosculi, it has advantage on attack rolls against a creature if the other tosculi in its space isn't incapacitated."
     },
     {
-      "name": "Skittering",
-      "desc": "Up to two tosculi can share the same space at one time. The tosculi has advantage on melee attack rolls while sharing its space with another tosculi that isn't incapacitated."
+      "name": "Glide",
+      "desc": "The tosculi can extend its vestigial wings while falling to slow its rate of descent to 60 feet per round, landing on its feet and taking no falling damage. It can move up to 5 feet horizontally for every 1 foot it falls. The tosculi can't gain height with its wings alone. If subjected to a strong wind or lift of any kind, it can use the updraft to glide farther."
+    },
+    {
+      "name": "Hive Sense",
+      "desc": "The tosculi can pinpoint the location of its hive queen when she is within 300 feet of it, and it can sense the general direction and distance to the hive where its queen makes her home."
     }
   ],
   "spell_list": [],
-  "page_no": 386,
+  "page_no": 367,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_tosculi-drone/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_tosculi-drone/"
 }

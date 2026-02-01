@@ -1,120 +1,103 @@
 {
-  "slug": "androsphinx",
+  "slug": "androsphinx_bf",
   "desc": "",
   "name": "Androsphinx",
-  "size": "Large",
+  "size": "large",
   "type": "Monstrosity",
   "subtype": "",
   "group": "Sphinxes",
-  "alignment": "Lawful Neutral",
+  "alignment": "",
   "armor_class": 17,
   "armor_desc": "natural armor",
-  "hit_points": 199,
-  "hit_dice": "19d10+95",
+  "hit_points": 284,
+  "hit_dice": "",
   "speed": {
     "walk": 40,
     "fly": 60
   },
   "strength": 22,
-  "dexterity": 10,
-  "constitution": 20,
-  "intelligence": 16,
-  "wisdom": 18,
-  "charisma": 23,
-  "strength_save": null,
-  "dexterity_save": 6,
+  "dexterity": 20,
+  "constitution": 32,
+  "intelligence": 28,
+  "wisdom": 30,
+  "charisma": 22,
+  "strength_save": 6,
+  "dexterity_save": 5,
   "constitution_save": 11,
   "intelligence_save": 9,
   "wisdom_save": 10,
-  "charisma_save": null,
-  "perception": 10,
-  "skills": {
-    "arcana": 9,
-    "perception": 10,
-    "religion": 15
-  },
+  "charisma_save": 6,
+  "perception": 20,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "psychic; bludgeoning, piercing, and slashing from nonmagical attacks",
-  "condition_immunities": "charmed, frightened",
-  "senses": "truesight 120 ft., passive Perception 20",
-  "languages": "Common, Sphinx",
+  "damage_resistances": "Monstrosity Resilience",
+  "damage_immunities": "psychic; bludgeoning,piercing,and slashing damage from nonmagical attacks,charmed,frightened",
+  "condition_immunities": "",
+  "senses": "truesight 120 ft.",
+  "languages": "Common,Sphinx",
   "challenge_rating": "17",
   "cr": 17,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The sphinx makes two claw attacks."
+      "desc": "The sphinx makes four Claw or Arcane Bolt attacks. It can replace one attack with a use of Spellcasting."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 17 (2d10 + 6) slashing damage.",
-      "attack_bonus": 12,
-      "damage_dice": "2d10",
-      "damage_bonus": 6
+      "desc": "_Melee Weapon Attack:_ +12 to hit, reach 5 ft., one target. _Hit:_ 17 (2d10+6) slashing damage plus 9 (2d8) force damage."
     },
     {
-      "name": "Roar (3/Day)",
-      "desc": "The sphinx emits a magical roar. Each time it roars before finishing a long rest, the roar is louder and the effect is different, as detailed below. Each creature within 500 feet of the sphinx and able to hear the roar must make a saving throw.\n**First Roar.** Each creature that fails a DC 18 Wisdom saving throw is frightened for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n**Second Roar.** Each creature that fails a DC 18 Wisdom saving throw is deafened and frightened for 1 minute. A frightened creature is paralyzed and can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n**Third Roar.** Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone."
+      "name": "Arcane Bolt",
+      "desc": "_Ranged Spell Attack:_ +12 to hit, range 120 ft., one target. _Hit:_ 24 (4d8+6) force damage."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The sphinx casts one of the following spells, requiring no material components and using WIS as the spellcasting ability (spell save DC 18).<br>At will: _command_, _detect evil and good_, _thaumaturgy_<br>3/day each: _dispel magic_, _restoration_, _tongues_, _zone of truth_<br>2/day each: _freedom of movement_, _greater restoration_<br>1/day: _heal_"
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
+  "bonus_actions": [
+    {
+      "name": "Roar",
+      "desc": "The sphinx emits one of the following magical roars. Each roar is audible up to 300 feet away. When it roars, the sphinx chooses up to three creatures it can see within 120 feet of it to be affected by the roar. A creature that fails a save and is affected by an ongoing effect can repeat the save at the end of each of its turns, ending the effect on itself on a success.\n- **Rumbling Roar.** This deep roar rumbles through each target's body, rattling it to its bones. Each target must succeed on a DC 18 CON save or deal only half damage with weapon attacks that use STR or DEX for 1 minute.\n- **Terrifying Roar.** This shrill roar tugs at the self-preservation instincts within creatures. Each target must succeed on a DC 18 WIS save or be frightened for 1 minute. While frightened, a creature's speed is 0. If a creature fails the save by 5 or more, it is also paralyzed while frightened.\n- **Thunderous Roar.** This booming roar slams against the chosen creatures. Each target must succeed on a DC 18 STR save or be pushed up to 15 feet away from the sphinx, knocked prone, and deafened for 1 minute."
+    }
+  ],
+  "reactions": [],
   "legendary_desc": "The sphinx can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The sphinx regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
-      "name": "Claw Attack",
-      "desc": "The sphinx makes one claw attack."
-    },
-    {
-      "name": "Teleport (Costs 2 Actions)",
+      "name": "Teleport",
       "desc": "The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
     },
     {
-      "name": "Cast a Spell (Costs 3 Actions)",
-      "desc": "The sphinx casts a spell from its list of prepared spells, using a spell slot as normal."
+      "name": "Cast a Spell (Costs 2 Actions)",
+      "desc": "The sphinx uses Spellcasting."
+    },
+    {
+      "name": "Lacerating Swipe (Costs 2 Actions)",
+      "desc": "The sphinx rears up on its hind legs, wings fluttering, and swipes in a wide arc with both its forepaws. Each creature in a 15-foot cone must succeed on a DC 18 DEX save or take 11 (2d10) slashing damage and suffer a bleeding wound. A creature with a bleeding wound loses 5 (1d10) HP at the start of each of its turns. Any creature can take an action to stanch the wound with a successful DC 18 WIS (Medicine) check. The wound also closes if the bleeding creature receives magical healing."
     }
   ],
   "special_abilities": [
     {
       "name": "Inscrutable",
-      "desc": "The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage."
+      "desc": "The sphinx is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. WIS (Insight) checks made to ascertain the sphinx's intentions or sincerity have disadvantage."
     },
     {
-      "name": "Magic Weapons",
-      "desc": "The sphinx's weapon attacks are magical."
+      "name": "Magical Claws",
+      "desc": "The sphinx's Claw attacks are magical. When the sphinx hits with a Claw attack, the Claw deals an extra 2d8 force damage (included in the attack)."
     },
     {
-      "name": "Spellcasting",
-      "desc": "The sphinx is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). It requires no material components to cast its spells. The sphinx has the following cleric spells prepared:\n\n* Cantrips (at will): sacred flame, spare the dying, thaumaturgy\n* 1st level (4 slots): command, detect evil and good, detect magic\n* 2nd level (3 slots): lesser restoration, zone of truth\n* 3rd level (3 slots): dispel magic, tongues\n* 4th level (3 slots): banishment, freedom of movement\n* 5th level (2 slots): flame strike, greater restoration\n* 6th level (1 slot): heroes' feast"
+      "name": "Monstrosity Resilience",
+      "desc": "The sphinx is resistant to exhaustion and to the frightened condition."
     }
   ],
-  "spell_list": [
-    "https://api.open5e.com/v2/spells/sacred-flame/",
-    "https://api.open5e.com/v2/spells/spare-the-dying/",
-    "https://api.open5e.com/v2/spells/thaumaturgy/",
-    "https://api.open5e.com/v2/spells/command/",
-    "https://api.open5e.com/v2/spells/detect-evil-and-good/",
-    "https://api.open5e.com/v2/spells/detect-magic/",
-    "https://api.open5e.com/v2/spells/lesser-restoration/",
-    "https://api.open5e.com/v2/spells/zone-of-truth/",
-    "https://api.open5e.com/v2/spells/dispel-magic/",
-    "https://api.open5e.com/v2/spells/tongues/",
-    "https://api.open5e.com/v2/spells/banishment/",
-    "https://api.open5e.com/v2/spells/freedom-of-movement/",
-    "https://api.open5e.com/v2/spells/flame-strike/",
-    "https://api.open5e.com/v2/spells/greater-restoration/",
-    "https://api.open5e.com/v2/spells/heroes-feast/"
-  ],
-  "page_no": 347,
-  "environments": [
-    "Desert",
-    "Ruins"
-  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_androsphinx/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_androsphinx/"
 }

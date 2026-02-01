@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "any race",
   "group": "Elemental Wardens",
-  "alignment": "Neutral Good",
+  "alignment": "neutral good",
   "armor_class": 14,
   "armor_desc": "hide armor of cold resistance",
   "hit_points": 77,

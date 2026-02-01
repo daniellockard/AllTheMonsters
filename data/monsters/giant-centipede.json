@@ -1,25 +1,25 @@
 {
-  "slug": "giant-centipede",
+  "slug": "giant-centipede-a5e",
   "desc": "",
   "name": "Giant Centipede",
   "size": "Small",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
-  "armor_class": 13,
-  "armor_desc": "natural armor",
-  "hit_points": 4,
-  "hit_dice": "1d6+1",
+  "group": null,
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 9,
+  "hit_dice": "2d6+2",
   "speed": {
     "walk": 30,
     "climb": 30
   },
-  "strength": 5,
+  "strength": 4,
   "dexterity": 14,
   "constitution": 12,
   "intelligence": 1,
-  "wisdom": 7,
+  "wisdom": 6,
   "charisma": 3,
   "strength_save": null,
   "dexterity_save": null,
@@ -40,10 +40,7 @@
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or take 10 (3d6) poison damage. If the poison damage reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, even after regaining hit points, and is paralyzed while poisoned in this way.",
-      "attack_bonus": 4,
-      "damage_dice": "1d4",
-      "damage_bonus": 2
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage and the target makes a DC 11 Constitution saving throw  taking 10 (3d6) poison damage on a failure. If the poison damage reduces the target to 0 hit points  it is made stable but poisoned for 1 hour  even if it regains hit points  and it is paralyzed while poisoned in this way."
     }
   ],
   "bonus_actions": null,
@@ -52,17 +49,12 @@
   "legendary_actions": null,
   "special_abilities": null,
   "spell_list": [],
-  "page_no": 374,
-  "environments": [
-    "Underdark",
-    "Ruin",
-    "Urban",
-    "Caverns"
-  ],
+  "page_no": 445,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_giant-centipede/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_giant-centipede/"
 }

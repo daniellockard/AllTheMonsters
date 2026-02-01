@@ -1,20 +1,19 @@
 {
-  "slug": "drakon",
-  "desc": "_These winged snakes are coastal beasts and sometimes confused with true dragons or wyverns. They are neither, but quite deadly in their own right._  \n**Searing Acid.** Drakon fangs do not deliver venom; volatile acid constantly burbles up from a drakon's stomach and enhances its attacks. A caustic drool clings to creatures they bite, and drakons can also belch clouds of searing vapor. Their lairs reek with acidic vapors and droplets of searing liquid.  \n**Dissolving Gaze.** The gaze of a drakon can paralyze creatures and dissolve them.  \n**Coastal Beasts.** Drakons lair along warm, largely uninhabited coasts, where they explore the shores and the coastal shelf, spending as much time above the waves as under them. Fortunately, they rarely travel far inland.",
+  "slug": "drakon-tob1-2023",
+  "desc": "False",
   "name": "Drakon",
   "size": "Large",
-  "type": "Beast",
+  "type": "Dragon",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Unaligned",
   "armor_class": 16,
   "armor_desc": "natural armor",
   "hit_points": 105,
-  "hit_dice": "14d10+28",
+  "hit_dice": "14d10 + 28",
   "speed": {
-    "walk": 30,
-    "fly": 60,
-    "swim": 40
+    "walk": 40,
+    "fly": 30
   },
   "strength": 14,
   "dexterity": 19,
@@ -28,58 +27,58 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 4,
+  "perception": 14,
   "skills": {
-    "perception": 4,
-    "stealth": 7
+    "Perception": 4,
+    "Stealth": 7
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "acid",
-  "damage_immunities": "",
+  "damage_immunities": "False",
   "condition_immunities": "paralyzed",
   "senses": "darkvision 60 ft., passive Perception 14",
-  "languages": "-",
+  "languages": "—",
   "challenge_rating": "5",
   "cr": 5,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The drakon makes one bite attack and one tail attack."
+      "desc": "The drakon makes one Bite attack and one Tail attack."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 10 (4d4) acid damage.",
-      "attack_bonus": 7,
-      "damage_dice": "2d6"
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) piercing damage plus 10 (4d4) acid damage."
     },
     {
       "name": "Tail",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage.",
-      "attack_bonus": 7,
-      "damage_dice": "1d8"
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 8 (1d8 + 4) bludgeoning damage."
     },
     {
       "name": "Acid Breath (Recharge 5-6)",
-      "desc": "The drakon exhales acidic vapors in a 15-foot cone. Each creature in that area takes 28 (8d6) acid damage, or half damage with a successful DC 13 Constitution saving throw."
+      "desc": "The drakon exhales acidic vapors in a 15-foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 28 (8d6) acid damage on a failed save, or half as much damage on a successful one."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
+      "name": "Amphibious",
+      "desc": "The drakon can breathe air and water."
+    },
+    {
       "name": "Dissolving Gaze",
-      "desc": "When a creature that can see the drakon's eyes starts its turn within 30 feet of the drakon, the drakon can force it to make a DC 13 Constitution saving throw if the drakon isn't incapacitated and can see the creature. On a failed saving throw, the creature takes 3 (1d6) acid damage, its hit point maximum is reduced by an amount equal to the acid damage it takes (which ends after a long rest), and it's paralyzed until the start of its next turn. Unless surprised, a creature can avert its eyes at the start of its turn to avoid the saving throw. If the creature does so, it can't see the drakon until the start of its next turn, when it chooses again whether to avert its eyes. If the creature looks at the drakon before then, it must immediately make the saving throw."
+      "desc": "When a creature that can see the drakon's eyes starts its turn within 30 feet of the drakon, the drakon can force it to make a DC 13 Constitution saving throw if the drakon isn't incapacitated and can see the creature. On a failed save, the creature takes 3 (1d6) acid damage, its hp maximum is reduced by an amount equal to the acid damage it takes, and it is paralyzed until the start of its next turn. This reduction lasts until the creature finishes a long rest. The creature dies if this effect reduces its hp maximum to 0."
     }
   ],
   "spell_list": [],
-  "page_no": 157,
+  "page_no": 147,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_drakon/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_drakon/"
 }

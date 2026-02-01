@@ -6,7 +6,7 @@
   "type": "Fiend",
   "subtype": "devil",
   "group": null,
-  "alignment": "Lawful Evil",
+  "alignment": "lawful evil",
   "armor_class": 17,
   "armor_desc": "natural armor",
   "hit_points": 275,

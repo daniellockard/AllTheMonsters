@@ -1,91 +1,77 @@
 {
-  "slug": "drow",
+  "slug": "drow_bf",
   "desc": "",
   "name": "Drow",
-  "size": "Medium",
+  "size": "medium",
   "type": "Humanoid",
-  "subtype": "elf",
-  "group": null,
-  "alignment": "Neutral Evil",
+  "subtype": "",
+  "group": "Elf",
+  "alignment": "",
   "armor_class": 15,
   "armor_desc": "chain shirt",
-  "hit_points": 13,
-  "hit_dice": "3d8",
+  "hit_points": 12,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
-  "strength": 10,
+  "strength": 14,
   "dexterity": 14,
   "constitution": 10,
-  "intelligence": 11,
-  "wisdom": 11,
+  "intelligence": 10,
+  "wisdom": 10,
   "charisma": 12,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 2,
-  "skills": {
-    "perception": 2,
-    "stealth": 4
-  },
+  "strength_save": 2,
+  "dexterity_save": 2,
+  "constitution_save": 0,
+  "intelligence_save": 0,
+  "wisdom_save": 0,
+  "charisma_save": 1,
+  "perception": 12,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_resistances": "Fey Ancestry",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 120 ft., passive Perception 12",
-  "languages": "Elvish, Undercommon",
+  "senses": "darkvision 120 ft.",
+  "languages": "Elvish,Undercommon",
   "challenge_rating": "1/4",
   "cr": 0.25,
   "actions": [
     {
       "name": "Shortsword",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6+2) piercing damage."
     },
     {
       "name": "Hand Crossbow",
-      "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "_Ranged Weapon Attack:_ +4 to hit, range 30/120 ft., one target. _Hit:_ 5 (1d6+2) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Poison Weapon",
+      "desc": "The drow coats one weapon it is wearing or carrying in one of the following poisons. Each time the drow hits a creature with that weapon, the target must succeed on a DC 11 CON save or be poisoned for 1 minute and suffer the chosen poison's effect while poisoned in this way. The poisoned creature can repeat the save at the end of each of its turns, ending the effect on itself on a success. The poison remains on the weapon until the start of the drow's next turn.\n- **Beetle's Bite.** The target's speed is halved while poisoned.\n- **Dark Caress.** The target is blinded while poisoned.\n- **Nightmare's Kiss.** The target is frightened of the drow while poisoned.\n- **Slumber's Call.** The target falls unconscious while poisoned or until it takes damage or another creature uses an action to wake it."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Fey Ancestry",
-      "desc": "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
-    },
-    {
-      "name": "Innate Spellcasting",
-      "desc": "The drow's spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:\nAt will: dancing lights\n1/day each: darkness, faerie fire"
+      "desc": "The drow is resistant to the charmed condition, and magic can't put the drow to sleep."
     },
     {
       "name": "Sunlight Sensitivity",
-      "desc": "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      "desc": "While in sunlight, the drow has disadvantage on attack rolls, and its Perception is 7 when perceiving by sight."
     }
   ],
-  "spell_list": [
-    "https://api.open5e.com/v2/spells/dancing-lights/",
-    "https://api.open5e.com/v2/spells/darkness/",
-    "https://api.open5e.com/v2/spells/faerie-fire/"
-  ],
-  "page_no": 307,
-  "environments": [
-    "Underdark"
-  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_drow/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_drow/"
 }

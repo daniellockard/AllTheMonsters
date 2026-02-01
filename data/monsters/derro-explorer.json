@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "derro",
   "group": null,
-  "alignment": "Any Non-Good Alignment",
+  "alignment": "any non-good alignment",
   "armor_class": 15,
   "armor_desc": "studded leather",
   "hit_points": 44,

@@ -6,7 +6,7 @@
   "type": "Construct",
   "subtype": "",
   "group": null,
-  "alignment": "Unaligned",
+  "alignment": "unaligned",
   "armor_class": 14,
   "armor_desc": null,
   "hit_points": 65,

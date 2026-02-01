@@ -1,16 +1,16 @@
 {
-  "slug": "duskthorn-dryad",
-  "desc": "_A duskthorn dryad is a striking woman with obvious fey features and skin the color of slate, often found in the shade of an ancient tree. Clothed in vines and leaves, it can be difficult to tell where one leaves off and the other begins._  \n**Creeper Vine Spirits.** Duskthorn dryads are spirits tied to thorn-bearing creeper vines. They seek out dead trees and use them as a home for their vines to cling to. They can travel through trees to escape their foes but must stay near their vines.  \n**Create Guardians.** Duskthorn dryads use their vines and the plants in their glades to defend themselves, animating enormously strong vine troll skeletons as well as ordinary skeletons, children of the briar, and other horrors. These defenders are linked to the tree and vines that animated them, are controlled by hearts within the tree. If the hearts are destroyed, the servants wither or scatter.",
+  "slug": "duskthorndryad-tob1-2023",
+  "desc": "False",
   "name": "Duskthorn Dryad",
   "size": "Medium",
   "type": "Fey",
   "subtype": "",
-  "group": null,
-  "alignment": "Chaotic",
+  "group": "null",
+  "alignment": "Chaotic Neutral",
   "armor_class": 17,
   "armor_desc": "natural armor",
   "hit_points": 77,
-  "hit_dice": "14d8+14",
+  "hit_dice": "14d8 + 14",
   "speed": {
     "walk": 30
   },
@@ -26,45 +26,50 @@
   "intelligence_save": null,
   "wisdom_save": 4,
   "charisma_save": null,
-  "perception": 4,
+  "perception": 14,
   "skills": {
-    "deception": 9,
-    "nature": 6,
-    "perception": 4,
-    "persuasion": 9,
-    "stealth": 7
+    "Animal Handling": 4,
+    "Deception": 9,
+    "Nature": 6,
+    "Perception": 4,
+    "Persuasion": 9,
+    "Stealth": 7
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
-  "senses": "darkvision 60 ft., passive Perception 15",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 14",
   "languages": "Common, Elvish, Sylvan, Umbral",
   "challenge_rating": "3",
   "cr": 3,
   "actions": [
     {
-      "name": "Dagger",
-      "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 7 (1d4 + 5) piercing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "1d4"
+      "name": "Multiattack",
+      "desc": "The duskthorn dryad makes two Thorned Slam or Thorn attacks."
     },
     {
-      "name": "Longbow",
-      "desc": "Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 9 (1d8 + 5) piercing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "1d8"
+      "name": "Thorned Slam",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) piercing damage."
+    },
+    {
+      "name": "Thorn",
+      "desc": "Ranged Weapon Attack: +7 to hit, range 80/320 ft., one target. Hit: 10 (2d4 + 5) piercing damage."
+    },
+    {
+      "name": "Children of the Forest (1/Day)",
+      "desc": "The dryad magically calls 1d4 boars, constrictor snakes, or wolves, or it calls 1 child of the briar. The called creatures arrive in 1d4 rounds, acting as allies of the dryad and obeying her spoken commands. The creatures remain for 1 hour, until the dryad dies, or until the dryad dismisses them as a bonus action."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The dryad casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 17):\nAt will: druidcraft\n3/day each: charm person, entangle, invisibility\n1/day each: barkskin, spike growth, suggestion"
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
-    {
-      "name": "Innate Spellcasting",
-      "desc": "the dryad's innate spellcasting ability is Charisma (spell save DC 17). She can innately cast the following spells, requiring no material components:\n\nat will: dancing lights, druidcraft\n\n3/day each: charm person, entangle, invisibility, magic missile\n\n1/day each: barkskin, counterspell, dispel magic, fog cloud, shillelagh, suggestion, wall of thorns"
-    },
     {
       "name": "Magic Resistance",
       "desc": "The dryad has advantage on saving throws against spells and other magical effects."
@@ -76,19 +81,15 @@
     {
       "name": "Tree Stride",
       "desc": "Once on her turn, the dryad can use 10 feet of her movement to step magically into one dead tree within her reach and emerge from a second dead tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
-    },
-    {
-      "name": "Tree Dependent",
-      "desc": "The dryad is mystically bonded to her duskthorn vines and must remain within 300 yards of them or become poisoned. If she remains out of range of her vines for 24 hours, she suffers 1d6 Constitution damage, and another 1d6 points of Constitution damage every day that follows - eventually, this separation kills the dryad. A dryad can bond with new vines by performing a 24-hour ritual."
     }
   ],
   "spell_list": [],
-  "page_no": 160,
+  "page_no": 150,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_duskthorn-dryad/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_duskthorn-dryad/"
 }

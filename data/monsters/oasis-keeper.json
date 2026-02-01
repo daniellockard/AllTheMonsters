@@ -6,7 +6,7 @@
   "type": "Monstrosity",
   "subtype": "",
   "group": null,
-  "alignment": "Unaligned",
+  "alignment": "unaligned",
   "armor_class": 15,
   "armor_desc": "natural armor",
   "hit_points": 123,

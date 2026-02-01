@@ -1,100 +1,80 @@
 {
-  "slug": "mage",
-  "desc": "**Mages** spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference.",
+  "slug": "mage_bf",
+  "desc": "",
   "name": "Mage",
-  "size": "Medium",
+  "size": "medium",
   "type": "Humanoid",
-  "subtype": "any race",
+  "subtype": "Any Lineage",
   "group": "NPCs",
-  "alignment": "Any Alignment",
-  "armor_class": 12,
-  "armor_desc": "15 with _mage armor_",
-  "hit_points": 40,
-  "hit_dice": "9d8",
+  "alignment": "",
+  "armor_class": 10,
+  "armor_desc": "13 with mage armor",
+  "hit_points": 70,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
-  "strength": 9,
-  "dexterity": 14,
-  "constitution": 11,
-  "intelligence": 17,
+  "strength": 8,
+  "dexterity": 10,
+  "constitution": 10,
+  "intelligence": 22,
   "wisdom": 12,
-  "charisma": 11,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
+  "charisma": 10,
+  "strength_save": -1,
+  "dexterity_save": 0,
+  "constitution_save": 0,
   "intelligence_save": 6,
-  "wisdom_save": 4,
-  "charisma_save": null,
-  "perception": null,
-  "skills": {
-    "arcana": 6,
-    "history": 6
-  },
+  "wisdom_save": 1,
+  "charisma_save": 0,
+  "perception": 11,
+  "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 11",
+  "senses": "-",
   "languages": "any four languages",
   "challenge_rating": "6",
   "cr": 6,
   "actions": [
     {
+      "name": "Multiattack",
+      "desc": "The mage makes three Dagger or Arcane Bolt attacks. It can replace one attack with a use of Spellcasting."
+    },
+    {
       "name": "Dagger",
-      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d4",
-      "damage_bonus": 2
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
+      "desc": "_Melee or Ranged Weapon Attack:_ +3 to hit, reach 5 ft. or range 20/60 ft., one target. _Hit:_ 2 (1d4) piercing damage plus 13 (3d8) force damage."
+    },
+    {
+      "name": "Arcane Bolt",
+      "desc": "_Ranged Spell Attack:_ +6 to hit, range 60 ft., one target. _Hit:_ 16 (3d8+3) force damage."
+    },
     {
       "name": "Spellcasting",
-      "desc": "The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared:\n\n* Cantrips (at will): fire bolt, light, mage hand, prestidigitation\n* 1st level (4 slots): detect magic, mage armor, magic missile, shield\n* 2nd level (3 slots): misty step, suggestion\n* 3rd level (3 slots): counterspell, fireball, fly\n* 4th level (3 slots): greater invisibility, ice storm\n* 5th level (1 slot): cone of cold"
+      "desc": "The mage casts one of the following spells, using INT as the spellcasting ability (spell save DC 14).<br>At will: _detect magic_, _light_, _mage hand_, _prestidigitation_<br>3/day each: _fly_, _mage armor_, _mirror image_<br>2/day each: _fireball_, _haste_, _slow_<br>1/day each: _cone of cold_, _greater invisibility_"
     }
   ],
-  "spell_list": [
-    "https://api.open5e.com/v2/spells/fire-bolt/",
-    "https://api.open5e.com/v2/spells/light/",
-    "https://api.open5e.com/v2/spells/mage-hand/",
-    "https://api.open5e.com/v2/spells/prestidigitation/",
-    "https://api.open5e.com/v2/spells/detect-magic/",
-    "https://api.open5e.com/v2/spells/mage-armor/",
-    "https://api.open5e.com/v2/spells/magic-missile/",
-    "https://api.open5e.com/v2/spells/shield/",
-    "https://api.open5e.com/v2/spells/misty-step/",
-    "https://api.open5e.com/v2/spells/suggestion/",
-    "https://api.open5e.com/v2/spells/counterspell/",
-    "https://api.open5e.com/v2/spells/fireball/",
-    "https://api.open5e.com/v2/spells/fly/",
-    "https://api.open5e.com/v2/spells/greater-invisibility/",
-    "https://api.open5e.com/v2/spells/ice-storm/",
-    "https://api.open5e.com/v2/spells/cone-of-cold/"
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Arcane Weapons",
+      "desc": "The mage's weapon attacks are magical. When the mage hits with any weapon, the weapon deals an extra 3d8 force damage (included in the attack)."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The mage has advantage on saves against spells and other magical effects."
+    }
   ],
-  "page_no": 400,
-  "environments": [
-    "Urban",
-    "Desert",
-    "Mountains",
-    "Forest",
-    "Ruin",
-    "Laboratory",
-    "Jungle",
-    "Hills",
-    "Feywild",
-    "Shadowfell",
-    "Swamp",
-    "Settlement"
-  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_mage/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_mage/"
 }

@@ -1,22 +1,22 @@
 {
-  "slug": "weeping-treant",
-  "desc": "_This twisted tree’s face is made of cracked, black bark knotted into vaguely humanoid features, and thick tears of sap run down its face._  \nWeeping treants clearly are related to other treants, but they are smaller than the normal variety, little more than 30 feet tall with a trunk 3 feet in diameter, and weighing no more than 4,500 lb. Their gnarled trunks are often twisted, and their wood often groans when they move.  \n**Forest Wardens.** Weeping treants are protectors of dark, shadowy forests, and they are as long-lived as the trees themselves. They act as guardians for an entire forest or for something specific within the forest—they have no pity for those carrying axes or fire.  \n**Skeptical Mein.** Weeping treants are terrifying and relentless when fighting in defense of their charge. They are inherently distrustful, particularly of anything not of the natural or shadow world, and they’re notoriously difficult to fool or deceive.  \n**Enchanted Bitter Tears.** Sages and scholars debate why these creatures weep, but no one has come forward with a compelling reason beyond “it’s what trees do.” The weeping treants themselves refuse to speak on the matter. Their tears are occasionally components in druidic spells or items.",
+  "slug": "weepingtreant-tob1-2023",
+  "desc": "False",
   "name": "Weeping Treant",
   "size": "Huge",
   "type": "Plant",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral",
   "armor_class": 17,
   "armor_desc": "natural armor",
   "hit_points": 105,
-  "hit_dice": "10d12+40",
+  "hit_dice": "10d12 + 40",
   "speed": {
     "walk": 30
   },
   "strength": 21,
   "dexterity": 8,
-  "constitution": 20,
+  "constitution": 18,
   "intelligence": 12,
   "wisdom": 16,
   "charisma": 11,
@@ -26,59 +26,57 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
-  "skills": {},
+  "perception": 13,
+  "skills": {
+    "Insight": 6
+  },
   "damage_vulnerabilities": "fire",
-  "damage_resistances": "bludgeoning and piercing",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_resistances": "bludgeoning, piercing",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 13",
-  "languages": "Common, Druidic, Elvish, Sylvan",
+  "languages": "Common, Druidic, Elvish, Sylvan, Umbral",
   "challenge_rating": "6",
   "cr": 6,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The treant makes three slam attacks."
+      "desc": "The weeping treant makes two Slam or Rock attacks."
     },
     {
       "name": "Slam",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage.",
-      "attack_bonus": 8,
-      "damage_dice": "3d6"
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., single target. Hit: 15 (3d6 + 5) bludgeoning damage plus 3 (2d6) acid damage, and the target takes 3 (1d6) acid damage at the end of its next turn unless it or another creature takes an action to wipe off the acid."
     },
     {
       "name": "Rock",
-      "desc": "Ranged Weapon Attack: +8 to hit, range 60/180 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage.",
-      "attack_bonus": 8,
-      "damage_dice": "3d10"
+      "desc": "Ranged Weapon Attack: +8 to hit, range 60/180 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Siege Monster",
-      "desc": "The treant deals double damage to objects and structures."
+      "desc": "The weeping treant deals double damage to objects and structures."
     },
     {
-      "name": "Treespeech",
-      "desc": "A weeping treant can converse with plants, and most plants greet them with a friendly or helpful attitude."
+      "name": "Speak with Plants",
+      "desc": "The weeping treant can communicate with plants as if they shared a language."
     },
     {
-      "name": "Acidic Tears",
-      "desc": "Thick tears of dark sap stream continuously down the treant's face and trunk. These tears are highly acidic - anyone who attacks the treant from a range of 5 feet or less must succeed on a DC 15 Dexterity saving throw or take 6 (1d12) acid damage from splashed tears. This acidic matter continues doing 6 (1d12) acid damage at the start of each of the creature's turns until it or an adjacent ally uses an action to wipe off the tears or three rounds elapse."
+      "name": "Weep Acid",
+      "desc": "Thick tears of dark, acidic sap stream continuously down the treant's face and trunk. A creature that touches the weeping treant or hits it with a melee attack while within 5 feet of it must succeed on a DC 15 Dexterity saving throw or take 3 (1d6) acid damage."
     }
   ],
   "spell_list": [],
-  "page_no": 388,
+  "page_no": 369,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_weeping-treant/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_weeping-treant/"
 }

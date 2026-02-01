@@ -1,26 +1,24 @@
 {
-  "slug": "rotting-wind",
-  "desc": "_A rotting wind brings a chilling gust to the air, turning nearby foliage to rot and raising a sense of dread in all creatures in its path._  \n**Air of Tombs.** A rotting wind is an undead creature made up of the foul air and grave dust sloughed off by innumerable undead creatures within lost tombs and grand necropoli.  \n**Scouts for Undead Armies.** A rotting wind carries the foul stench of death upon it, sometimes flying before undead armies and tomb legions or circling around long-extinct cities and civilizations.  \n**Withering Crops.** Rotting winds sometimes drift mindlessly across a moor or desert, blighting all life they find and leaving only famine and death in their wake. This is especially dangerous when they drift across fields full of crops; they can destroy an entire harvest in minutes.  \n**Undead Nature.** A rotting wind doesn’t require air, food, drink, or sleep.",
+  "slug": "rottingwind-tob1-2023",
+  "desc": "False",
   "name": "Rotting Wind",
   "size": "Large",
   "type": "Undead",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 15,
   "armor_desc": "",
-  "hit_points": 82,
-  "hit_dice": "11d10+22",
+  "hit_points": 110,
+  "hit_dice": "13d10 + 39",
   "speed": {
-    "hover": true,
-    "walk": 0,
-    "fly": 60
+    "walk": 60
   },
   "strength": 14,
   "dexterity": 20,
-  "constitution": 15,
-  "intelligence": 7,
-  "wisdom": 12,
+  "constitution": 16,
+  "intelligence": 12,
+  "wisdom": 10,
   "charisma": 10,
   "strength_save": null,
   "dexterity_save": null,
@@ -28,49 +26,59 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 10,
   "skills": {},
-  "damage_vulnerabilities": "",
-  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
   "damage_immunities": "necrotic, poison",
   "condition_immunities": "charmed, exhaustion, grappled, frightened, paralyzed, petrified, poisoned, prone, restrained, unconscious",
-  "senses": "blindsight 60 ft. (blind beyond this), passive Perception 10",
-  "languages": "-",
+  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 11",
+  "languages": "―",
   "challenge_rating": "6",
   "cr": 6,
   "actions": [
     {
+      "name": "Multiattack",
+      "desc": "The rotting wind makes two Wind of Decay attacks. If both attacks hit one creature, the target must succeed on a DC 14 Constitution saving throw or contract the tomb rot disease (see the Tomb Rot trait)."
+    },
+    {
       "name": "Wind of Decay",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 0 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage plus 14 (4d6) necrotic damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be cursed with tomb rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 (3d6) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies and its body turns to dust. The curse lasts until removed by the remove curse spell or comparable magic.",
-      "attack_bonus": 8,
-      "damage_dice": "2d6"
+      "desc": "Melee Weapon Attack: +8 to hit, reach 0 ft., one target in the rotting wind's space. Hit: 12 (2d6 + 5) bludgeoning damage plus 10 (3d6) necrotic damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Air Form",
       "desc": "The rotting wind can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
     },
     {
-      "name": "Befouling Presence",
-      "desc": "All normal plant life and liquid in the same space as a rotting wind at the end of the wind's turn is blighted and cursed. Normal vegetation dies in 1d4 days, while plant creatures take double damage from the wind of decay action. Unattended liquids become noxious and undrinkable."
+      "name": "Invisibility",
+      "desc": "The rotting wind is invisible."
     },
     {
-      "name": "Invisibility",
-      "desc": "The rotting wind is invisible as per a greater invisibility spell."
+      "name": "Poisonous Aura",
+      "desc": "The rotting wind radiates an aura of poison and decay that slowly pollutes the area within 30 feet of it. Each hour the rotting wind stays in a place, nonmagical plants in the aura begin to wither, and water in the aura becomes poisoned. Nonmagical plants in the aura for 24 hours die. A creature that drinks water poisoned by the aura must succeed on a DC 14 Constitution saving throw or contract the tomb rot disease (see the Tomb Rot trait). Creatures immune to the poisoned condition are immune to this disease."
+    },
+    {
+      "name": "Tomb Rot",
+      "desc": "A creature infested with this disease manifests symptoms 1d4 days after infection, which include muscle weakness and rotten-smelling breath as its body rots from the inside out. Until the disease is cured, at the end of each long rest, the infected creature must succeed on a DC 14 Constitution saving throw or take 10 (3d6) necrotic damage and suffer one level of exhaustion. This exhaustion lasts until the creature finishes a long rest after the disease is cured. A creature that succeeds on two saving throws recovers from the disease."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The rotting wind doesn't require air, food, drink, or sleep."
     }
   ],
   "spell_list": [],
-  "page_no": 330,
+  "page_no": 311,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_rotting-wind/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_rotting-wind/"
 }

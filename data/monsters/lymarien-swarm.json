@@ -6,7 +6,7 @@
   "type": "Fey",
   "subtype": "Swarm",
   "group": null,
-  "alignment": "Neutral Good",
+  "alignment": "neutral good",
   "armor_class": 14,
   "armor_desc": null,
   "hit_points": 90,

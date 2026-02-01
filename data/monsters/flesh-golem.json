@@ -1,66 +1,75 @@
 {
-  "slug": "flesh-golem",
+  "slug": "flesh_golem_bf",
   "desc": "",
   "name": "Flesh Golem",
-  "size": "Medium",
+  "size": "medium",
   "type": "Construct",
   "subtype": "",
   "group": "Golems",
-  "alignment": "Neutral",
+  "alignment": "",
   "armor_class": 9,
   "armor_desc": null,
-  "hit_points": 93,
-  "hit_dice": "11d8+44",
+  "hit_points": 129,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
-  "strength": 19,
-  "dexterity": 9,
+  "strength": 18,
+  "dexterity": 8,
   "constitution": 18,
   "intelligence": 6,
   "wisdom": 10,
-  "charisma": 5,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
+  "charisma": 4,
+  "strength_save": 4,
+  "dexterity_save": -1,
+  "constitution_save": 4,
+  "intelligence_save": -2,
+  "wisdom_save": 0,
+  "charisma_save": -3,
+  "perception": 13,
   "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
-  "damage_immunities": "lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
-  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
-  "senses": "darkvision 60 ft., passive Perception 10",
+  "damage_immunities": "lightning,Flesh Golem Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
   "languages": "understands the languages of its creator but can't speak",
   "challenge_rating": "5",
   "cr": 5,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The golem makes two slam attacks."
+      "desc": "The golem makes two Slam attacks."
     },
     {
       "name": "Slam",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
-      "attack_bonus": 7,
-      "damage_dice": "2d8",
-      "damage_bonus": 4
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
-    {
-      "name": "Berserk",
-      "desc": "Whenever the golem starts its turn with 40 hit points or fewer, roll a d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.\nThe golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a DC 15 Charisma (Persuasion) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 40 hit points or fewer, the golem might go berserk again."
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 17 (3d8+4) bludgeoning damage."
     },
     {
+      "name": "Creator's Anguish (Recharge 5-6)",
+      "desc": "The golem releases a wave of emotional anguish from its core. Each creature within 15 feet of the golem must make a DC 15 WIS save. On a failure, a creature takes 31 (9d6) psychic damage and is incapacitated until the end of its next turn, as its mind fills with memories of its greatest failures. On a success, a creature takes half the damage and isn't incapacitated."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
       "name": "Aversion of Fire",
-      "desc": "If the golem takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn."
+      "desc": "If the golem takes fire damage, it loses its immunity to the frightened condition and has disadvantage on attack rolls and ability checks until the end of its next turn."
+    },
+    {
+      "name": "Berserk (55 HP or Fewer)",
+      "desc": "When the golem starts its turn, roll a d6. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its HP. The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a DC 15 CHA (Persuasion) check. If the check succeeds, the golem ceases being berserk. If the golem takes damage while still at 55 HP or fewer, the golem might go berserk again."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "The golem doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Flesh Golem Resilience",
+      "desc": "The golem is immune to poison damage and to bludgeoning, piercing, and slashing damage from nonmagical attacks. In addition, it is immune to exhaustion and to the charmed, frightened, paralyzed, petrified, and poisoned conditions."
     },
     {
       "name": "Immutable Form",
@@ -68,11 +77,11 @@
     },
     {
       "name": "Lightning Absorption",
-      "desc": "Whenever the golem is subjected to lightning damage, it takes no damage and instead regains a number of hit points equal to the lightning damage dealt."
+      "desc": "Whenever the golem is subjected to lightning damage, it takes no damage and instead regains HP equal to the lightning damage dealt."
     },
     {
       "name": "Magic Resistance",
-      "desc": "The golem has advantage on saving throws against spells and other magical effects."
+      "desc": "The golem has advantage on saves against spells and other magical effects."
     },
     {
       "name": "Magic Weapons",
@@ -80,14 +89,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 316,
-  "environments": [
-    "Any"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_flesh-golem/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_flesh-golem/"
 }

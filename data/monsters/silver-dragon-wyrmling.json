@@ -1,75 +1,81 @@
 {
-  "slug": "silver-dragon-wyrmling",
+  "slug": "silver_dragon_wyrmling_bf",
   "desc": "",
   "name": "Silver Dragon Wyrmling",
-  "size": "Medium",
+  "size": "medium",
   "type": "Dragon",
   "subtype": "",
-  "group": "Silver Dragon",
-  "alignment": "Lawful Good",
+  "group": "Dragons",
+  "alignment": "",
   "armor_class": 17,
   "armor_desc": "natural armor",
-  "hit_points": 45,
-  "hit_dice": "6d8+18",
+  "hit_points": 51,
+  "hit_dice": "",
   "speed": {
     "walk": 30,
     "fly": 60
   },
-  "strength": 19,
-  "dexterity": 10,
-  "constitution": 17,
+  "strength": 18,
+  "dexterity": 14,
+  "constitution": 20,
   "intelligence": 12,
-  "wisdom": 11,
-  "charisma": 15,
-  "strength_save": null,
+  "wisdom": 14,
+  "charisma": 18,
+  "strength_save": 4,
   "dexterity_save": 2,
   "constitution_save": 5,
-  "intelligence_save": null,
+  "intelligence_save": 1,
   "wisdom_save": 2,
   "charisma_save": 4,
-  "perception": 4,
-  "skills": {
-    "perception": 4,
-    "stealth": 2
-  },
+  "perception": 14,
+  "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "cold",
   "condition_immunities": "",
-  "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
+  "senses": "darkvision 60 ft., keensense 10 ft.",
   "languages": "Draconic",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
-      "name": "Bite",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10 + 4) piercing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "1d10",
-      "damage_bonus": 4
+      "name": "Multiattack",
+      "desc": "The dragon makes one Bite attack and one Claw attack."
     },
     {
-      "name": "Breath Weapons (Recharge 5-6)",
-      "desc": "The dragon uses one of the following breath weapons.\n**Cold Breath.** The dragon exhales an icy blast in a 15-foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one.\n**Paralyzing Breath.** The dragon exhales paralyzing gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
-      "attack_bonus": 0,
-      "damage_dice": "4d8"
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 9 (1d10+4) piercing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 7 (1d6+4) slashing damage."
+    },
+    {
+      "name": "Cold Breath (Recharge 5-6)",
+      "desc": "The dragon exhales an icy blast in a 15-foot cone. Each creature in that area must make a DC 13 CON save, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "name": "Paralyzing Breath (Recharge 6)",
+      "desc": "The dragon exhales paralyzing gas in a 15-foot cone. Each creature in that area must succeed on a DC 13 CON save or be paralyzed for 1 minute. A creature can repeat the save at the end of each of its turns, ending the effect on itself on a success."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": null,
-  "spell_list": [],
-  "page_no": 303,
-  "environments": [
-    "Feywild",
-    "Mountains"
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Pounce",
+      "desc": "If the dragon moves at least 15 feet straight toward a creature and then hits it with a Claw attack on the same turn, that target must succeed on a DC 14 STR save or be knocked prone. If the target is prone, the dragon can make one Claw attack against it as a bonus action."
+    }
   ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_silver-dragon-wyrmling/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_silver-dragon-wyrmling/"
 }

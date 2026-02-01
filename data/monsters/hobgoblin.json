@@ -1,85 +1,72 @@
 {
-  "slug": "hobgoblin",
+  "slug": "hobgoblin_bf",
   "desc": "",
   "name": "Hobgoblin",
-  "size": "Medium",
+  "size": "medium",
   "type": "Humanoid",
-  "subtype": "goblinoid",
+  "subtype": "",
   "group": null,
-  "alignment": "Lawful Evil",
+  "alignment": "",
   "armor_class": 18,
   "armor_desc": "chain mail, shield",
-  "hit_points": 11,
-  "hit_dice": "2d8+2",
+  "hit_points": 18,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
-  "strength": 13,
+  "strength": 12,
   "dexterity": 12,
   "constitution": 12,
   "intelligence": 10,
   "wisdom": 10,
-  "charisma": 9,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
+  "charisma": 8,
+  "strength_save": 1,
+  "dexterity_save": 1,
+  "constitution_save": 1,
+  "intelligence_save": 0,
+  "wisdom_save": 0,
+  "charisma_save": -1,
+  "perception": 10,
   "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 60 ft., passive Perception 10",
-  "languages": "Common, Goblin",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Goblin",
   "challenge_rating": "1/2",
   "cr": 0.5,
   "actions": [
     {
+      "name": "Multiattack",
+      "desc": "The hobgoblin makes two Longsword or Longbow attacks."
+    },
+    {
       "name": "Longsword",
-      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands.",
-      "attack_bonus": 3,
-      "damage_dice": "1d8",
-      "damage_bonus": 1
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one target. _Hit:_ 5 (1d8+1) slashing damage, or 6 (1d10+1) slashing damage if used with two hands."
     },
     {
       "name": "Longbow",
-      "desc": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
-      "attack_bonus": 3,
-      "damage_dice": "1d8",
-      "damage_bonus": 1
+      "desc": "_Ranged Weapon Attack:_ +3 to hit, range 150/600 ft., one target. _Hit:_ 5 (1d8+1) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
+  "bonus_actions": [
     {
-      "name": "Martial Advantage",
-      "desc": "Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 ft. of an ally of the hobgoblin that isn't incapacitated.",
-      "attack_bonus": 0,
-      "damage_dice": "2d6"
+      "name": "Tactical Analysis",
+      "desc": "The hobgoblin briefly studies one creature it can see within 30 feet of it. It has advantage on the next attack roll it makes against that creature before the start of the hobgoblin's next turn."
     }
   ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
   "spell_list": [],
-  "page_no": 322,
-  "environments": [
-    "Hill",
-    "Desert",
-    "Underdark",
-    "Mountains",
-    "Grassland",
-    "Forest",
-    "Hills",
-    "Caverns"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_hobgoblin/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_hobgoblin/"
 }

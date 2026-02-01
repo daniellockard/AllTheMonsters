@@ -1,61 +1,57 @@
 {
-  "slug": "octopus",
+  "slug": "octopus_bf",
   "desc": "",
   "name": "Octopus",
-  "size": "Small",
+  "size": "small",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
-  "armor_class": 12,
+  "group": "Animals",
+  "alignment": "",
+  "armor_class": 11,
   "armor_desc": null,
-  "hit_points": 3,
-  "hit_dice": "1d6",
+  "hit_points": 8,
+  "hit_dice": "",
   "speed": {
     "walk": 5,
     "swim": 30
   },
   "strength": 4,
-  "dexterity": 15,
-  "constitution": 11,
-  "intelligence": 3,
+  "dexterity": 12,
+  "constitution": 10,
+  "intelligence": 2,
   "wisdom": 10,
   "charisma": 4,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 2,
-  "skills": {
-    "perception": 2,
-    "stealth": 4
-  },
+  "strength_save": -3,
+  "dexterity_save": 1,
+  "constitution_save": 0,
+  "intelligence_save": -4,
+  "wisdom_save": 0,
+  "charisma_save": -3,
+  "perception": 12,
+  "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 30 ft., passive Perception 12",
-  "languages": "",
+  "senses": "darkvision 30 ft.",
+  "languages": "-",
   "challenge_rating": "0",
   "cr": 0,
   "actions": [
     {
       "name": "Tentacles",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 bludgeoning damage, and the target is grappled (escape DC 10). Until this grapple ends, the octopus can't use its tentacles on another target.",
-      "attack_bonus": 4,
-      "damage_bonus": 1
-    },
-    {
-      "name": "Ink Cloud (Recharges after a Short or Long Rest)",
-      "desc": "A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action."
+      "desc": "_Melee Weapon Attack:_ +3 to hit, reach 5 ft., one target. _Hit:_ 3 (1d4+1) bludgeoning damage, and the target is grappled (escape DC 11), if it is a Medium or smaller creature. Until this grapple ends, the octopus can't use its Tentacles on another target."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Ink Dash (Recharge 6)",
+      "desc": "When a creature the octopus can see deals damage to it, the octopus can release a 5-foot-radius cloud of ink all around itself, if it is underwater. The area is heavily obscured until the end of the octopus's next turn, although a significant current can disperse the ink. Then, the octopus can swim up to its swimming speed. If it does so, it immediately releases any creature it is grappling."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Hold Breath",
@@ -63,7 +59,7 @@
     },
     {
       "name": "Underwater Camouflage",
-      "desc": "The octopus has advantage on Dexterity (Stealth) checks made while underwater."
+      "desc": "The octopus's Stealth is 18 while underwater."
     },
     {
       "name": "Water Breathing",
@@ -71,14 +67,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 384,
-  "environments": [
-    "Water"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_octopus/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_octopus/"
 }

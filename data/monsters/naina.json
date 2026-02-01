@@ -1,19 +1,19 @@
 {
-  "slug": "naina",
-  "desc": "_These drakes are resplendent in their natural form, plumed and scaled in glittering, multicolored hues. In humanoid form, they appear as elderly homespun human crones or as young, beautiful elvish women._  \n**Drakes in Human Form.** These faerie drakes can take the shape of wise, old, human women. They retain full use of their sorcerous powers in their humanoid forms, and they can retain that form indefinitely.  \n**Difficult to Spot.** A naina shapeshifted into human form is nearly impossible to spot as anything but human unless she makes a mistake that gives away her true nature, and they seldom do. Draconic roars, a flash of scales, a fondness for raw meat, and a flash of wrathful dragon breath are the most common tells.  \n**Hunted by Rumor.** When rumors of a naina circulate, any woman who is a stranger may be persecuted, ostracized, or even tortured unless she can prove that she’s entirely human.",
+  "slug": "naina-tob1-2023",
+  "desc": "False",
   "name": "Naina",
   "size": "Large",
   "type": "Dragon",
-  "subtype": "shapechanger",
-  "group": null,
+  "subtype": "",
+  "group": "null",
   "alignment": "Lawful Evil",
   "armor_class": 17,
   "armor_desc": "natural armor",
   "hit_points": 231,
-  "hit_dice": "22d10+110",
+  "hit_dice": "22d10 + 110",
   "speed": {
-    "walk": 40,
-    "fly": 120
+    "walk": 120,
+    "fly": 40
   },
   "strength": 20,
   "dexterity": 16,
@@ -24,83 +24,84 @@
   "strength_save": null,
   "dexterity_save": 7,
   "constitution_save": 9,
-  "intelligence_save": 6,
+  "intelligence_save": null,
   "wisdom_save": 8,
   "charisma_save": 8,
-  "perception": 8,
+  "perception": 18,
   "skills": {
-    "arcana": 6,
-    "deception": 8,
-    "insight": 8,
-    "perception": 8
+    "Deception": 8,
+    "Insight": 8,
+    "Perception": 8,
+    "Persuasion": 8
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
-  "damage_immunities": "",
+  "damage_immunities": "poison",
   "condition_immunities": "paralyzed, poisoned, unconscious",
   "senses": "darkvision 60 ft., passive Perception 18",
-  "languages": "Common, Darakhul, Draconic, Elvish, Sylvan",
+  "languages": "Common, Draconic, Sylvan",
   "challenge_rating": "11",
   "cr": 11,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The naina makes two claw attacks and one bite attack."
+      "desc": "The naina makes one Bite attack and two Claw attacks, or she makes three Slam attacks."
     },
     {
-      "name": "Bite (drake form only)",
-      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (3d12 + 5) piercing damage.",
-      "attack_bonus": 9,
-      "damage_dice": "3d12"
+      "name": "Bite (True Form Only)",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (3d12 + 5) piercing damage."
     },
     {
-      "name": "Claw (drake form only)",
-      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (3d12 + 5) slashing damage.",
-      "attack_bonus": 9,
-      "damage_dice": "3d12"
+      "name": "Claw (True Form Only)",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 24 (3d12 + 5) slashing damage."
     },
     {
-      "name": "Poison Breath (Recharge 5-6)",
-      "desc": "While in drake form (only), the naina breathes a 20-foot cone of poison gas, paralytic gas, or sleep gas."
+      "name": "Slam (Humanoid Form Only)",
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 23 (4d8 + 5) bludgeoning damage."
     },
     {
-      "name": "Poison",
-      "desc": "A creature caught in this poison gas takes 18 (4d8) poison damage and is poisoned; a successful DC 17 Constitution saving throw reduces damage to half and negates the poisoned condition. While poisoned this way, the creature must repeat the saving throw at the end of each of its turns. On a failure, it takes 9 (2d8) poison damage and the poisoning continues; on a success, the poisoning ends."
+      "name": "Breath Weapons (Recharge 5-6, True Form Only)",
+      "desc": "The naina uses one of the following breath weapons:"
     },
     {
-      "name": "Paralysis",
-      "desc": "A creature caught in this paralytic gas must succeed on a DC 17 Constitution saving throw or be paralyzed for 2d4 rounds. A paralyzed creature repeats the saving throw at the end of each of its turns; a successful save ends the paralysis."
+      "name": "Poison Breath",
+      "desc": "The naina exhales poison breath in a 60-foot cone. Each creature in the area must make a DC 17 Constitution saving throw. On a failure, a creature takes 40 (9d8) poison damage and is poisoned for 1 minute. On a success, a creature takes half the damage and isn't poisoned. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     },
     {
-      "name": "Sleep",
-      "desc": "A creature caught in this sleeping gas must succeed on a DC 17 Constitution saving throw or fall unconscious for 6 rounds. A sleeping creature repeats the saving throw at the end of each of its turns; it wakes up if it makes the save successfully."
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
+      "name": "Paralysis Breath",
+      "desc": "The naina exhales paralyzing breath in a 30-foot cone. Each creature in that area must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    },
     {
-      "name": "Magic Sensitive",
-      "desc": "The naina detects magic as if it were permanently under the effect of a detect magic spell."
+      "name": "Sleep Breath",
+      "desc": "The naina exhales sleep gas around it. Each creature within 20 feet of the naina must succeed on a DC 17 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or another creature uses an action to wake it."
     },
     {
       "name": "Spellcasting",
-      "desc": "the naina is a 9th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). The naina has the following sorcerer spells prepared:\n\ncantrips (at will): dancing lights, mage hand, mending, ray of frost, resistance, silent image\n\n1st level (4 slots): charm person, thunderwave, witch bolt\n\n2nd level (3 slots): darkness, invisibility, locate object\n\n3rd level (3 slots): dispel magic, hypnotic pattern\n\n4th level (3 slots): dimension door\n\n5th level (1 slot): dominate person"
-    },
+      "desc": "The naina casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 16):\nAt will: charm person, dancing lights, silent image\n3/day each: dispel magic, hypnotic pattern, invisibility\n1/day each: dimension door, dominate person"
+    }
+  ],
+  "bonus_actions": [
     {
-      "name": "Shapechanger",
-      "desc": "The naina can use her action to polymorph into one of her two forms: a drake or a female humanoid. She cannot alter either form's appearance or capabilities (with the exception of her breath weapon) using this ability, and damage sustained in one form transfers to the other form."
+      "name": "Change Shape",
+      "desc": "The naina transforms into a Medium Humanoid or back into her true form, which is a Dragon. Her statistics, other than her size, are the same in each form. Any equipment she is wearing or carrying isn't transformed. It reverts to its true from if she dies."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Sense Magic",
+      "desc": "The naina senses magic within 120 feet of her at will. This trait otherwise works like the detect magic spell but isn't itself magical."
     }
   ],
   "spell_list": [],
-  "page_no": 302,
+  "page_no": 282,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_naina/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_naina/"
 }

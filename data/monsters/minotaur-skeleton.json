@@ -1,78 +1,89 @@
 {
-  "slug": "minotaur-skeleton",
+  "slug": "minotaur_skeleton_bf",
   "desc": "",
   "name": "Minotaur Skeleton",
-  "size": "Large",
+  "size": "large",
   "type": "Undead",
   "subtype": "",
   "group": "Skeletons",
-  "alignment": "Lawful Evil",
+  "alignment": "",
   "armor_class": 12,
   "armor_desc": "natural armor",
-  "hit_points": 67,
-  "hit_dice": "9d10+18",
+  "hit_points": 63,
+  "hit_dice": "",
   "speed": {
     "walk": 40
   },
   "strength": 18,
-  "dexterity": 11,
-  "constitution": 15,
+  "dexterity": 10,
+  "constitution": 14,
   "intelligence": 6,
   "wisdom": 8,
-  "charisma": 5,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
+  "charisma": 4,
+  "strength_save": 4,
+  "dexterity_save": 0,
+  "constitution_save": 2,
+  "intelligence_save": -2,
+  "wisdom_save": -1,
+  "charisma_save": -3,
+  "perception": 9,
   "skills": {},
   "damage_vulnerabilities": "bludgeoning",
-  "damage_resistances": "",
-  "damage_immunities": "poison",
-  "condition_immunities": "exhaustion, poisoned",
-  "senses": "darkvision 60 ft., passive Perception 9",
-  "languages": "understands Abyssal but can't speak",
+  "damage_resistances": "piercing",
+  "damage_immunities": "Undead Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "understands the languages it knew in life but can't speak",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
       "name": "Greataxe",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "2d12",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 17 (2d12+4) slashing damage."
     },
     {
       "name": "Gore",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "2d8",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 11 (2d6+4) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Counterattack (Recharge 6)",
+      "desc": "When a creature the minotaur skeleton can see hits it with a melee attack while within 5 feet of it, the skeleton can make one Gore attack against the attacker."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Charge",
-      "desc": "If the skeleton moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked prone.",
-      "attack_bonus": 0,
-      "damage_dice": "2d8"
+      "desc": "If the minotaur skeleton moves at least 10 feet straight toward a target and then hits it with a Gore attack on the same turn, the target takes an extra 7 (2d6) piercing damage. If the target is a creature, it must succeed on a DC 14 STR save or be pushed up to 10 feet away from the skeleton and knocked prone."
+    },
+    {
+      "name": "False Appearance",
+      "desc": "While the minotaur skeleton remains motionless and prone, it is indistinguishable from an inanimate minotaur skeleton."
+    },
+    {
+      "name": "Labyrinthine Memories",
+      "desc": "The minotaur skeleton has advantage on checks and saves to avoid becoming lost or to recall a path it has previously traveled."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The skeleton doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Undead Resilience",
+      "desc": "The skeleton is immune to poison damage, to exhaustion, and to the poisoned condition."
     }
   ],
   "spell_list": [],
-  "page_no": 346,
-  "environments": [
-    "Underdark"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_minotaur-skeleton/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_minotaur-skeleton/"
 }

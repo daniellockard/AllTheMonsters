@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "human, shapechanger",
   "group": null,
-  "alignment": "Lawful Evil",
+  "alignment": "lawful evil",
   "armor_class": 13,
   "armor_desc": "in humanoid form, 14 (natural armor) in bat or hybrid form",
   "hit_points": 66,

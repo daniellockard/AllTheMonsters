@@ -1,33 +1,33 @@
 {
-  "slug": "brown-bear",
+  "slug": "brown-bear-a5e",
   "desc": "",
   "name": "Brown Bear",
   "size": "Large",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": null,
+  "alignment": "",
   "armor_class": 11,
-  "armor_desc": "natural armor",
+  "armor_desc": "",
   "hit_points": 34,
   "hit_dice": "4d10+12",
   "speed": {
-    "walk": 40,
+    "walk": 30,
     "climb": 30
   },
-  "strength": 19,
+  "strength": 18,
   "dexterity": 10,
   "constitution": 16,
   "intelligence": 2,
-  "wisdom": 13,
-  "charisma": 7,
+  "wisdom": 12,
+  "charisma": 4,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 3,
+  "perception": null,
   "skills": {
     "perception": 3
   },
@@ -41,22 +41,12 @@
   "cr": 1,
   "actions": [
     {
-      "name": "Multiattack",
-      "desc": "The bear makes two attacks: one with its bite and one with its claws."
-    },
-    {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d8",
-      "damage_bonus": 4
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) piercing damage."
     },
     {
       "name": "Claws",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "2d6",
-      "damage_bonus": 4
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (2d4+4) slashing damage. If the target is a Medium or smaller creature  it is grappled (escape DC 14). Until this grapple ends  the bear can't attack a different target with its claws."
     }
   ],
   "bonus_actions": null,
@@ -66,22 +56,16 @@
   "special_abilities": [
     {
       "name": "Keen Smell",
-      "desc": "The bear has advantage on Wisdom (Perception) checks that rely on smell."
+      "desc": "The bear has advantage on Perception checks that rely on smell."
     }
   ],
   "spell_list": [],
-  "page_no": 369,
-  "environments": [
-    "Hill",
-    "Feywild",
-    "Mountains",
-    "Forest",
-    "Arctic"
-  ],
+  "page_no": 440,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_brown-bear/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_brown-bear/"
 }

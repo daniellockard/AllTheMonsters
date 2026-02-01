@@ -1,16 +1,16 @@
 {
-  "slug": "bone-collective",
-  "desc": "_A bone collective is almost a fluid; its thousands of tiny bones coalesce into a humanoid form only to disperse in a clattering swarm the next moment. Their tiny bones rustle when they move, a quiet sound similar to sand sliding down a dune._  \n**Spies and Sneaks.** Bone collectives are not primarily fighters, although they swarm well enough. They prefer to spy and skulk. When cornered, however, they fight without fear or hesitation, seeking to strip the flesh from their foes.  \n**Zombie Mounts.** Bone collectives’ long finger bones and hooked claws help them climb onto zombie mounts and control them. Bone collectives almost always wear robes or cloaks, the better to pretend to be humanoid. They understand that most creatures find their nature disturbing.  \n**Feed on Society.** Bone collectives join the societies around them, whether human, goblin, or ghoul. They prey on the living and the dead, using them to replenish lost bones. Occasionally, they choose to serve necromancers, darakhul, some vampires, and liches, all of whom offers magical attunements and vile joys to the collective. They dislike extreme heat, as it makes their bones brittle.",
+  "slug": "bonecollective-tob1-2023",
+  "desc": "False",
   "name": "Bone Collective",
   "size": "Small",
-  "type": "Undead",
+  "type": "Swarm",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Evil",
   "armor_class": 17,
   "armor_desc": "natural armor",
   "hit_points": 120,
-  "hit_dice": "16d6+64",
+  "hit_dice": "16d6 + 64",
   "speed": {
     "walk": 30
   },
@@ -26,74 +26,81 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 3,
+  "perception": 13,
   "skills": {
-    "arcana": 5,
-    "deception": 6,
-    "perception": 3,
-    "stealth": 11
+    "Arcana": 5,
+    "Deception": 6,
+    "Perception": 3,
+    "Stealth": 11
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, piercing, slashing",
   "damage_immunities": "necrotic, poison",
-  "condition_immunities": "exhaustion, poisoned",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone, restrained, stunned",
   "senses": "darkvision 120 ft., passive Perception 13",
-  "languages": "Common, Darakhul",
+  "languages": "Common, Darakhul (can’t speak in shapeless form)",
   "challenge_rating": "8",
   "cr": 8,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The bone collective makes two claw attacks, or one claw and one bite attack, or one swarm attack."
+      "desc": "The bone collective makes two Claw attacks, or one Claw attack and one Bite attack."
     },
     {
-      "name": "Bite",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 31 (4d12 + 5) piercing damage, and the target must make a DC 16 Constitution save or suffer the effects of Wyrmblood Venom.",
-      "attack_bonus": 8,
-      "damage_dice": "4d12"
+      "name": "Bite (Humanoid Form Only)",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 31 (4d12 + 5) piercing damage, and the target must succeed on a DC 16 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     },
     {
-      "name": "Claw",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 25 (3d12 + 5) slashing damage.",
-      "attack_bonus": 8,
-      "damage_dice": "3d12"
+      "name": "Claw (Humanoid Form Only)",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 25 (3d12 + 5) slashing damage."
     },
     {
-      "name": "Swarm",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 0 ft., one creature in the swarm's space. Hit: 57 (8d12 + 5) piercing damage, or 31 (4d12 + 5) piercing damage if the bone collective has half its hit points or fewer. If the attack hits, the target must make a successful DC 15 Constitution save or suffer the effects of Wyrmblood Venom.",
-      "attack_bonus": 8,
-      "damage_dice": "8d12"
+      "name": "Piercing Bones (Shapeless Form Only)",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 0 ft., one creature in the collective's space. Hit: 52 (8d12) piercing damage, or 26 (4d12) piercing damage if the collective has half its hp or fewer."
     },
     {
-      "name": "Wyrmblood Venom (Injury)",
-      "desc": "Bone collectives create a reddish liquid, which they smear on their fangs. The freakish red mouths on the tiny skeletons are disturbing, and the toxin is deadly. A bitten creature must succeed on a DC 15 Constitution saving throw or become poisoned and take 1d6 Charisma damage. A poisoned creature repeats the saving throw every four hours, taking another 1d6 Charisma damage for each failure, until it has made two consecutive successful saves or survived for 24 hours. If the creature survives, the effect ends and the creature can heal normally. Lost Charisma can be regained with a lesser restoration spell or comparable magic."
+      "name": "Spellcasting",
+      "desc": "(3/Day; Humanoid Form Only)The bone collective casts the animate dead spell as an action, requiring no material components and using Charisma as the spellcasting ability (spell save DC 14)."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Shape Swarm",
+      "desc": "The bone collective can shape itself into a Small Humanoid or back into a shapeless form of Tiny bones. Its statistics are the same in each form, and it can't regain hp or gain temporary hp. It can't take on a Humanoid form if it is occupying the space of another creature."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Hive Mind",
-      "desc": "All elements of a bone collective within 50 miles of their main body constantly communicate with each other. If one is aware of a particular danger, they all are. Any bone collective with at least 30 hit points forms a hive mind, giving it an Intelligence of 14. Below this hp threshold, it becomes mindless (Intelligence 0) and loses its innate spellcasting ability. At 0 hp, a few surviving sets of bones scatter, and must spend months to create a new collective."
+      "name": "Collective Mind",
+      "desc": "The collective's individual bones are connected via a hive mind. It can telepathically communicate with any of its individual bones within 50 miles of it, and it can't be surprised. If the collective is reduced to half its hp or fewer, its Intelligence score is reduced to 1, it can't cast spells, it immediately changes to its shapeless form, and it can't take on a Humanoid form."
     },
     {
-      "name": "Innate Spellcasting",
-      "desc": "the bone collective's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\nat will: chill touch\n\n3/day: animate dead (up to 5 skeletons or zombies)"
+      "name": "Grasping Limbs (Humanoid Form Only)",
+      "desc": "The bone collective can wield weapons and hold, grasp, push, pull, or interact with objects that might otherwise require a Humanoid form to accomplish."
     },
     {
-      "name": "Swarm",
-      "desc": "A bone collective can act as a swarm (composed of smaller elements), or it can grant a single member (called an exarch) control, acting as a singular creature. Changing between forms takes one action. In its singular form, the collective can't occupy the same space as another creature, but it can perform sneak attacks and cast spells. In swarm form, the bone collective can occupy another creature's space and vice versa, and it can move through openings at least 1 foot square. It can't change to singular form while it occupies the same space as another creature. It uses its skills normally in either form."
+      "name": "Swarm (Shapeless Form Only)",
+      "desc": "The bone collective can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny bone."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The bone collective doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Wyrmblood Venom",
+      "desc": "When the bone collective hits a poisoned creature with a Bite or Piercing Bones attack, the target's Charisma score is reduced by 1d4. The target is incapacitated if this reduces its Charisma to 0. The reduction lasts until the target finishes a long rest."
     }
   ],
   "spell_list": [],
   "page_no": 39,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_bone-collective/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_bone-collective/"
 }

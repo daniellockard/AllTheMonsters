@@ -1,19 +1,19 @@
 {
-  "slug": "scheznyki",
-  "desc": "_These small, vicious fey look like dirty, lazy dwarves dressed in burlap pants and shirts tied on with dirty twine and frayed rope. They are usually bootless with broken, dirty toenails and wearing rough burlap and leather tams as hats._  \n**Corrupted Dwarves.** Nicknamed “vanishers,” these small, vicious, dwarf-like fey haunt abandoned quarries and ancient ruins, killing and robbing unsuspecting visitors. Legend says the scheznykis are lazy dwarves corrupted by the shadow fey, though others claim that these are dwarves who swore allegiance to fey lords and ladies long ago. They live in drowned and abandoned mines, tumbledown ruins, and even in the tomb complexes of long‑departed priests and god-kings.  \n**Magical Hats.** Their shadow fey masters have given them magical hats that allow them to fly and become invisible at will. These hats can be stolen and used by adventurers, but the scheznykis fight hard to retrieve them.  \n**Arcane Beards.** If an adventurer can successfully grapple a scheznyki, they can attempt to cut the creature’s beard with a magical blade (the beard is AC 15 and has 5 hp). When an attacker successfully cuts off the beard, the scheznyki loses access to all spell-like and spell casting abilities—and the beard hair itself is valuable in making potion inks.  \nIf the scheznyki loses its hat and beard at the same time, it falls into a deep, wasting coma and dies in 24 hours or when next exposed to sunlight. When this occurs, the scheznyki’s body crumbles into dust and blows away one round later. If its beard is magically mended or regrown, or its hat restored to its head before this happens, the scheznyki recovers fully and immediately.",
+  "slug": "scheznyki-tob1-2023",
+  "desc": "False",
   "name": "Scheznyki",
   "size": "Small",
   "type": "Fey",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Evil",
   "armor_class": 16,
   "armor_desc": "natural armor",
-  "hit_points": 153,
-  "hit_dice": "18d6+72",
+  "hit_points": 135,
+  "hit_dice": "18d6 + 72",
   "speed": {
-    "walk": 20,
-    "climb": 15
+    "walk": 40,
+    "fly": 15
   },
   "strength": 19,
   "dexterity": 15,
@@ -21,48 +21,52 @@
   "intelligence": 15,
   "wisdom": 16,
   "charisma": 16,
-  "strength_save": 10,
+  "strength_save": 7,
   "dexterity_save": null,
-  "constitution_save": 10,
+  "constitution_save": 7,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 13,
   "skills": {},
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
   "condition_immunities": "unconscious",
   "senses": "darkvision 60 ft., passive Perception 13",
-  "languages": "Common, Darakhul, Elvish",
+  "languages": "Common, Dwarvish, Sylvan",
   "challenge_rating": "6",
   "cr": 6,
   "actions": [
     {
-      "name": "Multiattack",
-      "desc": "The scheznyki makes four war pick attacks or two hand crossbow attacks."
+      "name": "War Pick",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage."
     },
     {
-      "name": "Heavy Pick",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "1d8"
+      "name": "Arcane Bolt",
+      "desc": "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit: 13 (3d6 + 3) force damage."
     },
     {
-      "name": "Hand Crossbow",
-      "desc": "Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d6"
+      "name": "Invisibility",
+      "desc": "The scheznyki magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment it wears or carries is invisible with it."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The scheznyki casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 14):\nAt will: dancing lights, faerie fire\n3/day each: locate object, hideous laughter, ray of enfeeblement\n1/day each: dispel magic, hold person"
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Innate Spellcasting",
-      "desc": "the scheznyki's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\nat will: dancing lights, darkness, detect evil and good, faerie fire, invisibility*, fly*, mage hand, ray of frost (*only when wearing a vanisher hat)\n\n5/day each: magic missile, ray of enfeeblement, silent image\n\n3/day each: locate object (radius 3,000 ft. to locate a vanisher hat), hideous laughter, web\n\n1/day each: dispel magic, dominate person, hold person"
+      "name": "Beard Weakness",
+      "desc": "A creature grappling the scheznyki can take its action to cut off the scheznyki's beard by succeeding on a DC 15 Strength check while holding an edged weapon. If its beard is cut off, the scheznyki can't use Spellcasting until its beard regrows."
+    },
+    {
+      "name": "Brute",
+      "desc": "A melee weapon deals one extra die of its damage when the scheznyki hits with it (included in the attack)."
     },
     {
       "name": "Magic Resistance",
@@ -70,12 +74,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 339,
+  "page_no": 319,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_scheznyki/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_scheznyki/"
 }

@@ -1,16 +1,16 @@
 {
-  "slug": "hoard-golem",
-  "desc": "_A hoard golem is a pile of gold, jewelry, and weapons that can rise on its own like a tidal wave of riches, with a cold and determined face. A hoard golem can crash down with the weight of a fortune, flattening everything in its path._  \n**Dragon Fears Made Real.** The hoard golems were born from the paranoia of dragons. Despite their great physical and intellectual power, dragons are always suspicious of any creature willing to work for them. The first hoard golem was created when a dragon realized that there could be no guardian more trustworthy with its hoard than the hoard itself. Since then, the secret of hoard golem construction has emerged, and rich nobles have followed suit, enchanting their wealth to defend itself from thieves.  \n**Patient Homebodies.** As constructs, hoard golems are mindless, lying in wait for anyone other than their creator to come within striking distance. In the case of evil dragons, this may include the wyrmlings of dragon parents looking to establish dominance in the family. Hoard golems fight to the death, but they rarely leave the rooms they inhabit for fear that clever treasure hunters might trick the hoard into walking itself right out of the owner’s den.  \n**Silent and Wealthy.** Hoard golems cannot speak. A hoard golem is 25 feet tall and weighs 20,000 lb. A hoard golem’s body is composed of items—copper, silver, gold, works of art, armor, weapons, and magical items—worth at least 5,000 gp.  \n**Constructed Nature.** A golem doesn’t require air, food, drink, or sleep.",
+  "slug": "hoardgolem-tob1-2023",
+  "desc": "False",
   "name": "Hoard Golem",
   "size": "Huge",
   "type": "Construct",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Unaligned",
   "armor_class": 18,
   "armor_desc": "natural armor",
   "hit_points": 161,
-  "hit_dice": "14d12+70",
+  "hit_dice": "14d12 + 70",
   "speed": {
     "walk": 40
   },
@@ -26,43 +26,45 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 4,
+  "perception": 14,
   "skills": {
-    "athletics": 10,
-    "perception": 4
+    "Athletics": 10,
+    "Perception": 4
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
   "damage_immunities": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks not made with adamantine weapons",
-  "condition_immunities": "charmed, exhausted, frightened, paralyzed, petrified, poisoned",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
   "senses": "darkvision 120 ft., passive Perception 14",
-  "languages": "understands the language of its creator but can't speak",
+  "languages": "understands the languages of its creator but can’t speak",
   "challenge_rating": "12",
   "cr": 12,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The golem makes two slam attacks."
+      "desc": "The hoard golem makes two Slam attacks."
     },
     {
       "name": "Slam",
-      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 39 (6d10 + 6) bludgeoning damage.",
-      "attack_bonus": 10,
-      "damage_dice": "6d10"
+      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 22 (3d10 + 6) bludgeoning damage plus 18 (4d8) force damage."
     },
     {
       "name": "Thieving Whirlwind (Recharge 5-6)",
-      "desc": "The hoard golem transforms into a 20-foot radius whirlwind of the treasures of which it is composed. In this form, it has immunity to all slashing and piercing damage. As a whirlwind, it can enter other creatures' spaces and stop there. Every creature in a space the whirlwind occupies must make a DC 17 Dexterity saving throw. On a failure, a target takes 40 (6d10 + 7) bludgeoning damage and the whirlwind removes the most valuable visible item on the target, including wielded items, but not armor. If the saving throw is successful, the target takes half the bludgeoning damage and retains all possessions. The golem can remain in whirlwind form for up to 3 rounds, or it can transform back to its normal form on any of its turns as a bonus action."
+      "desc": "The hoard golem partially disperses into a whirlwind of coins, gemstones, and other valuables then recoalesces. Each creature within 20 feet of the golem must make a DC 17 Dexterity saving throw. On a failure, a creature takes 44 (8d10) bludgeoning damage and loses one object it is wearing or carrying. On a success, a creature takes half the damage and doesn't lose an object. Each object the golem steals must weigh no more than 20 pounds and not be wrapped around or firmly attached to a creature. For example, the golem could steal a belt pouch full of coins or a creature's jewel-encrusted dagger, but it can't steal a creature's shirt or armor. The hoard golem steals objects of high value over those of minimal value. The stolen object becomes part of the golem's body and can't be retrieved until the golem dies."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Strike with Awe",
-      "desc": "Creatures within 120 feet of an immobile hoard golem suffer disadvantage on Wisdom (Perception) checks. A creature's sheer glee on discovering a vast hoard of treasure distracts it from its surroundings."
+      "name": "Construct Nature",
+      "desc": "The golem doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Enchanted Weapons",
+      "desc": "The golem's weapon attacks are magical. When the golem hits with any weapon, the weapon deals an extra 4d8 force damage (included in the attack)."
     },
     {
       "name": "Immutable Form",
@@ -73,17 +75,17 @@
       "desc": "The golem has advantage on saving throws against spells and other magical effects."
     },
     {
-      "name": "Magic Weapons",
-      "desc": "The golem's weapon attacks are magical."
+      "name": "Strike with Awe",
+      "desc": "A creature that enters a space within 120 feet of the hoard golem or starts its turn there must succeed on a DC 17 Wisdom saving throw or have disadvantage on Wisdom (Perception) checks while it remains within 120 feet of the golem."
     }
   ],
   "spell_list": [],
-  "page_no": 234,
+  "page_no": 217,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_hoard-golem/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_hoard-golem/"
 }

@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Chaotic Neutral",
+  "alignment": "chaotic neutral",
   "armor_class": 17,
   "armor_desc": "Hardy Defense",
   "hit_points": 190,

@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "elf",
   "group": null,
-  "alignment": "Neutral Evil",
+  "alignment": "neutral evil",
   "armor_class": 15,
   "armor_desc": "chain shirt",
   "hit_points": 110,

@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "dragonborn",
   "group": null,
-  "alignment": "Neutral Evil",
+  "alignment": "neutral evil",
   "armor_class": 18,
   "armor_desc": "plate",
   "hit_points": 209,

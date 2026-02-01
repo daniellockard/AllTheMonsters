@@ -1,19 +1,18 @@
 {
-  "slug": "behtu",
-  "desc": "_With the face of a mandrill and the tusks of a great boar, these ferocious half-ape, half-human pygmies have demon blood flowing in their veins. Only the desperate or the suicidal travel to their volcanic temple-islands._  \nA demon lord bred the cruelty of a demon with the cunning of a human and the ferocity of an ape into his people, the behtu (BAY-too), who carry his worship from island to island.  \n**Temple Builders.** The behtus raise shrines to their demon lord wherever they go. Some are kept and prosper, while others fall into decay and return to the jungle.  \n**Ichor Drinkers.** In his volcanic temples, the demon lord’s idols weep his ichorous demon blood, which the behtus use to create infusions that give them inhuman strength and speed. The behtus also use the infusions to etch demonic tattoos that grant them infernal powers and protection.  \n**Scaly Mounts.** The behtus breed demonic iguanas as war mounts (treat as giant lizards). The most powerful behtu sorcerers and druids have been known to ride large crimson drakes and small flame dragons as personal mounts.",
+  "slug": "behtu-tob1-2023",
+  "desc": "False",
   "name": "Behtu",
   "size": "Small",
   "type": "Humanoid",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Evil",
   "armor_class": 14,
-  "armor_desc": "hide armor",
+  "armor_desc": "natural armor",
   "hit_points": 52,
-  "hit_dice": "8d6+24",
+  "hit_dice": "8d6 + 24",
   "speed": {
-    "walk": 20,
-    "climb": 20
+    "walk": 20
   },
   "strength": 17,
   "dexterity": 16,
@@ -27,53 +26,53 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 10,
   "skills": {
-    "athletics": 5,
-    "stealth": 5
+    "Athletics": 5,
+    "Stealth": 5
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "cold, fire, lightning",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 10",
   "languages": "Behtu, Common, Infernal",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
-      "name": "Bite",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d6"
+      "name": "Multiattack",
+      "desc": "The behtu makes one Bite attack and one Spear attack."
     },
     {
-      "name": "Shortspear",
-      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d4"
+      "name": "Bite",
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
+    },
+    {
+      "name": "Spear",
+      "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 6 (1d6 + 3) piercing damage, or 7 (1d8 + 3) piercing damage if used with two hands to make a melee attack."
     },
     {
       "name": "Fire Breath (Recharge 6)",
-      "desc": "The behtu exhales fire in a 15-foot cone. Each creature in that area takes 21 (5d8) fire damage, or half damage with a successful DC 13 Dexterity saving throw."
+      "desc": "The behtu exhales fire in a 15-foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one."
     },
     {
-      "name": "Ichorous Infusions",
-      "desc": "Behtu war parties carry 1d6 vials of ichorous infusions. They often ingest an infusion before an ambush. For the next 2d6 rounds, the behtus gain a +4 bonus to their Strength and Constitution scores and quadruple their base speed (including their climb speed). Behtus also take a -4 penalty to their Intelligence and Wisdom scores for the duration of the infusion. A non-behtu character who ingests a behtu infusion becomes poisoned and takes 10 (3d6) poison damage; a successful DC 14 Constitution saving throw against poison reduces damage to half and negates the poisoned condition."
+      "name": "Ichorous Infusion",
+      "desc": "The behtu ingests an infusion made from Mechuiti's blood. For 1 minute, the behtu has advantage on saving throws and ability checks that use Strength and Constitution, and its walking and climbing speeds are doubled. In addition, it has disadvantage on saving throws and ability checks that use Intelligence and Wisdom for the duration. A non-behtu that ingests the infusion must make a DC 14 Constitution saving throw. On a failure, the creature takes 10 (3d6) poison damage and is poisoned for 1 minute. On a success, the creature takes half the damage and isn't poisoned. The behtu typically has 1d4 + 1 infusions in its possession."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
   "spell_list": [],
   "page_no": 34,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_behtu/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_behtu/"
 }

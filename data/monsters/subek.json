@@ -1,19 +1,18 @@
 {
-  "slug": "subek",
-  "desc": "_For most of the year the subek are a kindly race, advising others and lending their physical and intellectual prowess to local projects. During the flood season, however, subek become violent and territorial, ruthlessly killing and consuming all trespassers._  \n**Riverbank Homes.** Subek are crocodile-headed humanoids that dwell along the banks of great rivers. They are tailless, possessing muscular physiques, surprisingly dexterous hands, and a frightening maw of sharp teeth. They are 9 feet tall, average 700 lb., and can live up to 300 years.  \nDuring the dry season, subek are friendly, thoughtful scholars, historians, and artisans.  \n**Flood Fever.** Subek are well aware of their destructive and violent nature. When the waters rise, they distance themselves from other cultures, warning locals to keep away until the river recedes. Most migrate up or down river to an area with few inhabitants; some even construct underground prisons or cages and pay brave retainers to keep them locked up and fed during their time of savagery.  \nDuring flood fever, subek do not recognize friends or colleagues. They discard all trappings of civilization and kill nonsubek creatures indiscriminately. Once the fever clears, they remember nothing of their actions, though they are surrounded by undeniable, grisly reminders.  \n**Keep Their Distance.** Despite the danger, subek are tolerated and even prized for their skill as engineers, historians, and teachers. They live on the outskirts of many human towns, maintaining a cautious distance from their neighbors. Subek marriage is pragmatic; they live with a mate long enough to foster a single egg and raise the hatchling for a decade before parting ways.  \nSubek scholars and oracles debate their duality. Some believe it to be an ancient curse, a shared ancestry with northern trolls, or some loathsome and primitive part of their soul exerting control. A rare few—shamans and oracles, mostly—embrace their duality and choose to live year-round in remote regions far from civilization.",
+  "slug": "subek-tob1-2023",
+  "desc": "False",
   "name": "Subek",
   "size": "Large",
   "type": "Humanoid",
-  "subtype": "subek",
-  "group": null,
+  "subtype": "",
+  "group": "null",
   "alignment": "Lawful Neutral",
-  "armor_class": 17,
+  "armor_class": 15,
   "armor_desc": "natural armor",
-  "hit_points": 76,
-  "hit_dice": "8d10+32",
+  "hit_points": 114,
+  "hit_dice": "12d10 + 48",
   "speed": {
-    "walk": 30,
-    "swim": 20
+    "walk": 20
   },
   "strength": 19,
   "dexterity": 10,
@@ -27,15 +26,15 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 11,
   "skills": {
-    "history": 5,
-    "investigation": 5
+    "History": 5,
+    "Investigation": 5
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 11",
   "languages": "Common",
   "challenge_rating": "5",
@@ -43,52 +42,38 @@
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The subek makes one bite attack and one claws attack. If both attacks hit the same target, the subek can make a thrash attack as a bonus action against that target."
+      "desc": "The subek makes one Bite attack and two Claw attacks. If both Claw attacks hit one creature, the target must succeed on a DC 15 Strength saving throw or take 7 (2d6) slashing damage as the subek tears into the target."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 11 (2d6 + 4) piercing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "2d6"
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage."
     },
     {
-      "name": "Claws",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) slashing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "4d8"
-    },
-    {
-      "name": "Thrash",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d10) slashing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "2d10"
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
+    {
+      "name": "Flood Fever",
+      "desc": "During flood season, the subek is overcome with bloodthirsty malice, becoming more aggressive and losing its proficiency in Intelligence (History) and Intelligence (Investigation) checks. If it hasn't fed within the past 8 hours, it enters a frenzy, spending each turn attacking the nearest creature it can see. If no creature is near enough to move to and attack, the subek attacks an object, with preference for an object smaller than itself. During the frenzy, it has advantage on melee attack rolls against any creature that doesn't have all its hp."
+    },
     {
       "name": "Hold Breath",
       "desc": "The subek can hold its breath for 15 minutes."
-    },
-    {
-      "name": "Flood Fever",
-      "desc": "During flood season, the subek is overcome with bloodthirsty malice. Its alignment shifts to chaotic evil, it gains the Blood Frenzy trait, and it loses the capacity to speak Common and its bonuses to History and Investigation."
-    },
-    {
-      "name": "Blood Frenzy",
-      "desc": "The subek has advantage on melee attack rolls against any creature that doesn't have all its hit points."
     }
   ],
   "spell_list": [],
-  "page_no": 371,
+  "page_no": 352,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_subek/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_subek/"
 }

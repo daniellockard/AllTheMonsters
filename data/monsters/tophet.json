@@ -1,78 +1,86 @@
 {
-  "slug": "tophet",
-  "desc": "_An enormous bronze and iron statue filled with fire towers above the ring of chanting, frenzied worshipers._  \nTophets are used by worshipers of fire gods, who toss sacrifices into their flaming maws to incinerate them. A tophet has a large opening in the front where the flames can be seen; sometimes this is an enormous mouth, and at other times it is a large hole in the tophet’s belly. Horns and expressions of anger or wide‑mouthed laughter are common.  \n**Eager for Sacrifices.** Among fire cultists, it’s widely known that when a tophet’s hands are raised above its mouth, it is demanding a sacrifice to roll down its palms and into its fiery maw.  \n**Heed Musical Commands.** Flutes and drums can (sometimes) be used to control the actions of a tophet during sacrifices. They have the fortunate side effect of drowning out the cries and screams of living sacrifices.  \n**Magical Fires.** The fires within a tophet’s bronze body are largely magical and fueled by sacrifices. They don’t require more than a symbolic amount of wood or coal to keep burning, but they do require sacrifices of food, cloth, and (eventually) living creatures to keep them under control. A tophet that is not granted a sacrifice when it demands one might go on a fiery rampage, burning down buildings, granaries, or barns until its hunger is satisfied.  \n**Constructed Nature.** A tophet doesn’t require air, food, drink, or sleep.",
+  "slug": "tophet-tob1-2023",
+  "desc": "False",
   "name": "Tophet",
   "size": "Huge",
   "type": "Construct",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 16,
   "armor_desc": "natural armor",
-  "hit_points": 184,
-  "hit_dice": "16d12+80",
+  "hit_points": 161,
+  "hit_dice": "14d12 + 70",
   "speed": {
     "walk": 30
   },
-  "strength": 24,
+  "strength": 21,
   "dexterity": 10,
   "constitution": 20,
   "intelligence": 6,
   "wisdom": 10,
   "charisma": 10,
-  "strength_save": 10,
+  "strength_save": 8,
   "dexterity_save": 3,
   "constitution_save": 8,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 3,
+  "perception": 13,
   "skills": {
-    "perception": 3
+    "Perception": 3
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "necrotic",
-  "damage_immunities": "cold, fire, poison",
-  "condition_immunities": "exhaustion, frightened, paralyzed, petrified, poisoned",
-  "senses": "darkvision 200 ft., passive Perception 13",
-  "languages": "Common",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "cold",
+  "damage_immunities": "fire, poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 13",
+  "languages": "understands the languages of its creator but can’t speak",
   "challenge_rating": "8",
   "cr": 8,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "A tophet makes two attacks, no more than one of which can be a gout of flame."
+      "desc": "The tophet makes two Slam attacks. It can replace one Slam attack with a use of Burning Belly."
     },
     {
       "name": "Slam",
-      "desc": "Melee Weapon Attack. +10 to hit, reach 5 ft., one target. Hit: 12 (1d10+7) bludgeoning damage. The target is also knocked inside the tophet's burning belly if the attack scores a critical hit."
-    },
-    {
-      "name": "Gout of Flame",
-      "desc": "The tophet targets a point within 100 feet of itself that it can see. All targets within 10 feet of that point take 22 (4d10) fire damage, or half damage with a successful DC 16 Dexterity saving throw."
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
-    {
-      "name": "Fiery Heart",
-      "desc": "A tophet's inner fire can be ignited or doused at will. Its heat is such that all creatures have resistance to cold damage while within 30 feet of the tophet."
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) bludgeoning damage plus 7 (2d6) fire damage, and the target is grappled (escape DC 16) if it is a Large or smaller creature."
     },
     {
       "name": "Burning Belly",
-      "desc": "Creatures inside a tophet's burning core take 21 (6d6) fire damage at the start of each of the tophet's turns. Escaping from a tophet's belly takes 10 feet of movement and a successful DC 16 Dexterity (Acrobatics) check."
+      "desc": "The tophet makes one Slam attack against a target it is grappling as it shoves the creature into its open, flame-filled belly. If the attack hits, the target is forced into the tophet's burning belly, and the grapple ends. While inside the belly, the target is restrained, has three-quarters cover against attacks and other effects outside the belly, and it takes 14 (4d6) fire damage at the start of each of its turns. A creature, including the target, can take its action to pull the target free from the belly by succeeding on a DC 16 Strength check. The creature making the attempt takes 7 (2d6) fire damage."
+    },
+    {
+      "name": "Gout of Flame (Recharge 5-6)",
+      "desc": "Flames erupt on a point the tophet can see within 100 feet of it. Each creature within 10 feet of that point must make a DC 16 Dexterity saving throw, taking 35 (10d6) fire damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Burning Heart",
+      "desc": "The tophet sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Each creature in the bright light has resistance to cold damage. At the start of each of its turns, the tophet chooses whether this light is active."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "The tophet doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Heated Body",
+      "desc": "A creature that touches the tophet or hits it with a melee attack while within 5 feet of it takes 3 (1d6) fire damage."
     }
   ],
   "spell_list": [],
-  "page_no": 383,
+  "page_no": 364,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_tophet/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_tophet/"
 }

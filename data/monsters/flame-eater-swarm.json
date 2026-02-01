@@ -6,7 +6,7 @@
   "type": "Beast",
   "subtype": "",
   "group": null,
-  "alignment": "Unaligned",
+  "alignment": "unaligned",
   "armor_class": 12,
   "armor_desc": null,
   "hit_points": 33,

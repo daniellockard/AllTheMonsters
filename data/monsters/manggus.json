@@ -6,7 +6,7 @@
   "type": "Giant",
   "subtype": "shapechanger",
   "group": null,
-  "alignment": "Chaotic Evil",
+  "alignment": "chaotic evil",
   "armor_class": 14,
   "armor_desc": "hide armor",
   "hit_points": 127,

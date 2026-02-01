@@ -1,95 +1,90 @@
 {
-  "slug": "archmage",
-  "desc": "**Archmages** are powerful (and usually quite old) spellcasters dedicated to the study of the arcane arts. Benevolent ones counsel kings and queens, while evil ones rule as tyrants and pursue lichdom. Those who are neither good nor evil sequester themselves in remote towers to practice their magic without interruption.\nAn archmage typically has one or more apprentice mages, and an archmage's abode has numerous magical wards and guardians to discourage interlopers.",
+  "slug": "archmage_bf",
+  "desc": "",
   "name": "Archmage",
-  "size": "Medium",
+  "size": "medium",
   "type": "Humanoid",
-  "subtype": "any race",
+  "subtype": "Any Lineage",
   "group": "NPCs",
-  "alignment": "Any Alignment",
-  "armor_class": 12,
-  "armor_desc": "15 with _mage armor_",
-  "hit_points": 99,
-  "hit_dice": "18d8+18",
+  "alignment": "",
+  "armor_class": 17,
+  "armor_desc": "Magic Ward",
+  "hit_points": 212,
+  "hit_dice": "",
   "speed": {
     "walk": 30
   },
   "strength": 10,
   "dexterity": 14,
   "constitution": 12,
-  "intelligence": 20,
-  "wisdom": 15,
+  "intelligence": 28,
+  "wisdom": 22,
   "charisma": 16,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
+  "strength_save": 0,
+  "dexterity_save": 2,
+  "constitution_save": 1,
   "intelligence_save": 9,
   "wisdom_save": 6,
-  "charisma_save": null,
-  "perception": null,
-  "skills": {
-    "arcana": 13,
-    "history": 13
-  },
+  "charisma_save": 3,
+  "perception": 16,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "damage from spells; non magical bludgeoning, piercing, and slashing (from stoneskin)",
+  "damage_resistances": "Magic Ward",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 12",
+  "senses": "-",
   "languages": "any six languages",
   "challenge_rating": "12",
   "cr": 12,
   "actions": [
     {
-      "name": "Dagger",
-      "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "1d4",
-      "damage_bonus": 2
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
+      "name": "Multiattack",
+      "desc": "The archmage makes three Arcane Blast attacks. It can replace one attack with a use of Spellcasting."
+    },
     {
-      "name": "Magic Resistance",
-      "desc": "The archmage has advantage on saving throws against spells and other magical effects."
+      "name": "Arcane Blast",
+      "desc": "_Melee or Ranged Spell Attack:_ +9 to hit, reach 5 ft. or range 60 ft., one target. _Hit:_ 27 (4d10+5) force damage, and the target must succeed on a DC 17 STR save or be pushed up to 10 feet away from the archmage and knocked prone."
+    },
+    {
+      "name": "Burst of Magic (Recharge 5-6)",
+      "desc": "The archmage releases a burst of swirling, multicolored, magical energy on a point it can see within 60 feet of it. Each creature within 20 feet of that point must make a DC 17 DEX save, taking 33 (6d10) force damage and 18 (4d8) acid, cold, fire, lightning, or thunder damage (the archmage's choice) on a failed save, or half as much damage on a successful one."
     },
     {
       "name": "Spellcasting",
-      "desc": "The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast disguise self and invisibility at will and has the following wizard spells prepared:\n\n* Cantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp\n* 1st level (4 slots): detect magic, identify, mage armor*, magic missile\n* 2nd level (3 slots): detect thoughts, mirror image, misty step\n* 3rd level (3 slots): counterspell,fly, lightning bolt\n* 4th level (3 slots): banishment, fire shield, stoneskin*\n* 5th level (3 slots): cone of cold, scrying, wall of force\n* 6th level (1 slot): globe of invulnerability\n* 7th level (1 slot): teleport\n* 8th level (1 slot): mind blank*\n* 9th level (1 slot): time stop\n* The archmage casts these spells on itself before combat."
+      "desc": "The archmage casts one of the following spells, using INT as the spellcasting ability (spell save DC 17).<br>At will: _detect magic_, _disguise self_, _mage hand_, _prestidigitation_<br>3/day each: _charm_, _dispel magic_, _fly_, _invisibility_ (self only), _mirror image_<br>1/day each: _dimension door_, _greater hold_, _wall of force_"
     }
   ],
-  "spell_list": [
-    "https://api.open5e.com/v2/spells/sacred-flame/",
-    "https://api.open5e.com/v2/spells/spare-the-dying/",
-    "https://api.open5e.com/v2/spells/thaumaturgy/",
-    "https://api.open5e.com/v2/spells/command/",
-    "https://api.open5e.com/v2/spells/detect-evil-and-good/",
-    "https://api.open5e.com/v2/spells/detect-magic/",
-    "https://api.open5e.com/v2/spells/lesser-restoration/",
-    "https://api.open5e.com/v2/spells/zone-of-truth/",
-    "https://api.open5e.com/v2/spells/dispel-magic/",
-    "https://api.open5e.com/v2/spells/tongues/",
-    "https://api.open5e.com/v2/spells/banishment/",
-    "https://api.open5e.com/v2/spells/freedom-of-movement/",
-    "https://api.open5e.com/v2/spells/flame-strike/",
-    "https://api.open5e.com/v2/spells/greater-restoration/",
-    "https://api.open5e.com/v2/spells/heroes-feast/"
+  "bonus_actions": [
+    {
+      "name": "Shimmering Step",
+      "desc": "The archmage teleports, along with any equipment it is wearing or carrying, up to 30 feet to an unoccupied space it can see. Sparks of arcane energy appear at the origin and destination when it uses this bonus action."
+    }
   ],
-  "page_no": 395,
-  "environments": [
-    "Settlement",
-    "Forest",
-    "Laboratory",
-    "Urban"
+  "reactions": [
+    {
+      "name": "Counter Spell",
+      "desc": "When a creature the archmage can see within 30 feet of it casts a spell, the archmage can counter the spell, interrupting the casting. This reaction works like the counterspell spell with a +5 spellcasting ability check, except the archmage must always make the ability check, regardless of the spell's circle. The archmage has advantage on this check if the spell is on the Arcane source spell list."
+    }
   ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Magic Resistance",
+      "desc": "The archmage has advantage on saves against spells and other magical effects."
+    },
+    {
+      "name": "Magic Ward",
+      "desc": "While the archmage is conscious, wearing no armor, and not inside of an antimagic effect, it adds its INT modifier to its AC (included above). In addition, it is resistant to force damage."
+    }
+  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_archmage/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_archmage/"
 }

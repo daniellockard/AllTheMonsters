@@ -6,7 +6,7 @@
   "type": "Monstrosity",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral",
+  "alignment": "neutral",
   "armor_class": 16,
   "armor_desc": "shield",
   "hit_points": 84,

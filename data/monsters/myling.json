@@ -1,22 +1,22 @@
 {
-  "slug": "myling",
-  "desc": "_Mylings are the souls of the unburied, those who died in the forest from abandonment or exposure and can find no peace until their bodies are properly interred. Given the circumstances around their deaths, mylings tend to be solitary. They haunt the places where they died. When some tragedy resulted in multiple deaths, the resulting mylings stay together and hunt as a pack._  \n**Attack in a Rage.** Mylings prefer to attack lone wanderers, but they target a group when desperate or when there’s more than one myling in the pack. They shadow a target until after dark, then jump onto the target’s back and demand to be carried to their chosen burial ground. They cling tightly to a victim with arms and legs locked around the victim’s shoulders and midsection, begging, threatening, and biting until the victim gives in to their demands. Mylings will bite victims to death if they are unable or unwilling to carry them, or if a victim moves too slowly.  \n**Ungrateful Rest.** While all mylings seek a creature to carry them to their final resting place, even when a chosen “mount” is willing to carry the myling, the creature’s body grows immensely heavier as it nears its burial place. Once there, it sinks into the earth, taking its bearers with it. Being buried alive is their reward for helping the myling.  \n**Urchin Rhymes and Songs.** Some mylings maintain traces of the personalities they had while alive— charming, sullen, or sadistic—and they can speak touchingly and piteously. Dressed in ragged clothing, their skin blue with cold, they sometimes reach victims who believe they are helping an injured child or young adult. They hide their faces and sing innocent rhymes when they aren’t screeching in fury, for they know that their dead eyes and cold blue skin cause fright and alarm.  \n**Undead Nature.** A myling doesn’t require air, food, drink, or sleep.",
+  "slug": "myling-tob1-2023",
+  "desc": "False",
   "name": "Myling",
   "size": "Small",
   "type": "Undead",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Evil",
   "armor_class": 13,
   "armor_desc": "natural armor",
   "hit_points": 45,
-  "hit_dice": "10d6+10",
+  "hit_dice": "10d6 + 10",
   "speed": {
-    "walk": 30,
-    "burrow": 10
+    "walk": 10,
+    "burrow": 30
   },
-  "strength": 15,
-  "dexterity": 10,
+  "strength": 10,
+  "dexterity": 16,
   "constitution": 12,
   "intelligence": 10,
   "wisdom": 12,
@@ -27,52 +27,50 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 11,
   "skills": {
-    "stealth": 4
+    "Stealth": 5
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons",
   "damage_immunities": "necrotic, poison",
   "condition_immunities": "charmed, frightened, poisoned, stunned, unconscious",
   "senses": "darkvision 60 ft., passive Perception 11",
-  "languages": "Common",
+  "languages": "the languages it knew in life",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
-      "name": "Multiattack",
-      "desc": "The myling makes one bite and two claw attacks."
-    },
-    {
-      "name": "Bite",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage, and the target is grappled (escape DC 12). If the target was grappled by the myling at the start of the myling's turn, the bite attack hits automatically.",
-      "attack_bonus": 4,
-      "damage_dice": "2d4"
-    },
-    {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 8 (2d6 + 1) slashing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "2d6"
-    },
-    {
-      "name": "Buried Alive",
-      "desc": "If the myling starts its turn on its chosen burial ground, it sinks into the earth. If it has a creature grappled, that creature sinks with the myling. A Medium or larger creature sinks up to its waist; a Small creature sinks up to its neck. If the myling still has the victim grappled at the start of the myling's next turn, both of them disappear into the earth. While buried this way, a creature is considered stunned. It can free itself with a successful DC 20 Strength (Athletics) check, but only one check is allowed; if it fails, the creature is powerless to aid itself except with magic. The creature must also make a DC 10 Constitution saving throw; if it succeeds, the creature has a lungful of air and can hold its breath for (Constitution modifier + 1) minutes before suffocation begins. Otherwise, it begins suffocating immediately. Allies equipped with digging tools can reach it in four minutes divided by the number of diggers; someone using an improvised tool (a sword, a plate, bare hands) counts as only one-half of a digger."
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage plus 7 (2d6) necrotic damage, and the target must succeed on a DC 13 Dexterity saving throw or the myling attaches to it. While attached, the myling sinks its teeth into the target and can't attack, and at the start of each of the myling's turns, the target takes 17 (5d6) necrotic damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": null,
+  "bonus_actions": [
+    {
+      "name": "Bury Alive (Recharge 6)",
+      "desc": "The creature to which the myling is attached is knocked prone, dragged into the ground, and buried just below the surface, ending the attachment. The buried creature is restrained and unable to breathe or stand up. A creature, including the buried creature, can take its action to free the buried creature by succeeding on a DC 13 Strength check."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Enfeebling Attacks",
+      "desc": "Each time the myling deals necrotic damage to a creature that is below half its hp maximum, the target's Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest."
+    },
+    {
+      "name": "Undead Nature",
+      "desc": "The myling doesn't require air, food, drink, or sleep."
+    }
+  ],
   "spell_list": [],
-  "page_no": 301,
+  "page_no": 281,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_myling/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_myling/"
 }

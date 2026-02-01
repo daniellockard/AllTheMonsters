@@ -1,105 +1,99 @@
 {
-  "slug": "oni",
+  "slug": "oni_bf",
   "desc": "",
   "name": "Oni",
-  "size": "Large",
+  "size": "large",
   "type": "Giant",
-  "subtype": "",
+  "subtype": "Outsider",
   "group": null,
-  "alignment": "Lawful Evil",
+  "alignment": "",
   "armor_class": 16,
   "armor_desc": "chain mail",
-  "hit_points": 110,
-  "hit_dice": "13d10+39",
+  "hit_points": 134,
+  "hit_dice": "",
   "speed": {
     "walk": 30,
-    "fly": 30
+    "fly": 30,
+    "hover": true
   },
-  "strength": 19,
-  "dexterity": 11,
-  "constitution": 16,
+  "strength": 18,
+  "dexterity": 16,
+  "constitution": 22,
   "intelligence": 14,
-  "wisdom": 12,
-  "charisma": 15,
-  "strength_save": null,
+  "wisdom": 18,
+  "charisma": 22,
+  "strength_save": 4,
   "dexterity_save": 3,
   "constitution_save": 6,
-  "intelligence_save": null,
+  "intelligence_save": 2,
   "wisdom_save": 4,
-  "charisma_save": 5,
-  "perception": 4,
-  "skills": {
-    "arcana": 5,
-    "deception": 8,
-    "perception": 4
-  },
+  "charisma_save": 6,
+  "perception": 14,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
+  "damage_resistances": "Giant Attributes",
+  "damage_immunities": "prone",
   "condition_immunities": "",
-  "senses": "darkvision 60 ft., passive Perception 14",
-  "languages": "Common, Giant",
+  "senses": "darkvision 60 ft.",
+  "languages": "Common,Giant",
   "challenge_rating": "7",
   "cr": 7,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The oni makes two attacks, either with its claws or its glaive."
+      "desc": "The oni makes two Claw or Glaive attacks, or it makes three Arcane Bolt attacks. It can replace one attack with a use of Spellcasting."
     },
     {
-      "name": "Claw (Oni Form Only)",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) slashing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "1d8",
-      "damage_bonus": 4
+      "name": "Claw (True Form Only)",
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 13 (2d8+4) slashing damage plus 10 (3d6) force damage."
     },
     {
       "name": "Glaive",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10 + 4) slashing damage, or 9 (1d10 + 4) slashing damage in Small or Medium form.",
-      "attack_bonus": 7,
-      "damage_dice": "2d10",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 10 ft., one target. _Hit:_ 15 (2d10+4) slashing damage, or 9 (1d10+4) slashing damage in a Medium or smaller form, plus 10 (3d6) force damage."
     },
     {
-      "name": "Change Shape",
-      "desc": "The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size."
+      "name": "Arcane Bolt",
+      "desc": "_Ranged Spell Attack:_ +6 to hit, range 60 ft., one target. _Hit:_ 17 (4d6+3) force damage."
+    },
+    {
+      "name": "Whirling Glaive (Recharge 5-6)",
+      "desc": "The oni channels its magic into its twirling glaive, creating magical wind in a 30-foot cone. Each creature in the area must make a DC 14 STR save. On a failure, a creature takes 31 (9d6) cold damage and is pushed up to 15 feet away from the oni. On a success, a creature takes half the damage and isn't pushed."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The oni casts one of the following spells, requiring no material components and using CHA as the spellcasting ability (spell save DC 14).<br>At will: _darkness_, _invisibility_ (self only)<br>1/day each: _charm_, _gaseous form_, _sleep_"
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Change Shape",
+      "desc": "The oni magically transforms into a Small or Medium Humanoid, a Large ogre, or back into its true form, which is Giant. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying transforms with it, except for its glaive, which adjusts to fit its new form. If the oni dies, it reverts to its true form, and the glaive reverts to its normal size."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Innate Spellcasting",
-      "desc": "The oni's innate spellcasting ability is Charisma (spell save DC 13). The oni can innately cast the following spells, requiring no material components:\n\nAt will: darkness, invisibility\n1/day each: charm person, cone of cold, gaseous form, sleep"
+      "name": "Empowered Weapons",
+      "desc": "The oni's weapon attacks are magical. When the oni hits with any weapon, the weapon deals an extra 3d6 force damage (included in the attack)."
     },
     {
-      "name": "Magic Weapons",
-      "desc": "The oni's weapon attacks are magical."
+      "name": "Giant Attributes",
+      "desc": "The oni is resistant to the stunned condition."
     },
     {
       "name": "Regeneration",
-      "desc": "The oni regains 10 hit points at the start of its turn if it has at least 1 hit point."
+      "desc": "The oni regains 10 HP at the start of its turn if it has at least 1 HP."
     }
   ],
-  "spell_list": [
-    "https://api.open5e.com/v2/spells/darkness/",
-    "https://api.open5e.com/v2/spells/invisibility/",
-    "https://api.open5e.com/v2/spells/charm-person/",
-    "https://api.open5e.com/v2/spells/cone-of-cold/",
-    "https://api.open5e.com/v2/spells/gaseous-form/",
-    "https://api.open5e.com/v2/spells/sleep/"
-  ],
-  "page_no": 336,
-  "environments": [
-    "Urban",
-    "Forest"
-  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_oni/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_oni/"
 }

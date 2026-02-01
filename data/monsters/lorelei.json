@@ -1,91 +1,88 @@
 {
-  "slug": "lorelei",
-  "desc": "_Lounging on large river rocks or within swirling eddies untouched by the rush of the current, these breathtakingly fey call plaintively to travelers and knights errant. They seek nothing less than the last breath of a drowning man._  \n**Death to Men.** These callous river sirens compete with one another in manipulating and destroying male travelers. A lorelei often taunts her prey for days before finally turning on it. When the opportunity presents itself, it quickly draws heavily armored warriors into deep water and kisses them as they drown.  \n**Voluptuous Humanoids.** Although legends describe the lorelei as golden-haired and fair-skinned, they come in all varieties, each more voluptuous than the next. While most resemble sensual humans, a lorelei’s form can also include elves, dwarves, and in some recorded cases even orcs and hobgoblins—a lorelei mimics her most frequent prey.  \n**Ignore Women.** Women travelers are vexing for the lorelei. While the siren’s powers affect women as readily as men, the lorelei lacks the urge to destroy them. Women traveling alone or in all-female groups may pass through a lorelei’s territory safely, and might even make peaceful contact. However, women who protect male companions are viewed as traitors, inspiring wrath.",
+  "slug": "lorelei-tob1-2023",
+  "desc": "False",
   "name": "Lorelei",
   "size": "Medium",
   "type": "Fey",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Evil",
   "armor_class": 15,
-  "armor_desc": "18 mage armor",
-  "hit_points": 76,
-  "hit_dice": "9d8+36",
+  "armor_desc": "",
+  "hit_points": 93,
+  "hit_dice": "11d8 + 44",
   "speed": {
-    "walk": 30,
-    "swim": 30
+    "walk": 30
   },
   "strength": 10,
   "dexterity": 21,
   "constitution": 18,
   "intelligence": 16,
   "wisdom": 16,
-  "charisma": 23,
+  "charisma": 21,
   "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": 8,
+  "dexterity_save": 8,
+  "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
-  "charisma_save": 9,
-  "perception": null,
+  "charisma_save": 8,
+  "perception": 13,
   "skills": {
-    "deception": 9,
-    "performance": 9,
-    "persuasion": 9
+    "Deception": 8,
+    "Performance": 8,
+    "Persuasion": 8
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 13",
   "languages": "Common, Sylvan",
   "challenge_rating": "5",
   "cr": 5,
   "actions": [
     {
-      "name": "Dagger",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d4 + 5) piercing damage.",
-      "attack_bonus": 8,
-      "damage_dice": "1d4"
+      "name": "Multiattack",
+      "desc": "The lorelei can use her Stunning Glance. She then makes three Psychic Blast attacks. She can replace one attack with a use of Corrupted Kiss."
     },
     {
-      "name": "Charm",
-      "desc": "The lorelei targets one humanoid she can see within 30 feet of her. If the target can see or hear the lorelei, it must succeed on a DC 17 Wisdom saving throw against this magic or be charmed by the lorelei. The charmed target regards the lorelei as its one, true love, to be heeded and protected. Although the target isn't under the lorelei's control, it takes the lorelei's requests or actions in the most favorable way it can. Each time the lorelei or her companions cause the target to take damage, directly or indirectly, it repeats the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the lorelei is killed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+      "name": "Corrupted Kiss",
+      "desc": "Melee Spell Attack: +8 to hit, reach 5 ft., one willing creature, or a creature that is incapacitated or restrained. Hit: 14 (2d8 + 5) necrotic damage, and the lorelei regains hp equal to that amount."
+    },
+    {
+      "name": "Psychic Blast",
+      "desc": "Melee or Ranged Spell Attack: +8 to hit, reach 5 ft. or range 60 ft., one target. Hit: 12 (2d6 + 5) psychic damage."
     },
     {
       "name": "Stunning Glance",
-      "desc": "The lorelei mentally disrupts a creature within 30 feet with a look. The target must succeed on a DC 17 Wisdom saving throw or be stunned for 2 rounds. Anyone who successfully saves against this effect cannot be affected by it from the same lorelei for 24 hours."
+      "desc": "The lorelei sends a seductive glance at a creature she can see within 30 feet of her. The target must succeed on a DC 15 Wisdom saving throw or be stunned until the end of its next turn. On a successful save, a creature is immune to this lorelei's Stunning Glance for the next 24 hours."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Alluring Presence",
-      "desc": "All humanoids within 30 feet of a lorelei who look directly at her must succeed on a DC 17 Charisma saving throw or be drawn to her in the most direct path, regardless of the danger. This compulsion fades once the person gets within 5 feet of the lorelei. A creature can avoid this effect for one full round by choosing to avert its eyes at the start of its turn, but it then has disadvantage on any attacks or other rolls directed against the lorelei until the start of its next turn. A lorelei can suppress or resume this ability as a bonus action. Anyone who successfully saves against this effect cannot be affected by it from the same lorelei for 24 hours."
+      "desc": "When a Humanoid that can see the lorelei starts its turn within 30 feet of the lorelei, the lorelei can force it to make a DC 15 Wisdom saving throw if the lorelei isn't incapacitated and can see the Humanoid. On a failed save, the Humanoid is charmed until the start if its next turn. While charmed, the target is incapacitated and must move on its turn toward the lorelei by the most direct route, trying to get within 5 feet of the lorelei for a kiss from her. The Humanoid doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage, the Humanoid can repeat the saving throw. If the saving throw is successful, the effect ends for it, and it regains its senses for the remainder of its turn."
     },
     {
-      "name": "Unearthly Grace",
-      "desc": "A lorelei applies her Charisma modifier to all of her saving throws in place of the normal ability modifier."
+      "name": "Amphibious",
+      "desc": "The lorelei can breathe air and water."
     },
     {
-      "name": "Water Spirit",
-      "desc": "The lorelei is under the effect of freedom of movement whenever she is in contact with a body of water."
-    },
-    {
-      "name": "Spellcasting",
-      "desc": "the lorelei is an 8th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). She requires no material components to cast her spells. The lorelei has the following sorcerer spells prepared:\n\ncantrips (at will): detect magic, guidance, light, mending, poison spray, prestidigitation\n\n1st level (4 slots): comprehend languages, fog cloud, mage armor, ray of sickness\n\n2nd level (3 slots): hold person, misty step, suggestion\n\n3rd level (3 slots): hypnotic pattern, gaseous form, water walk\n\n4th level (2 slots): dominate beast, ice storm"
+      "name": "Free Water Spirit",
+      "desc": "While in contact with water, the lorelei ignores difficult terrain, and magical effects can't reduce her speed or cause her to be restrained. In addition, she can spend 5 feet of movement to escape from nonmagical restraints or being grappled."
     }
   ],
   "spell_list": [],
-  "page_no": 279,
+  "page_no": 258,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_lorelei/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_lorelei/"
 }

@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Non-Lawful",
+  "alignment": "non-lawful",
   "armor_class": 14,
   "armor_desc": "Flamboyant Defense",
   "hit_points": 26,

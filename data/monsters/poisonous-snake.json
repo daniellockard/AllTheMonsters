@@ -1,14 +1,14 @@
 {
-  "slug": "poisonous-snake",
+  "slug": "poisonous-snake-a5e",
   "desc": "",
   "name": "Poisonous Snake",
   "size": "Tiny",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
-  "armor_class": 13,
-  "armor_desc": null,
+  "group": null,
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "",
   "hit_points": 2,
   "hit_dice": "1d4",
   "speed": {
@@ -16,11 +16,11 @@
     "swim": 30
   },
   "strength": 2,
-  "dexterity": 16,
-  "constitution": 11,
-  "intelligence": 1,
+  "dexterity": 14,
+  "constitution": 10,
+  "intelligence": 2,
   "wisdom": 10,
-  "charisma": 3,
+  "charisma": 4,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
@@ -40,9 +40,7 @@
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1 piercing damage, and the target must make a DC 10 Constitution saving throw, taking 5 (2d4) poison damage on a failed save, or half as much damage on a successful one.",
-      "attack_bonus": 5,
-      "damage_bonus": 1
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage and the target makes a DC 10 Constitution saving throw  taking 5 (2d4) poison damage on a failure or half damage on a success."
     }
   ],
   "bonus_actions": null,
@@ -51,27 +49,12 @@
   "legendary_actions": null,
   "special_abilities": null,
   "spell_list": [],
-  "page_no": 386,
-  "environments": [
-    "Hill",
-    "Desert",
-    "Grassland",
-    "Mountains",
-    "Coastal",
-    "Ruin",
-    "Swamp",
-    "Water",
-    "Sewer",
-    "Forest",
-    "Tomb",
-    "Jungle",
-    "Hills",
-    "Caverns"
-  ],
+  "page_no": 456,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_poisonous-snake/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_poisonous-snake/"
 }

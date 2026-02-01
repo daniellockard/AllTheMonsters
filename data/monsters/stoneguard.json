@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "any race",
   "group": "Elemental Wardens",
-  "alignment": "Lawful Neutral",
+  "alignment": "lawful neutral",
   "armor_class": 15,
   "armor_desc": "granite half plate",
   "hit_points": 152,

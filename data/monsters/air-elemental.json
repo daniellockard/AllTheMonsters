@@ -1,20 +1,20 @@
 {
-  "slug": "air-elemental",
+  "slug": "air_elemental_bf",
   "desc": "",
   "name": "Air Elemental",
-  "size": "Large",
+  "size": "large",
   "type": "Elemental",
   "subtype": "",
   "group": "Elementals",
-  "alignment": "Neutral",
+  "alignment": "",
   "armor_class": 15,
   "armor_desc": null,
-  "hit_points": 90,
-  "hit_dice": "12d10+24",
+  "hit_points": 94,
+  "hit_dice": "",
   "speed": {
-    "hover": true,
     "walk": 0,
-    "fly": 90
+    "fly": 90,
+    "hover": true
   },
   "strength": 14,
   "dexterity": 20,
@@ -22,60 +22,74 @@
   "intelligence": 6,
   "wisdom": 10,
   "charisma": 6,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
+  "strength_save": 2,
+  "dexterity_save": 5,
+  "constitution_save": 2,
+  "intelligence_save": -2,
+  "wisdom_save": 0,
+  "charisma_save": -2,
+  "perception": 13,
   "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks",
-  "damage_immunities": "poison",
-  "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
-  "senses": "darkvision 60 ft., passive Perception 10",
+  "damage_resistances": "thunder,Elemental Resilience",
+  "damage_immunities": "lightning,Elemental Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 60 ft.",
   "languages": "Auran",
   "challenge_rating": "5",
   "cr": 5,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The elemental makes two slam attacks."
+      "desc": "The elemental makes two Wind Lash or Lightning Bolt attacks."
     },
     {
-      "name": "Slam",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.",
-      "attack_bonus": 8,
-      "damage_dice": "2d8",
-      "damage_bonus": 5
+      "name": "Wind Lash",
+      "desc": "_Melee Weapon Attack:_ +8 to hit, reach 5 ft., one target. _Hit:_ 18 (3d8+5) bludgeoning damage."
+    },
+    {
+      "name": "Lightning Bolt",
+      "desc": "_Ranged Weapon Attack:_ +8 to hit, range 30/120 ft., one target. _Hit:_ 18 (3d8+5) lightning damage."
     },
     {
       "name": "Whirlwind (Recharge 4-6)",
-      "desc": "Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.\nIf the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone."
+      "desc": "Each creature in the elemental's space must make a DC 13 STR save. On a failure, a target takes 18 (3d8+5) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 DEX save or take the same damage and be knocked prone. If the save is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Thunderous Retreat",
+      "desc": "When a creature the air elemental can see deals damage to it, the elemental can expel a crack of thunder and move up to 15 feet to an unoccupied space it can see. Each creature within 5 feet of the space the elemental left must succeed on a DC 13 CON save or take 7 (2d6) thunder damage."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Air Form",
       "desc": "The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+    },
+    {
+      "name": "Cloud Camouflage",
+      "desc": "The elemental's Stealth is 20 while in clouds, fog, or windy weather."
+    },
+    {
+      "name": "Elemental Nature",
+      "desc": "The elemental doesn't require air, food, drink, or sleep."
+    },
+    {
+      "name": "Elemental Resilience",
+      "desc": "The elemental is resistant to bludgeoning, piercing, and slashing damage from nonmagical attacks. In addition, it is immune to poison damage, to exhaustion, and to the grappled, paralyzed, petrified, poisoned, prone, restrained, and unconscious conditions."
     }
   ],
   "spell_list": [],
-  "page_no": 305,
-  "environments": [
-    "Plane Of Air",
-    "Laboratory",
-    "Mountain"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_air-elemental/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_air-elemental/"
 }

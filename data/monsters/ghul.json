@@ -6,7 +6,7 @@
   "type": "Undead",
   "subtype": "",
   "group": null,
-  "alignment": "Any Evil Alignment",
+  "alignment": "any evil alignment",
   "armor_class": 15,
   "armor_desc": "natural armor",
   "hit_points": 105,

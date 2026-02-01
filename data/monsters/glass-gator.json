@@ -1,19 +1,18 @@
 {
-  "slug": "glass-gator",
-  "desc": "_So called by some watermen because of its method of hunting, the glass gator is a nearly-transparent ambush hunter. It usually strikes from a bed of water, either stagnant or flowing. The transparency of the creature, combined with its jet of silt and poisonous sting, make it an effective hunter._  \n**Strange Anatomy.** The body of a glass gator is most similar to a centipede, but with four oversized forelimbs and a more distinct head. The forelimbs are used to attack, but they tire easily, forcing the glass gator to use its powerful lunge attack sparingly.  \nOnce the glass gator gets hold of prey, it wraps its body around the victim and squeezes, like a constrictor snake. Unlike a serpent, however, which uses powerful muscles to crush and suffocate its prey, the glass gator is only trying to bring its underbelly into contact with the prey. The glass gator’s belly is lined with hundreds of stingers that deliver a virulent nerve toxin.  \n**Transparency.** The glass gator’s transparency isn’t total. Its digestive tract usually is visible, especially for a few hours after it eats. The creature sometimes uses this limited visibility as bait, making itself appear as a wriggling snake or eel. It is most vulnerable just after eating, when it’s lethargic; if encountered in its lair shortly after a meal, the DM may give the glass gator disadvantage on initiative.  \n**Larval Form.** Subterranean variants—including some with bioluminescence—have been reported in caverns. It’s been postulated that the glass gator may be the larval form of a larger creature, but what that larger creature might be is unknown.",
+  "slug": "glassgator-tob1-2023",
+  "desc": "False",
   "name": "Glass Gator",
   "size": "Large",
   "type": "Beast",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Unaligned",
   "armor_class": 15,
   "armor_desc": "natural armor",
   "hit_points": 45,
-  "hit_dice": "7d10+7",
+  "hit_dice": "7d10 + 7",
   "speed": {
-    "walk": 30,
-    "swim": 50
+    "walk": 50
   },
   "strength": 15,
   "dexterity": 14,
@@ -27,65 +26,63 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 2,
+  "perception": 12,
   "skills": {
-    "perception": 2,
-    "stealth": 4
+    "Perception": 2,
+    "Stealth": 4
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
-  "senses": "Blindsight 30 ft., passive Perception 12",
-  "languages": "-",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 12",
+  "languages": "—",
   "challenge_rating": "1",
   "cr": 1,
   "actions": [
     {
-      "name": "Claws",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained and the glass gator can't attack a different target.",
-      "attack_bonus": 4,
-      "damage_dice": "2d4"
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing damage."
     },
     {
       "name": "Constrict",
-      "desc": "One creature that's already grappled by the glass gator takes 7 (2d4 + 2) bludgeoning damage plus 7 (2d6) poison damage, or half as much poison damage with a successful DC 11 Constitution saving throw."
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) bludgeoning damage, and the target is grappled (escape DC 12). Until the grapple ends, the target is restrained and takes 5 (2d4) poison damage at the start of each of its turns, and the glass gator can't use Constrict on another target."
     }
   ],
-  "bonus_actions": null,
+  "bonus_actions": [],
   "reactions": [
     {
       "name": "Silt Cloud (Recharges after a Short or Long Rest)",
-      "desc": "After taking damage while in water, the glass gator thrashes to stir up a 10-foot-radius cloud of silt around itself. The area inside the sphere is heavily obscured for 1 minute (10 rounds) in still water or 5 (2d4) rounds in a strong current. After stirring up the silt, the glass gator can move its speed."
+      "desc": "When it takes damage while underwater and within 5 feet of the bottom of a body of water, the glass gator stirs up a 10-foot-radius sphere of silt centered on it. The silt spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a strong current disperses it. The glass gator can then swim up to half its speed. The cloud of silt doesn't move with the glass gator."
     }
   ],
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Amphibious",
       "desc": "The glass gator can breathe air and water."
     },
     {
-      "name": "Lunge",
-      "desc": "When the glass gator leaps at least 10 feet toward a creature and hits that creature with a claws attack on the same turn, it can immediately constrict the target as a bonus action."
-    },
-    {
-      "name": "Transparency",
-      "desc": "The glass gator has advantage on Dexterity (Stealth) checks while underwater or in dim light."
+      "name": "Constricting Lunge",
+      "desc": "If the glass gator jumps at least 10 feet straight toward a target and then hits it with a Claw attack on the same turn, the target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the gator can make one Constrict attack against it as a bonus action."
     },
     {
       "name": "Standing Leap",
-      "desc": "The glass gator can long jump up to 15 feet from water or up to 10 feet on land, with or without a running start."
+      "desc": "The glass gator's long jump is up to 15 feet and its high jump is up to 10 feet, with or without a running start."
+    },
+    {
+      "name": "Transparent",
+      "desc": "The glass gator has advantage on Dexterity (Stealth) checks made to hide while underwater or in dim light."
     }
   ],
   "spell_list": [],
-  "page_no": 228,
+  "page_no": 211,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_glass-gator/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_glass-gator/"
 }

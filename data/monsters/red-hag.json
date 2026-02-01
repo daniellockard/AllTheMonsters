@@ -1,25 +1,24 @@
 {
-  "slug": "red-hag",
-  "desc": "_An elder race—much older than the elves, and as old as the dragons, they claim—red hags are the most cunning and longest-lived of the hags, having a lifespan of more than a thousand years._  \n**Beautiful and Strong.** Unlike their hag kin, red hags are not horrid to look upon, and most are considered comely in their own right. Few know anything about them, and the hags do little to enlighten them, preferring their seclusion.  \n**Tied to Nature.** The hags have a deep connection with all elements of nature, and they often make their homes in deep forests, in caves, or alongside coastlines.  \n**Blood Magic.** Because of their close connection to nature, red hags often serve as druids. Within their druidic circles, however, they practice blood sacrifices and perform ritualistic blood magic—both to slake their craving for humanoid blood, but also as a means to venerate Hecate, goddesses of dark magic. Red hags also favor the cleric and wizard classes; few ever seek a martial path. The ancient hags all answer to a hierarchy.",
+  "slug": "redhag-tob1-2023",
+  "desc": "False",
   "name": "Red Hag",
   "size": "Medium",
   "type": "Fey",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 15,
   "armor_desc": "natural armor",
-  "hit_points": 119,
-  "hit_dice": "14d8+56",
+  "hit_points": 136,
+  "hit_dice": "16d8 + 64",
   "speed": {
-    "walk": 30,
-    "swim": 30
+    "walk": 30
   },
   "strength": 19,
   "dexterity": 16,
   "constitution": 18,
   "intelligence": 18,
-  "wisdom": 22,
+  "wisdom": 21,
   "charisma": 15,
   "strength_save": null,
   "dexterity_save": null,
@@ -27,62 +26,72 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 9,
+  "perception": 18,
   "skills": {
-    "arcana": 9,
-    "deception": 5,
-    "insight": 7,
-    "perception": 9
+    "Arcana": 10,
+    "Deception": 5,
+    "Insight": 8,
+    "Perception": 8
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "charmed, poisoned",
-  "senses": "blood sense 90 ft., darkvision 60 ft., passive Perception 16",
-  "languages": "Common, Druidic, Giant",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "charmed, frightened, poisoned",
+  "senses": "darkvision 60 ft., passive Perception 18",
+  "languages": "Common, Druidic, Giant, Sylvan",
   "challenge_rating": "7",
   "cr": 7,
   "actions": [
     {
-      "name": "Claws",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) slashing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "3d8"
+      "name": "Multiattack",
+      "desc": "The hag makes two Claw attacks or three Blood Bolt attacks. She can replace one attack with a use of Spellcasting."
     },
     {
-      "name": "Siphoning Aura (Recharge 5-6)",
-      "desc": "The red hag radiates an aura in a 30-foot radius, lasting for 3 rounds, that draws all fluids out through a creature's mouth, nose, eyes, ears, and pores. Every creature of the hag's choosing that starts its turn in the affected area takes 18 (4d6 + 4) necrotic damage, or half damage with a successful DC 15 Constitution saving throw."
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
+      "name": "Claw",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage plus 9 (2d8) necrotic damage."
+    },
     {
-      "name": "Amphibious",
-      "desc": "The hag can breathe air and water."
+      "name": "Blood Bolt",
+      "desc": "Ranged Spell Attack: +8 to hit, range 60 ft., one target. Hit: 14 (2d8 + 5) necrotic damage. If the target is a creature with blood, it must succeed on a DC 16 Constitution saving throw or be poisoned until the end of its next turn."
+    },
+    {
+      "name": "Siphon Blood (Recharge 5-6)",
+      "desc": "The red hag drains blood from nearby creatures. Each creature that isn't a Construct or Undead within 20 feet of the red hag must make a DC 16 Constitution saving throw, taking 35 (10d6) necrotic damage on a failed save, or half as much damage on a successful one. If at least one creature fails the saving throw, the next spell the red hag casts is cast as if the spell used a spell slot two levels higher than the spell's lowest level."
     },
     {
       "name": "Spellcasting",
-      "desc": "the hag is an 8th-level spellcaster. Her spellcasting ability is Wisdom (Spell save DC 17, +9 to hit with spell attacks). She requires no material components to cast her spells. The hag has the following druid spells prepared:\n\ncantrips (at will): animal friendship (red hags treat this as a cantrip), poison spray, thorn whip\n\n1st level (4 slots): cure wounds, entangle, speak with animals\n\n2nd level (3 slots): barkskin, flame blade, lesser restoration\n\n3rd level (3 slots): call lightning, conjure animals, dispel magic, meld into stone\n\n4th level (2 slots): control water, dominate beast, freedom of movement, hallucinatory terrain"
-    },
+      "desc": "The red hag casts one of the following spells, requiring no material components and using Wisdom as the spellcasting ability (spell save DC 16):\nAt will: animal friendship, druidcraft, entangle\n3/day: cure wounds, dispel magic, lesser restoration\n1/day: control water, freedom of movement"
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
     {
-      "name": "Magic Resistance",
-      "desc": "The hag has advantage on saving throws against spells and other magical effects."
+      "name": "Amphibious",
+      "desc": "The red hag can breathe air and water."
     },
     {
       "name": "Blood Sense",
-      "desc": "A red hag automatically senses the presence of the blood of living creatures within 90 feet and can pinpoint their locations within 30 feet."
+      "desc": "The red hag can pinpoint the location of creatures that aren't Constructs or Undead within 60 feet of her and can sense the general direction of such creatures within 1 mile of her."
+    },
+    {
+      "name": "Magic Resistance",
+      "desc": "The red hag has advantage on saving throws against spells and other magical effects."
+    },
+    {
+      "name": "Speak with Beasts",
+      "desc": "The red hag can communicate with Beasts as if they shared a language."
     }
   ],
   "spell_list": [],
-  "page_no": 244,
+  "page_no": 228,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_red-hag/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_red-hag/"
 }

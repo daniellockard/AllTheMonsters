@@ -6,7 +6,7 @@
   "type": "Undead",
   "subtype": "",
   "group": null,
-  "alignment": "Any Alignment (as its creator deity)",
+  "alignment": "any alignment (as its creator deity)",
   "armor_class": 16,
   "armor_desc": "",
   "hit_points": 156,

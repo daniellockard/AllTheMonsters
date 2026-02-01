@@ -6,7 +6,7 @@
   "type": "Undead",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral Evil",
+  "alignment": "neutral evil",
   "armor_class": 16,
   "armor_desc": "scale mail; 18 with shield",
   "hit_points": 78,

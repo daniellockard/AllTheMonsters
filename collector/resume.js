@@ -9,7 +9,8 @@ const OUTPUT_DIR = './data/monsters';
 const sanitizeFilename = (name) => {
   return name
     .replace(/:/g, '-')      // Replace colons (Windows incompatible)
-    .replace(/[<>"\|\?\*]/g, '-')  // Replace other Windows-unsafe chars
+    .replace(/[\/\\]/g, '-')  // Replace slashes
+    .replace(/[<>"\|\?\*,]/g, '-')  // Replace other Windows-unsafe chars and commas
     .replace(/\s+/g, '-')    // Replace spaces
     .replace(/-+/g, '-')     // Collapse multiple dashes
     .replace(/^-|-$/g, '')   // Trim leading/trailing dashes

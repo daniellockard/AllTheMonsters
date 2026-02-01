@@ -6,7 +6,7 @@
   "type": "Giant",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral Evil",
+  "alignment": "neutral evil",
   "armor_class": 20,
   "armor_desc": "natural armor",
   "hit_points": 313,

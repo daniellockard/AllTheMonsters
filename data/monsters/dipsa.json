@@ -1,20 +1,18 @@
 {
-  "slug": "dipsa",
-  "desc": "_Except for a pair of tiny fangs, the entire body of this yellowishgreen worm looks like a ropy tangle of slime-covered tubes and puddles of mucus._  \n**Anesthetic Ooze.** Many jungle clans believe the dipsa is an eyeless snake, but it is a tubular ooze with a lethal poisonous bite. The dipsa’s venom has an anesthetic quality that allows the ooze to cling to creatures and slowly turn their innards to jelly without being noticed until the victim falls down dead. Once the poison’s numbing property wears off, however, victims report an agonizing sense of burning from the inside out.  \n**Tiny Fangs.** A dipsa’s undulating movement evokes that of a snake as much as its serpentine form, but close examination reveals that it has neither bones nor internal organs, only tiny fangs of the same color and substance as the rest of its body. A dipsa never exceeds 1 foot in length. Its coloration oscillates between sickly hues of yellow or green.  \n**Gelatinous Eggs.** Dipsas are hermaphroditic. When two dipsas breed, they leave behind about 100 gelatinous eggs in a small puddle of highly acidic milt. A dozen become fertilized and survive long enough to hatch, after which they immediately devour the others.",
+  "slug": "dipsa-tob1-2023",
+  "desc": "False",
   "name": "Dipsa",
   "size": "Tiny",
   "type": "Ooze",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Unaligned",
   "armor_class": 15,
-  "armor_desc": "",
+  "armor_desc": "natural armor",
   "hit_points": 27,
-  "hit_dice": "6d4+12",
+  "hit_dice": "6d4 + 12",
   "speed": {
-    "walk": 20,
-    "climb": 20,
-    "swim": 20
+    "walk": 20
   },
   "strength": 3,
   "dexterity": 17,
@@ -28,55 +26,58 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 8,
   "skills": {
-    "stealth": 7
+    "Stealth": 5
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "acid",
-  "damage_immunities": "",
+  "damage_immunities": "False",
   "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
   "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8",
-  "languages": "-",
+  "languages": "—",
   "challenge_rating": "1/4",
   "cr": 0.25,
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 0 ft., one creature in the dipsa's space. Hit: 1 piercing damage, and the dipsa attaches to the target. A creature with a dipsa attached takes 3 (1d6) acid damage per round per dipsa, and it must make a successful DC 12 Constitution saving throw or have its hit point maximum reduced by an amount equal to the damage taken. If a creature's hit point maximum is reduced to 0 by this effect, the creature dies. This reduction to a creature's hit point maximum lasts until it is affected by a lesser restoration spell or comparable magic.",
-      "attack_bonus": 7,
-      "damage_dice": "1d6"
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the dipsa attaches to the target. While attached, the dipsa can't attack, and at the start of each of the dipsa's turns, the target takes 3 (1d6) acid damage and must succeed on a DC 12 Constitution saving throw or have its hp maximum reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hp maximum to 0."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
+  "bonus_actions": [
     {
-      "name": "Swamp Stealth",
-      "desc": "The dipsa gains an additional +2 (+9 in total) to Stealth in swamp terrain."
-    },
+      "name": "Translucent",
+      "desc": "The dipsa takes the Hide action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
     {
       "name": "Amorphous",
       "desc": "The dipsa can move through a space as narrow as 1 inch wide without squeezing."
     },
     {
       "name": "Discreet Bite",
-      "desc": "The bite of a dipsa is barely perceptible and the wound is quickly anesthetized. A creature bitten must succeed on a DC 15 Wisdom (Perception) check to notice the attack or any damage taken from it."
+      "desc": "The bite of a dipsa is barely perceptible and the wound is quickly anesthetized. When the dipsa hits with a Bite attack, the target must succeed on a DC 15 Wisdom (Perception) check to notice the dipsa and its attack. Each time the creature takes acid damage from an attached dipsa, it can repeat this check, noticing the dipsa on a success. A creature that takes acid damage from the dipsa while below half its hp maximum automatically succeeds on this check."
     },
     {
-      "name": "Translucent",
-      "desc": "The dipsa can take the Hide action as a bonus action on each of its turns."
+      "name": "Ooze Nature",
+      "desc": "The dipsa doesn't require sleep."
+    },
+    {
+      "name": "Swamp Camouflage",
+      "desc": "The dipsa has advantage on Dexterity (Stealth) checks made to hide in swampy terrain."
     }
   ],
   "spell_list": [],
-  "page_no": 118,
+  "page_no": 105,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_dipsa/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_dipsa/"
 }

@@ -1,91 +1,85 @@
 {
-  "slug": "griffon",
+  "slug": "griffon_bf",
   "desc": "",
   "name": "Griffon",
-  "size": "Large",
+  "size": "large",
   "type": "Monstrosity",
-  "subtype": "",
+  "subtype": "Animal",
   "group": null,
-  "alignment": "Unaligned",
+  "alignment": "",
   "armor_class": 12,
   "armor_desc": null,
-  "hit_points": 59,
-  "hit_dice": "7d10+21",
+  "hit_points": 63,
+  "hit_dice": "",
   "speed": {
     "walk": 30,
     "fly": 80
   },
   "strength": 18,
-  "dexterity": 15,
+  "dexterity": 14,
   "constitution": 16,
   "intelligence": 2,
-  "wisdom": 13,
+  "wisdom": 12,
   "charisma": 8,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 5,
-  "skills": {
-    "perception": 5
-  },
+  "strength_save": 4,
+  "dexterity_save": 2,
+  "constitution_save": 3,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -1,
+  "perception": 13,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
+  "damage_resistances": "Monstrosity Resilience",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 60 ft., passive Perception 15",
-  "languages": "",
+  "senses": "darkvision 60 ft.",
+  "languages": "-",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The griffon makes two attacks: one with its beak and one with its claws."
+      "desc": "The griffon makes one Beak attack and one Claws attack."
     },
     {
       "name": "Beak",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "1d8",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 8 (1d8+4) piercing damage."
     },
     {
       "name": "Claws",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "2d6",
-      "damage_bonus": 4
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 11 (2d6+4) slashing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Keen Sight",
-      "desc": "The griffon has advantage on Wisdom (Perception) checks that rely on sight."
+      "name": "Heightened Sight",
+      "desc": "The griffon's Perception is 18 when perceiving by sight."
+    },
+    {
+      "name": "Monstrosity Resilience",
+      "desc": "The griffon is resistant to exhaustion and to the frightened condition."
+    },
+    {
+      "name": "Pack Tactics",
+      "desc": "The griffon has advantage on attack rolls against a creature if at least one of the griffon's allies is within 5 feet of the creature and the ally isn't incapacitated."
+    },
+    {
+      "name": "Pounce",
+      "desc": "If the griffon moves at least 20 feet straight toward a creature and then hits it with a Claws attack on the same turn, that target must succeed on a DC 14 STR save or be knocked prone. If the target is prone, the griffon can make one Beak attack against it as a bonus action."
     }
   ],
   "spell_list": [],
-  "page_no": 318,
-  "environments": [
-    "Hill",
-    "Desert",
-    "Mountains",
-    "Coastal",
-    "Grassland",
-    "Arctic",
-    "Hills",
-    "Plane Of Air",
-    "Mountain"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_griffon/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_griffon/"
 }

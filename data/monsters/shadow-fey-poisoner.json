@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "elf",
   "group": null,
-  "alignment": "Neutral",
+  "alignment": "neutral",
   "armor_class": 16,
   "armor_desc": "studded leather",
   "hit_points": 112,

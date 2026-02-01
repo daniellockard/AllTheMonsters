@@ -1,20 +1,19 @@
 {
-  "slug": "herald-of-blood",
-  "desc": "_The heralds of blood are 20-foot-tall giants with bruised purple skin, and wart-like blood blisters that deform their features. They often wear cowled robes over golden armor streaked with black or green, and their staves of power are always ebony and mithral, embedded with precious stones._  \nAs powerful sorcerers and blood mages, heralds of blood are without peer. They enjoy enslaving ogres and giants whenever possible, though they make do with lesser slaves when they must.  \n**Dark Prophets.** Their stirring speeches proclaim that the end times are fast approaching, and their followers must prepare for a bloody reckoning. Behind their charismatic preaching, the heralds of blood serve elder earth gods that demand blood sacrifices, especially dark druid orders devoted to human hunts and the murder of innocents. They have the power to grant strength, lust, and vitality—or to wither those who cross them.  \n**Blood Magic Vortexes.** In their true form, which they keep hidden except in battle, heralds of blood are swirling vortexes of blood, bone, and raw magical power. They feed on ley line magic and the black blood of the earth as much as on flesh and blood.",
-  "name": "Herald Of Blood",
+  "slug": "heraldofblood-tob1-2023",
+  "desc": "False",
+  "name": "Herald of Blood",
   "size": "Huge",
   "type": "Fiend",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 15,
   "armor_desc": "natural armor",
-  "hit_points": 115,
-  "hit_dice": "10d12+50",
+  "hit_points": 184,
+  "hit_dice": "16d12 + 80",
   "speed": {
     "walk": 30,
-    "swim": 30,
-    "fly": 50
+    "fly": 30
   },
   "strength": 22,
   "dexterity": 12,
@@ -28,14 +27,14 @@
   "intelligence_save": null,
   "wisdom_save": 7,
   "charisma_save": null,
-  "perception": 7,
+  "perception": 17,
   "skills": {
-    "arcana": 6,
-    "perception": 7
+    "Arcana": 10,
+    "Perception": 7
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "piercing, lightning",
-  "damage_immunities": "fire, poison",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "cold, fire, lightning",
+  "damage_immunities": "necrotic, poison",
   "condition_immunities": "exhaustion, frightened, paralyzed, petrified, poisoned",
   "senses": "darkvision 240 ft., passive Perception 17",
   "languages": "Common, Draconic, Infernal, Void Speech",
@@ -43,58 +42,48 @@
   "cr": 12,
   "actions": [
     {
-      "name": "Engulfing Protoplasm",
-      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 19 (2d12 + 6) slashing damage and the target must make a successful DC 17 Dexterity saving throw or be grappled by the herald of blood (escape DC 16). While grappled this way, the creature takes 39 (6d12) acid damage at the start of each of the herald's turns. The herald can have any number of creatures grappled this way.",
-      "attack_bonus": 10,
-      "damage_dice": "2d12"
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "A herald of blood can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. A herald of blood regains spent legendary actions at the start of its turn.",
-  "legendary_actions": [
-    {
-      "name": "Move",
-      "desc": "The herald of blood moves up to half its speed."
+      "name": "Multiattack",
+      "desc": "The herald makes three Herald's Staff or Blood Bolt attacks, or it makes two Herald's Staff attacks and one Grasping Slam attack."
     },
     {
-      "name": "Call of Blood (Costs 2 Actions)",
-      "desc": "Melee Weapon Attack. +10 to hit, reach 5 ft., all creatures in reach. Hit: 39 (6d12) necrotic damage and each target must make a successful DC 17 Constitution saving throw or gain 1 level of exhaustion."
+      "name": "Herald's Staff",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 13 (2d6 + 6) bludgeoning damage plus 13 (3d8) necrotic damage."
     },
     {
-      "name": "Majesty of Ragnarok (Costs 3 Actions)",
-      "desc": "The herald of blood emits a terrifying burst of eldritch power. All creatures within 100 feet and in direct line of sight of the herald take 32 (5d12) necrotic damage, gain 2 levels of exhaustion, and are permanently blinded. Targets that make a successful DC 15 Charisma saving throw are not blinded and gain only 1 level of exhaustion."
+      "name": "Grasping Slam",
+      "desc": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) bludgeoning damage, and the target is grappled (escape DC 17) if it is a Large or smaller creature. Until this grapple ends, the target is restrained and takes 9 (2d8) necrotic damage at the start of each of its turns, and the herald can't use its Grasping Slam on another target."
+    },
+    {
+      "name": "Blood Bolt",
+      "desc": "Ranged Spell Attack: +7 to hit, range 120 ft., one target. Hit: 25 (5d8 + 3) necrotic damage. If the target is a creature with blood, it must succeed on a DC 17 Constitution saving throw or be poisoned until the end of its next turn."
+    },
+    {
+      "name": "Call Blood (Recharge 5-6)",
+      "desc": "Each creature with blood within 10 feet of the herald must make a DC 17 Constitution saving throw, taking 45 (10d8) necrotic damage on a failed save, or half as much damage on a successful one. The herald then gains temporary hp equal to the single highest amount of necrotic damage dealt. A creature that fails the saving throw by 5 or more also suffers one level of exhaustion."
     }
   ],
+  "bonus_actions": [
+    {
+      "name": "Grant Blood Rage",
+      "desc": "The herald of blood infuses reckless rage in one creature it can see within 60 feet of it that isn't a Construct or Undead. The target must succeed on a DC 17 Constitution saving throw or be enraged for a number of rounds equal to the target's Constitution modifier. While enraged, the target has advantage on all melee attack rolls, and attack rolls against it have advantage. When the rage ends, the target takes 13 (3d8) necrotic damage and suffers one level of exhaustion. A creature with any levels of exhaustion automatically succeeds on this saving throw."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Blood Armor",
-      "desc": "The herald of blood takes no damage from the first attack against it each round and ignores any nondamaging effects of the attack."
-    },
-    {
-      "name": "Gift of Blood",
-      "desc": "As an action, the herald of blood can transform any fey, human, or goblin into a red hag, if the target willingly accepts this transformation."
-    },
-    {
-      "name": "Grant Blood Rage",
-      "desc": "As a bonus action, the herald of blood can grant a single living creature blood rage, giving it advantage on attacks for 3 rounds. At the end of this time, the target gains 1 level of exhaustion and suffers 13 (2d12) necrotic damage from blood loss."
-    },
-    {
-      "name": "Humanoid Form",
-      "desc": "A herald of blood can assume a humanoid form at will as a bonus action, and dismiss this form at will."
-    },
-    {
-      "name": "Melting Touch",
-      "desc": "When a herald of blood scores a critical hit or starts its turn with a foe grappled, it can dissolve one metal or wood item of its choosing in that foe's possession. A mundane item is destroyed automatically; a magical item survives if its owner makes a successful DC 17 Dexterity saving throw."
+      "desc": "Each time a creature with blood hits the herald with a melee attack while within 10 feet of the herald, the creature takes 4 (1d8) necrotic damage, and the herald's AC increases by 1 until the end of its next turn. The herald's AC can't be increased to more than 20 from this trait."
     }
   ],
   "spell_list": [],
-  "page_no": 248,
+  "page_no": 232,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_herald-of-blood/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_herald-of-blood/"
 }

@@ -1,35 +1,35 @@
 {
-  "slug": "giant-weasel",
+  "slug": "giant-weasel-a5e",
   "desc": "",
   "name": "Giant Weasel",
   "size": "Medium",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
-  "armor_class": 13,
-  "armor_desc": null,
+  "group": null,
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "",
   "hit_points": 9,
   "hit_dice": "2d8",
   "speed": {
     "walk": 40
   },
-  "strength": 11,
-  "dexterity": 16,
+  "strength": 10,
+  "dexterity": 14,
   "constitution": 10,
   "intelligence": 4,
   "wisdom": 12,
-  "charisma": 5,
+  "charisma": 4,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 3,
+  "perception": null,
   "skills": {
     "perception": 3,
-    "stealth": 5
+    "stealth": 4
   },
   "damage_vulnerabilities": "",
   "damage_resistances": "",
@@ -42,10 +42,11 @@
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d4",
-      "damage_bonus": 3
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage  or 7 (2d4+2) piercing damage against a creature the weasel is grappling."
+    },
+    {
+      "name": "Grab",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: The target is grappled (escape DC 12)."
     }
   ],
   "bonus_actions": null,
@@ -55,21 +56,16 @@
   "special_abilities": [
     {
       "name": "Keen Hearing and Smell",
-      "desc": "The weasel has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      "desc": "The weasel has advantage on Perception checks that rely on hearing and smell."
     }
   ],
   "spell_list": [],
-  "page_no": 381,
-  "environments": [
-    "Hill",
-    "Feywild",
-    "Grassland",
-    "Forest"
-  ],
+  "page_no": 451,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_giant-weasel/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_giant-weasel/"
 }

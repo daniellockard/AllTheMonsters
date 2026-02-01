@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "derro",
   "group": null,
-  "alignment": "Chaotic Evil",
+  "alignment": "chaotic evil",
   "armor_class": 15,
   "armor_desc": "studded leather armor",
   "hit_points": 77,

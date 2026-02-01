@@ -1,113 +1,110 @@
 {
-  "slug": "aboleth",
+  "slug": "aboleth_bf",
   "desc": "",
   "name": "Aboleth",
-  "size": "Large",
+  "size": "large",
   "type": "Aberration",
   "subtype": "",
   "group": null,
-  "alignment": "Lawful Evil",
+  "alignment": "",
   "armor_class": 17,
   "armor_desc": "natural armor",
-  "hit_points": 135,
-  "hit_dice": "18d10+36",
+  "hit_points": 165,
+  "hit_dice": "",
   "speed": {
     "walk": 10,
     "swim": 40
   },
-  "strength": 21,
-  "dexterity": 9,
-  "constitution": 15,
-  "intelligence": 18,
-  "wisdom": 15,
+  "strength": 20,
+  "dexterity": 8,
+  "constitution": 22,
+  "intelligence": 26,
+  "wisdom": 22,
   "charisma": 18,
-  "strength_save": null,
-  "dexterity_save": null,
+  "strength_save": 5,
+  "dexterity_save": -1,
   "constitution_save": 6,
   "intelligence_save": 8,
   "wisdom_save": 6,
-  "charisma_save": null,
-  "perception": 10,
-  "skills": {
-    "history": 12,
-    "perception": 10
-  },
+  "charisma_save": 4,
+  "perception": 20,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
+  "damage_resistances": "acid,Aberrant Resilience",
+  "damage_immunities": "psychic",
   "condition_immunities": "",
-  "senses": "darkvision 120 ft., passive Perception 20",
-  "languages": "Deep Speech, telepathy 120 ft.",
+  "senses": "darkvision 120 ft.",
+  "languages": "Deep Speech,telepathy 120 ft.",
   "challenge_rating": "10",
   "cr": 10,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The aboleth makes three tentacle attacks."
+      "desc": "The aboleth makes three Tentacle or Psychic Bolt attacks. If two Tentacle attacks hit one target, the target must succeed on a DC 16 CON save or contract the _slime pox_ disease (see the Slime Pox trait)."
     },
     {
       "name": "Tentacle",
-      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature's skin becomes translucent and slimy, the creature can't regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.",
-      "attack_bonus": 9,
-      "damage_dice": "2d6",
-      "damage_bonus": 5
+      "desc": "_Melee Weapon Attack:_ +9 to hit, reach 10 ft., one target. _Hit:_ 15 (3d6+5) bludgeoning damage."
     },
     {
-      "name": "Tail",
-      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) bludgeoning damage.",
-      "attack_bonus": 9,
-      "damage_dice": "3d6",
-      "damage_bonus": 5
+      "name": "Psychic Bolt",
+      "desc": "_Ranged Spell Attack:_ +8 to hit, range 120 ft., one target. _Hit:_ 14 (3d6+4) psychic damage."
     },
     {
-      "name": "Enslave (3/day)",
-      "desc": "The aboleth targets one creature it can see within 30 ft. of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth's control and can't take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.\nWhenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth."
+      "name": "Psychic Torrent (Recharge 5-6)",
+      "desc": "The aboleth floods the minds of up to three creatures it can see within 60 feet of it with random and horrific memories from its eons-long life. Each target must make a DC 16 WIS save. On a failure, a creature takes 49 (14d6) psychic damage and is incapacitated until the end of its next turn, as its mind reels from the torrent of images, thoughts, and memories. On a success, a creature takes half the damage and isn't incapacitated."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
+  "bonus_actions": [],
+  "reactions": [],
   "legendary_desc": "The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The aboleth regains spent legendary actions at the start of its turn.",
   "legendary_actions": [
     {
       "name": "Detect",
-      "desc": "The aboleth makes a Wisdom (Perception) check."
+      "desc": "The aboleth automatically detects every creature and trap within 60 feet of it, pinpointing the current location of each."
     },
     {
-      "name": "Tail Swipe",
-      "desc": "The aboleth makes one tail attack."
+      "name": "Swim",
+      "desc": "The aboleth swims up to half its speed without provoking opportunity attacks."
     },
     {
-      "name": "Psychic Drain (Costs 2 Actions)",
-      "desc": "One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes."
+      "name": "Slime Drain (Costs 2 Actions)",
+      "desc": "One creature infected with _slime pox_ within 30 feet of the aboleth takes 10 (3d6) acid damage, and the aboleth regains HP equal to the damage the creature takes."
     }
   ],
   "special_abilities": [
+    {
+      "name": "Aberrant Resilience",
+      "desc": "The aboleth is resistant to the charmed, frightened, paralyzed, and stunned conditions, and it has advantage on saves against spells or effects that would alter its form."
+    },
     {
       "name": "Amphibious",
       "desc": "The aboleth can breathe air and water."
     },
     {
-      "name": "Mucous Cloud",
-      "desc": "While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 ft. of it must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater."
+      "name": "Legendary Resistance (3/Day)",
+      "desc": "If the aboleth fails a save, it can choose to succeed instead."
     },
     {
       "name": "Probing Telepathy",
-      "desc": "If a creature communicates telepathically with the aboleth, the aboleth learns the creature's greatest desires if the aboleth can see the creature."
+      "desc": "If a creature the aboleth can see communicates telepathically with the aboleth, the aboleth learns the creature's greatest desires."
+    },
+    {
+      "name": "Slime Pox",
+      "desc": "Characterized by the slimy pustules that erupt across the victim's body, _slime pox_ is a disease that infects creatures attacked by an aboleth or that come into contact with an aboleth's slime. Until the disease is cured, the infected creature can breathe air and water, can't regain HP except when underwater, and takes 6 (1d12) acid damage for every 1 hour it remains outside of water or without moisture applied to its skin. Every 24 hours that elapse, the infected creature must make a DC 16 CHA save. Each time a creature fails this save, it views the infecting aboleth more and more favorably, becoming the aboleth's doting and protective thrall after three failed saves.<br>The successes and failures don't need to be consecutive, but once a creature has acquired three of a kind, it no longer has to make this save, resulting in either the creature becoming a thrall of the aboleth or an autonomous - though infected - creature. _Slime pox_ can be cured only by the heal spell or similar magic."
+    },
+    {
+      "name": "Slimy Skin",
+      "desc": "The aboleth is coated in an otherworldly mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 feet of it must succeed on a DC 16 CON save or be infected with _slime pox_ (see the Slime Pox trait)."
     }
   ],
   "spell_list": [],
-  "page_no": 261,
-  "environments": [
-    "Underdark",
-    "Sewer",
-    "Caverns",
-    "Plane Of Water",
-    "Water"
-  ],
-  "img_main": "http://api.open5e.com/static/img/monsters/aboleth.png",
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_aboleth/"
+  "page_no": null,
+  "environments": [],
+  "img_main": null,
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_aboleth/"
 }

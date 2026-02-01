@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "gnoll, shapechanger",
   "group": null,
-  "alignment": "Chaotic Evil",
+  "alignment": "chaotic evil",
   "armor_class": 13,
   "armor_desc": "in gnoll form, 14 (natural armor) in hyena or hybrid form",
   "hit_points": 58,

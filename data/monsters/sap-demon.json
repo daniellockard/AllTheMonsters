@@ -1,79 +1,84 @@
 {
-  "slug": "sap-demon",
-  "desc": "_When a sap demon leaves a tree, its milky amber fluid oozes from an axe wound on a stout maple’s trunk and shapes itself into a small, vaguely humanoid form on the forest floor beside the tree. This languid creature half walks and half flows forward, implacably following the axe wielder’s path to certain revenge._  \n**Tree Oozes.** Sap demons aren’t true demons, but rather are intelligent oozes that form when an enchanted tree is cut or injured. Though typically Small, the larger the sap source is, the larger the resulting creature can be. Over a few hours, they pool into a shape that vaguely resembles their tree’s attacker: for instance, if the tree cutter wore a hat, then a hat may be incorporated into the sap demon’s overall shape. The similarity is faint at best; no one would ever confuse a sap demon for the creature it hunts, because its shape has no sharp features or color other than amber.  \n**Called to Vengeance.** Sap demons can pummel their prey with partially-crystallized fists, but they especially enjoy claiming the weapon that wounded their tree and wielding it to deliver a final blow. Once their prey is destroyed, most sap demons return to their tree, but not all do. Some are curious or malevolent enough to explore the world further.  \n**Reckless Possessors.** A sap demon can possess another creature by grappling it and oozing down its throat. Once inside, the sap demon dominates its host and makes it bleed as the tree bled. Since the sap demon takes no damage when its host is wounded, it’s free to be as reckless as it likes. It might wander into a town to cause trouble. However, no matter how its new body is bandaged or cured, it never stops bleeding slowly. If the host body is killed, the sap demon oozes out during the next hour and either returns to its tree or seeks another host.",
+  "slug": "sapdemon-tob1-2023",
+  "desc": "False",
   "name": "Sap Demon",
   "size": "Small",
   "type": "Ooze",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Evil",
   "armor_class": 13,
-  "armor_desc": "natural",
-  "hit_points": 67,
-  "hit_dice": "15d6+15",
+  "armor_desc": "natural armor",
+  "hit_points": 81,
+  "hit_dice": "18d6 + 18",
   "speed": {
-    "walk": 20,
-    "climb": 20
+    "walk": 20
   },
   "strength": 14,
   "dexterity": 6,
   "constitution": 12,
-  "intelligence": 10,
+  "intelligence": 7,
   "wisdom": 14,
-  "charisma": 10,
+  "charisma": 7,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 12,
   "skills": {},
-  "damage_vulnerabilities": "",
-  "damage_resistances": "piercing and slashing from nonmagical attacks",
-  "damage_immunities": "bludgeoning; acid, lightning",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning",
+  "damage_immunities": "acid",
   "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
   "senses": "blindsight 90 ft. (blind beyond this radius), passive Perception 12",
-  "languages": "none in its natural form; knows the same languages as a creature it dominates",
+  "languages": "—",
   "challenge_rating": "4",
   "cr": 4,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The sap demon makes two slam attacks."
+      "desc": "The sap demon makes two Slam or Lob Sap attacks. If both Slam attacks hit a Medium or smaller creature, the creature is grappled (escape DC 12)."
     },
     {
       "name": "Slam",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) bludgeoning damage. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 12), and the sap demon uses Soul Sap on it as a bonus action.",
-      "attack_bonus": 4,
-      "damage_dice": "2d8"
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage plus 7 (2d6) acid damage."
     },
     {
-      "name": "Soul Sap",
-      "desc": "The sap demon slides down the throat of a sleeping, helpless, or grappled living creature of Medium size or smaller. Once inside, the sap demon takes control of its host, as per the dominate monster spell (Wisdom DC 12 negates). While dominated, the host gains blindsight 90 feet. The host drips blood from its ears, nose, eyes, or from a wound that resembles the injury done to the sap demon's tree (1 damage/ hour). Damage inflicted on the host has no effect on the sap demon. If the host dies or is reduced to 0 hit points, the sap demon must leave the body within one hour."
+      "name": "Lob Sap",
+      "desc": "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 12 (3d6 + 2) bludgeoning damage, and the target's speed is reduced by 10 feet until the end of its next turn."
+    },
+    {
+      "name": "Soul Sap (Recharge 6)",
+      "desc": "One humanoid the sap demon is grappling or that is incapacitated within 5 feet of the sap demon must succeed on a DC 12 Constitution saving throw or be possessed by the sap demon. The sap demon then disappears, and the target is incapacitated and loses control of its body. The sap demon now controls the body but doesn't deprive the target of awareness. The ooze can't be targeted by any attack, spell, or other effect, except ones that restore a creature's hp maximum. The ooze retains its Intelligence, Wisdom, and Charisma and condition immunities. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Amorphous",
       "desc": "The sap demon can move through a space as narrow as 1 inch wide without squeezing."
     },
     {
+      "name": "Ooze Nature",
+      "desc": "The sap demon doesn't require sleep."
+    },
+    {
       "name": "Season's Change",
-      "desc": "If a sap demon (or its host) takes at least 10 fire damage, it also gains the effect of a haste spell until the end of its next turn. If it takes at least 10 cold damage, it gains the effect of a slow spell until the end of its next turn."
+      "desc": "If the sap demon takes fire damage, its speed is increased by 10 feet until the end of its next turn. If it takes cold damage, its speed is reduced by 10 feet until the end of its next turn."
     }
   ],
   "spell_list": [],
-  "page_no": 335,
+  "page_no": 315,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_sap-demon/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_sap-demon/"
 }

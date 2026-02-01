@@ -6,7 +6,7 @@
   "type": "Giant",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral",
+  "alignment": "neutral",
   "armor_class": 14,
   "armor_desc": "hide armor",
   "hit_points": 149,

@@ -1,79 +1,77 @@
 {
-  "slug": "far-darrig",
-  "desc": "_These shy fairies dress as small fey herdsmen wearing tan hide armor, hide boots, cloaks, and cowls, all trimmed in fox fur and often with a red sash or tunic. They often ride woodland creatures, such as dire weasels or snowy owls._  \nHunters & Herders. The far darrig were the hunters, herders, and equerry of the elven nobility—some still serve in this capacity in planes where the elves rule. Some stayed behind after the many of the fey retreated to wilder lands in the face of expanding human kingdoms.  \nFar darrig carry glaives made from fey antlers; each remains enchanted only as long as a far darrig holds it. Their leaders ride on fey elk the color of foxes, with gleaming green eyes; it is believed that their antlers are the ones used to make far darrig antler glaives.  \n**Hate Arcanists.** While not inherently evil, far darrig are hostile to all humans and will often attack human wizards, warlocks, and sorcerers on sight. If they can be moved to a friendly attitude through Persuasion or a charm spell or effect, they make very good guides, scouts, and hunters.  \n**Serve Hags and Worse.** They are sometimes found as thralls or scouts serving hags, trollkin, and shadow fey, but they are unwilling and distrustful allies at best.",
+  "slug": "fardarrig-tob1-2023",
+  "desc": "False",
   "name": "Far Darrig",
   "size": "Small",
   "type": "Fey",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral",
   "armor_class": 14,
   "armor_desc": "hide armor",
-  "hit_points": 104,
-  "hit_dice": "16d6+48",
+  "hit_points": 84,
+  "hit_dice": "13d6 + 39",
   "speed": {
-    "walk": 20
+    "walk": 30
   },
-  "strength": 15,
+  "strength": 17,
   "dexterity": 16,
   "constitution": 17,
   "intelligence": 11,
   "wisdom": 15,
   "charisma": 17,
   "strength_save": null,
-  "dexterity_save": 5,
-  "constitution_save": 7,
+  "dexterity_save": null,
+  "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
-  "charisma_save": 7,
-  "perception": 6,
+  "charisma_save": 5,
+  "perception": 14,
   "skills": {
-    "medicine": 6,
-    "nature": 4,
-    "perception": 6,
-    "survival": 6
+    "Nature": 4,
+    "Animal Handling": 4,
+    "Perception": 4,
+    "Survival": 4
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
-  "senses": "darkvision 60 ft., passive Perception 16",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
+  "senses": "darkvision 60 ft., passive Perception 14",
   "languages": "Common, Elvish, Sylvan",
   "challenge_rating": "3",
   "cr": 3,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The far darrig makes four antler glaive attacks."
+      "desc": "The far darrig makes two Antler Glaive attacks."
     },
     {
       "name": "Antler Glaive",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft. or 10 ft., one target. Hit: 7 (1d10 + 2) slashing damage and the target must make a successful DC 13 Strength saving throw or either be disarmed or fall prone; the attacking far darrig chooses which effect occurs.",
-      "attack_bonus": 4,
-      "damage_dice": "1d10"
+      "desc": "Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10 + 3) piercing damage or slashing damage (the far darrig's choice) plus 3 (1d6) force damage. The target must succeed on a DC 13 Strength saving throw or be knocked prone."
     },
     {
-      "name": "Enchanted Glaive Maneuvers",
-      "desc": "A far darrig can magically extend or shrink its antler glaive as a bonus action to give it either a 10-foot or 5-foot reach."
+      "name": "Woodland Friends (1/Day)",
+      "desc": "The far darrig magically calls 1d4 elk or giant weasels. The called Beasts arrive in 1d4 rounds, acting as allies of the far darrig and obeying its spoken commands. The Beasts remain for 1 hour, until the far darrig dies, or until the far darrig dismisses them as a bonus action."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
+  "bonus_actions": [
     {
-      "name": "Innate Spellcasting",
-      "desc": "the far darrig's innate spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\n\nconstant: magic weapon (antler glaive only), speak with animals\n\nat will: calm emotions, charm animal (as charm person but affects beasts only), cure wounds, detect poison and disease, water breathing, water walk\n\n3/day each: barkskin, conjure woodland beings, hold animal (as hold person but affects beasts only), jump, longstrider\n\n1/day each: commune with nature, freedom of movement, nondetection, tree stride"
+      "name": "Nimble Woodsman",
+      "desc": "The far darrig takes the Dash or Disengage action. The far darrig can use this bonus action only if it is in a forest."
     }
   ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [],
   "spell_list": [],
-  "page_no": 179,
+  "page_no": 167,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_far-darrig/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_far-darrig/"
 }

@@ -1,89 +1,85 @@
 {
-  "slug": "horakh",
-  "desc": "_Resembling a cave cricket the size of a dog, this beast wraps its victim in spiny legs and claws when it attacks. A horakh’s black, chitinous thorax is topped by a translucent digestive sac—often containing half-digested eyeballs of varying sizes, colors, and species._  \n**Leaping Claws.** Insectoid killing machines with a penchant for consuming their victim’s eyes, the bloodthirsty horakhs travel in small packs and make lightning-fast attacks against the weak or vulnerable. Their powerful rear legs enable enormous bounding leaps, while the sharp hooks at the end of their powerful claws help them to climb and latch onto prey. Heads dominated by scooped mandibles that can shoot forward like pistons, shearing meat from bone.  \n**Leaping Screech.** When attacking, a horakh leaps from its hiding spots while making a deafening screech. Horakhs are highly mobile on the battlefield. If threatened, horakhs return to the shadows to attack from a more advantageous position.  \n**Herd the Blinded.** After blinding their prey, horakh often herd the blind like sheep until they are ready to consume them and even use them as bait to capture other creatures. Many an explorer has been ambushed, blinded, and condemned to death in the bowels of the earth by these predators.",
+  "slug": "horakh-tob1-2023",
+  "desc": "False",
   "name": "Horakh",
   "size": "Medium",
   "type": "Monstrosity",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral",
   "armor_class": 17,
   "armor_desc": "natural armor",
   "hit_points": 161,
-  "hit_dice": "19d8+76",
+  "hit_dice": "19d8 + 76",
   "speed": {
-    "walk": 40,
-    "climb": 30
+    "walk": 30
   },
   "strength": 18,
   "dexterity": 19,
   "constitution": 19,
-  "intelligence": 8,
+  "intelligence": 5,
   "wisdom": 15,
   "charisma": 10,
   "strength_save": null,
-  "dexterity_save": 12,
+  "dexterity_save": 8,
   "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 6,
+  "perception": 16,
   "skills": {
-    "athletics": 8,
-    "perception": 6,
-    "stealth": 8
+    "Athletics": 8,
+    "Perception": 6,
+    "Stealth": 8
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., tremorsense 30 ft., passive Perception 20",
-  "languages": "understands Undercommon",
+  "languages": "understands Undercommon but can’t speak",
   "challenge_rating": "9",
   "cr": 9,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The horakh makes two claw attacks and one bite attack."
+      "desc": "The horakh makes one Bite attack and two Claw attacks."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) slashing damage. If the bite attack hits a target that's grappled by the horakh, the target must make a successful DC 16 Dexterity saving throw or one of its eyes is bitten out. A creature with just one remaining eye has disadvantage on ranged attack rolls and on Wisdom (Perception) checks that rely on sight. If both (or all) eyes are lost, the target is blinded. The regenerate spell and comparable magic can restore lost eyes. Also see Implant Egg, below.",
-      "attack_bonus": 8,
-      "damage_dice": "4d8"
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 22 (4d8 + 4) piercing damage. If the horakh scores a critical hit, it removes one of the target's eyes, provided the target has eyes, and places the eye in a fluid sac on its thorax. While missing half or less of its total number of eyes, the target has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight. While missing more than half its total number of eyes, the target is blinded until its sight is restored."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) piercing damage. If both attacks hit the same Medium or smaller target in a single turn, the target is grappled (escape DC 14).",
-      "attack_bonus": 8,
-      "damage_dice": "3d8"
-    },
-    {
-      "name": "Implant Egg",
-      "desc": "If a horakh's bite attack reduces a grappled creature to 0 hit points, or it bites a target that's already at 0 hit points, it implants an egg in the creature's eye socket. The deposited egg grows for 2 weeks before hatching. If the implanted victim is still alive, it loses 1d2 Constitution every 24 hours and has disadvantage on attack rolls and ability checks. After the first week, the victim is incapacitated and blinded. When the egg hatches after 2 weeks, an immature horakh erupts from the victim's head, causing 1d10 bludgeoning, 1d10 piercing, and 1d10 slashing damage. A lesser restoration spell can kill the egg during its incubation."
+      "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 17 (3d8 + 4) slashing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
+  "bonus_actions": [
     {
       "name": "Shadow Stealth",
-      "desc": "A horakh can hide as a bonus action if it's in dim light or darkness."
+      "desc": "While in dim light or darkness, the horakh takes the Hide action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Implant Egg",
+      "desc": "If the horakh reduces a creature to 0 hp with a Bite attack or as a bonus action while within 5 feet of a creature with 0 hp, the horakh can implant an egg in the creature. The implanted egg rests in the creature's eye socket for 14 days while it incubates. A host creature can carry only one horakh egg to term at a time. While the egg is implanted, the host can't use its eye and has disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight. Exactly 24 hours before the egg hatches, the host becomes blinded. When the egg hatches, the young horakh erupts from the host's head, killing the host in the process."
     },
     {
       "name": "Standing Leap",
-      "desc": "As part of its movement, the horakh can jump up to 20 feet horizontally and 10 feet vertically, with or without a running start."
+      "desc": "The horakh's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start."
     }
   ],
   "spell_list": [],
-  "page_no": 250,
+  "page_no": 234,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_horakh/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_horakh/"
 }

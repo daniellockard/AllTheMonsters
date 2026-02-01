@@ -6,7 +6,7 @@
   "type": "Celestial",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral Good",
+  "alignment": "neutral good",
   "armor_class": 15,
   "armor_desc": "natural armor",
   "hit_points": 171,

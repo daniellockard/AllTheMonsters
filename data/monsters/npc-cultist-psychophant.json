@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "npc:-cultist-psychophant",
   "desc": "",
   "name": "Npc: Cultist Psychophant",
@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Any Non-Good Alignment",
+  "alignment": "any non-good alignment",
   "armor_class": 15,
   "armor_desc": "Impenetrable Ego",
   "hit_points": 149,

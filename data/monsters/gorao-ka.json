@@ -6,7 +6,7 @@
   "type": "Fey",
   "subtype": "kami",
   "group": null,
-  "alignment": "Neutral Good",
+  "alignment": "neutral good",
   "armor_class": 13,
   "armor_desc": "copper coat",
   "hit_points": 17,

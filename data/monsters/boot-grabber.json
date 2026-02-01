@@ -6,7 +6,7 @@
   "type": "Aberration",
   "subtype": "",
   "group": null,
-  "alignment": "Neutral",
+  "alignment": "neutral",
   "armor_class": 11,
   "armor_desc": null,
   "hit_points": 22,

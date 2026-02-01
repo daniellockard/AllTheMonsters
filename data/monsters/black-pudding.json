@@ -1,60 +1,66 @@
 {
-  "slug": "black-pudding",
+  "slug": "black_pudding_bf",
   "desc": "",
   "name": "Black Pudding",
-  "size": "Large",
+  "size": "large",
   "type": "Ooze",
   "subtype": "",
-  "group": "Oozes",
-  "alignment": "Unaligned",
+  "group": null,
+  "alignment": "",
   "armor_class": 7,
   "armor_desc": null,
-  "hit_points": 85,
-  "hit_dice": "10d10+30",
+  "hit_points": 122,
+  "hit_dice": "",
   "speed": {
     "walk": 20,
     "climb": 20
   },
-  "strength": 16,
-  "dexterity": 5,
+  "strength": 20,
+  "dexterity": 4,
   "constitution": 16,
   "intelligence": 1,
   "wisdom": 6,
   "charisma": 1,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
+  "strength_save": 5,
+  "dexterity_save": -3,
+  "constitution_save": 3,
+  "intelligence_save": -5,
+  "wisdom_save": -2,
+  "charisma_save": -5,
   "perception": null,
   "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "acid, cold, lightning, slashing",
-  "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
-  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8",
-  "languages": "",
+  "damage_resistances": "Ooze Resilience",
+  "damage_immunities": "acid,lightning,slashing,grappled,Ooze Resilience",
+  "condition_immunities": "",
+  "senses": "keensense 60 ft. (can't sense beyond this radius)",
+  "languages": "-",
   "challenge_rating": "4",
   "cr": 4,
   "actions": [
     {
+      "name": "Multiattack",
+      "desc": "The black pudding makes two Pseudopod attacks."
+    },
+    {
       "name": "Pseudopod",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage plus 18 (4d8) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.",
-      "attack_bonus": 5,
-      "damage_dice": "1d6+4d8",
-      "damage_bonus": 3
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 6 (1d6+3) bludgeoning damage plus 9 (2d8) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 is destroyed."
     }
   ],
-  "bonus_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Dampen Light",
+      "desc": "The black pudding dims the light around it. The radius of each light source within 60 feet of it is halved until the start of its next turn. The pudding can't use this action while in sunlight."
+    }
+  ],
   "reactions": [
     {
       "name": "Split",
-      "desc": "When a pudding that is Medium or larger is subjected to lightning or slashing damage, it splits into two new puddings if it has at least 10 hit points. Each new pudding has hit points equal to half the original pudding's, rounded down. New puddings are one size smaller than the original pudding."
+      "desc": "When a pudding that is Medium or larger is subjected to lightning or slashing damage, it splits into two new puddings if it has at least 10 HP. Each new pudding has HP equal to half the original pudding's, rounded down. New puddings are one size smaller than the original pudding."
     }
   ],
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Amorphous",
@@ -62,9 +68,15 @@
     },
     {
       "name": "Corrosive Form",
-      "desc": "A creature that touches the pudding or hits it with a melee attack while within 5 feet of it takes 4 (1d8) acid damage. Any nonmagical weapon made of metal or wood that hits the pudding corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits the pudding is destroyed after dealing damage. The pudding can eat through 2-inch-thick, nonmagical wood or metal in 1 round.",
-      "attack_bonus": 0,
-      "damage_dice": "1d8"
+      "desc": "A creature that touches the pudding or hits it with a melee attack while within 5 feet of it takes 4 (1d8) acid damage. Any nonmagical weapon made of metal or wood that hits the pudding corrodes. After dealing damage, the weapon takes a permanent and cumulative -1 penalty to damage rolls. If its penalty drops to -5, the weapon is destroyed. Nonmagical ammunition made of metal or wood that hits the pudding is destroyed after dealing damage. The pudding can eat through a panel of nonmagical wood or metal in its space that is up to 2 inches thick in 1 round."
+    },
+    {
+      "name": "Ooze Nature",
+      "desc": "The pudding doesn't require sleep."
+    },
+    {
+      "name": "Ooze Resilience",
+      "desc": "The pudding is resistant to the restrained condition, and it is immune to exhaustion and to the blinded, charmed, deafened, frightened, and prone conditions."
     },
     {
       "name": "Spider Climb",
@@ -72,18 +84,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 337,
-  "environments": [
-    "Underdark",
-    "Sewer",
-    "Caverns",
-    "Ruin",
-    "Water"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_black-pudding/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_black-pudding/"
 }

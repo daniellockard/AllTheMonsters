@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "kobold",
   "group": null,
-  "alignment": "Lawful Neutral",
+  "alignment": "lawful neutral",
   "armor_class": 12,
   "armor_desc": "15 with junk armor",
   "hit_points": 42,

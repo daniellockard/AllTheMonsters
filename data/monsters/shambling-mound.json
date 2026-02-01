@@ -1,16 +1,16 @@
 {
-  "slug": "shambling-mound",
+  "slug": "shambling_mound_bf",
   "desc": "",
   "name": "Shambling Mound",
-  "size": "Large",
+  "size": "large",
   "type": "Plant",
   "subtype": "",
   "group": null,
-  "alignment": "Unaligned",
+  "alignment": "",
   "armor_class": 15,
   "armor_desc": "natural armor",
-  "hit_points": 136,
-  "hit_dice": "16d10+48",
+  "hit_points": 110,
+  "hit_dice": "",
   "speed": {
     "walk": 20,
     "swim": 20
@@ -18,66 +18,65 @@
   "strength": 18,
   "dexterity": 8,
   "constitution": 16,
-  "intelligence": 5,
+  "intelligence": 4,
   "wisdom": 10,
-  "charisma": 5,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
-  "skills": {
-    "stealth": 2
-  },
+  "charisma": 4,
+  "strength_save": 4,
+  "dexterity_save": -1,
+  "constitution_save": 3,
+  "intelligence_save": -3,
+  "wisdom_save": 0,
+  "charisma_save": -3,
+  "perception": 10,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "cold, fire",
-  "damage_immunities": "lightning",
-  "condition_immunities": "blinded, deafened, exhaustion",
-  "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10",
-  "languages": "",
+  "damage_resistances": "cold,fire,Plant Resilience",
+  "damage_immunities": "lightning,blinded,deafened",
+  "condition_immunities": "",
+  "senses": "keensense 60 ft. (can't sense beyond this radius)",
+  "languages": "-",
   "challenge_rating": "5",
   "cr": 5,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The shambling mound makes two slam attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 14), and the shambling mound uses its Engulf on it."
+      "desc": "The shambling mound makes two Slam attacks. If both attacks hit a Medium or smaller target, the target is grappled (escape DC 14)."
     },
     {
       "name": "Slam",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.",
-      "attack_bonus": 7,
-      "damage_dice": "2d8",
-      "damage_bonus": 4
-    },
-    {
-      "name": "Engulf",
-      "desc": "The shambling mound engulfs a Medium or smaller creature grappled by it. The engulfed target is blinded, restrained, and unable to breathe, and it must succeed on a DC 14 Constitution saving throw at the start of each of the mound's turns or take 13 (2d8 + 4) bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time."
+      "desc": "_Melee Weapon Attack:_ +7 to hit, reach 5 ft., one target. _Hit:_ 13 (2d8+4) bludgeoning damage plus 7 (2d6) poison damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Engulf",
+      "desc": "The shambling mound engulfs a Medium or smaller creature grappled by it. In addition to being grappled, the engulfed target is blinded, restrained, and unable to breathe, and it must succeed on a DC 14 CON save at the start of each of the mound's turns or take 4 (1d8) bludgeoning damage and 3 (1d6) poison damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Lightning Absorption",
-      "desc": "Whenever the shambling mound is subjected to lightning damage, it takes no damage and regains a number of hit points equal to the lightning damage dealt."
+      "desc": "Whenever the shambling mound is subjected to lightning damage, it takes no damage and regains HP equal to the lightning damage dealt."
+    },
+    {
+      "name": "Plant Resilience",
+      "desc": "The shambling mound is resistant to exhaustion and to the paralyzed, petrified, and unconscious conditions."
+    },
+    {
+      "name": "Rotting Vegetation",
+      "desc": "The shambling mound emits the smell of rotting vegetation. A creature that starts its turn within 10 feet of the shambling mound must succeed on a DC 14 CON save or be poisoned until the start of its next turn."
     }
   ],
   "spell_list": [],
-  "page_no": 345,
-  "environments": [
-    "Swamp",
-    "Jungle",
-    "Feywild",
-    "Forest"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_shambling-mound/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_shambling-mound/"
 }

@@ -1,83 +1,78 @@
 {
-  "slug": "savager",
-  "desc": "_A porcupine-quilled creature built like a grizzly bear with claws and fangs like scimitars. A savager’s forelegs are mangled and scabbed, and its eyes shine with hatred and anticipation._  \n**Driven by Dark Spirits.** While druids claim these bear-like animals are not cursed or enchanted, the savager’s habit of killing any living creature on sight is not natural behavior. Hunger doesn’t explain their attacks, since savagers eat only part of their kills before abandoning the meal and looking for other animals to attack. Some dark forest spirit drives them.  \n**Gnaws Itself.** When there are no other creatures nearby to attack, a savager gnaws on its own forelimbs, resulting in scabs, scars, and calluses so thick and numb that they protect the savager from even the sharpest of swords.  \n**Rare Meetings.** The only creature a savager won’t attack on sight is another savager. If they are of the same sex, the two avoid each out of self-preservation, and if they’re of the opposite sex, they mate so ferociously that both creatures are left wounded, angry, and hungry. A savager litter contains anywhere from 10 to 25 cubs, all of them born able to walk and fend for themselves. This is important, because within 24 hours after giving birth, a savager mother no longer recognizes her own offspring, and she will attack and cannibalize any that don’t escape on their own.  \nA savager weighs 1,800 pounds and is 11 feet long.",
+  "slug": "savager-tob1-2023",
+  "desc": "False",
   "name": "Savager",
   "size": "Large",
   "type": "Beast",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 17,
   "armor_desc": "natural armor",
-  "hit_points": 115,
-  "hit_dice": "1d10+60",
+  "hit_points": 105,
+  "hit_dice": "10d10 + 50",
   "speed": {
-    "walk": 40,
-    "climb": 20
+    "walk": 20
   },
   "strength": 22,
   "dexterity": 14,
-  "constitution": 22,
+  "constitution": 21,
   "intelligence": 2,
   "wisdom": 10,
   "charisma": 13,
   "strength_save": null,
   "dexterity_save": 5,
-  "constitution_save": 9,
+  "constitution_save": 8,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 3,
+  "perception": 13,
   "skills": {
-    "perception": 3
+    "Perception": 3
   },
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical attacks",
-  "damage_immunities": "",
+  "damage_immunities": "False",
   "condition_immunities": "charmed, frightened",
   "senses": "darkvision 60 ft., passive Perception 13",
-  "languages": "",
+  "languages": "—",
   "challenge_rating": "8",
   "cr": 8,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The savager makes one bite attack and one claw attack."
+      "desc": "The savager makes one Bite attack and two Claw attacks. If both Claw attacks hit one creature, the target must succeed on a DC 15 Strength saving throw or take 9 (2d8) slashing damage as the savager rips into the target."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 19 (2d12 + 6) piercing damage.",
-      "attack_bonus": 9,
-      "damage_dice": "2d12"
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 19 (2d12 + 6) piercing damage."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 38 (5d12 + 6) slashing damage.",
-      "attack_bonus": 9,
-      "damage_dice": "5d12"
+      "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 15 (2d8 + 6) slashing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Mighty Swing",
-      "desc": "When a savager attacks without moving during its turn, it makes its claw attack with advantage."
+      "desc": "If the savager doesn't move during its turn, it has advantage on the next Claw attack it makes before the start of its next turn."
     },
     {
-      "name": "Quills",
-      "desc": "A creature takes 4 (1d8) piercing damage at the start of its turn while it is grappling a savager."
+      "name": "Spines",
+      "desc": "A creature that touches the savager or hits it with a melee attack while within 5 feet of it takes 5 (2d4) piercing damage. In addition, a creature grappled by or grappling the savager takes 5 (2d4) piercing damage at the start of the savager's turn."
     }
   ],
   "spell_list": [],
-  "page_no": 338,
+  "page_no": 318,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_savager/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_savager/"
 }

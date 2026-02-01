@@ -1,14 +1,14 @@
 {
-  "slug": "blood-hawk",
-  "desc": "Taking its name from its crimson feathers and aggressive nature, the **blood hawk** fearlessly attacks almost any animal, stabbing it with its daggerlike beak. Blood hawks flock together in large numbers, attacking as a pack to take down prey.",
+  "slug": "blood-hawk-a5e",
+  "desc": "",
   "name": "Blood Hawk",
   "size": "Small",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
-  "armor_class": 12,
-  "armor_desc": null,
+  "group": null,
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": "",
   "hit_points": 7,
   "hit_dice": "2d6",
   "speed": {
@@ -16,18 +16,18 @@
     "fly": 60
   },
   "strength": 6,
-  "dexterity": 14,
+  "dexterity": 12,
   "constitution": 10,
-  "intelligence": 3,
+  "intelligence": 2,
   "wisdom": 14,
-  "charisma": 5,
+  "charisma": 4,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 4,
+  "perception": null,
   "skills": {
     "perception": 4
   },
@@ -35,17 +35,14 @@
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 14",
+  "senses": "passive Perception 12",
   "languages": "",
   "challenge_rating": "1/8",
   "cr": 0.125,
   "actions": [
     {
       "name": "Beak",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d4",
-      "damage_bonus": 2
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4+1) piercing damage."
     }
   ],
   "bonus_actions": null,
@@ -55,28 +52,20 @@
   "special_abilities": [
     {
       "name": "Keen Sight",
-      "desc": "The hawk has advantage on Wisdom (Perception) checks that rely on sight."
+      "desc": "The hawk has advantage on Perception checks that rely on sight."
     },
     {
       "name": "Pack Tactics",
-      "desc": "The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 ft. of the creature and the ally isn't incapacitated."
+      "desc": "The hawk has advantage on attack rolls against a creature if at least one of the hawks allies is within 5 feet of the creature and not incapacitated."
     }
   ],
   "spell_list": [],
-  "page_no": 368,
-  "environments": [
-    "Hill",
-    "Grassland",
-    "Coastal",
-    "Mountain",
-    "Forest",
-    "Desert",
-    "Arctic"
-  ],
+  "page_no": 440,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_blood-hawk/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_blood-hawk/"
 }

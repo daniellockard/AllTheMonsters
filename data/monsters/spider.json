@@ -1,56 +1,57 @@
 {
-  "slug": "spider",
+  "slug": "spider_bf",
   "desc": "",
   "name": "Spider",
-  "size": "Tiny",
+  "size": "tiny",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": "Animals",
+  "alignment": "",
   "armor_class": 12,
-  "armor_desc": null,
-  "hit_points": 1,
-  "hit_dice": "1d4-1",
+  "armor_desc": "natural armor",
+  "hit_points": 8,
+  "hit_dice": "",
   "speed": {
     "walk": 20,
     "climb": 20
   },
   "strength": 2,
-  "dexterity": 14,
+  "dexterity": 10,
   "constitution": 8,
   "intelligence": 1,
   "wisdom": 10,
   "charisma": 2,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
-  "skills": {
-    "stealth": 4
-  },
+  "strength_save": -4,
+  "dexterity_save": 0,
+  "constitution_save": -1,
+  "intelligence_save": -5,
+  "wisdom_save": 0,
+  "charisma_save": -4,
+  "perception": 10,
+  "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 30 ft., passive Perception 12",
-  "languages": "",
+  "senses": "darkvision 30 ft.",
+  "languages": "-",
   "challenge_rating": "0",
   "cr": 0,
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage.",
-      "attack_bonus": 4,
-      "damage_bonus": 1
+      "desc": "_Melee Weapon Attack:_ +2 to hit, reach 5 ft., one creature. _Hit:_ 2 (1d4) piercing damage, and the target must succeed on a DC 9 CON save or take 2 (1d4) poison damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Web Shot (Recharge 4-6)",
+      "desc": "The spider launches a gob of webbing at one creature it can see within 15 feet of it. The target must succeed on a DC 9 DEX save or have its speed reduced by 10 feet. A creature can take an action to remove the webbing, ending the effect."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Spider Climb",
@@ -66,16 +67,12 @@
     }
   ],
   "spell_list": [],
-  "page_no": 389,
-  "environments": [
-    "Jungle",
-    "Ruin",
-    "Caverns"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_spider/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_spider/"
 }

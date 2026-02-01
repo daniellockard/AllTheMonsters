@@ -1,23 +1,23 @@
 {
-  "slug": "library-automaton",
-  "desc": "_The humming of servos, ticking of gears, and petite discharges of steam alert you to the presence of this library’s diminutive custodian._  \nThese small constructs were created to fulfill organizational responsibilities of huge libraries with staffing problems, but some invariably learn enough about the wider world to seek out adventure and new knowledge, rather than tending the items in their care.  \n**Eyes of the Past.** While largely constructed with mechanical components, the automatons include a single human eyeball that is mounted at the end of an articulated appendage. The eye is usually donated by one of the institution’s scholars (prescribed in their will) so that they can continue serving the repositories of knowledge that were their life’s work.  \n**Telekinetic.** While the automatons have no arms, they can move and manipulate written materials telekinetically. Powered by keen analytical engines, the library automaton tirelessly pores through tomes, translates ancient texts, catalogs the institution’s volumes, fetches texts for visitors, and occasionally rids the vast halls of uninvited pests.  \n**Sought by Wizards.** Wizards have discovered that these clockwork bureaucrats make particularly effective caretakers for their spellbooks and scrolls while on adventure.  \n**Constructed Nature.** A library automaton doesn’t require air, food, drink, or sleep.",
+  "slug": "libraryautomaton-tob1-2023",
+  "desc": "False",
   "name": "Library Automaton",
   "size": "Small",
   "type": "Construct",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Lawful Neutral",
   "armor_class": 13,
   "armor_desc": "natural armor",
-  "hit_points": 7,
-  "hit_dice": "2d6",
+  "hit_points": 24,
+  "hit_dice": "7d6",
   "speed": {
     "walk": 30
   },
   "strength": 8,
   "dexterity": 13,
   "constitution": 10,
-  "intelligence": 14,
+  "intelligence": 16,
   "wisdom": 12,
   "charisma": 8,
   "strength_save": null,
@@ -26,46 +26,58 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 11,
   "skills": {
-    "history": 4,
-    "investigation": 4
+    "History": 5,
+    "Investigation": 5
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "poison",
-  "condition_immunities": "charmed, poisoned",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "poison, psychic",
+  "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
   "senses": "blindsight 60 ft., truesight 10 ft., passive Perception 11",
-  "languages": "Common, Machine Speech",
+  "languages": "Common",
   "challenge_rating": "1/2",
   "cr": 0.5,
   "actions": [
     {
-      "name": "Gaze of Confusion",
-      "desc": "The library automaton chooses one creature it can see within 40 feet. The target must succeed on a DC 12 Intelligence saving throw or take 9 (3d4 + 2) psychic damage and have disadvantage on Intelligence-based checks, saving throws, and attacks until the end of its next turn. If the saving throw succeeds, then the target takes half damage and suffers no other effect."
+      "name": "Piston-Powered Kick",
+      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) bludgeoning damage."
+    },
+    {
+      "name": "Unnerving Gaze",
+      "desc": "Ranged Spell Attack: +5 to hit, range 60 ft., one target. Hit: 6 (1d6 + 3) psychic damage, and the target must succeed on a DC 13 Wisdom saving throw or have disadvantage on the next attack roll, ability check, or saving throw it makes before the start of the automaton's next turn."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Bibliophile",
+      "desc": "The library automaton understands any written language it can see, provided it is touching the surface on which the words are written."
     },
     {
       "name": "Bibliotelekinesis",
-      "desc": "This ability functions as the cantrip mage hand but can be used only on books, scrolls, maps, and other printed or written materials."
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
+      "desc": "The library automaton is surrounded by an invisible, shapeless, magical force that can perform simple tasks at the automaton's command. This force has a Strength equal to the automaton's Strength, and it can interact with objects up to 15 feet away from the automaton. The automaton can use this force to perform simple tasks that a Small humanoid with two hands could do, such as opening a door, moving a bookshelf's ladder, picking up and organizing books, and similar tasks. The automaton can't use this force to make attacks or wield a weapon or shield."
+    },
     {
-      "name": "Extra-Dimensional Book Repository",
-      "desc": "A small door on the chest of the library automaton opens into an extra-dimensional bookcase. This bookcase functions exactly as a bag of holding except that it can store only written materials such as books, scrolls, tomes, parchment, folders, notebooks, spellbooks, and the like."
+      "name": "Book Safekeeper",
+      "desc": "The library automaton's body contains a small, extradimensional space. This space can hold up to 100 pounds of Small or smaller objects. This space can hold only books, scrolls, parchment, or other written works on paper or other paper- or wood-like materials. The automaton is the only creature capable of retrieving items from this space while it is alive. If the automaton is destroyed, the objects within its extradimensional space are ejected into an unoccupied space nearest it."
+    },
+    {
+      "name": "Construct Nature",
+      "desc": "The library automaton doesn't require air, food, drink, or sleep."
     }
   ],
   "spell_list": [],
-  "page_no": 273,
+  "page_no": 252,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_library-automaton/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_library-automaton/"
 }

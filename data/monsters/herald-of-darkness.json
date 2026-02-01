@@ -1,92 +1,91 @@
 {
-  "slug": "herald-of-darkness",
-  "desc": "_Stunningly tall and beautiful fiends, the heralds of darkness resemble dark-haired fey wearing cloaks and armor glittering with dark light and often surrounded by a nimbus of pale green fire._  \nHeralds of darkness speak in fluid tones and sing with the voices of angels, but their hearts are foul and treacherous.  \n**Vision of Evil.** Indeed, the heralds of darkness can take on another appearance entirely, disappearing into insubstantial shadows and unveiling an evil majestic form that leaves those who see it shaken and weak—and often blind. Speaking of this form is difficult, but poets and bards trying to describe it have said it resembles an apocalyptic horror built of chained souls and the slow death of children carried along in a glacial river, rushing to an inevitable doom.  \n**Sword and Cloak.** The black sword and star-scattered cloak of a herald of darkness are part of its magical substance and cannot be parted from it. Some believe the cloak and blade are true visions of its body; the smiling face and pleasing form are entirely illusory.  \n**Corruptors of the Fey.** The heralds of darkness are companions and sometimes masters to the shadow fey. They seek to draw many others into their orbit with wild promises of great power, debauchery, and other delights. They are rivals to the heralds of blood and bitter foes to all angels of light.",
-  "name": "Herald Of Darkness",
+  "slug": "heraldofdarkness-tob1-2023",
+  "desc": "False",
+  "name": "Herald of Darkness",
   "size": "Large",
   "type": "Fiend",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 15,
   "armor_desc": "chain shirt",
   "hit_points": 105,
-  "hit_dice": "10d10+50",
+  "hit_dice": "10d10 + 50",
   "speed": {
     "walk": 30,
-    "swim": 30,
-    "fly": 50
+    "fly": 30
   },
   "strength": 20,
   "dexterity": 14,
   "constitution": 20,
   "intelligence": 12,
   "wisdom": 15,
-  "charisma": 20,
+  "charisma": 19,
   "strength_save": 8,
   "dexterity_save": null,
   "constitution_save": 8,
   "intelligence_save": null,
   "wisdom_save": null,
-  "charisma_save": 8,
-  "perception": 5,
+  "charisma_save": 7,
+  "perception": 15,
   "skills": {
-    "athletics": 8,
-    "deception": 8,
-    "perception": 5
+    "Athletics": 8,
+    "Deception": 7,
+    "Perception": 5,
+    "Stealth": 5
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "bludgeoning, thunder",
-  "damage_immunities": "cold, lightning, necrotic, poison",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "bludgeoning, cold, lightning",
+  "damage_immunities": "necrotic, poison",
   "condition_immunities": "exhaustion, frightened, paralyzed, petrified, poisoned",
-  "senses": "darkvision 200 ft., passive Perception 15",
+  "senses": "darkvision 240 ft., passive Perception 15",
   "languages": "Common, Elvish, Goblin, Infernal, Sylvan",
   "challenge_rating": "7",
   "cr": 7,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The herald of darkness uses Majesty of the Abyss, if it is available, and makes one melee attack."
+      "desc": "The herald of darkness makes two Embrace Darkness or Shadow Sword attacks."
     },
     {
-      "name": "Embrace Darkness",
-      "desc": "Melee Weapon Attack. +8 to hit, reach 5 ft., all creatures in reach. Hit: 6 (1d12) necrotic damage and targets are paralyzed until the start of the herald's next turn. Making a DC 17 Constitution saving throw negates the paralysis."
+      "name": "Embrace Darkness (Shadow Form Only)",
+      "desc": "Melee Spell Attack: +7 to hit, reach 0 ft., one creature in the herald's space. Hit: 18 (3d8 + 5) necrotic damage, and the target must succeed on a DC 15 Constitution saving throw or be paralyzed until the end of its next turn."
     },
     {
-      "name": "Majesty of the Abyss (Recharge 4-6)",
-      "desc": "The herald of darkness emits a sinister burst of infernal power. All creatures within 30 feet and in direct line of sight of the herald take 19 (3d12) necrotic damage and must make a DC 17 Constitution saving throw. Those who fail the saving throw are blinded for 2 rounds; those who succeed are frightened for 2 rounds."
+      "name": "Shadow Sword (Fiend Form Only)",
+      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 14 (2d8 + 5) slashing damage plus 9 (2d8) necrotic damage."
     },
     {
-      "name": "Shadow Sword",
-      "desc": "Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 18 (2d12 + 5) slashing damage.",
-      "attack_bonus": 8,
-      "damage_dice": "2d12"
+      "name": "Majesty of the Abyss (Recharge 5-6)",
+      "desc": "The herald of darkness emits a sinister burst of infernal power. Each creature within 15 feet of the herald and that can see it must make a DC 15 Constitution saving throw. On a failure, a creature takes 27 (6d8) necrotic damage and is blinded for 1 minute. On a success, a creature takes half the damage and isn't blinded. A creature that fails the saving throw by 5 or more is also paralyzed until the end of its next turn. A blinded creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Shadow Shape",
+      "desc": "The herald magically transforms into a Large shadow or back into its true form, which is a Fiend. Its statistics are the same in each form. Any equipment it is wearing or carrying transforms with it. It reverts to its true form if it dies."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Corrupting Touch",
-      "desc": "A herald of darkness can destroy any wooden, leather, copper, iron, or paper object by touching it as a bonus action. A mundane item is destroyed automatically; a magical item survives if its owner makes a successful DC 16 Dexterity saving throw."
+      "name": "Made of Shadows (Shadow Form Only)",
+      "desc": "The herald of darkness has resistance to bludgeoning, piercing, and slashing damage and can enter a hostile creature's space and stop there. In addition, it can move through a space as narrow as 1 inch wide without squeezing."
     },
     {
-      "name": "Gift of Darkness",
-      "desc": "A herald of darkness can transform any fey, human, or goblin into one of the shadow fey, if the target willingly accepts this transformation."
-    },
-    {
-      "name": "Shadow Form",
-      "desc": "A herald of darkness can become incorporeal as a shadow as a bonus action. In this form, it has a fly speed of 10 feet; it can enter and occupy spaces occupied by other creatures; it gains resistance to all nonmagical damage; it has advantage on physical saving throws; it can pass through any gap or opening; it can't attack, interact with physical objects, or speak. It can return to its corporeal form also as a bonus action."
+      "name": "Shadow's Sight",
+      "desc": "Magical darkness doesn't impede the herald's darkvision."
     }
   ],
   "spell_list": [],
-  "page_no": 249,
+  "page_no": 233,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_herald-of-darkness/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_herald-of-darkness/"
 }

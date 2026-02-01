@@ -1,22 +1,22 @@
 {
-  "slug": "ychen-bannog",
-  "desc": "_Ychen bannogs are massive, ox-like beasts with thick, wooly coats and great horns like the gods’ battering rams. They stand over 40 feet tall at the shoulder and weigh hundreds of tons. Despite their awe-inspiring size, these towering creatures are peaceful wanderers in the wilderness, where their calls echo for miles._  \n**Strongest Beasts in the World.** Legends are built on their sturdy backs. Capable of pulling 670 tons (or carrying 134 tons on their backs), ychen bannogs are the strongest beasts of burden in the known world. Tamed ychen bannogs can haul entire communities, or even small castles, and a clever dwarf with a ychen bannog at her disposal can carve out enormous riverbeds, haul enormous stones, or reshape entire valleys with ease.  \n**Ychen Warships.** Giants have a particular affinity with the ychen bannogs. In times of war, giants sometimes build complex siege platforms atop these beasts, making effective transport for small armies of giants. Thankfully, ychen bannogs are rare enough that even seeing one in an army is a tale to be told for generations.  \n**Louder Than Thunder.** When riled, a ychen bannog can bellow loudly enough to shatter stones and knock down walls.",
+  "slug": "ychenbannog-tob1-2023",
+  "desc": "False",
   "name": "Ychen Bannog",
   "size": "Gargantuan",
   "type": "Beast",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Unaligned",
   "armor_class": 17,
   "armor_desc": "natural armor",
-  "hit_points": 231,
-  "hit_dice": "14d20+84",
+  "hit_points": 186,
+  "hit_dice": "12d20 + 60",
   "speed": {
     "walk": 50
   },
   "strength": 28,
   "dexterity": 10,
-  "constitution": 23,
+  "constitution": 21,
   "intelligence": 3,
   "wisdom": 12,
   "charisma": 10,
@@ -26,63 +26,55 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 11,
   "skills": {},
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "bludgeoning",
-  "damage_immunities": "",
+  "damage_immunities": "False",
   "condition_immunities": "exhaustion",
   "senses": "passive Perception 11",
-  "languages": "-",
+  "languages": "—",
   "challenge_rating": "11",
   "cr": 11,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The ychen bannog makes one gore attack and one stomp attack."
+      "desc": "The ychen bannog makes one Gore attack and two Stomp attacks."
     },
     {
       "name": "Gore",
-      "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 27 (4d8 + 9) piercing damage.",
-      "attack_bonus": 13,
-      "damage_dice": "4d8"
+      "desc": "Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 25 (3d10 + 9) piercing damage. If the ychen bannog scores a critical hit, it rolls damage dice three times, instead of twice."
     },
     {
       "name": "Stomp",
-      "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 31 (4d10 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone.",
-      "attack_bonus": 13,
-      "damage_dice": "4d10"
+      "desc": "Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 22 (3d8 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
     },
     {
-      "name": "Destroying Bellow (Recharge 5-6)",
-      "desc": "The ychen bannog delivers a fearsome bellow that can be heard up to ten miles away. Structures and unattended objects in a 60-foot cone take 55 (10d10) thunder damage. Creatures in the cone take 27 (5d10) thunder damage and are deafened for 1 hour, or take half damage and aren't deafened with a successful DC 18 Constitution saving throw."
+      "name": "Deafening Bellow (Recharge 5-6)",
+      "desc": "The ychen bannog delivers a fearsome bellow in a 60-foot cone that is audible out to 1 mile. Each creature in the area must make a DC 17 Constitution saving throw. On a failure, a creature takes 44 (8d10) thunder damage and is deafened for 1 hour. On a success, a creature takes half the damage and isn't deafened. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw."
+    },
+    {
+      "name": "Overrun (Recharge 6)",
+      "desc": "The ychen bannog moves up to 30 feet in a straight line and can move through the space of any Large or smaller creature. This movement doesn't provoke opportunity attacks. The first time the ychen bannog enters a creature's space during this move, that creature must make a DC 17 Dexterity saving throw. On a failure, a creature takes 54 (12d8) bludgeoning damage and is knocked prone. On a success, a creature takes half the damage and isn't knocked prone."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Ever-Sharp Horns",
-      "desc": "The ychen bannog deals triple damage dice when it scores a critical hit with a gore attack."
-    },
-    {
-      "name": "Overrun",
-      "desc": "When the ychen bannog takes the Dash action, it can move through the space of a Large or smaller creature, treating the creature's space as difficult terrain. As it moves through the creature's space, the ychen bannog can make a stomp attack as a bonus action."
-    },
-    {
-      "name": "Peaceful Creature",
-      "desc": "The ychen bannog abhors combat and flees from it if possible. If unable to flee, the ychen bannog can attack a foe or obstacle to clear a path to safety. As an action, a driver or handler mounted on the ychen bannog or adjacent to it can make a DC 16 Wisdom (Animal Handling) check. On a success, the ychen bannog moves and attacks as directed by the driver. On a failure, the beast flees. The driver or handler must have proficiency in Animal Handling to attempt this check."
+      "name": "Siege Monster",
+      "desc": "The ychen bannog deals double damage to objects and structures."
     }
   ],
   "spell_list": [],
-  "page_no": 413,
+  "page_no": 401,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_ychen-bannog/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_ychen-bannog/"
 }

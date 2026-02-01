@@ -1,84 +1,72 @@
 {
-  "slug": "drider",
+  "slug": "drider_bf",
   "desc": "",
   "name": "Drider",
-  "size": "Large",
+  "size": "large",
   "type": "Monstrosity",
   "subtype": "",
   "group": null,
-  "alignment": "Chaotic Evil",
-  "armor_class": 19,
+  "alignment": "",
+  "armor_class": 18,
   "armor_desc": "natural armor",
-  "hit_points": 123,
-  "hit_dice": "13d10+52",
+  "hit_points": 112,
+  "hit_dice": "",
   "speed": {
     "walk": 30,
     "climb": 30
   },
   "strength": 16,
-  "dexterity": 16,
+  "dexterity": 22,
   "constitution": 18,
-  "intelligence": 13,
+  "intelligence": 12,
   "wisdom": 14,
   "charisma": 12,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 5,
-  "skills": {
-    "perception": 5,
-    "stealth": 9
-  },
+  "strength_save": 3,
+  "dexterity_save": 6,
+  "constitution_save": 4,
+  "intelligence_save": 1,
+  "wisdom_save": 2,
+  "charisma_save": 1,
+  "perception": 15,
+  "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
+  "damage_resistances": "Fey Ancestry,Monstrosity Resilience",
+  "damage_immunities": "poison,poisoned",
   "condition_immunities": "",
-  "senses": "darkvision 120 ft., passive Perception 15",
-  "languages": "Elvish, Undercommon",
+  "senses": "darkvision 120 ft.",
+  "languages": "Elvish,Undercommon",
   "challenge_rating": "6",
   "cr": 6,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The drider makes three attacks, either with its longsword or its longbow. It can replace one of those attacks with a bite attack."
-    },
-    {
-      "name": "Bite",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 2 (1d4) piercing damage plus 9 (2d8) poison damage.",
-      "attack_bonus": 6,
-      "damage_dice": "1d4",
-      "damage_bonus": 2
+      "desc": "The drider makes one Longsword attack and two Skewer attacks, or it makes three Web Shot attacks."
     },
     {
       "name": "Longsword",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
-      "attack_bonus": 6,
-      "damage_dice": "1d8",
-      "damage_bonus": 3
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 7 (1d8+3) slashing damage, or 8 (1d10+3) slashing damage if used with two hands."
     },
     {
-      "name": "Longbow",
-      "desc": "Ranged Weapon Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) poison damage.",
-      "attack_bonus": 6,
-      "damage_dice": "1d8",
-      "damage_bonus": 3
+      "name": "Skewer",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one creature. _Hit:_ 6 (1d6+3) piercing damage plus 13 (3d8) poison damage."
+    },
+    {
+      "name": "Web Shot",
+      "desc": "_Ranged Weapon Attack:_ +6 to hit, range 30/60 ft., one target. _Hit:_ 14 (2d10+3) bludgeoning damage, and the target must succeed on a DC 15 STR save or be restrained by webbing. A creature, including the restrained target, can take its action to break the webbing and free the restrained target by succeeding on a DC 15 STR check."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Fey Ancestry",
-      "desc": "The drider has advantage on saving throws against being charmed, and magic can't put the drider to sleep."
+      "desc": "The drider is resistant to the charmed condition, and magic can't put the drider to sleep."
     },
     {
-      "name": "Innate Spellcasting",
-      "desc": "The drider's innate spellcasting ability is Wisdom (spell save DC 13). The drider can innately cast the following spells, requiring no material components:\nAt will: dancing lights\n1/day each: darkness, faerie fire"
+      "name": "Monstrosity Resilience",
+      "desc": "The drider is resistant to exhaustion and to the frightened condition."
     },
     {
       "name": "Spider Climb",
@@ -86,28 +74,24 @@
     },
     {
       "name": "Sunlight Sensitivity",
-      "desc": "While in sunlight, the drider has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      "desc": "While in sunlight, the drider has disadvantage on attack rolls, and its Perception is 10 when perceiving by sight."
+    },
+    {
+      "name": "Web Sense",
+      "desc": "While in contact with a web, the drider knows the exact location of any other creature in contact with the same web."
     },
     {
       "name": "Web Walker",
       "desc": "The drider ignores movement restrictions caused by webbing."
     }
   ],
-  "spell_list": [
-    "https://api.open5e.com/v2/spells/dancing-lights/",
-    "https://api.open5e.com/v2/spells/darkness/",
-    "https://api.open5e.com/v2/spells/faerie-fire/"
-  ],
-  "page_no": 304,
-  "environments": [
-    "Underdark",
-    "Ruin",
-    "Feywild"
-  ],
+  "spell_list": [],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_drider/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_drider/"
 }

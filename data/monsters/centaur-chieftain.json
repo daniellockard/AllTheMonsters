@@ -6,7 +6,7 @@
   "type": "Monstrosity",
   "subtype": "",
   "group": null,
-  "alignment": "Chaotic Neutral",
+  "alignment": "chaotic neutral",
   "armor_class": 16,
   "armor_desc": "chain shirt, shield",
   "hit_points": 110,

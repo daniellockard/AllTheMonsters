@@ -1,93 +1,86 @@
 {
-  "slug": "vrock",
+  "slug": "vrock_bf",
   "desc": "",
   "name": "Vrock",
-  "size": "Large",
+  "size": "large",
   "type": "Fiend",
-  "subtype": "demon",
+  "subtype": "Demon",
   "group": "Demons",
-  "alignment": "Chaotic Evil",
+  "alignment": "",
   "armor_class": 15,
   "armor_desc": "natural armor",
-  "hit_points": 104,
-  "hit_dice": "11d10+44",
+  "hit_points": 110,
+  "hit_dice": "",
   "speed": {
     "walk": 40,
     "fly": 60
   },
-  "strength": 17,
-  "dexterity": 15,
+  "strength": 16,
+  "dexterity": 20,
   "constitution": 18,
   "intelligence": 8,
-  "wisdom": 13,
-  "charisma": 8,
-  "strength_save": null,
+  "wisdom": 22,
+  "charisma": 14,
+  "strength_save": 3,
   "dexterity_save": 5,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": 4,
+  "constitution_save": 4,
+  "intelligence_save": -1,
+  "wisdom_save": 6,
   "charisma_save": 2,
-  "perception": null,
+  "perception": 16,
   "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "cold, fire, lightning; bludgeoning, piercing, and slashing from nonmagical attacks",
-  "damage_immunities": "poison",
-  "condition_immunities": "poisoned",
-  "senses": "darkvision 120 ft., passive Perception 11",
-  "languages": "Abyssal, telepathy 120 ft.",
+  "damage_resistances": "bludgeoning,piercing,and slashing damage from nonmagical attacks,Demonic Resilience",
+  "damage_immunities": "Demonic Resilience",
+  "condition_immunities": "",
+  "senses": "darkvision 120 ft.",
+  "languages": "Abyssal,telepathy 120 ft.",
   "challenge_rating": "6",
   "cr": 6,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The vrock makes two attacks: one with its beak and one with its talons."
+      "desc": "The vrock makes one Beak attack and two Talon attacks."
     },
     {
       "name": "Beak",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "2d6",
-      "damage_bonus": 3
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 12 (2d8+3) piercing damage."
     },
     {
-      "name": "Talons",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10 + 3) slashing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "2d10",
-      "damage_bonus": 3
+      "name": "Talon",
+      "desc": "_Melee Weapon Attack:_ +6 to hit, reach 5 ft., one target. _Hit:_ 14 (2d10+3) slashing damage."
     },
     {
-      "name": "Spores (Recharge 6)",
-      "desc": "A 15-foot-radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Each creature in that area must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned in this way, a target takes 5 (1d10) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it."
-    },
-    {
-      "name": "Stunning Screech (1/Day)",
-      "desc": "The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn't a demon must succeed on a DC 14 Constitution saving throw or be stunned until the end of the vrock's next turn."
-    },
-    {
-      "name": "Variant: Summon Demon (1/Day)",
-      "desc": "The demon chooses what to summon and attempts a magical summoning.\nA vrock has a 30 percent chance of summoning 2d4 dretches or one vrock.\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action."
+      "name": "Wing Spores (Recharge 5-6)",
+      "desc": "The vrock shakes a cloud of toxic spores from its wings. Each creature within 15 feet of it must make a DC 15 CON save. On a failure, a creature takes 28 (8d6) poison damage and is poisoned for 1 minute. On a success, a creature takes half the damage and isn't poisoned. While poisoned, a creature takes 3 (1d6) poison damage at the start of each of its turns. A poisoned creature can repeat the save at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the poisoned creature also ends the effect on it."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Startling Screech",
+      "desc": "The vrock emits a horrific screech at one creature it can see within 30 feet of it. The target must succeed on a DC 14 CON save or be able to take either an action or bonus action on its turn, not both, and it can't take reactions."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
+      "name": "Demonic Resilience",
+      "desc": "The vrock is resistant to cold, fire, and lightning damage. In addition, it is immune to poison damage and to the poisoned condition."
+    },
+    {
       "name": "Magic Resistance",
-      "desc": "The vrock has advantage on saving throws against spells and other magical effects."
+      "desc": "The vrock has advantage on saves against spells and other magical effects."
     }
   ],
   "spell_list": [],
-  "page_no": 273,
-  "environments": [
-    "Abyss"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_vrock/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_vrock/"
 }

@@ -10,6 +10,7 @@
     "collect": "node collector/index.js",
     "collect:resume": "node collector/resume.js",
     "collect:debug": "node collector/debug.js",
+    "collect:update": "node collector/update.js",
     "test": "node collector/test.js"
   },
   "dependencies": {

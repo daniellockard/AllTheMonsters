@@ -1,101 +1,87 @@
 {
-  "slug": "lizardfolk",
+  "slug": "lizardfolk_bf",
   "desc": "",
   "name": "Lizardfolk",
-  "size": "Medium",
+  "size": "medium",
   "type": "Humanoid",
-  "subtype": "lizardfolk",
-  "group": null,
-  "alignment": "Neutral",
+  "subtype": "",
+  "group": "Lizardfolk",
+  "alignment": "",
   "armor_class": 15,
   "armor_desc": "natural armor, shield",
   "hit_points": 22,
-  "hit_dice": "4d8+4",
+  "hit_dice": "",
   "speed": {
     "walk": 30,
+    "climb": 15,
     "swim": 30
   },
-  "strength": 15,
+  "strength": 14,
   "dexterity": 10,
-  "constitution": 13,
-  "intelligence": 7,
-  "wisdom": 12,
-  "charisma": 7,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 3,
-  "skills": {
-    "perception": 3,
-    "stealth": 4,
-    "survival": 5
-  },
+  "constitution": 12,
+  "intelligence": 6,
+  "wisdom": 16,
+  "charisma": 6,
+  "strength_save": 2,
+  "dexterity_save": 0,
+  "constitution_save": 1,
+  "intelligence_save": -2,
+  "wisdom_save": 3,
+  "charisma_save": -2,
+  "perception": 13,
+  "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 13",
+  "senses": "-",
   "languages": "Draconic",
   "challenge_rating": "1/2",
   "cr": 0.5,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The lizardfolk makes two melee attacks, each one with a different weapon."
+      "desc": "The lizardfolk makes one Bite attack and one Heavy Club attack, or it makes two Javelin attacks."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6+2) piercing damage."
     },
     {
       "name": "Heavy Club",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 5 (1d6+2) bludgeoning damage."
     },
     {
       "name": "Javelin",
-      "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
-    },
-    {
-      "name": "Spiked Shield",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6",
-      "damage_bonus": 2
+      "desc": "_Melee or Ranged Weapon Attack:_ +4 to hit, reach 5 ft. or range 30/120 ft., one target. _Hit:_ 5 (1d6+2) piercing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Shoving Counter",
+      "desc": "If a creature misses the lizardfolk with an attack and the lizardfolk is wielding a shield, the lizardfolk can shove its shield into the creature. The attacker must succeed on a DC 12 STR save or be pushed up to 10 feet away from the lizardfolk and knocked prone."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
+    {
+      "name": "Heightened Smell and Taste",
+      "desc": "The lizardfolk's Perception is 18 when perceiving by smell or taste."
+    },
     {
       "name": "Hold Breath",
       "desc": "The lizardfolk can hold its breath for 15 minutes."
     }
   ],
   "spell_list": [],
-  "page_no": 326,
-  "environments": [
-    "Swamp",
-    "Jungle",
-    "Forest"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_lizardfolk/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_lizardfolk/"
 }

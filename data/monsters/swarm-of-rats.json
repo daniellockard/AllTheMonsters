@@ -1,25 +1,25 @@
 {
-  "slug": "swarm-of-rats",
+  "slug": "swarm-of-rats-a5e",
   "desc": "",
   "name": "Swarm of Rats",
   "size": "Medium",
   "type": "Beast",
-  "subtype": "Swarm",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
-  "armor_class": 10,
-  "armor_desc": null,
-  "hit_points": 24,
-  "hit_dice": "7d8-7",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 11,
+  "armor_desc": "",
+  "hit_points": 17,
+  "hit_dice": "5d8-5",
   "speed": {
     "walk": 30
   },
-  "strength": 9,
-  "dexterity": 11,
-  "constitution": 9,
+  "strength": 10,
+  "dexterity": 12,
+  "constitution": 8,
   "intelligence": 2,
   "wisdom": 10,
-  "charisma": 3,
+  "charisma": 4,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
@@ -31,7 +31,7 @@
   "damage_vulnerabilities": "",
   "damage_resistances": "bludgeoning, piercing, slashing",
   "damage_immunities": "",
-  "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
+  "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned, unconscious",
   "senses": "darkvision 30 ft., passive Perception 10",
   "languages": "",
   "challenge_rating": "1/4",
@@ -39,9 +39,7 @@
   "actions": [
     {
       "name": "Bites",
-      "desc": "Melee Weapon Attack: +2 to hit, reach 0 ft., one target in the swarm's space. Hit: 7 (2d6) piercing damage, or 3 (1d6) piercing damage if the swarm has half of its hit points or fewer.",
-      "attack_bonus": 2,
-      "damage_dice": "2d6"
+      "desc": "Melee Weapon Attack: +2 to hit, reach 0 ft., one target. Hit: 7 (2d6) piercing damage  or 3 (1d6) piercing damage if the swarm is bloodied."
     }
   ],
   "bonus_actions": null,
@@ -51,28 +49,20 @@
   "special_abilities": [
     {
       "name": "Keen Smell",
-      "desc": "The swarm has advantage on Wisdom (Perception) checks that rely on smell."
+      "desc": "The swarm has advantage on Perception checks that rely on smell."
     },
     {
       "name": "Swarm",
-      "desc": "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points."
+      "desc": "The swarm can occupy another creatures space and move through any opening large enough for a Tiny creature. It can't gain hit points or temporary hit points."
     }
   ],
   "spell_list": [],
-  "page_no": 390,
-  "environments": [
-    "Urban",
-    "Sewer",
-    "Forest",
-    "Ruin",
-    "Swamp",
-    "Caverns",
-    "Settlement"
-  ],
+  "page_no": 461,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_swarm-of-rats/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_swarm-of-rats/"
 }

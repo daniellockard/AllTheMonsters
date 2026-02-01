@@ -1,16 +1,16 @@
 {
-  "slug": "moss-lurker",
-  "desc": "_Somewhat like the cruel crossbreed of troll and gnome, the moss lurkers are a primitive race of forest and cavern dwellers with long, greenish beards and hair. Their hides are mossy green or peaty amber, and a vaguely fungal scent surrounds them at all times._  \nLike their trollish relatives, moss lurkers have large and often grotesque noses. Their claws are bright red when unsheathed, and their teeth tend toward the long and snaggly. They wear simple clothes of homespun wool or leather, or go naked in the summer. Their hats are sometimes festooned with toadstools or ferns as primitive camouflage.  \n**Rocks and Large Weapons.** Moss lurkers have a fondness for throwing stones onto enemies from a great height, and they often employ enormous axes, warhammers, and two-handed swords that seem much larger than such a small creature should be able to lift.",
+  "slug": "mosslurker-tob1-2023",
+  "desc": "False",
   "name": "Moss Lurker",
   "size": "Small",
   "type": "Humanoid",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Neutral",
   "armor_class": 15,
   "armor_desc": "natural armor",
   "hit_points": 45,
-  "hit_dice": "10d6+10",
+  "hit_dice": "10d6 + 10",
   "speed": {
     "walk": 30
   },
@@ -26,57 +26,37 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 2,
+  "perception": 12,
   "skills": {
-    "perception": 2,
-    "stealth": 4
+    "Perception": 2,
+    "Stealth": 4
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "fire, poison",
-  "condition_immunities": "blind, poisoned",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "poison",
+  "condition_immunities": "poisoned",
   "senses": "blindsight 60 ft., passive Perception 12",
   "languages": "Giant, Sylvan, Trollkin",
   "challenge_rating": "1",
   "cr": 1,
   "actions": [
     {
-      "name": "Claw",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6+2"
+      "name": "Poisoned Claw",
+      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned until the end of its next turn."
     },
     {
-      "name": "Great Sword or Maul",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 9 (2d6 + 2) slashing or bludgeoning damage.",
-      "attack_bonus": 4,
-      "damage_dice": "2d6"
-    },
-    {
-      "name": "Mushroom-Poisoned Javelin",
-      "desc": "Ranged Weapon Attack: +4 to hit, range 30 ft., one target. Hit: 5 (1d6 + 2) piercing damage plus 6 (1d12) poison damage and the target is poisoned until the start of the moss lurker's next turn. A successful DC 11 Constitution save halves the poison damage and prevents poisoning.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6"
-    },
-    {
-      "name": "Dropped Boulder",
-      "desc": "Ranged Weapon Attack: +4 to hit, range 100 ft. (vertically), one target. Hit: 10 (3d6) bludgeoning damage.",
-      "attack_bonus": 4,
-      "damage_dice": "3d6"
+      "name": "Throw Stone",
+      "desc": "Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage. If the target is at least 10 feet below the moss lurker, such as at the base of a cliff where the moss lurker stands, the target must succeed on a DC 12 Strength saving throw or take 1d4 bludgeoning damage for every 10 feet the rock fell before hitting the target, to a maximum of 10d4."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Camouflage",
-      "desc": "A moss lurker has advantage on Dexterity (Stealth) checks to hide in forested or swampy terrain."
-    },
-    {
-      "name": "Love of Heavy Weapons",
-      "desc": "While moss lurkers can use heavy weapons, they have disadvantage while wielding them."
+      "name": "Forest Camouflage",
+      "desc": "A moss lurker has advantage on Dexterity (Stealth) checks made to hide in forested terrain."
     },
     {
       "name": "Keen Hearing and Smell",
@@ -84,16 +64,16 @@
     },
     {
       "name": "Poisoned Gifts",
-      "desc": "A moss lurker can contaminate liquids or food with poison. Someone who consumes the contaminated substance must make a successful DC 11 Constitution saving throw or become poisoned for 1 hour. When the poison is introduced, the moss lurker can choose a poison that also causes the victim to fall unconscious, or to become paralyzed while poisoned in this way. An unconscious creature wakes if it takes damage, or if a creature uses an action to shake it awake."
+      "desc": "A moss lurker can spend 1 minute stirring one of its red claws in a drink or cooked meal, contaminating the food or drink. A creature that eats or drinks the contaminated food or drink must succeed on a DC 12 Constitution saving throw or be poisoned for 1 hour. A creature that fails this saving throw by 5 or more is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake."
     }
   ],
   "spell_list": [],
-  "page_no": 298,
+  "page_no": 278,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_moss-lurker/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_moss-lurker/"
 }

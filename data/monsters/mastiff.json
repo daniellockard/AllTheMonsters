@@ -1,74 +1,69 @@
 {
-  "slug": "mastiff",
-  "desc": "**Mastiffs** are impressive hounds prized by humanoids for their loyalty and keen senses. Mastiffs can be trained as guard dogs, hunting dogs, and war dogs. Halflings and other Small humanoids ride them as mounts.",
+  "slug": "mastiff_bf",
+  "desc": "",
   "name": "Mastiff",
-  "size": "Medium",
+  "size": "medium",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": "Animals",
+  "alignment": "",
   "armor_class": 12,
   "armor_desc": null,
-  "hit_points": 5,
-  "hit_dice": "1d8+1",
+  "hit_points": 9,
+  "hit_dice": "",
   "speed": {
     "walk": 40
   },
-  "strength": 13,
+  "strength": 12,
   "dexterity": 14,
   "constitution": 12,
-  "intelligence": 3,
+  "intelligence": 2,
   "wisdom": 12,
-  "charisma": 7,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": 3,
-  "skills": {
-    "perception": 3
-  },
+  "charisma": 6,
+  "strength_save": 1,
+  "dexterity_save": 2,
+  "constitution_save": 1,
+  "intelligence_save": -4,
+  "wisdom_save": 1,
+  "charisma_save": -2,
+  "perception": 11,
+  "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 13",
-  "languages": "",
+  "senses": "-",
+  "languages": "-",
   "challenge_rating": "1/8",
   "cr": 0.125,
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.",
-      "attack_bonus": 3,
-      "damage_dice": "1d6",
-      "damage_bonus": 1
+      "desc": "_Melee Weapon Attack:_ +4 to hit, reach 5 ft., one target. _Hit:_ 4 (1d4+2) piercing damage. If the target is a creature, it must succeed on a DC 12 STR save or be knocked prone. 364"
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [
+    {
+      "name": "Protect Friend",
+      "desc": "When a friendly Humanoid the mastiff can see is hit by an attack from a creature within 5 feet of the mastiff, the mastiff can make one Bite attack against that attacking creature."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Keen Hearing and Smell",
-      "desc": "The mastiff has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      "name": "Heightened Hearing and Smell",
+      "desc": "The mastiff's Perception is 16 when perceiving by hearing or smell."
     }
   ],
   "spell_list": [],
-  "page_no": 384,
-  "environments": [
-    "Hill",
-    "Forest",
-    "Settlement",
-    "Urban"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_mastiff/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_mastiff/"
 }

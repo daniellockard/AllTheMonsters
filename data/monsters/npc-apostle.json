@@ -1,4 +1,4 @@
-﻿{
+{
   "slug": "npc:-apostle",
   "desc": "",
   "name": "Npc: Apostle",
@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "",
   "group": null,
-  "alignment": "Any Alignment",
+  "alignment": "any alignment",
   "armor_class": 15,
   "armor_desc": "breastplate",
   "hit_points": 117,

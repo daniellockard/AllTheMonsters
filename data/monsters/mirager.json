@@ -1,16 +1,16 @@
 {
-  "slug": "mirager",
-  "desc": "_This lovely lass is clad in diaphanous veils and a revealing skirt, and she shows graceful skill while dancing through the dust._  \n**Humanoid Sand.** In its natural form, a mirager resembles a shifting mass of sand and dust with a vaguely humanoid shape, crumbling away like a sandcastle in the wind.  \n**Enticing Illusion.** A mirage can take on the guise of a lovely man or woman with luminous eyes, delicate features, and seductive garments. Whether male or female, a mirager dresses in veils and flowing robes that accentuate its enticing beauty.  \n**Thirst for Blood.** Whatever its apparent form, a mirager’s existence is one of unnatural and endless thirst. They hunger for flesh and thirst for blood, and they draw especial pleasure from leeching a creature’s fluids in the throes of passion. A victim is drained into a lifeless husk before the mirager feasts on the dehydrated remains.",
+  "slug": "mirager-tob1-2023",
+  "desc": "False",
   "name": "Mirager",
   "size": "Medium",
   "type": "Fey",
-  "subtype": "shapechanger",
-  "group": null,
+  "subtype": "",
+  "group": "null",
   "alignment": "Neutral Evil",
   "armor_class": 13,
   "armor_desc": "",
   "hit_points": 78,
-  "hit_dice": "12d8+24",
+  "hit_dice": "12d8 + 24",
   "speed": {
     "walk": 30
   },
@@ -19,72 +19,75 @@
   "constitution": 14,
   "intelligence": 10,
   "wisdom": 14,
-  "charisma": 20,
+  "charisma": 19,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 4,
+  "perception": 14,
   "skills": {
-    "deception": 7,
-    "perception": 4,
-    "performance": 9
+    "Deception": 6,
+    "Performance": 8,
+    "Perception": 4
   },
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 14",
   "languages": "Common, Sylvan",
   "challenge_rating": "3",
   "cr": 3,
   "actions": [
     {
-      "name": "Multiattack.",
-      "desc": "The mirager makes two slam attacks."
+      "name": "Multiattack",
+      "desc": "The mirager makes two Slam attacks. If both Slam attacks hit a Medium or smaller creature, the target is also grappled (escape DC 13). The mirager can grapple only one creature at a time."
     },
     {
       "name": "Slam",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d6"
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage."
     },
     {
-      "name": "Thirst Kiss",
-      "desc": "The mirager feeds on the body moisture of creatures it lures into kissing it. A creature must be charmed, grappled, or incapacitated to be kissed. A kiss hits automatically, does 21 (6d6) necrotic damage, and fills the mirager with an exultant rush of euphoria that has the same effect as a heroism spell lasting 1 minute. The creature that was kissed doesn't notice that it took damage from the kiss unless it makes a successful DC 16 Wisdom (Perception) check."
+      "name": "Thirsting Kiss",
+      "desc": "Melee Spell Attack: +6 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the mirager, incapacitated, or restrained. Hit: 22 (4d8 + 4) necrotic damage, and the mirager gains temporary hp equal to half that amount."
     },
     {
-      "name": "Captivating Dance (Recharges after a Short or Long Rest, Humanoid Form Only)",
-      "desc": "The mirager performs a sinuously swaying dance. Humanoids within 20 feet that view this dance must make a successful DC 16 Wisdom saving throw or be stunned for 1d4 rounds and charmed by the mirager for 1 minute. Humanoids of all races and genders have disadvantage on this saving throw. A creature that saves successfully is immune to this mirager's dance for the next 24 hours."
+      "name": "Blow Kiss",
+      "desc": "The mirager blows a kiss at a creature charmed by it. The target must make a DC 14 Charisma saving throw. On a failure, a creature takes 17 (5d6) psychic damage and is stunned until the end of its next turn. On a success, a creature takes half the damage and the charmed condition immediately ends on it."
+    },
+    {
+      "name": "Illusory Appearance",
+      "desc": "The mirager covers itself and anything it is wearing or carrying with a magical illusion that makes it look like another creature of its general size and Humanoid shape. The illusion ends if the mirager takes a bonus action to end it or if the mirager dies."
+    },
+    {
+      "name": "Spellcasting",
+      "desc": "The mirager casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC 14):\n3/day: charm person\n1/day each: hallucinatory terrain (as an action), suggestion"
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Sand Dancer",
+      "desc": "While in sandy terrain, the mirager takes the Dash or Disengage action."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
-      "name": "Shapechanger",
-      "desc": "The mirager can use its action to polymorph into a Small or Medium humanoid, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
-    },
-    {
-      "name": "Innate Spellcasting",
-      "desc": "the mirager's innate spellcasting ability is Charisma (spell save DC 15). It can innately cast the following spells, requiring no material components:\n\n3/day: charm person\n\n1/day each: hallucinatory terrain, suggestion"
-    },
-    {
-      "name": "Enthralling Mirage",
-      "desc": "When the mirager casts hallucinatory terrain, the area appears so lush and inviting that those who view it feel compelled to visit. Any creature that approaches within 120 feet of the terrain must make a DC 15 Wisdom saving throw. Those that fail are affected as by the enthrall spell with the mirager as the caster; they give the mirage their undivided attention, wanting only to explore it, marvel at its beauty, and rest there for an hour. The mirager can choose to have creatures focus their attention on it instead of the hallucinatory terrain. Creatures affected by the enthrall effect automatically fail saving throws to disbelieve the hallucinatory terrain. This effect ends if the hallucinatory terrain is dispelled."
+      "name": "Sensuous Grace",
+      "desc": "The mirager moves with a flowing grace that Humanoids find appealing. If the mirager moves at least 10 feet on its turn, each Humanoid within 30 feet of it that can see it must succeed on a DC 14 Charisma saving throw or be charmed until the end of its next turn."
     }
   ],
   "spell_list": [],
-  "page_no": 291,
+  "page_no": 271,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_mirager/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_mirager/"
 }

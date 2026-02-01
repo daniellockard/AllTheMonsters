@@ -6,7 +6,7 @@
   "type": "Fiend",
   "subtype": "demon",
   "group": null,
-  "alignment": "Chaotic Evil",
+  "alignment": "chaotic evil",
   "armor_class": 16,
   "armor_desc": "natural armor",
   "hit_points": 77,

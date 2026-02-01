@@ -1,75 +1,73 @@
 {
-  "slug": "violet-fungus",
+  "slug": "violet_fungus_bf",
   "desc": "",
   "name": "Violet Fungus",
-  "size": "Medium",
+  "size": "medium",
   "type": "Plant",
   "subtype": "",
   "group": "Fungi",
-  "alignment": "Unaligned",
-  "armor_class": 5,
+  "alignment": "",
+  "armor_class": 10,
   "armor_desc": null,
-  "hit_points": 18,
-  "hit_dice": "4d8",
+  "hit_points": 14,
+  "hit_dice": "",
   "speed": {
-    "walk": 5
+    "walk": 15
   },
-  "strength": 3,
-  "dexterity": 1,
+  "strength": 2,
+  "dexterity": 10,
   "constitution": 10,
   "intelligence": 1,
-  "wisdom": 3,
+  "wisdom": 2,
   "charisma": 1,
-  "strength_save": null,
-  "dexterity_save": null,
-  "constitution_save": null,
-  "intelligence_save": null,
-  "wisdom_save": null,
-  "charisma_save": null,
-  "perception": null,
+  "strength_save": -4,
+  "dexterity_save": 0,
+  "constitution_save": 0,
+  "intelligence_save": -5,
+  "wisdom_save": -4,
+  "charisma_save": -5,
+  "perception": 6,
   "skills": {},
   "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "blinded, deafened, frightened",
-  "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6",
-  "languages": "",
+  "damage_resistances": "necrotic,Plant Resilience",
+  "damage_immunities": "blinded,deafened,frightened",
+  "condition_immunities": "",
+  "senses": "keensense 30 ft. (blind beyond this radius)",
+  "languages": "-",
   "challenge_rating": "1/4",
   "cr": 0.25,
   "actions": [
     {
-      "name": "Multiattack",
-      "desc": "The fungus makes 1d4 Rotting Touch attacks."
-    },
-    {
       "name": "Rotting Touch",
-      "desc": "Melee Weapon Attack: +2 to hit, reach 10 ft., one creature. Hit: 4 (1d8) necrotic damage.",
-      "attack_bonus": 2,
-      "damage_dice": "1d8"
+      "desc": "_Melee Weapon Attack:_ +2 to hit, reach 10 ft., one creature. _Hit:_ 5 (2d4) necrotic damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [
+    {
+      "name": "Necrotic Spores (8 HP or Fewer)",
+      "desc": "The violet fungus sends out a burst of necrotic-laced spores, rapidly rotting nearby flesh. Each creature within 10 feet of the violet fungus that isn't a Construct must make a DC 10 CON save, taking 5 (2d4) necrotic damage on a failed save, or half as much damage on a successful one."
+    }
+  ],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "False Appearance",
       "desc": "While the violet fungus remains motionless, it is indistinguishable from an ordinary fungus."
+    },
+    {
+      "name": "Plant Resilience",
+      "desc": "The violet fungus is resistant to exhaustion and to the paralyzed, petrified, and unconscious conditions."
     }
   ],
   "spell_list": [],
-  "page_no": 309,
-  "environments": [
-    "Underdark",
-    "Forest",
-    "Swamp",
-    "Caverns"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_violet-fungus/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_violet-fungus/"
 }

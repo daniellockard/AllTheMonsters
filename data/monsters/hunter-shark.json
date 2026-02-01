@@ -1,23 +1,24 @@
 {
-  "slug": "hunter-shark",
-  "desc": "Smaller than a giant shark but larger and fiercer than a reef shark, a **hunter shark** haunts deep waters. It usually hunts alone, but multiple hunter sharks might feed in the same area. A fully grown hunter shark is 15 to 20 feet long.",
+  "slug": "hunter-shark-a5e",
+  "desc": "",
   "name": "Hunter Shark",
   "size": "Large",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": null,
+  "alignment": "",
   "armor_class": 12,
-  "armor_desc": "natural armor",
+  "armor_desc": "",
   "hit_points": 45,
   "hit_dice": "6d10+12",
   "speed": {
+    "walk": 0,
     "swim": 40
   },
   "strength": 18,
-  "dexterity": 13,
-  "constitution": 15,
-  "intelligence": 1,
+  "dexterity": 12,
+  "constitution": 14,
+  "intelligence": 2,
   "wisdom": 10,
   "charisma": 4,
   "strength_save": null,
@@ -26,7 +27,7 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": 2,
+  "perception": null,
   "skills": {
     "perception": 2
   },
@@ -34,17 +35,14 @@
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "darkvision 30 ft., passive Perception 12",
+  "senses": "blindsight 30 ft., passive Perception 12",
   "languages": "",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage.",
-      "attack_bonus": 6,
-      "damage_dice": "2d8",
-      "damage_bonus": 4
+      "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) piercing damage. On a hit  the shark can use a bonus action to make a second bite attack."
     }
   ],
   "bonus_actions": null,
@@ -53,24 +51,17 @@
   "legendary_actions": null,
   "special_abilities": [
     {
-      "name": "Blood Frenzy",
-      "desc": "The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points."
-    },
-    {
       "name": "Water Breathing",
-      "desc": "The shark can breathe only underwater."
+      "desc": "The shark breathes only water."
     }
   ],
   "spell_list": [],
-  "page_no": 382,
-  "environments": [
-    "Underwater",
-    "Water"
-  ],
+  "page_no": 452,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_hunter-shark/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_hunter-shark/"
 }

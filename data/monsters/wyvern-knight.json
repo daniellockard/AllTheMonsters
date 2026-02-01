@@ -6,7 +6,7 @@
   "type": "Humanoid",
   "subtype": "any race",
   "group": null,
-  "alignment": "Lawful Evil",
+  "alignment": "lawful evil",
   "armor_class": 20,
   "armor_desc": "plate, shield",
   "hit_points": 102,

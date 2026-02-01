@@ -1,20 +1,19 @@
 {
-  "slug": "dogmole",
-  "desc": "_This mole-like creature is the size of a large dog, with a thick, barrel-shaped body as heavy as a full-grown dwarf. A ring of tentacles sprouts above a mouth dominated by spade-like incisors. It has no visible ears and only tiny, cataract-filled eyes, but somehow it senses its environment nonetheless._  \n**Domesticated by Dwarves.** Mountain dwarves have domesticated many subterranean creatures, among them a breed of giant talpidae commonly called dogmoles. Energetic and obedient, dogmoles pull ore-trolleys through mines, sniff out toxic gases and polluted waters, and help dig out trapped miners.  \n**Sense Cave-Ins.** Dogmoles are renowned for their ability to detect imminent cave-ins and burrowing monsters, making them welcome companions in the depths. Outside the mines, dogmoles serve as pack animals, guard beasts, and bloodhounds.  \n**Derro Cruelty.** Derro also use dogmoles, but such unfortunate creatures are scarred and brutalized, barely controllable even by their handlers.",
+  "slug": "dogmole-tob1-2023",
+  "desc": "False",
   "name": "Dogmole",
   "size": "Medium",
   "type": "Beast",
   "subtype": "",
-  "group": null,
-  "alignment": "Neutral",
+  "group": "null",
+  "alignment": "Unaligned",
   "armor_class": 14,
   "armor_desc": "natural armor",
-  "hit_points": 71,
-  "hit_dice": "11d8+22",
+  "hit_points": 58,
+  "hit_dice": "9d8 + 18",
   "speed": {
-    "walk": 30,
-    "burrow": 10,
-    "swim": 10
+    "walk": 10,
+    "burrow": 30
   },
   "strength": 14,
   "dexterity": 17,
@@ -28,55 +27,52 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 11,
   "skills": {},
-  "damage_vulnerabilities": "",
-  "damage_resistances": "",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_vulnerabilities": "False",
+  "damage_resistances": "False",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "blindsight 30 ft., passive Perception 11",
-  "languages": "-",
+  "languages": "—",
   "challenge_rating": "1",
   "cr": 1,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The dogmole makes one claw attack and one bite attack."
+      "desc": "The dogmole makes one Bite attack and one Claw attack."
     },
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d6"
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage."
     },
     {
       "name": "Claw",
-      "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 12 (3d6 + 2) slashing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "3d6"
+      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (2d4 + 3) slashing damage."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
-    {
-      "name": "Burrow",
-      "desc": "Dogmoles cannot burrow into solid rock, but they can move through softer material like soil or loose rubble, leaving a usable tunnel 5 feet in diameter."
-    },
+  "bonus_actions": [],
+  "reactions": [
     {
       "name": "Wormkiller Rage",
-      "desc": "Wild dogmole packs are famed for their battles against monsters in the dark caverns of the world. If the dogmole draws blood against vermin, a purple worm, or other underground invertebrates, it gains a +4 boost to its Strength and Constitution, but suffers a -2 penalty to its AC. The wormkiller rage lasts for 3 rounds. It cannot end the rage voluntarily while the creatures that sent it into a rage still lives."
+      "desc": "When the dogmole takes damage from a Small or larger insectoid Beast, such as a giant centipede, or when it deals damage to such a creature, it enters a special rage for 3 rounds. While in this rage, it has advantage on attack rolls and Strength checks and deals an extra 2 (1d4) piercing damage with its Bite attack, but its Armor Class is reduced by 2. The dogmole can't end this rage willingly."
+    }
+  ],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Burrowed Tunnels",
+      "desc": "If the dogmole burrows at half its burrowing speed, it can leave a 5-foot diameter tunnel in its wake."
     }
   ],
   "spell_list": [],
-  "page_no": 120,
+  "page_no": 107,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_dogmole/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_dogmole/"
 }

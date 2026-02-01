@@ -1,14 +1,14 @@
 {
-  "slug": "giant-fire-beetle",
-  "desc": "A **giant fire beetle** is a nocturnal creature that takes its name from a pair of glowing glands that give off light. Miners and adventurers prize these creatures, for a giant fire beetle's glands continue to shed light for 1d6 days after the beetle dies. Giant fire beetles are most commonly found underground and in dark forests.",
+  "slug": "giant-fire-beetle-a5e",
+  "desc": "",
   "name": "Giant Fire Beetle",
   "size": "Small",
   "type": "Beast",
   "subtype": "",
-  "group": "Miscellaneous Creatures",
-  "alignment": "Unaligned",
+  "group": null,
+  "alignment": "",
   "armor_class": 13,
-  "armor_desc": "natural armor",
+  "armor_desc": "",
   "hit_points": 4,
   "hit_dice": "1d6+1",
   "speed": {
@@ -18,8 +18,8 @@
   "dexterity": 10,
   "constitution": 12,
   "intelligence": 1,
-  "wisdom": 7,
-  "charisma": 3,
+  "wisdom": 6,
+  "charisma": 4,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
@@ -39,10 +39,7 @@
   "actions": [
     {
       "name": "Bite",
-      "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 2 (1d6 - 1) slashing damage.",
-      "attack_bonus": 1,
-      "damage_dice": "1d6",
-      "damage_bonus": -1
+      "desc": "Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit: 1 slashing damage."
     }
   ],
   "bonus_actions": null,
@@ -51,20 +48,17 @@
   "legendary_actions": null,
   "special_abilities": [
     {
-      "name": "Illumination",
-      "desc": "The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 ft.."
+      "name": "Fire Glands",
+      "desc": "The beetle sheds bright light in a 10-foot radius and dim light for an additional 10 feet."
     }
   ],
   "spell_list": [],
-  "page_no": 375,
-  "environments": [
-    "Underdark",
-    "Caverns"
-  ],
+  "page_no": 447,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_giant-fire-beetle/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_giant-fire-beetle/"
 }

@@ -1,16 +1,16 @@
 {
-  "slug": "rift-swine",
-  "desc": "_This enormous pig is as large as an ox, and its mouth bristles with mismatched tusks. Its body is a lopsided mass of tumorous flesh that gives way to eyes and vestigial mouths, and long tentacles trail from its sides._  \nFrom time to time, a breach forms in the fabric of the multiverse, and the Material Plane is bathed in the energy of alien dimensions. Living creatures exposed to this incursion can undergo horrible mutations, turning into monstrous mockeries of their former shapes. One example of this phenomenon is the rift swine: once-ordinary pigs transformed into slavering horrors after being bathed in eldritch light.  \n**Destructive Herds.** Rift swine travel in herds of 5-8 (and larger herds are possible). Their effect on an area can be catastrophic—they eat nearly anything, possess a fiendish cunning, and delight in the destruction they cause. A rift swine has difficulty perceiving anything smaller than itself as a threat, leading it to attack most other creatures on sight and fighting until it is destroyed.  \n**Abyssal Meat.** The rumors of vast herds of hundreds of rift swine on strongly chaos-aligned planes, cultivated by the lords of those places, are thankfully unconfirmed.",
+  "slug": "riftswine-tob1-2023",
+  "desc": "False",
   "name": "Rift Swine",
   "size": "Large",
   "type": "Aberration",
   "subtype": "",
-  "group": null,
+  "group": "null",
   "alignment": "Chaotic Neutral",
   "armor_class": 15,
   "armor_desc": "natural armor",
-  "hit_points": 110,
-  "hit_dice": "13d10+39",
+  "hit_points": 127,
+  "hit_dice": "15d10 + 45",
   "speed": {
     "walk": 40
   },
@@ -26,55 +26,55 @@
   "intelligence_save": null,
   "wisdom_save": null,
   "charisma_save": null,
-  "perception": null,
+  "perception": 11,
   "skills": {},
-  "damage_vulnerabilities": "",
+  "damage_vulnerabilities": "False",
   "damage_resistances": "force, poison",
-  "damage_immunities": "",
-  "condition_immunities": "",
+  "damage_immunities": "False",
+  "condition_immunities": "False",
   "senses": "darkvision 60 ft., passive Perception 11",
-  "languages": "-",
+  "languages": "—",
   "challenge_rating": "5",
   "cr": 5,
   "actions": [
     {
       "name": "Multiattack",
-      "desc": "The rift swine makes one tusks attack and two tentacle attacks."
+      "desc": "The rift swine makes one Tusk attack and two Tentacle attacks, or it makes three Warping Bolt attacks."
     },
     {
-      "name": "Tusks",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
-      "attack_bonus": 7,
-      "damage_dice": "2d8"
+      "name": "Tusk",
+      "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage."
     },
     {
       "name": "Tentacle",
-      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. If the target is a creature, it is grappled (escape DC 14). Until this grapple ends, the target is restrained, and the rift swine can't use this tentacle against another target.",
-      "attack_bonus": 7,
-      "damage_dice": "2d6"
-    }
-  ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
-  "special_abilities": [
-    {
-      "name": "360-Degree Vision",
-      "desc": "The rift swine's extra eyes give it advantage on Wisdom (Perception) checks that rely on sight."
+      "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it is grappled (escape DC 14). Until this grapple ends, the target is restrained. The rift swine has two tentacles, each of which can grapple only one target."
     },
     {
-      "name": "Chaos mutations",
-      "desc": "50% of rift swine have additional mutant features. Choose or roll on the table below.\n\n1 - Acid Boils: A creature that hits the rift swine with a melee attack must make a successful DC 12 Dexterity saving throw or take 3 (1d6) acid damage.\n\n2 - Tentacular Tongue: Instead of using its tusks, the rift swine can attack with its tongue: Melee weapon attack: +7 to hit, reach 5 ft., one target. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a creature, it is grappled and restrained as with a tentacle attack (escape DC 14).\n\n3 - Covered in Slime:Increase the rift swine's AC by 1.\n\n4 - Acid Saliva: The rift swine's tusk or tongue attack does an additional 3 (1d6) acid damage.\n\n5 - Poison Spit: Ranged Weapon Attack: +3 to hit, range 15 ft., one target. Hit: 6 (1d12) poison damage.\n\n6 - Roll Twice"
+      "name": "Warping Bolt",
+      "desc": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit: 11 (3d6 + 1) force damage, and the target must succeed on a DC 14 Constitution saving throw or have disadvantage on attack rolls as reality-warping energies temporarily distort its body."
+    }
+  ],
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
+  "special_abilities": [
+    {
+      "name": "Chaos Mutations",
+      "desc": "At the start of each of its turns, the rift swine's body experiences a mutation. Choose an option or roll a d6 to determine the type of mutation. The mutation lasts until the start of the rift swine's next turn."
+    },
+    {
+      "name": "Dozens of Eyes",
+      "desc": "The rift swine has advantage on Wisdom (Perception) checks that rely on sight and on saving throws against being blinded. In addition, if the rift swine isn't blinded, creatures attacking it can't benefit from traits and features that rely on a creature's allies distracting or surrounding the rift swine, such as the Pack Tactics trait or Sneak Attack class feature."
     }
   ],
   "spell_list": [],
-  "page_no": 326,
+  "page_no": 307,
   "environments": [],
-  "img_main": null,
-  "document__slug": "tob",
-  "document__title": "Tome of Beasts",
+  "img_main": "http://api.open5e.com/",
+  "document__slug": "tob-2023",
+  "document__title": "Tome of Beasts 2023",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-for-5th-edition-print/",
-  "v2_converted_path": "/v2/creatures/tob_rift-swine/"
+  "document__url": "https://koboldpress.com/kpstore/product/tome-of-beasts-1-2023-edition/",
+  "v2_converted_path": "/v2/creatures/tob-2023_rift-swine/"
 }

@@ -1,80 +1,86 @@
 {
-  "slug": "bronze-dragon-wyrmling",
+  "slug": "bronze_dragon_wyrmling_bf",
   "desc": "",
   "name": "Bronze Dragon Wyrmling",
-  "size": "Medium",
+  "size": "medium",
   "type": "Dragon",
   "subtype": "",
-  "group": "Bronze Dragon",
-  "alignment": "Lawful Good",
+  "group": "Dragons",
+  "alignment": "",
   "armor_class": 17,
   "armor_desc": "natural armor",
-  "hit_points": 32,
-  "hit_dice": "5d8+10",
+  "hit_points": 51,
+  "hit_dice": "",
   "speed": {
     "walk": 30,
     "fly": 60,
     "swim": 30
   },
-  "strength": 17,
-  "dexterity": 10,
-  "constitution": 15,
+  "strength": 16,
+  "dexterity": 14,
+  "constitution": 18,
   "intelligence": 12,
-  "wisdom": 11,
-  "charisma": 15,
-  "strength_save": null,
+  "wisdom": 14,
+  "charisma": 18,
+  "strength_save": 3,
   "dexterity_save": 2,
   "constitution_save": 4,
-  "intelligence_save": null,
+  "intelligence_save": 1,
   "wisdom_save": 2,
   "charisma_save": 4,
-  "perception": 4,
-  "skills": {
-    "perception": 4,
-    "stealth": 2
-  },
+  "perception": 14,
+  "skills": {},
   "damage_vulnerabilities": "",
   "damage_resistances": "",
   "damage_immunities": "lightning",
   "condition_immunities": "",
-  "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
+  "senses": "darkvision 60 ft., keensense 10 ft.",
   "languages": "Draconic",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
-      "name": "Bite",
-      "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.",
-      "attack_bonus": 5,
-      "damage_dice": "1d10",
-      "damage_bonus": 3
+      "name": "Multiattack",
+      "desc": "The dragon makes one Bite attack and one Claw attack."
     },
     {
-      "name": "Breath Weapons (Recharge 5-6)",
-      "desc": "The dragon uses one of the following breath weapons.\n**Lightning Breath.** The dragon exhales lightning in a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) lightning damage on a failed save, or half as much damage on a successful one.\n**Repulsion Breath.** The dragon exhales repulsion energy in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the dragon.",
-      "attack_bonus": 0,
-      "damage_dice": "3d10"
+      "name": "Bite",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 8 (1d10+3) piercing damage."
+    },
+    {
+      "name": "Claw",
+      "desc": "_Melee Weapon Attack:_ +5 to hit, reach 5 ft., one target. _Hit:_ 6 (1d6+3) slashing damage."
+    },
+    {
+      "name": "Lightning Breath (Recharge 5-6)",
+      "desc": "The dragon exhales lightning in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 12 DEX save, taking 16 (3d10) lightning damage on a failed save, or half as much damage on a successful one."
+    },
+    {
+      "name": "Repulsion Breath (Recharge 6)",
+      "desc": "The dragon exhales repulsion energy in a 15-foot cone. Each creature in that area must succeed on a DC 12 STR save or be pushed up to 5 feet away from the dragon."
     }
   ],
-  "bonus_actions": null,
-  "reactions": null,
-  "legendary_desc": "",
-  "legendary_actions": null,
+  "bonus_actions": [],
+  "reactions": [],
+  "legendary_desc": null,
+  "legendary_actions": [],
   "special_abilities": [
     {
       "name": "Amphibious",
       "desc": "The dragon can breathe air and water."
+    },
+    {
+      "name": "Pounce",
+      "desc": "If the dragon moves at least 15 feet straight toward a creature and then hits it with a Claw attack on the same turn, that target must succeed on a DC 13 STR save or be knocked prone. If the target is prone, the dragon can make one Claw attack against it as a bonus action."
     }
   ],
   "spell_list": [],
-  "page_no": 295,
-  "environments": [
-    "Water"
-  ],
+  "page_no": null,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
-  "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_bronze-dragon-wyrmling/"
+  "document__slug": "blackflag",
+  "document__title": "Black Flag SRD",
+  "document__license_url": "https://paizo.com/orclicense",
+  "document__url": "https://koboldpress.com/black-flag-reference-document/",
+  "v2_converted_path": "/v2/creatures/bfrd_bronze-dragon-wyrmling/"
 }

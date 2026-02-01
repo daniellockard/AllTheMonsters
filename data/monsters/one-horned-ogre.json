@@ -6,7 +6,7 @@
   "type": "Giant",
   "subtype": "",
   "group": null,
-  "alignment": "Any Evil Alignment",
+  "alignment": "any evil alignment",
   "armor_class": 14,
   "armor_desc": "scale mail",
   "hit_points": 93,

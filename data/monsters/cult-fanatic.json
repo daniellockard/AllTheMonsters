@@ -1,30 +1,30 @@
 {
-  "slug": "cult-fanatic",
-  "desc": "**Fanatics** are often part of a cult's leadership, using their charisma and dogma to influence and prey on those of weak will. Most are interested in personal power above all else.",
+  "slug": "cult-fanatic-a5e",
+  "desc": "",
   "name": "Cult Fanatic",
   "size": "Medium",
   "type": "Humanoid",
-  "subtype": "any race",
-  "group": "NPCs",
-  "alignment": "Any Non-Good Alignment",
-  "armor_class": 13,
-  "armor_desc": "leather armor",
-  "hit_points": 22,
-  "hit_dice": "6d8+6",
+  "subtype": "",
+  "group": null,
+  "alignment": "",
+  "armor_class": 12,
+  "armor_desc": "",
+  "hit_points": 39,
+  "hit_dice": "6d8+12",
   "speed": {
     "walk": 30
   },
-  "strength": 11,
+  "strength": 10,
   "dexterity": 14,
-  "constitution": 12,
+  "constitution": 14,
   "intelligence": 10,
-  "wisdom": 13,
+  "wisdom": 14,
   "charisma": 14,
   "strength_save": null,
   "dexterity_save": null,
   "constitution_save": null,
   "intelligence_save": null,
-  "wisdom_save": null,
+  "wisdom_save": 4,
   "charisma_save": null,
   "perception": null,
   "skills": {
@@ -36,21 +36,34 @@
   "damage_resistances": "",
   "damage_immunities": "",
   "condition_immunities": "",
-  "senses": "passive Perception 11",
-  "languages": "any one language (usually Common)",
+  "senses": "passive Perception 12",
+  "languages": "any one",
   "challenge_rating": "2",
   "cr": 2,
   "actions": [
     {
-      "name": "Multiattack",
-      "desc": "The fanatic makes two melee attacks."
+      "name": "Dagger",
+      "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage."
     },
     {
-      "name": "Dagger",
-      "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.",
-      "attack_bonus": 4,
-      "damage_dice": "1d4",
-      "damage_bonus": 2
+      "name": "Sacred Flame (Cantrip; V, S)",
+      "desc": "One creature the cult fanatic can see within 60 feet makes a DC 12 Dexterity saving throw  taking 4 (1d8) radiant damage on a failure. This spell ignores cover."
+    },
+    {
+      "name": "Command (1st-Level; V)",
+      "desc": "One non-undead creature the cult fanatic can see within 60 feet that can hear and understand them makes a DC 12 Wisdom saving throw. On a failure  the target uses its next turn to grovel (falling prone and then ending its turn)."
+    },
+    {
+      "name": "Inflict Wounds (1st-Level; V, S)",
+      "desc": "Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 16 (3d10) necrotic damage."
+    },
+    {
+      "name": "Blindness/Deafness (2nd-Level; V)",
+      "desc": "One creature the cult fanatic can see within 30 feet makes a DC 12 Constitution saving throw. On a failure  the creature is blinded or deafened (cult fanatics choice) for 1 minute. The creature repeats the saving throw at the end of each of its turns  ending the effect on a success."
+    },
+    {
+      "name": "Hold Person (2nd-Level; V, S, M, Concentration)",
+      "desc": "One humanoid the cult fanatic can see within 60 feet makes a DC 12 Wisdom saving throw. On a failure  the target is paralyzed for 1 minute. The target repeats the saving throw at the end of each of its turns  ending the effect on a success."
     }
   ],
   "bonus_actions": null,
@@ -59,40 +72,21 @@
   "legendary_actions": null,
   "special_abilities": [
     {
-      "name": "Dark Devotion",
-      "desc": "The fanatic has advantage on saving throws against being charmed or frightened."
+      "name": "Fanatic",
+      "desc": "The cult fanatic has advantage on saving throws against being charmed or frightened."
     },
     {
       "name": "Spellcasting",
-      "desc": "The fanatic is a 4th-level spellcaster. Its spell casting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared:\n\nCantrips (at will): light, sacred flame, thaumaturgy\n* 1st level (4 slots): command, inflict wounds, shield of faith\n* 2nd level (3 slots): hold person, spiritual weapon"
+      "desc": "The cult fanatic is a 4th level spellcaster. Their spellcasting ability is Wisdom (spell save DC 12\n +4 to hit with spell attacks). They have the following cleric spells prepared:\n Cantrips (at will): light\n sacred flame\n thaumaturgy\n 1st-level (4 slots): ceremony\n command\n detect evil and good\n inflict wounds\n 2nd-level (3 slots): blindness/deafness\n hold person"
     }
   ],
-  "spell_list": [
-    "https://api.open5e.com/v2/spells/light/",
-    "https://api.open5e.com/v2/spells/sacred-flame/",
-    "https://api.open5e.com/v2/spells/thaumaturgy/",
-    "https://api.open5e.com/v2/spells/command/",
-    "https://api.open5e.com/v2/spells/inflict-wounds/",
-    "https://api.open5e.com/v2/spells/shield-of-faith/",
-    "https://api.open5e.com/v2/spells/hold-person/",
-    "https://api.open5e.com/v2/spells/spiritual-weapon/"
-  ],
-  "page_no": 398,
-  "environments": [
-    "Temple",
-    "Desert",
-    "Urban",
-    "Sewer",
-    "Forest",
-    "Ruin",
-    "Jungle",
-    "Hills",
-    "Settlement"
-  ],
+  "spell_list": [],
+  "page_no": 472,
+  "environments": [],
   "img_main": null,
-  "document__slug": "wotc-srd",
-  "document__title": "5e Core Rules",
+  "document__slug": "menagerie",
+  "document__title": "Level Up Advanced 5e Monstrous Menagerie",
   "document__license_url": "http://open5e.com/legal",
-  "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-  "v2_converted_path": "/v2/creatures/srd_cult-fanatic/"
+  "document__url": "https://www.levelup5e.com",
+  "v2_converted_path": "/v2/creatures/a5e-mm_cult-fanatic/"
 }
